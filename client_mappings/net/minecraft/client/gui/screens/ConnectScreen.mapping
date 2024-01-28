@@ -1,2 +1,0 @@
-CLASS vx net/minecraft/client/gui/screens/ConnectScreen
-	FIELD i aborted Z

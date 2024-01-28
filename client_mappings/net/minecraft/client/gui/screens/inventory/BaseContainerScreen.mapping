@@ -1,3 +1,0 @@
-CLASS id net/minecraft/client/gui/screens/inventory/BaseContainerScreen
-	METHOD a renderBg (F)V
-	METHOD k renderLables ()V

@@ -1,3 +1,0 @@
-CLASS gc net/minecraft/client/gui/screens/ChatScreen
-	FIELD a msg Ljava/lang/String;
-	FIELD i frame I

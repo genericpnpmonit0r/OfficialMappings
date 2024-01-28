@@ -1,3 +1,0 @@
-CLASS yn net/minecraft/client/renderer/culling/Culler
-	METHOD a prepare (DDD)V
-	METHOD a isVisible (Leq;)Z

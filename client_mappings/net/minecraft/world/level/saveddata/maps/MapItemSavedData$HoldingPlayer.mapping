@@ -1,3 +1,0 @@
-CLASS si net/minecraft/world/level/saveddata/maps/MapItemSavedData$HoldingPlayer
-	FIELD a player Lgs;
-	FIELD d saveData Liu;

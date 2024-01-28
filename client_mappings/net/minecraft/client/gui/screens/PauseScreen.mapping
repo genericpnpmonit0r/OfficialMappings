@@ -1,2 +1,0 @@
-CLASS oz net/minecraft/client/gui/screens/PauseScreen
-	FIELD i ticks I

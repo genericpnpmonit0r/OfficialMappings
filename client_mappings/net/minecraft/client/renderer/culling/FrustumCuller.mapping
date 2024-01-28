@@ -1,2 +1,0 @@
-CLASS sr net/minecraft/client/renderer/culling/FrustumCuller
-	METHOD a cubeInFrustum (DDDDDD)Z

@@ -1,4 +1,0 @@
-CLASS ii net/minecraft/world/entity/LivingMob
-	FIELD e holdGround Z
-	METHOD a checkHurtTarget (Lsn;F)V
-		ARG 1 target

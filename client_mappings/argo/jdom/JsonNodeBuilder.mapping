@@ -1,2 +1,0 @@
-CLASS lb argo/jdom/JsonNodeBuilder
-	METHOD b build ()Lgu;

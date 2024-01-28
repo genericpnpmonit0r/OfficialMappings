@@ -1,3 +1,0 @@
-CLASS dc net/minecraft/client/player/LocalPlayer
-	FIELD a input Luo;
-	FIELD b minecraft Lnet/minecraft/client/Minecraft;

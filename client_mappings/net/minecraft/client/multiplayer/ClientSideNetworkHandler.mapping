@@ -1,3 +1,0 @@
-CLASS nb net/minecraft/client/multiplayer/ClientSideNetworkHandler
-	FIELD f minecraft Lnet/minecraft/client/Minecraft;
-	FIELD g level Lmm;

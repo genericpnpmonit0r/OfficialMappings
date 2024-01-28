@@ -1,3 +1,0 @@
-CLASS lr net/minecraft/client/player/KeyboardInput
-	FIELD f keys [Z
-	FIELD g options Lkv;

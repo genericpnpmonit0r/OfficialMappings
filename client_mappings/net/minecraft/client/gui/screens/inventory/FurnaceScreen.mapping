@@ -1,2 +1,0 @@
-CLASS ov net/minecraft/client/gui/screens/inventory/FurnaceScreen
-	FIELD l furnace Lsk;
