@@ -1,0 +1,21 @@
+CLASS net/minecraft/a/a/c/d net/minecraft/world/level/chunk/ChunkCache
+	COMMENT i finally figured out this was ChunkCache from 0.1.0-1 debug symbols...
+	FIELD a empty Lnet/minecraft/a/a/c/e;
+	FIELD b source Lnet/minecraft/a/a/c/a;
+	FIELD c storage Lnet/minecraft/a/a/c/a/b;
+	FIELD d cache [Lnet/minecraft/a/a/c/e;
+	FIELD e level Lnet/minecraft/a/a/h;
+	FIELD f x I
+	FIELD g z I
+	FIELD h cached Lnet/minecraft/a/a/c/e;
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/a/c/a/b;Lnet/minecraft/a/a/c/a;)V
+		ARG 1 level
+		ARG 2 storage
+		ARG 3 source
+	METHOD a saveEntities (Lnet/minecraft/a/a/c/e;)V
+		ARG 1 chunk
+	METHOD b save (Lnet/minecraft/a/a/c/e;)V
+		ARG 1 chunk
+	METHOD c load (II)Lnet/minecraft/a/a/c/e;
+		ARG 1 x
+		ARG 2 z

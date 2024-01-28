@@ -1,0 +1,17 @@
+CLASS net/minecraft/a/a/c net/minecraft/world/level/TickNextTickData
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d id I
+	FIELD e time J
+	FIELD f C J
+	FIELD g count J
+	METHOD <init> (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 t
+	METHOD a setTime (J)Lnet/minecraft/a/a/c;
+		ARG 1 time
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other

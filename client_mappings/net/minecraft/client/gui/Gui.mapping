@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/c/m net/minecraft/client/gui/Gui
+	COMMENT i have no idea why notch called the ingame HUD just Gui
+	FIELD b guiMessages Ljava/util/List;
+	FIELD d minecraft Lnet/minecraft/client/f;
+	FIELD e tickCount I
+	METHOD a tick ()V
+	METHOD a (F)V
+		ARG 18 free
+		ARG 19 allocated

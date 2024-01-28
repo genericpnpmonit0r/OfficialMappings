@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/j net/minecraft/client/KeyMapping
+	FIELD a desc Ljava/lang/String;
+	FIELD b key I
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 desc
+		ARG 2 key

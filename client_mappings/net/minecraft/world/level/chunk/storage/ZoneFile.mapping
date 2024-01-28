@@ -1,0 +1,18 @@
+CLASS net/minecraft/a/a/c/a/d net/minecraft/world/level/chunk/storage/ZoneFile
+	COMMENT i give up file io is pain to map...
+	FIELD a lastUpdate J
+	FIELD b offset Ljava/lang/Long;
+	FIELD c entityFile Lnet/minecraft/a/a/c/a/a;
+	FIELD d buffer [S
+	FIELD e header S
+	FIELD f channel Ljava/nio/channels/FileChannel;
+	METHOD <init> (Ljava/lang/Long;Ljava/io/File;Ljava/io/File;)V
+		ARG 1 offs
+		ARG 2 zoneFile
+		ARG 3 entityFile
+		ARG 7 bb
+	METHOD a close ()V
+	METHOD a getZone (I)Lnet/minecraft/a/a/c/a/f;
+		ARG 1 pos
+	METHOD b hasZone (I)Z
+		ARG 1 pos

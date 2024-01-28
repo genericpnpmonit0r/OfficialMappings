@@ -1,0 +1,12 @@
+CLASS net/minecraft/client/b/g net/minecraft/client/model/SpiderModel
+	FIELD a head Lnet/minecraft/client/b/d;
+	FIELD b body0 Lnet/minecraft/client/b/d;
+	FIELD c body1 Lnet/minecraft/client/b/d;
+	FIELD d leg0 Lnet/minecraft/client/b/d;
+	FIELD e leg1 Lnet/minecraft/client/b/d;
+	FIELD f leg2 Lnet/minecraft/client/b/d;
+	FIELD g leg3 Lnet/minecraft/client/b/d;
+	FIELD h leg4 Lnet/minecraft/client/b/d;
+	FIELD i leg5 Lnet/minecraft/client/b/d;
+	FIELD j leg6 Lnet/minecraft/client/b/d;
+	FIELD k leg7 Lnet/minecraft/client/b/d;

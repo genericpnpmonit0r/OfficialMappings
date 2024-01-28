@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/c/a/g net/minecraft/world/level/chunk/storage/g
+	FIELD a storage Lnet/minecraft/a/a/c/a/b;
+	FIELD b storage2 Lnet/minecraft/a/a/c/a/b;

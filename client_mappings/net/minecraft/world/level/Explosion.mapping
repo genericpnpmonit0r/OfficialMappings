@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/a/d net/minecraft/world/level/Explosion
+	COMMENT all of the code from here got "inlined" into Level.explode()

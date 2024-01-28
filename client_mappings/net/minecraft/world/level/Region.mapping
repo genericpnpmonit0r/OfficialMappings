@@ -1,0 +1,17 @@
+CLASS net/minecraft/a/a/g net/minecraft/world/level/Region
+	FIELD a x I
+	FIELD b z I
+	FIELD c chunks [[Lnet/minecraft/a/a/c/e;
+	FIELD d level Lnet/minecraft/a/a/h;
+	METHOD <init> (Lnet/minecraft/a/a/h;IIII)V
+		ARG 1 level
+		ARG 2 x0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 z1
+		ARG 8 xx
+		ARG 9 zz
+	METHOD a getRawBrightness (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

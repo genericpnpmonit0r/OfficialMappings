@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/c/j net/minecraft/client/gui/SelectWorldScreen
+	FIELD g parent Lnet/minecraft/client/c/i;
+	METHOD <init> (Lnet/minecraft/client/c/i;)V
+		ARG 1 parent
+	METHOD a isIndexValid (I)V
+	METHOD b getUniqueLevelName (I)Ljava/lang/String;
+	METHOD e_ setupPositions ()V

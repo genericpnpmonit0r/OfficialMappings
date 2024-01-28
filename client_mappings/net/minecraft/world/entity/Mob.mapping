@@ -1,0 +1,37 @@
+CLASS net/minecraft/a/c/f net/minecraft/world/entity/Mob
+	FIELD U yRotA F
+	FIELD X invulnerableDuration I
+	FIELD Y yBodyRot F
+	FIELD Z yBodyRot0 F
+	FIELD a run F
+	FIELD aa textureName Ljava/lang/String;
+	FIELD ab health I
+	FIELD ac lastHealth I
+	FIELD ad hurtTime I
+	FIELD ae hurtDuration I
+	FIELD af hurtDir F
+	FIELD ag deathTime I
+	FIELD ah attackTime I
+	FIELD ai oTilt F
+	FIELD aj tilt F
+	FIELD an noActionTime I
+	FIELD ao xxa F
+	FIELD ap yya F
+	FIELD aq jumping Z
+	FIELD b animStep F
+	METHOD a (FFF)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a heal (I)V
+		ARG 1 amount
+	METHOD b getDeathLoot ()I
+	METHOD d updateAi ()V
+	METHOD e aiStep ()V
+	METHOD e die (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity
+		ARG 4 deathLoot
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h getDeathSound ()Ljava/lang/String;
+	METHOD v onLadder ()Z

@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/a/f net/minecraft/world/level/LightUpdate
+	FIELD a layer Lnet/minecraft/a/a/e;
+	FIELD b x0 I
+	FIELD c y0 I
+	FIELD d z0 I
+	FIELD e x1 I
+	FIELD f y1 I
+	FIELD g z1 I
+	METHOD <init> (Lnet/minecraft/a/a/e;IIIIII)V
+		ARG 1 layer
+		ARG 2 x0
+		ARG 3 y0
+		ARG 4 z0
+		ARG 5 x1
+		ARG 6 y1
+		ARG 7 z1

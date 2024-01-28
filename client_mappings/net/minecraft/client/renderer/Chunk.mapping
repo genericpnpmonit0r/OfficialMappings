@@ -1,0 +1,36 @@
+CLASS net/minecraft/client/a/h net/minecraft/client/renderer/Chunk
+	FIELD A z0 I
+	FIELD B aabb Lnet/minecraft/a/d/b;
+	FIELD a updates I
+	FIELD e isInFrustum Z
+	FIELD f skipRenderPass [Z
+	FIELD g dirty Z
+	FIELD m level Lnet/minecraft/a/a/h;
+	FIELD n lists I
+	FIELD o t Lnet/minecraft/client/a/d;
+	FIELD s x1 I
+	FIELD t y1 I
+	FIELD u z1 I
+	FIELD y x0 I
+	FIELD z y0 I
+	METHOD <init> (Lnet/minecraft/a/a/h;IIIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 6 lists
+	METHOD a rebuild ()Z
+	METHOD a setPos (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 bb
+		ARG 5 tess
+	METHOD a compare (Lnet/minecraft/a/c/b;)F
+		ARG 1 player
+		ARG 4 z
+	METHOD a cull (Lnet/minecraft/client/a/b/c;)V
+		ARG 1 culler
+	METHOD b clear ()V
+	METHOD e setDirty ()V
+	METHOD f reset ()V

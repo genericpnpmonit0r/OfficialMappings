@@ -1,0 +1,24 @@
+CLASS net/minecraft/a/a/d/a/c net/minecraft/world/level/levelgen/noise/PerlinNoise
+	FIELD a noiseLevels [Lnet/minecraft/a/a/d/a/a;
+	FIELD b levels I
+	METHOD <init> (Ljava/util/Random;I)V
+		ARG 1 random
+		ARG 2 levels
+	METHOD a getValue (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a getValue (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getRegion ([DIIIIIIDDD)[D
+		ARG 1 heightMap
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 width
+		ARG 6 height
+		ARG 7 depth
+		ARG 8 xScale
+		ARG 10 yScale
+		ARG 12 zScale

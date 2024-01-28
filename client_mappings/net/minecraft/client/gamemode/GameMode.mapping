@@ -1,0 +1,28 @@
+CLASS net/minecraft/client/d/b net/minecraft/client/gamemode/GameMode
+	FIELD a minecraft Lnet/minecraft/client/f;
+	FIELD b creative Z
+	METHOD <init> (Lnet/minecraft/client/f;)V
+		ARG 1 mc
+	METHOD a stopDestroyBlock ()V
+	METHOD a render (F)V
+		ARG 1 time
+	METHOD a startDestroyBlock (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a continueDestroyBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a initPlayer (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD b getPickRange ()F
+	METHOD b destroyBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b adjustPlayer (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD c tick ()V
+	METHOD d canHurtPlayer ()Z

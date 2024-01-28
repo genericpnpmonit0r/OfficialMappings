@@ -1,0 +1,17 @@
+CLASS net/minecraft/client/a/a/f net/minecraft/client/renderer/entity/EntityRenderer
+	FIELD a dispatcher Lnet/minecraft/client/a/a/j;
+	METHOD a bindTexture (Ljava/lang/String;)V
+		ARG 1 textureName
+	METHOD a (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 2 textureName
+	METHOD a (Lnet/minecraft/a/c/b;DDDF)V
+		ARG 1 entity
+		ARG 8 time
+	METHOD a render (Lnet/minecraft/a/c/b;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 9 time
+		ARG 10 bb
+		ARG 11 t

@@ -1,0 +1,10 @@
+CLASS net/minecraft/a/b/a/f net/minecraft/world/item/recipe/Recipes
+	FIELD a instance Lnet/minecraft/a/b/a/f;
+	FIELD b recipes Ljava/util/List;
+	METHOD a getRecipes ()Lnet/minecraft/a/b/a/f;
+	METHOD a addShapedRecipe (Lnet/minecraft/a/b/o;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+		ARG 10 c
+	METHOD a getResult ([I)Lnet/minecraft/a/b/o;
+		ARG 1 pattern

@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/c/a/f net/minecraft/client/gui/inventory/InventoryScreen
+	FIELD m xMouse F
+	FIELD n yMouse F
+	METHOD <init> (Lnet/minecraft/a/b;)V
+		ARG 1 inventory

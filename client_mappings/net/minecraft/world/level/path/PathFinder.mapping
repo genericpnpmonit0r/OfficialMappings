@@ -1,0 +1,26 @@
+CLASS net/minecraft/a/a/a/c net/minecraft/world/level/path/PathFinder
+	FIELD a level Lnet/minecraft/a/a/j;
+	FIELD b heap Lnet/minecraft/a/a/a/d;
+	FIELD c nodeMap Ljava/util/Map;
+	FIELD d nodes [Lnet/minecraft/a/a/a/a;
+	METHOD <init> (Lnet/minecraft/a/a/j;)V
+		ARG 1 level
+	METHOD a getNode (III)Lnet/minecraft/a/a/a/a;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a (IIILnet/minecraft/a/a/a/a;)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 node
+	METHOD a reconstruct_path (Lnet/minecraft/a/a/a/a;)Lnet/minecraft/a/a/a/b;
+		ARG 0 node
+	METHOD a findPath (Lnet/minecraft/a/c/b;DDDF)Lnet/minecraft/a/a/a/b;
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a findPath (Lnet/minecraft/a/c/b;IIIF)Lnet/minecraft/a/a/a/b;
+	METHOD a getNode (Lnet/minecraft/a/c/b;IIILnet/minecraft/a/a/a/a;I)Lnet/minecraft/a/a/a/a;
+	METHOD a findPath (Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/b;F)Lnet/minecraft/a/a/a/b;

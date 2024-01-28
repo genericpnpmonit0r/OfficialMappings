@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/c/l net/minecraft/client/gui/GuiComponent
+	METHOD a drawRect (IIIIII)V
+	METHOD a drawCenteredString (Lnet/minecraft/client/c/k;Ljava/lang/String;III)V
+	METHOD b drawString (IIIIII)V
+	METHOD b drawString (Lnet/minecraft/client/c/k;Ljava/lang/String;III)V

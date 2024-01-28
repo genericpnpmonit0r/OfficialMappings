@@ -1,0 +1,27 @@
+CLASS net/minecraft/a/a/j net/minecraft/world/level/LevelSource
+	METHOD a getTile (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b getTileEntity (III)Lnet/minecraft/a/a/b/a/a;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d getData (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e getMaterial (III)Lnet/minecraft/a/a/e/c;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 t
+	METHOD f isSolidTile (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 t

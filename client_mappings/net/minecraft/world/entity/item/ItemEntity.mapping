@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/c/c/b net/minecraft/world/entity/item/ItemEntity
+	COMMENT Not sure if this should be named ItemEntity or just Item, classic and entity factory just calls it Item
+	FIELD S oAge I
+	FIELD U tickCount I
+	FIELD V health I
+	FIELD a resource Lnet/minecraft/a/b/o;
+	FIELD b age I
+	METHOD <init> (Lnet/minecraft/a/a/h;DDDLnet/minecraft/a/b/o;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 resource
+	METHOD b (I)V
+		COMMENT Parameter is passed in as 1 always. ProGuard decided to remove the
+		COMMENT usage of the parameter but keep the value of the parameter the same.

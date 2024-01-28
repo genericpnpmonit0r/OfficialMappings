@@ -1,0 +1,88 @@
+CLASS net/minecraft/a/a/c/e net/minecraft/world/level/chunk/LevelChunk
+	FIELD a touchedSky Z
+	FIELD b blocks [B
+	FIELD d level Lnet/minecraft/a/a/h;
+	FIELD e data Lnet/minecraft/a/a/c/c;
+	FIELD f skyLight Lnet/minecraft/a/a/c/c;
+	FIELD g blockLight Lnet/minecraft/a/a/c/c;
+	FIELD h heightMap [B
+	FIELD i x I
+	FIELD j z I
+	FIELD k tileEntities Ljava/util/Map;
+	FIELD l entities [Ljava/util/List;
+	FIELD m terrainPopulated Z
+	FIELD p empty Z
+		COMMENT this had a getter, isEmpty()
+	METHOD <init> (Lnet/minecraft/a/a/h;II)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 z
+		ARG 4 i
+	METHOD <init> (Lnet/minecraft/a/a/h;[BII)V
+		ARG 1 level
+		ARG 2 blocks
+		ARG 3 x
+		ARG 4 z
+	METHOD a isAt (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a getTile (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD a setTileEntity (IIILnet/minecraft/a/a/b/a/a;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 te
+	METHOD a addTileEntity (Lnet/minecraft/a/a/b/a/a;)V
+		ARG 1 te
+	METHOD a addEntity (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity
+	METHOD a removeEntity (Lnet/minecraft/a/c/b;I)V
+		ARG 1 entity
+		ARG 2 i
+	METHOD a getEntities (Lnet/minecraft/a/c/b;Lnet/minecraft/a/d/b;Ljava/util/List;)V
+		ARG 1 entity
+		ARG 2 box
+		ARG 3 entities
+	METHOD b getHeightmap (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD b getData (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b (IIII)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD c isSkyLit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d getTileEntity (III)Lnet/minecraft/a/a/b/a/a;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e (III)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y
+	METHOD f (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

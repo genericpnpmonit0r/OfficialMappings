@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/c/a net/minecraft/world/entity/Painting
+	FIELD T tileX I
+	FIELD U tileY I
+	FIELD V tileZ I
+	FIELD a dir I
+	FIELD b motive Lnet/minecraft/a/c/d;
+	METHOD <init> (Lnet/minecraft/a/a/h;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+		ARG 7 motives
+		ARG 8 m
+	METHOD a setDir (I)V
+		ARG 1 dir

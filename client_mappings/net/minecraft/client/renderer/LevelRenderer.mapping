@@ -1,0 +1,54 @@
+CLASS net/minecraft/client/a/b net/minecraft/client/renderer/LevelRenderer
+	FIELD L lX D
+	FIELD M lY D
+	FIELD N lZ D
+	FIELD c level Lnet/minecraft/a/a/h;
+	FIELD d textures Lnet/minecraft/client/a/l;
+	FIELD e allDirtyChunks Ljava/util/List;
+	FIELD f sortedChunks [Lnet/minecraft/client/a/h;
+	FIELD g chunks [Lnet/minecraft/client/a/h;
+	FIELD h xChunks I
+	FIELD i yChunks I
+	FIELD j zChunks I
+	FIELD l minecraft Lnet/minecraft/client/f;
+	FIELD o arbOcclusion Z
+	METHOD <init> (Lnet/minecraft/client/f;Lnet/minecraft/client/a/l;)V
+		ARG 1 minecraft
+		ARG 2 textures
+		ARG 4 t
+	METHOD a (F)V
+		ARG 1 time
+	METHOD a setLevel (Lnet/minecraft/a/a/h;)V
+		ARG 1 level
+	METHOD a (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD a (Lnet/minecraft/a/c/e/a;ID)I
+		ARG 1 player
+		ARG 3 time
+	METHOD a renderHitOutline (Lnet/minecraft/a/c/e/a;Lnet/minecraft/a/d/c;IF)V
+		ARG 1 player
+		ARG 2 hr
+		ARG 3 tile
+		ARG 4 a
+		ARG 12 bb
+		ARG 13 t
+	METHOD a (Lnet/minecraft/a/c/e/a;Lnet/minecraft/a/d/c;ILnet/minecraft/a/b/o;F)V
+		ARG 1 player
+	METHOD a renderEntities (Lnet/minecraft/a/d/a;Lnet/minecraft/client/a/b/c;F)V
+		ARG 1 pos
+		ARG 2 culler
+		ARG 3 a
+	METHOD a cull (Lnet/minecraft/client/a/b/c;)V
+		ARG 1 culler
+	METHOD b (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b setDirty (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+		ARG 13 i

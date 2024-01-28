@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/c/a/a net/minecraft/client/gui/inventory/CraftingContainer
+	FIELD a items [Lnet/minecraft/a/b/o;
+	FIELD b size I
+	FIELD c parent Lnet/minecraft/client/c/a/j;
+	METHOD <init> (Lnet/minecraft/client/c/a/j;II)V
+		ARG 1 parent
+		ARG 2 w
+		ARG 3 d

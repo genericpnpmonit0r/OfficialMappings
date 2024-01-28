@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/c/n net/minecraft/client/gui/ControlsScreen
+	FIELD g parent Lnet/minecraft/client/c/i;
+	METHOD <init> (Lnet/minecraft/client/c/i;Lnet/minecraft/client/u;)V
+		ARG 1 parent

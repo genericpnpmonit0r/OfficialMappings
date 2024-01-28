@@ -1,0 +1,42 @@
+CLASS net/minecraft/client/b/d net/minecraft/client/model/Cube
+	FIELD a y F
+	FIELD b xRot F
+	FIELD c yRot F
+	FIELD d zRot F
+	FIELD e mirror Z
+	FIELD f showModel Z
+	FIELD g vertices [Lnet/minecraft/client/b/l;
+	FIELD h polygons [Lnet/minecraft/client/b/k;
+	FIELD i xTexOffs I
+	FIELD j yTexOffs I
+	FIELD k x F
+	FIELD l z F
+	FIELD m compiled Z
+	FIELD n list I
+	FIELD o isHidden Z
+	METHOD <init> (II)V
+		ARG 1 xTexOffs
+		ARG 2 yTexOffs
+	METHOD a render (F)V
+		COMMENT the compile() method got inlined to render(float) (proguard)
+		ARG 1 a
+	METHOD a setPos (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a addBox (FFFIIIF)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 w
+		ARG 5 h
+		ARG 6 d
+		ARG 7 a
+		ARG 15 l3
+		ARG 16 i
+		ARG 18 l1
+		ARG 19 p
+		ARG 21 u3
+		ARG 22 v
+		ARG 23 i
+		ARG 25 u0

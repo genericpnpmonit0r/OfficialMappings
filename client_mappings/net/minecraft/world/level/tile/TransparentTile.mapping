@@ -1,0 +1,7 @@
+CLASS net/minecraft/a/a/b/ai net/minecraft/world/level/tile/TransparentTile
+	FIELD a shouldRender Z
+	METHOD <init> (IILnet/minecraft/a/a/e/c;Z)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 mat
+		ARG 4 shouldRender

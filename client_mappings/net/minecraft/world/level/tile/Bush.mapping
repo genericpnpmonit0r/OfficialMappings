@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/a/b/ah net/minecraft/world/level/tile/Bush
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD b mayPlaceOn (I)Z
+		ARG 1 id
+	METHOD g canSurvive (Lnet/minecraft/a/a/h;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h checkAlive (Lnet/minecraft/a/a/h;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

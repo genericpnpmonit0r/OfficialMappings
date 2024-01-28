@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/b/e net/minecraft/client/model/SignModel
+	FIELD a sign Lnet/minecraft/client/b/d;
+	FIELD b stick Lnet/minecraft/client/b/d;

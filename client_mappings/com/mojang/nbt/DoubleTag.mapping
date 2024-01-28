@@ -1,0 +1,4 @@
+CLASS com/a/a/g com/mojang/nbt/DoubleTag
+	FIELD a data D
+	METHOD <init> (D)V
+		ARG 1 data

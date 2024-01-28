@@ -1,0 +1,18 @@
+CLASS a/a util/Mth
+	FIELD a SIN [F
+	METHOD a sqrt (D)F
+	METHOD a absMax (DD)D
+		ARG 0 min
+		ARG 2 max
+	METHOD a sin (F)F
+		ARG 0 radians
+	METHOD a intFloorDiv (II)I
+		COMMENT divisor got inlined to 16 by proguard
+		ARG 0 dividend
+		ARG 1 divisor
+	METHOD b floor (D)I
+	METHOD b cos (F)F
+		ARG 0 radians
+	METHOD c sqrt (F)F
+	METHOD d floor (F)I
+	METHOD e abs (F)F

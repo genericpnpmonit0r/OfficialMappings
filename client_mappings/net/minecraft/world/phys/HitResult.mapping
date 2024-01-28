@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/d/c net/minecraft/world/phys/HitResult
+	FIELD a type I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e f I
+	FIELD f v Lnet/minecraft/a/d/a;
+	FIELD g entity Lnet/minecraft/a/c/b;
+	METHOD <init> (IIIILnet/minecraft/a/d/a;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+		ARG 5 v
+	METHOD <init> (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity

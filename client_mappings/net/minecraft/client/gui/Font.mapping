@@ -1,0 +1,29 @@
+CLASS net/minecraft/client/c/k net/minecraft/client/gui/Font
+	FIELD a charWidths [I
+	FIELD b fontTexture I
+	FIELD c list I
+	FIELD d lists Ljava/nio/IntBuffer;
+	METHOD <init> (Lnet/minecraft/client/u;Ljava/lang/String;Lnet/minecraft/client/a/l;)V
+		ARG 1 options
+		ARG 2 name
+		ARG 3 textures
+	METHOD a width (Ljava/lang/String;)I
+		ARG 1 str
+		ARG 4 chrs
+	METHOD a drawShadow (Ljava/lang/String;III)V
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+	METHOD a draw (Ljava/lang/String;IIIZ)V
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color
+		ARG 5 darken
+		ARG 8 c
+	METHOD b draw (Ljava/lang/String;III)V
+		ARG 1 str
+		ARG 2 x
+		ARG 3 y
+		ARG 4 color

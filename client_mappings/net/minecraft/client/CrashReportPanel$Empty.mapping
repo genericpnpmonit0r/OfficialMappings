@@ -1,0 +1,3 @@
+CLASS net/minecraft/client/q net/minecraft/client/CrashReportPanel$Empty
+	METHOD <init> (I)V
+		ARG 1 i

@@ -1,0 +1,7 @@
+CLASS net/minecraft/a/a/b/am net/minecraft/world/level/tile/SignTile
+	FIELD a tileEntity Ljava/lang/Class;
+	FIELD ao resource I
+	METHOD <init> (ILjava/lang/Class;I)V
+		ARG 1 id
+		ARG 2 c
+		ARG 3 resource

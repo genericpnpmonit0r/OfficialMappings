@@ -1,0 +1,21 @@
+CLASS net/minecraft/client/b/l net/minecraft/client/model/Vertex
+	FIELD a pos Lnet/minecraft/a/d/a;
+	FIELD b u F
+	FIELD c v F
+	METHOD <init> (FFFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 u
+		ARG 5 v
+	METHOD <init> (Lnet/minecraft/a/d/a;FF)V
+		ARG 1 pos
+		ARG 2 u
+		ARG 3 v
+	METHOD <init> (Lnet/minecraft/client/b/l;FF)V
+		ARG 1 vertex
+		ARG 2 u
+		ARG 3 v
+	METHOD a remap (FF)Lnet/minecraft/client/b/l;
+		ARG 1 u
+		ARG 2 v

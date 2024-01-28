@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/c/g net/minecraft/client/gui/GuiScale
+	FIELD a width I
+	FIELD b height I
+	METHOD <init> (II)V
+		ARG 1 w
+		ARG 2 h
+	METHOD a getWidth ()I
+	METHOD b getHeight ()I

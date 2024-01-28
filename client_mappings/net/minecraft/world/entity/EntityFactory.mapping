@@ -1,0 +1,11 @@
+CLASS net/minecraft/a/c/e net/minecraft/world/entity/EntityFactory
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	METHOD a loadEntity (Lcom/a/a/c;Lnet/minecraft/a/a/h;)Lnet/minecraft/a/c/b;
+		ARG 0 tag
+		ARG 1 level
+	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 c
+		ARG 1 id
+	METHOD a (Lnet/minecraft/a/c/b;)Ljava/lang/String;
+		ARG 0 entity

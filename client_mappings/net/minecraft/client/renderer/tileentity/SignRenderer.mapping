@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/a/d/a net/minecraft/client/renderer/tileentity/SignRenderer
+	FIELD a model Lnet/minecraft/client/b/e;

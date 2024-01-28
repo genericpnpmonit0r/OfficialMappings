@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/b/d net/minecraft/world/item/WeaponItem
+	FIELD aA attackDamage I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 atkDmg

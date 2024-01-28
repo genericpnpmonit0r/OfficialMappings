@@ -1,0 +1,4 @@
+CLASS net/minecraft/a/b/i net/minecraft/world/item/DiggerItem
+	FIELD aB destroySpeed F
+	METHOD <init> (III[Lnet/minecraft/a/a/b/aa;)V
+		ARG 1 id

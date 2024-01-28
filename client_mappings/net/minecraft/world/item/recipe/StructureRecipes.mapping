@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/b/a/g net/minecraft/world/item/recipe/StructureRecipes
+	COMMENT chest, furnace, workbench recipe stuff got inlined into Recipes

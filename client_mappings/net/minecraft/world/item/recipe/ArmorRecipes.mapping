@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/b/a/a net/minecraft/world/item/recipe/ArmorRecipes
+	FIELD a pattern [[Ljava/lang/String;
+	FIELD b items [[Ljava/lang/Object;
+	METHOD a addRecipes (Lnet/minecraft/a/b/a/f;)V
+		ARG 1 recipes

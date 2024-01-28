@@ -1,0 +1,39 @@
+CLASS net/minecraft/a/a/d/a/a net/minecraft/world/level/levelgen/noise/ImprovedNoise
+	FIELD a p [I
+	FIELD b xo D
+	FIELD c yo D
+	FIELD d zo D
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD a getValue (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a getValue (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a grad (IDDD)D
+		ARG 0 hash
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getRegion ([DIIIIIIDDDD)V
+		ARG 1 heightMap
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 width
+		ARG 6 height
+		ARG 7 depth
+		ARG 8 xScale
+		ARG 10 yScale
+		ARG 12 zScale
+		ARG 14 pow
+	METHOD b noise (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c lerp (DDD)D
+		ARG 0 t
+		ARG 2 a
+		ARG 4 b

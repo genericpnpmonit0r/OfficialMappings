@@ -1,0 +1,27 @@
+CLASS net/minecraft/a/c/e/a net/minecraft/world/entity/player/Player
+	FIELD T score I
+	FIELD U oBob F
+	FIELD V bob F
+	FIELD W username Ljava/lang/String;
+	FIELD b inventory Lnet/minecraft/a/c/e/b;
+	METHOD a openFurnace (Lnet/minecraft/a/a/b/a/b;)V
+		ARG 1 furnaceTileEntity
+	METHOD a openTextEdit (Lnet/minecraft/a/a/b/a/d;)V
+		ARG 1 signTileEntity
+	METHOD a canDestroy (Lnet/minecraft/a/a/b/aa;)Z
+		ARG 1 tile
+		ARG 3 inv
+		ARG 4 ii
+	METHOD a drop (Lnet/minecraft/a/b/o;)V
+		ARG 1 item
+	METHOD a drop (Lnet/minecraft/a/b/o;Z)V
+		ARG 1 item
+		ARG 2 scatter
+		ARG 4 itm
+		ARG 5 nf
+		ARG 6 ne
+	METHOD a openContainer (Lnet/minecraft/a/b;)V
+		ARG 1 container
+	METHOD a take (Lnet/minecraft/a/c/b;)V
+		ARG 1 item
+	METHOD f_ startCrafting ()V

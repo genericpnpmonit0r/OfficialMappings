@@ -1,0 +1,28 @@
+CLASS net/minecraft/a/a/a net/minecraft/world/level/LevelListener
+	METHOD a tileChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a setTilesDirty (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xd
+		ARG 10 yd
+		ARG 12 zd
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a entityAdded (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity
+	METHOD b entityRemoved (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity
+	METHOD f allChanged ()V

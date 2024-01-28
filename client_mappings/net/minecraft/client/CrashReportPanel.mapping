@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/h net/minecraft/client/CrashReportPanel
+	METHOD <init> (Lnet/minecraft/client/a;)V
+		ARG 1 crashReport
+		ARG 7 ta

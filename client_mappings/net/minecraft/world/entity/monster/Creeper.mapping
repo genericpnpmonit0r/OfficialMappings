@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/c/a/d net/minecraft/world/entity/monster/Creeper
+	METHOD c getSwelling (F)F
+		ARG 1 time

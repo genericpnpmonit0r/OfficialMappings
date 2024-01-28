@@ -1,0 +1,21 @@
+CLASS net/minecraft/a/a/c/a/c net/minecraft/world/level/chunk/storage/ZoneLevelStorage
+	FIELD a BYTE_ORDER Ljava/nio/ByteOrder;
+	FIELD b dataDir Ljava/io/File;
+	FIELD c zoneMap Ljava/util/Map;
+	FIELD d lastUpdate J
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 dir
+	METHOD a getSize (II)I
+		ARG 0 x
+		ARG 1 z
+		ARG 5 o
+	METHOD a getZoneFile (IIZ)Lnet/minecraft/a/a/c/a/d;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 b
+		ARG 9 entityZone
+	METHOD b getZone (IIZ)Lnet/minecraft/a/a/c/a/f;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 b
+		ARG 4 zf

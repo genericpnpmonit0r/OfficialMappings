@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/c/b/b net/minecraft/world/entity/animal/Sheep
+	FIELD a sheared Z

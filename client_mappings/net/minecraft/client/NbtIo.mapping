@@ -1,0 +1,23 @@
+CLASS net/minecraft/client/a net/minecraft/client/NbtIo
+	COMMENT The first few methods of this are from net/minecraft/client/CrashReport, not NbtIo.
+	COMMENT ProGuard merged the exception handler and com/mojang/nbt/NbtIo together for whatever
+	COMMENT reason.
+	FIELD a exception Ljava/lang/Exception;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/Exception;)V
+		ARG 1 desc
+		ARG 2 e
+	METHOD a compress (Lcom/a/a/c;)[B
+		ARG 0 tag
+	METHOD a writeCompressed (Lcom/a/a/c;Ljava/io/OutputStream;)V
+		ARG 0 tag
+		ARG 1 out
+		ARG 5 dos
+	METHOD a read (Ljava/io/DataInput;)Lcom/a/a/c;
+		ARG 0 dis
+		ARG 1 tag
+	METHOD a readCompressed (Ljava/io/InputStream;)Lcom/a/a/c;
+		ARG 0 in
+		ARG 4 dis
+	METHOD a decompress ([B)Lcom/a/a/c;
+		ARG 0 buffer
+		ARG 4 dis

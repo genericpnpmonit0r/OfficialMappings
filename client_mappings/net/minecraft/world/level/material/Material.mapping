@@ -1,0 +1,22 @@
+CLASS net/minecraft/a/a/e/c net/minecraft/world/level/material/Material
+	COMMENT TODO: some of the fields were mapped incorrectly, i hopefully fixed them now
+	FIELD a air Lnet/minecraft/a/a/e/c;
+	FIELD b dirt Lnet/minecraft/a/a/e/c;
+	FIELD c wood Lnet/minecraft/a/a/e/c;
+	FIELD d stone Lnet/minecraft/a/a/e/c;
+	FIELD e metal Lnet/minecraft/a/a/e/c;
+	FIELD f water Lnet/minecraft/a/a/e/c;
+	FIELD g lava Lnet/minecraft/a/a/e/c;
+	FIELD h leaves Lnet/minecraft/a/a/e/c;
+	FIELD i plant Lnet/minecraft/a/a/e/c;
+	FIELD j sponge Lnet/minecraft/a/a/e/c;
+	FIELD k cloth Lnet/minecraft/a/a/e/c;
+	FIELD l fire Lnet/minecraft/a/a/e/c;
+	FIELD m sand Lnet/minecraft/a/a/e/c;
+	FIELD n decoration Lnet/minecraft/a/a/e/c;
+	FIELD o glass Lnet/minecraft/a/a/e/c;
+	FIELD p explosive Lnet/minecraft/a/a/e/c;
+	METHOD a isSolid ()Z
+	METHOD b blocksLight ()Z
+	METHOD c blocksMotion ()Z
+	METHOD d isLiquid ()Z

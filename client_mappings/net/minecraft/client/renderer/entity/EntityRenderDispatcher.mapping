@@ -1,0 +1,39 @@
+CLASS net/minecraft/client/a/a/j net/minecraft/client/renderer/entity/EntityRenderDispatcher
+	FIELD a instance Lnet/minecraft/client/a/a/j;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textures Lnet/minecraft/client/a/l;
+	FIELD f level Lnet/minecraft/a/a/h;
+	FIELD g yRot F
+	FIELD h options Lnet/minecraft/client/u;
+	FIELD i renderers Ljava/util/Map;
+	FIELD j xd D
+	FIELD k yd D
+	FIELD l zd D
+	METHOD a distanceToSqr (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getRenderer (Ljava/lang/Class;)Lnet/minecraft/client/a/a/f;
+		ARG 1 c
+	METHOD a setLevel (Lnet/minecraft/a/a/h;)V
+		ARG 1 level
+	METHOD a prepare (Lnet/minecraft/a/a/h;Lnet/minecraft/client/a/l;Lnet/minecraft/client/c/k;Lnet/minecraft/a/c/e/a;Lnet/minecraft/client/u;F)V
+		ARG 1 level
+		ARG 2 textures
+		ARG 3 font
+		ARG 4 mob
+		ARG 5 options
+		ARG 6 time
+	METHOD a getRenderer (Lnet/minecraft/a/c/b;)Lnet/minecraft/client/a/a/f;
+		ARG 1 entity
+	METHOD a render (Lnet/minecraft/a/c/b;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 9 time
+	METHOD a render (Lnet/minecraft/a/c/b;F)V
+		ARG 1 entity
+		ARG 2 time

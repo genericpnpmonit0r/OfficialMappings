@@ -1,0 +1,14 @@
+CLASS net/minecraft/client/a/e net/minecraft/client/renderer/GameRenderer
+	FIELD a itemInHandRenderer Lnet/minecraft/client/a/g;
+	FIELD b minecraft Lnet/minecraft/client/f;
+	FIELD m fogBlue F
+	FIELD n fogGreen F
+	FIELD o fogRed F
+	METHOD <init> (Lnet/minecraft/client/f;)V
+		ARG 1 minecraft
+	METHOD a (F)V
+		ARG 1 time
+	METHOD a setupFog (I)V
+		ARG 1 i
+	METHOD e (F)V
+		ARG 1 time

@@ -1,0 +1,14 @@
+CLASS net/minecraft/a/c/d/a net/minecraft/world/entity/projectile/Arrow
+	FIELD S yTile I
+	FIELD T zTile I
+	FIELD U lastTile I
+	FIELD V hasHit Z
+	FIELD W owner Lnet/minecraft/a/c/f;
+	FIELD X life I
+	FIELD Y flightTicks I
+	FIELD a shakeTime I
+	FIELD b xTile I
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/c/f;)V
+		ARG 1 level
+		ARG 2 mob
+	METHOD a shoot (DDDFF)V

@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/b/j net/minecraft/client/model/HumanoidModel
+	FIELD a head Lnet/minecraft/client/b/d;
+	FIELD b hat Lnet/minecraft/client/b/d;
+	FIELD c body Lnet/minecraft/client/b/d;
+	FIELD d rightArm Lnet/minecraft/client/b/d;
+	FIELD e leftArm Lnet/minecraft/client/b/d;
+	FIELD f rightLeg Lnet/minecraft/client/b/d;
+	FIELD g leftLeg Lnet/minecraft/client/b/d;

@@ -1,0 +1,15 @@
+CLASS net/minecraft/a/a/a/d net/minecraft/world/level/path/BinaryHeap
+	FIELD a heap [Lnet/minecraft/a/a/a/a;
+	FIELD b p I
+	METHOD a clear ()V
+	METHOD a upHeap (I)V
+		ARG 1 i
+	METHOD a insert (Lnet/minecraft/a/a/a/a;)Lnet/minecraft/a/a/a/a;
+		ARG 1 node
+	METHOD a changeCost (Lnet/minecraft/a/a/a/a;F)V
+		ARG 1 node
+		ARG 2 cost
+	METHOD b pop ()Lnet/minecraft/a/a/a/a;
+	METHOD b downHeap (I)V
+		ARG 1 i
+	METHOD c isEmpty ()Z

@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/a/c/a net/minecraft/world/level/chunk/ChunkSource
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a postProcess (Lnet/minecraft/a/a/c/a;II)V
+		ARG 1 cs
+		ARG 2 x
+		ARG 3 z
+	METHOD a save (ZLa/b;)Z
+		ARG 1 all
+		ARG 2 listener
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lnet/minecraft/a/a/c/e;
+		ARG 1 x
+		ARG 2 z

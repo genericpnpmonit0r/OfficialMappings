@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/a/b/s net/minecraft/world/level/tile/EntityTile
+	METHOD a_ newTileEntity ()Lnet/minecraft/a/a/b/a/a;

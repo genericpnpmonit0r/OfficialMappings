@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/c/a/e net/minecraft/world/entity/monster/Monster
+	FIELD a damage I

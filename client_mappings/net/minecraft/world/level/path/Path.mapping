@@ -1,0 +1,10 @@
+CLASS net/minecraft/a/a/a/b net/minecraft/world/level/path/Path
+	FIELD a nodes [Lnet/minecraft/a/a/a/a;
+	FIELD b p I
+	METHOD <init> ([Lnet/minecraft/a/a/a/a;)V
+		ARG 1 nodes
+	METHOD a next ()V
+	METHOD a currentPos (Lnet/minecraft/a/c/b;)Lnet/minecraft/a/d/a;
+		ARG 1 entity
+		ARG 4 zo
+	METHOD b isDone ()Z

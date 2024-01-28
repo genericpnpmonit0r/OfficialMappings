@@ -1,0 +1,40 @@
+CLASS net/minecraft/client/f/k net/minecraft/client/particle/Particle
+	FIELD S vo F
+	FIELD T age I
+	FIELD U lifetime I
+	FIELD V size F
+	FIELD W gravity F
+	FIELD X r F
+	FIELD Y g F
+	FIELD Z b F
+	FIELD a tex I
+	FIELD aa xOff D
+	FIELD ab yOff D
+	FIELD ac zOff D
+	FIELD b uo F
+	METHOD <init> (Lnet/minecraft/a/a/h;DDDDDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xd
+		ARG 10 yd
+		ARG 12 zd
+		ARG 14 rnd
+		ARG 15 r
+	METHOD a render (Lnet/minecraft/client/a/d;FFFFFF)V
+		ARG 1 t
+		ARG 2 a
+		ARG 3 xa
+		ARG 4 ya
+		ARG 5 za
+		ARG 6 xa2
+		ARG 7 za2
+		ARG 29 x
+		ARG 30 br
+		ARG 31 y
+		ARG 32 z
+	METHOD b getRenderLayer ()I
+	METHOD c scale (F)Lnet/minecraft/client/f/k;
+		COMMENT 0.6f hardcoded cause it was the only value passed in (proguard)
+		ARG 1 scale

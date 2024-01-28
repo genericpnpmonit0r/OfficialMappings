@@ -1,0 +1,30 @@
+CLASS net/minecraft/client/c/i net/minecraft/client/gui/Screen
+	FIELD a minecraft Lnet/minecraft/client/f;
+	FIELD b width I
+	FIELD c height I
+	FIELD d buttons Ljava/util/List;
+	FIELD f font Lnet/minecraft/client/c/k;
+	METHOD a keyPressed (CI)V
+		ARG 1 eventCharacter
+		ARG 2 eventKey
+	METHOD a render (IIF)V
+		ARG 1 xMouse
+		ARG 2 yMouse
+		ARG 3 a
+		ARG 5 i
+	METHOD a mouseClicked (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 buttonNum
+		ARG 5 i
+	METHOD a buttonClicked (Lnet/minecraft/client/c/o;)V
+		ARG 1 button
+	METHOD a init (Lnet/minecraft/client/f;II)V
+		ARG 1 minecraft
+		ARG 2 width
+		ARG 3 height
+	METHOD a confirmResult (ZI)V
+	METHOD b init ()V
+	METHOD e mouseEvent ()V
+	METHOD f keyboardEvent ()V
+	METHOD h renderBg ()V

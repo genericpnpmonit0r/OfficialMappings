@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/b/a/c net/minecraft/world/level/tile/entity/ChestTileEntity
+	FIELD e items [Lnet/minecraft/a/b/o;
+	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V

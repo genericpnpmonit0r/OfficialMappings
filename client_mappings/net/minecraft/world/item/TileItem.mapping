@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/b/e net/minecraft/world/item/TileItem
+	FIELD aA tile I

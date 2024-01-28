@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/a/k net/minecraft/client/renderer/GLTexture$1
+	FIELD a val$url Ljava/lang/String;
+	FIELD b val$tex Lnet/minecraft/client/a/c;
+	FIELD c this$0 Lnet/minecraft/client/a/i;
+	METHOD <init> (Lnet/minecraft/client/a/i;Ljava/lang/String;Lnet/minecraft/client/a/c;)V
+		ARG 1 this$0
+		ARG 2 val$url
+		ARG 3 val$tex
+	METHOD run run ()V

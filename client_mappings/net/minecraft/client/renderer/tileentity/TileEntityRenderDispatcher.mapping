@@ -1,0 +1,30 @@
+CLASS net/minecraft/client/a/d/c net/minecraft/client/renderer/tileentity/TileEntityRenderDispatcher
+	FIELD a instance Lnet/minecraft/client/a/d/c;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textures Lnet/minecraft/client/a/l;
+	FIELD f renderers Ljava/util/Map;
+	FIELD g font Lnet/minecraft/client/c/k;
+	FIELD h level Lnet/minecraft/a/a/h;
+	METHOD a getFont ()Lnet/minecraft/client/c/k;
+	METHOD a getRenderer (Ljava/lang/Class;)Lnet/minecraft/client/a/d/b;
+		ARG 1 c
+	METHOD a hasRenderer (Lnet/minecraft/a/a/b/a/a;)Z
+		COMMENT not sure
+	METHOD a render (Lnet/minecraft/a/a/b/a/a;DDDF)V
+		ARG 1 tileEntity
+		ARG 2 xo
+		ARG 4 yo
+		ARG 6 zo
+		ARG 8 time
+	METHOD a render (Lnet/minecraft/a/a/b/a/a;F)V
+		ARG 1 tileEntity
+		ARG 2 time
+	METHOD a prepare (Lnet/minecraft/a/a/h;Lnet/minecraft/client/a/l;Lnet/minecraft/client/c/k;Lnet/minecraft/a/c/e/a;F)V
+		ARG 1 level
+		ARG 2 textures
+		ARG 3 font
+		ARG 4 player
+		ARG 5 time
+	METHOD b getRenderer (Lnet/minecraft/a/a/b/a/a;)Lnet/minecraft/client/a/d/b;

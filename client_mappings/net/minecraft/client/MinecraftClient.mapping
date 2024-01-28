@@ -1,0 +1,51 @@
+CLASS net/minecraft/client/f net/minecraft/client/MinecraftClient
+	FIELD B fullscreen Z
+	FIELD D timer Lnet/minecraft/client/i;
+	FIELD E parent Ljava/awt/Canvas;
+	FIELD J oWidth I
+	FIELD K oHeight I
+	FIELD L workDir Ljava/io/File;
+	FIELD O waterTexture Lnet/minecraft/client/a/c/g;
+	FIELD P lavaTexture Lnet/minecraft/client/a/c/d;
+	FIELD a gamemode Lnet/minecraft/client/d/b;
+	FIELD b width I
+	FIELD c height I
+	FIELD d level Lnet/minecraft/a/a/h;
+	FIELD e levelRenderer Lnet/minecraft/client/a/b;
+	FIELD f player Lnet/minecraft/client/g/a;
+	FIELD g particleEngine Lnet/minecraft/client/f/d;
+	FIELD h user Lnet/minecraft/client/o;
+	FIELD i host Ljava/lang/String;
+	FIELD j appletMode Z
+	FIELD k pause Z
+	FIELD l textures Lnet/minecraft/client/a/l;
+	FIELD m font Lnet/minecraft/client/c/k;
+	FIELD p loadMapUser Ljava/lang/String;
+	FIELD q loadMapId I
+	FIELD r gui Lnet/minecraft/client/c/m;
+	FIELD t hitResult Lnet/minecraft/a/d/c;
+	FIELD u options Lnet/minecraft/client/u;
+	FIELD v soundEngine Lnet/minecraft/client/e/c;
+	FIELD w mouseInput Lnet/minecraft/client/p;
+	FIELD x running Z
+	FIELD y fpsString Ljava/lang/String;
+	METHOD <init> (Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 parent
+		ARG 3 width
+		ARG 4 height
+		ARG 5 fullscreen
+	METHOD a getWorkingDirectory ()Ljava/io/File;
+	METHOD a setSize (II)V
+	METHOD a setLevel (Lnet/minecraft/a/a/h;)V
+		COMMENT this calls setLevel(Level, String) with null argument because proguard
+		ARG 1 level
+	METHOD a setLevel (Lnet/minecraft/a/a/h;Ljava/lang/String;)V
+		ARG 1 level
+	METHOD a showCrashReport (Lnet/minecraft/client/a;)V
+		ARG 1 crashReport
+	METHOD a setScreen (Lnet/minecraft/client/c/i;)V
+		ARG 1 screen
+	METHOD b destroy ()V
+	METHOD c stop ()V
+	METHOD m tick ()V
+	METHOD run run ()V

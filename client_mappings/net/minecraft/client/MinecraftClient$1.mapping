@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/r net/minecraft/client/MinecraftClient$1
+	METHOD <init> (Lnet/minecraft/client/f;Ljava/lang/String;)V
+		ARG 1 mc
+		ARG 2 threadName
+	METHOD run run ()V

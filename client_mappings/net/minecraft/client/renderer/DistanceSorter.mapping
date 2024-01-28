@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/a/m net/minecraft/client/renderer/DistanceSorter
+	FIELD a player Lnet/minecraft/a/c/b;
+	METHOD <init> (Lnet/minecraft/a/c/b;)V
+		ARG 1 player
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 c0
+		ARG 2 c1

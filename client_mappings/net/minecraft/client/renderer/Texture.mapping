@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/a/c net/minecraft/client/renderer/Texture
+	FIELD a rgb [I
+	FIELD b width I
+	FIELD c height I

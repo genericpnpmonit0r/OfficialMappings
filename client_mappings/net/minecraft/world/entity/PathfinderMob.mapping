@@ -1,0 +1,12 @@
+CLASS net/minecraft/a/c/c net/minecraft/world/entity/PathfinderMob
+	FIELD a path Lnet/minecraft/a/a/a/b;
+	FIELD b attackTarget Lnet/minecraft/a/c/b;
+	METHOD a getAttackTarget ()Lnet/minecraft/a/c/b;
+	METHOD a getWalkTargetValue (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a (Lnet/minecraft/a/c/b;)Z
+		ARG 1 entity
+	METHOD a checkHurtTarget (Lnet/minecraft/a/c/b;F)V
+		ARG 1 target

@@ -1,0 +1,12 @@
+CLASS net/minecraft/client/i net/minecraft/client/Timer
+	FIELD a ticksPerSecond F
+	FIELD b ticks I
+	FIELD c a F
+	FIELD d lastTime D
+	FIELD e timeScale F
+	FIELD f passedTime F
+	FIELD g msPerTick J
+	FIELD i averageFrameTime D
+	METHOD <init> (F)V
+		ARG 1 ticksPerSecond
+	METHOD a advanceTime ()V

@@ -1,0 +1,10 @@
+CLASS net/minecraft/client/f/b net/minecraft/client/particle/TerrainParticle
+	METHOD <init> (Lnet/minecraft/a/a/h;DDDDDDLnet/minecraft/a/a/b/aa;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xd
+		ARG 10 yd
+		ARG 12 zd
+		ARG 14 tile

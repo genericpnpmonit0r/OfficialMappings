@@ -1,0 +1,29 @@
+CLASS net/minecraft/client/a/l net/minecraft/client/renderer/Textures
+	FIELD a idMap Ljava/util/HashMap;
+	FIELD c ib Ljava/nio/IntBuffer;
+	FIELD d pixels Ljava/nio/ByteBuffer;
+	FIELD e dynamicTextures Ljava/util/List;
+	FIELD f textureData Ljava/util/Map;
+	FIELD g options Lnet/minecraft/client/u;
+	FIELD h blur Z
+	METHOD <init> (Lnet/minecraft/client/u;)V
+		ARG 1 options
+	METHOD a tick ()V
+	METHOD a bind (I)V
+		ARG 0 texture
+	METHOD a loadTexture (Ljava/awt/image/BufferedImage;I)V
+		ARG 1 image
+		ARG 2 texture
+		ARG 11 i
+	METHOD a loadTexture (Ljava/lang/String;)I
+		ARG 1 resourceName
+	METHOD a loadTexture (Ljava/lang/String;Ljava/lang/String;)I
+		ARG 2 resourceName
+		ARG 6 gt
+	METHOD a assignTexture (Ljava/lang/String;Lnet/minecraft/client/a/c;)Lnet/minecraft/client/a/i;
+		ARG 1 url
+		ARG 2 tex
+	METHOD a addDynamicTexture (Lnet/minecraft/client/a/c/b;)V
+		ARG 1 dynamicTexture
+	METHOD b removeTexture (Ljava/lang/String;)V
+		ARG 1 url

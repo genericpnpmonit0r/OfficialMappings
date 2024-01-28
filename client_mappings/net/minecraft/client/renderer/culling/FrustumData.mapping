@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/a/b/b net/minecraft/client/renderer/culling/FrustumData
+	FIELD a m_Frustum [[F
+	FIELD b proj [F
+	FIELD c modl [F
+	FIELD d clip [F

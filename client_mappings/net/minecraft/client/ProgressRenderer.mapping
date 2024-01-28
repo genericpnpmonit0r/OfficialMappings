@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/b net/minecraft/client/ProgressRenderer
+	FIELD a title Ljava/lang/String;
+	FIELD b minecraft Lnet/minecraft/client/f;
+	FIELD c text Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/client/f;)V
+		ARG 1 minecraft
+	METHOD c (Ljava/lang/String;)V
+		ARG 1 string

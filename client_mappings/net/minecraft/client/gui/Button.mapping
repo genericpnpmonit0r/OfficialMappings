@@ -1,0 +1,28 @@
+CLASS net/minecraft/client/c/o net/minecraft/client/gui/Button
+	FIELD a msg Ljava/lang/String;
+	FIELD b id I
+	FIELD c enabled Z
+	FIELD d w I
+	FIELD e h I
+	FIELD f x I
+	FIELD g y I
+	FIELD h visible Z
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 w
+		ARG 5 h
+		ARG 6 msg
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 msg
+	METHOD a isInside (II)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD a render (Lnet/minecraft/client/f;II)V
+		ARG 1 mc
+		ARG 2 x
+		ARG 3 y

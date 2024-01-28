@@ -1,0 +1,20 @@
+CLASS net/minecraft/client/a/b/c net/minecraft/client/renderer/culling/FrustumCuller
+	FIELD a frustum Lnet/minecraft/client/a/b/b;
+	FIELD b x D
+	FIELD c y D
+	FIELD d z D
+	METHOD a prepare (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a cubeInFrustum (DDDDDD)Z
+		ARG 1 x1
+		ARG 2 i
+		ARG 3 y1
+		ARG 5 z1
+		ARG 7 x2
+		ARG 9 y2
+		ARG 11 z2
+		ARG 26 frustum
+	METHOD a isVisible (Lnet/minecraft/a/d/b;)Z
+		ARG 1 box

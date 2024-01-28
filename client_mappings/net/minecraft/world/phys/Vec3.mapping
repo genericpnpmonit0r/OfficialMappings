@@ -1,0 +1,29 @@
+CLASS net/minecraft/a/d/a net/minecraft/world/phys/Vec3
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a normalize ()Lnet/minecraft/a/d/a;
+	METHOD a add (DDD)Lnet/minecraft/a/d/a;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a subtract (Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/a;
+		ARG 1 t
+	METHOD a clipX (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
+		ARG 1 t
+		ARG 2 xa
+	METHOD b length ()D
+	METHOD b distanceTo (Lnet/minecraft/a/d/a;)D
+		ARG 1 t
+	METHOD b clipY (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
+		ARG 1 t
+		ARG 2 ya
+	METHOD c distanceToSqr (Lnet/minecraft/a/d/a;)D
+		ARG 1 t
+	METHOD c clipZ (Lnet/minecraft/a/d/a;D)Lnet/minecraft/a/d/a;
+		ARG 1 t
+		ARG 2 za

@@ -1,0 +1,35 @@
+CLASS net/minecraft/a/a/b/an net/minecraft/world/level/tile/FireTile
+	FIELD a burnOdds [I
+	FIELD ao igniteOdds [I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a setFlammable (III)V
+		ARG 1 id
+		ARG 2 bo
+		ARG 3 io
+	METHOD a checkBurn (Lnet/minecraft/a/a/h;IIIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 odds
+		ARG 6 random
+		ARG 8 tnt
+	METHOD c canBurn (Lnet/minecraft/a/a/j;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e checkBurn (Lnet/minecraft/a/a/h;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 odds
+		ARG 6 o
+	METHOD g isValidFireLocation (Lnet/minecraft/a/a/h;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

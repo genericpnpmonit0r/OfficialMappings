@@ -1,0 +1,4 @@
+CLASS net/minecraft/client/a/g net/minecraft/client/renderer/ItemInHandRenderer
+	FIELD a minecraft Lnet/minecraft/client/f;
+	METHOD <init> (Lnet/minecraft/client/f;)V
+		ARG 1 minecraft

@@ -1,0 +1,18 @@
+CLASS net/minecraft/a/a/a/a net/minecraft/world/level/path/Node
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d hash I
+	FIELD e index I
+	FIELD g dist F
+	FIELD h cost F
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a inOpenSet ()Z
+	METHOD a distanceTo (Lnet/minecraft/a/a/a/a;)F
+		ARG 1 node
+		ARG 4 zo
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 other

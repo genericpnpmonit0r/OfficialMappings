@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/g/b net/minecraft/client/player/Input
+	FIELD a xxa F
+	FIELD b yya F
+	FIELD c jumping Z
+	METHOD a tick ()V
+	METHOD a setKey (IZ)V
+		ARG 1 key
+		ARG 2 state
+	METHOD b releaseAllKeys ()V

@@ -1,0 +1,16 @@
+CLASS net/minecraft/a/b net/minecraft/world/Container
+	COMMENT NOTCH I HATE YOU AND YOUR CONTAINER BULLSHIT
+	METHOD a getContainerSize ()I
+	METHOD a getItem (I)Lnet/minecraft/a/b/o;
+		ARG 1 i
+	METHOD a removeItem (II)Lnet/minecraft/a/b/o;
+		ARG 1 i
+		ARG 2 amount
+		ARG 3 item
+		ARG 4 inst
+		ARG 5 inst
+	METHOD a setItem (ILnet/minecraft/a/b/o;)V
+		ARG 1 i
+		ARG 2 item
+	METHOD b getName ()Ljava/lang/String;
+	METHOD c getMaxStackSize ()I

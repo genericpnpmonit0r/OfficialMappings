@@ -1,0 +1,3 @@
+CLASS net/minecraft/a/a/b/g net/minecraft/world/level/tile/LiquidTileStatic
+	METHOD b (Lnet/minecraft/a/a/h;IIII)V
+		COMMENT setDynamic(level, x,y,z) got inlined into this, starts where it sets a flag in the level to be true and ends where it sets it back to false

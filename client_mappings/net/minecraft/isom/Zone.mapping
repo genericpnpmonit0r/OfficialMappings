@@ -1,0 +1,20 @@
+CLASS net/minecraft/isom/b net/minecraft/isom/Zone
+	FIELD a image Ljava/awt/image/BufferedImage;
+	FIELD b level Lnet/minecraft/a/a/h;
+	FIELD c x I
+	FIELD d y I
+	FIELD e rendered Z
+	FIELD f noContent Z
+	FIELD g lastVisible I
+	FIELD h addedToRenderQueue Z
+	METHOD <init> (Lnet/minecraft/a/a/h;II)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+	METHOD a init (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD a init (Lnet/minecraft/a/a/h;II)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y

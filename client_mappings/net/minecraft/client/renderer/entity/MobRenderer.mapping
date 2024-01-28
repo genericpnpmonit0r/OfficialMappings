@@ -1,0 +1,10 @@
+CLASS net/minecraft/client/a/a/l net/minecraft/client/renderer/entity/MobRenderer
+	METHOD a (Lnet/minecraft/a/c/f;)F
+		ARG 1 mob
+	METHOD a (Lnet/minecraft/a/c/f;F)V
+		ARG 1 mob
+		ARG 2 time
+	METHOD a (Lnet/minecraft/a/c/f;FF)I
+		ARG 1 mob
+	METHOD a prepareArmor (Lnet/minecraft/a/c/f;I)Z
+		ARG 1 mob

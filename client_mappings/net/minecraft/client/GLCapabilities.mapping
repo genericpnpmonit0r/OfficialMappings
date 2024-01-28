@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/k net/minecraft/client/GLCapabilities
+	COMMENT this is probably some openGL utility thing that got its contents removed by proguard

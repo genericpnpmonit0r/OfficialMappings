@@ -1,0 +1,19 @@
+CLASS net/minecraft/a/b/a/c net/minecraft/world/item/recipe/ShapedRecipe
+	FIELD a width I
+	FIELD b height I
+	FIELD c pattern [I
+	FIELD d resultItem Lnet/minecraft/a/b/o;
+	METHOD <init> (II[ILnet/minecraft/a/b/o;)V
+		ARG 1 w
+		ARG 2 h
+		ARG 3 pattern
+		ARG 4 result
+	METHOD a getResultItem ()Lnet/minecraft/a/b/o;
+	METHOD a matches ([I)Z
+		ARG 1 pattern
+	METHOD a matches ([IIIZ)Z
+		ARG 1 pattern
+		ARG 2 w
+		ARG 3 h
+		ARG 4 flip
+	METHOD b size ()I

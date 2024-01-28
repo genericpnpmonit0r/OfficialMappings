@@ -1,0 +1,106 @@
+CLASS net/minecraft/a/c/b net/minecraft/world/entity/Entity
+	FIELD A walkDist0 F
+	FIELD B walkDist F
+	FIELD C makeStepSound Z
+	FIELD D fallDistance F
+	FIELD E xOld D
+	FIELD F yOld D
+	FIELD G zOld D
+	FIELD K random Ljava/util/Random;
+	FIELD N fireTicks I
+	FIELD P invulnerableTime I
+	FIELD Q airSupply I
+	FIELD a collision Z
+	FIELD b nextStep I
+	FIELD f level Lnet/minecraft/a/a/h;
+	FIELD g xo D
+	FIELD h yo D
+	FIELD i zo D
+	FIELD j x D
+	FIELD k y D
+	FIELD l z D
+	FIELD m xd D
+	FIELD n yd D
+	FIELD o zd D
+	FIELD p yRot F
+	FIELD q xRot F
+	FIELD r yRot0 F
+	FIELD s xRot0 F
+	FIELD t bb Lnet/minecraft/a/d/b;
+	FIELD u onGround Z
+	FIELD v horizontalCollision Z
+	FIELD w removed Z
+	FIELD x heightOffset F
+	FIELD y bbWidth F
+	FIELD z bbHeight F
+	METHOD <init> (Lnet/minecraft/a/a/h;)V
+		ARG 1 level
+	METHOD a setPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 22 bb
+	METHOD a getBrightness (F)F
+		ARG 1 time
+	METHOD a setSize (FF)V
+		ARG 1 width
+		ARG 2 height
+	METHOD a addAdditionalSaveData (Lcom/a/a/c;)V
+		ARG 1 entityTag
+		ARG 5 inv
+	METHOD a isUnderLiquid (Lnet/minecraft/a/a/e/c;)Z
+		ARG 1 material
+	METHOD a hurt (Lnet/minecraft/a/c/b;I)Z
+		ARG 1 entity
+		ARG 2 amount
+		ARG 6 inventory
+	METHOD a playerTouch (Lnet/minecraft/a/c/e/a;)V
+		ARG 1 player
+	METHOD b moveTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 xr
+		ARG 8 yr
+	METHOD b causeFallDamage (F)V
+		ARG 4 id
+		ARG 5 soundType
+	METHOD b moveRelative (FFF)V
+		ARG 1 xa
+		ARG 2 ya
+		ARG 3 za
+	METHOD b hurt (I)V
+		ARG 1 amount
+	METHOD b readAdditionalSaveData (Lcom/a/a/c;)V
+		ARG 1 entityTag
+		ARG 6 motiv
+		ARG 7 inv
+	METHOD b distanceToSqr (Lnet/minecraft/a/c/b;)D
+		ARG 1 entity
+	METHOD b_ tick ()V
+	METHOD c move (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 26 st
+	METHOD c save (Lcom/a/a/c;)Z
+		ARG 1 tag
+	METHOD c push (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity
+	METHOD d push (DDD)V
+	METHOD d saveWithoutId (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD d (Lnet/minecraft/a/c/b;)Lnet/minecraft/a/d/b;
+		ARG 1 entity
+	METHOD e load (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD h_ isPickable ()Z
+	METHOD i resetPos ()V
+	METHOD j remove ()V
+	METHOD l outOfWorld ()V
+	METHOD m getAABB ()Lnet/minecraft/a/d/b;
+	METHOD n isInWater ()Z
+	METHOD p isInLava ()Z
+	METHOD q isPushable ()Z
+	METHOD r getTexture ()Ljava/lang/String;
+	METHOD s isAlive ()Z

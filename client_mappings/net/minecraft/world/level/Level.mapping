@@ -1,0 +1,301 @@
+CLASS net/minecraft/a/a/h net/minecraft/world/level/Level
+	FIELD B playerTag Lcom/a/a/c;
+	FIELD a tileEntities Ljava/util/List;
+	FIELD b lastUpdate J
+	FIELD c skyDarken I
+	FIELD e brightness [F
+	FIELD f player Lnet/minecraft/a/c/b;
+	FIELD h random Ljava/util/Random;
+	FIELD i spawnX I
+	FIELD j spawnY I
+	FIELD k spawnZ I
+	FIELD m randomSeed J
+	FIELD n sizeOnDisk J
+	FIELD o lightUpdates Ljava/util/List;
+	FIELD p entities Ljava/util/List;
+	FIELD q pendingEntityRemovals Ljava/util/List;
+	FIELD r tickNextTick Ljava/util/TreeSet;
+	FIELD s pendingTicks Ljava/util/Set;
+	FIELD t skyColor J
+	FIELD u fogColor J
+	FIELD v cloudColor J
+	FIELD w randValue I
+	FIELD x addend I
+	FIELD y levelListeners Ljava/util/List;
+	FIELD z chunkSource Lnet/minecraft/a/a/c/a;
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;)V
+		ARG 1 dir
+		ARG 2 name
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;J)V
+		ARG 1 dir
+		ARG 2 name
+		ARG 3 seed
+		ARG 7 data
+		ARG 10 skyDarken
+	METHOD a playSound (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a getSkyColor (F)Lnet/minecraft/a/d/a;
+		ARG 1 angle
+	METHOD a getChunk (II)Lnet/minecraft/a/a/c/e;
+		ARG 1 x
+		ARG 2 z
+	METHOD a setTileNoUpdate (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+	METHOD a setTileAndDataNoUpdate (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+		ARG 5 data
+	METHOD a setTilesDirty (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a mayPlace (IIIIZ)Z
+		ARG 1 tile
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a setTileEntity (IIILnet/minecraft/a/a/b/a/a;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 te
+	METHOD a getRawBrightness (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a save (La/b;)V
+		ARG 1 listener
+	METHOD a createChunkSource (Ljava/io/File;)Lnet/minecraft/a/a/c/a;
+	METHOD a load (Ljava/io/File;Ljava/lang/String;)Lcom/a/a/c;
+		ARG 0 workDir
+		ARG 1 name
+	METHOD a countInstanceOf (Ljava/lang/Class;)I
+		ARG 1 c
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a addEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD a addListener (Lnet/minecraft/a/a/a;)V
+		ARG 1 listener
+	METHOD a (Lnet/minecraft/a/a/e;III)I
+		ARG 1 layer
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a (Lnet/minecraft/a/a/e;IIII)V
+		ARG 1 layer
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a (Lnet/minecraft/a/a/e;IIIIII)V
+		ARG 1 layer
+		ARG 2 x0
+		ARG 3 y0
+		ARG 4 z0
+		ARG 5 x1
+		ARG 6 y1
+		ARG 7 z1
+	METHOD a addEntity (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity
+	METHOD a explode (Lnet/minecraft/a/c/b;DDDF)V
+		ARG 1 source
+		ARG 2 x
+		ARG 3 _radius
+		ARG 4 y
+		ARG 6 z
+		ARG 7 yy
+		ARG 8 radius
+		ARG 65 _level
+		ARG 66 _source
+		ARG 69 positions
+		ARG 70 xx
+		ARG 74 zz
+	METHOD a findPath (Lnet/minecraft/a/c/b;IIIF)Lnet/minecraft/a/a/a/b;
+		COMMENT looks like the float param got hardcoded
+		ARG 1 e
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 9 xf
+		ARG 10 f
+		ARG 11 reg
+	METHOD a playSound (Lnet/minecraft/a/c/b;Ljava/lang/String;FF)V
+	METHOD a findPath (Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/b;F)Lnet/minecraft/a/a/a/b;
+		COMMENT looks like the float param got hardcoded
+		ARG 1 e
+		ARG 2 target
+		ARG 7 xf
+		ARG 8 f
+		ARG 9 reg
+	METHOD a getCubes (Lnet/minecraft/a/c/b;Lnet/minecraft/a/d/b;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 box
+	METHOD a clip (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+		ARG 1 a
+		ARG 2 b
+	METHOD a clip (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;Z)Lnet/minecraft/a/d/c;
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
+	METHOD a getSeenPercent (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/b;)F
+		ARG 1 t
+		ARG 2 c
+	METHOD a isUnobstructed (Lnet/minecraft/a/d/b;)Z
+		ARG 1 box
+		ARG 4 entities
+	METHOD a containsMaterial (Lnet/minecraft/a/d/b;Lnet/minecraft/a/a/e/c;)Z
+		ARG 1 c
+		ARG 2 mat
+	METHOD a checkAndHandleWater (Lnet/minecraft/a/d/b;Lnet/minecraft/a/a/e/c;Lnet/minecraft/a/c/b;)Z
+		ARG 1 c
+		ARG 2 mat
+		ARG 3 e
+		ARG 18 zo
+	METHOD a tickPendingTicks (Z)Z
+	METHOD a save (ZLa/b;)V
+		ARG 1 all
+		ARG 2 listener
+	METHOD a delete ([Ljava/io/File;)V
+		ARG 0 files
+	METHOD b isDay ()Z
+	METHOD b getSunAngle (F)F
+	METHOD b getHeightmap (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD b setDataNoUpdate (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 dat
+		ARG 6 chunk
+		ARG 8 cx
+		ARG 11 cz
+	METHOD b setTileAndData (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+		ARG 5 data
+	METHOD b hasChunksAt (IIIIII)Z
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+		ARG 8 x
+		ARG 9 z
+	METHOD b delete (Ljava/io/File;Ljava/lang/String;)V
+		ARG 0 workDir
+		ARG 1 levelName
+	METHOD b removeEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD b removeListener (Lnet/minecraft/a/a/a;)V
+		ARG 1 listener
+	METHOD b removeEntity (Lnet/minecraft/a/c/b;)V
+		COMMENT probably wasn't static and had more logic (proguard devirtualization)
+		ARG 0 entity
+	METHOD b getEntities (Lnet/minecraft/a/c/b;Lnet/minecraft/a/d/b;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 box
+	METHOD b containsAnyLiquid (Lnet/minecraft/a/d/b;)Z
+		ARG 1 c
+		ARG 10 x
+	METHOD c tickEntities ()V
+	METHOD c getCloudColor (F)Lnet/minecraft/a/d/a;
+		ARG 1 angle
+	METHOD c getTopTile (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD c setTile (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+	METHOD c tick (Lnet/minecraft/a/c/b;)V
+		ARG 1 entity
+	METHOD c containsFireTile (Lnet/minecraft/a/d/b;)Z
+		ARG 1 c
+		ARG 10 zo
+	METHOD d getFogColor (F)Lnet/minecraft/a/d/a;
+		ARG 1 angle
+	METHOD d hasChunk (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD d (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y
+		ARG 4 y1
+	METHOD e getPlayer ()Lnet/minecraft/a/c/b;
+	METHOD e getStarBrightness (F)F
+	METHOD e updateNeighborsAt (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD f updateLights ()Z
+	METHOD f getSkyDarken (F)I
+	METHOD f addToTickNextTick (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD g tick ()V
+	METHOD g hasChunkAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g extinguishFire (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+	METHOD h getAllEntities ()Ljava/util/List;
+	METHOD h canSeeSky (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h tileUpdated (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD i prepare ()V
+	METHOD i getRawBrightness (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i neighborChanged (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
+	METHOD j isSkyLit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD k removeTileEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD l animateTick (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

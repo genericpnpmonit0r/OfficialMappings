@@ -1,0 +1,2 @@
+CLASS net/minecraft/a/b/a/b net/minecraft/world/item/recipe/FoodRecipes
+	COMMENT mushroom bowl recipes got inlined into Recipes

@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/b/ao net/minecraft/world/level/tile/StoneSlabTile
+	FIELD a solid Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 solid

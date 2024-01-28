@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/a/a/e net/minecraft/client/renderer/entity/ItemRenderer
+	METHOD a (Lnet/minecraft/client/a/d;IIIII)V
+		ARG 0 t
+		ARG 5 color
+	METHOD a (Lnet/minecraft/client/c/k;Lnet/minecraft/a/b/o;II)V
+		ARG 9 t

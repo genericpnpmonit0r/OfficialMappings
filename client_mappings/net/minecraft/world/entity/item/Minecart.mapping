@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/c/c/d net/minecraft/world/entity/item/Minecart
+	METHOD <init> (Lnet/minecraft/a/a/h;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/a/b/a net/minecraft/world/level/tile/ChestTile
+	FIELD a random Ljava/util/Random;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD g isFullChest (Lnet/minecraft/a/a/h;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

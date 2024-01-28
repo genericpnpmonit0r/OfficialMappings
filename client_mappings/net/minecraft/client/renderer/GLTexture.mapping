@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/a/i net/minecraft/client/renderer/GLTexture
+	FIELD a image Ljava/awt/image/BufferedImage;
+	FIELD c texture I
+		COMMENT GL texture
+	FIELD d loaded Z
+	METHOD <init> (Ljava/lang/String;Lnet/minecraft/client/a/c;)V
+		ARG 1 url
+		ARG 2 tex

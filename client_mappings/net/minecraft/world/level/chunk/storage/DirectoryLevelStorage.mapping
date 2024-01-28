@@ -1,0 +1,15 @@
+CLASS net/minecraft/a/a/c/a/e net/minecraft/world/level/chunk/storage/DirectoryLevelStorage
+	FIELD a dataDir Ljava/io/File;
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 dir
+	METHOD a (II)Ljava/io/File;
+		ARG 1 x
+		ARG 2 z
+	METHOD a save (Lnet/minecraft/a/a/c/e;Lnet/minecraft/a/a/h;Lcom/a/a/c;)V
+		ARG 0 chunk
+		ARG 1 level
+		ARG 2 tag
+		ARG 7 entities
+	METHOD a load (Lnet/minecraft/a/a/h;Lcom/a/a/c;)Lnet/minecraft/a/a/c/e;
+		ARG 0 level
+		ARG 1 tag

@@ -1,0 +1,15 @@
+CLASS net/minecraft/a/a/c/a/f net/minecraft/world/level/chunk/storage/Zone
+	FIELD a channel Ljava/nio/channels/FileChannel;
+	FIELD b pos J
+	METHOD <init> (Ljava/nio/channels/FileChannel;J)V
+		ARG 1 channel
+		ARG 2 pos
+	METHOD a flush ()V
+	METHOD a read (I)Ljava/nio/ByteBuffer;
+		ARG 1 size
+	METHOD a write (Ljava/nio/ByteBuffer;I)V
+		ARG 1 buf
+		ARG 2 size
+	METHOD a write ([BI)V
+		ARG 1 buf
+		ARG 2 size

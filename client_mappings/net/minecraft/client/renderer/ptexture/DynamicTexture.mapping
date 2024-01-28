@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/a/c/b net/minecraft/client/renderer/ptexture/DynamicTexture
+	FIELD a pixels [B
+	FIELD b tex I
+	METHOD <init> (I)V
+		ARG 1 tex
+	METHOD a tick ()V

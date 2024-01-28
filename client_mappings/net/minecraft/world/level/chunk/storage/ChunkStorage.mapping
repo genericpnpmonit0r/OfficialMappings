@@ -1,0 +1,19 @@
+CLASS net/minecraft/a/a/c/a/b net/minecraft/world/level/chunk/storage/ChunkStorage
+	METHOD a tick ()V
+	METHOD a load (Lnet/minecraft/a/a/h;II)Lnet/minecraft/a/a/c/e;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 z
+		ARG 9 entities
+		ARG 10 lc
+		ARG 11 bb
+		ARG 12 lev
+	METHOD a save (Lnet/minecraft/a/a/h;Lnet/minecraft/a/a/c/e;)V
+		ARG 1 level
+		ARG 2 chunk
+		ARG 6 zc
+	METHOD b flush ()V
+	METHOD b saveEntities (Lnet/minecraft/a/a/h;Lnet/minecraft/a/a/c/e;)V
+		ARG 1 level
+		ARG 2 chunk
+		ARG 10 off

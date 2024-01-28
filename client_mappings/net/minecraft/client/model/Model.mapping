@@ -1,0 +1,10 @@
+CLASS net/minecraft/client/b/n net/minecraft/client/model/Model
+	METHOD a render (FFFFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 7 i
+	METHOD b setupAnim (FFFFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

@@ -1,0 +1,36 @@
+CLASS net/minecraft/a/b/o net/minecraft/world/item/ItemInstance
+	FIELD a count I
+	FIELD b popTime I
+		COMMENT turns out auxValue would be something else introduced later probs...
+		COMMENT and this is used in rendering so calling it popTime
+	FIELD c id I
+	FIELD d damage I
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 count
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 count
+		ARG 3 damage
+	METHOD <init> (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD <init> (Lnet/minecraft/a/a/b/aa;)V
+		ARG 1 tile
+	METHOD <init> (Lnet/minecraft/a/a/b/aa;I)V
+		ARG 1 tile
+		ARG 2 count
+	METHOD <init> (Lnet/minecraft/a/b/k;)V
+		ARG 1 item
+	METHOD <init> (Lnet/minecraft/a/b/k;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD a getItem ()Lnet/minecraft/a/b/k;
+	METHOD a remove (I)Lnet/minecraft/a/b/o;
+		ARG 1 count
+	METHOD a save (Lcom/a/a/c;)Lcom/a/a/c;
+		ARG 1 tag
+	METHOD b getMaxDamage ()I
+	METHOD b hurt (I)V
+		ARG 1 damage

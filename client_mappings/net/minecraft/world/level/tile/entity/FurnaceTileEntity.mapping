@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/a/b/a/b net/minecraft/world/level/tile/entity/FurnaceTileEntity
+	FIELD e Items [Lnet/minecraft/a/b/o;
+	FIELD f burnTime I
+	FIELD h cookTime I
+	METHOD a getBurnDuration (Lnet/minecraft/a/b/o;)I
+		ARG 0 item
+		ARG 1 id
+	METHOD b ()Ljava/lang/String;
+		COMMENT NOTCH YOU LAZY ASS BITCH

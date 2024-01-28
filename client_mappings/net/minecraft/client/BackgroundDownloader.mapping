@@ -1,0 +1,17 @@
+CLASS net/minecraft/client/l net/minecraft/client/BackgroundDownloader
+	COMMENT i don't this would have been an anonymous class cause no synthetic fields,
+	COMMENT going to name this "BackgroundDownloader" until we find a better name for it...
+	COMMENT and you wouldn't be able to invoke close() if this was an anonymous class anyway
+	FIELD a workDir Ljava/io/File;
+	FIELD b minecraft Lnet/minecraft/client/f;
+	FIELD c stop Z
+	METHOD <init> (Ljava/io/File;Lnet/minecraft/client/f;)V
+		ARG 1 workDir
+		ARG 2 minecraft
+	METHOD a close ()V
+	METHOD a download (Ljava/net/URL;Ljava/io/File;)V
+		ARG 1 url
+		ARG 2 file
+		ARG 5 dis
+		ARG 6 dos
+	METHOD run run ()V

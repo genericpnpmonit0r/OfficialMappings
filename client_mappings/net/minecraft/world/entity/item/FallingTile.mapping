@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/c/c/c net/minecraft/world/entity/item/FallingTile
+	FIELD a tile I
+	METHOD <init> (Lnet/minecraft/a/a/h;FFFI)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 tile
+	METHOD b getLevel ()Lnet/minecraft/a/a/h;

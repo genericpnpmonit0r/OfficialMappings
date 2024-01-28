@@ -1,0 +1,12 @@
+CLASS net/minecraft/a/a/c/b net/minecraft/world/level/chunk/ReadOnlyChunkCache
+	COMMENT i have no idea what notch called this, plus this is only used by IsomPreview, so going to assume that it is just a read only chunkCache...
+	FIELD a chunks [Lnet/minecraft/a/a/c/e;
+	FIELD b level Lnet/minecraft/a/a/h;
+	FIELD c chunkStorage Lnet/minecraft/a/a/c/a/b;
+	FIELD d blocks [B
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/a/c/a/b;)V
+		ARG 1 level
+		ARG 2 storage
+	METHOD c load (II)Lnet/minecraft/a/a/c/e;
+		ARG 1 x
+		ARG 2 z

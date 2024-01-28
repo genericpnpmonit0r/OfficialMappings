@@ -1,0 +1,7 @@
+CLASS net/minecraft/a/c/e/b net/minecraft/world/entity/player/Inventory
+	FIELD a items [Lnet/minecraft/a/b/o;
+	FIELD b armor [Lnet/minecraft/a/b/o;
+	FIELD c selected I
+	METHOD a add (Lnet/minecraft/a/b/o;)Z
+		ARG 1 item
+	METHOD e getSelected ()Lnet/minecraft/a/b/o;

@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/c/d net/minecraft/client/gui/ErrorScreen
+	COMMENT this renders null string because the fields and constructor with the string arguments is gone

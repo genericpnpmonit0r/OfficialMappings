@@ -1,0 +1,52 @@
+CLASS net/minecraft/a/d/b net/minecraft/world/phys/AABB
+	FIELD a x0 D
+	FIELD b y0 D
+	FIELD c z0 D
+	FIELD d x1 D
+	FIELD e y1 D
+	FIELD f z1 D
+	METHOD <init> (DDDDDD)V
+		ARG 1 x0
+		ARG 3 y0
+		ARG 5 z0
+		ARG 7 x1
+		ARG 9 y1
+		ARG 11 z1
+	METHOD a copy ()Lnet/minecraft/a/d/b;
+	METHOD a expand (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD a containsX (Lnet/minecraft/a/d/a;)Z
+		ARG 1 t
+	METHOD a clip (Lnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+		ARG 1 a
+		ARG 2 b
+		ARG 9 f
+	METHOD a intersects (Lnet/minecraft/a/d/b;)Z
+		ARG 1 c
+	METHOD a clipXCollide (Lnet/minecraft/a/d/b;D)D
+		ARG 1 c
+		ARG 2 xa
+	METHOD b grow (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD b containsY (Lnet/minecraft/a/d/a;)Z
+		ARG 1 t
+	METHOD b clipYCollide (Lnet/minecraft/a/d/b;D)D
+		ARG 1 c
+		ARG 2 ya
+	METHOD c cloneMove (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD c containsZ (Lnet/minecraft/a/d/a;)Z
+		ARG 1 t
+	METHOD c clipZCollide (Lnet/minecraft/a/d/b;D)D
+		ARG 1 c
+		ARG 2 za
+	METHOD d move (DDD)Lnet/minecraft/a/d/b;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za

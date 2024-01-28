@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/a/a/g net/minecraft/client/renderer/entity/PlayerRenderer
+	METHOD a render (Lnet/minecraft/a/c/e/a;DDDFF)V
+		ARG 1 player
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 9 time

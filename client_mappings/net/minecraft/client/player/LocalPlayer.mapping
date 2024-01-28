@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/g/a net/minecraft/client/player/LocalPlayer
+	FIELD a input Lnet/minecraft/client/g/b;
+	FIELD as minecraft Lnet/minecraft/client/f;
+	METHOD <init> (Lnet/minecraft/client/f;Lnet/minecraft/a/a/h;Lnet/minecraft/client/o;)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 user

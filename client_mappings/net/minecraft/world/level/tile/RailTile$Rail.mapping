@@ -1,0 +1,29 @@
+CLASS net/minecraft/a/a/b/ag net/minecraft/world/level/tile/RailTile$Rail
+	FIELD a level Lnet/minecraft/a/a/h;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e data I
+	FIELD f conections Ljava/util/List;
+	FIELD g this$0 Lnet/minecraft/a/a/b/n;
+	METHOD <init> (Lnet/minecraft/a/a/b/n;Lnet/minecraft/a/a/h;III)V
+		ARG 1 this$0
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 rail
+	METHOD a (Lnet/minecraft/a/a/b/ag;)Z
+		ARG 1 rail
+	METHOD a getRail (Lnet/minecraft/a/a/i;)Lnet/minecraft/a/a/b/ag;
+		ARG 1 pos
+	METHOD b init ()V
+	METHOD b (Lnet/minecraft/a/a/b/ag;)Z
+		ARG 1 rail

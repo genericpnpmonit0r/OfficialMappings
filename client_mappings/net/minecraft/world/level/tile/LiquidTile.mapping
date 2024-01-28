@@ -1,0 +1,38 @@
+CLASS net/minecraft/a/a/b/q net/minecraft/world/level/tile/LiquidTile
+	FIELD a type I
+	METHOD a getSlopeAngle (Lnet/minecraft/a/a/j;IIILnet/minecraft/a/a/e/c;)D
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 mat
+	METHOD b getHeight (I)F
+		COMMENT was inlined in all other releases of mcpe other than 0.1.1j, 0.1.2j, 0.1.3j
+		ARG 0 data
+	METHOD c getRenderedDepth (Lnet/minecraft/a/a/j;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 depth
+	METHOD d getFlow (Lnet/minecraft/a/a/j;III)Lnet/minecraft/a/d/a;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f getDepth (Lnet/minecraft/a/a/h;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g fizz (Lnet/minecraft/a/a/h;III)V
+		COMMENT probably wasn't originally static (proguard devirtualization)
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h updateLiquid (Lnet/minecraft/a/a/h;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

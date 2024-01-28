@@ -1,0 +1,15 @@
+CLASS net/minecraft/client/p net/minecraft/client/MouseInput
+	COMMENT now would notch have called this Mouse or MouseInput since it seems to emulate the lwjgl mouse crap but with AWT stuff instead
+	FIELD a xxa I
+	FIELD b yya I
+	FIELD c parent Ljava/awt/Component;
+	FIELD d robot Ljava/awt/Robot;
+	FIELD e x I
+	FIELD f y I
+	FIELD g cursor Lorg/lwjgl/input/Cursor;
+	FIELD h delay I
+	METHOD <init> (Ljava/awt/Component;)V
+		ARG 1 parent
+		ARG 5 delays
+	METHOD a reset ()V
+	METHOD b next ()V

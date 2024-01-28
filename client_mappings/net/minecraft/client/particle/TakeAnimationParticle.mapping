@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/f/e net/minecraft/client/particle/TakeAnimationParticle
+	FIELD ad item Lnet/minecraft/a/c/b;
+	FIELD ae player Lnet/minecraft/a/c/f;
+	FIELD af age I
+	FIELD ag oAge I
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/a/c/b;Lnet/minecraft/a/c/f;F)V
+		ARG 1 level
+		ARG 2 item
+		ARG 3 player

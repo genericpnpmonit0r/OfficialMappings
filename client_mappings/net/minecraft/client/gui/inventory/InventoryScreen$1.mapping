@@ -1,0 +1,5 @@
+CLASS net/minecraft/client/c/a/e net/minecraft/client/gui/inventory/InventoryScreen$1
+	FIELD e val$unk I
+	METHOD <init> (Lnet/minecraft/client/c/a/f;Lnet/minecraft/client/c/a/j;Lnet/minecraft/a/b;IIII)V
+		ARG 1 this$0
+		ARG 7 val$unk

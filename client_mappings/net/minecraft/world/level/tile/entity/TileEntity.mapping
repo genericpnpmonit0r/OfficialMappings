@@ -1,0 +1,19 @@
+CLASS net/minecraft/a/a/b/a/a net/minecraft/world/level/tile/entity/TileEntity
+	FIELD a level Lnet/minecraft/a/a/h;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e idClassMap Ljava/util/Map;
+	FIELD f classIdMap Ljava/util/Map;
+	METHOD a load (Lcom/a/a/c;)V
+		ARG 1 tag
+		ARG 5 items
+	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 c
+		ARG 1 id
+	METHOD b save (Lcom/a/a/c;)V
+		ARG 1 tag
+	METHOD c loadStatic (Lcom/a/a/c;)Lnet/minecraft/a/a/b/a/a;
+		ARG 0 tag
+	METHOD e tick ()V
+	METHOD f getData ()I

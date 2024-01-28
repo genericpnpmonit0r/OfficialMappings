@@ -1,0 +1,30 @@
+CLASS net/minecraft/client/f/d net/minecraft/client/particle/ParticleEngine
+	FIELD a level Lnet/minecraft/a/a/h;
+	FIELD b particles [Ljava/util/List;
+	FIELD c textures Lnet/minecraft/client/a/l;
+	METHOD <init> (Lnet/minecraft/a/a/h;Lnet/minecraft/client/a/l;)V
+		ARG 1 level
+		ARG 2 textures
+		ARG 3 i
+	METHOD a render (F)V
+		ARG 1 a
+	METHOD a destroy (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a crack (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+		ARG 14 part
+	METHOD a setLevel (Lnet/minecraft/a/a/h;)V
+		ARG 1 level
+		ARG 2 i
+	METHOD a renderLit (Lnet/minecraft/a/c/b;F)V
+		ARG 1 entity
+		ARG 2 a
+		ARG 11 i
+	METHOD a addParticle (Lnet/minecraft/client/f/k;)V
+		ARG 1 particle
+	METHOD b countParticles ()Ljava/lang/String;

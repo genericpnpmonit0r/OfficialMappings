@@ -1,0 +1,9 @@
+CLASS net/minecraft/a/a/b net/minecraft/world/level/MobSpawner
+	METHOD a (Lnet/minecraft/a/a/h;)V
+		ARG 1 level
+	METHOD a getRandomPosWithin (Lnet/minecraft/a/a/h;II)Lnet/minecraft/a/a/i;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 z
+	METHOD a (Lnet/minecraft/a/a/h;Lnet/minecraft/a/c/b;)I
+		ARG 1 level

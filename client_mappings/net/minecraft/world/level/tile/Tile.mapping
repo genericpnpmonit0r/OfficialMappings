@@ -1,0 +1,275 @@
+CLASS net/minecraft/a/a/b/aa net/minecraft/world/level/tile/Tile
+	COMMENT the setter for the sound type has been deleted by proguard,
+	COMMENT original method name is setSoundType(SoundType)
+	FIELD A cloth Lnet/minecraft/a/a/b/aa;
+	FIELD B flower Lnet/minecraft/a/a/b/ah;
+	FIELD C rose Lnet/minecraft/a/a/b/ah;
+	FIELD D mushroom1 Lnet/minecraft/a/a/b/ah;
+	FIELD E mushroom2 Lnet/minecraft/a/a/b/ah;
+	FIELD F goldBlock Lnet/minecraft/a/a/b/aa;
+	FIELD G ironBlock Lnet/minecraft/a/a/b/aa;
+	FIELD H stoneSlab Lnet/minecraft/a/a/b/aa;
+	FIELD I stoneSlabHalf Lnet/minecraft/a/a/b/aa;
+	FIELD J redBrick Lnet/minecraft/a/a/b/aa;
+	FIELD K tnt Lnet/minecraft/a/a/b/aa;
+	FIELD L bookshelf Lnet/minecraft/a/a/b/aa;
+	FIELD M mossStone Lnet/minecraft/a/a/b/aa;
+	FIELD N obsidian Lnet/minecraft/a/a/b/aa;
+	FIELD O torch Lnet/minecraft/a/a/b/aa;
+	FIELD P fire Lnet/minecraft/a/a/b/an;
+	FIELD Q chest Lnet/minecraft/a/a/b/aa;
+	FIELD R gear Lnet/minecraft/a/a/b/aa;
+	FIELD S emeraldOre Lnet/minecraft/a/a/b/aa;
+	FIELD T emeraldBlock Lnet/minecraft/a/a/b/aa;
+	FIELD U workBench Lnet/minecraft/a/a/b/aa;
+	FIELD V crops Lnet/minecraft/a/a/b/aa;
+	FIELD W farmland Lnet/minecraft/a/a/b/aa;
+	FIELD X furnace Lnet/minecraft/a/a/b/aa;
+	FIELD Y furnace_lit Lnet/minecraft/a/a/b/aa;
+	FIELD Z sign Lnet/minecraft/a/a/b/aa;
+	FIELD a SOUND_NORMAL Lnet/minecraft/a/a/b/o;
+	FIELD aa door_wood Lnet/minecraft/a/a/b/aa;
+	FIELD ab ladder Lnet/minecraft/a/a/b/aa;
+	FIELD ac rail Lnet/minecraft/a/a/b/aa;
+	FIELD ad texture I
+	FIELD ae id I
+	FIELD af xx0 D
+	FIELD ag yy0 D
+	FIELD ah zz0 D
+	FIELD ai xx1 D
+	FIELD aj yy1 D
+	FIELD ak zz1 D
+	FIELD al soundType Lnet/minecraft/a/a/b/o;
+	FIELD am particleGravity F
+	FIELD an material Lnet/minecraft/a/a/e/c;
+	FIELD ao SOUND_WOOD Lnet/minecraft/a/a/b/o;
+	FIELD ap SOUND_GRAVEL Lnet/minecraft/a/a/b/o;
+	FIELD aq SOUND_GRASS Lnet/minecraft/a/a/b/o;
+	FIELD ar SOUND_STONE Lnet/minecraft/a/a/b/o;
+	FIELD as SOUND_METAL Lnet/minecraft/a/a/b/o;
+	FIELD at SOUND_GLASS Lnet/minecraft/a/a/b/o;
+	FIELD au SOUND_CLOTH Lnet/minecraft/a/a/b/o;
+	FIELD av SOUND_SAND Lnet/minecraft/a/a/b/o;
+	FIELD aw isContainerTile [Z
+		COMMENT calling this isContainerTile for now even though it is unused, what the fuck was notch smoking in june 2010
+	FIELD ax destroyTime F
+	FIELD ay explosionResistance F
+	FIELD b tiles [Lnet/minecraft/a/a/b/aa;
+	FIELD c shouldTick [Z
+	FIELD d solid [Z
+	FIELD e lightBlock [I
+	FIELD f lightEmission [I
+	FIELD g rock Lnet/minecraft/a/a/b/aa;
+	FIELD h grass Lnet/minecraft/a/a/b/aj;
+	FIELD i dirt Lnet/minecraft/a/a/b/aa;
+	FIELD j stoneBrick Lnet/minecraft/a/a/b/aa;
+	FIELD k wood Lnet/minecraft/a/a/b/aa;
+	FIELD l sapling Lnet/minecraft/a/a/b/aa;
+	FIELD m unbreakable Lnet/minecraft/a/a/b/aa;
+	FIELD n water Lnet/minecraft/a/a/b/aa;
+	FIELD o calmWater Lnet/minecraft/a/a/b/aa;
+	FIELD p lava Lnet/minecraft/a/a/b/aa;
+	FIELD q calmLava Lnet/minecraft/a/a/b/aa;
+	FIELD r sand Lnet/minecraft/a/a/b/aa;
+	FIELD s gravel Lnet/minecraft/a/a/b/aa;
+	FIELD t goldOre Lnet/minecraft/a/a/b/aa;
+	FIELD u ironOre Lnet/minecraft/a/a/b/aa;
+	FIELD v coalOre Lnet/minecraft/a/a/b/aa;
+	FIELD w treeTrunk Lnet/minecraft/a/a/b/aa;
+	FIELD x leaves Lnet/minecraft/a/a/b/p;
+	FIELD y sponge Lnet/minecraft/a/a/b/aa;
+	FIELD z glass Lnet/minecraft/a/a/b/aa;
+	METHOD <init> (IILnet/minecraft/a/a/e/c;)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 mat
+	METHOD <init> (ILnet/minecraft/a/a/e/c;)V
+		ARG 1 id
+		ARG 2 mat
+	METHOD a getRenderShape ()I
+	METHOD a setDestroyTime (F)Lnet/minecraft/a/a/b/aa;
+		ARG 1 t
+	METHOD a setShape (FFFFFF)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a getTexture (I)I
+		ARG 1 face
+	METHOD a getTexture (II)I
+		ARG 1 face
+		ARG 2 data
+	METHOD a getResource (ILjava/util/Random;)I
+		COMMENT we still don't fully know what notch would have called the metadata parameter, i mean it could be a number of things
+		ARG 1 data
+		ARG 2 random
+	METHOD a mayPick (IZ)Z
+		ARG 1 tile
+		ARG 2 b
+	METHOD a resourceCount (Ljava/util/Random;)I
+		ARG 1 random
+	METHOD a mayPlace (Lnet/minecraft/a/a/h;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a destroy (Lnet/minecraft/a/a/h;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 f
+		ARG 6 tnt
+	METHOD a spawnResources (Lnet/minecraft/a/a/h;IIIIF)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 data
+		ARG 6 odds
+	METHOD a tick (Lnet/minecraft/a/a/h;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD a stepOn (Lnet/minecraft/a/a/h;IIILnet/minecraft/a/c/b;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 entity
+	METHOD a use (Lnet/minecraft/a/a/h;IIILnet/minecraft/a/c/e/a;)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD a handleEntityInside (Lnet/minecraft/a/a/h;IIILnet/minecraft/a/d/a;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 motion
+		ARG 6 flow
+	METHOD a clip (Lnet/minecraft/a/a/h;IIILnet/minecraft/a/d/a;Lnet/minecraft/a/d/a;)Lnet/minecraft/a/d/c;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 a
+		ARG 6 b
+		ARG 12 v
+		ARG 14 f
+	METHOD a updateShape (Lnet/minecraft/a/a/j;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a getTexture (Lnet/minecraft/a/a/j;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+		ARG 6 data
+		ARG 12 t
+		ARG 13 t2
+		ARG 14 ff
+		ARG 15 fff
+	METHOD a getDestroyProgress (Lnet/minecraft/a/c/e/a;)F
+		ARG 1 player
+	METHOD a containsX (Lnet/minecraft/a/d/a;)Z
+		ARG 1 xa
+	METHOD a_ getTileAABB (Lnet/minecraft/a/a/h;III)Lnet/minecraft/a/d/b;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b isSolidRender ()Z
+	METHOD b setLightEmission (F)Lnet/minecraft/a/a/b/aa;
+		ARG 1 le
+	METHOD b onRemove (Lnet/minecraft/a/a/h;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b neighborChanged (Lnet/minecraft/a/a/h;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 f
+	METHOD b animateTick (Lnet/minecraft/a/a/h;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+		ARG 6 xo
+		ARG 7 yo
+		ARG 8 zo
+		ARG 9 dat
+	METHOD b attack (Lnet/minecraft/a/a/h;IIILnet/minecraft/a/c/e/a;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 player
+	METHOD b getBrightness (Lnet/minecraft/a/a/j;III)F
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 6 br
+	METHOD b shouldRenderFace (Lnet/minecraft/a/a/j;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD b containsY (Lnet/minecraft/a/d/a;)Z
+		ARG 1 ya
+	METHOD b setTicking (Z)V
+		ARG 1 ticking
+	METHOD c isCubeShaped ()Z
+	METHOD c setExplodeable (F)Lnet/minecraft/a/a/b/aa;
+		ARG 1 explode
+	METHOD c setLightBlock (I)Lnet/minecraft/a/a/b/aa;
+		ARG 1 lb
+	METHOD c wasExploded (Lnet/minecraft/a/a/h;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 tnt
+	METHOD c setPlacedOnFace (Lnet/minecraft/a/a/h;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD c containsZ (Lnet/minecraft/a/d/a;)Z
+		ARG 1 za
+	METHOD d mayPick ()Z
+	METHOD d getAABB (Lnet/minecraft/a/a/h;III)Lnet/minecraft/a/d/b;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d spawnResources (Lnet/minecraft/a/a/h;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 data
+	METHOD e getTickDelay ()I
+	METHOD e onPlace (Lnet/minecraft/a/a/h;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f getRenderLayer ()I
+	METHOD g getExplosionResistance ()F

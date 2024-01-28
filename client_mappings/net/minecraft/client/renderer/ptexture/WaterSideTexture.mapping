@@ -1,0 +1,6 @@
+CLASS net/minecraft/client/a/c/a net/minecraft/client/renderer/ptexture/WaterSideTexture
+	FIELD f r [F
+	FIELD g g [F
+	FIELD h b [F
+	FIELD i a [F
+	FIELD j tickCounter I

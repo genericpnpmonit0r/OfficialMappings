@@ -1,0 +1,10 @@
+CLASS net/minecraft/client/b/k net/minecraft/client/model/Polygon
+	FIELD a vertices [Lnet/minecraft/client/b/l;
+	METHOD <init> ([Lnet/minecraft/client/b/l;)V
+		ARG 1 vertices
+	METHOD <init> ([Lnet/minecraft/client/b/l;IIII)V
+		ARG 1 vertices
+		ARG 2 u0
+		ARG 3 v0
+		ARG 4 u1
+		ARG 5 v1

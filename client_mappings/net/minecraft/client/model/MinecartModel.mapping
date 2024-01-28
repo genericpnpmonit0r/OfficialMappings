@@ -1,0 +1,2 @@
+CLASS net/minecraft/client/b/c net/minecraft/client/model/MinecartModel
+	FIELD a cubes [Lnet/minecraft/client/b/d;

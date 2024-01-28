@@ -1,0 +1,6 @@
+CLASS net/minecraft/a/b/a/i net/minecraft/world/item/recipe/Recipes$1
+	METHOD <init> (Lnet/minecraft/a/b/a/f;)V
+		ARG 1 this$0
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 r0
+		ARG 2 r1

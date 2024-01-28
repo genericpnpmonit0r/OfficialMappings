@@ -1,0 +1,24 @@
+CLASS net/minecraft/a/a/c/a/a net/minecraft/world/level/chunk/storage/EntityFile
+	FIELD a buffer [B
+	FIELD b file Ljava/io/RandomAccessFile;
+	FIELD c entries [Ljava/util/List;
+	FIELD d entrypos Ljava/util/List;
+	FIELD e length I
+	FIELD f newLargest J
+	FIELD g currentEntry Ljava/util/List;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 path
+		ARG 3 i
+		ARG 4 j
+	METHOD a close ()V
+	METHOD a readEntities (I)Ljava/util/List;
+		ARG 1 size
+	METHOD a saveEntities (ILjava/util/List;)V
+		ARG 1 size
+		ARG 2 entityTags
+	METHOD b writeMagic ()V
+	METHOD b seek (I)V
+		ARG 1 pos
+	METHOD c entrySize ()I
+	METHOD c seek2 (I)V
+		ARG 1 pos

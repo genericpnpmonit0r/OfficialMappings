@@ -1,0 +1,11 @@
+CLASS net/minecraft/client/e/c net/minecraft/client/sound/SoundEngine
+	FIELD b sounds Lnet/minecraft/client/e/b;
+	FIELD c music Lnet/minecraft/client/e/b;
+	FIELD e options Lnet/minecraft/client/u;
+	METHOD a playUI (Ljava/lang/String;FF)V
+	METHOD a play (Ljava/lang/String;FFFFF)V
+	METHOD a update (Lnet/minecraft/a/c/f;F)V
+	METHOD a init (Lnet/minecraft/client/u;)V
+		ARG 1 options
+	METHOD b destroy ()V
+	METHOD c init ()V

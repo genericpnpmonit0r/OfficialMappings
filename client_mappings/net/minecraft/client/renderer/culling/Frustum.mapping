@@ -1,0 +1,9 @@
+CLASS net/minecraft/client/a/b/a net/minecraft/client/renderer/culling/Frustum
+	FIELD e frustum Lnet/minecraft/client/a/b/a;
+	FIELD f _proj Ljava/nio/FloatBuffer;
+	FIELD g _modl Ljava/nio/FloatBuffer;
+	FIELD h _clip Ljava/nio/FloatBuffer;
+	METHOD a calculateFrustum ()Lnet/minecraft/client/a/b/b;
+	METHOD a normalizePlane ([[FI)V
+		ARG 0 frustum
+		ARG 1 side

@@ -1,0 +1,35 @@
+CLASS net/minecraft/client/u net/minecraft/client/Options
+	FIELD A minecraft Lnet/minecraft/client/f;
+	FIELD B file Ljava/io/File;
+	FIELD a music Z
+	FIELD b sound Z
+	FIELD c invertYMouse Z
+	FIELD d showFrameRate Z
+	FIELD e viewDistance I
+	FIELD f bobView Z
+	FIELD g anaglyph3d Z
+	FIELD h limitFramerate Z
+	FIELD i fancyGraphics Z
+	FIELD j forward Lnet/minecraft/client/j;
+	FIELD k left Lnet/minecraft/client/j;
+	FIELD l back Lnet/minecraft/client/j;
+	FIELD m right Lnet/minecraft/client/j;
+	FIELD n jump Lnet/minecraft/client/j;
+	FIELD o inventory Lnet/minecraft/client/j;
+	FIELD p drop Lnet/minecraft/client/j;
+	FIELD q toggleFog Lnet/minecraft/client/j;
+	FIELD r saveLocation Lnet/minecraft/client/j;
+	FIELD s loadLocation Lnet/minecraft/client/j;
+	FIELD t keyMappings [Lnet/minecraft/client/j;
+	FIELD v difficulty I
+	FIELD x RENDER_DISTANCE_NAMES [Ljava/lang/String;
+	FIELD y DIFFICULTY_NAMES [Ljava/lang/String;
+	FIELD z chat Lnet/minecraft/client/j;
+	METHOD <init> (Lnet/minecraft/client/f;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 workDir
+	METHOD a save ()V
+	METHOD a getKeyDescription (I)Ljava/lang/String;
+		ARG 1 key
+	METHOD b load ()V
+	METHOD b getStringValue (I)Ljava/lang/String;

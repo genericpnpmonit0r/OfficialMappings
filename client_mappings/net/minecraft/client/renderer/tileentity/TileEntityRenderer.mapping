@@ -1,0 +1,8 @@
+CLASS net/minecraft/client/a/d/b net/minecraft/client/renderer/tileentity/TileEntityRenderer
+	FIELD a dispatcher Lnet/minecraft/client/a/d/c;
+	METHOD a getFont ()Lnet/minecraft/client/c/k;
+	METHOD a bindTexture (Ljava/lang/String;)V
+		ARG 1 texture
+	METHOD a render (Lnet/minecraft/a/a/b/a/a;DDDF)V
+	METHOD a init (Lnet/minecraft/client/a/d/c;)V
+		ARG 1 dispatcher

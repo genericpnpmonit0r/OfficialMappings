@@ -1,0 +1,21 @@
+CLASS net/minecraft/client/a/j net/minecraft/client/renderer/RenderList
+	FIELD a xo I
+	FIELD b yo I
+	FIELD c zo I
+	FIELD d x F
+	FIELD e y F
+	FIELD f z F
+	FIELD g lists Ljava/nio/IntBuffer;
+	METHOD a render ()V
+	METHOD a add (I)V
+	METHOD a (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a init (IIIDDD)V
+		ARG 1 xo
+		ARG 2 yo
+		ARG 3 zo
+		ARG 4 x
+		ARG 6 y
+		ARG 8 z

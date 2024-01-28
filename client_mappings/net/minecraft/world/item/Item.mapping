@@ -1,0 +1,117 @@
+CLASS net/minecraft/a/b/k net/minecraft/world/item/Item
+	FIELD A stick Lnet/minecraft/a/b/k;
+	FIELD B bowl Lnet/minecraft/a/b/k;
+	FIELD C mushroomStew Lnet/minecraft/a/b/k;
+	FIELD D sword_gold Lnet/minecraft/a/b/k;
+	FIELD E shovel_gold Lnet/minecraft/a/b/k;
+	FIELD F pickAxe_gold Lnet/minecraft/a/b/k;
+	FIELD G hatchet_gold Lnet/minecraft/a/b/k;
+	FIELD H string Lnet/minecraft/a/b/k;
+	FIELD I feather Lnet/minecraft/a/b/k;
+	FIELD J sulphur Lnet/minecraft/a/b/k;
+	FIELD K hoe_wood Lnet/minecraft/a/b/k;
+	FIELD L hoe_stone Lnet/minecraft/a/b/k;
+	FIELD M hoe_iron Lnet/minecraft/a/b/k;
+	FIELD N hoe_diamond Lnet/minecraft/a/b/k;
+	FIELD O hoe_gold Lnet/minecraft/a/b/k;
+	FIELD P seeds Lnet/minecraft/a/b/k;
+	FIELD Q wheat Lnet/minecraft/a/b/k;
+	FIELD R bread Lnet/minecraft/a/b/k;
+	FIELD S helmet_cloth Lnet/minecraft/a/b/k;
+	FIELD T chestplate_cloth Lnet/minecraft/a/b/k;
+	FIELD U leggings_cloth Lnet/minecraft/a/b/k;
+	FIELD V boots_cloth Lnet/minecraft/a/b/k;
+	FIELD W helmet_chain Lnet/minecraft/a/b/k;
+	FIELD X chestplate_chain Lnet/minecraft/a/b/k;
+	FIELD Y leggings_chain Lnet/minecraft/a/b/k;
+	FIELD Z boots_chain Lnet/minecraft/a/b/k;
+	FIELD aA icon I
+		COMMENT this had 2 setters, setIcon(int) and setIcon(int,int), one which got removed by proguard
+	FIELD a random Ljava/util/Random;
+	FIELD aa helmet_iron Lnet/minecraft/a/b/k;
+	FIELD ab chestplate_iron Lnet/minecraft/a/b/k;
+	FIELD ac leggings_iron Lnet/minecraft/a/b/k;
+	FIELD ad boots_iron Lnet/minecraft/a/b/k;
+	FIELD ae helmet_diamond Lnet/minecraft/a/b/k;
+	FIELD af chestplate_diamond Lnet/minecraft/a/b/k;
+	FIELD ag leggings_diamond Lnet/minecraft/a/b/k;
+	FIELD ah boots_diamond Lnet/minecraft/a/b/k;
+	FIELD ai helmet_gold Lnet/minecraft/a/b/k;
+	FIELD aj chestplate_gold Lnet/minecraft/a/b/k;
+	FIELD ak leggings_gold Lnet/minecraft/a/b/k;
+	FIELD al boots_gold Lnet/minecraft/a/b/k;
+	FIELD am flint Lnet/minecraft/a/b/k;
+	FIELD an porkChop_raw Lnet/minecraft/a/b/k;
+	FIELD ao porkChop_cooked Lnet/minecraft/a/b/k;
+	FIELD ap painting Lnet/minecraft/a/b/k;
+	FIELD aq apple_gold Lnet/minecraft/a/b/k;
+	FIELD ar sign Lnet/minecraft/a/b/k;
+	FIELD as door_wood Lnet/minecraft/a/b/k;
+	FIELD at bucket_empty Lnet/minecraft/a/b/k;
+	FIELD au bucket_water Lnet/minecraft/a/b/k;
+	FIELD av bucket_lava Lnet/minecraft/a/b/k;
+	FIELD aw minecart Lnet/minecraft/a/b/k;
+	FIELD ax id I
+	FIELD ay maxStackSize I
+		COMMENT this probably had a setter? maybe?
+	FIELD az maxDamage I
+	FIELD b items [Lnet/minecraft/a/b/k;
+	FIELD c shovel_iron Lnet/minecraft/a/b/k;
+	FIELD d pickAxe_iron Lnet/minecraft/a/b/k;
+	FIELD e hatchet_iron Lnet/minecraft/a/b/k;
+	FIELD f flintAndSteel Lnet/minecraft/a/b/k;
+	FIELD g apple Lnet/minecraft/a/b/k;
+	FIELD h bow Lnet/minecraft/a/b/k;
+	FIELD i arrow Lnet/minecraft/a/b/k;
+	FIELD j coal Lnet/minecraft/a/b/k;
+	FIELD k emerald Lnet/minecraft/a/b/k;
+	FIELD l ironIngot Lnet/minecraft/a/b/k;
+	FIELD m goldIngot Lnet/minecraft/a/b/k;
+	FIELD n sword_iron Lnet/minecraft/a/b/k;
+	FIELD o sword_wood Lnet/minecraft/a/b/k;
+	FIELD p shovel_wood Lnet/minecraft/a/b/k;
+	FIELD q pickAxe_wood Lnet/minecraft/a/b/k;
+	FIELD r hatchet_wood Lnet/minecraft/a/b/k;
+	FIELD s sword_stone Lnet/minecraft/a/b/k;
+	FIELD t shovel_stone Lnet/minecraft/a/b/k;
+	FIELD u pickAxe_stone Lnet/minecraft/a/b/k;
+	FIELD v hatchet_stone Lnet/minecraft/a/b/k;
+	FIELD w sword_diamond Lnet/minecraft/a/b/k;
+	FIELD x shovel_diamond Lnet/minecraft/a/b/k;
+	FIELD y pickAxe_diamond Lnet/minecraft/a/b/k;
+	FIELD z hatchet_diamond Lnet/minecraft/a/b/k;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getAttackDamage ()I
+	METHOD a setIcon (I)Lnet/minecraft/a/b/k;
+		ARG 1 icon
+	METHOD a canDestroySpecial (Lnet/minecraft/a/a/b/aa;)Z
+		ARG 1 tile
+	METHOD a hurtEnemy (Lnet/minecraft/a/b/o;)V
+		ARG 1 item
+	METHOD a use (Lnet/minecraft/a/b/o;Lnet/minecraft/a/a/h;Lnet/minecraft/a/c/e/a;)Lnet/minecraft/a/b/o;
+		ARG 1 item
+		ARG 2 level
+		ARG 3 player
+		ARG 12 v
+		ARG 13 hr
+	METHOD a useOn (Lnet/minecraft/a/b/o;Lnet/minecraft/a/c/e/a;Lnet/minecraft/a/a/h;IIII)Z
+		ARG 1 item
+		ARG 2 player
+		ARG 3 level
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+		ARG 8 tile
+		ARG 9 p
+		ARG 10 st_
+		ARG 12 dir
+		ARG 15 f
+	METHOD b getIcon ()I
+	METHOD b getDestroySpeed (Lnet/minecraft/a/a/b/aa;)F
+		ARG 1 tile
+	METHOD b mineBlock (Lnet/minecraft/a/b/o;)V
+		ARG 1 item
+	METHOD c getMaxStackSize ()I
+	METHOD d getMaxDamage ()I

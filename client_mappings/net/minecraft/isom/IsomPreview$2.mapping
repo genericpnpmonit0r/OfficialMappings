@@ -1,0 +1,5 @@
+CLASS net/minecraft/isom/c net/minecraft/isom/IsomPreview$2
+	FIELD a this$0 Lnet/minecraft/isom/a;
+	METHOD <init> (Lnet/minecraft/isom/a;)V
+		ARG 1 this$0
+	METHOD run run ()V

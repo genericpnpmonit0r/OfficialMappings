@@ -1,0 +1,5 @@
+CLASS net/minecraft/a/a/e net/minecraft/world/level/LightLayer
+	FIELD a Sky Lnet/minecraft/a/a/e;
+	FIELD b Block Lnet/minecraft/a/a/e;
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 i
