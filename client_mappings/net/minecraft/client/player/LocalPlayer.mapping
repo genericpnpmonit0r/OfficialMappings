@@ -5,3 +5,4 @@ CLASS net/minecraft/client/g/a net/minecraft/client/player/LocalPlayer
 		ARG 1 minecraft
 		ARG 2 level
 		ARG 3 user
+	METHOD g_ clearSlot ()V

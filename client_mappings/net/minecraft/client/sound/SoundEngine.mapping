@@ -4,7 +4,12 @@ CLASS net/minecraft/client/e/c net/minecraft/client/sound/SoundEngine
 	FIELD e options Lnet/minecraft/client/u;
 	METHOD a playUI (Ljava/lang/String;FF)V
 	METHOD a play (Ljava/lang/String;FFFFF)V
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a update (Lnet/minecraft/a/c/f;F)V
+		ARG 1 mob
+		ARG 2 time
 	METHOD a init (Lnet/minecraft/client/u;)V
 		ARG 1 options
 	METHOD b destroy ()V

@@ -2,3 +2,7 @@ CLASS net/minecraft/client/a/c net/minecraft/client/renderer/Texture
 	FIELD a rgb [I
 	FIELD b width I
 	FIELD c height I
+	METHOD a (IIII)V
+		ARG 8 texture
+	METHOD a (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 image

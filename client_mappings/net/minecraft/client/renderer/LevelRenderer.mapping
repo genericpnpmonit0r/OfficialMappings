@@ -18,6 +18,8 @@ CLASS net/minecraft/client/a/b net/minecraft/client/renderer/LevelRenderer
 		ARG 4 t
 	METHOD a (F)V
 		ARG 1 time
+	METHOD a (IIID)I
+		ARG 4 time
 	METHOD a setLevel (Lnet/minecraft/a/a/h;)V
 		ARG 1 level
 	METHOD a (Lnet/minecraft/a/c/e/a;)V
@@ -29,17 +31,23 @@ CLASS net/minecraft/client/a/b net/minecraft/client/renderer/LevelRenderer
 		ARG 1 player
 		ARG 2 hr
 		ARG 3 tile
-		ARG 4 a
+		ARG 4 time
 		ARG 12 bb
 		ARG 13 t
 	METHOD a (Lnet/minecraft/a/c/e/a;Lnet/minecraft/a/d/c;ILnet/minecraft/a/b/o;F)V
 		ARG 1 player
+		ARG 2 hr
+		ARG 5 time
+		ARG 16 t
+		ARG 18 id
 	METHOD a renderEntities (Lnet/minecraft/a/d/a;Lnet/minecraft/client/a/b/c;F)V
 		ARG 1 pos
 		ARG 2 culler
 		ARG 3 a
 	METHOD a cull (Lnet/minecraft/client/a/b/c;)V
 		ARG 1 culler
+	METHOD b (F)V
+		ARG 1 time
 	METHOD b (III)V
 		ARG 1 x
 		ARG 2 y

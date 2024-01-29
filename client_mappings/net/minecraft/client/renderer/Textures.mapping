@@ -11,6 +11,8 @@ CLASS net/minecraft/client/a/l net/minecraft/client/renderer/Textures
 	METHOD a tick ()V
 	METHOD a bind (I)V
 		ARG 0 texture
+	METHOD a (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 0 image
 	METHOD a loadTexture (Ljava/awt/image/BufferedImage;I)V
 		ARG 1 image
 		ARG 2 texture
@@ -25,5 +27,6 @@ CLASS net/minecraft/client/a/l net/minecraft/client/renderer/Textures
 		ARG 2 tex
 	METHOD a addDynamicTexture (Lnet/minecraft/client/a/c/b;)V
 		ARG 1 dynamicTexture
+	METHOD b reloadAll ()V
 	METHOD b removeTexture (Ljava/lang/String;)V
 		ARG 1 url

@@ -6,6 +6,7 @@ CLASS net/minecraft/client/f/d net/minecraft/client/particle/ParticleEngine
 		ARG 1 level
 		ARG 2 textures
 		ARG 3 i
+	METHOD a tick ()V
 	METHOD a render (F)V
 		ARG 1 a
 	METHOD a destroy (III)V

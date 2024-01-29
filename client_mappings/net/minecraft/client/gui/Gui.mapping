@@ -5,5 +5,6 @@ CLASS net/minecraft/client/c/m net/minecraft/client/gui/Gui
 	FIELD e tickCount I
 	METHOD a tick ()V
 	METHOD a (F)V
+		ARG 1 time
 		ARG 18 free
 		ARG 19 allocated
