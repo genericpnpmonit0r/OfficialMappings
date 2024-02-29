@@ -50,8 +50,7 @@ CLASS net/minecraft/a/a/b/aa net/minecraft/world/level/tile/Tile
 	FIELD at SOUND_GLASS Lnet/minecraft/a/a/b/o;
 	FIELD au SOUND_CLOTH Lnet/minecraft/a/a/b/o;
 	FIELD av SOUND_SAND Lnet/minecraft/a/a/b/o;
-	FIELD aw isContainerTile [Z
-		COMMENT calling this isContainerTile for now even though it is unused, what the fuck was notch smoking in june 2010
+	FIELD aw translucent [Z
 	FIELD ax destroyTime F
 	FIELD ay explosionResistance F
 	FIELD b tiles [Lnet/minecraft/a/a/b/aa;

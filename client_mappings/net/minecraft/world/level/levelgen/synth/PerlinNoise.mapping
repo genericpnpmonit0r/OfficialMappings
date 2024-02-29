@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/a/d/a/c net/minecraft/world/level/levelgen/noise/PerlinNoise
+CLASS net/minecraft/a/a/d/a/c net/minecraft/world/level/levelgen/synth/PerlinNoise
 	FIELD a noiseLevels [Lnet/minecraft/a/a/d/a/a;
 	FIELD b levels I
 	METHOD <init> (Ljava/util/Random;I)V

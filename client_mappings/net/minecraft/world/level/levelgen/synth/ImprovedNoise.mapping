@@ -1,4 +1,4 @@
-CLASS net/minecraft/a/a/d/a/a net/minecraft/world/level/levelgen/noise/ImprovedNoise
+CLASS net/minecraft/a/a/d/a/a net/minecraft/world/level/levelgen/synth/ImprovedNoise
 	FIELD a p [I
 	FIELD b xo D
 	FIELD c yo D

@@ -1,2 +1,2 @@
-CLASS net/minecraft/a/a/d/a/b net/minecraft/world/level/levelgen/noise/Synth
+CLASS net/minecraft/a/a/d/a/b net/minecraft/world/level/levelgen/synth/Synth
 	COMMENT i would not be surprised if the getValue(x,y,z) and getValue(x,y) were here originally abstract but got modified by proguard
