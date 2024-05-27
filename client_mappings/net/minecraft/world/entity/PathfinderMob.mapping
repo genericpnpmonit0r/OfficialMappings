@@ -1,4 +1,5 @@
 CLASS net/minecraft/a/c/c net/minecraft/world/entity/PathfinderMob
+	FIELD S holdGround Z
 	FIELD a path Lnet/minecraft/a/a/a/b;
 	FIELD b attackTarget Lnet/minecraft/a/c/b;
 	METHOD a getAttackTarget ()Lnet/minecraft/a/c/b;
@@ -10,3 +11,6 @@ CLASS net/minecraft/a/c/c net/minecraft/world/entity/PathfinderMob
 		ARG 1 entity
 	METHOD a checkHurtTarget (Lnet/minecraft/a/c/b;F)V
 		ARG 1 target
+		ARG 2 d
+		ARG 10 yo
+		ARG 11 arrow

@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/a/k net/minecraft/client/renderer/GLTexture$1
+CLASS net/minecraft/client/a/k net/minecraft/client/renderer/MemTexture$1
 	FIELD a val$url Ljava/lang/String;
 	FIELD b val$tex Lnet/minecraft/client/a/c;
 	FIELD c this$0 Lnet/minecraft/client/a/i;

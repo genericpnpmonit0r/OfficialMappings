@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/a/i net/minecraft/client/renderer/GLTexture
+CLASS net/minecraft/client/a/i net/minecraft/client/renderer/MemTexture
 	FIELD a image Ljava/awt/image/BufferedImage;
 	FIELD c texture I
 		COMMENT GL texture

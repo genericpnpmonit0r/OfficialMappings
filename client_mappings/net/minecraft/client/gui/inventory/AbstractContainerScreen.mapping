@@ -1,2 +1,0 @@
-CLASS net/minecraft/client/c/a/j net/minecraft/client/gui/inventory/AbstractContainerScreen
-	COMMENT calling this "AbstractContainerScreen" cause apparently notch used that naming schema (sometimes)

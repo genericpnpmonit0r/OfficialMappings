@@ -56,6 +56,7 @@ CLASS net/minecraft/a/c/b net/minecraft/world/entity/Entity
 		ARG 6 inventory
 	METHOD a playerTouch (Lnet/minecraft/a/c/e/a;)V
 		ARG 1 player
+	METHOD b isFree (DDD)Z
 	METHOD b moveTo (DDDFF)V
 		ARG 1 x
 		ARG 3 y

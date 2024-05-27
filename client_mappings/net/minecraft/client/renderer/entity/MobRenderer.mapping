@@ -8,3 +8,4 @@ CLASS net/minecraft/client/a/a/l net/minecraft/client/renderer/entity/MobRendere
 		ARG 1 mob
 	METHOD a prepareArmor (Lnet/minecraft/a/c/f;I)Z
 		ARG 1 mob
+		ARG 2 layer

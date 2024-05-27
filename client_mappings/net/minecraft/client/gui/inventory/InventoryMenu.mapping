@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/c/a/f net/minecraft/client/gui/inventory/InventoryScreen
+CLASS net/minecraft/client/c/a/f net/minecraft/client/gui/inventory/InventoryMenu
 	FIELD m xMouse F
 	FIELD n yMouse F
 	METHOD <init> (Lnet/minecraft/a/b;)V
