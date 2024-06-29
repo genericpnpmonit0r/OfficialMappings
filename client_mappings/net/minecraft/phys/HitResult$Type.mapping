@@ -1,3 +1,0 @@
-CLASS jg net/minecraft/phys/HitResult$Type
-	FIELD a TILE Ljg;
-	FIELD b ENTITY Ljg;

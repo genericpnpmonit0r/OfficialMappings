@@ -1,0 +1,4 @@
+CLASS bu net/minecraft/world/level/tile/Tile$SoundType
+	METHOD a getBreakSound ()Ljava/lang/String;
+	METHOD b getVolume ()F
+	METHOD c getPitch ()F

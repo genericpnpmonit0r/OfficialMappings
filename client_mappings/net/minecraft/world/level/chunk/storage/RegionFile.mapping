@@ -1,4 +1,4 @@
-CLASS qj net/minecraft/world/level/chunk/storage/RegionFile
+CLASS mo net/minecraft/world/level/chunk/storage/RegionFile
 	FIELD a emptySector [B
 	FIELD b fileName Ljava/io/File;
 	FIELD c file Ljava/io/RandomAccessFile;
@@ -10,7 +10,7 @@ CLASS qj net/minecraft/world/level/chunk/storage/RegionFile
 	METHOD <init> (Ljava/io/File;)V
 		ARG 1 path
 	METHOD a getSizeDelta ()I
-	METHOD a getChunkInputStream (II)Ljava/io/DataInputStream;
+	METHOD a getChunkDataInputStream (II)Ljava/io/DataInputStream;
 		ARG 1 x
 		ARG 2 z
 	METHOD a setOffset (III)V

@@ -1,0 +1,13 @@
+CLASS ih net/minecraft/world/level/chunk/ChunkCache
+	FIELD a xLast I
+	FIELD b zLast I
+	FIELD c emptyChunk Lit;
+	FIELD d source Lbo;
+	FIELD e storage Lao;
+	FIELD f chunks [Lit;
+	FIELD g level Ldt;
+	FIELD h last Lit;
+	FIELD i xCenter I
+	FIELD j yCenter I
+	METHOD c centerOn (II)V
+	METHOD d fits (II)Z

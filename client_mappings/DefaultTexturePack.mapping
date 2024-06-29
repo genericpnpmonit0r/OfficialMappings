@@ -1,2 +1,0 @@
-CLASS pa DefaultTexturePack
-	FIELD f icon Ljava/awt/image/BufferedImage;

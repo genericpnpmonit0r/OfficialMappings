@@ -1,3 +1,5 @@
-CLASS kv net/minecraft/client/Options
-	FIELD B renderDebug Z
-	FIELD l texturePack Ljava/lang/String;
+CLASS ig net/minecraft/client/Options
+	FIELD H RENDER_DISTANCE_NAMES [Ljava/lang/String;
+	FIELD I DIFFICULTY_NAMES [Ljava/lang/String;
+	FIELD j ao Z
+	FIELD k skin Ljava/lang/String;

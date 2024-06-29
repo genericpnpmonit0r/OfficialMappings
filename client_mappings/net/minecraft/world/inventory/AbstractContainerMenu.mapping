@@ -1,0 +1,3 @@
+CLASS ct net/minecraft/world/inventory/AbstractContainerMenu
+	METHOD a clicked (IILfd;)Lgz;
+	METHOD a removed (Lfd;)V

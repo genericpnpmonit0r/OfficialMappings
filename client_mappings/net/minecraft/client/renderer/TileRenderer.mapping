@@ -1,11 +1,99 @@
-CLASS cv net/minecraft/client/renderer/TileRenderer
-	METHOD a tesselateRailInWorld (Lpc;III)Z
-	METHOD a renderTile (Luu;IF)V
-	METHOD a tesselateBlockInWorldWithAmbienceOcclusion (Luu;IIIFFF)Z
-	METHOD b tesselateBlockInWorld (Luu;IIIFFF)Z
-	METHOD c tesselateTorchInWorld (Luu;III)Z
-	METHOD f tesselateFireInWorld (Luu;III)Z
-	METHOD l tesselateBlockInWorld (Luu;III)Z
-	METHOD m tesselateCactusInWorld (Luu;III)Z
-	METHOD p tesselateDoorInWorld (Luu;III)Z
-	METHOD q tesselateBedInWorld (Luu;III)Z
+CLASS bw net/minecraft/client/renderer/TileRenderer
+	FIELD A unk_A F
+	FIELD B unk_B F
+	FIELD C unk_C F
+	FIELD D unk_D F
+	FIELD E unk_E F
+	FIELD F unk_F F
+	FIELD G unk_G I
+	FIELD H unk_H F
+	FIELD I unk_I F
+	FIELD J unk_J F
+	FIELD K unk_K F
+	FIELD L unk_L F
+	FIELD M unk_M F
+	FIELD N unk_N F
+	FIELD O unk_O F
+	FIELD P unk_P F
+	FIELD Q unk_Q F
+	FIELD R unk_R F
+	FIELD S unk_S F
+	FIELD T unk_T Z
+	FIELD U unk_U Z
+	FIELD V unk_V Z
+	FIELD W unk_W Z
+	FIELD X unk_X Z
+	FIELD Y unk_Y Z
+	FIELD Z unk_Z Z
+	FIELD a level Lso;
+	FIELD aa unk_aa Z
+	FIELD ab unk_ab Z
+	FIELD ac unk_ac Z
+	FIELD ad unk_ad Z
+	FIELD ae unk_ae Z
+	FIELD b fixedTexture I
+	FIELD c xFlipTexture Z
+	FIELD d noCulling Z
+	FIELD e unk_e Z
+	FIELD f unk_f F
+	FIELD g unk_g F
+	FIELD h unk_h F
+	FIELD i unk_i F
+	FIELD j unk_j F
+	FIELD k unk_k F
+	FIELD l unk_l F
+	FIELD m unk_m F
+	FIELD n unk_n F
+	FIELD o unk_o F
+	FIELD p unk_p F
+	FIELD q unk_q F
+	FIELD r unk_r F
+	FIELD s unk_s F
+	FIELD t unk_t F
+	FIELD u unk_u F
+	FIELD v unk_v F
+	FIELD w unk_w F
+	FIELD x unk_x F
+	FIELD y unk_y F
+	FIELD z unk_z F
+	METHOD <init> (Lso;)V
+		ARG 1 level
+	METHOD a canRender (I)Z
+		ARG 0 renderShape
+	METHOD a renderFaceUp (Lqk;DDDI)V
+	METHOD a renderCube (Lqk;F)V
+		ARG 1 tile
+		ARG 2 alpha
+	METHOD a tesselateInWorld (Lqk;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a tesselateBlockInWorldWithAmbienceOcclusion (Lqk;IIIFFF)Z
+	METHOD a tesselateInWorld (Lqk;IIII)V
+		ARG 1 tile
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 fixedTexture
+	METHOD b renderFaceDown (Lqk;DDDI)V
+	METHOD b tesselateTorchInWorld (Lqk;III)Z
+	METHOD c renderNorth (Lqk;DDDI)V
+	METHOD c tesselateLeverInWorld (Lqk;III)Z
+	METHOD d renderSouth (Lqk;DDDI)V
+	METHOD d tesselateFireInWorld (Lqk;III)Z
+	METHOD e renderWest (Lqk;DDDI)V
+	METHOD e tesselateDustInWorld (Lqk;III)Z
+	METHOD f renderEast (Lqk;DDDI)V
+	METHOD f tesselateRailInWorld (Lqk;III)Z
+	METHOD g tesselateLadderInWorld (Lqk;III)Z
+	METHOD h tesselateCrossInWorld (Lqk;III)Z
+	METHOD i tesselateRowInWorld (Lqk;III)Z
+	METHOD j tesselateWaterInWorld (Lqk;III)Z
+	METHOD k tesselateBlockInWorld (Lqk;III)Z
+	METHOD l tesselateCactusInWorld (Lqk;III)Z
+	METHOD m tesselateFenceInWorld (Lqk;III)Z
+	METHOD n tesselateStairsInWorld (Lqk;III)Z
+	METHOD o tesselateDoorInWorld (Lqk;III)Z
+	METHOD p tesselateBedInWorld (Lqk;III)Z
+	METHOD q tessellateDiodeInWorld (Lqk;III)Z

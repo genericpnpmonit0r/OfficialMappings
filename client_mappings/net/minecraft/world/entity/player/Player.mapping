@@ -1,30 +1,43 @@
-CLASS gs net/minecraft/world/entity/player/Player
-	FIELD D fishing Llx;
-	FIELD a sleepCounter I
-	FIELD b respawnPosition Lbr;
-	FIELD c inventory Lix;
-	FIELD g score I
-	FIELD h oBob F
-	FIELD i bob F
-	FIELD m dimension I
-	FIELD o xCloakO D
-	FIELD p yCloakO D
-	FIELD q zCloakO D
-	FIELD r xCloak D
-	FIELD s yCloak D
-	FIELD t zCloak D
-	FIELD u sleeping Z
-	METHOD C getScore ()I
-	METHOD Q getRespawnPosition ()Lbr;
-	METHOD a openDispenser (Laz;)V
-	METHOD a setRespawnPosition (Lbr;)V
-	METHOD a drop (Liz;Z)V
-	METHOD a openContainer (Llw;)V
-	METHOD a openFurnace (Lsk;)V
-		ARG 1 furnaceTileEntity
-	METHOD a awardAchievement (Lvr;)V
-	METHOD a awardStat (Lvr;I)V
-	METHOD a openTextEdit (Lyk;)V
-		ARG 1 signTileEntity
-	METHOD a stopSleepInBed (ZZZ)V
-	METHOD j touch (Lsn;)V
+CLASS fd net/minecraft/world/entity/player/Player
+	FIELD A fishing Ljd;
+	FIELD a sleeping Z
+	FIELD b respawnPosition Lav;
+	FIELD c sleepTimer I
+	FIELD d dmgSpill I
+	FIELD f inventory Lgy;
+	FIELD g inventoryMenu Lct;
+	FIELD h containerMenu Lct;
+	FIELD i userType B
+	FIELD j score I
+	FIELD k oBob F
+	FIELD l bob F
+	FIELD m swinging Z
+	FIELD n swingTime I
+	FIELD o name Ljava/lang/String;
+	FIELD p dimension I
+	FIELD q cloakTexture Ljava/lang/String;
+	FIELD r xCloakO D
+	FIELD s yCloakO D
+	FIELD t zCloakO D
+	FIELD u xCloak D
+	FIELD v yCloak D
+	FIELD w zCloak D
+	METHOD A drop ()V
+	METHOD J getSleepingRotation ()F
+	METHOD L isSleeping ()Z
+	METHOD M getSleepTimer ()I
+	METHOD a drop (Lgz;)V
+	METHOD a drop (Lgz;Z)V
+	METHOD a stopSleepInBed (ZZ)V
+	METHOD b startSleepInBed (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b displayMessage (Ljava/lang/String;)V
+	METHOD c interact (Lom;)V
+	METHOD d attack (Lom;)V
+	METHOD e setBedOffset (I)V
+	METHOD j touch (Lom;)V
+	METHOD p closeContainer ()V
+	METHOD q checkBed ()Z
+	METHOD z getScore ()I

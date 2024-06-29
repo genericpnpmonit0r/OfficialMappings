@@ -1,4 +1,1 @@
-CLASS sz com/mojang/nbt/DoubleTag
-	FIELD a doubleValue D
-	METHOD <init> (D)V
-		ARG 1 doubleValue
+CLASS ow com/mojang/nbt/DoubleTag

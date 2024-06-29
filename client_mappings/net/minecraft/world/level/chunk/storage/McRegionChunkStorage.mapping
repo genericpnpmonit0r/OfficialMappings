@@ -1,0 +1,2 @@
+CLASS il net/minecraft/world/level/chunk/storage/McRegionChunkStorage
+	FIELD a dir Ljava/io/File;

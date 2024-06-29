@@ -1,0 +1,2 @@
+CLASS cn
+	METHOD a destroy (III)V

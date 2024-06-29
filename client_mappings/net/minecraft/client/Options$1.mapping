@@ -1,1 +1,2 @@
-CLASS fq net/minecraft/client/Options$1
+CLASS ef net/minecraft/client/Options$1
+	FIELD a $VALUES [I

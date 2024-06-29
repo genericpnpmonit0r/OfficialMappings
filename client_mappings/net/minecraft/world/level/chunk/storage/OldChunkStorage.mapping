@@ -1,0 +1,6 @@
+CLASS pk net/minecraft/world/level/chunk/storage/OldChunkStorage
+	FIELD a dir Ljava/io/File;
+	FIELD b create Z
+	METHOD a getFile (II)Ljava/io/File;
+	METHOD a load (Ldt;Lks;)Lit;
+	METHOD a save (Lit;Ldt;Lks;)V

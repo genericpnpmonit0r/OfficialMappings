@@ -1,6 +1,7 @@
-CLASS bw net/minecraft/client/renderer/entity/EntityRenderer
-	METHOD a getFont ()Lsj;
-	METHOD a renderFlat (Leq;)V
-	METHOD a render (Leq;DDD)V
-	METHOD a init (Lth;)V
-	METHOD b postRender (Lsn;DDDFF)V
+CLASS bb net/minecraft/client/renderer/entity/EntityRenderer
+	FIELD a model Lic;
+	FIELD b entityRenderDispatcher Lpd;
+	FIELD c shadowRadius F
+	FIELD d shadowStrength F
+	FIELD e tileRenderer Lbw;
+	METHOD a renderFlame (Lom;DDDF)V

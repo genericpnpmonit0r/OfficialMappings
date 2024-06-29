@@ -1,5 +1,7 @@
-CLASS iz net/minecraft/world/item/ItemInstance
+CLASS gz net/minecraft/world/item/ItemInstance
 	FIELD a count I
 	FIELD b popTime I
 	FIELD c id I
-	FIELD d damage I
+	FIELD d auxValue I
+	METHOD a use (Ldt;Lfd;)Lgz;
+	METHOD a useOn (Lfd;Ldt;IIII)Z

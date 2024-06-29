@@ -1,2 +1,5 @@
-CLASS ix net/minecraft/world/entity/player/Inventory
+CLASS gy net/minecraft/world/entity/player/Inventory
+	FIELD a items [Lgz;
 	FIELD c selected I
+	METHOD e tick ()V
+	METHOD g dropAll ()V

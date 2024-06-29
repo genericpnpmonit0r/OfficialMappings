@@ -1,37 +1,60 @@
-CLASS ob net/minecraft/client/gamemode/GameMode
+CLASS ky net/minecraft/client/gamemode/GameMode
 	FIELD a minecraft Lnet/minecraft/client/Minecraft;
-	METHOD a tick ()V
+	FIELD b instaBuild Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a stopDestroyBlock ()V
 	METHOD a render (F)V
+		ARG 1 a
 	METHOD a startDestroyBlock (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-		ARG 4 side
-	METHOD a handleCloseInventory (ILgs;)V
+		ARG 4 face
+	METHOD a handleInventoryMouseClock (IIILfd;)Lgz;
+		ARG 1 containerId
+		ARG 2 slotNum
+		ARG 3 buttonNum
+		ARG 4 player
+	METHOD a handleCloseInventory (ILfd;)V
+		ARG 1 containerId
 		ARG 2 player
-	METHOD a initLevel (Lfd;)V
+	METHOD a initLevel (Ldt;)V
 		ARG 1 level
-	METHOD a initPlayer (Lgs;)V
-	METHOD a useItem (Lgs;Lfd;Liz;)Z
+	METHOD a initPlayer (Lfd;)V
+		ARG 1 player
+	METHOD a useItem (Lfd;Ldt;Lgz;)Z
 		ARG 1 player
 		ARG 2 level
-		ARG 3 itemInstance
-	METHOD a useItemOn (Lgs;Lfd;Liz;IIII)Z
+		ARG 3 item
+	METHOD a useItemOn (Lfd;Ldt;Lgz;IIII)Z
 		ARG 1 player
 		ARG 2 level
-		ARG 3 itemInstance
+		ARG 3 item
 		ARG 4 x
 		ARG 5 y
 		ARG 6 z
-		ARG 7 side
-	METHOD a interact (Lgs;Lsn;)V
+		ARG 7 face
+	METHOD a interact (Lfd;Lom;)V
+		ARG 1 player
+		ARG 2 entity
 	METHOD b getPickRange ()F
 	METHOD b destroyBlock (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-		ARG 4 side
-	METHOD b createPlayer (Lfd;)Lgs;
+		ARG 4 face
+	METHOD b createPlayer (Ldt;)Lfd;
 		ARG 1 level
-	METHOD b adjustPlayer (Lgs;)V
-	METHOD b attack (Lgs;Lsn;)V
+	METHOD b adjustPlayer (Lfd;)V
+		ARG 1 player
+	METHOD b attack (Lfd;Lom;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD c tick ()V
+	METHOD c continueDestroyBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD d canHurtPlayer ()Z

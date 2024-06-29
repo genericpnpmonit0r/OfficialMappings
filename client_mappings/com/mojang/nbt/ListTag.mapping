@@ -1,2 +1,3 @@
-CLASS sp com/mojang/nbt/ListTag
-	METHOD a get (I)Lij;
+CLASS oo com/mojang/nbt/ListTag
+	FIELD a list Ljava/util/List;
+	FIELD b type B

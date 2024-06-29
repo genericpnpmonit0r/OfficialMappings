@@ -1,3 +1,7 @@
-CLASS yn net/minecraft/client/renderer/culling/Culler
+CLASS tl net/minecraft/client/renderer/culling/Culler
 	METHOD a prepare (DDD)V
-	METHOD a isVisible (Leq;)Z
+		ARG 1 xOff
+		ARG 3 yOff
+		ARG 5 zOff
+	METHOD a isVisible (Ldi;)Z
+		ARG 1 bb

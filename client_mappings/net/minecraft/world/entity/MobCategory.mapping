@@ -1,8 +1,12 @@
-CLASS lk net/minecraft/world/entity/MobCategory
-	FIELD a monster Llk;
-	FIELD b creature Llk;
-	FIELD c waterCreature Llk;
-	FIELD d type Ljava/lang/Class;
+CLASS ir net/minecraft/world/entity/MobCategory
+	FIELD a monster Lir;
+	FIELD b creature Lir;
+	FIELD c waterCreature Lir;
+	FIELD d base Ljava/lang/Class;
 	FIELD e max I
-	FIELD f mat Lln;
+	FIELD f spawnPositionMaterial Liu;
 	FIELD g isFriendly Z
+	METHOD a getBaseClass ()Ljava/lang/Class;
+	METHOD b getMaxInstancesPerChunk ()I
+	METHOD c getSpawnPositionMaterial ()Liu;
+	METHOD d isFriendly ()Z

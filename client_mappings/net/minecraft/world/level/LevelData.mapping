@@ -1,0 +1,39 @@
+CLASS dc net/minecraft/world/level/LevelData
+	FIELD a seed J
+	FIELD b xSpawn I
+	FIELD c ySpawn I
+	FIELD d zSpawn I
+	FIELD e time J
+	FIELD f lastPlayed J
+	FIELD g sizeOnDisk J
+	FIELD h loadedPlayerTag Lks;
+	FIELD i dimension I
+	FIELD j levelName Ljava/lang/String;
+	FIELD k storageVersion I
+	METHOD <init> (JLjava/lang/String;)V
+		ARG 1 seed
+		ARG 3 levelName
+	METHOD <init> (Ldc;)V
+		ARG 1 d
+	METHOD <init> (Lks;)V
+		ARG 1 tag
+	METHOD a setXSpawn (I)V
+	METHOD a setSpawn (III)V
+	METHOD a setTime (J)V
+	METHOD a setLevelName (Ljava/lang/String;)V
+	METHOD a setLoadedPlayerTag (Lks;)V
+	METHOD b getSeed ()J
+	METHOD b setYSpawn (I)V
+	METHOD b setSizeOnDisk (J)V
+	METHOD c getXSpawn ()I
+	METHOD c setZSpawn (I)V
+	METHOD d getYSpawn ()I
+	METHOD d setStorageVersion (I)V
+	METHOD e getZSpawn ()I
+	METHOD f getTime ()J
+	METHOD g getSizeOnDisk ()J
+	METHOD h getLoadedPlayerTag ()Lks;
+	METHOD i getDimension ()I
+	METHOD j getLevelName ()Ljava/lang/String;
+	METHOD k getStorageVersion ()I
+	METHOD l getLastPlayed ()J

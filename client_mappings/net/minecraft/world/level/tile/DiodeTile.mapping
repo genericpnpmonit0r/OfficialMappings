@@ -1,0 +1,2 @@
+CLASS rs net/minecraft/world/level/tile/DiodeTile
+	FIELD c on Z

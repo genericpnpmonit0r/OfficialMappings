@@ -1,0 +1,9 @@
+CLASS cv net/minecraft/world/level/storage/McRegionLevelStorageSource$ChunkFile
+	FIELD a file Ljava/io/File;
+	FIELD b x I
+	FIELD c z I
+	METHOD a getFile ()Ljava/io/File;
+	METHOD a compareTo (Lcv;)I
+	METHOD b getX ()I
+	METHOD c getZ ()I
+	METHOD compareTo compareTo (Ljava/lang/Object;)I

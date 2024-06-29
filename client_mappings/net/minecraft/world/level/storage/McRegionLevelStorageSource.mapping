@@ -1,3 +1,14 @@
-CLASS hi net/minecraft/world/level/storage/McRegionLevelStorageSource
-	METHOD a convertRegion (Ljava/io/File;Ljava/util/ArrayList;IILyb;)V
-	METHOD a convertRegions (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+CLASS fp net/minecraft/world/level/storage/McRegionLevelStorageSource
+	METHOD a convertChunks (Ljava/io/File;Ljava/util/ArrayList;IILta;)V
+		ARG 1 baseFolder
+		ARG 2 chunkFiles
+		ARG 3 currentCount
+		ARG 4 totalCount
+	METHOD a addChunkFiles (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
+		ARG 1 baseFolder
+		ARG 2 oldChunks
+		ARG 3 chunkFiles
+	METHOD a deleteFiles (Ljava/util/ArrayList;IILta;)V
+		ARG 1 files
+		ARG 2 currentCount
+		ARG 3 totalCount

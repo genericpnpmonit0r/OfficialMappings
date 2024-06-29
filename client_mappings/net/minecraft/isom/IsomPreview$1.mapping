@@ -1,4 +1,2 @@
-CLASS tx net/minecraft/isom/IsomPreview$1
-	FIELD a isomPreview Lbd;
-	METHOD <init> (Lbd;)V
-		ARG 1 iso
+CLASS pr net/minecraft/isom/IsomPreview$1
+	FIELD a $VALUES [I

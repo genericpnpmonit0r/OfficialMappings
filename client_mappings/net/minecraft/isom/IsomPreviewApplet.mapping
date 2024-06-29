@@ -1,2 +1,2 @@
 CLASS net/minecraft/isom/IsomPreviewApplet
-	FIELD a isomPreview Lbd;
+	FIELD a isomPreview Lan;

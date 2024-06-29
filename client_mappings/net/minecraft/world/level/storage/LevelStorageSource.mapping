@@ -1,16 +1,10 @@
-CLASS nl net/minecraft/world/level/storage/LevelStorageSource
+CLASS kj net/minecraft/world/level/storage/LevelStorageSource
 	METHOD a getName ()Ljava/lang/String;
 	METHOD a requiresConversion (Ljava/lang/String;)Z
-		ARG 1 levelName
 	METHOD a renameLevel (Ljava/lang/String;Ljava/lang/String;)V
-		ARG 1 old
-		ARG 2 newname
-	METHOD a convertLevel (Ljava/lang/String;Lyb;)Z
-		ARG 1 levelName
-		ARG 2 progressListener
+	METHOD a convertLevel (Ljava/lang/String;Lta;)Z
+	METHOD a selectLevel (Ljava/lang/String;Z)Lrw;
 	METHOD b getLevelList ()Ljava/util/List;
-	METHOD b getDataTagFor (Ljava/lang/String;)Lei;
-		ARG 1 levelData
+	METHOD b getTagDataFor (Ljava/lang/String;)Ldc;
 	METHOD c clearAll ()V
 	METHOD c deleteLevel (Ljava/lang/String;)V
-		ARG 1 levelName

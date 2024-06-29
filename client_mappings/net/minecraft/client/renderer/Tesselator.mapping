@@ -1,7 +1,7 @@
-CLASS nw net/minecraft/client/renderer/Tesselator
+CLASS kv net/minecraft/client/renderer/Tesselator
 	FIELD A vboCounts I
 	FIELD B size I
-	FIELD a instance Lnw;
+	FIELD a instance Lkv;
 	FIELD b TRIANGLE_MODE Z
 	FIELD c USE_VBO Z
 	FIELD d buffer Ljava/nio/ByteBuffer;
@@ -67,7 +67,7 @@ CLASS nw net/minecraft/client/renderer/Tesselator
 		ARG 3 b
 		ARG 4 a
 	METHOD b begin ()V
-	METHOD b setOffset (DDD)V
+	METHOD b offset (DDD)V
 		ARG 1 xo
 		ARG 3 yo
 		ARG 5 zo

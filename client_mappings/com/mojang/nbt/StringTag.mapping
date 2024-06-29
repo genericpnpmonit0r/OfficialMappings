@@ -1,4 +1,1 @@
-CLASS xb com/mojang/nbt/StringTag
-	FIELD a stringValue Ljava/lang/String;
-	METHOD <init> (Ljava/lang/String;)V
-		ARG 1 stringValue
+CLASS se com/mojang/nbt/StringTag

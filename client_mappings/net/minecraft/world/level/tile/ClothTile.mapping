@@ -1,1 +1,3 @@
-CLASS ee net/minecraft/world/level/tile/ClothTile
+CLASS cz net/minecraft/world/level/tile/ClothTile
+	METHOD c getTileDataForItemAuxValue (I)I
+	METHOD d getItemAuxValueForTileData (I)I

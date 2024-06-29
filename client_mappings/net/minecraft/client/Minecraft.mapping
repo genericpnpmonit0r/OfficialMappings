@@ -1,46 +1,35 @@
 CLASS net/minecraft/client/Minecraft
-	FIELD A applet Lnet/minecraft/client/MinecraftApplet;
-	FIELD B soundEngine Lyo;
-	FIELD J running Z
-	FIELD K fpsString Ljava/lang/String;
-	FIELD R crashed Z
-	FIELD T timer Lpy;
-	FIELD W missTime I
+	FIELD F running Z
+	FIELD J mouseGrabbed Z
+	FIELD L lastTickTime J
+	FIELD M fullscreen Z
+	FIELD N openGLCapabilities Lby;
+	FIELD O timer Lmi;
+	FIELD P bgLoader Lbz;
+	FIELD Q ticks I
+	FIELD R missTime I
+	FIELD S orgWidth I
+	FIELD T orgHeight I
 	FIELD a instance Lnet/minecraft/client/Minecraft;
-	FIELD c gamemode Lob;
-	FIELD d width I
-	FIELD e height I
-	FIELD f level Lfd;
-	FIELD g levelRenderer Ln;
-	FIELD h player Ldc;
-	FIELD i cameraEntity Lls;
-	FIELD j particleEngine Ldn;
-	FIELD k user Lgr;
-	FIELD m parent Ljava/awt/Canvas;
-	FIELD n appletMode Z
-	FIELD o pause Z
-	FIELD p textures Lji;
-	FIELD q font Lsj;
-	FIELD r screen Lda;
-	FIELD s loadingScreen Lmk;
-	FIELD t gameRenderer Lpx;
-	FIELD v gui Luq;
-	FIELD w noRender Z
-	FIELD z options Lkv;
-	METHOD a init ()V
-	METHOD a setScreen (Lda;)V
-	METHOD a setLevel (Lfd;Ljava/lang/String;Lgs;)V
-		ARG 1 level
-		ARG 2 name
-		ARG 3 localPlayer
-	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
-		ARG 0 applicationName
-	METHOD a play (Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a play (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
-	METHOD a displayCrashReport (Lmh;)V
-	METHOD b crash (Lmh;)V
-	METHOD f stop ()V
-	METHOD k tickInput ()V
-	METHOD main ([Ljava/lang/String;)V
-		ARG 0 args
-	METHOD y getPlatform ()Lpd;
+	FIELD ac recheckPlayerIn I
+	FIELD b gameMode Lky;
+	FIELD c width I
+	FIELD d height I
+	FIELD e level Ldt;
+	FIELD i particleEngine Lcn;
+	FIELD j user Lfb;
+	FIELD m appletMode Z
+	FIELD n pause Z
+	FIELD o textures Lhf;
+	FIELD p font Loi;
+	FIELD q screen Lcb;
+	FIELD r progressRenderer Ljp;
+	FIELD s gameRenderer Lmh;
+	FIELD t gui Lqf;
+	FIELD u noRender Z
+	FIELD v humanoidModel Ldx;
+	FIELD w hitResult Lqu;
+	FIELD x options Lig;
+	FIELD y minecraftApplet Lnet/minecraft/client/MinecraftApplet;
+	FIELD z soundEngine Ltm;
+	METHOD v ao ()Z

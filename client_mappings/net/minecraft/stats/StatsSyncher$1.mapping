@@ -1,2 +1,0 @@
-CLASS vk net/minecraft/stats/StatsSyncher$1
-	FIELD a statsSyncher Lcj;

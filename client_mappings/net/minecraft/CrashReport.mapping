@@ -1,3 +1,0 @@
-CLASS mh net/minecraft/CrashReport
-	FIELD a title Ljava/lang/String;
-	FIELD b exception Ljava/lang/Throwable;
