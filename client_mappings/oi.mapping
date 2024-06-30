@@ -1,3 +1,0 @@
-CLASS oi
-	METHOD a width (Ljava/lang/String;)I
-	METHOD a drawShadow (Ljava/lang/String;III)V

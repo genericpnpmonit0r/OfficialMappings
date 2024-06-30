@@ -11,7 +11,6 @@ CLASS qq net/minecraft/world/level/storage/LevelSummary
 		ARG 5 sod
 		ARG 7 rc
 	METHOD a getLevelId ()Ljava/lang/String;
-	METHOD a compareTo (Lqq;)I
 	METHOD b getLevelName ()Ljava/lang/String;
 	METHOD c sizeOnDisk ()J
 	METHOD compareTo compareTo (Ljava/lang/Object;)I

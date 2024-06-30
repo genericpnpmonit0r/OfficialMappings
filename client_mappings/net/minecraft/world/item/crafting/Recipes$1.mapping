@@ -2,7 +2,6 @@ CLASS ii net/minecraft/world/item/crafting/Recipes$1
 	FIELD a this$0 Lfr;
 	METHOD <init> (Lfr;)V
 		ARG 1 this$0
-	METHOD a compare (Lcs;Lcs;)I
 	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
 		ARG 1 recipy1
 		ARG 2 recipy2

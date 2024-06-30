@@ -1,1 +1,2 @@
 CLASS fs net/minecraft/world/entity/item/ItemEntity
+	FIELD c throwTime I

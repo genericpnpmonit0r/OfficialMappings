@@ -1,0 +1,11 @@
+CLASS df net/minecraft/client/particle/TakeAnimationParticle
+	FIELD a item Lom;
+	FIELD o target Lom;
+	FIELD p life I
+	FIELD q lifeTime I
+	FIELD r yOffs F
+	METHOD <init> (Ldt;Lom;Lom;F)V
+		ARG 1 level
+		ARG 2 item
+		ARG 3 target
+		ARG 4 yOffs

@@ -1,0 +1,15 @@
+CLASS qf net/minecraft/client/gui/Gui
+	FIELD a selectedName Ljava/lang/String;
+	FIELD b progress F
+	FIELD c tbr F
+	FIELD d itemRenderer Lal;
+	FIELD e guiMessages Ljava/util/List;
+	FIELD f random Ljava/util/Random;
+	FIELD g minecraft Lnet/minecraft/client/Minecraft;
+	FIELD h tickCount I
+	FIELD i nowPlayingString Ljava/lang/String;
+	FIELD k nowPlayingTime I
+	FIELD l unk_l Z
+	METHOD a tick ()V
+	METHOD a render (FZII)V
+	METHOD a addMessage (Ljava/lang/String;)V

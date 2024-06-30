@@ -3,5 +3,6 @@ CLASS gz net/minecraft/world/item/ItemInstance
 	FIELD b popTime I
 	FIELD c id I
 	FIELD d auxValue I
+	METHOD a remove (I)Lgz;
 	METHOD a use (Ldt;Lfd;)Lgz;
 	METHOD a useOn (Lfd;Ldt;IIII)Z

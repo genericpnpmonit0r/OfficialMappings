@@ -1,3 +1,5 @@
 CLASS oo com/mojang/nbt/ListTag
 	FIELD a list Ljava/util/List;
 	FIELD b type B
+	METHOD a get (I)Lgl;
+	METHOD a add (Lgl;)V

@@ -1,0 +1,9 @@
+CLASS kp net/minecraft/client/sound/CodecMus$DecoderInputStream
+	FIELD a buff [B
+	FIELD b this$0 Lgr;
+	FIELD c seed I
+	FIELD d in Ljava/io/InputStream;
+	METHOD <init> (Lgr;Ljava/net/URL;Ljava/io/InputStream;)V
+		ARG 1 this$0
+		ARG 2 url
+		ARG 3 in

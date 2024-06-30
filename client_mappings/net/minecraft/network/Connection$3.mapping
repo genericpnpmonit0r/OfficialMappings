@@ -1,0 +1,4 @@
+CLASS si net/minecraft/network/Connection$3
+	FIELD a this$0 Llt;
+	METHOD <init> (Llt;)V
+		ARG 1 this$0

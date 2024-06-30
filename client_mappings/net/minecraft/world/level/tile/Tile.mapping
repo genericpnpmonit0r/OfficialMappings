@@ -9,6 +9,7 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	FIELD X unused_31 Lqk;
 	FIELD Y unused_32 Lqk;
 	FIELD Z unused_33 Lqk;
+	FIELD aF ladder Lqk;
 	FIELD a descriptionId Ljava/lang/String;
 	FIELD aa unused_34 Lqk;
 	FIELD ab cloth Lqk;
@@ -51,8 +52,10 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	FIELD q lightBlock [I
 	FIELD r transculent [Z
 	FIELD s lightEmission [I
+	FIELD t rock Lqk;
 	FIELD u grass Lrt;
 	FIELD v dirt Lqk;
+	FIELD z unbreakable Lqk;
 	METHOD <init> (IILiu;)V
 		ARG 1 id
 		ARG 2 tex

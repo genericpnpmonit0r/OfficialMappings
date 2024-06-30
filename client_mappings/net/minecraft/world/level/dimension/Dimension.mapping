@@ -9,15 +9,21 @@ CLASS sd net/minecraft/world/level/dimension/Dimension
 	FIELD h sunriseCol [F
 	METHOD a init ()V
 	METHOD a getFogColor (FF)Lay;
+		ARG 1 f
+		ARG 2 ff
 	METHOD a getNew (I)Lsd;
 		ARG 0 id
 	METHOD a isValidSpawn (II)Z
 		ARG 1 x
 		ARG 2 z
 	METHOD a getTimeOfDay (JF)F
+		ARG 1 ff
+		ARG 3 fff
 	METHOD a init (Ldt;)V
 		ARG 1 level
 	METHOD b updateLightRamp ()V
 	METHOD b getSunriseColor (FF)[F
+		ARG 1 f
+		ARG 2 ff
 	METHOD c createRandomLevelSource ()Lbo;
 	METHOD d mayRespawn ()Z

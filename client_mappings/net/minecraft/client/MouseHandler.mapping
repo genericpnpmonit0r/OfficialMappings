@@ -1,0 +1,11 @@
+CLASS rh net/minecraft/client/MouseHandler
+	FIELD a xd I
+	FIELD b yd I
+	FIELD c parent Ljava/awt/Component;
+	FIELD d invisibleCursor Lorg/lwjgl/input/Cursor;
+	FIELD e toSkip I
+	METHOD <init> (Ljava/awt/Component;)V
+		ARG 1 parent
+	METHOD a grab ()V
+	METHOD b release ()V
+	METHOD c poll ()V

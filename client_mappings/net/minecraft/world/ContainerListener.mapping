@@ -1,0 +1,3 @@
+CLASS gb net/minecraft/world/ContainerListener
+	METHOD a containerChanged (Lms;)V
+		ARG 1 sc

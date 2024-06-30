@@ -1,6 +1,15 @@
 CLASS net/minecraft/client/Minecraft
+	FIELD A mouseHandler Lrh;
+	FIELD B texturePackRepository Lgn;
+	FIELD C frameTimes [J
+	FIELD D tickTimes [J
+	FIELD E frameTimePos I
 	FIELD F running Z
+	FIELD G fpsString Ljava/lang/String;
+	FIELD H wasDown Z
+	FIELD I lastTimer J
 	FIELD J mouseGrabbed Z
+	FIELD K isRaining Z
 	FIELD L lastTickTime J
 	FIELD M fullscreen Z
 	FIELD N openGLCapabilities Lby;
@@ -10,14 +19,29 @@ CLASS net/minecraft/client/Minecraft
 	FIELD R missTime I
 	FIELD S orgWidth I
 	FIELD T orgHeight I
+	FIELD U workingDirectory Ljava/io/File;
+	FIELD V levelStorageSource Lkj;
+	FIELD W connectToIp Ljava/lang/String;
+	FIELD X connectToPort I
+	FIELD Y waterTexture Lrb;
+	FIELD Z lavaTexture Lbk;
 	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD aa workDir Ljava/io/File;
+	FIELD ab lastClickTick I
 	FIELD ac recheckPlayerIn I
 	FIELD b gameMode Lky;
 	FIELD c width I
 	FIELD d height I
 	FIELD e level Ldt;
+	FIELD f levelRenderer Lh;
+	FIELD g player Lcc;
+	FIELD h viewportEntity Liz;
+		COMMENT why is this here wtf notch this is literally just the same as the player field
+		COMMENT just another guesstimated field name cause no fucking clue
 	FIELD i particleEngine Lcn;
 	FIELD j user Lfb;
+	FIELD k serverDomain Ljava/lang/String;
+	FIELD l parent Ljava/awt/Canvas;
 	FIELD m appletMode Z
 	FIELD n pause Z
 	FIELD o textures Lhf;
@@ -32,4 +56,51 @@ CLASS net/minecraft/client/Minecraft
 	FIELD x options Lig;
 	FIELD y minecraftApplet Lnet/minecraft/client/MinecraftApplet;
 	FIELD z soundEngine Ltm;
+	METHOD A handleGrabTexture ()V
+	METHOD B reloadSound ()V
+	METHOD a init ()V
+	METHOD a handleMouseClick (I)V
+		ARG 1 buttonNum
+	METHOD a resize (II)V
+		ARG 1 w
+		ARG 2 h
+	METHOD a blit (IIIIII)V
+	METHOD a handleMouseDown (IZ)V
+	METHOD a renderFpsMeter (J)V
+		ARG 1 time
+	METHOD a setScreen (Lcb;)V
+	METHOD a setLevel (Ldt;)V
+	METHOD a grabHugeScreenshot (Ljava/io/File;IIII)Ljava/lang/String;
+		ARG 1 workDir
+		ARG 2 width
+		ARG 3 height
+		ARG 4 xSize
+		ARG 5 ySize
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 applicationName
+	METHOD a connectTo (Ljava/lang/String;I)V
+	METHOD a fileDownloaded (Ljava/lang/String;Ljava/io/File;)V
+	METHOD a onCrash (Ljm;)V
+	METHOD b getWorkingDirectory ()Ljava/io/File;
+	METHOD c checkGLError (Ljava/lang/String;)V
+	METHOD d destroy ()V
+	METHOD d prepareLevel (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD e stop ()V
+	METHOD f grabMouse ()V
+	METHOD g releaseMouse ()V
+	METHOD h pauseGame ()V
+	METHOD i toggleFullScreen ()V
+	METHOD j tick ()V
+	METHOD k isOnline ()Z
+	METHOD l toggleDimension ()V
+	METHOD m getOpenGLCapabilities ()Lby;
+	METHOD n gatherStats1 ()Ljava/lang/String;
+	METHOD o gatherStats2 ()Ljava/lang/String;
+	METHOD p gatherStats4 ()Ljava/lang/String;
+	METHOD q gatherStats3 ()Ljava/lang/String;
+	METHOD r respawnPlayer ()V
 	METHOD v ao ()Z
+	METHOD x renderLoadingScreen ()V
+	METHOD y getPlatform ()Lls;
+	METHOD z checkScreenshot ()V

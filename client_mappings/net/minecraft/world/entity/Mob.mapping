@@ -1,12 +1,80 @@
 CLASS iz net/minecraft/world/entity/Mob
-	METHOD K isImmobile ()Z
+	FIELD B invulnerableDuration I
+	FIELD C timeOffs F
+	FIELD D rotA F
+	FIELD E yBodyRot F
+	FIELD F yBodyRotO F
+	FIELD G oRun F
+	FIELD H run F
+	FIELD I animStep F
+	FIELD J animStepO F
+	FIELD K hasHair Z
+	FIELD L textureName Ljava/lang/String;
+	FIELD M allowAlpha Z
+	FIELD N rotOffs F
+	FIELD O modelName Ljava/lang/String;
+	FIELD P bobStrength F
+	FIELD Q deathScore I
+	FIELD R renderOffset F
+	FIELD S interpolateOnly Z
+	FIELD T oAttackAnim F
+	FIELD U attackAnim F
+	FIELD V health I
+	FIELD W lastHealth I
+	FIELD X hurtTime I
+	FIELD Y hurtDuration I
+	FIELD Z hurtDir F
+	FIELD a ambientSoundTime I
+	FIELD aa deathTime I
+	FIELD ab attackTime I
+	FIELD ac oTilt F
+	FIELD ad tilt F
+	FIELD ae dead Z
+	FIELD af modelNum I
+	FIELD ag animSpeed F
+	FIELD ah walkAnimSpeedO F
+	FIELD ai walkAnimSpeed F
+	FIELD aj walkAnimPos F
+	FIELD ak lSteps I
+	FIELD al lx D
+	FIELD am ly D
+	FIELD an lz D
+	FIELD ao lyr D
+	FIELD ap lxr D
+	FIELD aq fallTime F
+	FIELD ar lastHurt I
+	FIELD as noActionTime I
+	FIELD at xxa F
+	FIELD au yya F
+	FIELD av yRotA F
+	FIELD aw jumping Z
+	FIELD ax defaultLookAngle F
+	FIELD ay runSpeed F
+	FIELD b lookingAt Lom;
+	FIELD c lookTime I
+	METHOD K isSleeping ()Z
+	METHOD S jumpFromGround ()V
 	METHOD a pick (DF)Lqu;
+	METHOD a knockback (Lom;IDD)V
+	METHOD b travel (FF)V
+	METHOD b actuallyHurt (I)V
 	METHOD b die (Lom;)V
 	METHOD c heal (I)V
+	METHOD c_ isWaterMob ()Z
+	METHOD d getAmbientSoundInterval ()I
 	METHOD d getAttackAnim (F)F
 	METHOD d_ updateAi ()V
 	METHOD e getPos (F)Lay;
+	METHOD e canSee (Lom;)Z
+	METHOD f getAmbientSound ()Ljava/lang/String;
 	METHOD f getViewVector (F)Lay;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD j getSoundVolume ()F
 	METHOD k getMaxSpawnClusterSize ()I
 	METHOD m aiStep ()V
+	METHOD n onLadder ()Z
+	METHOD o dropDeathLoot ()V
 	METHOD o_ getCarriedItem ()Lgz;
+	METHOD v isImmobile ()Z

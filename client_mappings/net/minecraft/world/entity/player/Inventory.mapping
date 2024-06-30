@@ -1,5 +1,8 @@
 CLASS gy net/minecraft/world/entity/player/Inventory
 	FIELD a items [Lgz;
 	FIELD c selected I
+	METHOD a grabTexture (IZ)V
+	METHOD b getSelected ()Lgz;
 	METHOD e tick ()V
+	METHOD f getArmorValue ()I
 	METHOD g dropAll ()V

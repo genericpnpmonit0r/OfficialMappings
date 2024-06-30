@@ -1,0 +1,7 @@
+CLASS mp net/minecraft/network/packet/PlayerInputPacket
+	FIELD a xxa F
+	FIELD b yya F
+	FIELD c sneaking Z
+	FIELD d jumping Z
+	FIELD e xRot F
+	FIELD f yRot F

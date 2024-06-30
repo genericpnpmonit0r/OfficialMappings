@@ -1,0 +1,5 @@
+CLASS iy net/minecraft/client/player/KeyboardInput
+	FIELD f keys [Z
+	FIELD g options Lig;
+	METHOD <init> (Lig;)V
+		ARG 1 options

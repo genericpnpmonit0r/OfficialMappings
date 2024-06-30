@@ -1,0 +1,50 @@
+CLASS lt net/minecraft/network/Connection
+	FIELD a threadCounterLock Ljava/lang/Object;
+	FIELD b readThreads I
+	FIELD c writeThreads I
+	FIELD d fakeLag I
+	FIELD e writeLock Ljava/lang/Object;
+	FIELD f socket Ljava/net/Socket;
+	FIELD g address Ljava/net/SocketAddress;
+	FIELD h dis Ljava/io/DataInputStream;
+	FIELD i dos Ljava/io/DataOutputStream;
+	FIELD j running Z
+	FIELD k incoming Ljava/util/List;
+	FIELD l outgoing Ljava/util/List;
+	FIELD m outgoing_slow Ljava/util/List;
+	FIELD n packetListener Lpe;
+	FIELD o quitting Z
+	FIELD p writeThread Ljava/lang/Thread;
+	FIELD q readThread Ljava/lang/Thread;
+	FIELD r disconected Z
+	FIELD s disconnectReason Ljava/lang/String;
+	FIELD t disconnectReasonObjects [Ljava/lang/Object;
+	FIELD u noInputTicks I
+	FIELD v estimatedRemaining I
+	FIELD w slowWriteDelay I
+	METHOD <init> (Ljava/net/Socket;Ljava/lang/String;Lpe;)V
+		ARG 1 socket
+		ARG 2 name
+		ARG 3 listener
+	METHOD a tick ()V
+	METHOD a send (Lhz;)V
+		ARG 1 pack
+	METHOD a handleException (Ljava/lang/Exception;)V
+		ARG 1 e
+	METHOD a close (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 reasonObjects
+	METHOD a access$000 (Llt;)Z
+		ARG 0 c
+	METHOD b writeTick ()V
+	METHOD b access$100 (Llt;)Z
+		ARG 0 c
+	METHOD c readTick ()V
+	METHOD c access$200 (Llt;)V
+		ARG 0 c
+	METHOD d access$300 (Llt;)V
+		ARG 0 c
+	METHOD e access$400 (Llt;)Ljava/lang/Thread;
+		ARG 0 c
+	METHOD f access$500 (Llt;)Ljava/lang/Thread;
+		ARG 0 c

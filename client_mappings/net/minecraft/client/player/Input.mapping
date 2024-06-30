@@ -1,0 +1,12 @@
+CLASS qh net/minecraft/client/player/Input
+	FIELD a xa F
+	FIELD b ya F
+	FIELD c wasJumping Z
+	FIELD d jumping Z
+	FIELD e sneaking Z
+	METHOD a releaseAllKeys ()V
+	METHOD a setKey (IZ)V
+		ARG 1 eventKey
+		ARG 2 eventKeyState
+	METHOD a tick (Lfd;)V
+		ARG 1 player

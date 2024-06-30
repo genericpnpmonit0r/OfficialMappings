@@ -1,0 +1,2 @@
+CLASS ie net/minecraft/client/Minecraft$2
+	FIELD a $VALUES [I

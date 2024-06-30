@@ -1,0 +1,2 @@
+CLASS ek net/minecraft/world/level/levelgen/LargeFeature
+	METHOD a apply (Lbo;Ldt;II[B)V

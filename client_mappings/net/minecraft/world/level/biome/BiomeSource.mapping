@@ -1,1 +1,35 @@
 CLASS su net/minecraft/world/level/biome/BiomeSource
+	FIELD a temperatures [D
+	FIELD b downfalls [D
+	FIELD c noises [D
+	FIELD d biomes [Lhv;
+	FIELD e temperatureMap Lpy;
+	FIELD f downfallMap Lpy;
+	FIELD g noiseMap Lpy;
+	METHOD <init> (Ldt;)V
+		ARG 1 level
+	METHOD a getBiome (II)Lhv;
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBiomeBlock (IIII)[Lhv;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 w
+		ARG 4 h
+	METHOD a getBiome (Ltt;)Lhv;
+		ARG 1 pos
+	METHOD a getTemperatureBlock ([DIIII)[D
+		ARG 1 temperatures
+		ARG 2 x
+		ARG 3 z
+		ARG 4 w
+		ARG 5 h
+	METHOD a getBiomeBlock ([Lhv;IIII)[Lhv;
+		ARG 1 biomes
+		ARG 2 x
+		ARG 3 z
+		ARG 4 w
+		ARG 5 h
+	METHOD b getTemperature (II)D
+		ARG 1 x
+		ARG 2 z

@@ -1,15 +1,149 @@
 CLASS om net/minecraft/world/entity/Entity
+	FIELD aA viewScale D
+	FIELD aB blocksBuilding Z
+	FIELD aC rider Lom;
+	FIELD aD riding Lom;
+	FIELD aE level Ldt;
+	FIELD aF xo D
+	FIELD aG yo D
+	FIELD aH zo D
+	FIELD a entityCounter I
+	FIELD aI x D
+	FIELD aJ y D
+	FIELD aK z D
+	FIELD aL xd D
+	FIELD aM yd D
+	FIELD aN zd D
+	FIELD aO yRot F
+	FIELD aP xRot F
+	FIELD aQ yRotO F
+	FIELD aR xRotO F
+	FIELD aS bb Ldi;
+	FIELD aT onGround Z
+	FIELD aU horizontalCollision Z
+	FIELD aV verticalCollision Z
+	FIELD aW collision Z
+	FIELD aX hurtMarked Z
+	FIELD aY slide Z
 	FIELD aZ removed Z
+	FIELD az entityId I
+	FIELD bA entityData Lpv;
+	FIELD bB inChunk Z
+	FIELD bC xChunk I
+	FIELD bD yChunk I
+	FIELD bE zChunk I
+	FIELD bF xp I
+	FIELD bG yp I
+	FIELD bH zp I
+	FIELD b nextStep I
+	FIELD ba heightOffset F
+	FIELD bb bbWidth F
+	FIELD bc bbHeight F
+	FIELD bd walkDistO F
+	FIELD be walkDist F
+	FIELD bf makeStepSound Z
+	FIELD bg fallDistance F
+	FIELD bh xOld D
+	FIELD bi yOld D
+	FIELD bj zOld D
+	FIELD bk ySlideOffset F
+	FIELD bl footSize F
+	FIELD bm noPhysics Z
+	FIELD bn pushthrough F
+	FIELD bo hovered Z
+	FIELD bp random Ljava/util/Random;
+	FIELD bq tickCount I
+	FIELD br flameTime I
+	FIELD bs onFire I
+	FIELD bt airCapacity I
+	FIELD bu wasInWater Z
+	FIELD bv invulnerableTime I
+	FIELD bw airSupply I
+	FIELD bx customTextureUrl Ljava/lang/String;
+	FIELD by customTextureUrl2 Ljava/lang/String;
+	FIELD bz fireImmune Z
+	FIELD c firstTick Z
+	FIELD d xRideRotA D
+	FIELD e yRideRotA D
+	METHOD <init> (Ldt;)V
+		ARG 1 level
+	METHOD B getHeadHeight ()F
+	METHOD F getRidingHeight ()D
+	METHOD H remove ()V
+	METHOD I isInWall ()Z
+	METHOD N getTexture ()Ljava/lang/String;
+	METHOD P baseTick ()V
+	METHOD R isAlive ()Z
 	METHOD V getLookAngle ()Lay;
+	METHOD W getEntityData ()Lpv;
+	METHOD Y isInLava ()Z
+	METHOD Z markHurt ()V
 	METHOD a handleEntityEvent (B)V
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a lerpMotion (DDD)V
+	METHOD a lerpTo (DDDFFI)V
+	METHOD a getBrightness (F)F
 	METHOD a setSize (FF)V
+	METHOD a moveRelative (FFF)V
+	METHOD a spawnAtLocation (IIF)Lfs;
+	METHOD a shouldRender (Lay;)Z
+	METHOD a interact (Lfd;)Z
+	METHOD a spawnAtLocation (Lgz;F)Lfs;
+		ARG 1 item
+	METHOD a isUnderLiquid (Liu;)Z
 	METHOD a addAdditionalSaveData (Lks;)V
+		ARG 1 entityTag
+	METHOD a getCollideAgainstBox (Lom;)Ldi;
+	METHOD a hurt (Lom;I)Z
+		ARG 1 source
+		ARG 2 count
+	METHOD a newDoubleList ([D)Loo;
+	METHOD a newFloatList ([F)Loo;
+	METHOD aa getEncodeId ()Ljava/lang/String;
+	METHOD ab isOnFire ()Z
+	METHOD ac isRiding ()Z
 	METHOD b defineSynchedData ()V
+	METHOD b move (DDD)V
+	METHOD b spawnAtLocation (II)Lfs;
+	METHOD b getSharedFlag (IZ)V
 	METHOD b playerTouch (Lfd;)V
+		ARG 1 player
 	METHOD b readAdditionalSaveData (Lks;)V
+		ARG 1 tag
 	METHOD c setPos (DDD)V
+	METHOD c moveTo (DDDFF)V
+	METHOD c causeFallDamage (F)V
+	METHOD c setRot (FF)V
+	METHOD c setEquippedSlot (III)V
+	METHOD c save (Lks;)Z
 	METHOD c awardKillScore (Lom;I)V
+	METHOD d isFree (DDD)Z
+	METHOD d turn (FF)V
+	METHOD d getSharedFlag (I)Z
+	METHOD d saveWithoutId (Lks;)V
+	METHOD e getPickRadius ()F
+	METHOD e distanceToSqr (DDD)D
+	METHOD e load (Lks;)V
+	METHOD f distanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD f distanceTo (Lom;)F
+	METHOD f_ isPickable ()Z
+	METHOD g push (DDD)V
+	METHOD g distanceToSqr (Lom;)D
+		ARG 1 entity
+	METHOD g_ isPushable ()Z
+	METHOD h animateHurt ()V
+	METHOD i ride (Lom;)V
+		ARG 1 e
+	METHOD j_ isInWater ()Z
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD l getRideHeight ()D
+	METHOD l_ positionRider ()V
 	METHOD q_ tick ()V
+	METHOD r isSneaking ()Z
+	METHOD s handleInsidePortal ()V
 	METHOD w prepareCustomTextures ()V
 	METHOD x rideTick ()V
 	METHOD y resetPos ()V

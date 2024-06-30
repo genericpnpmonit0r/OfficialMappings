@@ -1,1 +1,8 @@
 CLASS qu net/minecraft/world/phys/HitResult
+	FIELD a type Lhd;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e f I
+	FIELD f pos Lay;
+	FIELD g entity Lom;

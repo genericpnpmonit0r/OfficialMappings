@@ -9,5 +9,20 @@ CLASS ih net/minecraft/world/level/chunk/ChunkCache
 	FIELD h last Lit;
 	FIELD i xCenter I
 	FIELD j yCenter I
+	METHOD <init> (Ldt;Lao;Lbo;)V
+		ARG 1 level
+		ARG 2 storage
+		ARG 3 source
+	METHOD a saveEntities (Lit;)V
+		ARG 1 lc
+	METHOD b save (Lit;)V
+		ARG 1 lc
 	METHOD c centerOn (II)V
+		ARG 1 x
+		ARG 2 y
 	METHOD d fits (II)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD e load (II)Lit;
+		ARG 1 x
+		ARG 2 z

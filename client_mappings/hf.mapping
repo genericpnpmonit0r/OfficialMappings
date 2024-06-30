@@ -1,2 +1,0 @@
-CLASS hf
-	METHOD a loadTexture (Ljava/lang/String;)I

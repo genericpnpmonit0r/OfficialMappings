@@ -1,0 +1,7 @@
+CLASS bt net/minecraft/client/player/SmoothFloat
+	FIELD a unk_a F
+	FIELD b unk_b F
+	FIELD c unk_c F
+	METHOD a getNewDeltaValue (FF)F
+		ARG 1 value
+		ARG 2 delta

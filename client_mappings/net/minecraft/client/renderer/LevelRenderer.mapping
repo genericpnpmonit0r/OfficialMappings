@@ -19,3 +19,15 @@ CLASS h net/minecraft/client/renderer/LevelRenderer
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Lhf;)V
 		ARG 1 minecraft
 		ARG 2 textures
+	METHOD a allChanged ()V
+	METHOD a renderSky (F)V
+	METHOD a renderSameAsLast (ID)V
+	METHOD a renderEntities (Lay;Ltl;F)V
+	METHOD a renderHit (Lfd;Lqu;ILgz;F)V
+	METHOD a render (Liz;ID)I
+	METHOD a updateDirtyChunks (Liz;Z)Z
+	METHOD a cull (Ltl;F)V
+	METHOD b gatherStats1 ()Ljava/lang/String;
+	METHOD b renderClouds (F)V
+	METHOD b renderHitOutline (Lfd;Lqu;ILgz;F)V
+	METHOD c gatherStats2 ()Ljava/lang/String;

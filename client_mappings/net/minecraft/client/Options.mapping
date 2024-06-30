@@ -1,5 +1,63 @@
 CLASS ig net/minecraft/client/Options
+	FIELD A showFps Z
+	FIELD B lastMpIp Ljava/lang/String;
+	FIELD C unk_C Z
+	FIELD D smoothCamera Z
+	FIELD E unk_E Z
+	FIELD F unk_F F
+	FIELD G unk_G F
 	FIELD H RENDER_DISTANCE_NAMES [Ljava/lang/String;
 	FIELD I DIFFICULTY_NAMES [Ljava/lang/String;
+	FIELD J optionsFile Ljava/io/File;
+	FIELD a music F
+	FIELD b sound F
+	FIELD c sensitivity F
+	FIELD d invertYMouse Z
+	FIELD e viewDistance I
+	FIELD f bobView Z
+	FIELD g anaglyph3d Z
+	FIELD h limitFramerate Z
+	FIELD i fancyGraphics Z
 	FIELD j ao Z
 	FIELD k skin Ljava/lang/String;
+	FIELD l keyUp Lmk;
+	FIELD m keyLeft Lmk;
+	FIELD n keyDown Lmk;
+	FIELD o keyRight Lmk;
+	FIELD p keyJump Lmk;
+	FIELD q keyInventory Lmk;
+	FIELD r keyDrop Lmk;
+	FIELD s keyChat Lmk;
+	FIELD t keyFog Lmk;
+	FIELD u keySneak Lmk;
+	FIELD v keyMappings [Lmk;
+	FIELD w minecraft Lnet/minecraft/client/Minecraft;
+	FIELD x difficulty I
+	FIELD y showGui Z
+	FIELD z thirdPersonView Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 workDir
+	METHOD a load ()V
+	METHOD a getKeyDescription (I)Ljava/lang/String;
+		ARG 1 i
+	METHOD a setKey (II)V
+		ARG 1 i
+		ARG 2 key
+	METHOD a getProgressValue (Lfz;)F
+		ARG 1 option
+	METHOD a set (Lfz;F)V
+		ARG 1 option
+		ARG 2 value
+	METHOD a toggle (Lfz;I)V
+		ARG 1 option
+		ARG 2 value
+	METHOD a readFloat (Ljava/lang/String;)F
+		ARG 1 string
+	METHOD b save ()V
+	METHOD b getKeyMessage (I)Ljava/lang/String;
+		ARG 1 i
+	METHOD b getBooleanValue (Lfz;)Z
+		ARG 1 option
+	METHOD c getMessage (Lfz;)Ljava/lang/String;
+		ARG 1 option

@@ -1,0 +1,6 @@
+CLASS ht net/minecraft/network/packet/EntityActionAtPositionPacket
+	FIELD a eid I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e action I

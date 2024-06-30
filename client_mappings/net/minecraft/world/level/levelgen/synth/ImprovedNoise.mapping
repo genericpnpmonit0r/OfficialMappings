@@ -1,0 +1,39 @@
+CLASS ad net/minecraft/world/level/levelgen/synth/ImprovedNoise
+	FIELD a xo D
+	FIELD b yo D
+	FIELD c zo D
+	FIELD d p [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD a getValue (DD)D
+		ARG 1 x
+		ARG 3 y
+	METHOD a noise (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a grad2 (IDD)D
+		ARG 1 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a grad (IDDD)D
+		ARG 1 x
+		ARG 2 y
+		ARG 4 z
+		ARG 6 w
+	METHOD a add ([DDDDIIIDDDD)V
+		ARG 1 a
+		ARG 2 b
+		ARG 4 c
+		ARG 6 d
+		ARG 8 e
+		ARG 9 f
+		ARG 10 g
+		ARG 11 h
+		ARG 13 i
+		ARG 15 j
+		ARG 17 k
+	METHOD b lerp (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

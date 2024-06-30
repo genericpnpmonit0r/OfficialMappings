@@ -1,0 +1,2 @@
+CLASS pv net/minecraft/world/entity/SynchedEntityData
+	METHOD a define (ILjava/lang/Object;)V

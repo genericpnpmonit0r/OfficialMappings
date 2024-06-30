@@ -1,0 +1,2 @@
+CLASS ck net/minecraft/client/renderer/Chunk
+	FIELD b updates I

@@ -23,21 +23,41 @@ CLASS fd net/minecraft/world/entity/player/Player
 	FIELD v yCloak D
 	FIELD w zCloak D
 	METHOD A drop ()V
+	METHOD G swing ()V
 	METHOD J getSleepingRotation ()F
-	METHOD L isSleeping ()Z
+	METHOD L isSleepingLongEnough ()Z
 	METHOD M getSleepTimer ()I
+	METHOD a startCrafting (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a openTrap (Lak;)V
+		ARG 1 trap
 	METHOD a drop (Lgz;)V
 	METHOD a drop (Lgz;Z)V
+	METHOD a openContainer (Ljc;)V
+		ARG 1 container
+	METHOD a openFurnace (Loj;)V
+		ARG 1 furnace
+	METHOD a openTextEdit (Lti;)V
+		ARG 1 sign
 	METHOD a stopSleepInBed (ZZ)V
 	METHOD b startSleepInBed (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b displayMessage (Ljava/lang/String;)V
+	METHOD b carriedChanged (Lgz;)V
+	METHOD b displayClientMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b take (Lom;I)V
+		ARG 1 e
+		ARG 2 orgCount
 	METHOD c interact (Lom;)V
 	METHOD d attack (Lom;)V
 	METHOD e setBedOffset (I)V
 	METHOD j touch (Lom;)V
 	METHOD p closeContainer ()V
 	METHOD q checkBed ()Z
+	METHOD t respawn ()V
+	METHOD u animateRespawn ()V
 	METHOD z getScore ()I

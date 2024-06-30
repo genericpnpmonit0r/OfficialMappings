@@ -1,4 +1,5 @@
 CLASS dt net/minecraft/world/level/Level
+	FIELD A allPlayersSleeping Z
 	FIELD B boxes Ljava/util/ArrayList;
 	FIELD C maxRecurse I
 	FIELD D spawnEnemies Z
@@ -32,32 +33,99 @@ CLASS dt net/minecraft/world/level/Level
 	FIELD x tickNextTickSet Ljava/util/Set;
 	FIELD y cloudColor J
 	FIELD z sessionId J
+	METHOD <init> (Ldt;Lsd;)V
+		ARG 1 level
+		ARG 2 dimension
+	METHOD <init> (Lrw;Ljava/lang/String;J)V
+		ARG 1 storage
+		ARG 2 levelName
+		ARG 3 seed
+	METHOD <init> (Lrw;Ljava/lang/String;JLsd;)V
+		ARG 1 storage
+		ARG 2 levelName
+		ARG 3 seed
+		ARG 5 dimension
+	METHOD <init> (Lrw;Ljava/lang/String;Lsd;J)V
+		ARG 1 storage
+		ARG 2 levelName
+		ARG 3 dimension
+		ARG 4 seed
 	METHOD a pauseSave (I)Z
 	METHOD a getTopTile (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a hasChunksAt (IIIIII)Z
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
 	METHOD a clip (Lay;Lay;)Lqu;
+	METHOD a updateLight (Lcx;IIIIII)V
 	METHOD a loadPlayer (Lfd;)V
+		ARG 1 player
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a addEntities (Ljava/util/List;)V
+	METHOD a addEntity (Lom;)Z
+	METHOD a broadcastEntityEvent (Lom;B)V
+	METHOD a getSkyColor (Lom;F)Lay;
 	METHOD a findPath (Lom;IIIF)Lch;
+	METHOD a playSound (Lom;Ljava/lang/String;FF)V
 	METHOD a findPath (Lom;Lom;F)Lch;
 	METHOD a save (ZLta;)V
+		ARG 1 all
+		ARG 2 progress
 	METHOD b createChunkSource ()Lbo;
 	METHOD b getChunkAt (II)Lit;
+		ARG 1 x
+		ARG 2 z
+	METHOD b tileEntityChanged (IIILll;)V
+	METHOD b removeEntities (Ljava/util/List;)V
 	METHOD b getEntities (Lom;Ldi;)Ljava/util/List;
 	METHOD c validateSpawn ()V
 	METHOD c getChunk (II)Lit;
+		ARG 1 x
+		ARG 2 z
 	METHOD d clearLoadedPlayerData ()V
+	METHOD d getFogColor (F)Lay;
+	METHOD d getHeightmap (II)I
+		ARG 1 x
+		ARG 2 z
 	METHOD d isEmptyTile (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD d tileEvent (IIIII)V
 	METHOD e setTile (IIII)Z
+	METHOD f getLightDepth (II)I
+	METHOD g gatherStats ()Ljava/lang/String;
 	METHOD g hasChunk (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD g lightColumnChanged (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y0
+		ARG 4 y1
+	METHOD h gatherChunkSourceStats ()Ljava/lang/String;
+	METHOD h hasChunkAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i updateLights ()Z
+	METHOD i extinguishFire (IIII)V
+	METHOD j updateSkyBrightness ()V
 	METHOD j getDirectSignal (IIII)Z
 	METHOD k getSignal (IIII)Z
+	METHOD n prepare ()V
 	METHOD p checkSession ()V
 	METHOD p hasDirectSignal (III)Z
+	METHOD q getSeed ()J
 	METHOD q hasNeighborSignal (III)Z
+	METHOD r getTime ()J
 	METHOD s getSharedSpawnPos ()Lav;
+	METHOD t removeAllPendingEntityRemovals ()V
 	METHOD u getChunkSource ()Lbo;
 	METHOD v getLevelData ()Ldc;
 	METHOD w updateSleepingPlayerList ()V

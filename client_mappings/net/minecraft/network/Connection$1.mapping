@@ -1,0 +1,5 @@
+CLASS sj net/minecraft/network/Connection$1
+	FIELD a this$0 Llt;
+	METHOD <init> (Llt;Ljava/lang/String;)V
+		ARG 1 this$0
+		ARG 2 val$name

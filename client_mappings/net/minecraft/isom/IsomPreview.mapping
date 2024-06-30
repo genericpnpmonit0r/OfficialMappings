@@ -12,8 +12,9 @@ CLASS an net/minecraft/isom/IsomPreview
 	FIELD k xDrag I
 	FIELD l yDrag I
 	METHOD a getWorkingDirectory ()Ljava/io/File;
-	METHOD a (II)Lnh;
-		ARG 1 y
+	METHOD a getZone (II)Lnh;
+		ARG 1 x
+		ARG 2 y
 	METHOD a access$000 (Lan;)Z
 	METHOD a render (Ljava/awt/Graphics2D;)V
 		ARG 1 g

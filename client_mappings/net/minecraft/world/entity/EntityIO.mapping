@@ -1,0 +1,2 @@
+CLASS ha net/minecraft/world/entity/EntityIO
+	METHOD b getEncodeId (Lom;)Ljava/lang/String;

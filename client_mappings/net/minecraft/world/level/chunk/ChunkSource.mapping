@@ -1,8 +1,17 @@
 CLASS bo net/minecraft/world/level/chunk/ChunkSource
 	METHOD a tick ()Z
 	METHOD a hasChunk (II)Z
+		ARG 1 x
+		ARG 2 z
 	METHOD a postProcess (Lbo;II)V
+		ARG 1 cs
+		ARG 2 x
+		ARG 3 z
 	METHOD a save (ZLta;)Z
+		ARG 1 all
+		ARG 2 progress
 	METHOD b shouldSave ()Z
 	METHOD b getChunk (II)Lit;
+		ARG 1 x
+		ARG 2 z
 	METHOD c gatherStats ()Ljava/lang/String;

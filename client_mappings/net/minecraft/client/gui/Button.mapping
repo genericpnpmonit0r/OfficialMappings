@@ -1,0 +1,4 @@
+CLASS hw net/minecraft/client/gui/Button
+	METHOD a released (II)V
+	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
+	METHOD c clicked (Lnet/minecraft/client/Minecraft;II)Z

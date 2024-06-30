@@ -1,0 +1,6 @@
+CLASS nd net/minecraft/client/renderer/ItemInHandRenderer
+	METHOD a tick ()V
+	METHOD a render (F)V
+	METHOD b itemPlaced ()V
+	METHOD b renderScreenEffect (F)V
+	METHOD c itemUsed ()V

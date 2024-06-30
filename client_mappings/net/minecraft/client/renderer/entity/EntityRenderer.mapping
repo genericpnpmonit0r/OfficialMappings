@@ -5,3 +5,6 @@ CLASS bb net/minecraft/client/renderer/entity/EntityRenderer
 	FIELD d shadowStrength F
 	FIELD e tileRenderer Lbw;
 	METHOD a renderFlame (Lom;DDDF)V
+	METHOD a render (Lom;DDDFF)V
+	METHOD a init (Lpd;)V
+	METHOD b postRender (Lom;DDDFF)V

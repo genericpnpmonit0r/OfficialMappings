@@ -9,9 +9,17 @@ CLASS hz net/minecraft/network/packet/Packet
 	METHOD a getPacket (I)Lhz;
 		ARG 0 id
 	METHOD a map (ILjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 c
 	METHOD a writePacket (Lhz;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 dos
 	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 dis
 	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 dos
 	METHOD a handle (Lpe;)V
+		ARG 1 pl
 	METHOD b readPacket (Ljava/io/DataInputStream;)Lhz;
+		ARG 0 dis
 	METHOD c getId ()I

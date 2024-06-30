@@ -1,0 +1,5 @@
+CLASS fq net/minecraft/client/Screenshot
+	METHOD a saveRow ()V
+	METHOD a grab (Ljava/io/File;II)Ljava/lang/String;
+	METHOD a addRegion (Ljava/nio/ByteBuffer;IIII)V
+	METHOD b close ()Ljava/lang/String;

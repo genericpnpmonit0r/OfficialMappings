@@ -1,1 +1,16 @@
 CLASS cc net/minecraft/client/player/LocalPlayer
+	FIELD a input Lqh;
+	FIELD bI isInsidePortal Z
+	FIELD bJ unk_bJ Lbt;
+	FIELD bK unk_bK Lbt;
+	FIELD bL unk_bL Lbt;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c changingDimensionDelay I
+	FIELD d portalTime F
+	FIELD e oPortalTime F
+	METHOD a chat (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a_ hurtTo (I)V
+		ARG 1 newHealth
+	METHOD n_ releaseAllKeys ()V
+	METHOD q getArmor ()I

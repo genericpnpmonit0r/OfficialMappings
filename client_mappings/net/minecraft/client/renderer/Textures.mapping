@@ -1,0 +1,6 @@
+CLASS hf net/minecraft/client/renderer/Textures
+	METHOD a tick ()V
+	METHOD a addDynamicTexture (Lah;)V
+	METHOD a getTexture (Ljava/awt/image/BufferedImage;)I
+	METHOD a loadTexture (Ljava/lang/String;)I
+	METHOD b reloadAll ()V
