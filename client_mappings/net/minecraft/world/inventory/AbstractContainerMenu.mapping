@@ -1,3 +1,4 @@
 CLASS ct net/minecraft/world/inventory/AbstractContainerMenu
+	FIELD f containerId I
 	METHOD a clicked (IILfd;)Lgz;
 	METHOD a removed (Lfd;)V

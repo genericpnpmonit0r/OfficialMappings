@@ -10,6 +10,33 @@ CLASS qf net/minecraft/client/gui/Gui
 	FIELD i nowPlayingString Ljava/lang/String;
 	FIELD k nowPlayingTime I
 	FIELD l unk_l Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
 	METHOD a tick ()V
+	METHOD a renderVignette (FII)V
+		ARG 1 brightness
+		ARG 2 w
+		ARG 3 h
 	METHOD a render (FZII)V
+		ARG 1 a
+		ARG 2 b
+		ARG 3 xm
+		ARG 4 ym
+	METHOD a renderPumpkin (II)V
+		ARG 1 w
+		ARG 2 h
+	METHOD a renderSlot (IIIF)V
+		ARG 1 item
+		ARG 2 x
+		ARG 3 y
+		ARG 4 a
 	METHOD a addMessage (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD b renderTp (FII)V
+		ARG 1 alpha
+		ARG 2 w
+		ARG 3 h
+	METHOD b setNowPlaying (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD c displayClientMessage (Ljava/lang/String;)V
+		ARG 1 string

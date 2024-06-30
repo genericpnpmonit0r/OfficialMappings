@@ -1,5 +1,7 @@
 CLASS cn net/minecraft/client/particle/ParticleEngine
+	METHOD a tick ()V
 	METHOD a destroy (III)V
+	METHOD a setLevel (Ldt;)V
 	METHOD a render (Lom;F)V
 	METHOD a add (Lsv;)V
 	METHOD b countParticles ()Ljava/lang/String;

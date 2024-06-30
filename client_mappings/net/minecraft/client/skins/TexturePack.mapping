@@ -1,0 +1,2 @@
+CLASS e net/minecraft/client/skins/TexturePack
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;

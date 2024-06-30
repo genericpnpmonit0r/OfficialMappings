@@ -22,6 +22,9 @@ CLASS fd net/minecraft/world/entity/player/Player
 	FIELD u xCloak D
 	FIELD v yCloak D
 	FIELD w zCloak D
+	FIELD x unk_x F
+	FIELD y unk_y F
+	FIELD z unk_z F
 	METHOD A drop ()V
 	METHOD G swing ()V
 	METHOD J getSleepingRotation ()F
@@ -33,6 +36,7 @@ CLASS fd net/minecraft/world/entity/player/Player
 		ARG 3 z
 	METHOD a openTrap (Lak;)V
 		ARG 1 trap
+	METHOD a reallyDrop (Lfs;)V
 	METHOD a drop (Lgz;)V
 	METHOD a drop (Lgz;Z)V
 	METHOD a openContainer (Ljc;)V

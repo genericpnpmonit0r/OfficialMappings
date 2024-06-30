@@ -1,1 +1,3 @@
 CLASS hd net/minecraft/world/phys/HitResult$Type
+	FIELD a TILE Lhd;
+	FIELD b ENTITY Lhd;

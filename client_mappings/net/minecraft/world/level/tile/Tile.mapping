@@ -1,6 +1,14 @@
 CLASS qk net/minecraft/world/level/tile/Tile
+	FIELD B calmWater Lqk;
 	FIELD E sand Lqk;
+	FIELD F gravel Lqk;
+	FIELD G goldOre Lqk;
+	FIELD H ironOre Lqk;
+	FIELD I coalOre Lqk;
 	FIELD J treeTrunk Lqk;
+	FIELD K leaves Lat;
+	FIELD L sponge Lqk;
+	FIELD M glass Lqk;
 	FIELD S bed Lqk;
 	FIELD T unused_27 Lqk;
 	FIELD U unused_28 Lqk;
@@ -10,13 +18,38 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	FIELD Y unused_32 Lqk;
 	FIELD Z unused_33 Lqk;
 	FIELD aF ladder Lqk;
+	FIELD aK pressurePlate_stone Lqk;
 	FIELD a descriptionId Ljava/lang/String;
+	FIELD aM pressurePlate_wood Lqk;
+	FIELD aR button Lqk;
+	FIELD aS topSnow Lqk;
+	FIELD aT ice Lqk;
+	FIELD aU snow Lqk;
+	FIELD aW clay Lqk;
 	FIELD aa unused_34 Lqk;
 	FIELD ab cloth Lqk;
 	FIELD ac unused_36 Lqk;
+	FIELD ad flower Lrj;
+	FIELD ae rose Lrj;
+	FIELD af mushroom1 Lrj;
+	FIELD ag mushroom2 Lrj;
+	FIELD ah goldBlock Lqk;
+	FIELD ai ironBlock Lqk;
 	FIELD aj stoneSlab Lqk;
 	FIELD ak stoneSlabHalf Lqk;
+	FIELD al redBrick Lqk;
+	FIELD am tnt Lqk;
+	FIELD an bookshelf Lqk;
+	FIELD ao mossStone Lqk;
+	FIELD ap obsidian Lqk;
+	FIELD aq torch Lqk;
 	FIELD ar fire Ltn;
+	FIELD as mobSpawner Lqk;
+	FIELD at stairs_wood Lqk;
+	FIELD au chest Lqk;
+	FIELD aw emeraldOre Lqk;
+	FIELD ax emeraldBlock Lqk;
+	FIELD ba pumpkin Lqk;
 	FIELD be portalTile Lab;
 	FIELD bf litPumpkin Lqk;
 	FIELD bg cake Lqk;
@@ -55,6 +88,9 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	FIELD t rock Lqk;
 	FIELD u grass Lrt;
 	FIELD v dirt Lqk;
+	FIELD w stoneBrick Lqk;
+	FIELD x wood Lqk;
+	FIELD y sapling Lqk;
 	FIELD z unbreakable Lqk;
 	METHOD <init> (IILiu;)V
 		ARG 1 id

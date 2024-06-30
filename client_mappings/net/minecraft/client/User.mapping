@@ -1,1 +1,8 @@
 CLASS fb net/minecraft/client/User
+	FIELD a allowedTiles Ljava/util/List;
+	FIELD b name Ljava/lang/String;
+	FIELD c sessionId Ljava/lang/String;
+	FIELD d mpPassword Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 bane
+		ARG 2 sessionId

@@ -8,6 +8,14 @@ CLASS cc net/minecraft/client/player/LocalPlayer
 	FIELD c changingDimensionDelay I
 	FIELD d portalTime F
 	FIELD e oPortalTime F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ldt;Lfb;I)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 user
+		ARG 4 dimension
+	METHOD a setKey (IZ)V
+		ARG 1 eventKey
+		ARG 2 eventKeyState
 	METHOD a chat (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD a_ hurtTo (I)V

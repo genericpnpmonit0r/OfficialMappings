@@ -1,2 +1,4 @@
 CLASS pv net/minecraft/world/entity/SynchedEntityData
+	METHOD a getByte (I)B
 	METHOD a define (ILjava/lang/Object;)V
+	METHOD b set (ILjava/lang/Object;)V

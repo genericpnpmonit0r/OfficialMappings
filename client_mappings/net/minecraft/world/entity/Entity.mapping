@@ -74,69 +74,155 @@ CLASS om net/minecraft/world/entity/Entity
 	METHOD N getTexture ()Ljava/lang/String;
 	METHOD P baseTick ()V
 	METHOD R isAlive ()Z
+	METHOD U outOfWorld ()V
 	METHOD V getLookAngle ()Lay;
 	METHOD W getEntityData ()Lpv;
+	METHOD X lavaHurt ()V
 	METHOD Y isInLava ()Z
 	METHOD Z markHurt ()V
 	METHOD a handleEntityEvent (B)V
+		ARG 1 event
 	METHOD a shouldRenderAtSqrDistance (D)Z
+		ARG 1 distance
 	METHOD a lerpMotion (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD a lerpTo (DDDFFI)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
+		ARG 9 steps
+	METHOD a checkFallDamage (DZ)V
+		ARG 1 a
+		ARG 3 b
 	METHOD a getBrightness (F)F
+		ARG 1 v
 	METHOD a setSize (FF)V
+		ARG 1 bbWidth
+		ARG 2 bbHeight
 	METHOD a moveRelative (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a burn (I)V
+		ARG 1 dmg
 	METHOD a spawnAtLocation (IIF)Lfs;
+		ARG 1 item
+		ARG 2 count
+		ARG 3 f
 	METHOD a shouldRender (Lay;)Z
+		ARG 1 v
+	METHOD a setLevel (Ldt;)V
+		ARG 1 level
 	METHOD a interact (Lfd;)Z
+		ARG 1 player
 	METHOD a spawnAtLocation (Lgz;F)Lfs;
 		ARG 1 item
+		ARG 2 f
 	METHOD a isUnderLiquid (Liu;)Z
+		ARG 1 material
 	METHOD a addAdditionalSaveData (Lks;)V
 		ARG 1 entityTag
 	METHOD a getCollideAgainstBox (Lom;)Ldi;
+		ARG 1 entity
 	METHOD a hurt (Lom;I)Z
 		ARG 1 source
-		ARG 2 count
+		ARG 2 dmg
 	METHOD a newDoubleList ([D)Loo;
+		ARG 1 d
 	METHOD a newFloatList ([F)Loo;
+		ARG 1 f
 	METHOD aa getEncodeId ()Ljava/lang/String;
 	METHOD ab isOnFire ()Z
 	METHOD ac isRiding ()Z
 	METHOD b defineSynchedData ()V
 	METHOD b move (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b absMoveTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
 	METHOD b spawnAtLocation (II)Lfs;
-	METHOD b getSharedFlag (IZ)V
+		ARG 1 item
+		ARG 2 count
+	METHOD b setSharedFlag (IZ)V
+		ARG 1 data
+		ARG 2 flag
 	METHOD b playerTouch (Lfd;)V
 		ARG 1 player
 	METHOD b readAdditionalSaveData (Lks;)V
 		ARG 1 tag
 	METHOD c setPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD c moveTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
 	METHOD c causeFallDamage (F)V
+		ARG 1 fallDistance
 	METHOD c setRot (FF)V
+		ARG 1 yRot
+		ARG 2 xRot
 	METHOD c setEquippedSlot (III)V
+		ARG 1 slot
+		ARG 2 itemId
+		ARG 3 auxValue
 	METHOD c save (Lks;)Z
+		ARG 1 entityTag
 	METHOD c awardKillScore (Lom;I)V
+		ARG 1 entity
+		ARG 2 score
 	METHOD d isFree (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD d turn (FF)V
+		ARG 1 xr
+		ARG 2 yr
 	METHOD d getSharedFlag (I)Z
+		ARG 1 data
 	METHOD d saveWithoutId (Lks;)V
+		ARG 1 entityTag
 	METHOD e getPickRadius ()F
 	METHOD e distanceToSqr (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD e load (Lks;)V
+		ARG 1 tag
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
 	METHOD f distanceTo (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
 	METHOD f distanceTo (Lom;)F
+		ARG 1 entity
 	METHOD f_ isPickable ()Z
 	METHOD g push (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
 	METHOD g distanceToSqr (Lom;)D
 		ARG 1 entity
 	METHOD g_ isPushable ()Z
 	METHOD h animateHurt ()V
+	METHOD h push (Lom;)V
+		ARG 1 entity
 	METHOD i ride (Lom;)V
 		ARG 1 e
+	METHOD i_ getCollideBox ()Ldi;
 	METHOD j_ isInWater ()Z
 	METHOD k_ getShadowHeightOffs ()F
 	METHOD l getRideHeight ()D

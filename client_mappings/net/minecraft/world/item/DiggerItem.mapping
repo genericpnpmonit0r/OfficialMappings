@@ -1,0 +1,10 @@
+CLASS cp net/minecraft/world/item/DiggerItem
+	FIELD a tier Laz;
+	FIELD bi tiles [Lqk;
+	FIELD bj speed F
+	FIELD bk attackDamage I
+	METHOD <init> (IILaz;[Lqk;)V
+		ARG 1 id
+		ARG 2 attackDamage
+		ARG 3 tier
+		ARG 4 tiles

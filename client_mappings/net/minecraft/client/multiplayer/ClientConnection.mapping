@@ -1,0 +1,2 @@
+CLASS kb net/minecraft/client/multiplayer/ClientConnection
+	METHOD a send (Lhz;)V

@@ -1,0 +1,3 @@
+CLASS hb net/minecraft/client/renderer/tileentity/TileEntityRenderer
+	METHOD a init (Lis;)V
+	METHOD a render (Lll;DDDF)V

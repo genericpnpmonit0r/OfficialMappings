@@ -1,6 +1,48 @@
 CLASS hf net/minecraft/client/renderer/Textures
+	FIELD a MIPMAP Z
+	FIELD b idMap Ljava/util/HashMap;
+	FIELD c loadedImages Ljava/util/HashMap;
+	FIELD d ib Ljava/nio/IntBuffer;
+	FIELD e pixels Ljava/nio/ByteBuffer;
+	FIELD f dynamicTextures Ljava/util/List;
+	FIELD g httpTextures Ljava/util/Map;
+	FIELD h options Lig;
+	FIELD i clamp Z
+	FIELD j blur Z
+	FIELD k skins Lgn;
+	METHOD <init> (Lgn;Lig;)V
+		ARG 1 skins
+		ARG 2 options
 	METHOD a tick ()V
+	METHOD a releaseTexture (I)V
+		ARG 1 id
+	METHOD a smoothBlend (II)I
+		ARG 1 c0
+		ARG 2 c1
 	METHOD a addDynamicTexture (Lah;)V
+		ARG 1 dynamicTexture
 	METHOD a getTexture (Ljava/awt/image/BufferedImage;)I
+		ARG 1 img
+	METHOD a loadTexture (Ljava/awt/image/BufferedImage;I)V
+		ARG 1 img
+		ARG 2 id
+	METHOD a readImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+		ARG 1 in
 	METHOD a loadTexture (Ljava/lang/String;)I
+		ARG 1 resourceName
+	METHOD a loadHttpTexture (Ljava/lang/String;Ljava/lang/String;)I
+		ARG 1 url
+		ARG 2 backup
+	METHOD a addHttpTexture (Ljava/lang/String;Lke;)Lde;
+		ARG 1 url
+		ARG 2 processor
 	METHOD b reloadAll ()V
+	METHOD b bind (I)V
+		ARG 1 id
+	METHOD b crispBlend (II)I
+		ARG 1 c0
+		ARG 2 c1
+	METHOD b makeStrip (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+		ARG 1 source
+	METHOD b removeHttpTexture (Ljava/lang/String;)V
+		ARG 1 url

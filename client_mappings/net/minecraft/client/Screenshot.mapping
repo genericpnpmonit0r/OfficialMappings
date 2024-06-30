@@ -1,5 +1,28 @@
 CLASS fq net/minecraft/client/Screenshot
+	FIELD a df Ljava/text/DateFormat;
+	FIELD b pixels Ljava/nio/ByteBuffer;
+	FIELD c buffer [B
+	FIELD d pixelBuffer [I
+	FIELD e rowHeight I
+	FIELD f dos Ljava/io/DataOutputStream;
+	FIELD g pb [B
+	FIELD h w I
+	FIELD i h I
+	FIELD j file Ljava/io/File;
+	METHOD <init> (Ljava/io/File;III)V
+		ARG 1 workDir
+		ARG 2 w
+		ARG 3 h
+		ARG 4 rowHeight
 	METHOD a saveRow ()V
 	METHOD a grab (Ljava/io/File;II)Ljava/lang/String;
+		ARG 0 workDir
+		ARG 1 width
+		ARG 2 height
 	METHOD a addRegion (Ljava/nio/ByteBuffer;IIII)V
+		ARG 1 pixels
+		ARG 2 xo
+		ARG 3 yo
+		ARG 4 rw
+		ARG 5 rh
 	METHOD b close ()Ljava/lang/String;

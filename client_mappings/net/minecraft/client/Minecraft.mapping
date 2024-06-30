@@ -35,7 +35,7 @@ CLASS net/minecraft/client/Minecraft
 	FIELD e level Ldt;
 	FIELD f levelRenderer Lh;
 	FIELD g player Lcc;
-	FIELD h viewportEntity Liz;
+	FIELD h cameraEntity Liz;
 		COMMENT why is this here wtf notch this is literally just the same as the player field
 		COMMENT just another guesstimated field name cause no fucking clue
 	FIELD i particleEngine Lcn;
@@ -70,6 +70,14 @@ CLASS net/minecraft/client/Minecraft
 		ARG 1 time
 	METHOD a setScreen (Lcb;)V
 	METHOD a setLevel (Ldt;)V
+		ARG 1 level
+	METHOD a setLevel (Ldt;Ljava/lang/String;)V
+		ARG 1 level
+		ARG 2 title
+	METHOD a setLevel (Ldt;Ljava/lang/String;Lfd;)V
+		ARG 1 level
+		ARG 2 title
+		ARG 3 player
 	METHOD a grabHugeScreenshot (Ljava/io/File;IIII)Ljava/lang/String;
 		ARG 1 workDir
 		ARG 2 width
@@ -80,8 +88,17 @@ CLASS net/minecraft/client/Minecraft
 		ARG 0 applicationName
 	METHOD a connectTo (Ljava/lang/String;I)V
 	METHOD a fileDownloaded (Ljava/lang/String;Ljava/io/File;)V
+	METHOD a start (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a selectLevel (Ljava/lang/String;Ljava/lang/String;J)V
+		ARG 1 selected
+		ARG 2 levelName
+		ARG 3 seed
+	METHOD a startAndConnectTo (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
 	METHOD a onCrash (Ljm;)V
+		ARG 1 crashReport
 	METHOD b getWorkingDirectory ()Ljava/io/File;
+	METHOD b convertLevel (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 levelName
 	METHOD c checkGLError (Ljava/lang/String;)V
 	METHOD d destroy ()V
 	METHOD d prepareLevel (Ljava/lang/String;)V
@@ -95,12 +112,17 @@ CLASS net/minecraft/client/Minecraft
 	METHOD k isOnline ()Z
 	METHOD l toggleDimension ()V
 	METHOD m getOpenGLCapabilities ()Lby;
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
 	METHOD n gatherStats1 ()Ljava/lang/String;
 	METHOD o gatherStats2 ()Ljava/lang/String;
 	METHOD p gatherStats4 ()Ljava/lang/String;
 	METHOD q gatherStats3 ()Ljava/lang/String;
 	METHOD r respawnPlayer ()V
-	METHOD v ao ()Z
+	METHOD t showGui ()Z
+	METHOD u fancyGraphics ()Z
+	METHOD v useAmbientOcclusion ()Z
+	METHOD w showFps ()Z
 	METHOD x renderLoadingScreen ()V
 	METHOD y getPlatform ()Lls;
 	METHOD z checkScreenshot ()V

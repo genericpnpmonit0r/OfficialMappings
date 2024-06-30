@@ -1,0 +1,12 @@
+CLASS gm net/minecraft/world/entity/PathfinderMob
+	FIELD a path Lch;
+	FIELD d attackTarget Lom;
+	FIELD e holdGround Z
+	METHOD a getWalkTargetValue (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a checkHurtTarget (Lom;F)V
+		ARG 1 e
+		ARG 2 f
+	METHOD e_ findAttackTarget ()Lom;

@@ -1,1 +1,6 @@
 CLASS po net/minecraft/network/packet/PlayerCommandPacket
+	FIELD a id I
+	FIELD b action I
+	METHOD <init> (Lom;I)V
+		ARG 1 entity
+		ARG 2 action

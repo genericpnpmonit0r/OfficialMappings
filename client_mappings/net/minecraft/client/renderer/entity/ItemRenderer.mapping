@@ -1,1 +1,3 @@
 CLASS al net/minecraft/client/renderer/entity/ItemRenderer
+	METHOD a renderGuiItem (Loi;Lhf;Lgz;II)V
+	METHOD b renderGuiItemDecorations (Loi;Lhf;Lgz;II)V

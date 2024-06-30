@@ -1,0 +1,8 @@
+CLASS pf net/minecraft/client/renderer/HttpTexture$1
+	FIELD a val$_url Ljava/lang/String;
+	FIELD b val$processor Lke;
+	FIELD c this$0 Lde;
+	METHOD <init> (Lde;Ljava/lang/String;Lke;)V
+		ARG 1 this$0
+		ARG 2 val$_url
+		ARG 3 val$processor

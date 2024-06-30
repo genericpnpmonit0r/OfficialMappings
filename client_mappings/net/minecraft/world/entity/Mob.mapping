@@ -53,21 +53,47 @@ CLASS iz net/minecraft/world/entity/Mob
 	FIELD b lookingAt Lom;
 	FIELD c lookTime I
 	METHOD K isSleeping ()Z
+	METHOD O playAmbientSound ()V
+	METHOD Q spawnAnim ()V
 	METHOD S jumpFromGround ()V
+	METHOD T beforeRemove ()V
 	METHOD a pick (DF)Lqu;
+		ARG 1 aa
+		ARG 3 a
 	METHOD a knockback (Lom;IDD)V
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
+		ARG 5 d
 	METHOD b travel (FF)V
+		ARG 1 a
+		ARG 2 b
+	METHOD b rotlerp (FFF)F
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
 	METHOD b actuallyHurt (I)V
+		ARG 1 dmg
 	METHOD b die (Lom;)V
+		ARG 1 entity
+	METHOD b lookAt (Lom;F)V
+		ARG 1 entity
+		ARG 2 a
+	METHOD c canSpawn ()Z
 	METHOD c heal (I)V
+		ARG 1 heal
 	METHOD c_ isWaterMob ()Z
 	METHOD d getAmbientSoundInterval ()I
 	METHOD d getAttackAnim (F)F
+		ARG 1 a
 	METHOD d_ updateAi ()V
 	METHOD e getPos (F)Lay;
+		ARG 1 a
 	METHOD e canSee (Lom;)Z
+		ARG 1 entity
 	METHOD f getAmbientSound ()Ljava/lang/String;
 	METHOD f getViewVector (F)Lay;
+		ARG 1 a
 	METHOD g getHurtSound ()Ljava/lang/String;
 	METHOD h_ getDeathSound ()Ljava/lang/String;
 	METHOD i getDeathLoot ()I

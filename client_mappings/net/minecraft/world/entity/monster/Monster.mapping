@@ -1,0 +1,2 @@
+CLASS fi net/minecraft/world/entity/monster/Monster
+	METHOD b rotlerp (FFF)F

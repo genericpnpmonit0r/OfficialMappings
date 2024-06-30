@@ -1,0 +1,3 @@
+CLASS cl net/minecraft/world/entity/animal/Sheep
+	METHOD a getSheepColor (Ljava/util/Random;)I
+	METHOD b_ setColor (I)V

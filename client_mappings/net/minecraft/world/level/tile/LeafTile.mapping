@@ -1,0 +1,2 @@
+CLASS at net/minecraft/world/level/tile/LeafTile
+	METHOD a setFancy (Z)V

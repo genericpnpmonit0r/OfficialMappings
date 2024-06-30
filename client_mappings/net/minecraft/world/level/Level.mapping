@@ -50,10 +50,14 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 2 levelName
 		ARG 3 dimension
 		ARG 4 seed
+	METHOD a getNearestPlayer (DDDD)Lfd;
+	METHOD a getSkyDarken (F)I
 	METHOD a pauseSave (I)Z
 	METHOD a getTopTile (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD a hasChunkAt (IIII)Z
+	METHOD a setTileAndDataNoUpdate (IIIII)Z
 	METHOD a hasChunksAt (IIIIII)Z
 		ARG 1 x0
 		ARG 2 y0
@@ -62,31 +66,55 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 5 y1
 		ARG 6 z1
 	METHOD a clip (Lay;Lay;)Lqu;
+	METHOD a getBrightness (Lcx;III)I
+	METHOD a updateLightIfOtherThan (Lcx;IIII)V
 	METHOD a updateLight (Lcx;IIIIII)V
+	METHOD a isUnobstructed (Ldi;)Z
+	METHOD a containsMaterial (Ldi;Liu;)Z
+	METHOD a checkAndHandleWater (Ldi;Liu;Lom;)Z
 	METHOD a loadPlayer (Lfd;)V
 		ARG 1 player
+	METHOD a findSubclassOf (Ljava/lang/Class;)Lom;
+		ARG 1 c
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Ldi;)Ljava/util/List;
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 	METHOD a addEntities (Ljava/util/List;)V
+	METHOD a addListener (Lly;)V
 	METHOD a addEntity (Lom;)Z
 	METHOD a broadcastEntityEvent (Lom;B)V
+	METHOD a getNearestPlayer (Lom;D)Lfd;
 	METHOD a getSkyColor (Lom;F)Lay;
 	METHOD a findPath (Lom;IIIF)Lch;
+	METHOD a getCubes (Lom;Ldi;)Ljava/util/List;
 	METHOD a playSound (Lom;Ljava/lang/String;FF)V
 	METHOD a findPath (Lom;Lom;F)Lch;
+	METHOD a tick (Lom;Z)V
+	METHOD a forceSave (Lta;)V
+		ARG 1 progress
 	METHOD a save (ZLta;)V
 		ARG 1 all
 		ARG 2 progress
+	METHOD a setSpawnSettings (ZZ)V
+		ARG 1 spawnEnemies
+		ARG 2 spawnFriendlies
 	METHOD b createChunkSource ()Lbo;
 	METHOD b getChunkAt (II)Lit;
 		ARG 1 x
 		ARG 2 z
+	METHOD b setTileNoUpdate (IIII)Z
+	METHOD b setTileAndData (IIIII)Z
+	METHOD b setTilesDirty (IIIIII)V
 	METHOD b tileEntityChanged (IIILll;)V
+	METHOD b setBrightness (Lcx;IIII)V
+	METHOD b containsAnyLiquid (Ldi;)Z
 	METHOD b removeEntities (Ljava/util/List;)V
+	METHOD b removeListener (Lly;)V
 	METHOD b getEntities (Lom;Ldi;)Ljava/util/List;
 	METHOD c validateSpawn ()V
 	METHOD c getChunk (II)Lit;
 		ARG 1 x
 		ARG 2 z
+	METHOD c containsFireTile (Ldi;)Z
 	METHOD d clearLoadedPlayerData ()V
 	METHOD d getFogColor (F)Lay;
 	METHOD d getHeightmap (II)I
@@ -97,8 +125,13 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 	METHOD d tileEvent (IIIII)V
+	METHOD d removeEntity (Lom;)V
+	METHOD e getTopSolidBlock (II)I
 	METHOD e setTile (IIII)Z
+	METHOD f tickEntities ()V
 	METHOD f getLightDepth (II)I
+	METHOD f tileUpdated (IIII)V
+	METHOD f ensureAdded (Lom;)V
 	METHOD g gatherStats ()Ljava/lang/String;
 	METHOD g hasChunk (II)Z
 		ARG 1 x
@@ -113,12 +146,20 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD h updateNeighborsAt (IIII)V
 	METHOD i updateLights ()Z
+	METHOD i sendTileUpdated (III)V
 	METHOD i extinguishFire (IIII)V
 	METHOD j updateSkyBrightness ()V
+	METHOD j setTileDirty (III)V
 	METHOD j getDirectSignal (IIII)Z
+	METHOD k tick ()V
+	METHOD k canSeeSky (III)Z
 	METHOD k getSignal (IIII)Z
+	METHOD l neighborChanged (IIII)V
+	METHOD m isSkyLit (III)Z
 	METHOD n prepare ()V
+	METHOD o animateTick (III)V
 	METHOD p checkSession ()V
 	METHOD p hasDirectSignal (III)Z
 	METHOD q getSeed ()J

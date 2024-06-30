@@ -1,1 +1,2 @@
 CLASS j com/mojang/nbt/FloatTag
+	FIELD a data F

@@ -1,0 +1,3 @@
+CLASS ti net/minecraft/world/level/tile/entity/SignTileEntity
+	FIELD a messages [Ljava/lang/String;
+	FIELD b selectedLine I

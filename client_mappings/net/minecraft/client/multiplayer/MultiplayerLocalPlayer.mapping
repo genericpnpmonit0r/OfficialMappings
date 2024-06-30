@@ -1,0 +1,20 @@
+CLASS pg net/minecraft/client/multiplayer/MultiplayerLocalPlayer
+	FIELD bI connection Lkb;
+	FIELD bJ lastInventorySendTime I
+	FIELD bK flashOnSetHealth Z
+	FIELD bL xLast D
+	FIELD bM yLast1 D
+	FIELD bN yLast2 D
+	FIELD bO zLast D
+	FIELD bP yRotLast F
+	FIELD bQ xRotLast F
+	FIELD bR lastOnGround Z
+	FIELD bS lastSneaked Z
+	FIELD bT noSendTime I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ldt;Lfb;Lkb;)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 user
+		ARG 4 connection
+	METHOD ad sendPosition ()V
+	METHOD ae ensureHasSentInventory ()V

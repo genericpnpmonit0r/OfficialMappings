@@ -1,0 +1,8 @@
+CLASS id net/minecraft/client/Minecraft$4
+	FIELD a val$minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b val$thread Ljava/lang/Thread;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/Thread;)V
+		ARG 1 val$minecraft
+		ARG 2 val$thread
+	METHOD windowClosing (Ljava/awt/event/WindowEvent;)V
+		ARG 1 e

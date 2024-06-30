@@ -6,3 +6,4 @@ CLASS gz net/minecraft/world/item/ItemInstance
 	METHOD a remove (I)Lgz;
 	METHOD a use (Ldt;Lfd;)Lgz;
 	METHOD a useOn (Lfd;Ldt;IIII)Z
+	METHOD b hurt (I)V
