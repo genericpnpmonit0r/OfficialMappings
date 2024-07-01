@@ -6,3 +6,11 @@ CLASS qu net/minecraft/world/phys/HitResult
 	FIELD e f I
 	FIELD f pos Lay;
 	FIELD g entity Lom;
+	METHOD <init> (IIIILay;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+		ARG 5 pos
+	METHOD <init> (Lom;)V
+		ARG 1 entity

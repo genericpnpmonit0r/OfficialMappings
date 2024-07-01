@@ -1,1 +1,5 @@
 CLASS qw net/minecraft/network/packet/MovePlayerPacket$Rot
+	METHOD <init> (FFZ)V
+		ARG 1 yRot
+		ARG 2 xRot
+		ARG 3 onGround

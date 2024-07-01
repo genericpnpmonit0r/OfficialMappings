@@ -1,1 +1,4 @@
 CLASS lu net/minecraft/network/packet/ChatPacket
+	FIELD a message Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 message

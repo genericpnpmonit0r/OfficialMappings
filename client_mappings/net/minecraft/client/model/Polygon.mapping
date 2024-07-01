@@ -1,1 +1,16 @@
 CLASS pu net/minecraft/client/model/Polygon
+	FIELD a vertices [Lge;
+	FIELD b vertexCount I
+	FIELD c flipNormal Z
+	METHOD <init> ([Lge;)V
+		ARG 1 vertices
+	METHOD <init> ([Lge;IIII)V
+		ARG 1 vertices
+		ARG 2 u0
+		ARG 3 v0
+		ARG 4 u1
+		ARG 5 v1
+	METHOD a mirror ()V
+	METHOD a render (Lkv;F)V
+		ARG 1 t
+		ARG 2 scale

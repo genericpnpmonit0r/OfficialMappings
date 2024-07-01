@@ -60,26 +60,61 @@ CLASS bw net/minecraft/client/renderer/TileRenderer
 		ARG 1 level
 	METHOD a canRender (I)Z
 		ARG 0 renderShape
+	METHOD a getWaterHeight (IIILiu;)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
+	METHOD a tesselateTorch (Lqk;DDDDD)V
 	METHOD a renderFaceUp (Lqk;DDDI)V
 	METHOD a renderCube (Lqk;F)V
 		ARG 1 tile
 		ARG 2 alpha
+	METHOD a renderTile (Lqk;I)V
+	METHOD a tesselateCrossTexture (Lqk;IDDD)V
 	METHOD a tesselateInWorld (Lqk;III)Z
 		ARG 1 tt
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 	METHOD a tesselateBlockInWorldWithAmbienceOcclusion (Lqk;IIIFFF)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 r
+		ARG 6 g
+		ARG 7 b
 	METHOD a tesselateInWorld (Lqk;IIII)V
 		ARG 1 tile
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 fixedTexture
+	METHOD a renderBlock (Lqk;Ldt;III)V
+		ARG 1 tt
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
 	METHOD b renderFaceDown (Lqk;DDDI)V
+	METHOD b tesselateRowTexture (Lqk;IDDD)V
 	METHOD b tesselateTorchInWorld (Lqk;III)Z
+	METHOD b tesselateBlockInWorld (Lqk;IIIFFF)Z
 	METHOD c renderNorth (Lqk;DDDI)V
 	METHOD c tesselateLeverInWorld (Lqk;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c tesselateCactusInWorld (Lqk;IIIFFF)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 r
+		ARG 6 g
+		ARG 7 b
 	METHOD d renderSouth (Lqk;DDDI)V
 	METHOD d tesselateFireInWorld (Lqk;III)Z
 	METHOD e renderWest (Lqk;DDDI)V
@@ -88,12 +123,32 @@ CLASS bw net/minecraft/client/renderer/TileRenderer
 	METHOD f tesselateRailInWorld (Lqk;III)Z
 	METHOD g tesselateLadderInWorld (Lqk;III)Z
 	METHOD h tesselateCrossInWorld (Lqk;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD i tesselateRowInWorld (Lqk;III)Z
 	METHOD j tesselateWaterInWorld (Lqk;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD k tesselateBlockInWorld (Lqk;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD l tesselateCactusInWorld (Lqk;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD m tesselateFenceInWorld (Lqk;III)Z
 	METHOD n tesselateStairsInWorld (Lqk;III)Z
 	METHOD o tesselateDoorInWorld (Lqk;III)Z
 	METHOD p tesselateBedInWorld (Lqk;III)Z
 	METHOD q tessellateDiodeInWorld (Lqk;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

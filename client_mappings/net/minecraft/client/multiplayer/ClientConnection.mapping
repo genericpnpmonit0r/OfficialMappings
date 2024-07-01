@@ -1,3 +1,18 @@
 CLASS kb net/minecraft/client/multiplayer/ClientConnection
+	FIELD a message Ljava/lang/String;
+	FIELD b random Ljava/util/Random;
+	FIELD c done Z
+	FIELD d connection Llt;
+	FIELD e minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f level Ljr;
+	FIELD g started Z
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 ip
+		ARG 3 port
 	METHOD a tick ()V
+	METHOD a getEntity (I)Lom;
+		ARG 1 id
 	METHOD a send (Lhz;)V
+		ARG 1 packet
+	METHOD b close ()V

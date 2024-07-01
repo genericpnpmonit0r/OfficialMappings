@@ -19,3 +19,4 @@ CLASS bz net/minecraft/client/BackgroundDownloader
 		ARG 3 size
 		ARG 5 pass
 	METHOD b halt ()V
+	METHOD run run ()V

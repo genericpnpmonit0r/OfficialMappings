@@ -1,1 +1,8 @@
 CLASS tb net/minecraft/client/gui/inventory/TextEditScreen
+	FIELD a title Ljava/lang/String;
+	FIELD h sign Lti;
+	FIELD i frame I
+	FIELD k line I
+	FIELD l allowedChars Ljava/lang/String;
+	METHOD <init> (Lti;)V
+		ARG 1 sign

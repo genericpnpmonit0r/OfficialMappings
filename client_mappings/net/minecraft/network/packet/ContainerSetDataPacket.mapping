@@ -1,1 +1,4 @@
 CLASS ka net/minecraft/network/packet/ContainerSetDataPacket
+	FIELD a containerId I
+	FIELD b id I
+	FIELD c value I

@@ -1,1 +1,4 @@
 CLASS ml net/minecraft/world/level/levelgen/feature/HellSpringFeature
+	FIELD a tile I
+	METHOD <init> (I)V
+		ARG 1 tile

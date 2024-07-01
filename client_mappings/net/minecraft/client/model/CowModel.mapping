@@ -1,1 +1,4 @@
 CLASS fo net/minecraft/client/model/CowModel
+	FIELD a udder Lmd;
+	FIELD b horn1 Lmd;
+	FIELD c horn2 Lmd;

@@ -1,1 +1,5 @@
 CLASS dj net/minecraft/world/level/levelgen/feature/MonsterRoomFeature
+	METHOD a randomItem (Ljava/util/Random;)Lgz;
+		ARG 1 random
+	METHOD b randomEntityId (Ljava/util/Random;)Ljava/lang/String;
+		ARG 1 random

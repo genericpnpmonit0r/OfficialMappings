@@ -3,3 +3,4 @@ CLASS hx net/minecraft/client/Minecraft$1
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V
 		ARG 1 this$0
 		ARG 2 val$string
+	METHOD run run ()V

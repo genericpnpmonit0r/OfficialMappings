@@ -47,6 +47,8 @@ CLASS io net/minecraft/client/gui/AbstractSelectionList
 		ARG 1 button
 	METHOD a init (Ljava/util/List;II)V
 		ARG 1 buttons
+		ARG 2 a
+		ARG 3 b
 	METHOD b getMaxPosition ()I
 	METHOD c renderBackground ()V
 	METHOD d unk_d ()V

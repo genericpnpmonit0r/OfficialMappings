@@ -1,1 +1,4 @@
 CLASS qc com/mojang/nbt/ShortTag
+	FIELD a data S
+	METHOD <init> (S)V
+		ARG 1 data

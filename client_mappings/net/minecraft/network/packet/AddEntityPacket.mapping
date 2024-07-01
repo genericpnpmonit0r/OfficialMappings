@@ -1,1 +1,6 @@
 CLASS on net/minecraft/network/packet/AddEntityPacket
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e type I

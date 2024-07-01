@@ -7,7 +7,8 @@ CLASS kp net/minecraft/client/sound/CodecMus$DecoderInputStream
 		ARG 1 this$0
 		ARG 2 url
 		ARG 3 in
-	METHOD read ([BII)I
+	METHOD read read ()I
+	METHOD read read ([BII)I
 		ARG 1 buf
 		ARG 2 off
 		ARG 3 len

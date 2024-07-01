@@ -50,7 +50,18 @@ CLASS h net/minecraft/client/renderer/LevelRenderer
 		ARG 2 textures
 	METHOD a allChanged ()V
 	METHOD a renderSky (F)V
+		ARG 1 alpha
 	METHOD a renderSameAsLast (ID)V
+		ARG 1 layer
+		ARG 2 alpha
+	METHOD a checkQueryResults (II)V
+		ARG 1 from
+		ARG 2 to
+	METHOD a renderChunks (IIID)I
+		ARG 1 from
+		ARG 2 to
+		ARG 3 layer
+		ARG 4 alpha
 	METHOD a setDirty (IIIIII)V
 		ARG 1 x0
 		ARG 2 y0
@@ -59,6 +70,9 @@ CLASS h net/minecraft/client/renderer/LevelRenderer
 		ARG 5 y1
 		ARG 6 z1
 	METHOD a renderEntities (Lay;Ltl;F)V
+		ARG 1 vam
+		ARG 2 culler
+		ARG 3 a
 	METHOD a render (Ldi;)V
 		ARG 1 bb
 	METHOD a setLevel (Ldt;)V
@@ -70,12 +84,22 @@ CLASS h net/minecraft/client/renderer/LevelRenderer
 		ARG 4 inventoryItem
 		ARG 5 a
 	METHOD a render (Liz;ID)I
+		ARG 1 player
+		ARG 2 layer
+		ARG 3 alpha
 	METHOD a updateDirtyChunks (Liz;Z)Z
+		ARG 1 player
+		ARG 2 force
 	METHOD a cull (Ltl;F)V
 		ARG 1 culler
 		ARG 2 a
 	METHOD b gatherStats1 ()Ljava/lang/String;
 	METHOD b renderClouds (F)V
+		ARG 1 alpha
+	METHOD b resortChunks (III)V
+		ARG 1 xc
+		ARG 2 yc
+		ARG 3 zc
 	METHOD b renderHitOutline (Lfd;Lqu;ILgz;F)V
 		ARG 1 player
 		ARG 2 h
@@ -83,5 +107,7 @@ CLASS h net/minecraft/client/renderer/LevelRenderer
 		ARG 4 inventoryItem
 		ARG 5 a
 	METHOD c gatherStats2 ()Ljava/lang/String;
+	METHOD c renderAdvancedClouds (F)V
+		ARG 1 alpha
 	METHOD d tick ()V
 	METHOD f renderStars ()V

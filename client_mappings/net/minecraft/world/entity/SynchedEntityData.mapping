@@ -1,4 +1,24 @@
 CLASS pv net/minecraft/world/entity/SynchedEntityData
+	FIELD a typeToConstant Ljava/util/HashMap;
+	FIELD b itemsById Ljava/util/Map;
+	FIELD c isDirty Z
 	METHOD a getByte (I)B
+		ARG 1 id
 	METHOD a define (ILjava/lang/Object;)V
+		ARG 1 id
+		ARG 2 type
+	METHOD a unpack (Ljava/io/DataInputStream;)Ljava/util/List;
+		ARG 0 dis
+	METHOD a packAll (Ljava/io/DataOutputStream;)V
+		ARG 1 dos
+	METHOD a writeDataItem (Ljava/io/DataOutputStream;Ljh;)V
+		ARG 0 dos
+		ARG 1 dataItem
+	METHOD a assignValues (Ljava/util/List;)V
+		ARG 1 dataItem
+	METHOD a pack (Ljava/util/List;Ljava/io/DataOutputStream;)V
+		ARG 0 dataItems
+		ARG 1 dos
 	METHOD b set (ILjava/lang/Object;)V
+		ARG 1 id
+		ARG 2 type

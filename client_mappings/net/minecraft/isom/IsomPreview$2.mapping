@@ -2,3 +2,4 @@ CLASS ps net/minecraft/isom/IsomPreview$2
 	FIELD a this$0 Lan;
 	METHOD <init> (Lan;)V
 		ARG 1 this$0
+	METHOD run run ()V

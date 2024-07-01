@@ -1,1 +1,5 @@
 CLASS m net/minecraft/network/packet/SetEquippedItemPacket
+	FIELD a entity I
+	FIELD b slot I
+	FIELD c item I
+	FIELD d auxValue I

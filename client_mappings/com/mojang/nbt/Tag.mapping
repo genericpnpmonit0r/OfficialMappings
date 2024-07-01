@@ -1,5 +1,19 @@
 CLASS gl com/mojang/nbt/Tag
-	METHOD a (Ljava/io/DataInput;)V
-		ARG 1 dis
-	METHOD a (Ljava/io/DataOutput;)V
+	FIELD a name Ljava/lang/String;
+	METHOD a getId ()B
+	METHOD a newTag (B)Lgl;
+		ARG 0 type
+	METHOD a writeNamedTag (Lgl;Ljava/io/DataOutput;)V
+		ARG 0 tag
 		ARG 1 dos
+	METHOD a load (Ljava/io/DataInput;)V
+		ARG 1 dis
+	METHOD a write (Ljava/io/DataOutput;)V
+		ARG 1 dos
+	METHOD a setName (Ljava/lang/String;)Lgl;
+		ARG 1 name
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b getTagName (B)Ljava/lang/String;
+		ARG 0 type
+	METHOD b readNamedTag (Ljava/io/DataInput;)Lgl;
+		ARG 0 dis

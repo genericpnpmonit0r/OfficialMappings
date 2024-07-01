@@ -1,1 +1,4 @@
 CLASS od net/minecraft/network/packet/ChunkVisibilityPacket
+	FIELD a x I
+	FIELD b z I
+	FIELD c visible Z

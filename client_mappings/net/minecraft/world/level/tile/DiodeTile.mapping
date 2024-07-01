@@ -1,2 +1,8 @@
 CLASS rs net/minecraft/world/level/tile/DiodeTile
+	FIELD a unk_a [D
+	FIELD b unk_b [I
 	FIELD c on Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 on
+	METHOD g unk_g (Ldt;IIII)Z

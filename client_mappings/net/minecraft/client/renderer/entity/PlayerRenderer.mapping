@@ -1,1 +1,2 @@
 CLASS cr net/minecraft/client/renderer/entity/PlayerRenderer
+	METHOD b renderHand ()V

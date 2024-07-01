@@ -1,1 +1,4 @@
 CLASS fw net/minecraft/network/packet/ContainerSetSlotPacket
+	FIELD a containerId I
+	FIELD b slot I
+	FIELD c item Lgz;

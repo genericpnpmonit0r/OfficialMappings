@@ -3,3 +3,4 @@ CLASS sl net/minecraft/network/Connection$2
 	METHOD <init> (Llt;Ljava/lang/String;)V
 		ARG 1 this$0
 		ARG 2 val$name
+	METHOD run run ()V

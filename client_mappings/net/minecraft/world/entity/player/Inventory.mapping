@@ -3,6 +3,7 @@ CLASS gy net/minecraft/world/entity/player/Inventory
 	FIELD b armor [Lgz;
 	FIELD c selected I
 	METHOD a grabTexture (IZ)V
+	METHOD a add (Lgz;)Z
 	METHOD b getSelected ()Lgz;
 	METHOD b setCarried (Lgz;)V
 	METHOD d getArmor (I)Lgz;

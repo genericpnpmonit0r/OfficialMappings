@@ -239,7 +239,7 @@ CLASS dt net/minecraft/world/level/Level
 	METHOD a forceSave (Lta;)V
 		ARG 1 progressListener
 	METHOD a tickPendingTicks (Z)Z
-		ARG 1 b
+		ARG 1 force
 	METHOD a save (ZLta;)V
 		ARG 1 force
 		ARG 2 progressListener

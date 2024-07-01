@@ -1,1 +1,2 @@
 CLASS ma net/minecraft/client/renderer/tileentity/SignRenderer
+	FIELD b signModel Lni;

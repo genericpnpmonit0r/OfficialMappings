@@ -1,1 +1,9 @@
 CLASS da net/minecraft/network/packet/BlockRegionUpdatePacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d xs I
+	FIELD e ys I
+	FIELD f zs I
+	FIELD g buffer [B
+	FIELD h size I

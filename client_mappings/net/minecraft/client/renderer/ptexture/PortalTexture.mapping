@@ -1,1 +1,3 @@
 CLASS fy net/minecraft/client/renderer/ptexture/PortalTexture
+	FIELD g time I
+	FIELD h frames [[B

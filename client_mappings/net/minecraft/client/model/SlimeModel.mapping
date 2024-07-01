@@ -1,1 +1,7 @@
 CLASS km net/minecraft/client/model/SlimeModel
+	FIELD a cube Lmd;
+	FIELD b eye0 Lmd;
+	FIELD c eye1 Lmd;
+	FIELD d mouth Lmd;
+	METHOD <init> (I)V
+		ARG 1 vOffs

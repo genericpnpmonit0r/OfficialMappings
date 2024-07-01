@@ -1,3 +1,13 @@
 CLASS hb net/minecraft/client/renderer/tileentity/TileEntityRenderer
+	FIELD a tileEntityRenderDispatcher Lis;
+	METHOD a getFont ()Loi;
 	METHOD a init (Lis;)V
+		ARG 1 tileEntityRenderDispatcher
+	METHOD a bindTexture (Ljava/lang/String;)V
+		ARG 1 resourceName
 	METHOD a render (Lll;DDDF)V
+		ARG 1 te
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 a

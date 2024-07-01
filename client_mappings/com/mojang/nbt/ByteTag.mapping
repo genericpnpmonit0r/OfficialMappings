@@ -1,1 +1,4 @@
 CLASS mu com/mojang/nbt/ByteTag
+	FIELD a data B
+	METHOD <init> (B)V
+		ARG 1 data

@@ -1,1 +1,4 @@
 CLASS ap net/minecraft/world/level/levelgen/feature/FlowerFeature
+	FIELD a tile I
+	METHOD <init> (I)V
+		ARG 1 tile

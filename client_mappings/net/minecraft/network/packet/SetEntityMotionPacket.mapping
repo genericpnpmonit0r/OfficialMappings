@@ -1,1 +1,12 @@
 CLASS ev net/minecraft/network/packet/SetEntityMotionPacket
+	FIELD a id I
+	FIELD b xa I
+	FIELD c ya I
+	FIELD d za I
+	METHOD <init> (IDDD)V
+		ARG 1 id
+		ARG 2 xa
+		ARG 4 ya
+		ARG 6 za
+	METHOD <init> (Lom;)V
+		ARG 1 entity

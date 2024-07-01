@@ -1,1 +1,11 @@
 CLASS rg net/minecraft/client/gui/SlideButton
+	FIELD i value F
+	FIELD k sliding Z
+	FIELD l option Lfz;
+	METHOD <init> (IIILfz;Ljava/lang/String;F)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 option
+		ARG 5 msg
+		ARG 6 value

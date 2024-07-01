@@ -6,3 +6,4 @@ CLASS pf net/minecraft/client/renderer/HttpTexture$1
 		ARG 1 this$0
 		ARG 2 val$_url
 		ARG 3 val$processor
+	METHOD run run ()V

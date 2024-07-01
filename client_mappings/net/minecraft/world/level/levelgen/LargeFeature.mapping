@@ -1,2 +1,16 @@
 CLASS ek net/minecraft/world/level/levelgen/LargeFeature
+	FIELD a radius I
+	FIELD b random Ljava/util/Random;
 	METHOD a apply (Lbo;Ldt;II[B)V
+		ARG 1 parent
+		ARG 2 level
+		ARG 3 x
+		ARG 4 z
+		ARG 5 blocks
+	METHOD a addFeature (Ldt;IIII[B)V
+		ARG 1 level
+		ARG 2 x0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 z1
+		ARG 6 blocks

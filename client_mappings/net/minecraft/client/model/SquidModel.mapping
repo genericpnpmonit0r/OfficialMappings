@@ -1,1 +1,3 @@
 CLASS rr net/minecraft/client/model/SquidModel
+	FIELD a body Lmd;
+	FIELD b tentacles [Lmd;

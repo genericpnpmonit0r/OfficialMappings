@@ -1,1 +1,2 @@
 CLASS y net/minecraft/client/renderer/tileentity/MobSpawnerRenderer
+	FIELD b models Ljava/util/Map;

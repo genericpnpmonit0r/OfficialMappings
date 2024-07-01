@@ -1,1 +1,22 @@
 CLASS dx net/minecraft/client/model/HumanoidModel
+	FIELD a head Lmd;
+	FIELD b hair Lmd;
+	FIELD c body Lmd;
+	FIELD d arm0 Lmd;
+	FIELD e arm1 Lmd;
+	FIELD f leg2 Lmd;
+	FIELD g leg1 Lmd;
+	FIELD h ear Lmd;
+	FIELD i cloak Lmd;
+	FIELD j holdingLeftHand Z
+	FIELD k holdingRightHand Z
+	FIELD l sneaking Z
+	METHOD <init> (F)V
+		ARG 1 g
+	METHOD <init> (FF)V
+		ARG 1 g
+		ARG 2 yOffset
+	METHOD a renderEars (F)V
+		ARG 1 scale
+	METHOD b renderCloak (F)V
+		ARG 1 scale

@@ -1,1 +1,2 @@
 CLASS fn net/minecraft/network/packet/SetTimePacket
+	FIELD a time J

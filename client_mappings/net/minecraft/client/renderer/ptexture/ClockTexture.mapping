@@ -1,1 +1,8 @@
 CLASS if net/minecraft/client/renderer/ptexture/ClockTexture
+	FIELD g mc Lnet/minecraft/client/Minecraft;
+	FIELD h raw [I
+	FIELD i dialRaw [I
+	FIELD j rot D
+	FIELD k rota D
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 mc

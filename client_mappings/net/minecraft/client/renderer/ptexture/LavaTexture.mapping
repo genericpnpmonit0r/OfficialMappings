@@ -1,1 +1,5 @@
 CLASS bk net/minecraft/client/renderer/ptexture/LavaTexture
+	FIELD g current [F
+	FIELD h next [F
+	FIELD i heat [F
+	FIELD j heata [F

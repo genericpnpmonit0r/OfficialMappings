@@ -1,1 +1,6 @@
 CLASS re net/minecraft/network/packet/TileEventPacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d b0 I
+	FIELD e b1 I

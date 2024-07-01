@@ -1,5 +1,11 @@
 CLASS qi net/minecraft/world/level/PortalForcer
 	FIELD a random Ljava/util/Random;
 	METHOD a force (Ldt;Lom;)V
+		ARG 1 level
+		ARG 2 player
 	METHOD b findPortal (Ldt;Lom;)Z
+		ARG 1 level
+		ARG 2 player
 	METHOD c createPortal (Ldt;Lom;)Z
+		ARG 1 level
+		ARG 2 player

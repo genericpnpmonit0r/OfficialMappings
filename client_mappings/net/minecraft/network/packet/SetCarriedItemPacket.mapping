@@ -1,1 +1,4 @@
 CLASS fu net/minecraft/network/packet/SetCarriedItemPacket
+	FIELD a slot I
+	METHOD <init> (I)V
+		ARG 1 slot

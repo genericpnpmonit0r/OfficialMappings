@@ -8,3 +8,4 @@ CLASS sc net/minecraft/client/multiplayer/ConnectScreen$1
 		ARG 2 val$minecraft
 		ARG 3 val$ip
 		ARG 4 val$port
+	METHOD run run ()V

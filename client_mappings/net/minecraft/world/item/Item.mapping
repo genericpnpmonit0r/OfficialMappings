@@ -3,6 +3,8 @@ CLASS ex net/minecraft/world/item/Item
 	FIELD C bowl Lex;
 	FIELD I string Lex;
 	FIELD K sulphur Lex;
+	FIELD R wheat Lex;
+	FIELD S bread Lex;
 	FIELD aA redStone Lex;
 	FIELD aB snowBall Lex;
 	FIELD aF brick Lex;
@@ -10,6 +12,7 @@ CLASS ex net/minecraft/world/item/Item
 	FIELD aH reeds Lex;
 	FIELD aI paper Lex;
 	FIELD aJ book Lex;
+	FIELD aK slimeBall Lex;
 	FIELD a craftingRemainingItem Lex;
 	FIELD aN egg Lex;
 	FIELD aO compass Lex;
@@ -24,6 +27,7 @@ CLASS ex net/minecraft/world/item/Item
 	FIELD ap porkChop_cooked Lex;
 	FIELD ar apple_gold Lex;
 	FIELD au bucket_empty Lex;
+	FIELD ay saddle Lex;
 	FIELD b random Ljava/util/Random;
 	FIELD ba record_01 Lex;
 	FIELD bb record_02 Lex;
