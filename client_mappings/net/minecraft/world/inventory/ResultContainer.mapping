@@ -1,0 +1,2 @@
+CLASS rp net/minecraft/world/inventory/ResultContainer
+	FIELD a items [Lgz;

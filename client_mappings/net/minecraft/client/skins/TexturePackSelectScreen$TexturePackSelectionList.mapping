@@ -1,0 +1,4 @@
+CLASS ce net/minecraft/client/skins/TexturePackSelectScreen$TexturePackSelectionList
+	FIELD a this$0 Lei;
+	METHOD <init> (Lei;)V
+		ARG 1 this$0

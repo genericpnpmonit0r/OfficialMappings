@@ -1,0 +1,8 @@
+CLASS au net/minecraft/world/inventory/FurnaceMenu
+	FIELD a furnace Loj;
+	FIELD b tc I
+	FIELD c lt I
+	FIELD h ld I
+	METHOD <init> (Ljc;Loj;)V
+		ARG 1 container
+		ARG 2 oj

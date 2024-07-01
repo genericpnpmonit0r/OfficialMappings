@@ -3,5 +3,10 @@ CLASS fr net/minecraft/world/item/crafting/Recipes
 	FIELD b recipies Ljava/util/List;
 	METHOD a getInstance ()Lfr;
 	METHOD a addShapedRecipy (Lgz;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
 	METHOD a getItemFor (Ljv;)Lgz;
+		ARG 1 craftingContainer
 	METHOD b addShapelessRecipy (Lgz;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern

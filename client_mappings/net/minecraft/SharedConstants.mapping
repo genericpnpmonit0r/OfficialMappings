@@ -1,2 +1,5 @@
 CLASS ee net/minecraft/SharedConstants
 	FIELD a acceptableLetters Ljava/lang/String;
+	FIELD b invalidFilenameLetters [C
+		COMMENT again, not sure what is the real name
+	METHOD a readAcceptableChars ()Ljava/lang/String;

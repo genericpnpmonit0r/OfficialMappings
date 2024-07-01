@@ -1,0 +1,2 @@
+CLASS ko net/minecraft/client/model/MinecartModel
+	FIELD a cubes [Lmd;

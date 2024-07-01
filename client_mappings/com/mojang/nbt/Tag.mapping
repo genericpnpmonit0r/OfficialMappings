@@ -1,1 +1,5 @@
 CLASS gl com/mojang/nbt/Tag
+	METHOD a (Ljava/io/DataInput;)V
+		ARG 1 dis
+	METHOD a (Ljava/io/DataOutput;)V
+		ARG 1 dos

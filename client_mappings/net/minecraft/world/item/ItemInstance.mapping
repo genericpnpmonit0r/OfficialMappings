@@ -3,7 +3,81 @@ CLASS gz net/minecraft/world/item/ItemInstance
 	FIELD b popTime I
 	FIELD c id I
 	FIELD d auxValue I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 count
+		ARG 3 auxValue
+	METHOD <init> (Lex;)V
+		ARG 1 item
+	METHOD <init> (Lex;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Lex;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 auxValue
+	METHOD <init> (Lks;)V
+		ARG 1 tag
+	METHOD <init> (Lqk;)V
+		ARG 1 tile
+	METHOD <init> (Lqk;I)V
+		ARG 1 tile
+		ARG 2 count
+	METHOD <init> (Lqk;II)V
+		ARG 1 tile
+		ARG 2 count
+		ARG 3 auxValue
+	METHOD a getItem ()Lex;
 	METHOD a remove (I)Lgz;
+		ARG 1 count
+	METHOD a mineBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
 	METHOD a use (Ldt;Lfd;)Lgz;
+		ARG 1 level
+		ARG 2 player
+	METHOD a snap (Lfd;)V
+		ARG 1 player
 	METHOD a useOn (Lfd;Ldt;IIII)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 face
+	METHOD a sameItem (Lgz;)Z
+		ARG 1 item
+	METHOD a matches (Lgz;Lgz;)Z
+		ARG 0 item1
+		ARG 1 item2
+	METHOD a hurtEnemy (Liz;)V
+		ARG 1 mob
+	METHOD a save (Lks;)Lks;
+		ARG 1 tag
+	METHOD a getAttackDamage (Lom;)I
+		ARG 1 entity
+	METHOD a getDestroySpeed (Lqk;)F
+		ARG 1 tile
+	METHOD b getIcon ()I
 	METHOD b hurt (I)V
+		ARG 1 dmg
+	METHOD b matches (Lgz;)Z
+		ARG 1 item
+	METHOD b interactEnemy (Liz;)V
+		ARG 1 mob
+	METHOD b load (Lks;)V
+		ARG 1 tag
+	METHOD b canDestroySpecial (Lqk;)Z
+		ARG 1 tile
+	METHOD c getMaxStackSize ()I
+	METHOD d isStackable ()Z
+	METHOD e isDamageableItem ()Z
+	METHOD f isStackedByData ()Z
+	METHOD g isDamaged ()Z
+	METHOD h getDamageValue ()I
+	METHOD i getAuxValue ()I
+	METHOD j getMaxDamage ()I
+	METHOD k copy ()Lgz;
+	METHOD l getDescriptionId ()Ljava/lang/String;

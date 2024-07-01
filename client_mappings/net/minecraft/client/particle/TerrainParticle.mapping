@@ -1,0 +1,15 @@
+CLASS mq net/minecraft/client/particle/TerrainParticle
+	FIELD a tile Lqk;
+	METHOD <init> (Ldt;DDDDDDLqk;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xa
+		ARG 10 ya
+		ARG 12 za
+		ARG 14 tile
+	METHOD a init (III)Lmq;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

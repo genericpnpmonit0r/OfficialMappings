@@ -1,4 +1,5 @@
 CLASS ks com/mojang/nbt/CompoundTag
+	METHOD a putByte (Ljava/lang/String;B)V
 	METHOD a putFloat (Ljava/lang/String;F)V
 	METHOD a putInt (Ljava/lang/String;I)V
 	METHOD a put (Ljava/lang/String;Lgl;)V
@@ -6,6 +7,7 @@ CLASS ks com/mojang/nbt/CompoundTag
 	METHOD a putShort (Ljava/lang/String;S)V
 	METHOD a putBoolean (Ljava/lang/String;Z)V
 	METHOD b contains (Ljava/lang/String;)Z
+	METHOD c getByte (Ljava/lang/String;)B
 	METHOD d getShort (Ljava/lang/String;)S
 	METHOD e getInt (Ljava/lang/String;)I
 	METHOD g getFloat (Ljava/lang/String;)F

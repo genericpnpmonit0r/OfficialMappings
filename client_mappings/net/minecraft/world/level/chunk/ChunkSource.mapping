@@ -4,12 +4,12 @@ CLASS bo net/minecraft/world/level/chunk/ChunkSource
 		ARG 1 x
 		ARG 2 z
 	METHOD a postProcess (Lbo;II)V
-		ARG 1 cs
+		ARG 1 parent
 		ARG 2 x
 		ARG 3 z
 	METHOD a save (ZLta;)Z
-		ARG 1 all
-		ARG 2 progress
+		ARG 1 force
+		ARG 2 progressListener
 	METHOD b shouldSave ()Z
 	METHOD b getChunk (II)Lit;
 		ARG 1 x

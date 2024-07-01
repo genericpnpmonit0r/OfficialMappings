@@ -1,0 +1,7 @@
+CLASS hk net/minecraft/client/renderer/DistanceSorter
+	FIELD a player Lom;
+	METHOD <init> (Lom;)V
+		ARG 1 player
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 c0
+		ARG 2 c1

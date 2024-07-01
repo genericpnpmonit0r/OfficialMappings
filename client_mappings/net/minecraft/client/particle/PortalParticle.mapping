@@ -1,1 +1,5 @@
 CLASS lh net/minecraft/client/particle/PortalParticle
+	FIELD a oSize F
+	FIELD o xStart D
+	FIELD p yStart D
+	FIELD q zStart D

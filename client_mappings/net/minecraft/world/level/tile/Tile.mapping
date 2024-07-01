@@ -1,5 +1,8 @@
 CLASS qk net/minecraft/world/level/tile/Tile
+	FIELD A water Lqk;
 	FIELD B calmWater Lqk;
+	FIELD C leva Lqk;
+	FIELD D calmLava Lqk;
 	FIELD E sand Lqk;
 	FIELD F gravel Lqk;
 	FIELD G goldOre Lqk;
@@ -9,6 +12,11 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	FIELD K leaves Lat;
 	FIELD L sponge Lqk;
 	FIELD M glass Lqk;
+	FIELD N lapisOre Lqk;
+	FIELD O lapisBlock Lqk;
+	FIELD P dispenser Lqk;
+	FIELD Q sandStone Lqk;
+	FIELD R musicBlock Lqk;
 	FIELD S bed Lqk;
 	FIELD T unused_27 Lqk;
 	FIELD U unused_28 Lqk;
@@ -17,15 +25,33 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	FIELD X unused_31 Lqk;
 	FIELD Y unused_32 Lqk;
 	FIELD Z unused_33 Lqk;
+	FIELD aA farmland Lqk;
+	FIELD aB furnace Lqk;
+	FIELD aC furnace_lit Lqk;
+	FIELD aD sign Lqk;
+	FIELD aE door_wood Lqk;
 	FIELD aF ladder Lqk;
+	FIELD aG rail Lqk;
+	FIELD aH stairs_stone Lqk;
+	FIELD aI wallSign Lqk;
+	FIELD aJ lever Lqk;
 	FIELD aK pressurePlate_stone Lqk;
+	FIELD aL door_iron Lqk;
 	FIELD a descriptionId Ljava/lang/String;
 	FIELD aM pressurePlate_wood Lqk;
+	FIELD aN redStoneOre Lqk;
+	FIELD aO redStoneOre_lit Lqk;
+	FIELD aP notGate_off Lqk;
+	FIELD aQ notGate_on Lqk;
 	FIELD aR button Lqk;
 	FIELD aS topSnow Lqk;
 	FIELD aT ice Lqk;
 	FIELD aU snow Lqk;
+	FIELD aV cactus Lqk;
 	FIELD aW clay Lqk;
+	FIELD aX reeds Lqk;
+	FIELD aY recordPlayer Lqk;
+	FIELD aZ fence Lqk;
 	FIELD aa unused_34 Lqk;
 	FIELD ab cloth Lqk;
 	FIELD ac unused_36 Lqk;
@@ -47,9 +73,15 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	FIELD as mobSpawner Lqk;
 	FIELD at stairs_wood Lqk;
 	FIELD au chest Lqk;
+	FIELD av redStoneDust Lqk;
 	FIELD aw emeraldOre Lqk;
 	FIELD ax emeraldBlock Lqk;
+	FIELD ay workBench Lqk;
+	FIELD az crops Lqk;
 	FIELD ba pumpkin Lqk;
+	FIELD bb hellRock Lqk;
+	FIELD bc hellSand Lqk;
+	FIELD bd lightGem Lqk;
 	FIELD be portalTile Lab;
 	FIELD bf litPumpkin Lqk;
 	FIELD bg cake Lqk;
@@ -138,6 +170,11 @@ CLASS qk net/minecraft/world/level/tile/Tile
 	METHOD b stepOn (Ldt;IIILom;)V
 	METHOD b getColor (Lso;III)I
 	METHOD b shouldRenderFace (Lso;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
 	METHOD b setTicking (Z)V
 	METHOD b_ spawnResources (Ldt;IIII)V
 	METHOD c getRenderLayer ()I

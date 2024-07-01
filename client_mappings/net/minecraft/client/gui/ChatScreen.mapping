@@ -1,1 +1,4 @@
 CLASS eq net/minecraft/client/gui/ChatScreen
+	FIELD a message Ljava/lang/String;
+	FIELD h frame I
+	FIELD i allowedChars Ljava/lang/String;

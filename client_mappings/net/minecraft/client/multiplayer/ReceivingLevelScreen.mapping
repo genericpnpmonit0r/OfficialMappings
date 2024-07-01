@@ -1,0 +1,5 @@
+CLASS et net/minecraft/client/multiplayer/ReceivingLevelScreen
+	FIELD a connection Lkb;
+	FIELD h tickCount I
+	METHOD <init> (Lkb;)V
+		ARG 1 connection

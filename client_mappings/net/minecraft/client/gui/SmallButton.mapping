@@ -1,0 +1,9 @@
+CLASS u net/minecraft/client/gui/SmallButton
+	FIELD i option Lfz;
+	METHOD <init> (IIILfz;Ljava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 option
+		ARG 5 msg
+	METHOD a getOption ()Lfz;

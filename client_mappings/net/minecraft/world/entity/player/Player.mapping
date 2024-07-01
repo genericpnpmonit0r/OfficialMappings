@@ -26,6 +26,8 @@ CLASS fd net/minecraft/world/entity/player/Player
 	FIELD y unk_y F
 	FIELD z unk_z F
 	METHOD A drop ()V
+	METHOD D getSelectedItem ()Lgz;
+	METHOD E removeSelecteditem ()V
 	METHOD G swing ()V
 	METHOD J getSleepingRotation ()F
 	METHOD L isSleepingLongEnough ()Z

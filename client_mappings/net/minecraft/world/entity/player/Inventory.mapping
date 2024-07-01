@@ -9,3 +9,4 @@ CLASS gy net/minecraft/world/entity/player/Inventory
 	METHOD e tick ()V
 	METHOD f getArmorValue ()I
 	METHOD g dropAll ()V
+	METHOD i getCarried ()Lgz;

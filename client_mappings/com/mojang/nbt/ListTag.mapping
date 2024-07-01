@@ -3,3 +3,4 @@ CLASS oo com/mojang/nbt/ListTag
 	FIELD b type B
 	METHOD a get (I)Lgl;
 	METHOD a add (Lgl;)V
+	METHOD c size ()I

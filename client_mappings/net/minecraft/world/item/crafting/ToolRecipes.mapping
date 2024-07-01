@@ -1,0 +1,2 @@
+CLASS fj net/minecraft/world/item/crafting/ToolRecipes
+	METHOD a addRecipes (Lfr;)V

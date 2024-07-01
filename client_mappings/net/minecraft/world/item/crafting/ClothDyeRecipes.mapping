@@ -1,0 +1,2 @@
+CLASS kf net/minecraft/world/item/crafting/ClothDyeRecipes
+	METHOD a addRecipes (Lfr;)V

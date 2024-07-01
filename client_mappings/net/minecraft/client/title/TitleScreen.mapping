@@ -1,0 +1,9 @@
+CLASS eh net/minecraft/client/title/TitleScreen
+	FIELD a logo [Ljava/lang/String;
+	FIELD h random Ljava/util/Random;
+	FIELD i letterBlocks [[Loh;
+	FIELD k vo F
+	FIELD l splash Ljava/lang/String;
+	METHOD a renderMinecraftLogo (F)V
+		ARG 1 a
+	METHOD j access$000 ()Ljava/util/Random;

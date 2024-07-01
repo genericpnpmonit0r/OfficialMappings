@@ -1,0 +1,10 @@
+CLASS k net/minecraft/client/MinecraftApplet$2
+	FIELD a this$0 Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 this$0
+		ARG 2 component
+		ARG 3 parent
+		ARG 4 minecraftApplet
+		ARG 5 w
+		ARG 6 h
+		ARG 7 fullscreen

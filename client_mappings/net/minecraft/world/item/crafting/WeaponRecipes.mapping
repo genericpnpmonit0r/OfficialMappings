@@ -1,0 +1,2 @@
+CLASS sf net/minecraft/world/item/crafting/WeaponRecipes
+	METHOD a addRecipes (Lfr;)V

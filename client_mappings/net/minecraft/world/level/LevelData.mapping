@@ -17,18 +17,35 @@ CLASS dc net/minecraft/world/level/LevelData
 		ARG 1 d
 	METHOD <init> (Lks;)V
 		ARG 1 tag
+	METHOD a createTag ()Lks;
 	METHOD a setXSpawn (I)V
+		ARG 1 xSpawn
 	METHOD a setSpawn (III)V
+		ARG 1 xSpawn
+		ARG 2 ySpawn
+		ARG 3 zSpawn
 	METHOD a setTime (J)V
+		ARG 1 time
 	METHOD a setLevelName (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD a createTag (Ljava/util/List;)Lks;
+		ARG 1 players
 	METHOD a setLoadedPlayerTag (Lks;)V
+		ARG 1 tag
+	METHOD a setTagData (Lks;Lks;)V
+		ARG 1 tag
+		ARG 2 playerTag
 	METHOD b getSeed ()J
 	METHOD b setYSpawn (I)V
+		ARG 1 ySpawn
 	METHOD b setSizeOnDisk (J)V
+		ARG 1 sizeOnDisk
 	METHOD c getXSpawn ()I
 	METHOD c setZSpawn (I)V
+		ARG 1 zSpawn
 	METHOD d getYSpawn ()I
 	METHOD d setStorageVersion (I)V
+		ARG 1 storageVersion
 	METHOD e getZSpawn ()I
 	METHOD f getTime ()J
 	METHOD g getSizeOnDisk ()J

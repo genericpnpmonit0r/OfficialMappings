@@ -1,8 +1,29 @@
 CLASS ex net/minecraft/world/item/Item
+	FIELD B stick Lex;
 	FIELD C bowl Lex;
+	FIELD I string Lex;
+	FIELD K sulphur Lex;
+	FIELD aA redStone Lex;
 	FIELD aB snowBall Lex;
+	FIELD aF brick Lex;
+	FIELD aG clay Lex;
+	FIELD aH reeds Lex;
+	FIELD aI paper Lex;
+	FIELD aJ book Lex;
 	FIELD a craftingRemainingItem Lex;
 	FIELD aN egg Lex;
+	FIELD aO compass Lex;
+	FIELD aQ clock Lex;
+	FIELD aR yellowDust Lex;
+	FIELD aS fish_raw Lex;
+	FIELD aT fish_cooked Lex;
+	FIELD aU dye_powder Lex;
+	FIELD aY bed Lex;
+	FIELD aZ diode Lex;
+	FIELD ao porkChop_raw Lex;
+	FIELD ap porkChop_cooked Lex;
+	FIELD ar apple_gold Lex;
+	FIELD au bucket_empty Lex;
 	FIELD b random Ljava/util/Random;
 	FIELD ba record_01 Lex;
 	FIELD bb record_02 Lex;
@@ -16,12 +37,29 @@ CLASS ex net/minecraft/world/item/Item
 	FIELD c items [Lex;
 	FIELD d shovel_iron Lex;
 	FIELD e pickAxe_iron Lex;
+	FIELD h apple Lex;
+	FIELD k coal Lex;
+	FIELD l emerald Lex;
+	FIELD m ironIngot Lex;
+	FIELD n goldIngot Lex;
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a getLevelDataForAuxValue (I)I
+		ARG 1 value
 	METHOD a setIcon (II)Lex;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setCraftingRemainingItem (Lex;)Lex;
+		ARG 1 craftingRemainingItem
 	METHOD a getIcon (Lgz;)I
+		ARG 1 item
 	METHOD a mineBlock (Lgz;IIII)V
 		ARG 1 item
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
 	METHOD a use (Lgz;Ldt;Lfd;)Lgz;
 		ARG 1 item
 		ARG 2 level
@@ -41,8 +79,29 @@ CLASS ex net/minecraft/world/item/Item
 		ARG 1 item
 		ARG 2 tile
 	METHOD a setDescriptionId (Ljava/lang/String;)Lex;
+		ARG 1 id
 	METHOD a getAttackDamage (Lom;)I
 		ARG 1 entity
 	METHOD a canDestroySpecial (Lqk;)Z
 		ARG 1 tile
+	METHOD a setStackedByData (Z)Lex;
+		ARG 1 stackedByData
 	METHOD b isHandEquipped ()Z
+	METHOD b setIcon (I)Lex;
+		ARG 1 icon
+	METHOD b getDescriptionId (Lgz;)Ljava/lang/String;
+		ARG 1 item
+	METHOD b interactEnemy (Lgz;Liz;)V
+		ARG 1 item
+		ARG 2 mob
+	METHOD c isMirroredArt ()Z
+	METHOD c setMaxStackSize (I)Lex;
+		ARG 1 maxStackSize
+	METHOD d getMaxStackSize ()I
+	METHOD d setMaxDamage (I)Lex;
+		ARG 1 maxDamage
+	METHOD e isStackedByData ()Z
+	METHOD f getMaxDamage ()I
+	METHOD g handEquipped ()Lex;
+	METHOD h getCraftingRemainingItem ()Lex;
+	METHOD i hasCraftingRemainingItem ()Z

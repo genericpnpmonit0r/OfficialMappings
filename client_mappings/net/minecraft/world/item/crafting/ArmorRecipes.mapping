@@ -1,0 +1,2 @@
+CLASS s net/minecraft/world/item/crafting/ArmorRecipes
+	METHOD a addRecipes (Lfr;)V

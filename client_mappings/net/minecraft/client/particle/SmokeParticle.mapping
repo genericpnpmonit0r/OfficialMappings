@@ -1,1 +1,11 @@
 CLASS sm net/minecraft/client/particle/SmokeParticle
+	FIELD a oSize F
+	METHOD <init> (Ldt;DDDDDDF)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xa
+		ARG 10 ya
+		ARG 12 za
+		ARG 14 scale

@@ -1,0 +1,8 @@
+CLASS bq net/minecraft/client/gui/OptionsScreen
+	FIELD a title Ljava/lang/String;
+	FIELD h lastScreen Lcb;
+	FIELD i options Lig;
+	FIELD k items [Lfz;
+	METHOD <init> (Lcb;Lig;)V
+		ARG 1 lastScreen
+		ARG 2 options

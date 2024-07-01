@@ -1,0 +1,7 @@
+CLASS kn net/minecraft/world/level/tile/TransparentTile
+	FIELD b allowSame Z
+	METHOD <init> (IILiu;Z)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 material
+		ARG 4 allowSame

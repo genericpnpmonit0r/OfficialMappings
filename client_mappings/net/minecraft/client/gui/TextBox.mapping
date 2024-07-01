@@ -1,0 +1,33 @@
+CLASS np net/minecraft/client/gui/TextBox
+	FIELD a active Z
+	FIELD b visible Z
+	FIELD c font Loi;
+	FIELD d x I
+	FIELD e y I
+	FIELD f w I
+	FIELD g h I
+	FIELD h text Ljava/lang/String;
+	FIELD i maxLength I
+	FIELD k tickCount I
+	METHOD <init> (Loi;IIIILjava/lang/String;)V
+		ARG 1 font
+		ARG 2 x
+		ARG 3 y
+		ARG 4 w
+		ARG 5 h
+		ARG 6 text
+	METHOD a getText ()Ljava/lang/String;
+	METHOD a keyPressed (CI)V
+		ARG 1 eventCharacter
+		ARG 2 eventKey
+	METHOD a setMaxTextLength (I)V
+		COMMENT no clue what would actually be named
+		ARG 1 l
+	METHOD a mouseClicked (III)V
+		ARG 1 mx
+		ARG 2 my
+		ARG 3 buttonNum
+	METHOD a setText (Ljava/lang/String;)V
+		ARG 1 text
+	METHOD b tick ()V
+	METHOD c render ()V

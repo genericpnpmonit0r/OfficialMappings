@@ -1,0 +1,9 @@
+CLASS dp net/minecraft/world/item/crafting/FurnaceRecipes
+	FIELD a instance Ldp;
+	FIELD b recipies Ljava/util/Map;
+	METHOD a getInstance ()Ldp;
+	METHOD a getResult (I)Lgz;
+		ARG 1 item
+	METHOD a addFurnaceRecipy (ILgz;)V
+		ARG 1 ingredient
+		ARG 2 result

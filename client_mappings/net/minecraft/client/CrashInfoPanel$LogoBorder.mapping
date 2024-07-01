@@ -1,0 +1,4 @@
+CLASS en net/minecraft/client/CrashInfoPanel$LogoBorder
+	FIELD a image Ljava/awt/image/BufferedImage;
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 g

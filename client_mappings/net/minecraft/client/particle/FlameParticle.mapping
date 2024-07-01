@@ -1,1 +1,2 @@
 CLASS mx net/minecraft/client/particle/FlameParticle
+	FIELD a oSize F

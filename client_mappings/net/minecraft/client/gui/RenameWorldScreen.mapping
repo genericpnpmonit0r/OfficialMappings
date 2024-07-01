@@ -1,0 +1,7 @@
+CLASS hh net/minecraft/client/gui/RenameWorldScreen
+	FIELD a lastScreen Lcb;
+	FIELD h name Lnp;
+	FIELD i oldName Ljava/lang/String;
+	METHOD <init> (Lcb;Ljava/lang/String;)V
+		ARG 1 lastScreen
+		ARG 2 oldName

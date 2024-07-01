@@ -1,1 +1,2 @@
 CLASS mn net/minecraft/client/gui/LevelConflictScreen
+	FIELD a frame I

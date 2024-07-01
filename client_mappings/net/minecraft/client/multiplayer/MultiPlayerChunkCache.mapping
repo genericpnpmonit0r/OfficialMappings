@@ -1,0 +1,13 @@
+CLASS ql net/minecraft/client/multiplayer/MultiPlayerChunkCache
+	FIELD a emptyChunk Lit;
+	FIELD b loadedChunks Ljava/util/Map;
+	FIELD c loadedChunkList Ljava/util/List;
+	FIELD d level Ldt;
+	METHOD <init> (Ldt;)V
+		ARG 1 level
+	METHOD c drop (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD d create (II)Lit;
+		ARG 1 x
+		ARG 2 z

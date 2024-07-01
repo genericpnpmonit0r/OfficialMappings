@@ -1,2 +1,3 @@
 CLASS kb net/minecraft/client/multiplayer/ClientConnection
+	METHOD a tick ()V
 	METHOD a send (Lhz;)V

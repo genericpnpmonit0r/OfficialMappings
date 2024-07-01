@@ -1,0 +1,3 @@
+CLASS iv net/minecraft/client/model/GhastModel
+	FIELD a body Lmd;
+	FIELD b tentacles [Lmd;

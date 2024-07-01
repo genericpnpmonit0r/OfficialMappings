@@ -1,0 +1,2 @@
+CLASS pl net/minecraft/world/item/crafting/OreRecipes
+	METHOD a addRecipes (Lfr;)V

@@ -1,0 +1,4 @@
+CLASS l net/minecraft/client/MinecraftApplet$1
+	FIELD a this$0 Lnet/minecraft/client/MinecraftApplet;
+	METHOD <init> (Lnet/minecraft/client/MinecraftApplet;)V
+		ARG 1 this$0

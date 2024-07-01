@@ -1,0 +1,7 @@
+CLASS he net/minecraft/world/level/FoliageColor
+	FIELD a pixels [I
+	METHOD a getEvergreenColor ()I
+	METHOD a get (DD)I
+		ARG 0 t
+		ARG 2 h
+	METHOD b getBirchColor ()I

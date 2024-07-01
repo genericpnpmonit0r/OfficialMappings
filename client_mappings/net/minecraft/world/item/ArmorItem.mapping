@@ -1,0 +1,2 @@
+CLASS ri net/minecraft/world/item/ArmorItem
+	FIELD bi slot I

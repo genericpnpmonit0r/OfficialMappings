@@ -1,2 +1,4 @@
-CLASS net/minecraft/isom/IsomPreviewApplet
+CLASS net/minecraft/isom/IsomPreviewApplet net/minecraft/isom/IsomPreviewApplet
 	FIELD a isomPreview Lan;
+	METHOD start start ()V
+	METHOD stop stop ()V

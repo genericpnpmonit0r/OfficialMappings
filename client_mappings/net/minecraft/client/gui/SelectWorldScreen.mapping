@@ -1,0 +1,22 @@
+CLASS nr net/minecraft/client/gui/SelectWorldScreen
+	FIELD a lastScreen Lcb;
+	FIELD h title Ljava/lang/String;
+	FIELD i df Ljava/text/DateFormat;
+	FIELD l selected I
+	FIELD m levelList Ljava/util/List;
+	FIELD n selectionMenu Ljn;
+	FIELD o world Ljava/lang/String;
+	FIELD p conversion Ljava/lang/String;
+	FIELD r rename Lhw;
+	FIELD s select Lhw;
+	FIELD t delete Lhw;
+	METHOD a access$000 (Lnr;)Ljava/util/List;
+	METHOD a access$100 (Lnr;I)I
+	METHOD b access$200 (Lnr;)I
+	METHOD c access$300 (Lnr;)Lhw;
+	METHOD d access$400 (Lnr;)Lhw;
+	METHOD e access$500 (Lnr;)Lhw;
+	METHOD f access$600 (Lnr;)Ljava/lang/String;
+	METHOD g access$700 (Lnr;)Ljava/text/DateFormat;
+	METHOD h access$800 (Lnr;)Ljava/lang/String;
+	METHOD j postInit ()V

@@ -1,0 +1,9 @@
+CLASS ra net/minecraft/client/skins/FileTexturePack
+	FIELD e zf Ljava/util/zip/ZipFile;
+	FIELD f texture I
+	FIELD g icon Ljava/awt/image/BufferedImage;
+	FIELD h file Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD b trim (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 line

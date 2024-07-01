@@ -1,4 +1,4 @@
-CLASS net/minecraft/client/Minecraft
+CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	FIELD A mouseHandler Lrh;
 	FIELD B texturePackRepository Lgn;
 	FIELD C frameTimes [J
@@ -56,6 +56,13 @@ CLASS net/minecraft/client/Minecraft
 	FIELD x options Lig;
 	FIELD y minecraftApplet Lnet/minecraft/client/MinecraftApplet;
 	FIELD z soundEngine Ltm;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 component
+		ARG 2 parent
+		ARG 3 minecraftApplet
+		ARG 4 w
+		ARG 5 h
+		ARG 6 fullscreen
 	METHOD A handleGrabTexture ()V
 	METHOD B reloadSound ()V
 	METHOD a init ()V
@@ -65,10 +72,19 @@ CLASS net/minecraft/client/Minecraft
 		ARG 1 w
 		ARG 2 h
 	METHOD a blit (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 sx
+		ARG 4 sy
+		ARG 5 w
+		ARG 6 h
 	METHOD a handleMouseDown (IZ)V
+		ARG 1 i
+		ARG 2 b
 	METHOD a renderFpsMeter (J)V
 		ARG 1 time
 	METHOD a setScreen (Lcb;)V
+		ARG 1 screen
 	METHOD a setLevel (Ldt;)V
 		ARG 1 level
 	METHOD a setLevel (Ldt;Ljava/lang/String;)V
@@ -87,19 +103,33 @@ CLASS net/minecraft/client/Minecraft
 	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
 		ARG 0 applicationName
 	METHOD a connectTo (Ljava/lang/String;I)V
+		ARG 1 connectToIp
+		ARG 2 connectToPort
 	METHOD a fileDownloaded (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
 	METHOD a start (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 sessionId
 	METHOD a selectLevel (Ljava/lang/String;Ljava/lang/String;J)V
 		ARG 1 selected
 		ARG 2 levelName
 		ARG 3 seed
 	METHOD a startAndConnectTo (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 sessionId
+		ARG 2 server
 	METHOD a onCrash (Ljm;)V
 		ARG 1 crashReport
 	METHOD b getWorkingDirectory ()Ljava/io/File;
+	METHOD b isCommand (Ljava/lang/String;)Z
+		ARG 1 msg
 	METHOD b convertLevel (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 levelName
+		ARG 2 n
+	METHOD c getLevelStorage ()Lkj;
 	METHOD c checkGLError (Ljava/lang/String;)V
+		ARG 1 string
 	METHOD d destroy ()V
 	METHOD d prepareLevel (Ljava/lang/String;)V
 		ARG 1 title
@@ -112,13 +142,15 @@ CLASS net/minecraft/client/Minecraft
 	METHOD k isOnline ()Z
 	METHOD l toggleDimension ()V
 	METHOD m getOpenGLCapabilities ()Lby;
-	METHOD main ([Ljava/lang/String;)V
+	METHOD main main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD n gatherStats1 ()Ljava/lang/String;
 	METHOD o gatherStats2 ()Ljava/lang/String;
 	METHOD p gatherStats4 ()Ljava/lang/String;
 	METHOD q gatherStats3 ()Ljava/lang/String;
 	METHOD r respawnPlayer ()V
+	METHOD run run ()V
+	METHOD s getConnection ()Lkb;
 	METHOD t showGui ()Z
 	METHOD u fancyGraphics ()Z
 	METHOD v useAmbientOcclusion ()Z

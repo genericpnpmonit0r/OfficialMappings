@@ -1,2 +1,0 @@
-CLASS hn
-	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V

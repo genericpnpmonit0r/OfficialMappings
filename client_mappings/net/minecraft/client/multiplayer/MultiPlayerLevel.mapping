@@ -1,0 +1,11 @@
+CLASS jr net/minecraft/client/multiplayer/MultiPlayerLevel
+	FIELD u updatesToReset Ljava/util/LinkedList;
+	FIELD v connection Lkb;
+	FIELD w chunkCache Lql;
+	FIELD x entitiesById Lhr;
+	FIELD y forced Ljava/util/Set;
+	FIELD z reEntries Ljava/util/Set;
+	METHOD <init> (Lkb;JI)V
+		ARG 1 connection
+		ARG 2 seed
+		ARG 4 dimension

@@ -1,0 +1,5 @@
+CLASS bh net/minecraft/world/inventory/ContainerMenu
+	FIELD a container Ljc;
+	METHOD <init> (Ljc;Ljc;)V
+		ARG 1 c1
+		ARG 2 c2
