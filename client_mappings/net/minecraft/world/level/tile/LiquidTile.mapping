@@ -1,2 +1,34 @@
 CLASS nq net/minecraft/world/level/tile/LiquidTile
+	METHOD a getSlopeAngle (Lso;IIILiu;)D
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
 	METHOD c getHeight (I)F
+		ARG 0 d
+	METHOD c getRenderedDepth (Lso;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e getFlow (Lso;III)Lay;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h getDepth (Ldt;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i fizz (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j updateLiquid (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

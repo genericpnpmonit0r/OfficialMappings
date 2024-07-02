@@ -1,1 +1,3 @@
 CLASS me net/minecraft/world/level/tile/MusicTile
+	METHOD <init> (I)V
+		ARG 1 id

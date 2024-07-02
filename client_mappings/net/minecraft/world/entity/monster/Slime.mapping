@@ -1,2 +1,8 @@
 CLASS qm net/minecraft/world/entity/monster/Slime
+	FIELD a squish F
+	FIELD b oSquish F
+	FIELD c size I
+	FIELD d jumpDelay I
 	METHOD b rotlerp (FFF)F
+	METHOD e setSize (I)V
+		ARG 1 size

@@ -1,1 +1,2 @@
 CLASS ok net/minecraft/world/entity/projectile/Arrow
+	METHOD a shoot (DDDFF)V

@@ -1,1 +1,2 @@
 CLASS eg net/minecraft/world/entity/monster/Skeleton
+	FIELD a bow Lgz;

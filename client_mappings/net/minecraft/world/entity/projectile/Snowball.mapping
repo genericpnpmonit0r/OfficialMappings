@@ -1,1 +1,2 @@
 CLASS bd net/minecraft/world/entity/projectile/Snowball
+	METHOD a shoot (DDDFF)V

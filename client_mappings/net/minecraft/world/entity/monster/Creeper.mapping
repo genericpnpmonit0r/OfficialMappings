@@ -1,1 +1,8 @@
 CLASS ep net/minecraft/world/entity/monster/Creeper
+	FIELD a swell I
+	FIELD b oldSwell I
+	METHOD b getSwelling (F)F
+		ARG 1 a
+	METHOD e setSwellDir (I)V
+		ARG 1 dir
+	METHOD q getSwellDir ()I

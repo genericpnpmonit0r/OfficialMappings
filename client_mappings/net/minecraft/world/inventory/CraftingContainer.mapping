@@ -1,1 +1,11 @@
 CLASS jv net/minecraft/world/inventory/CraftingContainer
+	FIELD a items [Lgz;
+	FIELD b width I
+	FIELD c menu Lct;
+	METHOD <init> (Lct;II)V
+		ARG 1 menu
+		ARG 2 width
+		ARG 3 height
+	METHOD b getItem (II)Lgz;
+		ARG 1 x
+		ARG 2 y

@@ -2,12 +2,45 @@ CLASS gy net/minecraft/world/entity/player/Inventory
 	FIELD a items [Lgz;
 	FIELD b armor [Lgz;
 	FIELD c selected I
+	FIELD d changed Z
+	FIELD e player Lfd;
+	FIELD f carried Lgz;
+	METHOD <init> (Lfd;)V
+		ARG 1 player
 	METHOD a grabTexture (IZ)V
+		ARG 1 id
+		ARG 2 b
 	METHOD a add (Lgz;)Z
+		ARG 1 item
+	METHOD a getAttackDamage (Lom;)I
+		ARG 1 e
+	METHOD a save (Loo;)Loo;
+		ARG 1 tag
+	METHOD a getDestroySpeed (Lqk;)F
+		ARG 1 tile
 	METHOD b getSelected ()Lgz;
+	METHOD b swapPaint (I)V
+		ARG 1 id
 	METHOD b setCarried (Lgz;)V
+		ARG 1 item
+	METHOD b load (Loo;)V
+		ARG 1 tag
+	METHOD b canDestroy (Lqk;)Z
+		ARG 1 tile
+	METHOD c removeResource (I)Z
+		ARG 1 item
+	METHOD c getSlotWithRemainingSpace (Lgz;)I
+		ARG 1 item
 	METHOD d getArmor (I)Lgz;
+		ARG 1 i
+	METHOD d addResource (Lgz;)I
+		ARG 1 item
 	METHOD e tick ()V
+	METHOD e hurtArmor (I)V
+		ARG 1 dmg
 	METHOD f getArmorValue ()I
+	METHOD f getSlot (I)I
+		ARG 1 id
 	METHOD g dropAll ()V
 	METHOD i getCarried ()Lgz;
+	METHOD j getFreeSlot ()I

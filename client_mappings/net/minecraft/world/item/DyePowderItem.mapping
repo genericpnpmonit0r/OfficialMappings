@@ -1,1 +1,2 @@
 CLASS ib net/minecraft/world/item/DyePowderItem
+	FIELD a COLOR_DESCS [Ljava/lang/String;

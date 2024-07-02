@@ -1,1 +1,6 @@
 CLASS ds net/minecraft/world/level/tile/PumpkinTile
+	FIELD a lit Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 lit

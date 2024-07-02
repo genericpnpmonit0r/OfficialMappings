@@ -1,1 +1,11 @@
 CLASS im net/minecraft/world/level/tile/DoorTile
+	METHOD a setOpen (Ldt;IIIZ)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 open
+	METHOD c setShape (I)V
+		ARG 1 dir
+	METHOD d getDir (I)I
+		ARG 1 data

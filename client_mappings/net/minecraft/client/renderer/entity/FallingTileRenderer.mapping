@@ -1,1 +1,2 @@
 CLASS ey net/minecraft/client/renderer/entity/FallingTileRenderer
+	FIELD a tileRenderer Lbw;

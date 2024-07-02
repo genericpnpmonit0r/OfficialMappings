@@ -1,1 +1,13 @@
 CLASS qx net/minecraft/world/level/tile/FarmTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD h isUnderCrops (Ldt;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i isNearWater (Ldt;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

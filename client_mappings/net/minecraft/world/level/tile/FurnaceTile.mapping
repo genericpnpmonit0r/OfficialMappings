@@ -1,1 +1,16 @@
 CLASS oz net/minecraft/world/level/tile/FurnaceTile
+	FIELD a lit Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 lit
+	METHOD a setLit (ZLdt;III)V
+		ARG 0 lit
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h recalcLockDir (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

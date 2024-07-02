@@ -26,6 +26,7 @@ CLASS fd net/minecraft/world/entity/player/Player
 	FIELD y unk_y F
 	FIELD z unk_z F
 	METHOD A drop ()V
+	METHOD C unk_C ()V
 	METHOD D getSelectedItem ()Lgz;
 	METHOD E removeSelecteditem ()V
 	METHOD G swing ()V
@@ -39,29 +40,44 @@ CLASS fd net/minecraft/world/entity/player/Player
 	METHOD a openTrap (Lak;)V
 		ARG 1 trap
 	METHOD a reallyDrop (Lfs;)V
+		ARG 1 item
 	METHOD a drop (Lgz;)V
+		ARG 1 item
 	METHOD a drop (Lgz;Z)V
+		ARG 1 item
+		ARG 2 b
 	METHOD a openContainer (Ljc;)V
 		ARG 1 container
 	METHOD a openFurnace (Loj;)V
 		ARG 1 furnace
+	METHOD a getDestroySpeed (Lqk;)F
+		ARG 1 tile
 	METHOD a openTextEdit (Lti;)V
 		ARG 1 sign
 	METHOD a stopSleepInBed (ZZ)V
+		ARG 1 a
+		ARG 2 b
 	METHOD b startSleepInBed (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD b carriedChanged (Lgz;)V
+		ARG 1 item
 	METHOD b displayClientMessage (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD b take (Lom;I)V
 		ARG 1 e
 		ARG 2 orgCount
+	METHOD b canDestroy (Lqk;)Z
+		ARG 1 tile
 	METHOD c interact (Lom;)V
+		ARG 1 entity
 	METHOD d attack (Lom;)V
+		ARG 1 entity
 	METHOD e setBedOffset (I)V
+		ARG 1 dir
 	METHOD j touch (Lom;)V
+		ARG 1 entity
 	METHOD p closeContainer ()V
 	METHOD q checkBed ()Z
 	METHOD t respawn ()V

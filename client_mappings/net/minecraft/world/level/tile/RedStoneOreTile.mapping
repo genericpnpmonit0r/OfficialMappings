@@ -1,1 +1,16 @@
 CLASS ax net/minecraft/world/level/tile/RedStoneOreTile
+	FIELD a lit Z
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 lit
+	METHOD h interact (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i poofParticles (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

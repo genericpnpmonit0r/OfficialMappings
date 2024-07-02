@@ -1,1 +1,14 @@
 CLASS lb net/minecraft/world/level/tile/ButtonTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD h unk_h (Ldt;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i checkCanSurvive (Ldt;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

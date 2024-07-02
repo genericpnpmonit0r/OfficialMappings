@@ -1,2 +1,6 @@
 CLASS cr net/minecraft/client/renderer/entity/PlayerRenderer
+	FIELD a humanoidModel Ldx;
+	FIELD g armorParts1 Ldx;
+	FIELD h armorParts2 Ldx;
+	FIELD i MATERIAL_NAMES [Ljava/lang/String;
 	METHOD b renderHand ()V

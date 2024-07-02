@@ -6,6 +6,8 @@ CLASS ct net/minecraft/world/inventory/AbstractContainerMenu
 	FIELD f containerId I
 	FIELD g containerListeners Ljava/util/List;
 	METHOD a broadcastChanges ()V
+	METHOD a getSlot (I)Lez;
+		ARG 1 index
 	METHOD a setData (II)V
 		ARG 1 type
 		ARG 2 data
@@ -13,12 +15,22 @@ CLASS ct net/minecraft/world/inventory/AbstractContainerMenu
 		ARG 1 x
 		ARG 2 y
 		ARG 3 player
+	METHOD a setItem (ILgz;)V
+		ARG 1 index
+		ARG 2 item
 	METHOD a addSlot (Lez;)V
 		ARG 1 slot
 	METHOD a removed (Lfd;)V
 		ARG 1 player
 	METHOD a backup (Lgy;)S
+		ARG 1 inventory
 	METHOD a slotsChanged (Ljc;)V
 		ARG 1 container
+	METHOD a deleteBackup (S)V
+		ARG 1 id
+	METHOD a setAll ([Lgz;)V
+		ARG 1 items
 	METHOD b stillValid (Lfd;)Z
 		ARG 1 player
+	METHOD b rollbackToBackup (S)V
+		ARG 1 id

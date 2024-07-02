@@ -1,1 +1,14 @@
 CLASS aw net/minecraft/world/entity/monster/Ghast
+	FIELD a floatDuration I
+	FIELD b xTarget D
+	FIELD c yTarget D
+	FIELD d zTarget D
+	FIELD e oCharge I
+	FIELD f charge I
+	FIELD g target Lom;
+	FIELD h retargetTime I
+	METHOD a canReach (DDDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 a

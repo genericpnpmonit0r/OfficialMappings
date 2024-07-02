@@ -34,7 +34,7 @@ CLASS ly net/minecraft/world/level/LevelListener
 		ARG 1 x0
 		ARG 2 y0
 		ARG 3 z0
-		ARG 4 c1
+		ARG 4 x1
 		ARG 5 y1
 		ARG 6 z1
 	METHOD b entityRemoved (Lom;)V

@@ -1,1 +1,2 @@
 CLASS rd net/minecraft/world/entity/projectile/ThrownEgg
+	METHOD a shoot (DDDFF)V

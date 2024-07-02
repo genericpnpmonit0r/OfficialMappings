@@ -1,1 +1,4 @@
 CLASS ij net/minecraft/world/item/HoeItem
+	METHOD <init> (ILaz;)V
+		ARG 1 id
+		ARG 2 tier

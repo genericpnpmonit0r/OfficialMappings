@@ -1,2 +1,6 @@
 CLASS bn net/minecraft/world/level/storage/McRegionLevelStorageSource$FolderPattern
 	FIELD a FOLDER_PATTERN Ljava/util/regex/Pattern;
+	METHOD <init> (Lgf;)V
+		ARG 1 a
+	METHOD accept accept (Ljava/io/File;)Z
+		ARG 1 pathname

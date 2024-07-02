@@ -1,1 +1,43 @@
 CLASS le net/minecraft/world/level/tile/LiquidTileDynamic
+	FIELD a maxCount I
+	FIELD b result [Z
+	FIELD c dist [I
+	METHOD b getSlopeDistance (Ldt;IIIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 a
+		ARG 6 b
+	METHOD f getHighest (Ldt;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 highest
+	METHOD g trySpreadTo (Ldt;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 data
+	METHOD j setStatic (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k getSpread (Ldt;III)[Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l isWaterBlocking (Ldt;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m canSpreadTo (Ldt;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

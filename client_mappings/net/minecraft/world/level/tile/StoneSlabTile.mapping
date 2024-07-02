@@ -1,1 +1,6 @@
 CLASS tp net/minecraft/world/level/tile/StoneSlabTile
+	FIELD a SLAB_NAMES [Ljava/lang/String;
+	FIELD b fullSize Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 fullSize

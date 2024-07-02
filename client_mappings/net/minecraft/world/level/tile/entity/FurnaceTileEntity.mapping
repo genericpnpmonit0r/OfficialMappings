@@ -2,6 +2,13 @@ CLASS oj net/minecraft/world/level/tile/entity/FurnaceTileEntity
 	FIELD a litTime I
 	FIELD b litDuration I
 	FIELD c tickCount I
+	FIELD h items [Lgz;
+	METHOD a getBurnDuration (Lgz;)I
+		ARG 1 item
 	METHOD b isLit ()Z
 	METHOD b getBurnProgress (I)I
+		ARG 1 a
 	METHOD c getLitProgress (I)I
+		ARG 1 a
+	METHOD g burn ()V
+	METHOD i canBurn ()Z

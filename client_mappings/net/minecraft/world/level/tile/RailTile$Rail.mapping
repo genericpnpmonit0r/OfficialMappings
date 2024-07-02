@@ -1,1 +1,41 @@
 CLASS qz net/minecraft/world/level/tile/RailTile$Rail
+	FIELD a this$0 Llq;
+	FIELD b level Ldt;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f data I
+	FIELD g connections Ljava/util/List;
+	METHOD <init> (Llq;Ldt;III)V
+		ARG 1 this$0
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a updateConnections ()V
+	METHOD a hasRail (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a access$000 (Lqz;)I
+		ARG 0 this$0
+	METHOD a getRail (Lrm;)Lqz;
+		ARG 1 pos
+	METHOD a place (Z)V
+		ARG 1 place
+	METHOD b removeSoftConnections ()V
+	METHOD b hasConnection (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b connectsTo (Lqz;)Z
+		ARG 1 rail
+	METHOD c countPotentialConnections ()I
+	METHOD c hasNeighborRail (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c canConnectTo (Lqz;)Z
+		ARG 1 rail
+	METHOD d connectTo (Lqz;)V
+		ARG 1 rail

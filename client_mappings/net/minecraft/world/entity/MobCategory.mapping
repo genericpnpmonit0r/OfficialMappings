@@ -6,6 +6,11 @@ CLASS ir net/minecraft/world/entity/MobCategory
 	FIELD e max I
 	FIELD f spawnPositionMaterial Liu;
 	FIELD g isFriendly Z
+	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;ILiu;Z)V
+		ARG 3 base
+		ARG 4 max
+		ARG 5 material
+		ARG 6 friendly
 	METHOD a getBaseClass ()Ljava/lang/Class;
 	METHOD b getMaxInstancesPerChunk ()I
 	METHOD c getSpawnPositionMaterial ()Liu;

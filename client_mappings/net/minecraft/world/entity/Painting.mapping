@@ -4,3 +4,22 @@ CLASS my net/minecraft/world/entity/Painting
 	FIELD c yTile I
 	FIELD d zTile I
 	FIELD e motive Lgt;
+	FIELD f checkInterval I
+	METHOD <init> (Ldt;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+	METHOD <init> (Ldt;IIIILjava/lang/String;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+		ARG 6 motive
+	METHOD b setDir (I)V
+		ARG 1 dir
+	METHOD c offs (I)F
+		ARG 1 offs
+	METHOD k survives ()Z

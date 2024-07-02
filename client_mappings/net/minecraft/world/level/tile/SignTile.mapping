@@ -1,1 +1,7 @@
 CLASS qb net/minecraft/world/level/tile/SignTile
+	FIELD a clas Ljava/lang/Class;
+	FIELD b onGround Z
+	METHOD <init> (ILjava/lang/Class;Z)V
+		ARG 1 id
+		ARG 2 clas
+		ARG 3 onGround

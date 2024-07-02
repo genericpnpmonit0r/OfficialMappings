@@ -4,6 +4,7 @@ CLASS fp net/minecraft/world/level/storage/McRegionLevelStorageSource
 		ARG 2 chunkFiles
 		ARG 3 currentCount
 		ARG 4 totalCount
+		ARG 5 progressListener
 	METHOD a addChunkFiles (Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V
 		ARG 1 baseFolder
 		ARG 2 oldChunks
@@ -12,3 +13,4 @@ CLASS fp net/minecraft/world/level/storage/McRegionLevelStorageSource
 		ARG 1 files
 		ARG 2 currentCount
 		ARG 3 totalCount
+		ARG 4 progressListener

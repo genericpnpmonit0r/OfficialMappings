@@ -1,1 +1,11 @@
 CLASS rj net/minecraft/world/level/tile/Bush
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD c mayPlaceOn (I)Z
+		ARG 1 tile
+	METHOD h checkAlive (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

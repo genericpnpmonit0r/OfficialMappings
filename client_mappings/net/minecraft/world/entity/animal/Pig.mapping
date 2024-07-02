@@ -1,1 +1,4 @@
 CLASS rn net/minecraft/world/entity/animal/Pig
+	METHOD a setSaddle (Z)V
+		ARG 1 saddle
+	METHOD q hasSaddle ()Z

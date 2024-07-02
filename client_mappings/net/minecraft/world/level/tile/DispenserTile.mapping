@@ -1,1 +1,14 @@
 CLASS sp net/minecraft/world/level/tile/DispenserTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD c fireArrow (Ldt;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD h recalcLockDir (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,1 +1,8 @@
 CLASS rx net/minecraft/world/entity/animal/Chicken
+	FIELD a sheared Z
+	FIELD b flap F
+	FIELD c flapSpeed F
+	FIELD f oFlapSpeed F
+	FIELD g oFlap F
+	FIELD h flapping F
+	FIELD i eggTime I

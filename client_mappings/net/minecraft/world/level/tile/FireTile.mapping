@@ -1,1 +1,38 @@
 CLASS tn net/minecraft/world/level/tile/FireTile
+	FIELD a flameOdds [I
+	FIELD b burnOdds [I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a setFlammable (III)V
+		ARG 1 tile
+		ARG 2 flameOdds
+		ARG 3 burnOdds
+	METHOD a checkBurn (Ldt;IIIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 odds
+		ARG 6 random
+	METHOD c canBurn (Lso;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getFlammability (Ldt;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 odds
+	METHOD h isValidFireLocation (Ldt;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i getFireOdds (Ldt;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

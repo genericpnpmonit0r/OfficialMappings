@@ -1,1 +1,5 @@
 CLASS am net/minecraft/world/item/BucketItem
+	FIELD a content I
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 content

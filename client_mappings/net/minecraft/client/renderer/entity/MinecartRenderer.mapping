@@ -1,1 +1,2 @@
 CLASS oy net/minecraft/client/renderer/entity/MinecartRenderer
+	FIELD a model Lic;

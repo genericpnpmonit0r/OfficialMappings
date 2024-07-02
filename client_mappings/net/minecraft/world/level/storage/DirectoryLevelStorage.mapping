@@ -3,3 +3,9 @@ CLASS ec net/minecraft/world/level/storage/DirectoryLevelStorage
 	FIELD b dir Ljava/io/File;
 	FIELD c playerDir Ljava/io/File;
 	FIELD d sessionId J
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
+		ARG 1 workDir
+		ARG 2 levelName
+		ARG 3 players
+	METHOD a getDirectory ()Ljava/io/File;
+	METHOD d init ()V

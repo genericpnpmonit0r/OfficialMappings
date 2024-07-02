@@ -1,1 +1,4 @@
 CLASS dh net/minecraft/world/level/tile/StoneTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex

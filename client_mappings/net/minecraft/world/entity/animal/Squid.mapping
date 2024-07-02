@@ -1,1 +1,15 @@
 CLASS ss net/minecraft/world/entity/animal/Squid
+	FIELD a xBodyRot F
+	FIELD b xBodyRotO F
+	FIELD c zBodyRot F
+	FIELD f zBodyRotO F
+	FIELD g tentacleMovement F
+	FIELD h oldTentacleMovement F
+	FIELD i tentacleAngle F
+	FIELD j oldTentacleAngle F
+	FIELD k speed F
+	FIELD l tentacleSpeed F
+	FIELD m rotateSpeed F
+	FIELD n tx F
+	FIELD o ty F
+	FIELD p tz F

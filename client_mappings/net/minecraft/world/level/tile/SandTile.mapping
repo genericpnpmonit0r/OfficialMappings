@@ -1,2 +1,15 @@
 CLASS ew net/minecraft/world/level/tile/SandTile
 	FIELD a instaFall Z
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD b_ isFree (Ldt;III)Z
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h checkSlide (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

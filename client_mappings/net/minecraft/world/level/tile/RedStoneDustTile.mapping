@@ -1,1 +1,35 @@
 CLASS ol net/minecraft/world/level/tile/RedStoneDustTile
+	FIELD a shouldSignal Z
+	FIELD b toUpdate Ljava/util/Set;
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a updatePowerStrength (Ldt;IIIIII)V
+		ARG 1 level
+		ARG 2 x0
+		ARG 3 y0
+		ARG 4 z0
+		ARG 5 x1
+		ARG 6 y1
+		ARG 7 z1
+	METHOD c shouldConnectTo (Lso;III)Z
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g checkTarget (Ldt;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 data
+	METHOD h updatePowerStrength (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i checkCornerChangeAt (Ldt;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

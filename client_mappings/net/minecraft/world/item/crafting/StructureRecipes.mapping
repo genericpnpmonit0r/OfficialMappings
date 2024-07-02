@@ -1,2 +1,3 @@
 CLASS hs net/minecraft/world/item/crafting/StructureRecipes
 	METHOD a addRecipes (Lfr;)V
+		ARG 1 recipes

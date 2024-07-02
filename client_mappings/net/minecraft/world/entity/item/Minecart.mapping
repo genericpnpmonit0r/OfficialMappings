@@ -1,1 +1,35 @@
 CLASS tj net/minecraft/world/entity/item/Minecart
+	FIELD a damage I
+	FIELD b hurtTime I
+	FIELD c hurtDir I
+	FIELD d type I
+	FIELD e fuel I
+	FIELD f xPush D
+	FIELD g zPush D
+	FIELD h items [Lgz;
+	FIELD i flipped Z
+	FIELD j EXITS [[[I
+	FIELD k lSteps I
+	FIELD l lx D
+	FIELD m ly D
+	FIELD n lz D
+	FIELD o lyr D
+	FIELD p lxr D
+	FIELD q lxd D
+	FIELD r lyd D
+	FIELD s lzd D
+	METHOD <init> (Ldt;DDDI)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
+	METHOD a getPosOffs (DDDD)Lay;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 a
+	METHOD h getPos (DDD)Lay;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

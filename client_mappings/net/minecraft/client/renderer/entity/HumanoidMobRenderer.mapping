@@ -1,1 +1,5 @@
 CLASS q net/minecraft/client/renderer/entity/HumanoidMobRenderer
+	FIELD a humanoidModel Ldx;
+	METHOD <init> (Ldx;F)V
+		ARG 1 humanoidModel
+		ARG 2 a

@@ -1,1 +1,2 @@
 CLASS nw net/minecraft/world/level/tile/EntityTile
+	METHOD a_ newTileEntity ()Lll;

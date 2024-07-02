@@ -1,1 +1,5 @@
 CLASS ga net/minecraft/world/item/DoorItem
+	FIELD a material Liu;
+	METHOD <init> (ILiu;)V
+		ARG 1 id
+		ARG 2 material

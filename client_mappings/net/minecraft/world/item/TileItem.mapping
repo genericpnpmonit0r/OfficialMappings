@@ -1,1 +1,2 @@
 CLASS bm net/minecraft/world/item/TileItem
+	FIELD a tileId I

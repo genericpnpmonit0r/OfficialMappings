@@ -1,2 +1,3 @@
 CLASS fi net/minecraft/world/entity/monster/Monster
+	FIELD c attackDamage I
 	METHOD b rotlerp (FFF)F

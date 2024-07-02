@@ -1,1 +1,6 @@
 CLASS jq net/minecraft/client/renderer/entity/SlimeRenderer
+	FIELD a armor Lic;
+	METHOD <init> (Lic;Lic;F)V
+		ARG 1 model
+		ARG 2 armor
+		ARG 3 shadow

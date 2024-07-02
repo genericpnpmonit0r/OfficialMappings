@@ -1,1 +1,12 @@
 CLASS cu net/minecraft/client/renderer/entity/PaintingRenderer
+	FIELD a random Ljava/util/Random;
+	METHOD a setBrightness (Lmy;FF)V
+		ARG 1 painting
+		ARG 2 ss
+		ARG 3 ya
+	METHOD a renderPainting (Lmy;IIII)V
+		ARG 1 painting
+		ARG 2 w
+		ARG 3 h
+		ARG 4 uo
+		ARG 5 vo

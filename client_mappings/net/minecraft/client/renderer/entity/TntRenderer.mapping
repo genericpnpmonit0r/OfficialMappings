@@ -1,1 +1,2 @@
 CLASS lg net/minecraft/client/renderer/entity/TntRenderer
+	FIELD a tileRenderer Lbw;

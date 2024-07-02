@@ -1,1 +1,8 @@
 CLASS mz net/minecraft/world/entity/item/PrimedTnt
+	FIELD a life I
+	METHOD <init> (Ldt;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD k explode ()V

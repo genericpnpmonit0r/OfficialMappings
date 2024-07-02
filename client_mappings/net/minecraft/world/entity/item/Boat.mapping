@@ -1,1 +1,18 @@
 CLASS eo net/minecraft/world/entity/item/Boat
+	FIELD a damage I
+	FIELD b hurtTime I
+	FIELD c hutDir I
+	FIELD d lSteps I
+	FIELD e lx D
+	FIELD f ly D
+	FIELD g lz D
+	FIELD h lyr D
+	FIELD i lxr D
+	FIELD j lxd D
+	FIELD k lyd D
+	FIELD l lzd D
+	METHOD <init> (Ldt;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

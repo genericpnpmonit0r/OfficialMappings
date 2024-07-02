@@ -1,1 +1,4 @@
 CLASS g net/minecraft/world/level/tile/MetalTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
