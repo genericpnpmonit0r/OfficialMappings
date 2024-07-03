@@ -1,11 +1,12 @@
 CLASS lu net/minecraft/world/item/ArmorItem
+	FIELD a tier I
+	FIELD bi slot I
+	FIELD bj defense I
+	FIELD bk icon I
+	FIELD bl defensePerSlot [I
+	FIELD bm healthPerSlot [I
 	METHOD <init> (IIII)V
 		ARG 1 id
 		ARG 2 tier
 		ARG 3 icon
 		ARG 4 slot
-	FIELD a tier I
-	FIELD bi slot I
-	FIELD bj defense I
-	FIELD bl defensePerSlot [I
-	FIELD bm healthPerSlot [I

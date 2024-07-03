@@ -1,4 +1,10 @@
 CLASS hv net/minecraft/world/level/tile/entity/TileEntity
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	FIELD d level Lcp;
+	FIELD e x I
+	FIELD f y I
+	FIELD g z I
 	METHOD a load (Lhj;)V
 		ARG 1 tag
 	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V
@@ -8,11 +14,6 @@ CLASS hv net/minecraft/world/level/tile/entity/TileEntity
 		ARG 1 tag
 	METHOD c loadStatic (Lhj;)Lhv;
 		ARG 0 tag
+	METHOD e getUpdatePacket ()Lfp;
 	METHOD h setChanged ()V
 	METHOD i_ tick ()V
-	FIELD a idClassMap Ljava/util/Map;
-	FIELD b classIdMap Ljava/util/Map;
-	FIELD d level Lcp;
-	FIELD e x I
-	FIELD f y I
-	FIELD g z I

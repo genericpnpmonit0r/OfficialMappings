@@ -1,4 +1,20 @@
 CLASS nl net/minecraft/world/entity/item/Minecart
+	FIELD a damage I
+	FIELD b hurtTime I
+	FIELD c hurtDir I
+	FIELD d type I
+	FIELD e fuel I
+	FIELD f xPush D
+	FIELD g zPush D
+	FIELD h items [Ley;
+	FIELD i flipped Z
+	FIELD j EXITS [[[I
+	FIELD k lSteps I
+	FIELD l lx D
+	FIELD m ly D
+	FIELD n lz D
+	FIELD o lyr D
+	FIELD p lxr D
 	METHOD <init> (Lcp;DDDI)V
 		ARG 1 level
 		ARG 2 x
@@ -30,14 +46,3 @@ CLASS nl net/minecraft/world/entity/item/Minecart
 	METHOD k getRideHeight ()D
 	METHOD m_ getContainerSize ()I
 	METHOD n_ getMaxStackSize ()I
-	FIELD a damage I
-	FIELD b hurtTime I
-	FIELD c hurtDir I
-	FIELD d type I
-	FIELD e fuel I
-	FIELD f xPush D
-	FIELD g zPush D
-	FIELD h items [Ley;
-	FIELD i flipped Z
-	FIELD j EXITS [[[I
-	FIELD k lSteps I

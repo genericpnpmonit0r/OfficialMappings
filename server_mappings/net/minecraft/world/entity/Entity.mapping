@@ -140,6 +140,7 @@ CLASS jw net/minecraft/world/entity/Entity
 	METHOD b ride (Ljw;)V
 		ARG 1 e
 	METHOD b setSneaking (Z)V
+		ARG 1 sneaking
 	METHOD c move (DDD)V
 		ARG 1 x
 		ARG 3 y
@@ -193,5 +194,6 @@ CLASS jw net/minecraft/world/entity/Entity
 		ARG 1 entity
 	METHOD h_ positionRider ()V
 	METHOD k getRideHeight ()D
+	METHOD k_ getEquipmentSlots ()[Ley;
 	METHOD p getHeadHeight ()F
 	METHOD x rideTick ()V

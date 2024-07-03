@@ -1,4 +1,22 @@
 CLASS gd net/minecraft/world/level/chunk/LevelChunk
+	FIELD a touchedSky Z
+	FIELD b blocks [B
+	FIELD c loaded Z
+	FIELD d level Lcp;
+	FIELD e data Lma;
+	FIELD f skyLight Lma;
+	FIELD g blockLight Lma;
+	FIELD h heightmap [B
+	FIELD i minHeight I
+	FIELD j z I
+	FIELD k x I
+	FIELD l tileEntities Ljava/util/Map;
+	FIELD m entityBlocks [Ljava/util/List;
+	FIELD n terrainPopulated Z
+	FIELD o unsaved Z
+	FIELD p dontSave Z
+	FIELD q lastSaveHadEntities Z
+	FIELD r lastSaveTime J
 	METHOD <init> (Lcp;II)V
 		ARG 1 level
 		ARG 2 x
@@ -63,6 +81,7 @@ CLASS gd net/minecraft/world/level/chunk/LevelChunk
 	METHOD a shouldSave (Z)Z
 		ARG 1 force
 	METHOD a setBlocksAndData ([BIIIIIII)I
+		ARG 1 data
 		ARG 2 a
 		ARG 3 b
 		ARG 4 c
@@ -118,20 +137,3 @@ CLASS gd net/minecraft/world/level/chunk/LevelChunk
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	FIELD b blocks [B
-	FIELD c loaded Z
-	FIELD d level Lcp;
-	FIELD e data Lma;
-	FIELD f skyLight Lma;
-	FIELD g blockLight Lma;
-	FIELD h heightmap [B
-	FIELD i minHeight I
-	FIELD j z I
-	FIELD k x I
-	FIELD l tileEntities Ljava/util/Map;
-	FIELD m entityBlocks [Ljava/util/List;
-	FIELD n terrainPopulated Z
-	FIELD o unsaved Z
-	FIELD p dontSave Z
-	FIELD q lastSaveHadEntities Z
-	FIELD r lastSaveTime J

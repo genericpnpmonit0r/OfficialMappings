@@ -1,1 +1,5 @@
 CLASS ms net/minecraft/network/Connection$4
+	FIELD a this$0 Lhz;
+	METHOD <init> (Lhz;)V
+		ARG 1 this$0
+	METHOD run run ()V

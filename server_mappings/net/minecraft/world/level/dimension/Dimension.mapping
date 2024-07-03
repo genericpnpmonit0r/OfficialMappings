@@ -1,4 +1,12 @@
 CLASS mn net/minecraft/world/level/dimension/Dimension
+	FIELD a level Lcp;
+	FIELD b biomeSource Lnc;
+	FIELD c foggy Z
+	FIELD d ultraWarm Z
+	FIELD e hasCeiling Z
+	FIELD f brightnessRamp [F
+	FIELD g id I
+	FIELD h sunriseCol [F
 	METHOD a init ()V
 	METHOD a getNew (I)Lmn;
 		ARG 0 id
@@ -12,10 +20,3 @@ CLASS mn net/minecraft/world/level/dimension/Dimension
 		ARG 1 level
 	METHOD b updateLightRamp ()V
 	METHOD c createRandomLevelSource ()Lay;
-	FIELD a level Lcp;
-	FIELD b biomeSource Lnc;
-	FIELD c foggy Z
-	FIELD d ultraWarm Z
-	FIELD e hasCeiling Z
-	FIELD f brightnessRamp [F
-	FIELD g id I

@@ -1,1 +1,6 @@
 CLASS mu net/minecraft/network/Connection$2
+	FIELD a this$0 Lhz;
+	METHOD <init> (Lhz;Ljava/lang/String;)V
+		ARG 1 this$0
+		ARG 2 val$string
+	METHOD run run ()V

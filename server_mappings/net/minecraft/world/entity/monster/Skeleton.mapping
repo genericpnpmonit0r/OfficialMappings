@@ -1,4 +1,5 @@
 CLASS da net/minecraft/world/entity/monster/Skeleton
+	FIELD a bow Ley;
 	METHOD a addAdditionalSaveData (Lhj;)V
 	METHOD a checkHurtTarget (Ljw;F)V
 	METHOD b readAdditionalSaveData (Lhj;)V

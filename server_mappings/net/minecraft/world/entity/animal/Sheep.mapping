@@ -1,4 +1,5 @@
 CLASS bp net/minecraft/world/entity/animal/Sheep
+	FIELD a COLOR [[F
 	METHOD a defineSynchedData ()V
 	METHOD a addAdditionalSaveData (Lhj;)V
 	METHOD a getSheepColor (Ljava/util/Random;)I

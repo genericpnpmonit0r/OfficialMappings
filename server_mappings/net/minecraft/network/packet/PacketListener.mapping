@@ -3,11 +3,15 @@ CLASS kj net/minecraft/network/packet/PacketListener
 		ARG 1 packet
 	METHOD a handleSetEntityMotion (Ldk;)V
 		ARG 1 packet
+	METHOD a handleUseItem (Ldr;)V
 	METHOD a handleSetHealth (Lee;)V
 		ARG 1 packet
 	METHOD a handleMovePlayer (Len;)V
 		ARG 1 packet
+	METHOD a handleContainerOpen (Lew;)V
 	METHOD a handleAddMob (Lfd;)V
+		ARG 1 packet
+	METHOD a handlePlayerAction (Lfi;)V
 		ARG 1 packet
 	METHOD a handleEntityActionAtPosition (Lfm;)V
 		ARG 1 packet
@@ -21,11 +25,15 @@ CLASS kj net/minecraft/network/packet/PacketListener
 		ARG 1 packet
 	METHOD a handleAnimate (Lhf;)V
 		ARG 1 packet
+	METHOD a handleContainerAck (Lhr;)V
+	METHOD a handleChat (Lhy;)V
 	METHOD a handlePlayerInput (Lil;)V
 		ARG 1 packet
 	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
 		ARG 1 reason
 		ARG 2 reasonObjects
+	METHOD a handleChunkVisibility (Ljp;)V
+	METHOD a handleAddEntity (Ljy;)V
 	METHOD a handleTileUpdate (Lks;)V
 		ARG 1 packet
 	METHOD a handleMoveEntity (Lkw;)V

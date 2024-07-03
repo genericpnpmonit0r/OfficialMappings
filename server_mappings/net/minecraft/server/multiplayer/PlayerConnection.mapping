@@ -1,12 +1,19 @@
 CLASS fv net/minecraft/server/multiplayer/PlayerConnection
 	FIELD a logger Ljava/util/logging/Logger;
 	FIELD b connection Lhz;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e player Lcr;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhz;Lcr;)V
+		ARG 2 connection
+		ARG 3 player
 	METHOD a handleSetHealth (Lee;)V
 	METHOD a handleMovePlayer (Len;)V
 	METHOD a onUnhandledPacket (Lfp;)V
 	METHOD a handleContainerClose (Lgr;)V
 	METHOD a handleAnimate (Lhf;)V
 	METHOD a handlePlayerInput (Lil;)V
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
 	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
 	METHOD a handleSignUpdate (Lkx;)V
 	METHOD a handleDisconnect (Lnp;)V

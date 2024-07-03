@@ -1,0 +1,15 @@
+CLASS gp net/minecraft/network/packet/AddPlayerPacket
+	FIELD a id I
+	FIELD b name Ljava/lang/String;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f yRot B
+	FIELD g xRot B
+	FIELD h carriedItem I
+	METHOD <init> (Ldp;)V
+		ARG 1 player
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

@@ -1,0 +1,14 @@
+CLASS ew net/minecraft/network/packet/ContainerOpenPacket
+	FIELD a containerId I
+	FIELD b type I
+	FIELD c title Ljava/lang/String;
+	FIELD d size I
+	METHOD <init> (IILjava/lang/String;I)V
+		ARG 1 containerId
+		ARG 2 type
+		ARG 3 title
+		ARG 4 size
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

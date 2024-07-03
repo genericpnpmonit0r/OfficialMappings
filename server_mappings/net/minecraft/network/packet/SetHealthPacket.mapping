@@ -1,0 +1,8 @@
+CLASS ci net/minecraft/network/packet/SetHealthPacket
+	FIELD a slot I
+	METHOD <init> (I)V
+		ARG 1 slot
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

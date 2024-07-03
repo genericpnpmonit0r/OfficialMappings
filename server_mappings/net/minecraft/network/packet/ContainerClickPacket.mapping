@@ -1,0 +1,10 @@
+CLASS ip net/minecraft/network/packet/ContainerClickPacket
+	FIELD a containerId I
+	FIELD b slotNum I
+	FIELD c buttonNum I
+	FIELD d uid S
+	FIELD e item Ley;
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

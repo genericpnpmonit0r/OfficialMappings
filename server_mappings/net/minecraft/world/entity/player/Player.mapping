@@ -1,5 +1,29 @@
 CLASS dp net/minecraft/world/entity/player/Player
-	METHOD A removeSelecteditem ()V
+	FIELD A unk_y F
+	FIELD B fishing Lgl;
+	FIELD a sleeping Z
+	FIELD b respawnPosition Lal;
+	FIELD c sleepTimer I
+	FIELD d dmgSpill I
+	FIELD i inventory Lex;
+	FIELD j inventoryMenu Lbv;
+	FIELD k containerMenu Lbv;
+	FIELD l userType B
+	FIELD m score I
+	FIELD n oBob F
+	FIELD o bob F
+	FIELD p swinging Z
+	FIELD q swingTime I
+	FIELD r name Ljava/lang/String;
+	FIELD s dimension I
+	FIELD t xCloakO D
+	FIELD u yCloakO D
+	FIELD v zCloakO D
+	FIELD w xCloak D
+	FIELD x yCloak D
+	FIELD y zCloak D
+	FIELD z unk_x F
+	METHOD A removeSelectedItem ()V
 	METHOD B getRidingHeight ()D
 	METHOD C remove ()V
 	METHOD D isInWall ()Z
@@ -69,27 +93,3 @@ CLASS dp net/minecraft/world/entity/player/Player
 	METHOD x rideTick ()V
 	METHOD y drop ()V
 	METHOD z getSelectedItem ()Ley;
-	FIELD A unk_y F
-	FIELD B fishing Lgl;
-	FIELD a sleeping Z
-	FIELD b respawnPosition Lal;
-	FIELD c sleepTimer I
-	FIELD d dmgSpill I
-	FIELD i inventory Lex;
-	FIELD j inventoryMenu Lbv;
-	FIELD k containerMenu Lbv;
-	FIELD l userType B
-	FIELD m score I
-	FIELD n oBob F
-	FIELD o bob F
-	FIELD p swinging Z
-	FIELD q swingTime I
-	FIELD r name Ljava/lang/String;
-	FIELD s dimension I
-	FIELD t xCloakO D
-	FIELD u yCloakO D
-	FIELD v zCloakO D
-	FIELD w xCloak D
-	FIELD x yCloak D
-	FIELD y zCloak D
-	FIELD z unk_x F

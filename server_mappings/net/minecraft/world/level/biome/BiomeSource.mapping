@@ -1,4 +1,11 @@
 CLASS nc net/minecraft/world/level/biome/BiomeSource
+	FIELD a temperatures [D
+	FIELD b downfalls [D
+	FIELD c noises [D
+	FIELD d biomes [Lfo;
+	FIELD e temperatureMap Lkv;
+	FIELD f downfallMap Lkv;
+	FIELD g noiseMap Lkv;
 	METHOD <init> (Lcp;)V
 		ARG 1 level
 	METHOD a getBiome (II)Lfo;
@@ -23,9 +30,3 @@ CLASS nc net/minecraft/world/level/biome/BiomeSource
 		ARG 3 z
 		ARG 4 w
 		ARG 5 h
-	FIELD b downfalls [D
-	FIELD c noises [D
-	FIELD d biomes [Lfo;
-	FIELD e temperatureMap Lkv;
-	FIELD f downfallMap Lkv;
-	FIELD g noiseMap Lkv;

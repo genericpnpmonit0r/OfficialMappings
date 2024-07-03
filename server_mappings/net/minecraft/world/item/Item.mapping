@@ -1,61 +1,4 @@
 CLASS dm net/minecraft/world/item/Item
-	METHOD <init> (I)V
-		ARG 1 id
-	METHOD a getDescriptionId ()Ljava/lang/String;
-	METHOD a getLevelDataForAuxValue (I)I
-		ARG 1 value
-	METHOD a setIcon (II)Ldm;
-		ARG 1 x
-		ARG 2 y
-	METHOD a setCraftingRemainingItem (Ldm;)Ldm;
-		ARG 1 craftingRemainingItem
-	METHOD a mineBlock (Ley;IIII)V
-		ARG 1 item
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 face
-	METHOD a use (Ley;Lcp;Ldp;)Ley;
-		ARG 1 item
-		ARG 2 level
-		ARG 3 player
-	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z
-		ARG 1 item
-		ARG 2 player
-		ARG 3 level
-		ARG 4 x
-		ARG 5 y
-		ARG 6 z
-		ARG 7 face
-	METHOD a hurtEnemy (Ley;Lgh;)V
-		ARG 1 item
-		ARG 2 mob
-	METHOD a getDestroySpeed (Ley;Llc;)F
-		ARG 1 item
-		ARG 2 tile
-	METHOD a setDescriptionId (Ljava/lang/String;)Ldm;
-		ARG 1 id
-	METHOD a getAttackDamage (Ljw;)I
-		ARG 1 entity
-	METHOD a canDestroySpecial (Llc;)Z
-		ARG 1 tile
-	METHOD a setStackedByData (Z)Ldm;
-		ARG 1 stackedByData
-	METHOD b getMaxStackSize ()I
-	METHOD b setIcon (I)Ldm;
-		ARG 1 icon
-	METHOD b interactEnemy (Ley;Lgh;)V
-		ARG 1 item
-		ARG 2 mob
-	METHOD c isStackedByData ()Z
-	METHOD c setMaxStackSize (I)Ldm;
-		ARG 1 maxStackSize
-	METHOD d getMaxDamage ()I
-	METHOD d setMaxDamage (I)Ldm;
-		ARG 1 maxDamage
-	METHOD e handEquipped ()Ldm;
-	METHOD f getCraftingRemainingItem ()Ldm;
-	METHOD g hasCraftingRemainingItem ()Z
 	FIELD A hatchet_emerald Ldm;
 	FIELD B stick Ldm;
 	FIELD C bowl Ldm;
@@ -141,6 +84,8 @@ CLASS dm net/minecraft/world/item/Item
 	FIELD bc id I
 	FIELD bd maxStackSize I
 	FIELD be maxDamage I
+	FIELD bf icon I
+	FIELD bg handEquipped Z
 	FIELD bh isStackedByData Z
 	FIELD bi descriptionId Ljava/lang/String;
 	FIELD c items [Ldm;
@@ -167,3 +112,60 @@ CLASS dm net/minecraft/world/item/Item
 	FIELD x sword_emerald Ldm;
 	FIELD y shovel_emerald Ldm;
 	FIELD z pickAxe_emerald Ldm;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a getLevelDataForAuxValue (I)I
+		ARG 1 value
+	METHOD a setIcon (II)Ldm;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setCraftingRemainingItem (Ldm;)Ldm;
+		ARG 1 craftingRemainingItem
+	METHOD a mineBlock (Ley;IIII)V
+		ARG 1 item
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD a use (Ley;Lcp;Ldp;)Ley;
+		ARG 1 item
+		ARG 2 level
+		ARG 3 player
+	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z
+		ARG 1 item
+		ARG 2 player
+		ARG 3 level
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD a hurtEnemy (Ley;Lgh;)V
+		ARG 1 item
+		ARG 2 mob
+	METHOD a getDestroySpeed (Ley;Llc;)F
+		ARG 1 item
+		ARG 2 tile
+	METHOD a setDescriptionId (Ljava/lang/String;)Ldm;
+		ARG 1 id
+	METHOD a getAttackDamage (Ljw;)I
+		ARG 1 entity
+	METHOD a canDestroySpecial (Llc;)Z
+		ARG 1 tile
+	METHOD a setStackedByData (Z)Ldm;
+		ARG 1 stackedByData
+	METHOD b getMaxStackSize ()I
+	METHOD b setIcon (I)Ldm;
+		ARG 1 icon
+	METHOD b interactEnemy (Ley;Lgh;)V
+		ARG 1 item
+		ARG 2 mob
+	METHOD c isStackedByData ()Z
+	METHOD c setMaxStackSize (I)Ldm;
+		ARG 1 maxStackSize
+	METHOD d getMaxDamage ()I
+	METHOD d setMaxDamage (I)Ldm;
+		ARG 1 maxDamage
+	METHOD e handEquipped ()Ldm;
+	METHOD f getCraftingRemainingItem ()Ldm;
+	METHOD g hasCraftingRemainingItem ()Z

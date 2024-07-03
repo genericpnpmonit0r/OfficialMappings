@@ -1,4 +1,8 @@
 CLASS ey net/minecraft/world/item/ItemInstance
+	FIELD a count I
+	FIELD b popTime I
+	FIELD c id I
+	FIELD d auxValue I
 	METHOD <init> (III)V
 		ARG 1 id
 		ARG 2 count
@@ -59,6 +63,8 @@ CLASS ey net/minecraft/world/item/ItemInstance
 	METHOD b getMaxStackSize ()I
 	METHOD b hurt (I)V
 		ARG 1 dmg
+	METHOD b clone (Ley;)Ley;
+		ARG 0 item
 	METHOD b interactEnemy (Lgh;)V
 		ARG 1 mob
 	METHOD b load (Lhj;)V
@@ -75,7 +81,3 @@ CLASS ey net/minecraft/world/item/ItemInstance
 	METHOD h getAuxValue ()I
 	METHOD i getMaxDamage ()I
 	METHOD j copy ()Ley;
-	FIELD a count I
-	FIELD b popTime I
-	FIELD c id I
-	FIELD d auxValue I

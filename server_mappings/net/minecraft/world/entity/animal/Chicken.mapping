@@ -1,4 +1,11 @@
 CLASS mk net/minecraft/world/entity/animal/Chicken
+	FIELD a sheared Z
+	FIELD b flap F
+	FIELD c flapSpeed F
+	FIELD f oFlapSpeed F
+	FIELD g oFlap F
+	FIELD h flapping F
+	FIELD i eggTime I
 	METHOD a causeFallDamage (F)V
 	METHOD a addAdditionalSaveData (Lhj;)V
 	METHOD b readAdditionalSaveData (Lhj;)V
@@ -7,8 +14,3 @@ CLASS mk net/minecraft/world/entity/animal/Chicken
 	METHOD g getDeathSound ()Ljava/lang/String;
 	METHOD h getDeathLoot ()I
 	METHOD q aiStep ()V
-	FIELD a sheared Z
-	FIELD b flap F
-	FIELD c flapSpeed F
-	FIELD h flapping F
-	FIELD i eggTime I

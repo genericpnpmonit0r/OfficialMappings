@@ -1,2 +1,21 @@
 CLASS ln net/minecraft/server/EntityTracker
+	FIELD a trackedEntities Ljava/util/Set;
+	FIELD b trackedEntitesById Lfk;
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD d maxRange I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
 	METHOD a tick ()V
+	METHOD a addEntity (Ljw;)V
+		ARG 1 entity
+	METHOD a trackEntity (Ljw;II)V
+		ARG 1 entity
+	METHOD a trackEntity (Ljw;IIZ)V
+		ARG 1 entity
+		ARG 2 range
+	METHOD a broadcast (Ljw;Lfp;)V
+		ARG 1 entity
+		ARG 2 packet
+	METHOD b broadcastAndSend (Ljw;Lfp;)V
+		ARG 1 entity
+		ARG 2 packet

@@ -1,7 +1,22 @@
 CLASS kf net/minecraft/world/level/tile/FurnaceTile
+	FIELD a lit Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 lit
 	METHOD a getTexture (I)I
 	METHOD a getResource (ILjava/util/Random;)I
 	METHOD a use (Lcp;IIILdp;)Z
 	METHOD a setPlacedBy (Lcp;IIILgh;)V
+	METHOD a setLit (ZLcp;III)V
+		ARG 0 lit
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	METHOD a_ newTileEntity ()Lhv;
 	METHOD e onPlace (Lcp;III)V
+	METHOD g recalcLockDir (Lcp;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -14,4 +14,6 @@ CLASS ed net/minecraft/server/PlayerList
 	METHOD a broadcastAll (Lfp;)V
 		ARG 1 packet
 	METHOD b tick ()V
+	METHOD c remove (Lcr;)V
 	METHOD d saveAll ()V
+	METHOD h isOp (Ljava/lang/String;)Z

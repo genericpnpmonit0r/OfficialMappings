@@ -1,4 +1,21 @@
 CLASS gl net/minecraft/world/entity/projectile/FishingHook
+	FIELD a shakeTime I
+	FIELD b owner Ldp;
+	FIELD c hookedIn Ljw;
+	FIELD d xTile I
+	FIELD e yTile I
+	FIELD f zTile I
+	FIELD g lastTile I
+	FIELD h inGround Z
+	FIELD i life I
+	FIELD j flightTime I
+	FIELD k nibble I
+	FIELD l lSteps I
+	FIELD m lx D
+	FIELD n ly D
+	FIELD o lz D
+	FIELD p lyr D
+	FIELD q lxr D
 	METHOD <init> (Lcp;Ldp;)V
 		ARG 1 level
 		ARG 2 owner
@@ -13,15 +30,3 @@ CLASS gl net/minecraft/world/entity/projectile/FishingHook
 	METHOD b readAdditionalSaveData (Lhj;)V
 	METHOD f_ tick ()V
 	METHOD h retrieve ()I
-	FIELD a shakeTime I
-	FIELD b owner Ldp;
-	FIELD c hookedIn Ljw;
-	FIELD d xTile I
-	FIELD e yTile I
-	FIELD f zTile I
-	FIELD g lastTile I
-	FIELD h inGround Z
-	FIELD i life I
-	FIELD j flightTime I
-	FIELD k nibble I
-	FIELD l lSteps I

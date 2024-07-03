@@ -1,1 +1,17 @@
 CLASS eg net/minecraft/server/TrackedEntity
+	FIELD a entity Ljw;
+	FIELD d x I
+	FIELD e y I
+	FIELD f z I
+	FIELD g yRot I
+	FIELD h xRot I
+	FIELD n players Ljava/util/Set;
+	METHOD <init> (Ljw;IIZ)V
+		ARG 1 entity
+	METHOD a broadcast (Lfp;)V
+	METHOD b getAddEntityPacket ()Lfp;
+	METHOD b broadcastAndSend (Lfp;)V
+	METHOD b (Ljava/util/List;)V
+		ARG 1 players
+	METHOD c removePlayer (Lcr;)V
+		ARG 1 player

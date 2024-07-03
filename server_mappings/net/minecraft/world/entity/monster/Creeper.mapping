@@ -1,4 +1,6 @@
 CLASS dh net/minecraft/world/entity/monster/Creeper
+	FIELD a swell I
+	FIELD b oldSwell I
 	METHOD a defineSynchedData ()V
 	METHOD a addAdditionalSaveData (Lhj;)V
 	METHOD a die (Ljw;)V
@@ -11,4 +13,3 @@ CLASS dh net/minecraft/world/entity/monster/Creeper
 	METHOD g getDeathSound ()Ljava/lang/String;
 	METHOD h getDeathLoot ()I
 	METHOD r getSwellDir ()I
-	FIELD a swell I

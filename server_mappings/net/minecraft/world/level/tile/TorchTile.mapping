@@ -1,4 +1,7 @@
 CLASS lp net/minecraft/world/level/tile/TorchTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
 	METHOD a isSolidRender ()Z
 	METHOD a mayPlace (Lcp;III)Z
 	METHOD a neighborChanged (Lcp;IIII)V
@@ -7,3 +10,8 @@ CLASS lp net/minecraft/world/level/tile/TorchTile
 	METHOD d getAABB (Lcp;III)Lcg;
 	METHOD d setPlacedOnFace (Lcp;IIII)V
 	METHOD e onPlace (Lcp;III)V
+	METHOD g checkCanSurvive (Lcp;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

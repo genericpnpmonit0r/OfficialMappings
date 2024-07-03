@@ -1,0 +1,17 @@
+CLASS ml net/minecraft/network/packet/ChunkTilesUpdatePacket
+	FIELD a xc I
+	FIELD b zc I
+	FIELD c positions [S
+	FIELD d blocks [B
+	FIELD e data [B
+	FIELD f count I
+	METHOD <init> (II[SILcp;)V
+		ARG 1 xc
+		ARG 2 zc
+		ARG 3 positions
+		ARG 4 count
+		ARG 5 level
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

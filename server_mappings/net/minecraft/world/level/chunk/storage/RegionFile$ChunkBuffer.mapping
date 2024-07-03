@@ -6,3 +6,4 @@ CLASS ei net/minecraft/world/level/chunk/storage/RegionFile$ChunkBuffer
 		ARG 1 this$0
 		ARG 2 x
 		ARG 3 z
+	METHOD close close ()V

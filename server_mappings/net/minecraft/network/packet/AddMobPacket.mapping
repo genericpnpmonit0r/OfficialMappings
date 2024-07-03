@@ -1,0 +1,16 @@
+CLASS fd net/minecraft/network/packet/AddMobPacket
+	FIELD a id I
+	FIELD b type B
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f yRot B
+	FIELD g xRot B
+	FIELD h entityData Lkt;
+	FIELD i unpack Ljava/util/List;
+	METHOD <init> (Lgh;)V
+		ARG 1 mob
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

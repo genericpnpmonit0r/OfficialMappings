@@ -7,3 +7,6 @@ CLASS by net/minecraft/world/inventory/ContainerListener
 		ARG 1 acm
 		ARG 2 i
 		ARG 3 item
+	METHOD a refreshChanges (Lbv;Ljava/util/List;)V
+		ARG 1 acm
+		ARG 2 items

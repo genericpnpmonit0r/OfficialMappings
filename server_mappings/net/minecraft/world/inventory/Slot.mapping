@@ -1,4 +1,9 @@
 CLASS do net/minecraft/world/inventory/Slot
+	FIELD a index I
+	FIELD b x I
+	FIELD c y I
+	FIELD d slot I
+	FIELD e container Lgk;
 	METHOD <init> (Lgk;III)V
 		ARG 1 container
 		ARG 2 slot
@@ -9,11 +14,11 @@ CLASS do net/minecraft/world/inventory/Slot
 		ARG 1 c
 	METHOD a mayPlace (Ley;)Z
 		ARG 1 item
+	METHOD a isAt (Lgk;I)Z
+		ARG 1 container
+		ARG 2 slot
 	METHOD b getItem ()Ley;
 	METHOD b set (Ley;)V
 		ARG 1 item
 	METHOD c setChanged ()V
 	METHOD d getMaxStackSize ()I
-	FIELD a index I
-	FIELD d slot I
-	FIELD e container Lgk;

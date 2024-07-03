@@ -1,0 +1,12 @@
+CLASS jp net/minecraft/network/packet/ChunkVisibilityPacket
+	FIELD a x I
+	FIELD b z I
+	FIELD c visible Z
+	METHOD <init> (IIZ)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 visible
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V
