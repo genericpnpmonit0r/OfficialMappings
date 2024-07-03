@@ -1,8 +1,11 @@
 CLASS cr net/minecraft/server/ServerPlayer
 	FIELD a connection Lfv;
+	FIELD bE lastHealth I
+	FIELD bG equipmentSlots [Ley;
 	FIELD bH containerId I
 	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;
 	FIELD c gameMode Lno;
+	FIELD f chunks Ljava/util/List;
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lcp;Ljava/lang/String;Lno;)V
 		ARG 1 mcs
 		ARG 2 level
@@ -22,10 +25,14 @@ CLASS cr net/minecraft/server/ServerPlayer
 	METHOD a slotChanged (Lbv;ILey;)V
 	METHOD a carriedChanged (Ley;)V
 	METHOD a openContainer (Lgk;)V
+	METHOD a broadcast (Lhv;)V
+		ARG 1 tileEntity
 	METHOD a openFurnace (Ljt;)V
 	METHOD a die (Ljw;)V
 	METHOD a hurt (Ljw;I)Z
+	METHOD a doChunkSendingTick (Z)V
 	METHOD a stopSleepInBed (ZZ)V
+	METHOD b doCheckFallDamage (DZ)V
 	METHOD b heal (I)V
 	METHOD b startCrafting (III)V
 	METHOD b ride (Ljw;)V
@@ -36,3 +43,5 @@ CLASS cr net/minecraft/server/ServerPlayer
 	METHOD q aiStep ()V
 	METHOD r swing ()V
 	METHOD t closeContainer ()V
+	METHOD u broadcastCarriedItem ()V
+	METHOD v doCloseContainer ()V

@@ -3,6 +3,9 @@ CLASS fv net/minecraft/server/multiplayer/PlayerConnection
 	FIELD b connection Lhz;
 	FIELD d server Lnet/minecraft/server/MinecraftServer;
 	FIELD e player Lcr;
+	FIELD i x D
+	FIELD j y D
+	FIELD k z D
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lhz;Lcr;)V
 		ARG 2 connection
 		ARG 3 player
@@ -17,4 +20,5 @@ CLASS fv net/minecraft/server/multiplayer/PlayerConnection
 	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
 	METHOD a handleSignUpdate (Lkx;)V
 	METHOD a handleDisconnect (Lnp;)V
+	METHOD b countDelayedPackets ()I
 	METHOD b send (Lfp;)V

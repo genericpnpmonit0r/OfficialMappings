@@ -4,6 +4,7 @@ CLASS kj net/minecraft/network/packet/PacketListener
 	METHOD a handleSetEntityMotion (Ldk;)V
 		ARG 1 packet
 	METHOD a handleUseItem (Ldr;)V
+		ARG 1 packet
 	METHOD a handleSetHealth (Lee;)V
 		ARG 1 packet
 	METHOD a handleMovePlayer (Len;)V
@@ -21,9 +22,13 @@ CLASS kj net/minecraft/network/packet/PacketListener
 		ARG 1 packet
 	METHOD a handleContainerClose (Lgr;)V
 		ARG 1 packet
+	METHOD a handlePreLogin (Lgt;)V
+		ARG 1 packet
 	METHOD a handleAddItemEntity (Lgz;)V
 		ARG 1 packet
 	METHOD a handleAnimate (Lhf;)V
+		ARG 1 packet
+	METHOD a handleLogin (Lhm;)V
 		ARG 1 packet
 	METHOD a handleContainerAck (Lhr;)V
 	METHOD a handleChat (Lhy;)V

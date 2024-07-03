@@ -3,7 +3,17 @@ CLASS ed net/minecraft/server/PlayerList
 	FIELD b players Ljava/util/List;
 	FIELD c minecraftServer Lnet/minecraft/server/MinecraftServer;
 	FIELD d playerChunkMap Lmj;
+	FIELD e maxPlayers I
+	FIELD f bannedPlayers Ljava/util/Set;
+	FIELD g bannedIps Ljava/util/Set;
+	FIELD h ops Ljava/util/Set;
+	FIELD i whitelist Ljava/util/Set;
+	FIELD j bannedPlayersFile Ljava/io/File;
+	FIELD k bannedIpsFile Ljava/io/File;
+	FIELD l opsFile Ljava/io/File;
+	FIELD m whitelistFile Ljava/io/File;
 	FIELD n playerIo Lem;
+	FIELD o whitelistEnabled Z
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
 		ARG 1 minecraftServer
 	METHOD a getMaxRange ()I
@@ -11,9 +21,24 @@ CLASS ed net/minecraft/server/PlayerList
 		COMMENT is an unobfed server released but thats unlikely
 	METHOD a setLevel (Lcv;)V
 		ARG 1 level
+	METHOD a (Ldj;Ljava/lang/String;Ljava/lang/String;)Lcr;
+		ARG 3 loginKey
 	METHOD a broadcastAll (Lfp;)V
 		ARG 1 packet
 	METHOD b tick ()V
 	METHOD c remove (Lcr;)V
 	METHOD d saveAll ()V
+	METHOD e addOp (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD f removeOp (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD g loadBannedPlayerList ()V
+	METHOD h saveBannedPlayerList ()V
 	METHOD h isOp (Ljava/lang/String;)Z
+		ARG 1 playerName
+	METHOD i loadIpBanList ()V
+	METHOD j saveIpBanList ()V
+	METHOD k loadOpsList ()V
+	METHOD l saveOpsList ()V
+	METHOD m loadWhitelist ()V
+	METHOD n saveWhitelist ()V

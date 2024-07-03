@@ -1,4 +1,8 @@
 CLASS cv net/minecraft/server/ServerLevel
+	FIELD x server Lnet/minecraft/server/MinecraftServer;
+	FIELD y entitiesById Lfk;
+	METHOD a getEntity (I)Ljw;
+		ARG 1 id
 	METHOD a mayInteract (Ldp;III)Z
 	METHOD a broadcastEntityEvent (Ljw;B)V
 	METHOD a explode (Ljw;DDDFZ)Lis;

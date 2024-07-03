@@ -1,3 +1,5 @@
 CLASS f net/minecraft/server/gui/f
 	FIELD a s Lnet/minecraft/server/MinecraftServer;
 	FIELD b tickCount I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 s

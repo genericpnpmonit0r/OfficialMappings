@@ -1,4 +1,5 @@
 CLASS mj net/minecraft/server/PlayerChunkMap
+	METHOD a tick ()V
 	METHOD a access$000 (Lmj;)Lnet/minecraft/server/MinecraftServer;
 	METHOD b getRadius ()I
 	METHOD b remove (Lcr;)V

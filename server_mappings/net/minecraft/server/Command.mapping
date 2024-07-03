@@ -1,3 +1,6 @@
 CLASS aa net/minecraft/server/Command
 	FIELD a command Ljava/lang/String;
-	FIELD b source Lkh;
+	FIELD b sender Lkh;
+	METHOD <init> (Ljava/lang/String;Lkh;)V
+		ARG 1 command
+		ARG 2 source

@@ -1,4 +1,8 @@
 CLASS bd net/minecraft/server/MinecraftServer$4
+	FIELD a this$0 Lnet/minecraft/server/MinecraftServer;
+	FIELD b time J
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 this$0
 	METHOD a progressStagePercentage (I)V
 	METHOD a progressStartNoAbort (Ljava/lang/String;)V
 	METHOD b progressStage (Ljava/lang/String;)V

@@ -1,3 +1,26 @@
 CLASS dj net/minecraft/server/multiplayer/PendingConnection
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b connection Lhz;
+	FIELD c done Z
+	FIELD d random Ljava/util/Random;
+	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	FIELD g userName Ljava/lang/String;
+	FIELD h loginPacket Lhm;
+	FIELD i key Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/Socket;Ljava/lang/String;)V
+		ARG 1 server
+		ARG 2 socket
+		ARG 3 connectionName
+	METHOD a access$000 (Ldj;)Ljava/lang/String;
+		ARG 0 this$0
+	METHOD a access$100 (Ldj;Lhm;)Lhm;
+		ARG 0 this$0
+		ARG 1 val$packet
 	METHOD a onUnhandledPacket (Lfp;)V
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
 	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD b getUserName ()Ljava/lang/String;
+		COMMENT no idea what this is called due to it being inlined in the LCE symbols
+	METHOD b handleAcceptedLogin (Lhm;)V
+		ARG 1 packet

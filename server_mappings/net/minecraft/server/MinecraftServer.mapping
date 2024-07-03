@@ -6,6 +6,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD d settings Ljg;
 	FIELD e level Lcv;
 	FIELD f playerList Led;
+	FIELD g stopped Z
 	FIELD h tickCount I
 	FIELD k entityTracker Lln;
 	FIELD l onlineMode Z
