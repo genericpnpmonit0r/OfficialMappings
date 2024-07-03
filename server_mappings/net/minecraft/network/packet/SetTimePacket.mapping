@@ -1,0 +1,6 @@
+CLASS dy net/minecraft/network/packet/SetTimePacket
+	FIELD a time J
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

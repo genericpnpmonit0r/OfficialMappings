@@ -1,0 +1,19 @@
+CLASS do net/minecraft/world/inventory/Slot
+	METHOD <init> (Lgk;III)V
+		ARG 1 container
+		ARG 2 slot
+		ARG 3 x
+		ARG 4 y
+	METHOD a onTake ()V
+	METHOD a remove (I)Ley;
+		ARG 1 c
+	METHOD a mayPlace (Ley;)Z
+		ARG 1 item
+	METHOD b getItem ()Ley;
+	METHOD b set (Ley;)V
+		ARG 1 item
+	METHOD c setChanged ()V
+	METHOD d getMaxStackSize ()I
+	FIELD a index I
+	FIELD d slot I
+	FIELD e container Lgk;

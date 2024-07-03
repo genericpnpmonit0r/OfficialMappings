@@ -1,0 +1,24 @@
+CLASS iq net/minecraft/world/entity/Painting
+	METHOD <init> (Lcp;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+	METHOD a defineSynchedData ()V
+	METHOD a addAdditionalSaveData (Lhj;)V
+	METHOD a hurt (Ljw;I)Z
+	METHOD b setDir (I)V
+		ARG 1 dir
+	METHOD b readAdditionalSaveData (Lhj;)V
+	METHOD c offs (I)F
+		ARG 1 offs
+	METHOD d_ isPickable ()Z
+	METHOD f_ tick ()V
+	METHOD h survives ()Z
+	FIELD a dir I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e motive Les;
+	FIELD f checkInterval I

@@ -1,0 +1,10 @@
+CLASS cs net/minecraft/server/ServerLevelListener
+	METHOD a skyColorChanged ()V
+	METHOD a tileChanged (III)V
+	METHOD a setTilesDirty (IIIIII)V
+	METHOD a tileEntityChanged (IIILhv;)V
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+	METHOD a playStreamingMusic (Ljava/lang/String;III)V
+	METHOD a entityAdded (Ljw;)V
+	METHOD b entityRemoved (Ljw;)V

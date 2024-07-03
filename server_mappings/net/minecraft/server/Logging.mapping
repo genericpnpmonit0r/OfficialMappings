@@ -1,0 +1,2 @@
+CLASS dx net/minecraft/server/Logging
+	METHOD a init ()V

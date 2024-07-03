@@ -1,0 +1,4 @@
+CLASS nk net/minecraft/world/level/tile/entity/SignTileEntity
+	METHOD a load (Lhj;)V
+	METHOD b save (Lhj;)V
+	FIELD a messages [Ljava/lang/String;

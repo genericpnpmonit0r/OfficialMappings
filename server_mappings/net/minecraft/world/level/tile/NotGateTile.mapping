@@ -1,0 +1,28 @@
+CLASS bj net/minecraft/world/level/tile/NotGateTile
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 on
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD a isToggledTooFrequently (Lcp;IIIZ)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 toggle
+	METHOD b getTickDelay ()I
+	METHOD b onRemove (Lcp;III)V
+	METHOD b getSignal (Lmw;IIII)Z
+	METHOD c isSignalSource ()Z
+	METHOD c getDirectSignal (Lcp;IIII)Z
+	METHOD e onPlace (Lcp;III)V
+	METHOD g hasNeighborSignal (Lcp;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a on Z
+	FIELD b recentToggles Ljava/util/List;

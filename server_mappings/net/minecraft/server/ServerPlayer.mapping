@@ -1,0 +1,38 @@
+CLASS cr net/minecraft/server/ServerPlayer
+	FIELD a connection Lfv;
+	FIELD bH containerId I
+	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD c gameMode Lno;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lcp;Ljava/lang/String;Lno;)V
+		ARG 1 mcs
+		ARG 2 level
+		ARG 3 name
+		ARG 4 gameMode
+	METHOD a checkFallDamage (DZ)V
+	METHOD a setInput (FFZZFF)V
+		ARG 1 xxa
+		ARG 2 yya
+		ARG 3 jumping
+		ARG 4 sneaking
+		ARG 5 xRot
+		ARG 6 yRot
+	METHOD a startSleepInBed (III)Z
+	METHOD a openTrap (Lad;)V
+	METHOD a setContainerData (Lbv;II)V
+	METHOD a slotChanged (Lbv;ILey;)V
+	METHOD a carriedChanged (Ley;)V
+	METHOD a openContainer (Lgk;)V
+	METHOD a openFurnace (Ljt;)V
+	METHOD a die (Ljw;)V
+	METHOD a hurt (Ljw;I)Z
+	METHOD a stopSleepInBed (ZZ)V
+	METHOD b heal (I)V
+	METHOD b startCrafting (III)V
+	METHOD b ride (Ljw;)V
+	METHOD b take (Ljw;I)V
+	METHOD f_ tick ()V
+	METHOD l_ unk_C ()V
+	METHOD p getHeadHeight ()F
+	METHOD q aiStep ()V
+	METHOD r swing ()V
+	METHOD t closeContainer ()V

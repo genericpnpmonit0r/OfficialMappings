@@ -1,0 +1,13 @@
+CLASS dv net/minecraft/world/level/biome/FixedBiomeSource
+	METHOD <init> (Lfo;DD)V
+		ARG 1 biome
+		ARG 2 temperature
+		ARG 4 downfall
+	METHOD a getBiome (II)Lfo;
+	METHOD a getBiomeBlock (IIII)[Lfo;
+	METHOD a getBiome (Lnt;)Lfo;
+	METHOD a getTemperatureBlock ([DIIII)[D
+	METHOD a getBiomeBlock ([Lfo;IIII)[Lfo;
+	FIELD e biome Lfo;
+	FIELD f temperature D
+	FIELD g downfall D

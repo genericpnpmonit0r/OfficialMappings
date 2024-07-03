@@ -1,0 +1,4 @@
+CLASS fq net/minecraft/world/item/DyePowderItem
+	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z
+	METHOD b interactEnemy (Ley;Lgh;)V
+	FIELD a COLOR_DESCS [Ljava/lang/String;

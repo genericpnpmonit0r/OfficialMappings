@@ -1,0 +1,5 @@
+CLASS mf net/minecraft/world/level/tile/GrassTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a tick (Lcp;IIILjava/util/Random;)V

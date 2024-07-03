@@ -1,0 +1,17 @@
+CLASS mw net/minecraft/world/level/LevelSource
+	METHOD a getTile (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b getData (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getMaterial (III)Lge;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d isSolidTile (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

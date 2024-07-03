@@ -1,0 +1,7 @@
+CLASS cx net/minecraft/world/level/levelgen/feature/OreFeature
+	METHOD <init> (II)V
+		ARG 1 tile
+		ARG 2 count
+	METHOD a place (Lcp;Ljava/util/Random;III)Z
+	FIELD a tile I
+	FIELD b count I

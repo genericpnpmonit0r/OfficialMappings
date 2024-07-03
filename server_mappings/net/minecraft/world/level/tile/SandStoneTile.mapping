@@ -1,0 +1,4 @@
+CLASS ix net/minecraft/world/level/tile/SandStoneTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTexture (I)I

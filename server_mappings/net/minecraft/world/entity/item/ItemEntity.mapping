@@ -1,0 +1,25 @@
+CLASS ea net/minecraft/world/entity/item/ItemEntity
+	METHOD <init> (Lcp;DDDLey;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 item
+	METHOD a defineSynchedData ()V
+	METHOD a burn (I)V
+	METHOD a addAdditionalSaveData (Lhj;)V
+	METHOD a hurt (Ljw;I)Z
+	METHOD b playerTouch (Ldp;)V
+	METHOD b readAdditionalSaveData (Lhj;)V
+	METHOD f_ tick ()V
+	METHOD g checkInTile (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD g_ isInWater ()Z
+	FIELD a item Ley;
+	FIELD b age I
+	FIELD c throwTime I
+	FIELD d bobOffs F
+	FIELD e tickCount I
+	FIELD f health I

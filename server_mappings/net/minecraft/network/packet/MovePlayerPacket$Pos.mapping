@@ -1,0 +1,4 @@
+CLASS r net/minecraft/network/packet/MovePlayerPacket$Pos
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

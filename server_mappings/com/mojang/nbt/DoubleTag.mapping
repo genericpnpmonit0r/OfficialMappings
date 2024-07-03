@@ -1,0 +1,7 @@
+CLASS kd com/mojang/nbt/DoubleTag
+	METHOD <init> (D)V
+		ARG 1 data
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	FIELD a data D

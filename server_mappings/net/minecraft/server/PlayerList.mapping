@@ -1,0 +1,17 @@
+CLASS ed net/minecraft/server/PlayerList
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b players Ljava/util/List;
+	FIELD c minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d playerChunkMap Lmj;
+	FIELD n playerIo Lem;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
+	METHOD a getMaxRange ()I
+		COMMENT is this getMaxRange or getViewDistance hmm we will never know unless there
+		COMMENT is an unobfed server released but thats unlikely
+	METHOD a setLevel (Lcv;)V
+		ARG 1 level
+	METHOD a broadcastAll (Lfp;)V
+		ARG 1 packet
+	METHOD b tick ()V
+	METHOD d saveAll ()V

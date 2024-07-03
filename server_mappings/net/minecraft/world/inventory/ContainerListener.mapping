@@ -1,0 +1,9 @@
+CLASS by net/minecraft/world/inventory/ContainerListener
+	METHOD a setContainerData (Lbv;II)V
+		ARG 1 acm
+		ARG 2 i
+		ARG 3 j
+	METHOD a slotChanged (Lbv;ILey;)V
+		ARG 1 acm
+		ARG 2 i
+		ARG 3 item

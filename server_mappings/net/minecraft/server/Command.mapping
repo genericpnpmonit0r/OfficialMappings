@@ -1,0 +1,3 @@
+CLASS aa net/minecraft/server/Command
+	FIELD a command Ljava/lang/String;
+	FIELD b source Lkh;

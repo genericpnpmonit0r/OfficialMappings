@@ -1,0 +1,13 @@
+CLASS ky net/minecraft/world/level/tile/SignTile
+	METHOD <init> (ILjava/lang/Class;Z)V
+		ARG 1 id
+		ARG 2 clas
+		ARG 3 onGround
+	METHOD a isSolidRender ()Z
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a updateShape (Lmw;III)V
+	METHOD a_ newTileEntity ()Lhv;
+	METHOD d getAABB (Lcp;III)Lcg;
+	FIELD a clas Ljava/lang/Class;
+	FIELD b onGround Z

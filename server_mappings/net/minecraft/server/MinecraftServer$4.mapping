@@ -1,0 +1,4 @@
+CLASS bd net/minecraft/server/MinecraftServer$4
+	METHOD a progressStagePercentage (I)V
+	METHOD a progressStartNoAbort (Ljava/lang/String;)V
+	METHOD b progressStage (Ljava/lang/String;)V

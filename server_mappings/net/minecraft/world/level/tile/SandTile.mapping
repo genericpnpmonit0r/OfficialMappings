@@ -1,0 +1,19 @@
+CLASS dl net/minecraft/world/level/tile/SandTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD b getTickDelay ()I
+	METHOD b_ isFree (Lcp;III)Z
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e onPlace (Lcp;III)V
+	METHOD g checkSlide (Lcp;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a instaFall Z

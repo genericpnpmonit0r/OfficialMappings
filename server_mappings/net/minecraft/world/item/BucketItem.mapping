@@ -1,0 +1,6 @@
+CLASS ae net/minecraft/world/item/BucketItem
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 content
+	METHOD a use (Ley;Lcp;Ldp;)Ley;
+	FIELD a content I

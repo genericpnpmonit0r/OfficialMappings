@@ -1,0 +1,2 @@
+CLASS at net/minecraft/world/item/BowlFoodItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;

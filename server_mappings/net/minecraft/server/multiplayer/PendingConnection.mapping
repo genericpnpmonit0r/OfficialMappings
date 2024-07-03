@@ -1,0 +1,3 @@
+CLASS dj net/minecraft/server/multiplayer/PendingConnection
+	METHOD a onUnhandledPacket (Lfp;)V
+	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V

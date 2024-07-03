@@ -1,0 +1,11 @@
+CLASS jx com/mojang/nbt/ListTag
+	METHOD a getId ()B
+	METHOD a get (I)Lep;
+		ARG 1 index
+	METHOD a add (Lep;)V
+		ARG 1 tag
+	METHOD a load (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD c size ()I
+	FIELD a list Ljava/util/List;
+	FIELD b type B

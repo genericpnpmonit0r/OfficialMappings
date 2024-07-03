@@ -1,0 +1,45 @@
+CLASS hs net/minecraft/world/level/tile/LiquidTileDynamic
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD b getSlopeDistance (Lcp;IIIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 a
+		ARG 6 b
+	METHOD e onPlace (Lcp;III)V
+	METHOD f getHighest (Lcp;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 highest
+	METHOD g trySpreadTo (Lcp;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 data
+	METHOD i setStatic (Lcp;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j getSpread (Lcp;III)[Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k isWaterBlocking (Lcp;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l canSpreadTo (Lcp;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a maxCount I
+	FIELD b result [Z
+	FIELD c dist [I

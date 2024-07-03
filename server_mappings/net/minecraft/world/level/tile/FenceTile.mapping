@@ -1,0 +1,7 @@
+CLASS fj net/minecraft/world/level/tile/FenceTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Lcp;III)Z
+	METHOD d getAABB (Lcp;III)Lcg;

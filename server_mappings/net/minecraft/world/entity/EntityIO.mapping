@@ -1,0 +1,19 @@
+CLASS ez net/minecraft/world/entity/EntityIO
+	METHOD a loadStatic (Lhj;Lcp;)Ljw;
+		ARG 0 entityTag
+		ARG 1 level
+	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;I)V
+		ARG 0 clas
+		ARG 1 id
+		ARG 2 num
+	METHOD a newEntity (Ljava/lang/String;Lcp;)Ljw;
+		ARG 0 id
+		ARG 1 level
+	METHOD a getId (Ljw;)I
+		ARG 0 e
+	METHOD b getEncodeId (Ljw;)Ljava/lang/String;
+		ARG 0 e
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	FIELD c numClassMap Ljava/util/Map;
+	FIELD d classNumMap Ljava/util/Map;

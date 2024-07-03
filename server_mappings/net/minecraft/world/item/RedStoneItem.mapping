@@ -1,0 +1,2 @@
+CLASS el net/minecraft/world/item/RedStoneItem
+	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z

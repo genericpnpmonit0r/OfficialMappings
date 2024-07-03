@@ -1,0 +1,6 @@
+CLASS jc net/minecraft/world/item/MinecartItem
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 type
+	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z
+	FIELD a type I

@@ -1,0 +1,37 @@
+CLASS es net/minecraft/world/entity/Painting$Motive
+	FIELD A w I
+	FIELD B h I
+	FIELD C uo I
+	FIELD D vo I
+	FIELD a Kebab Les;
+	FIELD b Aztec Les;
+	FIELD c Alban Les;
+	FIELD d Aztec2 Les;
+	FIELD e Bomb Les;
+	FIELD f Plant Les;
+	FIELD g Wasteland Les;
+	FIELD h Pool Les;
+	FIELD i Courbet Les;
+	FIELD j Sea Les;
+	FIELD k Sunset Les;
+	FIELD l Creebet Les;
+	FIELD m Wanderer Les;
+	FIELD n Graham Les;
+	FIELD o Match Les;
+	FIELD p Bust Les;
+	FIELD q Stage Les;
+	FIELD r Void Les;
+	FIELD s SkullAndRoses Les;
+	FIELD t Fighters Les;
+	FIELD u Pointer Les;
+	FIELD v Pigscene Les;
+	FIELD w BurningSkull Les;
+	FIELD x Skeleton Les;
+	FIELD y DonkeyKong Les;
+	FIELD z name Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 name
+		ARG 4 w
+		ARG 5 h
+		ARG 6 uo
+		ARG 7 vo

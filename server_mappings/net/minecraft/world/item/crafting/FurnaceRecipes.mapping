@@ -1,0 +1,9 @@
+CLASS cl net/minecraft/world/item/crafting/FurnaceRecipes
+	METHOD a getInstance ()Lcl;
+	METHOD a getResult (I)Ley;
+		ARG 1 item
+	METHOD a addFurnaceRecipy (ILey;)V
+		ARG 1 ingredient
+		ARG 2 result
+	FIELD a instance Lcl;
+	FIELD b recipies Ljava/util/Map;

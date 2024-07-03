@@ -1,0 +1,52 @@
+CLASS ng net/minecraft/world/level/levelgen/RandomLevelSource
+	METHOD <init> (Lcp;J)V
+		ARG 1 level
+		ARG 2 seed
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a buildSurfaces (II[B[Lfo;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a prepareHeights (II[B[Lfo;[D)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+		ARG 5 temperatures
+	METHOD a postProcess (Lay;II)V
+	METHOD a save (ZLne;)Z
+	METHOD a getHeights ([DIIIIII)[D
+		ARG 1 heights
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lgd;
+	FIELD a scaleNoise Lku;
+	FIELD b depthNoise Lku;
+	FIELD c forestNoise Lku;
+	FIELD d pnr [D
+	FIELD e ar [D
+	FIELD f br [D
+	FIELD g sr [D
+	FIELD h dr [D
+	FIELD i waterDepths [[I
+	FIELD j random Ljava/util/Random;
+	FIELD k lperlinNoise1 Lku;
+	FIELD l lperlinNoise2 Lku;
+	FIELD m perlinNoise1 Lku;
+	FIELD n perlinNoise2 Lku;
+	FIELD o perlinNoise3 Lku;
+	FIELD p level Lcp;
+	FIELD q buffer [D
+	FIELD r sandBuffer [D
+	FIELD s gravelBuffer [D
+	FIELD t depthBuffer [D
+	FIELD u caveFeature Ldd;
+	FIELD v biomes [Lfo;
+	FIELD w temperatures [D

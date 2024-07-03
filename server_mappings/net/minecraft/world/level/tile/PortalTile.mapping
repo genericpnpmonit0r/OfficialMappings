@@ -1,0 +1,16 @@
+CLASS v net/minecraft/world/level/tile/PortalTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a entityInside (Lcp;IIILjw;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a updateShape (Lmw;III)V
+	METHOD a shouldRenderFace (Lmw;IIII)Z
+	METHOD a_ trySpawnPortal (Lcp;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getAABB (Lcp;III)Lcg;

@@ -1,0 +1,11 @@
+CLASS kl net/minecraft/world/level/tile/entity/MusicTileEntity
+	METHOD a tune ()V
+	METHOD a playNote (Lcp;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a load (Lhj;)V
+	METHOD b save (Lhj;)V
+	FIELD a note B
+	FIELD b on Z

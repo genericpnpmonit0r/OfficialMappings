@@ -1,0 +1,47 @@
+CLASS ex net/minecraft/world/entity/player/Inventory
+	METHOD <init> (Ldp;)V
+		ARG 1 player
+	METHOD a removeItem (II)Ley;
+	METHOD a setItem (ILey;)V
+	METHOD a add (Ley;)Z
+		ARG 1 item
+	METHOD a getAttackDamage (Ljw;)I
+		ARG 1 e
+	METHOD a save (Ljx;)Ljx;
+		ARG 1 tag
+	METHOD a getDestroySpeed (Llc;)F
+		ARG 1 tile
+	METHOD a_ stillValid (Ldp;)Z
+	METHOD b getSelected ()Ley;
+	METHOD b removeResource (I)Z
+		ARG 1 item
+	METHOD b setCarried (Ley;)V
+		ARG 1 item
+	METHOD b load (Ljx;)V
+		ARG 1 tag
+	METHOD b canDestroy (Llc;)Z
+		ARG 1 tile
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c hurtArmor (I)V
+		ARG 1 dmg
+	METHOD c getSlotWithRemainingSpace (Ley;)I
+		ARG 1 item
+	METHOD c_ getItem (I)Ley;
+	METHOD d getSlot (I)I
+		ARG 1 id
+	METHOD d addResource (Ley;)I
+		ARG 1 item
+	METHOD e tick ()V
+	METHOD f getArmorValue ()I
+	METHOD g dropAll ()V
+	METHOD h setChanged ()V
+	METHOD i getCarried ()Ley;
+	METHOD j getFreeSlot ()I
+	METHOD m_ getContainerSize ()I
+	METHOD n_ getMaxStackSize ()I
+	FIELD a items [Ley;
+	FIELD b armor [Ley;
+	FIELD c selected I
+	FIELD d changed Z
+	FIELD e player Ldp;
+	FIELD f carried Ley;

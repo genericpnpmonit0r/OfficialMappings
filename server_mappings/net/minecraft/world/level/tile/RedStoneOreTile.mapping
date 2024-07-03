@@ -1,0 +1,23 @@
+CLASS an net/minecraft/world/level/tile/RedStoneOreTile
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 lit
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a use (Lcp;IIILdp;)Z
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b getTickDelay ()I
+	METHOD b attack (Lcp;IIILdp;)V
+	METHOD b stepOn (Lcp;IIILjw;)V
+	METHOD g interact (Lcp;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h poofParticles (Lcp;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a lit Z

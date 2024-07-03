@@ -1,0 +1,2 @@
+CLASS d net/minecraft/world/level/biome/TaigaBiome
+	METHOD a getTreeFeature (Ljava/util/Random;)Lia;

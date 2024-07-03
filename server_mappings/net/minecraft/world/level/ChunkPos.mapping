@@ -1,0 +1,11 @@
+CLASS nt net/minecraft/world/level/ChunkPos
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD a createHash (II)I
+		ARG 0 x
+		ARG 1 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	FIELD a x I
+	FIELD b z I

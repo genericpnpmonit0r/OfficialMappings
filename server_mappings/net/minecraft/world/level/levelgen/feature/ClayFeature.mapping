@@ -1,0 +1,6 @@
+CLASS gv net/minecraft/world/level/levelgen/feature/ClayFeature
+	METHOD <init> (I)V
+		ARG 1 count
+	METHOD a place (Lcp;Ljava/util/Random;III)Z
+	FIELD a tile I
+	FIELD b count I

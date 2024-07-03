@@ -1,0 +1,12 @@
+CLASS bi net/minecraft/world/level/tile/entity/MobSpawnerTileEntity
+	METHOD a isNearPlayer ()Z
+	METHOD a load (Lhj;)V
+	METHOD a setEntityId (Ljava/lang/String;)V
+		ARG 1 entityId
+	METHOD b save (Lhj;)V
+	METHOD c delay ()V
+	METHOD i_ tick ()V
+	FIELD a spawnDelay I
+	FIELD b spin D
+	FIELD c oSpin D
+	FIELD h entityId Ljava/lang/String;

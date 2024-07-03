@@ -1,0 +1,2 @@
+CLASS ha net/minecraft/world/level/tile/GravelTile
+	METHOD a getResource (ILjava/util/Random;)I

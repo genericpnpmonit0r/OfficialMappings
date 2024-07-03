@@ -1,0 +1,19 @@
+CLASS ev net/minecraft/world/item/crafting/ShapedRecipy
+	METHOD <init> (II[Ley;Ley;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 recipeItems
+		ARG 4 result
+	METHOD a size ()I
+	METHOD a matches (Lgu;)Z
+	METHOD a matches (Lgu;IIZ)Z
+		ARG 1 craftingContainer
+		ARG 2 width
+		ARG 3 height
+		ARG 4 b
+	METHOD b assemble (Lgu;)Ley;
+	FIELD a resultId I
+	FIELD b width I
+	FIELD c height I
+	FIELD d recipeItems [Ley;
+	FIELD e result Ley;

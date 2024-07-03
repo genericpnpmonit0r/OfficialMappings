@@ -1,0 +1,12 @@
+CLASS eb net/minecraft/world/item/crafting/Recipes
+	METHOD a getInstance ()Leb;
+	METHOD a addShapedRecipy (Ley;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+	METHOD a getItemFor (Lgu;)Ley;
+		ARG 1 craftingContainer
+	METHOD b addShapelessRecipy (Ley;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+	FIELD a instance Leb;
+	FIELD b recipies Ljava/util/List;

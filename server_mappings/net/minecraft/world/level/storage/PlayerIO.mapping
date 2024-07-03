@@ -1,0 +1,5 @@
+CLASS em net/minecraft/world/level/storage/PlayerIO
+	METHOD a save (Ldp;)V
+		ARG 1 player
+	METHOD b load (Ldp;)V
+		ARG 1 player

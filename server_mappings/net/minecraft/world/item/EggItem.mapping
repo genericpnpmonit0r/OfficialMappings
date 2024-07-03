@@ -1,0 +1,2 @@
+CLASS gs net/minecraft/world/item/EggItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;

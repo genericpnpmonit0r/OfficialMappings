@@ -1,0 +1,21 @@
+CLASS km net/minecraft/world/level/chunk/storage/OldChunkStorage
+	METHOD <init> (Ljava/io/File;Z)V
+		ARG 1 dir
+		ARG 2 create
+	METHOD a tick ()V
+	METHOD a getFile (II)Ljava/io/File;
+		ARG 1 x
+		ARG 2 z
+	METHOD a load (Lcp;II)Lgd;
+	METHOD a save (Lcp;Lgd;)V
+	METHOD a load (Lcp;Lhj;)Lgd;
+		ARG 0 level
+		ARG 1 tag
+	METHOD a save (Lgd;Lcp;Lhj;)V
+		ARG 0 chunk
+		ARG 1 level
+		ARG 2 tag
+	METHOD b flush ()V
+	METHOD b saveEntities (Lcp;Lgd;)V
+	FIELD a dir Ljava/io/File;
+	FIELD b create Z

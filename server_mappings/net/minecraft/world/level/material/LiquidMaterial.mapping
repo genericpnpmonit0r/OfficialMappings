@@ -1,0 +1,4 @@
+CLASS jr net/minecraft/world/level/material/LiquidMaterial
+	METHOD a isSolid ()Z
+	METHOD c blocksMotion ()Z
+	METHOD d isLiquid ()Z

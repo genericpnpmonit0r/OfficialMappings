@@ -1,0 +1,2 @@
+CLASS di net/minecraft/world/level/levelgen/feature/LightGemFeature
+	METHOD a place (Lcp;Ljava/util/Random;III)Z

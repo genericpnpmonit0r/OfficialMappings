@@ -1,0 +1,2 @@
+CLASS cm net/minecraft/server/Tickable
+	METHOD a tick ()V

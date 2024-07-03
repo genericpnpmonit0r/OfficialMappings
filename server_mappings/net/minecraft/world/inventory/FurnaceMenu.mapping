@@ -1,0 +1,10 @@
+CLASS ak net/minecraft/world/inventory/FurnaceMenu
+	METHOD <init> (Lgk;Ljt;)V
+		ARG 1 container
+		ARG 2 oj
+	METHOD a broadcastChanges ()V
+	METHOD b stillValid (Ldp;)Z
+	FIELD a furnace Ljt;
+	FIELD b tc I
+	FIELD c lt I
+	FIELD h ld I

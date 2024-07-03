@@ -1,0 +1,13 @@
+CLASS ag net/minecraft/world/level/chunk/storage/ChunkStorage
+	METHOD a tick ()V
+	METHOD a load (Lcp;II)Lgd;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 z
+	METHOD a save (Lcp;Lgd;)V
+		ARG 1 level
+		ARG 2 chunk
+	METHOD b flush ()V
+	METHOD b saveEntities (Lcp;Lgd;)V
+		ARG 1 level
+		ARG 2 chunk

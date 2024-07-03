@@ -1,0 +1,9 @@
+CLASS lp net/minecraft/world/level/tile/TorchTile
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Lcp;III)Z
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a clip (Lcp;IIILao;Lao;)Lli;
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD d getAABB (Lcp;III)Lcg;
+	METHOD d setPlacedOnFace (Lcp;IIII)V
+	METHOD e onPlace (Lcp;III)V

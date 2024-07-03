@@ -1,0 +1,12 @@
+CLASS lz net/minecraft/world/entity/animal/Pig
+	METHOD a defineSynchedData ()V
+	METHOD a interact (Ldp;)Z
+	METHOD a addAdditionalSaveData (Lhj;)V
+	METHOD a setSaddle (Z)V
+		ARG 1 saddle
+	METHOD b readAdditionalSaveData (Lhj;)V
+	METHOD e getAmbientSound ()Ljava/lang/String;
+	METHOD f getHurtSound ()Ljava/lang/String;
+	METHOD g getDeathSound ()Ljava/lang/String;
+	METHOD h getDeathLoot ()I
+	METHOD r hasSaddle ()Z

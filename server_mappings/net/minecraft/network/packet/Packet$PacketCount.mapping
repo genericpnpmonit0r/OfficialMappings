@@ -1,0 +1,7 @@
+CLASS hk net/minecraft/network/packet/Packet$PacketCount
+	FIELD a count I
+	FIELD b estimatedSize J
+	METHOD <init> (Ldq;)V
+		ARG 1 c
+	METHOD a add (I)V
+		ARG 1 estimatedSize

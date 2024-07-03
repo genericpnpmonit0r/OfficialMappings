@@ -1,0 +1,2 @@
+CLASS bq net/minecraft/world/item/SnowballItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;

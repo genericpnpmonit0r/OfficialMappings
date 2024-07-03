@@ -1,0 +1,14 @@
+CLASS bt net/minecraft/world/item/DiggerItem
+	METHOD <init> (IILap;[Llc;)V
+		ARG 1 id
+		ARG 2 attackDamage
+		ARG 3 tier
+		ARG 4 tiles
+	METHOD a mineBlock (Ley;IIII)V
+	METHOD a hurtEnemy (Ley;Lgh;)V
+	METHOD a getDestroySpeed (Ley;Llc;)F
+	METHOD a getAttackDamage (Ljw;)I
+	FIELD a tier Lap;
+	FIELD bi tiles [Llc;
+	FIELD bj speed F
+	FIELD bk attackDamage I

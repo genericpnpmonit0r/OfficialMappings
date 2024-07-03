@@ -1,0 +1,2 @@
+CLASS jq net/minecraft/world/level/levelgen/feature/HellPortalFeature
+	METHOD a place (Lcp;Ljava/util/Random;III)Z

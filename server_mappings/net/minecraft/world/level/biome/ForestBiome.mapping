@@ -1,0 +1,2 @@
+CLASS iv net/minecraft/world/level/biome/ForestBiome
+	METHOD a getTreeFeature (Ljava/util/Random;)Lia;

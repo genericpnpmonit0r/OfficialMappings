@@ -1,0 +1,2 @@
+CLASS ce net/minecraft/world/item/StoneSlabTileItem
+	METHOD a getLevelDataForAuxValue (I)I

@@ -1,0 +1,40 @@
+CLASS fo net/minecraft/world/level/biome/Biome
+	METHOD a recalc ()V
+	METHOD a getBiome (DD)Lfo;
+		ARG 0 t
+		ARG 2 h
+	METHOD a _getBiome (FF)Lfo;
+		ARG 0 t
+		ARG 1 h
+	METHOD a setLeafColor (I)Lfo;
+		ARG 1 leafColor
+	METHOD a getMobs (Lgc;)[Ljava/lang/Class;
+		ARG 1 cat
+	METHOD a setName (Ljava/lang/String;)Lfo;
+		ARG 1 name
+	METHOD a getTreeFeature (Ljava/util/Random;)Lia;
+		ARG 1 random
+	METHOD b setSnowCovered ()Lfo;
+	METHOD b setColor (I)Lfo;
+		ARG 1 color
+	FIELD a rainForest Lfo;
+	FIELD b swampland Lfo;
+	FIELD c seasonalForest Lfo;
+	FIELD d forest Lfo;
+	FIELD e savanna Lfo;
+	FIELD f shrubland Lfo;
+	FIELD g taiga Lfo;
+	FIELD h desert Lfo;
+	FIELD i plains Lfo;
+	FIELD j iceDesert Lfo;
+	FIELD k tundra Lfo;
+	FIELD l hell Lfo;
+	FIELD m name Ljava/lang/String;
+	FIELD n color I
+	FIELD o topMaterial B
+	FIELD p material B
+	FIELD q leafColor I
+	FIELD r enemies [Ljava/lang/Class;
+	FIELD s friendlies [Ljava/lang/Class;
+	FIELD t waterFriendlies [Ljava/lang/Class;
+	FIELD u map [Lfo;

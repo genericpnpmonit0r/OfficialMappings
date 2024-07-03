@@ -1,0 +1,13 @@
+CLASS ir net/minecraft/world/entity/item/PrimedTnt
+	METHOD <init> (Lcp;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a defineSynchedData ()V
+	METHOD a addAdditionalSaveData (Lhj;)V
+	METHOD b readAdditionalSaveData (Lhj;)V
+	METHOD d_ isPickable ()Z
+	METHOD f_ tick ()V
+	METHOD h explode ()V
+	FIELD a life I

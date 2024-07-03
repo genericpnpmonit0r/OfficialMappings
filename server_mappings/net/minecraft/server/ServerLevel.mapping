@@ -1,0 +1,9 @@
+CLASS cv net/minecraft/server/ServerLevel
+	METHOD a mayInteract (Ldp;III)Z
+	METHOD a broadcastEntityEvent (Ljw;B)V
+	METHOD a explode (Ljw;DDDFZ)Lis;
+	METHOD a tick (Ljw;Z)V
+	METHOD b createChunkSource ()Lay;
+	METHOD b entityAdded (Ljw;)V
+	METHOD c entityRemoved (Ljw;)V
+	METHOD d tileEvent (IIIII)V

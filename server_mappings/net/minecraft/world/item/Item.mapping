@@ -1,0 +1,169 @@
+CLASS dm net/minecraft/world/item/Item
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a getLevelDataForAuxValue (I)I
+		ARG 1 value
+	METHOD a setIcon (II)Ldm;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setCraftingRemainingItem (Ldm;)Ldm;
+		ARG 1 craftingRemainingItem
+	METHOD a mineBlock (Ley;IIII)V
+		ARG 1 item
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 face
+	METHOD a use (Ley;Lcp;Ldp;)Ley;
+		ARG 1 item
+		ARG 2 level
+		ARG 3 player
+	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z
+		ARG 1 item
+		ARG 2 player
+		ARG 3 level
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD a hurtEnemy (Ley;Lgh;)V
+		ARG 1 item
+		ARG 2 mob
+	METHOD a getDestroySpeed (Ley;Llc;)F
+		ARG 1 item
+		ARG 2 tile
+	METHOD a setDescriptionId (Ljava/lang/String;)Ldm;
+		ARG 1 id
+	METHOD a getAttackDamage (Ljw;)I
+		ARG 1 entity
+	METHOD a canDestroySpecial (Llc;)Z
+		ARG 1 tile
+	METHOD a setStackedByData (Z)Ldm;
+		ARG 1 stackedByData
+	METHOD b getMaxStackSize ()I
+	METHOD b setIcon (I)Ldm;
+		ARG 1 icon
+	METHOD b interactEnemy (Ley;Lgh;)V
+		ARG 1 item
+		ARG 2 mob
+	METHOD c isStackedByData ()Z
+	METHOD c setMaxStackSize (I)Ldm;
+		ARG 1 maxStackSize
+	METHOD d getMaxDamage ()I
+	METHOD d setMaxDamage (I)Ldm;
+		ARG 1 maxDamage
+	METHOD e handEquipped ()Ldm;
+	METHOD f getCraftingRemainingItem ()Ldm;
+	METHOD g hasCraftingRemainingItem ()Z
+	FIELD A hatchet_emerald Ldm;
+	FIELD B stick Ldm;
+	FIELD C bowl Ldm;
+	FIELD D mushroomStew Ldm;
+	FIELD E sword_gold Ldm;
+	FIELD F shovel_gold Ldm;
+	FIELD G pickAxe_gold Ldm;
+	FIELD H hatchet_gold Ldm;
+	FIELD I string Ldm;
+	FIELD J feather Ldm;
+	FIELD K sulphur Ldm;
+	FIELD L hoe_wood Ldm;
+	FIELD M hoe_stone Ldm;
+	FIELD N hoe_iron Ldm;
+	FIELD O hoe_emerald Ldm;
+	FIELD P hoe_gold Ldm;
+	FIELD Q seeds Ldm;
+	FIELD R wheat Ldm;
+	FIELD S bread Ldm;
+	FIELD T helmet_cloth Ldm;
+	FIELD U chestplate_cloth Ldm;
+	FIELD V leggings_cloth Ldm;
+	FIELD W boots_cloth Ldm;
+	FIELD X helmet_chain Ldm;
+	FIELD Y chestplate_chain Ldm;
+	FIELD Z leggings_chain Ldm;
+	FIELD aA redStone Ldm;
+	FIELD aB snowBall Ldm;
+	FIELD aC boat Ldm;
+	FIELD aD leather Ldm;
+	FIELD aE milk Ldm;
+	FIELD aF brick Ldm;
+	FIELD aG clay Ldm;
+	FIELD aH reeds Ldm;
+	FIELD aI paper Ldm;
+	FIELD aJ book Ldm;
+	FIELD aK slimeBall Ldm;
+	FIELD aL minecart_chest Ldm;
+	FIELD a craftingRemainingItem Ldm;
+	FIELD aM minecart_furnace Ldm;
+	FIELD aN egg Ldm;
+	FIELD aO compass Ldm;
+	FIELD aP fishingRod Ldm;
+	FIELD aQ clock Ldm;
+	FIELD aR yellowDust Ldm;
+	FIELD aS fish_raw Ldm;
+	FIELD aT fish_cooked Ldm;
+	FIELD aU dye_powder Ldm;
+	FIELD aV bone Ldm;
+	FIELD aW sugar Ldm;
+	FIELD aX cake Ldm;
+	FIELD aY bed Ldm;
+	FIELD aZ diode Ldm;
+	FIELD aa boots_chain Ldm;
+	FIELD ab helmet_iron Ldm;
+	FIELD ac chestplate_iron Ldm;
+	FIELD ad leggings_iron Ldm;
+	FIELD ae boots_iron Ldm;
+	FIELD af helmet_diamond Ldm;
+	FIELD ag chestplate_diamond Ldm;
+	FIELD ah leggings_diamond Ldm;
+	FIELD ai boots_diamond Ldm;
+	FIELD aj helmet_gold Ldm;
+	FIELD ak chestplate_gold Ldm;
+	FIELD al leggings_gold Ldm;
+	FIELD am boots_gold Ldm;
+	FIELD an flint Ldm;
+	FIELD ao porkChop_raw Ldm;
+	FIELD ap porkChop_cooked Ldm;
+	FIELD aq painting Ldm;
+	FIELD ar apple_gold Ldm;
+	FIELD as sign Ldm;
+	FIELD at door_wood Ldm;
+	FIELD au bucket_empty Ldm;
+	FIELD av bucket_water Ldm;
+	FIELD aw bucket_lava Ldm;
+	FIELD ax minecart Ldm;
+	FIELD ay saddle Ldm;
+	FIELD az door_iron Ldm;
+	FIELD b random Ljava/util/Random;
+	FIELD ba record_01 Ldm;
+	FIELD bb record_02 Ldm;
+	FIELD bc id I
+	FIELD bd maxStackSize I
+	FIELD be maxDamage I
+	FIELD bh isStackedByData Z
+	FIELD bi descriptionId Ljava/lang/String;
+	FIELD c items [Ldm;
+	FIELD d shovel_iron Ldm;
+	FIELD e pickAxe_iron Ldm;
+	FIELD f hatchet_iron Ldm;
+	FIELD g flintAndSteel Ldm;
+	FIELD h apple Ldm;
+	FIELD i bow Ldm;
+	FIELD j arrow Ldm;
+	FIELD k coal Ldm;
+	FIELD l emerald Ldm;
+	FIELD m ironIngot Ldm;
+	FIELD n goldIngot Ldm;
+	FIELD o sword_iron Ldm;
+	FIELD p sword_wood Ldm;
+	FIELD q shovel_wood Ldm;
+	FIELD r pickAxe_wood Ldm;
+	FIELD s hatchet_wood Ldm;
+	FIELD t sword_stone Ldm;
+	FIELD u shovel_stone Ldm;
+	FIELD v pickAxe_stone Ldm;
+	FIELD w hatchet_stone Ldm;
+	FIELD x sword_emerald Ldm;
+	FIELD y shovel_emerald Ldm;
+	FIELD z pickAxe_emerald Ldm;

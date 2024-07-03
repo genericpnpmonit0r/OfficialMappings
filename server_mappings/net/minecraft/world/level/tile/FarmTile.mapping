@@ -1,0 +1,20 @@
+CLASS lo net/minecraft/world/level/tile/FarmTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD b stepOn (Lcp;IIILjw;)V
+	METHOD d getAABB (Lcp;III)Lcg;
+	METHOD g isUnderCrops (Lcp;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h isNearWater (Lcp;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

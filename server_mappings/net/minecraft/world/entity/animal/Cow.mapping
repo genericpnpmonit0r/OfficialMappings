@@ -1,0 +1,9 @@
+CLASS ar net/minecraft/world/entity/animal/Cow
+	METHOD a interact (Ldp;)Z
+	METHOD a addAdditionalSaveData (Lhj;)V
+	METHOD b readAdditionalSaveData (Lhj;)V
+	METHOD e getAmbientSound ()Ljava/lang/String;
+	METHOD f getHurtSound ()Ljava/lang/String;
+	METHOD g getDeathSound ()Ljava/lang/String;
+	METHOD h getDeathLoot ()I
+	METHOD i getSoundVolume ()F

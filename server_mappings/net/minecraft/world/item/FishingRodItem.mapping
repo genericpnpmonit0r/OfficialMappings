@@ -1,0 +1,2 @@
+CLASS bg net/minecraft/world/item/FishingRodItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;

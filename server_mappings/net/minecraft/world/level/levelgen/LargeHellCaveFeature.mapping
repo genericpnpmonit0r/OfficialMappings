@@ -1,0 +1,22 @@
+CLASS ib net/minecraft/world/level/levelgen/LargeHellCaveFeature
+	METHOD a addRoom (II[BDDD)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 d
+		ARG 6 e
+		ARG 8 f
+	METHOD a addTunnel (II[BDDDFFFIID)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 a
+		ARG 6 b
+		ARG 8 c
+		ARG 10 d
+		ARG 11 e
+		ARG 12 f
+		ARG 13 g
+		ARG 14 h
+		ARG 15 i
+	METHOD a addFeature (Lcp;IIII[B)V

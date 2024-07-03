@@ -1,0 +1,31 @@
+CLASS nc net/minecraft/world/level/biome/BiomeSource
+	METHOD <init> (Lcp;)V
+		ARG 1 level
+	METHOD a getBiome (II)Lfo;
+		ARG 1 x
+		ARG 2 z
+	METHOD a getBiomeBlock (IIII)[Lfo;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 w
+		ARG 4 h
+	METHOD a getBiome (Lnt;)Lfo;
+		ARG 1 pos
+	METHOD a getTemperatureBlock ([DIIII)[D
+		ARG 1 temperatures
+		ARG 2 x
+		ARG 3 z
+		ARG 4 w
+		ARG 5 h
+	METHOD a getBiomeBlock ([Lfo;IIII)[Lfo;
+		ARG 1 biomes
+		ARG 2 x
+		ARG 3 z
+		ARG 4 w
+		ARG 5 h
+	FIELD b downfalls [D
+	FIELD c noises [D
+	FIELD d biomes [Lfo;
+	FIELD e temperatureMap Lkv;
+	FIELD f downfallMap Lkv;
+	FIELD g noiseMap Lkv;

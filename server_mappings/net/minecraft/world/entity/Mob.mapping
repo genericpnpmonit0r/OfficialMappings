@@ -1,0 +1,98 @@
+CLASS gh net/minecraft/world/entity/Mob
+	METHOD E isSleeping ()Z
+	METHOD G playAmbientSound ()V
+	METHOD H baseTick ()V
+	METHOD I spawnAnim ()V
+	METHOD J isAlive ()Z
+	METHOD K jumpFromGround ()V
+	METHOD L beforeRemove ()V
+	METHOD M outOfWorld ()V
+	METHOD N getLookAngle ()Lao;
+	METHOD a defineSynchedData ()V
+	METHOD a causeFallDamage (F)V
+	METHOD a setSize (FF)V
+	METHOD a addAdditionalSaveData (Lhj;)V
+	METHOD a die (Ljw;)V
+		ARG 1 entity
+	METHOD a hurt (Ljw;I)Z
+	METHOD a knockback (Ljw;IDD)V
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
+		ARG 5 d
+	METHOD b canSpawn ()Z
+	METHOD b getViewVector (F)Lao;
+		ARG 1 a
+	METHOD b travel (FF)V
+		ARG 1 a
+		ARG 2 b
+	METHOD b rotlerp (FFF)F
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
+	METHOD b heal (I)V
+		ARG 1 heal
+	METHOD b readAdditionalSaveData (Lhj;)V
+	METHOD b lookAt (Ljw;F)V
+		ARG 1 entity
+		ARG 2 a
+	METHOD b_ isWaterMob ()Z
+	METHOD c getAmbientSoundInterval ()I
+	METHOD c actuallyHurt (I)V
+		ARG 1 dmg
+	METHOD c_ updateAi ()V
+	METHOD d_ isPickable ()Z
+	METHOD e getAmbientSound ()Ljava/lang/String;
+	METHOD e canSee (Ljw;)Z
+		ARG 1 entity
+	METHOD e_ isPushable ()Z
+	METHOD f getHurtSound ()Ljava/lang/String;
+	METHOD f_ tick ()V
+	METHOD g getDeathSound ()Ljava/lang/String;
+	METHOD h getDeathLoot ()I
+	METHOD i getSoundVolume ()F
+	METHOD j getMaxSpawnClusterSize ()I
+	METHOD m onLadder ()Z
+	METHOD o dropDeathLoot ()V
+	METHOD p getHeadHeight ()F
+	METHOD q aiStep ()V
+	METHOD w isImmobile ()Z
+	METHOD x rideTick ()V
+	FIELD C invulnerableDuration I
+	FIELD D timeOffs F
+	FIELD E rotA F
+	FIELD F yBodyRot F
+	FIELD G yBodyRotO F
+	FIELD H oRun F
+	FIELD I run F
+	FIELD J animStep F
+	FIELD K animStepO F
+	FIELD L hasHair Z
+	FIELD N allowAlpha Z
+	FIELD O rotOffs F
+	FIELD P modelName Ljava/lang/String;
+	FIELD Q bobStrength F
+	FIELD R deathScore I
+	FIELD S renderOffset F
+	FIELD T interpolateOnly Z
+	FIELD V attackAnim F
+	FIELD W health I
+	FIELD a ambientSoundTime I
+	FIELD aa hurtDir F
+	FIELD ac attackTime I
+	FIELD ae tilt F
+	FIELD af dead Z
+	FIELD ag modelNum I
+	FIELD ah animSpeed F
+	FIELD al lSteps I
+	FIELD ar fallTime F
+	FIELD as lastHurt I
+	FIELD at noActionTime I
+	FIELD au xxa F
+	FIELD av yya F
+	FIELD aw yRotA F
+	FIELD ax jumping Z
+	FIELD ay defaultLookAngle F
+	FIELD az runSpeed F
+	FIELD b lookingAt Ljw;
+	FIELD c lookTime I

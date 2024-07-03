@@ -1,0 +1,20 @@
+CLASS jt net/minecraft/world/level/tile/entity/FurnaceTileEntity
+	METHOD a removeItem (II)Ley;
+	METHOD a setItem (ILey;)V
+	METHOD a getBurnDuration (Ley;)I
+		ARG 1 item
+	METHOD a load (Lhj;)V
+	METHOD a_ stillValid (Ldp;)Z
+	METHOD b save (Lhj;)V
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Ley;
+	METHOD f isLit ()Z
+	METHOD g burn ()V
+	METHOD i canBurn ()Z
+	METHOD i_ tick ()V
+	METHOD m_ getContainerSize ()I
+	METHOD n_ getMaxStackSize ()I
+	FIELD a litTime I
+	FIELD b litDuration I
+	FIELD c tickCount I
+	FIELD h items [Ley;

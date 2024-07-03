@@ -1,0 +1,36 @@
+CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b wooded Ljava/util/HashMap;
+		COMMENT some leftover from the alpha server
+	FIELD c connection Lcc;
+	FIELD d settings Ljg;
+	FIELD e level Lcv;
+	FIELD f playerList Led;
+	FIELD h tickCount I
+	FIELD k entityTracker Lln;
+	FIELD l onlineMode Z
+	FIELD m spawnFriendlies Z
+	FIELD n pvpAllowed Z
+	FIELD o commandDispatcher Lki;
+	FIELD p running Z
+	FIELD q tickables Ljava/util/List;
+	FIELD r commands Ljava/util/List;
+	METHOD a stop ()V
+	METHOD a addTickable (Lcm;)V
+		ARG 1 tickable
+	METHOD a loadLevel (Lhe;Ljava/lang/String;)V
+		ARG 1 storage
+		ARG 2 levelName
+	METHOD a getFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD a addCommand (Ljava/lang/String;Lkh;)V
+		ARG 1 command
+		ARG 2 source
+	METHOD a access$000 (Lnet/minecraft/server/MinecraftServer;)Z
+		ARG 0 this$0
+	METHOD b parseCommands ()V
+	METHOD d start ()Z
+	METHOD h tick ()V
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD run run ()V

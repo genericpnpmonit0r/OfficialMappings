@@ -1,0 +1,17 @@
+CLASS gz
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e xa B
+	FIELD f ya B
+	FIELD g za B
+	FIELD h itemId I
+	FIELD i itemCount I
+	FIELD l auxValue I
+	METHOD <init> (Lea;)V
+		ARG 1 item
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

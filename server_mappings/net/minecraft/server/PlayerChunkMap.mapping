@@ -1,0 +1,5 @@
+CLASS mj net/minecraft/server/PlayerChunkMap
+	METHOD a access$000 (Lmj;)Lnet/minecraft/server/MinecraftServer;
+	METHOD b getRadius ()I
+	METHOD b access$100 (Lmj;)Ldc;
+	METHOD c access$200 (Lmj;)Ljava/util/List;

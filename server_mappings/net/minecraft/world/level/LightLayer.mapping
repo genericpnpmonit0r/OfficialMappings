@@ -1,0 +1,6 @@
+CLASS bx net/minecraft/world/level/LightLayer
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 surrounding
+	FIELD a Sky Lbx;
+	FIELD b Block Lbx;
+	FIELD c surrounding I

@@ -1,0 +1,6 @@
+CLASS js net/minecraft/world/inventory/TrapMenu
+	METHOD <init> (Lgk;Lad;)V
+		ARG 1 container
+		ARG 2 trap
+	METHOD b stillValid (Ldp;)Z
+	FIELD a trap Lad;

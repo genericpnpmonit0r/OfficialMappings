@@ -1,0 +1,13 @@
+CLASS nq net/minecraft/world/level/tile/StoneSlabTile
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 fullSize
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a shouldRenderFace (Lmw;IIII)Z
+	METHOD b getSpawnResourcesAuxValue (I)I
+	METHOD e onPlace (Lcp;III)V
+	FIELD b fullSize Z

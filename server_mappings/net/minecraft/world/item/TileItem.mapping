@@ -1,0 +1,4 @@
+CLASS ax net/minecraft/world/item/TileItem
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z
+	FIELD a tileId I

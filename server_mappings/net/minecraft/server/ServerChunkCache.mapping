@@ -1,0 +1,7 @@
+CLASS fz net/minecraft/server/ServerChunkCache
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a postProcess (Lay;II)V
+	METHOD a save (ZLne;)Z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lgd;

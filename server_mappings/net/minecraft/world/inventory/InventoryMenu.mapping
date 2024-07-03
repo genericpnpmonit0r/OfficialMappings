@@ -1,0 +1,12 @@
+CLASS l net/minecraft/world/inventory/InventoryMenu
+	METHOD <init> (Lex;)V
+		ARG 1 inventory
+	METHOD <init> (Lex;Z)V
+		ARG 1 inventory
+		ARG 2 active
+	METHOD a removed (Ldp;)V
+	METHOD a slotsChanged (Lgk;)V
+	METHOD b stillValid (Ldp;)Z
+	FIELD a craftSlots Lgu;
+	FIELD b resultSlots Lgk;
+	FIELD c active Z

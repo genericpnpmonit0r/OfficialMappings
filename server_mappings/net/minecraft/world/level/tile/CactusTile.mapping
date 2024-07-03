@@ -1,0 +1,12 @@
+CLASS ht net/minecraft/world/level/tile/CactusTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a mayPlace (Lcp;III)Z
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD a entityInside (Lcp;IIILjw;)V
+	METHOD d getAABB (Lcp;III)Lcg;
+	METHOD f canSurvive (Lcp;III)Z

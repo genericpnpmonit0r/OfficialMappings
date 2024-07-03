@@ -1,0 +1,7 @@
+CLASS kf net/minecraft/world/level/tile/FurnaceTile
+	METHOD a getTexture (I)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a use (Lcp;IIILdp;)Z
+	METHOD a setPlacedBy (Lcp;IIILgh;)V
+	METHOD a_ newTileEntity ()Lhv;
+	METHOD e onPlace (Lcp;III)V

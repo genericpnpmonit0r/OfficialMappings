@@ -1,0 +1,9 @@
+CLASS ca
+	FIELD d xs I
+	FIELD e ys I
+	FIELD f zs I
+	FIELD h size I
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

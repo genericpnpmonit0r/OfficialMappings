@@ -1,0 +1,9 @@
+CLASS ij net/minecraft/world/item/WeaponItem
+	METHOD <init> (ILap;)V
+		ARG 1 id
+		ARG 2 tier
+	METHOD a mineBlock (Ley;IIII)V
+	METHOD a hurtEnemy (Ley;Lgh;)V
+	METHOD a getDestroySpeed (Ley;Llc;)F
+	METHOD a getAttackDamage (Ljw;)I
+	FIELD a damage I

@@ -1,0 +1,2 @@
+CLASS df net/minecraft/world/level/levelgen/feature/CactusFeature
+	METHOD a place (Lcp;Ljava/util/Random;III)Z

@@ -1,0 +1,2 @@
+CLASS e net/minecraft/world/level/levelgen/feature/BirchFeature
+	METHOD a place (Lcp;Ljava/util/Random;III)Z

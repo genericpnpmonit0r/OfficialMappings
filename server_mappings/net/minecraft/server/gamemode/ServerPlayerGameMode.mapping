@@ -1,0 +1,5 @@
+CLASS no net/minecraft/server/gamemode/ServerPlayerGameMode
+	COMMENT todo: map this with shtuff from the client cause they just copypasted
+	COMMENT the client gamemode classes content into one place
+	FIELD a player Ldp;
+	METHOD a tick ()V

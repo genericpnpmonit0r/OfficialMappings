@@ -1,0 +1,3 @@
+CLASS hb net/minecraft/world/item/crafting/ClothDyeRecipes
+	METHOD a addRecipes (Leb;)V
+		ARG 1 recipes

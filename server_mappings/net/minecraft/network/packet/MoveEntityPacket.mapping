@@ -1,0 +1,6 @@
+CLASS kw net/minecraft/network/packet/MoveEntityPacket
+	FIELD a id I
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

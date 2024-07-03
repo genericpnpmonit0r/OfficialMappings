@@ -1,0 +1,36 @@
+CLASS fk util/IntHashMap
+	FIELD a table [Lmc;
+	FIELD b size I
+	FIELD c threshold I
+	FIELD d loadFactor F
+	FIELD e modCount I
+	METHOD a clear ()V
+	METHOD a get (I)Ljava/lang/Object;
+		ARG 1 value
+	METHOD a indexFor (II)I
+		ARG 0 hash
+		ARG 1 length
+	METHOD a addEntry (IILjava/lang/Object;I)V
+		ARG 1 hash
+		ARG 2 key
+		ARG 3 value
+		ARG 4 index
+	METHOD a put (ILjava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a transfer ([Lmc;)V
+		ARG 1 tab
+	METHOD b containsKey (I)Z
+		ARG 1 key
+	METHOD c getEntry (I)Lmc;
+		ARG 1 key
+	METHOD d remove (I)Ljava/lang/Object;
+		ARG 1 key
+	METHOD e removeEntryForKey (I)Lmc;
+		ARG 1 key
+	METHOD f access$000 (I)I
+		ARG 0 i
+	METHOD g hash (I)I
+		ARG 0 key
+	METHOD h resize (I)V
+		ARG 1 size

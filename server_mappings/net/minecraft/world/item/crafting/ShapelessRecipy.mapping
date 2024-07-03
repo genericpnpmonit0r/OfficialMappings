@@ -1,0 +1,9 @@
+CLASS kq net/minecraft/world/item/crafting/ShapelessRecipy
+	METHOD <init> (Ley;Ljava/util/List;)V
+		ARG 1 result
+		ARG 2 ingredients
+	METHOD a size ()I
+	METHOD a matches (Lgu;)Z
+	METHOD b assemble (Lgu;)Ley;
+	FIELD a result Ley;
+	FIELD b ingredients Ljava/util/List;

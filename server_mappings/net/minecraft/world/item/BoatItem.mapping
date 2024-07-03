@@ -1,0 +1,2 @@
+CLASS lj net/minecraft/world/item/BoatItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;

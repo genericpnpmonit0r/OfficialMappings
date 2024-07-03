@@ -1,0 +1,6 @@
+CLASS av net/minecraft/world/inventory/ContainerMenu
+	METHOD <init> (Lgk;Lgk;)V
+		ARG 1 c1
+		ARG 2 c2
+	METHOD b stillValid (Ldp;)Z
+	FIELD a container Lgk;

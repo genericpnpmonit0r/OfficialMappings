@@ -1,0 +1,19 @@
+CLASS ap net/minecraft/world/item/Item$Tier
+	FIELD a WOOD Lap;
+	FIELD b STONE Lap;
+	FIELD c IRON Lap;
+	FIELD d EMERALD Lap;
+	FIELD e GOLD Lap;
+	FIELD f level I
+	FIELD g uses I
+	FIELD h speed F
+	FIELD i damage I
+	METHOD <init> (Ljava/lang/String;IIIFI)V
+		ARG 3 l
+		ARG 4 u
+		ARG 5 s
+		ARG 6 d
+	METHOD a getUses ()I
+	METHOD b getSpeed ()F
+	METHOD c getAttackDamageBonus ()I
+	METHOD d getLevel ()I

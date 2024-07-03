@@ -1,0 +1,95 @@
+CLASS dp net/minecraft/world/entity/player/Player
+	METHOD A removeSelecteditem ()V
+	METHOD B getRidingHeight ()D
+	METHOD C remove ()V
+	METHOD D isInWall ()Z
+	METHOD E isSleeping ()Z
+	METHOD F isSleepingLongEnough ()Z
+	METHOD a defineSynchedData ()V
+	METHOD a startSleepInBed (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a openTrap (Lad;)V
+		ARG 1 trap
+	METHOD a reallyDrop (Lea;)V
+		ARG 1 item
+	METHOD a carriedChanged (Ley;)V
+		ARG 1 item
+	METHOD a drop (Ley;Z)V
+		ARG 1 item
+		ARG 2 b
+	METHOD a openContainer (Lgk;)V
+		ARG 1 container
+	METHOD a addAdditionalSaveData (Lhj;)V
+	METHOD a displayClientMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a openFurnace (Ljt;)V
+		ARG 1 furnace
+	METHOD a die (Ljw;)V
+	METHOD a hurt (Ljw;I)Z
+	METHOD a getDestroySpeed (Llc;)F
+		ARG 1 tile
+	METHOD a openTextEdit (Lnk;)V
+		ARG 1 sign
+	METHOD a stopSleepInBed (ZZ)V
+		ARG 1 a
+		ARG 2 b
+	METHOD b startCrafting (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b drop (Ley;)V
+		ARG 1 item
+	METHOD b readAdditionalSaveData (Lhj;)V
+	METHOD b take (Ljw;I)V
+		ARG 1 e
+		ARG 2 orgCount
+	METHOD b canDestroy (Llc;)Z
+		ARG 1 tile
+	METHOD c actuallyHurt (I)V
+	METHOD c interact (Ljw;)V
+		ARG 1 entity
+	METHOD c awardKillScore (Ljw;I)V
+	METHOD c_ updateAi ()V
+	METHOD d attack (Ljw;)V
+		ARG 1 entity
+	METHOD e setBedOffset (I)V
+		ARG 1 dir
+	METHOD f_ tick ()V
+	METHOD i touch (Ljw;)V
+		ARG 1 entity
+	METHOD l checkBed ()Z
+	METHOD l_ unk_C ()V
+	METHOD p getHeadHeight ()F
+	METHOD q aiStep ()V
+	METHOD r swing ()V
+	METHOD t closeContainer ()V
+	METHOD w isImmobile ()Z
+	METHOD x rideTick ()V
+	METHOD y drop ()V
+	METHOD z getSelectedItem ()Ley;
+	FIELD A unk_y F
+	FIELD B fishing Lgl;
+	FIELD a sleeping Z
+	FIELD b respawnPosition Lal;
+	FIELD c sleepTimer I
+	FIELD d dmgSpill I
+	FIELD i inventory Lex;
+	FIELD j inventoryMenu Lbv;
+	FIELD k containerMenu Lbv;
+	FIELD l userType B
+	FIELD m score I
+	FIELD n oBob F
+	FIELD o bob F
+	FIELD p swinging Z
+	FIELD q swingTime I
+	FIELD r name Ljava/lang/String;
+	FIELD s dimension I
+	FIELD t xCloakO D
+	FIELD u yCloakO D
+	FIELD v zCloakO D
+	FIELD w xCloak D
+	FIELD x yCloak D
+	FIELD y zCloak D
+	FIELD z unk_x F

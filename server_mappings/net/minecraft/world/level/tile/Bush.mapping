@@ -1,0 +1,17 @@
+CLASS lv net/minecraft/world/level/tile/Bush
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Lcp;III)Z
+	METHOD a neighborChanged (Lcp;IIII)V
+	METHOD a tick (Lcp;IIILjava/util/Random;)V
+	METHOD c mayPlaceOn (I)Z
+		ARG 1 tile
+	METHOD d getAABB (Lcp;III)Lcg;
+	METHOD f canSurvive (Lcp;III)Z
+	METHOD g checkAlive (Lcp;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

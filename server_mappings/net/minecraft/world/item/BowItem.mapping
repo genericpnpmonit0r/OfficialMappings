@@ -1,0 +1,2 @@
+CLASS iu net/minecraft/world/item/BowItem
+	METHOD a use (Ley;Lcp;Ldp;)Ley;

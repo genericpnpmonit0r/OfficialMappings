@@ -1,0 +1,16 @@
+CLASS li net/minecraft/world/phys/HitResult
+	FIELD a type Lfb;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e f I
+	FIELD f pos Lao;
+	FIELD g entity Ljw;
+	METHOD <init> (IIIILao;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+		ARG 5 pos
+	METHOD <init> (Ljw;)V
+		ARG 1 entity

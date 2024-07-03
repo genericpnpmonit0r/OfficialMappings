@@ -1,0 +1,22 @@
+CLASS jz net/minecraft/world/level/levelgen/LargeCaveFeature
+	METHOD a addRoom (II[BDDD)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 d
+		ARG 6 e
+		ARG 8 f
+	METHOD a addTunnel (II[BDDDFFFIID)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 d
+		ARG 6 e
+		ARG 8 f
+		ARG 10 g
+		ARG 11 h
+		ARG 12 i
+		ARG 13 j
+		ARG 14 k
+		ARG 15 l
+	METHOD a addFeature (Lcp;IIII[B)V

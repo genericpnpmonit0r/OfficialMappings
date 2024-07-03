@@ -1,0 +1,2 @@
+CLASS cc net/minecraft/server/multiplayer/ServerConnection
+	METHOD a tick ()V

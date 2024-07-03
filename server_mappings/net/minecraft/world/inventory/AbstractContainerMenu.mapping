@@ -1,0 +1,21 @@
+CLASS bv net/minecraft/world/inventory/AbstractContainerMenu
+	METHOD a broadcastChanges ()V
+	METHOD a getSlot (I)Ldo;
+		ARG 1 index
+	METHOD a clicked (IILdp;)Ley;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 player
+	METHOD a addSlot (Ldo;)V
+		ARG 1 slot
+	METHOD a removed (Ldp;)V
+		ARG 1 player
+	METHOD a slotsChanged (Lgk;)V
+		ARG 1 container
+	METHOD b stillValid (Ldp;)Z
+		ARG 1 player
+	FIELD b unSynchedPlayers Ljava/util/Set;
+	FIELD d lastSlots Ljava/util/List;
+	FIELD e slots Ljava/util/List;
+	FIELD f containerId I
+	FIELD g containerListeners Ljava/util/List;

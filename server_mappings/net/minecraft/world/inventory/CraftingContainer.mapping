@@ -1,0 +1,19 @@
+CLASS gu net/minecraft/world/inventory/CraftingContainer
+	METHOD <init> (Lbv;II)V
+		ARG 1 menu
+		ARG 2 width
+		ARG 3 height
+	METHOD a removeItem (II)Ley;
+	METHOD a setItem (ILey;)V
+	METHOD a_ stillValid (Ldp;)Z
+	METHOD b getItem (II)Ley;
+		ARG 1 x
+		ARG 2 y
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Ley;
+	METHOD h setChanged ()V
+	METHOD m_ getContainerSize ()I
+	METHOD n_ getMaxStackSize ()I
+	FIELD a items [Ley;
+	FIELD b width I
+	FIELD c menu Lbv;

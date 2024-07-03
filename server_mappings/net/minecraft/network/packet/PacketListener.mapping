@@ -1,0 +1,44 @@
+CLASS kj net/minecraft/network/packet/PacketListener
+	METHOD a handleBlockRegionUpdate (Lca;)V
+		ARG 1 packet
+	METHOD a handleSetEntityMotion (Ldk;)V
+		ARG 1 packet
+	METHOD a handleSetHealth (Lee;)V
+		ARG 1 packet
+	METHOD a handleMovePlayer (Len;)V
+		ARG 1 packet
+	METHOD a handleAddMob (Lfd;)V
+		ARG 1 packet
+	METHOD a handleEntityActionAtPosition (Lfm;)V
+		ARG 1 packet
+	METHOD a onUnhandledPacket (Lfp;)V
+		ARG 1 packet
+	METHOD a handleAddPlayer (Lgp;)V
+		ARG 1 packet
+	METHOD a handleContainerClose (Lgr;)V
+		ARG 1 packet
+	METHOD a handleAddItemEntity (Lgz;)V
+		ARG 1 packet
+	METHOD a handleAnimate (Lhf;)V
+		ARG 1 packet
+	METHOD a handlePlayerInput (Lil;)V
+		ARG 1 packet
+	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 reasonObjects
+	METHOD a handleTileUpdate (Lks;)V
+		ARG 1 packet
+	METHOD a handleMoveEntity (Lkw;)V
+		ARG 1 packet
+	METHOD a handleSignUpdate (Lkx;)V
+		ARG 1 packet
+	METHOD a handleSetEntityData (Lle;)V
+		ARG 1 packet
+	METHOD a handleAddPainting (Llr;)V
+		ARG 1 packet
+	METHOD a handleTileEvent (Llt;)V
+		ARG 1 packet
+	METHOD a handleChunkTilesUpdate (Lml;)V
+		ARG 1 packet
+	METHOD a handleDisconnect (Lnp;)V
+		ARG 1 packet
