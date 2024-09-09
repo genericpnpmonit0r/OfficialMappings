@@ -1,7 +1,26 @@
 CLASS mj net/minecraft/server/PlayerChunkMap
+	FIELD b chunkMap Ldc;
+	FIELD c chunks Ljava/util/List;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e facing [[I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
 	METHOD a tick ()V
+	METHOD a tileChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a get (IIZ)Lu;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 create
+	METHOD a add (Lcr;)V
+		ARG 1 player
 	METHOD a access$000 (Lmj;)Lnet/minecraft/server/MinecraftServer;
+		ARG 0 this$0
 	METHOD b getRadius ()I
 	METHOD b remove (Lcr;)V
 	METHOD b access$100 (Lmj;)Ldc;
+		ARG 0 this$0
 	METHOD c access$200 (Lmj;)Ljava/util/List;
+		ARG 0 this$0

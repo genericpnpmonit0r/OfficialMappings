@@ -1,4 +1,14 @@
 CLASS ks net/minecraft/network/packet/TileUpdatePacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d block I
+	FIELD e data I
+	METHOD <init> (IIILcp;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 level
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V

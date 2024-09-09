@@ -19,26 +19,76 @@ CLASS ed net/minecraft/server/PlayerList
 	METHOD a getMaxRange ()I
 		COMMENT is this getMaxRange or getViewDistance hmm we will never know unless there
 		COMMENT is an unobfed server released but thats unlikely
+	METHOD a broadcast (DDDDLfp;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 radius
+		ARG 9 packet
+	METHOD a tileChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a broadcastTileEntity (IIILhv;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 te
+	METHOD a add (Lcr;)V
+		ARG 1 player
 	METHOD a setLevel (Lcv;)V
 		ARG 1 level
-	METHOD a (Ldj;Ljava/lang/String;Ljava/lang/String;)Lcr;
+	METHOD a placeNewPlayer (Ldj;Ljava/lang/String;Ljava/lang/String;)Lcr;
+		ARG 1 pendingConnection
+		ARG 2 name
 		ARG 3 loginKey
 	METHOD a broadcastAll (Lfp;)V
 		ARG 1 packet
+	METHOD a ban (Ljava/lang/String;)V
+		ARG 1 player
+	METHOD a (Ljava/lang/String;Lfp;)Z
+		ARG 1 name
+		ARG 2 packet
+	METHOD a (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 name
+		ARG 2 message
 	METHOD b tick ()V
+	METHOD b move (Lcr;)V
+		ARG 1 player
+	METHOD b pardon (Ljava/lang/String;)V
+		ARG 1 player
+	METHOD c getPlayers ()Ljava/lang/String;
 	METHOD c remove (Lcr;)V
+		ARG 1 player
+	METHOD c banIp (Ljava/lang/String;)V
+		ARG 1 name
 	METHOD d saveAll ()V
+	METHOD d respawn (Lcr;)Lcr;
+		ARG 1 player
+	METHOD d pardonIp (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD e getWhitelist ()Ljava/util/Set;
 	METHOD e addOp (Ljava/lang/String;)V
 		ARG 1 playerName
 	METHOD f removeOp (Ljava/lang/String;)V
 		ARG 1 playerName
 	METHOD g loadBannedPlayerList ()V
+	METHOD g isWhitelisted (Ljava/lang/String;)Z
+		ARG 1 name
 	METHOD h saveBannedPlayerList ()V
 	METHOD h isOp (Ljava/lang/String;)Z
-		ARG 1 playerName
+		ARG 1 name
 	METHOD i loadIpBanList ()V
+	METHOD i getPlayer (Ljava/lang/String;)Lcr;
+		ARG 1 name
 	METHOD j saveIpBanList ()V
+	METHOD j broadcastAll (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD k loadOpsList ()V
+	METHOD k whitelist (Ljava/lang/String;)V
+		ARG 1 name
 	METHOD l saveOpsList ()V
+	METHOD l removeFromWhitelist (Ljava/lang/String;)V
+		ARG 1 name
 	METHOD m loadWhitelist ()V
 	METHOD n saveWhitelist ()V

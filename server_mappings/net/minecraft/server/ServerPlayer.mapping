@@ -1,16 +1,22 @@
 CLASS cr net/minecraft/server/ServerPlayer
 	FIELD a connection Lfv;
 	FIELD bE lastHealth I
+	FIELD bF invulnerableTicks I
 	FIELD bG equipmentSlots [Ley;
 	FIELD bH containerId I
 	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;
 	FIELD c gameMode Lno;
+	FIELD d xChunk D
+	FIELD e zChunk D
 	FIELD f chunks Ljava/util/List;
+	FIELD g loadedChunks Ljava/util/Set;
+	FIELD h containerPendingChanges Z
 	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lcp;Ljava/lang/String;Lno;)V
 		ARG 1 mcs
 		ARG 2 level
 		ARG 3 name
 		ARG 4 gameMode
+	METHOD V updateContainerId ()V
 	METHOD a checkFallDamage (DZ)V
 	METHOD a setInput (FFZZFF)V
 		ARG 1 xxa
@@ -31,12 +37,17 @@ CLASS cr net/minecraft/server/ServerPlayer
 	METHOD a die (Ljw;)V
 	METHOD a hurt (Ljw;I)Z
 	METHOD a doChunkSendingTick (Z)V
+		ARG 1 b
 	METHOD a stopSleepInBed (ZZ)V
 	METHOD b doCheckFallDamage (DZ)V
+		ARG 1 a
+		ARG 3 b
 	METHOD b heal (I)V
 	METHOD b startCrafting (III)V
 	METHOD b ride (Ljw;)V
 	METHOD b take (Ljw;I)V
+	METHOD b_ getCarried (I)Ley;
+		ARG 1 selected
 	METHOD f_ tick ()V
 	METHOD l_ unk_C ()V
 	METHOD p getHeadHeight ()F

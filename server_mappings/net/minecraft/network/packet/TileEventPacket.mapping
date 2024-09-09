@@ -1,4 +1,15 @@
 CLASS lt net/minecraft/network/packet/TileEventPacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d b0 I
+	FIELD e b1 I
+	METHOD <init> (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 b0
+		ARG 5 b1
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V

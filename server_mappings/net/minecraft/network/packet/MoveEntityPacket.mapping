@@ -1,5 +1,13 @@
 CLASS kw net/minecraft/network/packet/MoveEntityPacket
 	FIELD a id I
+	FIELD b xa B
+	FIELD c ya B
+	FIELD d za B
+	FIELD e yRot B
+	FIELD f xRot B
+	FIELD g hasRot Z
+	METHOD <init> (I)V
+		ARG 1 id
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V

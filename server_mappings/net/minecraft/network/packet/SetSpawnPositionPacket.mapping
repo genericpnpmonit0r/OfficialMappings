@@ -1,4 +1,11 @@
 CLASS iw net/minecraft/network/packet/SetSpawnPositionPacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V

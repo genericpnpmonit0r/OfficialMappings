@@ -1,4 +1,16 @@
 CLASS fm net/minecraft/network/packet/EntityActionAtPositionPacket
+	COMMENT total guess, no actual info on this at all.
+	FIELD a entityId I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e action I
+	METHOD <init> (Ljw;IIII)V
+		ARG 1 entity
+		ARG 2 action
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V

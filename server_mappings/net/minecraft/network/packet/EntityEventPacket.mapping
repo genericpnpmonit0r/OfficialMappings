@@ -1,4 +1,9 @@
 CLASS fa net/minecraft/network/packet/EntityEventPacket
+	FIELD a entityId I
+	FIELD b eventId B
+	METHOD <init> (IB)V
+		ARG 1 entityId
+		ARG 2 eventId
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V

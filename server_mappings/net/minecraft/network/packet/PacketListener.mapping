@@ -1,20 +1,35 @@
 CLASS kj net/minecraft/network/packet/PacketListener
+	METHOD a handleInteract (La;)V
+		ARG 1 packet
+	METHOD a handleTakeItemEntity (Lbn;)V
+		ARG 1 packet
 	METHOD a handleBlockRegionUpdate (Lca;)V
+		ARG 1 packet
+	METHOD a handleSetHealth (Lci;)V
 		ARG 1 packet
 	METHOD a handleSetEntityMotion (Ldk;)V
 		ARG 1 packet
 	METHOD a handleUseItem (Ldr;)V
 		ARG 1 packet
+	METHOD a handleSetTime (Ldy;)V
+		ARG 1 packet
 	METHOD a handleSetHealth (Lee;)V
+		ARG 1 packet
+	METHOD a handleContainerSetSlot (Lef;)V
 		ARG 1 packet
 	METHOD a handleMovePlayer (Len;)V
 		ARG 1 packet
 	METHOD a handleContainerOpen (Lew;)V
+		ARG 1 packet
+	METHOD a handleEntityEvent (Lfa;)V
+		ARG 1 packet
 	METHOD a handleAddMob (Lfd;)V
 		ARG 1 packet
 	METHOD a handlePlayerAction (Lfi;)V
 		ARG 1 packet
 	METHOD a handleEntityActionAtPosition (Lfm;)V
+		ARG 1 packet
+	METHOD a handleContainerContent (Lfn;)V
 		ARG 1 packet
 	METHOD a onUnhandledPacket (Lfp;)V
 		ARG 1 packet
@@ -24,21 +39,45 @@ CLASS kj net/minecraft/network/packet/PacketListener
 		ARG 1 packet
 	METHOD a handlePreLogin (Lgt;)V
 		ARG 1 packet
+	METHOD a handleContainerSetData (Lgx;)V
+		ARG 1 packet
 	METHOD a handleAddItemEntity (Lgz;)V
 		ARG 1 packet
 	METHOD a handleAnimate (Lhf;)V
 		ARG 1 packet
+	METHOD a handleRidePacket (Lhh;)V
+		ARG 1 packet
 	METHOD a handleLogin (Lhm;)V
 		ARG 1 packet
 	METHOD a handleContainerAck (Lhr;)V
+		ARG 1 packet
+	METHOD a handleRespawn (Lhw;)V
+		ARG 1 packet
 	METHOD a handleChat (Lhy;)V
+		ARG 1 packet
+	METHOD a handleSetEquippedItem (Li;)V
+		ARG 1 packet
 	METHOD a handlePlayerInput (Lil;)V
+		ARG 1 packet
+	METHOD a handleContainerClick (Lip;)V
+		ARG 1 packet
+	METHOD a handleSetSpawn (Liw;)V
+		ARG 1 packet
+	METHOD a handleTeleportEntity (Liy;)V
 		ARG 1 packet
 	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
 		ARG 1 reason
 		ARG 2 reasonObjects
+	METHOD a handleExplosion (Ljd;)V
+		ARG 1 packet
+	METHOD a handleRemoveEntity (Lji;)V
+		ARG 1 packet
 	METHOD a handleChunkVisibility (Ljp;)V
+		ARG 1 packet
 	METHOD a handleAddEntity (Ljy;)V
+		ARG 1 packet
+	METHOD a handlePlayerCommand (Lkr;)V
+		ARG 1 packet
 	METHOD a handleTileUpdate (Lks;)V
 		ARG 1 packet
 	METHOD a handleMoveEntity (Lkw;)V

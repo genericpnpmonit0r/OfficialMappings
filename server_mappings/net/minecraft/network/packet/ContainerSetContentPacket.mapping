@@ -1,4 +1,9 @@
 CLASS fn net/minecraft/network/packet/ContainerSetContentPacket
+	FIELD a containerId I
+	FIELD b items [Ley;
+	METHOD <init> (ILjava/util/List;)V
+		ARG 1 containerId
+		ARG 2 items
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V

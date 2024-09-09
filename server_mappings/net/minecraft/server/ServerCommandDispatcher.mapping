@@ -1,6 +1,12 @@
 CLASS ki net/minecraft/server/ServerCommandDispatcher
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
 	METHOD a performCommand (Laa;)V
 		ARG 1 c
 	METHOD a parseInt (Ljava/lang/String;I)I
 		ARG 1 str
 		ARG 2 def
+	METHOD a help (Lkh;)V
+		ARG 1 s

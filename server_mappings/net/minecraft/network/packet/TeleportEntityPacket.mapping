@@ -1,13 +1,20 @@
 CLASS iy net/minecraft/network/packet/TeleportEntityPacket
-	METHOD <init> (Ljw;)V
-		ARG 1 entity
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V
 	FIELD a id I
 	FIELD b x I
 	FIELD c y I
 	FIELD d z I
 	FIELD e yRot B
 	FIELD f xRot B
+	METHOD <init> (IIIIBB)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 yRot
+		ARG 6 xRot
+	METHOD <init> (Ljw;)V
+		ARG 1 entity
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkj;)V

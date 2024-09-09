@@ -1,9 +1,11 @@
 CLASS dj net/minecraft/server/multiplayer/PendingConnection
+	COMMENT total guesses and some things from LCE symbols
 	FIELD a logger Ljava/util/logging/Logger;
 	FIELD b connection Lhz;
 	FIELD c done Z
 	FIELD d random Ljava/util/Random;
 	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	FIELD f tickCount I
 	FIELD g userName Ljava/lang/String;
 	FIELD h loginPacket Lhm;
 	FIELD i key Ljava/lang/String;
@@ -11,6 +13,7 @@ CLASS dj net/minecraft/server/multiplayer/PendingConnection
 		ARG 1 server
 		ARG 2 socket
 		ARG 3 connectionName
+	METHOD a login ()V
 	METHOD a access$000 (Ldj;)Ljava/lang/String;
 		ARG 0 this$0
 	METHOD a access$100 (Ldj;Lhm;)Lhm;

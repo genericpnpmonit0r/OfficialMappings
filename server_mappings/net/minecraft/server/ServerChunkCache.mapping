@@ -1,7 +1,10 @@
 CLASS fz net/minecraft/server/ServerChunkCache
+	FIELD a droppedChunks Ljava/util/Set;
 	FIELD b emptyChunk Lgd;
 	FIELD c source Lay;
 	FIELD d storage Lag;
+	FIELD e loadedChunks Ljava/util/Map;
+	FIELD f loadedChunkList Ljava/util/List;
 	FIELD g level Lcv;
 	METHOD <init> (Lcv;Lag;Lay;)V
 		ARG 1 level
@@ -10,12 +13,19 @@ CLASS fz net/minecraft/server/ServerChunkCache
 	METHOD a tick ()Z
 	METHOD a hasChunk (II)Z
 	METHOD a postProcess (Lay;II)V
+	METHOD a saveEntities (Lgd;)V
+		ARG 1 chunk
 	METHOD a save (ZLne;)Z
 	METHOD b shouldSave ()Z
 	METHOD b getChunk (II)Lgd;
-	METHOD d (II)Lgd;
+	METHOD b save (Lgd;)V
+		ARG 1 chunk
+	METHOD c drop (II)V
 		ARG 1 x
 		ARG 2 z
-	METHOD e (II)Lgd;
+	METHOD d create (II)Lgd;
+		ARG 1 x
+		ARG 2 z
+	METHOD e load (II)Lgd;
 		ARG 1 x
 		ARG 2 z

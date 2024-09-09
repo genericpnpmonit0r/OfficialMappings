@@ -1,17 +1,32 @@
 CLASS eg net/minecraft/server/TrackedEntity
 	FIELD a entity Ljw;
+	FIELD b range I
+	FIELD c updateInterval I
 	FIELD d x I
 	FIELD e y I
 	FIELD f z I
 	FIELD g yRot I
 	FIELD h xRot I
+	FIELD i xd D
+	FIELD j yd D
+	FIELD k zd D
 	FIELD n players Ljava/util/Set;
+	FIELD s sendMotion Z
 	METHOD <init> (Ljw;IIZ)V
 		ARG 1 entity
+		ARG 2 range
+		ARG 3 updateInterval
+		ARG 4 sendMotion
 	METHOD a broadcast (Lfp;)V
+		ARG 1 packet
 	METHOD b getAddEntityPacket ()Lfp;
+	METHOD b (Lcr;)V
+		ARG 1 player
 	METHOD b broadcastAndSend (Lfp;)V
+		ARG 1 packet
 	METHOD b (Ljava/util/List;)V
 		ARG 1 players
 	METHOD c removePlayer (Lcr;)V
 		ARG 1 player
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 obj

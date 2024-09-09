@@ -1,4 +1,7 @@
 CLASS cs net/minecraft/server/ServerLevelListener
+	FIELD a server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
 	METHOD a skyColorChanged ()V
 	METHOD a tileChanged (III)V
 	METHOD a setTilesDirty (IIIIII)V

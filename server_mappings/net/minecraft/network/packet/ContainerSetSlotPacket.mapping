@@ -1,4 +1,11 @@
 CLASS ef net/minecraft/network/packet/ContainerSetSlotPacket
+	FIELD a containerId I
+	FIELD b slot I
+	FIELD c item Ley;
+	METHOD <init> (IILey;)V
+		ARG 1 containerId
+		ARG 2 slot
+		ARG 3 item
 	METHOD a getEstimatedSize ()I
 	METHOD a read (Ljava/io/DataInputStream;)V
 	METHOD a write (Ljava/io/DataOutputStream;)V
