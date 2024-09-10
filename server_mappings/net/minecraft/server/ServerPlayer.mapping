@@ -16,7 +16,7 @@ CLASS cr net/minecraft/server/ServerPlayer
 		ARG 2 level
 		ARG 3 name
 		ARG 4 gameMode
-	METHOD V updateContainerId ()V
+	METHOD V nextContainerCounter ()V
 	METHOD a checkFallDamage (DZ)V
 	METHOD a setInput (FFZZFF)V
 		ARG 1 xxa
@@ -49,10 +49,12 @@ CLASS cr net/minecraft/server/ServerPlayer
 	METHOD b_ getCarried (I)Ley;
 		ARG 1 selected
 	METHOD f_ tick ()V
+	METHOD l initMenu ()V
 	METHOD l_ unk_C ()V
 	METHOD p getHeadHeight ()F
 	METHOD q aiStep ()V
 	METHOD r swing ()V
+	METHOD s unk_s ()V
 	METHOD t closeContainer ()V
 	METHOD u broadcastCarriedItem ()V
 	METHOD v doCloseContainer ()V

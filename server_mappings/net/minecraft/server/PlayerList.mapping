@@ -19,7 +19,7 @@ CLASS ed net/minecraft/server/PlayerList
 	METHOD a getMaxRange ()I
 		COMMENT is this getMaxRange or getViewDistance hmm we will never know unless there
 		COMMENT is an unobfed server released but thats unlikely
-	METHOD a broadcast (DDDDLfp;)V
+	METHOD a broadcastAll (DDDDLfp;)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
@@ -46,10 +46,10 @@ CLASS ed net/minecraft/server/PlayerList
 		ARG 1 packet
 	METHOD a ban (Ljava/lang/String;)V
 		ARG 1 player
-	METHOD a (Ljava/lang/String;Lfp;)Z
+	METHOD a broadcast (Ljava/lang/String;Lfp;)Z
 		ARG 1 name
 		ARG 2 packet
-	METHOD a (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a broadcast (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 name
 		ARG 2 message
 	METHOD b tick ()V
@@ -70,6 +70,7 @@ CLASS ed net/minecraft/server/PlayerList
 	METHOD e getWhitelist ()Ljava/util/Set;
 	METHOD e addOp (Ljava/lang/String;)V
 		ARG 1 playerName
+	METHOD f reloadWhitelist ()V
 	METHOD f removeOp (Ljava/lang/String;)V
 		ARG 1 playerName
 	METHOD g loadBannedPlayerList ()V
@@ -82,10 +83,10 @@ CLASS ed net/minecraft/server/PlayerList
 	METHOD i getPlayer (Ljava/lang/String;)Lcr;
 		ARG 1 name
 	METHOD j saveIpBanList ()V
-	METHOD j broadcastAll (Ljava/lang/String;)V
+	METHOD j broadcastAllOps (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD k loadOpsList ()V
-	METHOD k whitelist (Ljava/lang/String;)V
+	METHOD k addToWhitelist (Ljava/lang/String;)V
 		ARG 1 name
 	METHOD l saveOpsList ()V
 	METHOD l removeFromWhitelist (Ljava/lang/String;)V

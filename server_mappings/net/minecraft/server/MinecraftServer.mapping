@@ -8,6 +8,8 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD f playerList Led;
 	FIELD g stopped Z
 	FIELD h tickCount I
+	FIELD i progressStage Ljava/lang/String;
+	FIELD j progressStagePrecentage I
 	FIELD k entityTracker Lln;
 	FIELD l onlineMode Z
 	FIELD m spawnFriendlies Z
@@ -24,6 +26,9 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 		ARG 2 levelName
 	METHOD a getFile (Ljava/lang/String;)Ljava/io/File;
 		ARG 1 name
+	METHOD a progressStage (Ljava/lang/String;I)V
+		ARG 1 stage
+		ARG 2 percent
 	METHOD a addCommand (Ljava/lang/String;Lkh;)V
 		ARG 1 command
 		ARG 2 source
@@ -31,6 +36,9 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 		ARG 0 this$0
 	METHOD b parseCommands ()V
 	METHOD d start ()Z
+	METHOD e clearProgressStage ()V
+	METHOD f saveAllChunks ()V
+	METHOD g stopServer ()V
 	METHOD h tick ()V
 	METHOD main main ([Ljava/lang/String;)V
 		ARG 0 args

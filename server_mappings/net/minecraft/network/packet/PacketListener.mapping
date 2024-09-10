@@ -13,7 +13,7 @@ CLASS kj net/minecraft/network/packet/PacketListener
 		ARG 1 packet
 	METHOD a handleSetTime (Ldy;)V
 		ARG 1 packet
-	METHOD a handleSetHealth (Lee;)V
+	METHOD a handleSetCarriedItem (Lee;)V
 		ARG 1 packet
 	METHOD a handleContainerSetSlot (Lef;)V
 		ARG 1 packet

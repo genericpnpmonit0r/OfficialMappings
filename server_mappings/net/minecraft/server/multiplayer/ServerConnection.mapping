@@ -13,9 +13,13 @@ CLASS cc net/minecraft/server/multiplayer/ServerConnection
 		ARG 3 port
 	METHOD a tick ()V
 	METHOD a access$000 (Lcc;)Ljava/net/ServerSocket;
+		ARG 0 this$0
 	METHOD a access$200 (Lcc;Ldj;)V
+		ARG 0 this$0
+		ARG 1 val$con
 	METHOD a addPendingConnection (Ldj;)V
 		ARG 1 pendingconnection
 	METHOD a addPlayerConnection (Lfv;)V
 		ARG 1 playerConnection
 	METHOD b access$100 (Lcc;)I
+		ARG 0 this$0

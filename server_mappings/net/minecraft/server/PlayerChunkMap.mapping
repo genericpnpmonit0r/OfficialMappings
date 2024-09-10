@@ -1,4 +1,5 @@
 CLASS mj net/minecraft/server/PlayerChunkMap
+	FIELD a players Ljava/util/List;
 	FIELD b chunkMap Ldc;
 	FIELD c chunks Ljava/util/List;
 	FIELD d server Lnet/minecraft/server/MinecraftServer;
@@ -10,7 +11,12 @@ CLASS mj net/minecraft/server/PlayerChunkMap
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a get (IIZ)Lu;
+	METHOD a inRange (IIII)Z
+		ARG 1 x0
+		ARG 2 z0
+		ARG 3 x1
+		ARG 4 z1
+	METHOD a getChunk (IIZ)Lu;
 		ARG 1 x
 		ARG 2 z
 		ARG 3 create
@@ -20,7 +26,10 @@ CLASS mj net/minecraft/server/PlayerChunkMap
 		ARG 0 this$0
 	METHOD b getRadius ()I
 	METHOD b remove (Lcr;)V
+		ARG 1 player
 	METHOD b access$100 (Lmj;)Ldc;
 		ARG 0 this$0
+	METHOD c move (Lcr;)V
+		ARG 1 player
 	METHOD c access$200 (Lmj;)Ljava/util/List;
 		ARG 0 this$0
