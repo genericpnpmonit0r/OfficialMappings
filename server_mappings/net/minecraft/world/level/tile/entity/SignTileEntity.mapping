@@ -1,0 +1,2 @@
+CLASS lv net/minecraft/world/level/tile/entity/SignTileEntity
+	FIELD e messages [Ljava/lang/String;

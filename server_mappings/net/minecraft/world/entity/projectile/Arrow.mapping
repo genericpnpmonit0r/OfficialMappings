@@ -1,0 +1,2 @@
+CLASS fc net/minecraft/world/entity/projectile/Arrow
+	FIELD b owner Lmj;

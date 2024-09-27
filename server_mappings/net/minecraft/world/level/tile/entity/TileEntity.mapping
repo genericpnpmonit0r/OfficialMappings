@@ -1,0 +1,9 @@
+CLASS bm net/minecraft/world/level/tile/entity/TileEntity
+	FIELD a level Lfv;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e idClassMap Ljava/util/Map;
+	FIELD f classIdMap Ljava/util/Map;
+	METHOD d setChanged ()V
+	METHOD g getUpdatePacket ()Lkx;

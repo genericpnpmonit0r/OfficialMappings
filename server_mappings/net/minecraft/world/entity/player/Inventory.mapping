@@ -1,0 +1,18 @@
+CLASS ji net/minecraft/world/entity/player/Inventory
+	FIELD a items [Ljl;
+	FIELD b armor [Ljl;
+	FIELD c selected I
+	FIELD d changed Z
+	FIELD e player Lhl;
+	FIELD f carried Ljl;
+	METHOD a getAttackDamage (Lfe;)I
+	METHOD a save (Lfh;)Lfh;
+	METHOD a getDestroySpeed (Lhr;)F
+	METHOD b load (Lfh;)V
+	METHOD b canDestroy (Lhr;)Z
+	METHOD c hurtArmor (I)V
+	METHOD e getSelected ()Ljl;
+	METHOD f tick ()V
+	METHOD g getArmorValue ()I
+	METHOD h dropAll ()V
+	METHOD i getCarried ()Ljl;

@@ -1,0 +1,5 @@
+CLASS ah com/mojang/nbt/CompoundTag
+	METHOD a putInt (Ljava/lang/String;I)V
+	METHOD a put (Ljava/lang/String;Lix;)V
+	METHOD d getInt (Ljava/lang/String;)I
+	METHOD k getList (Ljava/lang/String;)Lfh;

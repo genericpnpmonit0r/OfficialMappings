@@ -1,2 +1,0 @@
-CLASS cj net/minecraft/stats/StatsSyncher
-	FIELD a busy Z

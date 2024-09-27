@@ -1,0 +1,48 @@
+CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b wooded Ljava/util/HashMap;
+	FIELD c connection Lev;
+	FIELD d settings Lef;
+	FIELD e level Lgc;
+	FIELD f playerList Lii;
+	FIELD g stopped Z
+	FIELD h tickCount I
+	FIELD i progressStage Ljava/lang/String;
+	FIELD j progressStagePercentage I
+	FIELD k entityTracker Lim;
+	FIELD l onlineMode Z
+	FIELD m spawnFriendlies Z
+	FIELD n pvpAllowed Z
+	FIELD o running Z
+	FIELD p tickables Ljava/util/List;
+	FIELD q consoleInput Ljava/util/List;
+	METHOD a stop ()V
+	METHOD a addTickable (Lfs;)V
+		ARG 1 tickable
+	METHOD a getFile (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 name
+	METHOD a progressStage (Ljava/lang/String;I)V
+		ARG 1 stage
+		ARG 2 percentage
+	METHOD a handleConsoleInput (Ljava/lang/String;Lgd;)V
+		ARG 1 msg
+		ARG 2 source
+	METHOD a broadcastAllOps (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 user
+		ARG 2 message
+	METHOD a access$000 (Lnet/minecraft/server/MinecraftServer;)Z
+		ARG 0 this$0
+	METHOD b parseCommands ()V
+	METHOD b parseInt (Ljava/lang/String;I)I
+		ARG 1 str
+		ARG 2 def
+	METHOD c loadLevel (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD d start ()Z
+	METHOD e clearProgressStage ()V
+	METHOD f saveAllChunks ()V
+	METHOD g stopServer ()V
+	METHOD h tick ()V
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD run run ()V

@@ -1,0 +1,6 @@
+CLASS bj net/minecraft/world/level/chunk/storage/ChunkStorage
+	METHOD a tick ()V
+	METHOD a load (Lfv;II)Lme;
+	METHOD a save (Lfv;Lme;)V
+	METHOD b flush ()V
+	METHOD b saveEntities (Lfv;Lme;)V

@@ -1,0 +1,7 @@
+CLASS ex net/minecraft/server/PendingConnection$1
+	FIELD a val$packet Lan;
+	FIELD b this$0 Lhc;
+	METHOD <init> (Lhc;Lan;)V
+		ARG 1 this$0
+		ARG 2 val$packet
+	METHOD run run ()V

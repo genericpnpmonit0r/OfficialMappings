@@ -1,0 +1,30 @@
+CLASS fa net/minecraft/world/phys/AABB
+	FIELD a x0 D
+	FIELD b y0 D
+	FIELD c z0 D
+	FIELD d x1 D
+	FIELD e y1 D
+	FIELD f z1 D
+	FIELD g pool Ljava/util/List;
+	FIELD h poolPointer I
+	METHOD a resetPool ()V
+	METHOD a expand (DDD)Lfa;
+	METHOD a newPermanent (DDDDDD)Lfa;
+	METHOD a containsX (Lbu;)Z
+	METHOD a clip (Lbu;Lbu;)Lih;
+		ARG 1 v0
+		ARG 2 v1
+	METHOD a intersects (Lfa;)Z
+	METHOD a clipXCollide (Lfa;D)D
+	METHOD b copy ()Lfa;
+	METHOD b grow (DDD)Lfa;
+	METHOD b newTemp (DDDDDD)Lfa;
+	METHOD b containsY (Lbu;)Z
+	METHOD b set (Lfa;)V
+	METHOD b clipYCollide (Lfa;D)D
+	METHOD c cloneMove (DDD)Lfa;
+	METHOD c set (DDDDDD)Lfa;
+	METHOD c containsZ (Lbu;)Z
+	METHOD c clipZCollide (Lfa;D)D
+	METHOD d move (DDD)Lfa;
+	METHOD e shrink (DDD)Lfa;

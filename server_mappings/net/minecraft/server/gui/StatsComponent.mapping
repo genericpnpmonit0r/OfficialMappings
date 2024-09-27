@@ -1,0 +1,9 @@
+CLASS ll net/minecraft/server/gui/StatsComponent
+	FIELD a memoryUse [I
+	FIELD b p I
+	FIELD c messages [Ljava/lang/String;
+	METHOD a tick ()V
+	METHOD a access$000 (Lll;)V
+		ARG 0 this$0
+	METHOD paint paint (Ljava/awt/Graphics;)V
+		ARG 1 g

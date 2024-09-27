@@ -1,0 +1,3 @@
+CLASS hj net/minecraft/world/inventory/Slot
+	FIELD c index I
+	METHOD c getItem ()Ljl;

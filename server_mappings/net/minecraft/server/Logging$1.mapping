@@ -1,0 +1,4 @@
+CLASS jx net/minecraft/server/Logging$1
+	FIELD a df Ljava/text/SimpleDateFormat;
+	METHOD format format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+		ARG 1 record

@@ -1,0 +1,2 @@
+CLASS kd net/minecraft/world/entity/item/FallingTile
+	FIELD a tile I

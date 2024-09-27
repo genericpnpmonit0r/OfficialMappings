@@ -1,0 +1,25 @@
+CLASS ly net/minecraft/server/ServerChunkCache
+	FIELD a droppedChunks Ljava/util/Set;
+	FIELD b emptyChunk Lme;
+	FIELD c source Lcq;
+	FIELD d storage Lbj;
+	FIELD e loadedChunks Ljava/util/Map;
+	FIELD f loadedChunkList Ljava/util/List;
+	FIELD g level Lgc;
+	METHOD <init> (Lgc;Lbj;Lcq;)V
+		ARG 1 level
+		ARG 2 storage
+		ARG 3 source
+	METHOD a saveEntities (Lme;)V
+		ARG 1 chunk
+	METHOD b save (Lme;)V
+		ARG 1 chunk
+	METHOD c drop (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD d create (II)Lme;
+		ARG 1 x
+		ARG 2 z
+	METHOD e load (II)Lme;
+		ARG 1 x
+		ARG 2 z

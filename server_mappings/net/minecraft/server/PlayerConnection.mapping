@@ -1,0 +1,30 @@
+CLASS lp net/minecraft/server/PlayerConnection
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b connection Lca;
+	FIELD c disconnected Z
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e player Lfy;
+	FIELD f tickCount I
+	FIELD g x D
+	FIELD h y D
+	FIELD i z D
+	FIELD j moving Z
+	FIELD k containerUidMap Ljava/util/Map;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lca;Lfy;)V
+		ARG 1 server
+		ARG 2 connection
+		ARG 3 player
+	METHOD a tick ()V
+	METHOD a moveTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD b countDelayedPackets ()I
+	METHOD b send (Lkx;)V
+		ARG 1 packet
+	METHOD c command (Ljava/lang/String;)V
+		ARG 1 command

@@ -1,0 +1,11 @@
+CLASS az com/mojang/nbt/NbtIo
+	METHOD a write (Lah;Ljava/io/DataOutput;)V
+		ARG 0 tag
+		ARG 1 dos
+	METHOD a writeCompressed (Lah;Ljava/io/OutputStream;)V
+		ARG 0 tag
+		ARG 1 dos
+	METHOD a read (Ljava/io/DataInput;)Lah;
+		ARG 0 dis
+	METHOD a readCompressed (Ljava/io/InputStream;)Lah;
+		ARG 0 dis

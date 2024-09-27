@@ -1,2 +1,0 @@
-CLASS sp com/mojang/nbt/ListTag
-	METHOD a get (I)Lij;

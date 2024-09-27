@@ -1,0 +1,12 @@
+CLASS ei net/minecraft/world/inventory/AbstractContainerMenu
+	FIELD e slots Ljava/util/List;
+	FIELD f containerId I
+	METHOD a broadcastChanges ()V
+	METHOD a getSlot (I)Lhj;
+	METHOD a clicked (IILhl;)Ljl;
+	METHOD a addSlotListener (Lep;)V
+	METHOD a removed (Lhl;)V
+	METHOD a setSynched (Lhl;Z)V
+	METHOD a getSlotFor (Lmn;I)Lhj;
+	METHOD b stillValid (Lhl;)Z
+	METHOD c isSynched (Lhl;)Z

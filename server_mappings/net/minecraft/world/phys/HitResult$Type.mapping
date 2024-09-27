@@ -1,0 +1,3 @@
+CLASS jr net/minecraft/world/phys/HitResult$Type
+	FIELD a TILE Ljr;
+	FIELD b ENTITY Ljr;

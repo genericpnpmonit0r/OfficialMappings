@@ -1,0 +1,8 @@
+CLASS mi net/minecraft/server/ServerChunkCache$ChunkPos
+	FIELD a x I
+	FIELD b z I
+	METHOD <init> (II)V
+		ARG 1 x
+		ARG 2 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

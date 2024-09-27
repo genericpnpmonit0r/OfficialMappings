@@ -1,0 +1,32 @@
+CLASS fy net/minecraft/server/ServerPlayer
+	FIELD a connection Llp;
+	FIELD ak loadedChunks Ljava/util/Set;
+	FIELD al yView D
+	FIELD am containerPendingChanges Z
+	FIELD bD lastHealth I
+	FIELD bE invulnerableTicks I
+	FIELD bF equipmentSlot [Ljl;
+	FIELD bG containerId I
+	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD c gameMode Lmd;
+	FIELD d xChunk D
+	FIELD e zChunk D
+	FIELD f chunks Ljava/util/List;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lfv;Ljava/lang/String;Lmd;)V
+		ARG 1 mcs
+		ARG 2 level
+		ARG 3 name
+		ARG 4 gameMode
+	METHOD M broadcastCarriedItem ()V
+	METHOD N doCloseContainer ()V
+	METHOD U nextContainerCounter ()V
+	METHOD a getCarried (I)Ljl;
+		ARG 1 selected
+	METHOD a broadcast (Lbm;)V
+		ARG 1 tileEntity
+	METHOD b doCheckFallDamage (DZ)V
+		ARG 1 a
+		ARG 3 b
+	METHOD j touch (Lfe;)V
+	METHOD l initMenu ()V
+	METHOD n doChunkSendingTick ()V

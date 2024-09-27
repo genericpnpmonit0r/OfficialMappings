@@ -1,0 +1,2 @@
+CLASS gg net/minecraft/SharedConstants
+	FIELD a acceptableLetters Ljava/lang/String;

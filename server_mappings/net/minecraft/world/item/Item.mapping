@@ -1,0 +1,12 @@
+CLASS hg net/minecraft/world/item/Item
+	FIELD a craftingRemainingItem Lhg;
+	FIELD b random Ljava/util/Random;
+	FIELD ba id I
+	FIELD bb maxStackSize I
+	FIELD bc maxDamage I
+	FIELD bd icon I
+	FIELD be handEquipped Z
+	FIELD bf isStackedByData Z
+	FIELD bg descriptionId Ljava/lang/String;
+	FIELD c items [Lhg;
+	FIELD h apple Lhg;

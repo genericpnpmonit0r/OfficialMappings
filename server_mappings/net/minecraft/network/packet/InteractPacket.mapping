@@ -1,0 +1,3 @@
+CLASS a net/minecraft/network/packet/InteractPacket
+	FIELD b target I
+	FIELD c action I

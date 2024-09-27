@@ -1,0 +1,102 @@
+CLASS fe net/minecraft/world/entity/Entity
+	FIELD A onGround Z
+	FIELD B horizontalCollision Z
+	FIELD C verticalCollision Z
+	FIELD D collision Z
+	FIELD E hurtMarked Z
+	FIELD F slide Z
+	FIELD G removed Z
+	FIELD H heightOffset F
+	FIELD I bbWidth F
+	FIELD J bbHeight F
+	FIELD K walkDistO F
+	FIELD L walkDist F
+	FIELD M makeStepsound Z
+	FIELD N fallDistance F
+	FIELD O xOld D
+	FIELD P yOld D
+	FIELD Q zOld D
+	FIELD R ySlideOffset F
+	FIELD S footSize F
+	FIELD T noPhysics Z
+	FIELD U pushthrough F
+	FIELD V hovered Z
+	FIELD W random Ljava/util/Random;
+	FIELD X tickCount I
+	FIELD Y flameTime I
+	FIELD Z onFire I
+	FIELD a entityCounter I
+	FIELD aa airCapacity I
+	FIELD ab wasInWater Z
+	FIELD ac invulnerableTime I
+	FIELD ad airSupply I
+	FIELD ae fireImmune Z
+	FIELD af entityData Lgx;
+	FIELD ag inChunk Z
+	FIELD ah xChunk I
+	FIELD ai yChunk I
+	FIELD aj zChunk I
+	FIELD b nextStep I
+	FIELD c firstTick Z
+	FIELD d xRideRotA D
+	FIELD e yRideRotA D
+	FIELD g entityId I
+	FIELD h viewScale D
+	FIELD i blocksBuilding Z
+	FIELD j rider Lfe;
+	FIELD k riding Lfe;
+	FIELD l level Lfv;
+	FIELD m xo D
+	FIELD n yo D
+	FIELD o zo D
+	FIELD p x D
+	FIELD q y D
+	FIELD r z D
+	FIELD s xd D
+	FIELD t yd D
+	FIELD u zd D
+	FIELD v yRot F
+	FIELD w xRot F
+	FIELD x yRotO F
+	FIELD y xRotO F
+	FIELD z bb Lfa;
+	METHOD <init> (Lfv;)V
+		ARG 1 levle
+	METHOD D rideTick ()V
+	METHOD E positionRider ()V
+	METHOD F getRidingHeight ()D
+	METHOD I getEquipmentSlots ()[Ljl;
+	METHOD a defineSynchedData ()V
+	METHOD a setPos (DDD)V
+	METHOD a checkFallDamage (DZ)V
+		ARG 1 a
+		ARG 3 b
+	METHOD a setSize (FF)V
+	METHOD a addAdditionalSaveData (Lah;)V
+		ARG 1 entityTag
+	METHOD a hurt (Lfe;I)Z
+		ARG 1 entity
+		ARG 2 dmg
+	METHOD a interact (Lhl;)Z
+	METHOD a isUnderLiquid (Lmh;)Z
+	METHOD b absMoveTo (DDDFF)V
+	METHOD b readAdditionalSaveData (Lah;)V
+		ARG 1 tag
+	METHOD b awardKillScore (Lfe;I)V
+		ARG 1 entity
+		ARG 2 score
+	METHOD b playerTouch (Lhl;)V
+	METHOD b setSneaking (Z)V
+	METHOD b_ tick ()V
+	METHOD c move (DDD)V
+	METHOD c moveTo (DDDFF)V
+	METHOD d distanceToSqr (DDD)D
+	METHOD d saveWithoutId (Lah;)V
+	METHOD e load (Lah;)V
+	METHOD e ride (Lfe;)V
+		ARG 1 e
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD p getEntityData ()Lgx;
+	METHOD q remove ()V
+	METHOD w getHeadHeight ()F

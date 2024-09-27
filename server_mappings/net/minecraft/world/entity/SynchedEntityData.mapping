@@ -1,0 +1,3 @@
+CLASS gx net/minecraft/world/entity/SynchedEntityData
+	METHOD a isDirty ()Z
+	METHOD a define (ILjava/lang/Object;)V

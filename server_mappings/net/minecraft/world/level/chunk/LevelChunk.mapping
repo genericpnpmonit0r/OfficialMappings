@@ -1,0 +1,11 @@
+CLASS me net/minecraft/world/level/chunk/LevelChunk
+	FIELD n terrainPopulated Z
+	FIELD o unsaved Z
+	FIELD p dontSave Z
+	FIELD r lastSaveTime J
+	METHOD a shouldSave (Z)Z
+	METHOD b removeEntity (Lfe;)V
+	METHOD c lightLava ()V
+	METHOD d load ()V
+	METHOD e unload ()V
+	METHOD f markUnsaved ()V

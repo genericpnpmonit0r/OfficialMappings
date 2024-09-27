@@ -1,0 +1,5 @@
+CLASS hh net/minecraft/network/packet/SignUpdatePacket
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d lines [Ljava/lang/String;

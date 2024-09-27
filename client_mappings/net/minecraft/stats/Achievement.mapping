@@ -1,4 +1,0 @@
-CLASS ny net/minecraft/stats/Achievement
-	FIELD c parent Lny;
-	FIELD m requirementsStrategy Lgt;
-	METHOD a requirements (Lgt;)Lny;

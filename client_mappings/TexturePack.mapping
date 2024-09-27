@@ -1,3 +1,0 @@
-CLASS i TexturePack
-	FIELD a name Ljava/lang/String;
-	FIELD b desc Ljava/lang/String;

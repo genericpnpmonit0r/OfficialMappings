@@ -1,0 +1,34 @@
+CLASS kj net/minecraft/server/PlayerChunkMap
+	FIELD a players Ljava/util/List;
+	FIELD b chunkMap Lgm;
+	FIELD c chunks Ljava/util/List;
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD a tick ()V
+	METHOD a tileChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a inRange (IIII)Z
+		ARG 1 x0
+		ARG 2 z0
+		ARG 3 x1
+		ARG 4 z1
+	METHOD a getChunk (IIZ)Lat;
+		ARG 1 x
+		ARG 2 z
+		ARG 3 create
+	METHOD a add (Lfy;)V
+		ARG 1 player
+	METHOD a access$000 (Lkj;)Lnet/minecraft/server/MinecraftServer;
+		ARG 0 this$0
+	METHOD b getRadius ()I
+	METHOD b remove (Lfy;)V
+		ARG 1 player
+	METHOD b access$100 (Lkj;)Lgm;
+		ARG 0 this$0
+	METHOD c move (Lfy;)V
+		ARG 1 player
+	METHOD c access$200 (Lkj;)Ljava/util/List;
+		ARG 0 this$0

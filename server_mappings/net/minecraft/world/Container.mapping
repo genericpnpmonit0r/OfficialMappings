@@ -1,0 +1,6 @@
+CLASS mn net/minecraft/world/Container
+	METHOD a setItem (ILjl;)V
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b removeItem (II)Ljl;
+	METHOD d setChanged ()V
+	METHOD h_ getContainerSize ()I

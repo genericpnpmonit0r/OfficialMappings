@@ -1,0 +1,59 @@
+CLASS hl net/minecraft/world/entity/player/Player
+	FIELD aA zCloakO D
+	FIELD aB xCloak D
+	FIELD aC yCloak D
+	FIELD aD zCloak D
+	FIELD aE fishing Lmq;
+	FIELD a dmgSpill I
+	FIELD an inventory Lji;
+	FIELD ao inventoryMenu Lei;
+	FIELD ap containerMenu Lei;
+	FIELD aq userType B
+	FIELD ar score I
+	FIELD as oBob F
+	FIELD at bob F
+	FIELD au swinging Z
+	FIELD av swingTime I
+	FIELD aw name Ljava/lang/String;
+	FIELD ax dimension I
+	FIELD ay xCloakO D
+	FIELD az yCloakO D
+	METHOD K swing ()V
+	METHOD L closeContainer ()V
+	METHOD O drop ()V
+	METHOD P getSelectedItem ()Ljl;
+	METHOD Q removeSelectedItem ()V
+	METHOD a startCrafting (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a openTrap (Lbf;)V
+		ARG 1 trap
+	METHOD a openFurnace (Lez;)V
+		ARG 1 furnace
+	METHOD a getDestroySpeed (Lhr;)F
+		ARG 1 tile
+	METHOD a reallyDrop (Lic;)V
+		ARG 1 item
+	METHOD a carriedChanged (Ljl;)V
+		ARG 1 item
+	METHOD a drop (Ljl;Z)V
+		ARG 1 item
+		ARG 2 b
+	METHOD a openTextEdit (Llv;)V
+		ARG 1 sign
+	METHOD a openContainer (Lmn;)V
+		ARG 1 container
+	METHOD b canDestroy (Lhr;)Z
+		ARG 1 tile
+	METHOD b drop (Ljl;)V
+		ARG 1 item
+	METHOD c take (Lfe;I)V
+		ARG 1 e
+		ARG 2 orgCount
+	METHOD g interact (Lfe;)V
+		ARG 1 entity
+	METHOD h attack (Lfe;)V
+		ARG 1 entity
+	METHOD j touch (Lfe;)V
+		ARG 1 entity

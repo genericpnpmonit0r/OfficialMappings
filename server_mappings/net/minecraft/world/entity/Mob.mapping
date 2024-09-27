@@ -1,0 +1,19 @@
+CLASS mj net/minecraft/world/entity/Mob
+	FIELD aP textureName Ljava/lang/String;
+	FIELD aR rotOffs F
+	FIELD aS modelName Ljava/lang/String;
+	FIELD aY attackAnim F
+	FIELD aZ health I
+	FIELD bA jumping Z
+	FIELD bd hurtDir F
+	FIELD bh tilt F
+	FIELD bw noActionTime I
+	METHOD d updateAi ()V
+	METHOD d heal (I)V
+		ARG 1 heal
+	METHOD e actuallyHurt (I)V
+		ARG 1 dmg
+	METHOD f die (Lfe;)V
+		ARG 1 entity
+	METHOD i canSee (Lfe;)Z
+	METHOD o aiStep ()V

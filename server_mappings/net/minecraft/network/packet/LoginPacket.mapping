@@ -1,0 +1,4 @@
+CLASS an net/minecraft/network/packet/LoginPacket
+	FIELD a clientVersion I
+	FIELD b userName Ljava/lang/String;
+	FIELD c loginKey Ljava/lang/String;

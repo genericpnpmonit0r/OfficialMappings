@@ -1,2 +1,0 @@
-CLASS gv net/minecraft/client/renderer/entity/MobRenderer
-	METHOD a getFlipDegrees (Lls;)F

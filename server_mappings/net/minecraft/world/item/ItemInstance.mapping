@@ -1,0 +1,14 @@
+CLASS jl net/minecraft/world/item/ItemInstance
+	FIELD a count I
+	FIELD b popTime I
+	FIELD c id I
+	FIELD d auxValue I
+	METHOD a mineBlock (IIII)V
+	METHOD a use (Lfv;Lhl;)Ljl;
+	METHOD a snap (Lhl;)V
+	METHOD a useOn (Lhl;Lfv;IIII)Z
+	METHOD a matches (Ljl;Ljl;)Z
+	METHOD a hurtEnemy (Lmj;)V
+	METHOD b clone (Ljl;)Ljl;
+	METHOD b interactEnemy (Lmj;)V
+	METHOD h getAuxValue ()I

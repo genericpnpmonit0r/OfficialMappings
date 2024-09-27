@@ -1,0 +1,2 @@
+CLASS gv net/minecraft/network/packet/PlayerCommandPacket
+	FIELD b action I

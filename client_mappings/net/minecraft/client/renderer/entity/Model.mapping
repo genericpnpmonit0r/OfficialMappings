@@ -1,3 +1,0 @@
-CLASS ko net/minecraft/client/renderer/entity/Model
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V

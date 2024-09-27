@@ -1,0 +1,23 @@
+CLASS kx net/minecraft/network/packet/Packet
+	FIELD a idToClassMap Ljava/util/Map;
+	FIELD b classToIdMap Ljava/util/Map;
+	FIELD k createTime J
+	FIELD l shouldDelay Z
+	METHOD a getEstimatedSize ()I
+	METHOD a getPacket (I)Lkx;
+		ARG 0 id
+	METHOD a map (ILjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 c
+	METHOD a handle (Lgi;)V
+		ARG 1 packetListener
+	METHOD a read (Ljava/io/DataInputStream;)V
+		ARG 1 dis
+	METHOD a write (Ljava/io/DataOutputStream;)V
+		ARG 1 dos
+	METHOD a writePacket (Lkx;Ljava/io/DataOutputStream;)V
+		ARG 0 packet
+		ARG 1 dos
+	METHOD b getId ()I
+	METHOD b readPAcket (Ljava/io/DataInputStream;)Lkx;
+		ARG 0 dis

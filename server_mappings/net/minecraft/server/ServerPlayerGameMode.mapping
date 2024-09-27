@@ -1,0 +1,42 @@
+CLASS md net/minecraft/server/ServerPlayerGameMode
+	FIELD a player Lhl;
+	FIELD b level Lfv;
+	FIELD c oDestroyProgress F
+	FIELD d destroyProgress F
+	FIELD e destroyDelay I
+	FIELD f destroyTicks F
+	FIELD g xDestroyBlock I
+	FIELD h yDestroyBlock I
+	FIELD i zDestroyBlock I
+	METHOD <init> (Lfv;)V
+		ARG 1 level
+	METHOD a stopDestroyBlock ()V
+	METHOD a startDestroyBlock (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a continueDestroyBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD a useItem (Lhl;Lfv;Ljl;)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+	METHOD a useItemOn (Lhl;Lfv;Ljl;IIII)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD b superDestroyBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c destroyBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

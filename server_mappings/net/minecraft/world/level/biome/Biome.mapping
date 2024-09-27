@@ -1,0 +1,2 @@
+CLASS kt net/minecraft/world/level/biome/Biome
+	FIELD l hell Lkt;

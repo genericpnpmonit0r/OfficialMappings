@@ -1,0 +1,2 @@
+CLASS bz net/minecraft/network/packet/ChatPacket
+	FIELD a message Ljava/lang/String;

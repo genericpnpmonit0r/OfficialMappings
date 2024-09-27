@@ -1,3 +1,0 @@
-CLASS et argo/saj/ThingWithPosition
-	METHOD a getColumn ()I
-	METHOD b getRow ()I

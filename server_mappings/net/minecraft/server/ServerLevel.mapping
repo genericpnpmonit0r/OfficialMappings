@@ -1,0 +1,23 @@
+CLASS gc net/minecraft/server/ServerLevel
+	FIELD A serverChunkCache Lly;
+	FIELD B canInteract Z
+	FIELD C levelSavingDisabled Z
+	FIELD D server Lnet/minecraft/server/MinecraftServer;
+	FIELD E entitiesById Lkh;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/io/File;Ljava/lang/String;I)V
+		ARG 1 server
+		ARG 2 workDir
+		ARG 3 name
+		ARG 4 dimension
+	METHOD a getEntity (I)Lfe;
+		ARG 1 id
+	METHOD b forceTick (Lfe;Z)V
+		ARG 1 e
+		ARG 2 b
+	METHOD d getTileEntities (IIIIII)Ljava/util/List;
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1

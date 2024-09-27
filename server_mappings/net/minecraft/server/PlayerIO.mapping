@@ -1,0 +1,9 @@
+CLASS dy net/minecraft/server/PlayerIO
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b dir Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 dir
+	METHOD a save (Lfy;)V
+		ARG 1 player
+	METHOD b load (Lfy;)V
+		ARG 1 player

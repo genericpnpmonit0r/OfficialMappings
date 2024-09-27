@@ -1,0 +1,16 @@
+CLASS cq net/minecraft/world/level/chunk/ChunkSource
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a postProcess (Lcq;II)V
+		ARG 1 parent
+		ARG 2 x
+		ARG 3 z
+	METHOD a save (ZLlk;)Z
+		ARG 1 force
+		ARG 2 progress
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lme;
+		ARG 1 x
+		ARG 2 z

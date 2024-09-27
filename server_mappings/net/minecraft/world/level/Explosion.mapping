@@ -1,0 +1,2 @@
+CLASS dg net/minecraft/world/level/Explosion
+	FIELD g toBlow Ljava/util/Set;

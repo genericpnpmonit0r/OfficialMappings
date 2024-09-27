@@ -1,0 +1,17 @@
+CLASS ef net/minecraft/server/Settings
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b properties Ljava/util/Properties;
+	FIELD c file Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a recreate ()V
+	METHOD a getInt (Ljava/lang/String;I)I
+		ARG 1 str
+		ARG 2 def
+	METHOD a getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 str
+		ARG 2 def
+	METHOD a getBoolean (Ljava/lang/String;Z)Z
+		ARG 1 str
+		ARG 2 def
+	METHOD b save ()V

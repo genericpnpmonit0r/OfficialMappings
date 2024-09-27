@@ -1,0 +1,101 @@
+CLASS fv net/minecraft/world/level/Level
+	FIELD A lightUpdates Ljava/util/List;
+	FIELD B entitiesToRemove Ljava/util/List;
+	FIELD C tickNextTickList Ljava/util/TreeSet;
+	FIELD D tickNextTickSet Ljava/util/Set;
+	FIELD E cloudColor J
+	FIELD F sessionId J
+	FIELD G chunkSource Lcq;
+	FIELD H loadedPlayerTag Lah;
+	FIELD I boxes Ljava/util/ArrayList;
+	FIELD J maxRecurse I
+	FIELD K spawnEnemies Z
+	FIELD L spawnFriendlies Z
+	FIELD M chunksToPoll Ljava/util/Set;
+	FIELD N delayUntilNextMoodSound I
+	FIELD O es Ljava/util/List;
+	FIELD a instaTick Z
+	FIELD b entities Ljava/util/List;
+	FIELD c tileEntityList Ljava/util/List;
+	FIELD d players Ljava/util/List;
+	FIELD e time J
+	FIELD f skyDarken I
+	FIELD g randValue I
+	FIELD h addend I
+	FIELD i noNeighborUpdate Z
+	FIELD j saveInterval I
+	FIELD k difficulty I
+	FIELD l random Ljava/util/Random;
+	FIELD m xSpawn I
+	FIELD n ySpawn I
+	FIELD o zSpawn I
+	FIELD p isNew Z
+	FIELD q dimension Lko;
+	FIELD r listeners Ljava/util/List;
+	FIELD s workDir Ljava/io/File;
+	FIELD t dir Ljava/io/File;
+	FIELD u seed J
+	FIELD v sizeOnDisk J
+	FIELD w name Ljava/lang/String;
+	FIELD x isFindingSpawn Z
+	FIELD y maxLoop I
+	FIELD z isOnline Z
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;JLko;)V
+		ARG 1 workDir
+		ARG 2 name
+		ARG 3 seed
+		ARG 5 dimension
+	METHOD a getBiomeSource ()Llg;
+	METHOD a getTopTile (II)I
+	METHOD a addListener (Lce;)V
+	METHOD a addEntity (Lfe;)Z
+	METHOD a broadcastEntityEvent (Lfe;B)V
+		ARG 1 entity
+		ARG 2 event
+	METHOD a explode (Lfe;DDDFZ)Ldg;
+		ARG 1 source
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 r
+		ARG 9 fire
+	METHOD a getCubes (Lfe;Lfa;)Ljava/util/List;
+	METHOD a tick (Lfe;Z)V
+		ARG 1 e
+		ARG 2 b
+	METHOD a mayInteract (Lhl;III)Z
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a createChunkSource (Ljava/io/File;)Lcq;
+		ARG 1 workDir
+	METHOD a save (ZLlk;)V
+	METHOD a setSpawnSettings (ZZ)V
+	METHOD b entityAdded (Lfe;)V
+		ARG 1 entity
+	METHOD b getEntities (Lfe;Lfa;)Ljava/util/List;
+	METHOD c tickEntities ()V
+	METHOD c getChunk (II)Lme;
+	METHOD c tileEvent (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 b0
+		ARG 5 b1
+	METHOD c entityRemoved (Lfe;)V
+		ARG 1 entity
+	METHOD d updateLights ()Z
+	METHOD d removeEntity (Lfe;)V
+		ARG 1 entity
+	METHOD e getTopSolidBlock (II)I
+	METHOD e setTile (IIII)Z
+	METHOD e removeEntityImmediately (Lfe;)V
+		ARG 1 entity
+	METHOD f tick ()V
+	METHOD f hasChunk (II)Z
+	METHOD f hasChunkAt (III)Z
+	METHOD f tick (Lfe;)V
+		ARG 1 e
+	METHOD g sendTileUpdated (III)V
+	METHOD m getTileEntity (III)Lbm;

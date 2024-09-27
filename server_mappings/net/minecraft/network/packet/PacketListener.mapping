@@ -1,0 +1,65 @@
+CLASS gi net/minecraft/network/packet/PacketListener
+	METHOD a handleInteract (La;)V
+		ARG 1 packet
+	METHOD a handleRidePacket (Lab;)V
+	METHOD a handleLogin (Lan;)V
+		ARG 1 packet
+	METHOD a handleContainerAck (Lbd;)V
+		ARG 1 packet
+	METHOD a handleRespawn (Lbo;)V
+		ARG 1 packet
+	METHOD a handleChat (Lbz;)V
+		ARG 1 packet
+	METHOD a handleContainerClick (Ldc;)V
+		ARG 1 packet
+	METHOD a handleSetSpawn (Ldm;)V
+	METHOD a handleTeleportEntity (Ldp;)V
+	METHOD a handleTakeItemEntity (Ldq;)V
+	METHOD a handleExplosion (Ldx;)V
+	METHOD a handleAddPlayer (Le;)V
+	METHOD a handleRemoveEntity (Leh;)V
+	METHOD a handleBlockRegionUpdate (Ler;)V
+	METHOD a handleAddPlayer (Leu;)V
+	METHOD a handleAddEntity (Lfg;)V
+	METHOD a handleSetHealth (Lfj;)V
+	METHOD a handlePlayerCommand (Lgv;)V
+		ARG 1 packet
+	METHOD a handleTileUpdate (Lgw;)V
+	METHOD a handleContainerClose (Lh;)V
+		ARG 1 packet
+	METHOD a handleMoveEntity (Lhd;)V
+	METHOD a handleSetEntityMotion (Lhe;)V
+	METHOD a handleSignUpdate (Lhh;)V
+		ARG 1 packet
+	METHOD a handleUseItem (Lhp;)V
+		ARG 1 packet
+	METHOD a handleSetEntityData (Lhx;)V
+	METHOD a handleSetTime (Lhz;)V
+	METHOD a handleSetCarriedItem (Lik;)V
+		ARG 1 packet
+	METHOD a handleContainerSetSlot (Lin;)V
+	METHOD a handleMovePlayer (Liv;)V
+		ARG 1 packet
+	METHOD a handlePreLogin (Lj;)V
+		ARG 1 packet
+	METHOD a handleAddPainting (Lja;)V
+	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 reasonObjects
+	METHOD a handleTileEvent (Ljd;)V
+	METHOD a handleContainerOpen (Ljh;)V
+	METHOD a handleEntityEvent (Ljo;)V
+	METHOD a handleAddMob (Ljv;)V
+	METHOD a handlePlayerAction (Lkf;)V
+		ARG 1 packet
+	METHOD a handleChunkTilesUpdate (Lkl;)V
+	METHOD a handleContainerContent (Lkn;)V
+	METHOD a onUnhandledPacket (Lkx;)V
+		ARG 1 packet
+	METHOD a handleDisconnect (Lmf;)V
+		ARG 1 packet
+	METHOD a handleContainerSetData (Lp;)V
+	METHOD a handleAddItemEntity (Lr;)V
+	METHOD a handleSetEquippedItem (Lv;)V
+	METHOD a handleAnimate (Lz;)V
+		ARG 1 packet

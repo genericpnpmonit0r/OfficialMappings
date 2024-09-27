@@ -1,0 +1,2 @@
+CLASS mh net/minecraft/world/level/material/Material
+	FIELD f water Lmh;

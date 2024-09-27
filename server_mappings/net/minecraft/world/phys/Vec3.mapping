@@ -1,0 +1,19 @@
+CLASS bu net/minecraft/world/phys/Vec3
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d pool Ljava/util/List;
+	FIELD e poolPointer I
+	METHOD a resetPool ()V
+	METHOD a newPermanent (DDD)Lbu;
+	METHOD a distanceTo (Lbu;)D
+	METHOD a clipX (Lbu;D)Lbu;
+	METHOD b normalize ()Lbu;
+	METHOD b newTemp (DDD)Lbu;
+	METHOD b distanceToSqr (Lbu;)D
+	METHOD b clipY (Lbu;D)Lbu;
+	METHOD c length ()D
+	METHOD c add (DDD)Lbu;
+	METHOD c clipZ (Lbu;D)Lbu;
+	METHOD d distanceToSqr (DDD)D
+	METHOD e set (DDD)Lbu;

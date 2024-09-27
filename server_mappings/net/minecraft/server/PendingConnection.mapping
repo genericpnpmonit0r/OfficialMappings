@@ -1,0 +1,25 @@
+CLASS hc net/minecraft/server/PendingConnection
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b connection Lca;
+	FIELD c done Z
+	FIELD d random Ljava/util/Random;
+	FIELD e server Lnet/minecraft/server/MinecraftServer;
+	FIELD f tickCount I
+	FIELD g userName Ljava/lang/String;
+	FIELD h loginPacket Lan;
+	FIELD i key Ljava/lang/String;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Ljava/net/Socket;Ljava/lang/String;)V
+		ARG 1 server
+		ARG 2 socket
+		ARG 3 connectionName
+	METHOD a login ()V
+	METHOD a access$000 (Lhc;)Ljava/lang/String;
+		ARG 0 this$0
+	METHOD a access$100 (Lhc;Lan;)Lan;
+		ARG 0 this$0
+		ARG 1 val$packet
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD b getUserName ()Ljava/lang/String;
+	METHOD b handleAcceptedLogin (Lan;)V
+		ARG 1 packet

@@ -1,0 +1,6 @@
+CLASS cu net/minecraft/server/MinecraftServer$3
+	FIELD a this$0 Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 val$name
+		ARG 2 this$0
+	METHOD run run ()V

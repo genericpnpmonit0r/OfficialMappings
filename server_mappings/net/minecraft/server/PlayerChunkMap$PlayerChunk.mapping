@@ -1,0 +1,31 @@
+CLASS at net/minecraft/server/PlayerChunkMap$PlayerChunk
+	FIELD a this$0 Lkj;
+	FIELD b players Ljava/util/List;
+	FIELD c x I
+	FIELD d z I
+	FIELD e pos Lmr;
+	FIELD f positions [S
+	FIELD g count I
+	FIELD h x0 I
+	FIELD i x1 I
+	FIELD j y0 I
+	FIELD k y1 I
+	FIELD l z0 I
+	FIELD m z1 I
+	METHOD <init> (Lkj;II)V
+		ARG 1 this$0
+		ARG 2 x
+		ARG 3 z
+	METHOD a tick ()V
+	METHOD a tileChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a broadcast (Lbm;)V
+		ARG 1 te
+	METHOD a add (Lfy;)V
+		ARG 1 player
+	METHOD a broadcast (Lkx;)V
+		ARG 1 packet
+	METHOD b remove (Lfy;)V
+		ARG 1 player

@@ -1,3 +1,0 @@
-CLASS qw net/minecraft/world/entity/item/PrimedTnt
-	FIELD a fuse I
-	METHOD k explode ()V

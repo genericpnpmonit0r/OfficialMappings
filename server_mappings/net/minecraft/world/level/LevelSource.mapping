@@ -1,0 +1,3 @@
+CLASS la net/minecraft/world/level/LevelSource
+	METHOD a getTile (III)I
+	METHOD b getData (III)I

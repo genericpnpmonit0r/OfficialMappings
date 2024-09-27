@@ -1,0 +1,4 @@
+CLASS gm util/LongHashMap
+	METHOD a get (J)Ljava/lang/Object;
+	METHOD a put (JLjava/lang/Object;)V
+	METHOD b remove (J)Ljava/lang/Object;

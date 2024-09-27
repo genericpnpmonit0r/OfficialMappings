@@ -1,0 +1,3 @@
+CLASS ix com/mojang/nbt/Tag
+	METHOD a writeNamedTag (Lix;Ljava/io/DataOutput;)V
+	METHOD b readNamedTag (Ljava/io/DataInput;)Lix;

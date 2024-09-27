@@ -1,0 +1,5 @@
+CLASS cv net/minecraft/server/MinecraftServer$2
+	FIELD a this$0 Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 this$0
+	METHOD run run ()V

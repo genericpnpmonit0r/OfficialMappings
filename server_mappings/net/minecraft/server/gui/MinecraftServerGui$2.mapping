@@ -1,0 +1,6 @@
+CLASS ak net/minecraft/server/gui/MinecraftServerGui$2
+	FIELD a this$0 Lid;
+	METHOD <init> (Lid;)V
+		ARG 1 this$0
+	METHOD focusGained focusGained (Ljava/awt/event/FocusEvent;)V
+		ARG 1 e

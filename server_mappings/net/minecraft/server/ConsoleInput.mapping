@@ -1,0 +1,6 @@
+CLASS ba net/minecraft/server/ConsoleInput
+	FIELD a msg Ljava/lang/String;
+	FIELD b source Lgd;
+	METHOD <init> (Ljava/lang/String;Lgd;)V
+		ARG 1 msg
+		ARG 2 source

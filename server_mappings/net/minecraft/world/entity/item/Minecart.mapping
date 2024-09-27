@@ -1,0 +1,2 @@
+CLASS lw net/minecraft/world/entity/item/Minecart
+	FIELD d type I

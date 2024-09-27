@@ -1,0 +1,80 @@
+CLASS ii net/minecraft/server/PlayerList
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b players Ljava/util/List;
+	FIELD c minecraftServer Lnet/minecraft/server/MinecraftServer;
+	FIELD d playerChunkMap Lkj;
+	FIELD e maxPlayers I
+	FIELD f bannedPlayers Ljava/util/Set;
+	FIELD g bannedIps Ljava/util/Set;
+	FIELD h ops Ljava/util/Set;
+	FIELD i bannedPlayersFile Ljava/io/File;
+	FIELD j bannedIpsFile Ljava/io/File;
+	FIELD k opsFile Ljava/io/File;
+	FIELD l playerIo Ldy;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD a getMaxRange ()I
+	METHOD a broadcastAll (DDDDLkx;)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 radius
+		ARG 9 packet
+	METHOD a tileChanged (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a tileEntityChanged (IIILbm;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 te
+	METHOD a add (Lfy;)V
+		ARG 1 player
+	METHOD a setLevel (Lgc;)V
+		ARG 1 level
+	METHOD a placeNewPlayer (Lhc;Ljava/lang/String;Ljava/lang/String;)Lfy;
+		ARG 1 pendingConnection
+		ARG 2 name
+		ARG 3 loginKey
+	METHOD a ban (Ljava/lang/String;)V
+		ARG 1 player
+	METHOD a broadcast (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 name
+		ARG 2 message
+	METHOD a broadcast (Ljava/lang/String;Lkx;)Z
+		ARG 1 name
+		ARG 2 packet
+	METHOD a broadcastAll (Lkx;)V
+		ARG 1 packet
+	METHOD b tick ()V
+	METHOD b move (Lfy;)V
+		ARG 1 player
+	METHOD b pardon (Ljava/lang/String;)V
+		ARG 1 player
+	METHOD c getPlayers ()Ljava/lang/String;
+	METHOD c remove (Lfy;)V
+		ARG 1 player
+	METHOD c banIp (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD d saveAll ()V
+	METHOD d respawn (Lfy;)Lfy;
+		ARG 1 player
+	METHOD d pardonIp (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD e loadBannedPlayerList ()V
+	METHOD e addOp (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD f saveBannedPlayerList ()V
+	METHOD f removeOp (Ljava/lang/String;)V
+		ARG 1 playerName
+	METHOD g loadIpBanList ()V
+	METHOD g isOp (Ljava/lang/String;)Z
+		ARG 1 name
+	METHOD h saveIpBanList ()V
+	METHOD h getPlayer (Ljava/lang/String;)Lfy;
+		ARG 1 name
+	METHOD i loadOpsList ()V
+	METHOD i broadcastAllOps (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD j saveOpsList ()V
