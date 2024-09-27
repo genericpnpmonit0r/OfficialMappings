@@ -1,0 +1,7 @@
+CLASS gj net/minecraft/client/renderer/ptexture/LavaSideTexture
+	METHOD a tick ()V
+	FIELD g current [F
+	FIELD h next [F
+	FIELD i heat [F
+	FIELD j heata [F
+	FIELD k tickCount I

@@ -1,0 +1,46 @@
+CLASS tn net/minecraft/client/sound/SoundEngine
+	METHOD a updateOptions ()V
+	METHOD a init (Lih;)V
+		ARG 1 options
+	METHOD a update (Lja;F)V
+		ARG 1 player
+		ARG 2 a
+	METHOD a playUI (Ljava/lang/String;FF)V
+		ARG 1 name
+		ARG 2 volume
+		ARG 3 pitch
+	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD a add (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD b destroy ()V
+	METHOD b play (Ljava/lang/String;FFFFF)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 volume
+		ARG 6 pitch
+	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD c playMusicTick ()V
+	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD d loadLibrary ()V
+	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD b sounds Lfy;
+	FIELD c streamingSounds Lfy;
+	FIELD d songs Lfy;
+	FIELD e idCoutner I
+	FIELD f options Lih;
+	FIELD g loaded Z
+	FIELD h random Ljava/util/Random;
+	FIELD i noMusicDelay I

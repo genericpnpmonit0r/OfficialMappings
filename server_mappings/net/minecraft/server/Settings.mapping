@@ -13,7 +13,7 @@ CLASS jg net/minecraft/server/Settings
 	METHOD a getString (Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 		ARG 1 str
 		ARG 2 def
-	METHOD a setBoolean (Ljava/lang/String;Z)Z
+	METHOD a getBoolean (Ljava/lang/String;Z)Z
 		ARG 1 str
 		ARG 2 def
 	METHOD b save ()V

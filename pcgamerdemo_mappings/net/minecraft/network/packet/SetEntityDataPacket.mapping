@@ -1,0 +1,6 @@
+CLASS qq net/minecraft/network/packet/SetEntityDataPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	METHOD b getUnpackedData ()Ljava/util/List;
+	FIELD a id I
+	FIELD b packedItems Ljava/util/List;

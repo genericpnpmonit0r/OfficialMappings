@@ -1,0 +1,7 @@
+CLASS rw net/minecraft/world/level/tile/GrassTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a tick (Ldu;IIILjava/util/Random;)V
+	METHOD a getTexture (Lsp;IIII)I
+	METHOD b getColor (Lsp;III)I

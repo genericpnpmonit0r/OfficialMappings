@@ -1,0 +1,6 @@
+CLASS oi net/minecraft/world/inventory/TrapMenu
+	METHOD <init> (Ljd;Lak;)V
+		ARG 1 container
+		ARG 2 trap
+	METHOD b stillValid (Lff;)Z
+	FIELD a trap Lak;

@@ -1,0 +1,5 @@
+CLASS mx net/minecraft/client/particle/FlameParticle
+	METHOD a getBrightness (F)F
+	METHOD a render (Lkv;FFFFFF)V
+	METHOD q_ tick ()V
+	FIELD a oSize F

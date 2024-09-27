@@ -1,0 +1,24 @@
+CLASS sq net/minecraft/world/level/tile/DispenserTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTexture (I)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Ldu;IIII)V
+	METHOD a use (Ldu;IIILff;)Z
+	METHOD a setPlacedBy (Ldu;IIILja;)V
+	METHOD a tick (Ldu;IIILjava/util/Random;)V
+	METHOD a getTexture (Lsp;IIII)I
+	METHOD a_ newTileEntity ()Lll;
+	METHOD c fireArrow (Ldu;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 random
+	METHOD d getTickDelay ()I
+	METHOD e onPlace (Ldu;III)V
+	METHOD h recalcLockDir (Ldu;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

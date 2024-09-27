@@ -1,0 +1,58 @@
+CLASS cl net/minecraft/client/renderer/Chunk
+	METHOD <init> (Ldu;Ljava/util/List;IIIII)V
+		ARG 1 level
+		ARG 2 globalRenderableTileEntities
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 size
+		ARG 7 lists
+	METHOD a rebuild ()V
+	METHOD a getList (I)I
+		ARG 1 layer
+	METHOD a setPos (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a distanceToSqr (Loo;)F
+		ARG 1 player
+	METHOD a cull (Ltm;)V
+		ARG 1 culler
+	METHOD b reset ()V
+	METHOD c delete ()V
+	METHOD d renderBB ()V
+	METHOD e isEmpty ()Z
+	METHOD f setDirty ()V
+	METHOD g translateToPos ()V
+	FIELD A skyLit Z
+	FIELD B renderableTileEntities Ljava/util/List;
+	FIELD C lists I
+	FIELD D t Lkv;
+	FIELD E compiled Z
+	FIELD F globalRenderableTileEntities Ljava/util/List;
+	FIELD a level Ldu;
+	FIELD b updates I
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f xs I
+	FIELD g ys I
+	FIELD h zs I
+	FIELD i xRender I
+	FIELD j yRender I
+	FIELD k zRender I
+	FIELD l xRenderOffs I
+	FIELD m yRenderOffs I
+	FIELD n zRenderOffs I
+	FIELD o visible Z
+	FIELD p empty [Z
+	FIELD q xm I
+	FIELD r ym I
+	FIELD s zm I
+	FIELD t radius F
+	FIELD u dirty Z
+	FIELD v bb Ldj;
+	FIELD w id I
+	FIELD x occlusion_visible Z
+	FIELD y occlusion_querying Z
+	FIELD z occlusion_id I

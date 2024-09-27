@@ -1,0 +1,19 @@
+CLASS qt net/minecraft/world/level/storage/LevelSummary
+	FIELD a levelId Ljava/lang/String;
+	FIELD b levelName Ljava/lang/String;
+	FIELD c lastPlayed J
+	FIELD d sizeOnDisk J
+	FIELD e requiresConversion Z
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;JJZ)V
+		ARG 1 lid
+		ARG 2 ln
+		ARG 3 lp
+		ARG 5 sod
+		ARG 7 rc
+	METHOD a getLevelId ()Ljava/lang/String;
+	METHOD b getLevelName ()Ljava/lang/String;
+	METHOD c sizeOnDisk ()J
+	METHOD compareTo compareTo (Ljava/lang/Object;)I
+		ARG 1 ls
+	METHOD d isRequiresConversion ()Z
+	METHOD e getLastPlayed ()J

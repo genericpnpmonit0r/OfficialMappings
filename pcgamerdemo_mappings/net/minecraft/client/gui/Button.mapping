@@ -1,0 +1,38 @@
+CLASS hx net/minecraft/client/gui/Button
+	METHOD <init> (IIIIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 w
+		ARG 5 h
+		ARG 6 msg
+	METHOD <init> (IIILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 x
+		ARG 3 y
+		ARG 4 msg
+	METHOD a released (II)V
+		ARG 1 mx
+		ARG 2 my
+	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 xm
+		ARG 3 ym
+	METHOD a getYImage (Z)I
+		ARG 1 hovered
+	METHOD b renderBg (Lnet/minecraft/client/Minecraft;II)V
+		ARG 1 minecraft
+		ARG 2 xm
+		ARG 3 ym
+	METHOD c clicked (Lnet/minecraft/client/Minecraft;II)Z
+		ARG 1 minecraft
+		ARG 2 mx
+		ARG 3 my
+	FIELD a w I
+	FIELD b h I
+	FIELD c x I
+	FIELD d y I
+	FIELD e msg Ljava/lang/String;
+	FIELD f id I
+	FIELD g active Z
+	FIELD h visible Z

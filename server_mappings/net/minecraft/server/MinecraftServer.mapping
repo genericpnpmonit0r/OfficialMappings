@@ -17,7 +17,7 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	FIELD o commandDispatcher Lki;
 	FIELD p running Z
 	FIELD q tickables Ljava/util/List;
-	FIELD r commands Ljava/util/List;
+	FIELD r consoleInput Ljava/util/List;
 	METHOD a stop ()V
 	METHOD a addTickable (Lcm;)V
 		ARG 1 tickable
@@ -29,8 +29,8 @@ CLASS net/minecraft/server/MinecraftServer net/minecraft/server/MinecraftServer
 	METHOD a progressStage (Ljava/lang/String;I)V
 		ARG 1 stage
 		ARG 2 percent
-	METHOD a addCommand (Ljava/lang/String;Lkh;)V
-		ARG 1 command
+	METHOD a handleConsoleInput (Ljava/lang/String;Lkh;)V
+		ARG 1 msg
 		ARG 2 source
 	METHOD a access$000 (Lnet/minecraft/server/MinecraftServer;)Z
 		ARG 0 this$0

@@ -1,0 +1,8 @@
+CLASS iz net/minecraft/client/player/KeyboardInput
+	METHOD <init> (Lih;)V
+		ARG 1 options
+	METHOD a releaseAllKeys ()V
+	METHOD a setKey (IZ)V
+	METHOD a tick (Lff;)V
+	FIELD f keys [Z
+	FIELD g options Lih;

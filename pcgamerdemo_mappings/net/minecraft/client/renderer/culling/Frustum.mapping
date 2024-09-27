@@ -1,0 +1,10 @@
+CLASS r net/minecraft/client/renderer/culling/Frustum
+	METHOD a getFrustum ()Lcr;
+	METHOD a normalizePlane ([[FI)V
+		ARG 1 frustum
+		ARG 2 size
+	METHOD b calculateFrustum ()V
+	FIELD e frustum Lr;
+	FIELD f _proj Ljava/nio/FloatBuffer;
+	FIELD g _modl Ljava/nio/FloatBuffer;
+	FIELD h _clip Ljava/nio/FloatBuffer;

@@ -1,0 +1,24 @@
+CLASS in net/minecraft/world/level/tile/DoorTile
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPlace (Ldu;III)Z
+	METHOD a neighborChanged (Ldu;IIII)V
+	METHOD a clip (Ldu;IIILay;Lay;)Lqx;
+	METHOD a use (Ldu;IIILff;)Z
+	METHOD a setOpen (Ldu;IIIZ)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 open
+	METHOD a updateShape (Lsp;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD b attack (Ldu;IIILff;)V
+	METHOD c setShape (I)V
+		ARG 1 dir
+	METHOD d getDir (I)I
+		ARG 1 data
+	METHOD d getAABB (Ldu;III)Ldj;
+	METHOD f getTileAABB (Ldu;III)Ldj;
+	METHOD g getRenderShape ()I

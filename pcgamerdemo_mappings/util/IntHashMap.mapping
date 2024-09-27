@@ -1,0 +1,32 @@
+CLASS hs util/IntHashMap
+	METHOD a clear ()V
+	METHOD a get (I)Ljava/lang/Object;
+		ARG 1 value
+	METHOD a indexFor (II)I
+		ARG 0 hash
+		ARG 1 length
+	METHOD a addEntry (IILjava/lang/Object;I)V
+		ARG 1 hash
+		ARG 2 key
+		ARG 3 value
+		ARG 4 index
+	METHOD a put (ILjava/lang/Object;)V
+		ARG 1 key
+		ARG 2 value
+	METHOD a transfer ([Lrt;)V
+		ARG 1 tab
+	METHOD b remove (I)Ljava/lang/Object;
+		ARG 1 key
+	METHOD c removeEntryForKey (I)Lrt;
+		ARG 1 key
+	METHOD d access$000 (I)I
+		ARG 0 i
+	METHOD e hash (I)I
+		ARG 0 key
+	METHOD f resize (I)V
+		ARG 1 size
+	FIELD a table [Lrt;
+	FIELD b size I
+	FIELD c threshold I
+	FIELD d loadFactor F
+	FIELD e modCount I

@@ -1,0 +1,21 @@
+CLASS gf net/minecraft/client/model/Vertex
+	METHOD <init> (FFFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 u
+		ARG 5 v
+	METHOD <init> (Lay;FF)V
+		ARG 1 vertex
+		ARG 2 u
+		ARG 3 v
+	METHOD <init> (Lgf;FF)V
+		ARG 1 vertex
+		ARG 2 u
+		ARG 3 v
+	METHOD a remap (FF)Lgf;
+		ARG 1 u
+		ARG 2 v
+	FIELD a pos Lay;
+	FIELD b u F
+	FIELD c v F

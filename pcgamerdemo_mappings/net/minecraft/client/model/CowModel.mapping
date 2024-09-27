@@ -1,0 +1,6 @@
+CLASS fo net/minecraft/client/model/CowModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a udder Lmd;
+	FIELD b horn1 Lmd;
+	FIELD c horn2 Lmd;

@@ -1,0 +1,5 @@
+CLASS ch net/minecraft/client/renderer/entity/ItemSpriteRenderer
+	METHOD <init> (I)V
+		ARG 1 icon
+	METHOD a render (Loo;DDDFF)V
+	FIELD a icon I

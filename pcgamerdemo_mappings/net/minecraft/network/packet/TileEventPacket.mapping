@@ -1,0 +1,8 @@
+CLASS rh net/minecraft/network/packet/TileEventPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d b0 I
+	FIELD e b1 I

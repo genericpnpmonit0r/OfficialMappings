@@ -1,0 +1,35 @@
+CLASS ii net/minecraft/world/level/chunk/ChunkCache
+	METHOD <init> (Ldu;Lao;Lbo;)V
+		ARG 1 level
+		ARG 2 storage
+		ARG 3 source
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a postProcess (Lbo;II)V
+	METHOD a saveEntities (Liu;)V
+		ARG 1 lc
+	METHOD a save (ZLtb;)Z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Liu;
+	METHOD b save (Liu;)V
+		ARG 1 lc
+	METHOD c gatherStats ()Ljava/lang/String;
+	METHOD c centerOn (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD d fits (II)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD e load (II)Liu;
+		ARG 1 x
+		ARG 2 z
+	FIELD a xLast I
+	FIELD b zLast I
+	FIELD c emptyChunk Liu;
+	FIELD d source Lbo;
+	FIELD e storage Lao;
+	FIELD f chunks [Liu;
+	FIELD g level Ldu;
+	FIELD h last Liu;
+	FIELD i xCenter I
+	FIELD j yCenter I

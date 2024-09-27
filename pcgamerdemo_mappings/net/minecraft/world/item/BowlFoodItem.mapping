@@ -1,0 +1,2 @@
+CLASS be net/minecraft/world/item/BowlFoodItem
+	METHOD a use (Lha;Ldu;Lff;)Lha;

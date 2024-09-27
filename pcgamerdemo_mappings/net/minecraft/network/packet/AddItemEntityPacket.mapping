@@ -1,0 +1,15 @@
+CLASS ke net/minecraft/network/packet/AddItemEntityPacket
+	METHOD <init> (Lft;)V
+		ARG 1 item
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e xa B
+	FIELD f ya B
+	FIELD g za B
+	FIELD h itemId I
+	FIELD i itemCount I
+	FIELD l auxValue I

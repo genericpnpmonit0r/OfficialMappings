@@ -1,6 +1,6 @@
 CLASS iw net/minecraft/client/gui/JoinMultiplayerScreen
 	FIELD a lastScreen Lcb;
-	FIELD h ip Lnp;
+	FIELD h ipEdit Lnp;
 	METHOD <init> (Lcb;)V
 		ARG 1 lastScreen
 	METHOD a parseInt (Ljava/lang/String;I)I

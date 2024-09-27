@@ -1,0 +1,9 @@
+CLASS hr net/minecraft/world/level/tile/FenceTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Ldu;III)Z
+	METHOD b isCubeShaped ()Z
+	METHOD d getAABB (Ldu;III)Ldj;
+	METHOD g getRenderShape ()I

@@ -1,5 +1,0 @@
-CLASS kh net/minecraft/server/CommandSender
-	METHOD b info (Ljava/lang/String;)V
-		COMMENT no idea what this is supposed to be called
-		ARG 1 msg
-	METHOD c getConsoleName ()Ljava/lang/String;

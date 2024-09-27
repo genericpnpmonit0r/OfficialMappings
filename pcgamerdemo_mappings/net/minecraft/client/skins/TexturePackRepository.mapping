@@ -1,0 +1,15 @@
+CLASS go net/minecraft/client/skins/TexturePackRepository
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 workingDirectory
+	METHOD a updateList ()V
+	METHOD a selectSkin (Le;)Z
+		ARG 1 skin
+	METHOD b getAll ()Ljava/util/List;
+	FIELD a selected Le;
+	FIELD b gexturePacks Ljava/util/List;
+	FIELD c defaultTexturePack Le;
+	FIELD d skinCache Ljava/util/Map;
+	FIELD e minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f workDir Ljava/io/File;
+	FIELD g chosenSkinName Ljava/lang/String;

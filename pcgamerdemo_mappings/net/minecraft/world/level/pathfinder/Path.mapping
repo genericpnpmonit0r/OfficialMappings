@@ -1,0 +1,11 @@
+CLASS ci net/minecraft/world/level/pathfinder/Path
+	METHOD <init> ([Lb;)V
+		ARG 1 nodes
+	METHOD a next ()V
+	METHOD a current (Loo;)Lay;
+		ARG 1 entity
+	METHOD b isDone ()Z
+	METHOD c last ()Lb;
+	FIELD a length I
+	FIELD b nodes [Lb;
+	FIELD c pos I

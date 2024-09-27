@@ -1,0 +1,6 @@
+CLASS ls net/minecraft/client/Minecraft$OS
+	FIELD a linux Lls;
+	FIELD b solaris Lls;
+	FIELD c windows Lls;
+	FIELD d macos Lls;
+	FIELD e unknown Lls;

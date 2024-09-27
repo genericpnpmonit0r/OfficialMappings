@@ -1,0 +1,6 @@
+CLASS pp net/minecraft/world/item/RecordingItem
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 recording
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z
+	FIELD a recording Ljava/lang/String;

@@ -1,0 +1,2 @@
+CLASS jj net/minecraft/client/renderer/entity/ArrowRenderer
+	METHOD a render (Loo;DDDFF)V

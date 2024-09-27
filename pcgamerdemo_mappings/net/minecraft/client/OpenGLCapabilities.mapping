@@ -1,0 +1,3 @@
+CLASS by net/minecraft/client/OpenGLCapabilities
+	METHOD a hasOcclusionChecks ()Z
+	FIELD a USE_OCCLUSION_QUERY Z

@@ -1,0 +1,45 @@
+CLASS pf net/minecraft/client/renderer/entity/EntityRenderDispatcher
+	METHOD a getFont ()Lok;
+	METHOD a distanceToSqr (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a setLevel (Ldu;)V
+		ARG 1 level
+	METHOD a prepare (Ldu;Lhg;Lok;Lja;Lih;F)V
+		ARG 1 level
+		ARG 2 textures
+		ARG 3 font
+		ARG 4 player
+		ARG 5 options
+		ARG 6 a
+	METHOD a getRenderer (Ljava/lang/Class;)Lbb;
+		ARG 1 c
+	METHOD a getRenderer (Loo;)Lbb;
+		ARG 1 e
+	METHOD a render (Loo;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 rot
+		ARG 9 a
+	METHOD a render (Loo;F)V
+		ARG 1 e
+		ARG 2 a
+	FIELD a instance Lpf;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textures Lhg;
+	FIELD f itemInHandRenderer Lnd;
+	FIELD g level Ldu;
+	FIELD h player Lja;
+	FIELD i playerRotY F
+	FIELD j playerRotX F
+	FIELD k options Lih;
+	FIELD l xPlayer D
+	FIELD m yPlayer D
+	FIELD n zPlayer D
+	FIELD o renderers Ljava/util/Map;
+	FIELD p font Lok;

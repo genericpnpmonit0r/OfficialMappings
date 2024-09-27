@@ -1,0 +1,6 @@
+CLASS bi net/minecraft/client/gui/ErrorScreen
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	FIELD a title Ljava/lang/String;
+	FIELD h message Ljava/lang/String;

@@ -1,0 +1,12 @@
+CLASS kx net/minecraft/network/packet/LoginPacket
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;I)V
+		ARG 1 userName
+		ARG 2 loginKey
+		ARG 3 clientVersion
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a clientVersion I
+	FIELD b userName Ljava/lang/String;
+	FIELD c loginKey Ljava/lang/String;
+	FIELD d seed J
+	FIELD e dimension B

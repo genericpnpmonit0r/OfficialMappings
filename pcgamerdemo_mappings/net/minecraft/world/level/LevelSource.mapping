@@ -1,0 +1,26 @@
+CLASS sp net/minecraft/world/level/LevelSource
+	METHOD a getBiomeSource ()Lsv;
+	METHOD a getTile (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b getTileEntity (III)Lll;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c getBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e getData (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f getMaterial (III)Liv;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g isSolidTile (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

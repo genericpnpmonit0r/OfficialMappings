@@ -1,0 +1,6 @@
+CLASS cy net/minecraft/world/level/LightLayer
+	METHOD <init> (Ljava/lang/String;II)V
+		ARG 3 surrounding
+	FIELD a Sky Lcy;
+	FIELD b Block Lcy;
+	FIELD c surrounding I

@@ -1,0 +1,8 @@
+CLASS op net/minecraft/network/packet/AddEntityPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e type I

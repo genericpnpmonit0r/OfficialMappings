@@ -1,0 +1,6 @@
+CLASS gb net/minecraft/world/item/DoorItem
+	METHOD <init> (ILiv;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z
+	FIELD a material Liv;

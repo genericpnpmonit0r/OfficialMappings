@@ -1,0 +1,8 @@
+CLASS kl net/minecraft/network/packet/AnimatePacket
+	METHOD <init> (Loo;I)V
+		ARG 1 entity
+		ARG 2 action
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a id I
+	FIELD b action I

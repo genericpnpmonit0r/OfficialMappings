@@ -1,0 +1,6 @@
+CLASS jv net/minecraft/network/packet/PreLoginPacket
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 userName
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a userName Ljava/lang/String;

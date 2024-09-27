@@ -1,0 +1,22 @@
+CLASS aw net/minecraft/world/entity/monster/Ghast
+	METHOD a canReach (DDDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 a
+	METHOD c canSpawn ()Z
+	METHOD d_ updateAi ()V
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD j getSoundVolume ()F
+	METHOD k getMaxSpawnClusterSize ()I
+	FIELD a floatDuration I
+	FIELD b xTarget D
+	FIELD c yTarget D
+	FIELD d zTarget D
+	FIELD e oCharge I
+	FIELD f charge I
+	FIELD g target Loo;
+	FIELD h retargetTime I

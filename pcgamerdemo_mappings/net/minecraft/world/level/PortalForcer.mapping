@@ -1,0 +1,11 @@
+CLASS ql net/minecraft/world/level/PortalForcer
+	METHOD a force (Ldu;Loo;)V
+		ARG 1 level
+		ARG 2 player
+	METHOD b findPortal (Ldu;Loo;)Z
+		ARG 1 level
+		ARG 2 player
+	METHOD c createPortal (Ldu;Loo;)Z
+		ARG 1 level
+		ARG 2 player
+	FIELD a random Ljava/util/Random;

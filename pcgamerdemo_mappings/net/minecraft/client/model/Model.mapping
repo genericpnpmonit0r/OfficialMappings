@@ -1,0 +1,17 @@
+CLASS id net/minecraft/client/model/Model
+	METHOD a setupAnim (FFFFFF)V
+		ARG 1 time
+		ARG 2 r
+		ARG 3 bob
+		ARG 4 yRot
+		ARG 5 xRot
+		ARG 6 scale
+	METHOD b render (FFFFFF)V
+		ARG 1 time
+		ARG 2 r
+		ARG 3 bob
+		ARG 4 yRot
+		ARG 5 xRot
+		ARG 6 scale
+	FIELD m attackTime F
+	FIELD n riding Z

@@ -1,0 +1,4 @@
+CLASS kh net/minecraft/server/CommandSource
+	METHOD b sendMessage (Ljava/lang/String;)V
+		ARG 1 msg
+	METHOD c getConsoleName ()Ljava/lang/String;

@@ -1,0 +1,6 @@
+CLASS hy net/minecraft/client/Minecraft$1
+	FIELD a this$0 Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;)V
+		ARG 1 this$0
+		ARG 2 val$string
+	METHOD run run ()V

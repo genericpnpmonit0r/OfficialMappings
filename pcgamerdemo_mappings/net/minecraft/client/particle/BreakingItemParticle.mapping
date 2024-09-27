@@ -1,0 +1,9 @@
+CLASS lr net/minecraft/client/particle/BreakingItemParticle
+	METHOD <init> (Ldu;DDDLez;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 item
+	METHOD a render (Lkv;FFFFFF)V
+	METHOD b_ getParticleTexture ()I

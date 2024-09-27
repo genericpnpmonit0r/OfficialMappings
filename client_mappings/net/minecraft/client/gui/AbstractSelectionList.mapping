@@ -6,8 +6,7 @@ CLASS io net/minecraft/client/gui/AbstractSelectionList
 	FIELD e y1 I
 	FIELD f x1 I
 	FIELD g x0 I
-	FIELD h max I
-		COMMENT idfk
+	FIELD h itemHeight I
 	FIELD i buttonId I
 	FIELD j buttonId2 I
 	FIELD k yDrag F
@@ -21,7 +20,7 @@ CLASS io net/minecraft/client/gui/AbstractSelectionList
 		ARG 3 height
 		ARG 4 y0
 		ARG 5 y1
-		ARG 6 max
+		ARG 6 itemHeight
 	METHOD a getNumberOfItems ()I
 	METHOD a isSelectedItem (I)Z
 		ARG 1 item

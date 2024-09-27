@@ -1,0 +1,44 @@
+CLASS md net/minecraft/client/model/Cube
+	METHOD <init> (II)V
+		ARG 1 xTexOffs
+		ARG 2 yTexOffs
+	METHOD a render (F)V
+		ARG 1 scale
+	METHOD a setPos (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a addBox (FFFIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 w
+		ARG 5 h
+		ARG 6 d
+	METHOD a addBox (FFFIIIF)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 w
+		ARG 5 h
+		ARG 6 d
+		ARG 7 g
+	METHOD b translateTo (F)V
+		ARG 1 scale
+	METHOD c compile (F)V
+		ARG 1 scale
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	FIELD d xRot F
+	FIELD e yRot F
+	FIELD f zRot F
+	FIELD g mirror Z
+	FIELD h visible Z
+	FIELD i neverRender Z
+	FIELD j vertices [Lgf;
+	FIELD k polygons [Lpw;
+	FIELD l xTexOffs I
+	FIELD m yTexOffs I
+	FIELD n compiled Z
+	FIELD o list I

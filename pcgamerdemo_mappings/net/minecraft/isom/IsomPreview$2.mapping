@@ -1,0 +1,7 @@
+CLASS pu net/minecraft/isom/IsomPreview$2
+	FIELD u this$0 Lan;
+	METHOD <init> (Lan;Lrz;Ljava/lang/String;J)V
+		ARG 1 this$0
+		ARG 2 storage
+		ARG 3 levelName
+		ARG 4 seed

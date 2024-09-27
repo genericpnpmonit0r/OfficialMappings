@@ -1,0 +1,5 @@
+CLASS oz net/minecraft/world/item/HatchetItem
+	METHOD <init> (ILaz;)V
+		ARG 1 id
+		ARG 2 tier
+	FIELD bi diggables [Lqn;

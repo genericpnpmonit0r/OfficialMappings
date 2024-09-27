@@ -1,0 +1,14 @@
+CLASS mz net/minecraft/world/entity/item/PrimedTnt
+	METHOD <init> (Ldu;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD b defineSynchedData ()V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD f_ isPickable ()Z
+	METHOD k explode ()V
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD q_ tick ()V
+	FIELD a life I

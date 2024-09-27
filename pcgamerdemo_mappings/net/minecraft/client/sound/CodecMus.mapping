@@ -1,0 +1,2 @@
+CLASS gs net/minecraft/client/sound/CodecMus
+	METHOD openInputStream openInputStream ()Ljava/io/InputStream;

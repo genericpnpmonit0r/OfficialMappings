@@ -1,7 +1,0 @@
-CLASS cd net/minecraft/server/multiplayer/PendingConnection$1
-	FIELD a val$packet Lhm;
-	FIELD b this$0 Ldj;
-	METHOD <init> (Ldj;Lhm;)V
-		ARG 1 this$0
-		ARG 2 val$apcket
-	METHOD run run ()V

@@ -1,0 +1,4 @@
+CLASS dr net/minecraft/client/model/BoatModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a cubes [Lmd;

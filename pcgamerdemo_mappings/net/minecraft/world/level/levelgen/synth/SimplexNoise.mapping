@@ -1,0 +1,25 @@
+CLASS bg net/minecraft/world/level/levelgen/synth/SimplexNoise
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD a fastfloor (D)I
+		ARG 0 d
+	METHOD a add ([DDDIIDDD)V
+		ARG 1 a
+		ARG 2 b
+		ARG 4 c
+		ARG 6 d
+		ARG 7 e
+		ARG 8 f
+		ARG 10 g
+		ARG 12 h
+	METHOD a dot ([IDD)D
+		ARG 0 grad
+		ARG 1 x
+		ARG 3 y
+	FIELD a xo D
+	FIELD b yo D
+	FIELD c zo D
+	FIELD d grad3 [[I
+	FIELD e p [I
+	FIELD f F2 D
+	FIELD g G2 D

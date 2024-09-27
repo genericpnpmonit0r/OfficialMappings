@@ -1,0 +1,31 @@
+CLASS pi net/minecraft/client/multiplayer/MultiplayerLocalPlayer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ldu;Lfd;Lkc;)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 user
+		ARG 4 connection
+	METHOD F swing ()V
+	METHOD a reallyDrop (Lft;)V
+	METHOD a chat (Ljava/lang/String;)V
+	METHOD a hurt (Loo;I)Z
+	METHOD a_ hurtTo (I)V
+	METHOD ac sendPosition ()V
+	METHOD ad ensureHasSentInventory ()V
+	METHOD b actuallyHurt (I)V
+	METHOD c heal (I)V
+	METHOD p closeContainer ()V
+	METHOD q_ tick ()V
+	METHOD t respawn ()V
+	METHOD z drop ()V
+	FIELD bI connection Lkc;
+	FIELD bJ lastInventorySendTime I
+	FIELD bK flashOnSetHealth Z
+	FIELD bL xLast D
+	FIELD bM yLast1 D
+	FIELD bN yLast2 D
+	FIELD bO zLast D
+	FIELD bP yRotLast F
+	FIELD bQ xRotLast F
+	FIELD bR lastOnGround Z
+	FIELD bS lastSneaked Z
+	FIELD bT noSendTime I

@@ -1,0 +1,5 @@
+CLASS iw net/minecraft/client/model/GhastModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a body Lmd;
+	FIELD b tentacles [Lmd;

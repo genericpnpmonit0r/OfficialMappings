@@ -1,0 +1,8 @@
+CLASS df net/minecraft/client/renderer/HttpTexture
+	METHOD <init> (Ljava/lang/String;Lkg;)V
+		ARG 1 _url
+		ARG 2 processor
+	FIELD a loadedImage Ljava/awt/image/BufferedImage;
+	FIELD b count I
+	FIELD c id I
+	FIELD d isLoaded Z

@@ -1,0 +1,3 @@
+CLASS fi net/minecraft/client/particle/ExplodeParticle
+	METHOD a render (Lkv;FFFFFF)V
+	METHOD q_ tick ()V

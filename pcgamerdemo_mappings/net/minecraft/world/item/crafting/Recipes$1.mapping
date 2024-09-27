@@ -1,0 +1,7 @@
+CLASS ij net/minecraft/world/item/crafting/Recipes$1
+	FIELD a this$0 Lfs;
+	METHOD <init> (Lfs;)V
+		ARG 1 this$0
+	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 recipy1
+		ARG 2 recipy2

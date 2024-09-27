@@ -1,0 +1,19 @@
+CLASS ea net/minecraft/client/gui/CreateWorldScreen
+	FIELD a lastScreen Lcb;
+	FIELD h nameEdit Lnr;
+	FIELD i seedEdit Lnr;
+	FIELD k resultFolder Ljava/lang/String;
+	FIELD l done Z
+	METHOD <init> (Lcb;)V
+		ARG 1 lastScreen
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a buttonClicked (Lhx;)V
+	METHOD a findAvailableName (Lkk;Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 storage
+		ARG 1 resultFolder
+	METHOD g tick ()V
+	METHOD h removed ()V
+	METHOD j updateResultFolder ()V

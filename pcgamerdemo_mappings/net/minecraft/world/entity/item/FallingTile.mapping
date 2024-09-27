@@ -1,0 +1,16 @@
+CLASS hp net/minecraft/world/entity/item/FallingTile
+	METHOD <init> (Ldu;DDDI)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tile
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD b defineSynchedData ()V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD f_ isPickable ()Z
+	METHOD k getLevel ()Ldu;
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD q_ tick ()V
+	FIELD a tile I
+	FIELD b time I

@@ -1,0 +1,6 @@
+CLASS se net/minecraft/world/level/storage/MockedLevelStorage
+	METHOD a saveLevelData (Ldd;)V
+	METHOD a saveLevelData (Ldd;Ljava/util/List;)V
+	METHOD a createChunkStorage (Lsg;)Lao;
+	METHOD b checkSession ()V
+	METHOD c prepareLevel ()Ldd;

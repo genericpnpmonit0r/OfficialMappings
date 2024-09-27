@@ -1,0 +1,2 @@
+CLASS qu net/minecraft/world/item/SignItem
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z

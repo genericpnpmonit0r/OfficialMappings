@@ -1,0 +1,4 @@
+CLASS as net/minecraft/world/item/ClothTileItem
+	METHOD a getLevelDataForAuxValue (I)I
+	METHOD a getIcon (Lha;)I
+	METHOD b getDescriptionId (Lha;)Ljava/lang/String;

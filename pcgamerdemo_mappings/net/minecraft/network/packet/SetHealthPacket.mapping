@@ -1,0 +1,4 @@
+CLASS dm net/minecraft/network/packet/SetHealthPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a health I

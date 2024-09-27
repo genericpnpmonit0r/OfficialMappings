@@ -1,0 +1,2 @@
+CLASS ss net/minecraft/world/level/levelgen/feature/HellFireFeature
+	METHOD a place (Ldu;Ljava/util/Random;III)Z

@@ -1,0 +1,49 @@
+CLASS js net/minecraft/client/multiplayer/MultiPlayerLevel
+	METHOD <init> (Lkc;JI)V
+		ARG 1 connection
+		ARG 2 seed
+		ARG 4 dimension
+	METHOD a setTileAndDataNoUpdate (IIIII)Z
+	METHOD a setChunkVisible (IIZ)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 visible
+	METHOD a putEntity (ILoo;)V
+		ARG 1 id
+		ARG 2 entity
+	METHOD a addEntity (Loo;)Z
+	METHOD a tickPendingTicks (Z)Z
+	METHOD b createChunkSource ()Lbo;
+	METHOD b getEntity (I)Loo;
+		ARG 1 id
+	METHOD b setTileNoUpdate (IIII)Z
+	METHOD b entityAdded (Loo;)V
+	METHOD c removeEntity (I)Loo;
+		ARG 1 id
+	METHOD c addToTickNextTick (IIIII)V
+	METHOD c clearResetRegion (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD c entityRemoved (Loo;)V
+	METHOD d validateSpawn ()V
+	METHOD d setDataNoUpdate (IIII)Z
+	METHOD d removeEntity (Loo;)V
+	METHOD e doSetTileAndData (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+		ARG 5 data
+	METHOD l tick ()V
+	METHOD m tickTiles ()V
+	METHOD p disconnect ()V
+	FIELD u updatesToReset Ljava/util/LinkedList;
+	FIELD v connection Lkc;
+	FIELD w chunkCache Lqo;
+	FIELD x entitiesById Lhs;
+	FIELD y forced Ljava/util/Set;
+	FIELD z reEntries Ljava/util/Set;

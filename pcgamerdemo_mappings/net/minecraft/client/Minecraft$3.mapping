@@ -1,0 +1,10 @@
+CLASS hz net/minecraft/client/Minecraft$3
+	FIELD a val$frame Ljava/awt/Frame;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZLjava/awt/Frame;)V
+		ARG 1 component
+		ARG 2 parent
+		ARG 3 minecraftApplet
+		ARG 4 w
+		ARG 5 h
+		ARG 6 fullscreen
+		ARG 7 val$frame

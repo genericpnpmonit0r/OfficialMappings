@@ -1,0 +1,51 @@
+CLASS no net/minecraft/server/ServerPlayerGameMode
+	COMMENT todo: map this with shtuff from the client cause they just copypasted
+	COMMENT the client gamemode classes content into one place
+	COMMENT
+	COMMENT edit - 3-7-2024 i give up
+	FIELD a player Ldp;
+	FIELD b level Lcp;
+	FIELD c destroyProgress F
+	FIELD d unk_d I
+	FIELD e destroyDelay I
+	FIELD f unk_f F
+	FIELD g xDestroyBlock I
+	FIELD h yDestroyBlock I
+	FIELD i zDestroyBlock I
+	FIELD j tickCount I
+	FIELD k unk_k Z
+	FIELD l ox I
+	FIELD m oy I
+	FIELD n oz I
+	FIELD o unk_o I
+	METHOD <init> (Lcp;)V
+		ARG 1 level
+	METHOD a tick ()V
+	METHOD a startDestroyBlock (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a useItem (Ldp;Lcp;Ley;)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+	METHOD a useItemOn (Ldp;Lcp;Ley;IIII)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD b stopDestroyBlock (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c superDestroyBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD d destroyBlock (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z

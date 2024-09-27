@@ -1,0 +1,6 @@
+CLASS gg net/minecraft/server/gui/StatsComponent$1
+	FIELD a this$0 Lft;
+	METHOD <init> (Lft;)V
+		ARG 1 this$0
+	METHOD actionPerformed actionPerformed (Ljava/awt/event/ActionEvent;)V
+		ARG 1 e

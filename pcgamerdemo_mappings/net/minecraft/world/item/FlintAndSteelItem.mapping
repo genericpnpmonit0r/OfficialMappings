@@ -1,0 +1,2 @@
+CLASS td net/minecraft/world/item/FlintAndSteelItem
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z

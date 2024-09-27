@@ -1,0 +1,14 @@
+CLASS mv net/minecraft/network/packet/ContainerClickPacket
+	METHOD <init> (IIILha;S)V
+		ARG 1 containerId
+		ARG 2 slotNum
+		ARG 3 buttonNum
+		ARG 4 item
+		ARG 5 uid
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a containerId I
+	FIELD b slotNum I
+	FIELD c buttonNum I
+	FIELD d uid S
+	FIELD e item Lha;

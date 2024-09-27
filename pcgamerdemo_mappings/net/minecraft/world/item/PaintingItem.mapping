@@ -1,0 +1,2 @@
+CLASS tl net/minecraft/world/item/PaintingItem
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z

@@ -1,0 +1,28 @@
+CLASS bj net/minecraft/world/entity/projectile/Fireball
+	METHOD <init> (Ldu;Lja;DDD)V
+		ARG 1 level
+		ARG 2 owner
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a shouldRenderAtSqrDistance (D)Z
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a hurt (Loo;I)Z
+	METHOD b defineSynchedData ()V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD e getPickRadius ()F
+	METHOD f_ isPickable ()Z
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD q_ tick ()V
+	FIELD a shakeTime I
+	FIELD b xPower D
+	FIELD c yPower D
+	FIELD d zPower D
+	FIELD e xTile I
+	FIELD f yTile I
+	FIELD g zTile I
+	FIELD h lastTime I
+	FIELD i inGround Z
+	FIELD j owner Lja;
+	FIELD k life I
+	FIELD l flightTime I

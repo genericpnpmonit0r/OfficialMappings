@@ -1,0 +1,4 @@
+CLASS kp net/minecraft/client/model/MinecartModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a cubes [Lmd;

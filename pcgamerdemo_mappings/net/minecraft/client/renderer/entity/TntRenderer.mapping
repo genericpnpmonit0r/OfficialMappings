@@ -1,0 +1,3 @@
+CLASS lg net/minecraft/client/renderer/entity/TntRenderer
+	METHOD a render (Loo;DDDFF)V
+	FIELD a tileRenderer Lbw;

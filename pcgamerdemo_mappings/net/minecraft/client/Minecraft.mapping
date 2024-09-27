@@ -1,0 +1,154 @@
+CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
+	FIELD A mouseHandler Lrk;
+	FIELD B texturePackRepository Lgo;
+	FIELD C frameTimes [J
+	FIELD D tickTimes [J
+	FIELD E frameTimePos I
+	FIELD F running Z
+	FIELD G fpsString Ljava/lang/String;
+	FIELD H wasDown Z
+	FIELD I lastTimer J
+	FIELD J mouseGrabbed Z
+	FIELD K isRaining Z
+	FIELD L lastTickTime J
+	FIELD M fullscreen Z
+	FIELD N openGLCapabilities Lby;
+	FIELD O timer Lmi;
+	FIELD P bgLoader Lbz;
+	FIELD Q ticks I
+	FIELD R missTime I
+	FIELD S orgWidth I
+	FIELD T orgHeight I
+	FIELD U workingDirectory Ljava/io/File;
+	FIELD V levelStorageSource Lkk;
+	FIELD W connectToIp Ljava/lang/String;
+	FIELD X connectToPort I
+	FIELD Y waterTexture Lre;
+	FIELD Z lavaTexture Lbk;
+	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD aa workDir Ljava/io/File;
+	FIELD ab lastClickTick I
+	FIELD ac recheckPlayerIn I
+	FIELD b gameMode Lky;
+	FIELD c width I
+	FIELD d height I
+	FIELD e level Ldu;
+	FIELD f levelRenderer Lh;
+	FIELD g player Lcc;
+	FIELD h cameraEntity Lja;
+		COMMENT why is this here wtf notch this is literally just the same as the player field
+		COMMENT just another guesstimated field name cause no fucking clue
+	FIELD i particleEngine Lco;
+	FIELD j user Lfd;
+	FIELD k serverDomain Ljava/lang/String;
+	FIELD l parent Ljava/awt/Canvas;
+	FIELD m appletMode Z
+	FIELD n pause Z
+	FIELD o textures Lhg;
+	FIELD p font Lok;
+	FIELD q screen Lcb;
+	FIELD r progressRenderer Ljq;
+	FIELD s gameRenderer Lmh;
+	FIELD t gui Lqi;
+	FIELD u noRender Z
+	FIELD v humanoidModel Ldy;
+	FIELD w hitResult Lqx;
+	FIELD x options Lih;
+	FIELD y minecraftApplet Lnet/minecraft/client/MinecraftApplet;
+	FIELD z soundEngine Ltn;
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 component
+		ARG 2 parent
+		ARG 3 minecraftApplet
+		ARG 4 w
+		ARG 5 h
+		ARG 6 fullscreen
+	METHOD A handleGrabTexture ()V
+	METHOD B reloadSound ()V
+	METHOD a init ()V
+	METHOD a handleMouseClick (I)V
+		ARG 1 buttonNum
+	METHOD a resize (II)V
+		ARG 1 w
+		ARG 2 h
+	METHOD a blit (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 sx
+		ARG 4 sy
+		ARG 5 w
+		ARG 6 h
+	METHOD a handleMouseDown (IZ)V
+		ARG 1 i
+		ARG 2 b
+	METHOD a renderFpsMeter (J)V
+		ARG 1 time
+	METHOD a setScreen (Lcb;)V
+		ARG 1 screen
+	METHOD a setLevel (Ldu;)V
+		ARG 1 level
+	METHOD a setLevel (Ldu;Ljava/lang/String;)V
+		ARG 1 level
+		ARG 2 title
+	METHOD a setLevel (Ldu;Ljava/lang/String;Lff;)V
+		ARG 1 level
+		ARG 2 title
+		ARG 3 player
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 applicationName
+	METHOD a connectTo (Ljava/lang/String;I)V
+		ARG 1 connectToIp
+		ARG 2 connectToPort
+	METHOD a fileDownloaded (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD a start (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 sessionId
+	METHOD a selectLevel (Ljava/lang/String;Ljava/lang/String;J)V
+		ARG 1 selected
+		ARG 2 levelName
+		ARG 3 seed
+	METHOD a startAndConnectTo (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 sessionId
+		ARG 2 server
+	METHOD a onCrash (Ljn;)V
+		ARG 1 crashReport
+	METHOD b getWorkingDirectory ()Ljava/io/File;
+	METHOD b isCommand (Ljava/lang/String;)Z
+		ARG 1 msg
+	METHOD b convertLevel (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 levelName
+		ARG 2 n
+	METHOD c getLevelStorage ()Lkk;
+	METHOD c checkGLError (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD d destroy ()V
+	METHOD d prepareLevel (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD e stop ()V
+	METHOD f grabMouse ()V
+	METHOD g releaseMouse ()V
+	METHOD h pauseGame ()V
+	METHOD i toggleFullScreen ()V
+	METHOD j tick ()V
+	METHOD k isOnline ()Z
+	METHOD l toggleDimension ()V
+	METHOD m getOpenGLCapabilities ()Lby;
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD n gatherStats1 ()Ljava/lang/String;
+	METHOD o gatherStats2 ()Ljava/lang/String;
+	METHOD p gatherStats4 ()Ljava/lang/String;
+	METHOD q gatherStats3 ()Ljava/lang/String;
+	METHOD r respawnPlayer ()V
+	METHOD run run ()V
+	METHOD s getConnection ()Lkc;
+	METHOD t showGui ()Z
+	METHOD u fancyGraphics ()Z
+	METHOD v useAmbientOcclusion ()Z
+	METHOD w showFps ()Z
+	METHOD x renderLoadingScreen ()V
+	METHOD y getPlatform ()Lls;
+	METHOD z checkScreenshot ()V

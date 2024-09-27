@@ -1,0 +1,17 @@
+CLASS cm net/minecraft/world/entity/animal/Sheep
+	METHOD a getSheepColor (Ljava/util/Random;)I
+		ARG 0 random
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a hurt (Loo;I)Z
+	METHOD a setSheared (Z)V
+		ARG 1 sheared
+	METHOD b defineSynchedData ()V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD b_ setColor (I)V
+		ARG 1 color
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD p isSheared ()Z
+	METHOD p_ getColor ()I
+	FIELD a COLOR [[F

@@ -1,0 +1,29 @@
+CLASS br net/minecraft/world/level/MobSpawner
+	METHOD a getRandomPosWithin (Ldu;II)Lrp;
+		ARG 0 level
+		ARG 1 x
+		ARG 2 z
+	METHOD a sleepTick (Ldu;Ljava/util/List;)Z
+		COMMENT idfk what to call this
+		COMMENT sleepTick?
+		COMMENT sleepSpawn?
+		ARG 0 level
+		ARG 1 players
+	METHOD a tick (Ldu;ZZ)I
+		ARG 0 level
+		ARG 1 spawnEnemies
+		ARG 2 spawnFriendlies
+	METHOD a isSpawnPositionOk (Lis;Ldu;III)Z
+		ARG 0 category
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a finalizeMobSettings (Lja;Ldu;FFF)V
+		ARG 0 mob
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a unk_field_a [Ljava/lang/Class;
+	FIELD b chunksToPoll Ljava/util/Set;

@@ -1,0 +1,6 @@
+CLASS sy net/minecraft/client/renderer/entity/SheepRenderer
+	METHOD <init> (Lid;Lid;F)V
+		ARG 1 model
+		ARG 2 armor
+		ARG 3 shadow
+	METHOD a prepareArmor (Lja;IF)Z

@@ -1,0 +1,9 @@
+CLASS ki net/minecraft/world/level/tile/IceTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a tick (Ldu;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b onRemove (Ldu;III)V
+	METHOD b shouldRenderFace (Lsp;IIII)Z
+	METHOD c getRenderLayer ()I

@@ -1,0 +1,6 @@
+CLASS mn net/minecraft/client/gui/LevelConflictScreen
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhx;)V
+	METHOD g tick ()V
+	FIELD a frame I

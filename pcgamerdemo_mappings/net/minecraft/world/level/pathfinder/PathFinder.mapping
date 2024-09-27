@@ -1,0 +1,55 @@
+CLASS em net/minecraft/world/level/pathfinder/PathFinder
+	METHOD <init> (Lsp;)V
+		ARG 1 level
+	METHOD a getNode (III)Lb;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a reconstruct_path (Lb;Lb;)Lci;
+		ARG 1 a
+		ARG 2 b
+	METHOD a findPath (Loo;DDDF)Lci;
+		ARG 1 source
+		ARG 2 xDest
+		ARG 4 yDest
+		ARG 6 zDest
+		ARG 8 distance
+	METHOD a findPath (Loo;IIIF)Lci;
+		ARG 1 source
+		ARG 2 xDest
+		ARG 3 yDest
+		ARG 4 zDest
+		ARG 5 distance
+	METHOD a isFree (Loo;IIILb;)I
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 node
+	METHOD a getNode (Loo;IIILb;I)Lb;
+		ARG 1 entity
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 node
+		ARG 6 y1
+	METHOD a findPath (Loo;Lb;Lb;Lb;F)Lci;
+		ARG 1 entity
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+		ARG 5 distance
+	METHOD a findPath (Loo;Loo;F)Lci;
+		ARG 1 source
+		ARG 2 dest
+		ARG 3 distance
+	METHOD b getNeighbors (Loo;Lb;Lb;Lb;F)I
+		ARG 1 entity
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+		ARG 5 distance
+	FIELD a level Lsp;
+	FIELD b openSet Lio;
+	FIELD c nodes Lhs;
+	FIELD d neighbors [Lb;

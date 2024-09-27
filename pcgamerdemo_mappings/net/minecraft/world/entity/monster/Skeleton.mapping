@@ -1,0 +1,12 @@
+CLASS eh net/minecraft/world/entity/monster/Skeleton
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a checkHurtTarget (Loo;F)V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD m aiStep ()V
+	METHOD o dropDeathLoot ()V
+	METHOD o_ getCarriedItem ()Lha;
+	FIELD a bow Lha;

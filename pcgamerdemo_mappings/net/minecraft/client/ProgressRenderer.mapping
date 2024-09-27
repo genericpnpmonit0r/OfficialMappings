@@ -1,0 +1,15 @@
+CLASS jq net/minecraft/client/ProgressRenderer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a progressStagePercentage (I)V
+	METHOD a progressStart (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD b progressStartNoAbort (Ljava/lang/String;)V
+	METHOD c _progressStart (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD d progressStage (Ljava/lang/String;)V
+	FIELD a status Ljava/lang/String;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c title Ljava/lang/String;
+	FIELD d lastTime J
+	FIELD e noAbort Z

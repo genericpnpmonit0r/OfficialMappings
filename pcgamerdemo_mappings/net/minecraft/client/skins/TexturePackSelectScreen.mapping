@@ -1,0 +1,35 @@
+CLASS ej net/minecraft/client/skins/TexturePackSelectScreen
+	METHOD <init> (Lcb;)V
+		ARG 1 lastScreen
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a access$000 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD a buttonClicked (Lhx;)V
+	METHOD b mouseReleased (III)V
+	METHOD b access$100 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD c access$200 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD d access$300 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD e access$400 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD f access$500 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD g tick ()V
+	METHOD g access$600 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD h access$700 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD i access$800 (Lej;)Lnet/minecraft/client/Minecraft;
+		ARG 0 this$0
+	METHOD j access$900 (Lej;)Lok;
+		ARG 0 this$0
+	METHOD k access$910 (Lej;)Lok;
+	METHOD l access$920 (Lej;)Lok;
+	FIELD a lastScreen Lcb;
+	FIELD h updateIn I
+	FIELD i instructions Ljava/lang/String;
+	FIELD k selectionList Lce;

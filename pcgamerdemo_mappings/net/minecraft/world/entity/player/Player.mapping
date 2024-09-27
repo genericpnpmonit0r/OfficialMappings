@@ -1,0 +1,103 @@
+CLASS ff net/minecraft/world/entity/player/Player
+	METHOD A getHeadHeight ()F
+	METHOD B unk_C ()V
+	METHOD C getSelectedItem ()Lha;
+	METHOD D removeSelectedItem ()V
+	METHOD E getRidingHeight ()D
+	METHOD F swing ()V
+	METHOD G remove ()V
+	METHOD H isInWall ()Z
+	METHOD I getSleepingRotation ()F
+	METHOD J isSleeping ()Z
+	METHOD K isSleepingLongEnough ()Z
+	METHOD L getSleepTimer ()I
+	METHOD a startCrafting (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a openTrap (Lak;)V
+		ARG 1 trap
+	METHOD a reallyDrop (Lft;)V
+		ARG 1 item
+	METHOD a drop (Lha;)V
+		ARG 1 item
+	METHOD a drop (Lha;Z)V
+		ARG 1 item
+		ARG 2 b
+	METHOD a openContainer (Ljd;)V
+		ARG 1 container
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a openFurnace (Lol;)V
+		ARG 1 furnace
+	METHOD a hurt (Loo;I)Z
+	METHOD a getDestroySpeed (Lqn;)F
+		ARG 1 tile
+	METHOD a openTextEdit (Ltj;)V
+		ARG 1 sign
+	METHOD a stopSleepInBed (ZZ)V
+		ARG 1 a
+		ARG 2 b
+	METHOD b defineSynchedData ()V
+	METHOD b actuallyHurt (I)V
+	METHOD b startSleepInBed (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b carriedChanged (Lha;)V
+		ARG 1 item
+	METHOD b displayClientMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD b die (Loo;)V
+	METHOD b take (Loo;I)V
+		ARG 1 e
+		ARG 2 orgCount
+	METHOD b canDestroy (Lqn;)Z
+		ARG 1 tile
+	METHOD c interact (Loo;)V
+		ARG 1 entity
+	METHOD c awardKillScore (Loo;I)V
+	METHOD d attack (Loo;)V
+		ARG 1 entity
+	METHOD d_ updateAi ()V
+	METHOD e setBedOffset (I)V
+		ARG 1 dir
+	METHOD j touch (Loo;)V
+		ARG 1 entity
+	METHOD m aiStep ()V
+	METHOD p closeContainer ()V
+	METHOD q checkBed ()Z
+	METHOD q_ tick ()V
+	METHOD t respawn ()V
+	METHOD u animateRespawn ()V
+	METHOD v isImmobile ()Z
+	METHOD w prepareCustomTextures ()V
+	METHOD x rideTick ()V
+	METHOD y resetPos ()V
+	METHOD z drop ()V
+	FIELD A fishing Lje;
+	FIELD a sleeping Z
+	FIELD b respawnPosition Lav;
+	FIELD c sleepTimer I
+	FIELD d dmgSpill I
+	FIELD f inventory Lgz;
+	FIELD g inventoryMenu Lcu;
+	FIELD h containerMenu Lcu;
+	FIELD i userType B
+	FIELD j score I
+	FIELD k oBob F
+	FIELD l bob F
+	FIELD m swinging Z
+	FIELD n swingTime I
+	FIELD o name Ljava/lang/String;
+	FIELD p dimension I
+	FIELD q cloakTexture Ljava/lang/String;
+	FIELD r xCloakO D
+	FIELD s yCloakO D
+	FIELD t zCloakO D
+	FIELD u xCloak D
+	FIELD v yCloak D
+	FIELD w zCloak D
+	FIELD x unk_x F
+	FIELD y unk_y F
+	FIELD z unk_z F

@@ -1,0 +1,29 @@
+CLASS co net/minecraft/client/particle/ParticleEngine
+	METHOD <init> (Ldu;Lhg;)V
+		ARG 1 level
+		ARG 2 textures
+	METHOD a tick ()V
+	METHOD a destroy (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a crack (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD a setLevel (Ldu;)V
+		ARG 1 level
+	METHOD a render (Loo;F)V
+		ARG 1 player
+		ARG 2 a
+	METHOD a add (Lsw;)V
+		ARG 1 p
+	METHOD b countParticles ()Ljava/lang/String;
+	METHOD b renderLit (Loo;F)V
+		ARG 1 player
+		ARG 2 a
+	FIELD a level Ldu;
+	FIELD b particle [Ljava/util/List;
+	FIELD c terrain Lhg;
+	FIELD d random Ljava/util/Random;

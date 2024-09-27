@@ -1,0 +1,6 @@
+CLASS nf net/minecraft/network/packet/SetSpawnPositionPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

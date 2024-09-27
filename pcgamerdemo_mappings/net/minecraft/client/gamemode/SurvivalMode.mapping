@@ -1,0 +1,17 @@
+CLASS lk net/minecraft/client/gamemode/SurvivalMode
+	METHOD a tick ()V
+	METHOD a render (F)V
+	METHOD a startDestroyBlock (IIII)V
+	METHOD a initLevel (Ldu;)V
+	METHOD a initPlayer (Lff;)V
+	METHOD b stopDestroyBlock ()V
+	METHOD b continueDestroyBlock (IIII)V
+	METHOD c getPickRange ()F
+	METHOD c destroyBlock (IIII)Z
+	FIELD c xDestroyBlock I
+	FIELD d yDestroyBlock I
+	FIELD e zDestroyBlock I
+	FIELD f destroyProgress F
+	FIELD g oDestroyProgress F
+	FIELD h destroyTicks F
+	FIELD i destroyDelay I

@@ -1,0 +1,16 @@
+CLASS qx net/minecraft/world/phys/HitResult
+	METHOD <init> (IIIILay;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+		ARG 5 pos
+	METHOD <init> (Loo;)V
+		ARG 1 entity
+	FIELD a type Lhe;
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e f I
+	FIELD f pos Lay;
+	FIELD g entity Loo;

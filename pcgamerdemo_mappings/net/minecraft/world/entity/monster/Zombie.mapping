@@ -1,0 +1,6 @@
+CLASS qr net/minecraft/world/entity/monster/Zombie
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD m aiStep ()V

@@ -1,0 +1,34 @@
+CLASS eq net/minecraft/world/entity/item/Boat
+	METHOD <init> (Ldu;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a lerpMotion (DDD)V
+	METHOD a lerpTo (DDDFFI)V
+	METHOD a interact (Lff;)Z
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a getCollideAgainstBox (Loo;)Ldj;
+	METHOD a hurt (Loo;I)Z
+	METHOD b defineSynchedData ()V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD f_ isPickable ()Z
+	METHOD g_ isPushable ()Z
+	METHOD h animateHurt ()V
+	METHOD i_ getCollideBox ()Ldj;
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD l getRideHeight ()D
+	METHOD l_ positionRider ()V
+	METHOD q_ tick ()V
+	FIELD a damage I
+	FIELD b hurtTime I
+	FIELD c hutDir I
+	FIELD d lSteps I
+	FIELD e lx D
+	FIELD f ly D
+	FIELD g lz D
+	FIELD h lyr D
+	FIELD i lxr D
+	FIELD j lxd D
+	FIELD k lyd D
+	FIELD l lzd D

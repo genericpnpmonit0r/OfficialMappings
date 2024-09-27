@@ -1,0 +1,15 @@
+CLASS cq net/minecraft/world/item/DiggerItem
+	METHOD <init> (IILaz;[Lqn;)V
+		ARG 1 id
+		ARG 2 attackDamage
+		ARG 3 tier
+		ARG 4 tiles
+	METHOD a mineBlock (Lha;IIII)V
+	METHOD a hurtEnemy (Lha;Lja;)V
+	METHOD a getDestroySpeed (Lha;Lqn;)F
+	METHOD a getAttackDamage (Loo;)I
+	METHOD b isHandEquipped ()Z
+	FIELD a tier Laz;
+	FIELD bi tiles [Lqn;
+	FIELD bj speed F
+	FIELD bk attackDamage I

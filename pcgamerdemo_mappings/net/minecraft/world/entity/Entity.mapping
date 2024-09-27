@@ -1,0 +1,235 @@
+CLASS oo net/minecraft/world/entity/Entity
+	METHOD <init> (Ldu;)V
+		ARG 1 level
+	METHOD A getHeadHeight ()F
+	METHOD E getRidingHeight ()D
+	METHOD G remove ()V
+	METHOD H isInWall ()Z
+	METHOD M getTexture ()Ljava/lang/String;
+	METHOD O baseTick ()V
+	METHOD Q isAlive ()Z
+	METHOD T outOfWorld ()V
+	METHOD U getLookAngle ()Lay;
+	METHOD V getEntityData ()Lpx;
+	METHOD W lavaHurt ()V
+	METHOD X isInLava ()Z
+	METHOD Y markHurt ()V
+	METHOD Z getEncodeId ()Ljava/lang/String;
+	METHOD a handleEntityEvent (B)V
+		ARG 1 event
+	METHOD a shouldRenderAtSqrDistance (D)Z
+		ARG 1 distance
+	METHOD a lerpMotion (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a lerpTo (DDDFFI)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
+		ARG 9 steps
+	METHOD a checkFallDamage (DZ)V
+		ARG 1 a
+		ARG 3 b
+	METHOD a getBrightness (F)F
+		ARG 1 v
+	METHOD a setSize (FF)V
+		ARG 1 bbWidth
+		ARG 2 bbHeight
+	METHOD a moveRelative (FFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a burn (I)V
+		ARG 1 dmg
+	METHOD a spawnAtLocation (IIF)Lft;
+		ARG 1 item
+		ARG 2 count
+		ARG 3 f
+	METHOD a shouldRender (Lay;)Z
+		ARG 1 v
+	METHOD a setLevel (Ldu;)V
+		ARG 1 level
+	METHOD a interact (Lff;)Z
+		ARG 1 player
+	METHOD a spawnAtLocation (Lha;F)Lft;
+		ARG 1 item
+		ARG 2 f
+	METHOD a isUnderLiquid (Liv;)Z
+		ARG 1 material
+	METHOD a addAdditionalSaveData (Lkt;)V
+		ARG 1 entityTag
+	METHOD a getCollideAgainstBox (Loo;)Ldj;
+		ARG 1 entity
+	METHOD a hurt (Loo;I)Z
+		ARG 1 source
+		ARG 2 dmg
+	METHOD a newDoubleList ([D)Loq;
+		ARG 1 d
+	METHOD a newFloatList ([F)Loq;
+		ARG 1 f
+	METHOD aa isOnFire ()Z
+	METHOD ab isRiding ()Z
+	METHOD b defineSynchedData ()V
+	METHOD b setPos (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD b absMoveTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
+	METHOD b spawnAtLocation (II)Lft;
+		ARG 1 item
+		ARG 2 count
+	METHOD b setSharedFlag (IZ)V
+		ARG 1 data
+		ARG 2 flag
+	METHOD b playerTouch (Lff;)V
+		ARG 1 player
+	METHOD b readAdditionalSaveData (Lkt;)V
+		ARG 1 tag
+	METHOD c isFree (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD c moveTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
+	METHOD c causeFallDamage (F)V
+		ARG 1 fallDistance
+	METHOD c setRot (FF)V
+		ARG 1 yRot
+		ARG 2 xRot
+	METHOD c setEquippedSlot (III)V
+		ARG 1 slot
+		ARG 2 itemId
+		ARG 3 auxValue
+	METHOD c save (Lkt;)Z
+		ARG 1 entityTag
+	METHOD c awardKillScore (Loo;I)V
+		ARG 1 entity
+		ARG 2 score
+	METHOD d move (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d turn (FF)V
+		ARG 1 xr
+		ARG 2 yr
+	METHOD d getSharedFlag (I)Z
+		ARG 1 data
+	METHOD d saveWithoutId (Lkt;)V
+		ARG 1 entityTag
+	METHOD e getPickRadius ()F
+	METHOD e distanceToSqr (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD e load (Lkt;)V
+		ARG 1 tag
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	METHOD f distanceTo (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD f distanceTo (Loo;)F
+		ARG 1 entity
+	METHOD f_ isPickable ()Z
+	METHOD g push (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD g distanceToSqr (Loo;)D
+		ARG 1 entity
+	METHOD g_ isPushable ()Z
+	METHOD h animateHurt ()V
+	METHOD h push (Loo;)V
+		ARG 1 entity
+	METHOD i ride (Loo;)V
+		ARG 1 e
+	METHOD i_ getCollideBox ()Ldj;
+	METHOD j_ isInWater ()Z
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD l getRideHeight ()D
+	METHOD l_ positionRider ()V
+	METHOD q_ tick ()V
+	METHOD r isSneaking ()Z
+	METHOD s handleInsidePortal ()V
+	METHOD w prepareCustomTextures ()V
+	METHOD x rideTick ()V
+	METHOD y resetPos ()V
+	FIELD aA viewScale D
+	FIELD aB blocksBuilding Z
+	FIELD aC rider Loo;
+	FIELD aD riding Loo;
+	FIELD aE level Ldu;
+	FIELD aF xo D
+	FIELD aG yo D
+	FIELD aH zo D
+	FIELD a entityCounter I
+	FIELD aI x D
+	FIELD aJ y D
+	FIELD aK z D
+	FIELD aL xd D
+	FIELD aM yd D
+	FIELD aN zd D
+	FIELD aO yRot F
+	FIELD aP xRot F
+	FIELD aQ yRotO F
+	FIELD aR xRotO F
+	FIELD aS bb Ldj;
+	FIELD aT onGround Z
+	FIELD aU horizontalCollision Z
+	FIELD aV verticalCollision Z
+	FIELD aW collision Z
+	FIELD aX hurtMarked Z
+	FIELD aY slide Z
+	FIELD aZ removed Z
+	FIELD az entityId I
+	FIELD bA entityData Lpx;
+	FIELD bB inChunk Z
+	FIELD bC xChunk I
+	FIELD bD yChunk I
+	FIELD bE zChunk I
+	FIELD bF xp I
+	FIELD bG yp I
+	FIELD bH zp I
+	FIELD b nextStep I
+	FIELD ba heightOffset F
+	FIELD bb bbWidth F
+	FIELD bc bbHeight F
+	FIELD bd walkDistO F
+	FIELD be walkDist F
+	FIELD bf makeStepSound Z
+	FIELD bg fallDistance F
+	FIELD bh xOld D
+	FIELD bi yOld D
+	FIELD bj zOld D
+	FIELD bk ySlideOffset F
+	FIELD bl footSize F
+	FIELD bm noPhysics Z
+	FIELD bn pushthrough F
+	FIELD bo hovered Z
+	FIELD bp random Ljava/util/Random;
+	FIELD bq tickCount I
+	FIELD br flameTime I
+	FIELD bs onFire I
+	FIELD bt airCapacity I
+	FIELD bu wasInWater Z
+	FIELD bv invulnerableTime I
+	FIELD bw airSupply I
+	FIELD bx customTextureUrl Ljava/lang/String;
+	FIELD by customTextureUrl2 Ljava/lang/String;
+	FIELD bz fireImmune Z
+	FIELD c firstTick Z
+	FIELD d xRideRotA D
+	FIELD e yRideRotA D

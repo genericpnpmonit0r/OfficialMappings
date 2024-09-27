@@ -1,0 +1,15 @@
+CLASS rd net/minecraft/client/skins/FileTexturePack
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 file
+	METHOD a select ()V
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD a load (Lnet/minecraft/client/Minecraft;)V
+	METHOD b deselect ()V
+	METHOD b trim (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 line
+	METHOD b unload (Lnet/minecraft/client/Minecraft;)V
+	METHOD c bindTexture (Lnet/minecraft/client/Minecraft;)V
+	FIELD e zf Ljava/util/zip/ZipFile;
+	FIELD f texture I
+	FIELD g icon Ljava/awt/image/BufferedImage;
+	FIELD h file Ljava/io/File;

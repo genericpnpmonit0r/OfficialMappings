@@ -1,0 +1,51 @@
+CLASS ns net/minecraft/world/level/tile/LiquidTile
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPick (IZ)Z
+	METHOD a neighborChanged (Ldu;IIII)V
+	METHOD a tick (Ldu;IIILjava/util/Random;)V
+	METHOD a handleEntityInside (Ldu;IIILoo;Lay;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a getSlopeAngle (Lsp;IIILiv;)D
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
+	METHOD b isCubeShaped ()Z
+	METHOD b animateTick (Ldu;IIILjava/util/Random;)V
+	METHOD b shouldRenderFace (Lsp;IIII)Z
+	METHOD c getRenderLayer ()I
+	METHOD c getHeight (I)F
+		ARG 0 d
+	METHOD c getRenderedDepth (Lsp;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getTickDelay ()I
+	METHOD d getAABB (Ldu;III)Ldj;
+	METHOD d getBrightness (Lsp;III)F
+	METHOD e onPlace (Ldu;III)V
+	METHOD e getFlow (Lsp;III)Lay;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getRenderShape ()I
+	METHOD h getDepth (Ldu;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i fizz (Ldu;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j updateLiquid (Ldu;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

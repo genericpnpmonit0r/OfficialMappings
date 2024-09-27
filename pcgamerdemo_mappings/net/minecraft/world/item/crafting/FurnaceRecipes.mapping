@@ -1,0 +1,9 @@
+CLASS dq net/minecraft/world/item/crafting/FurnaceRecipes
+	METHOD a getInstance ()Ldq;
+	METHOD a getResult (I)Lha;
+		ARG 1 item
+	METHOD a addFurnaceRecipy (ILha;)V
+		ARG 1 ingredient
+		ARG 2 result
+	FIELD a instance Ldq;
+	FIELD b recipies Ljava/util/Map;

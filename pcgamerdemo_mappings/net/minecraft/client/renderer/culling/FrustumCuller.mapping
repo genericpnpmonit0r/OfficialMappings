@@ -1,0 +1,14 @@
+CLASS os net/minecraft/client/renderer/culling/FrustumCuller
+	METHOD a prepare (DDD)V
+	METHOD a cubeInFrustum (DDDDDD)Z
+		ARG 1 x0
+		ARG 3 y0
+		ARG 5 z0
+		ARG 7 x1
+		ARG 9 y1
+		ARG 11 z1
+	METHOD a isVisible (Ldj;)Z
+	FIELD a frustum Lcr;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D

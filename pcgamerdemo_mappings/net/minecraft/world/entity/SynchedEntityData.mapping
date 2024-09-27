@@ -1,0 +1,14 @@
+CLASS px net/minecraft/world/entity/SynchedEntityData
+	METHOD a getByte (I)B
+		ARG 1 id
+	METHOD a define (ILjava/lang/Object;)V
+		ARG 1 id
+		ARG 2 type
+	METHOD a assignValues (Ljava/util/List;)V
+		ARG 1 dataItem
+	METHOD b set (ILjava/lang/Object;)V
+		ARG 1 id
+		ARG 2 type
+	FIELD a typeToConstant Ljava/util/HashMap;
+	FIELD b itemsById Ljava/util/Map;
+	FIELD c isDirty Z

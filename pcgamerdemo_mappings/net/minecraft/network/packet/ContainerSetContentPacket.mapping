@@ -1,0 +1,5 @@
+CLASS hv net/minecraft/network/packet/ContainerSetContentPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a containerId I
+	FIELD b items [Lha;

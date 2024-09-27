@@ -1,0 +1,6 @@
+CLASS lu net/minecraft/network/packet/ChatPacket
+	METHOD <init> (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a message Ljava/lang/String;

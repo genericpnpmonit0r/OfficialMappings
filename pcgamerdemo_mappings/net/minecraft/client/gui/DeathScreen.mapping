@@ -1,0 +1,6 @@
+CLASS bl net/minecraft/client/gui/DeathScreen
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhx;)V
+	METHOD b isPauseScreen ()Z

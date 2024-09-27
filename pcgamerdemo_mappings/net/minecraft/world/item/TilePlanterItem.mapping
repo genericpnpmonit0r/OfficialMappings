@@ -1,0 +1,6 @@
+CLASS jc net/minecraft/world/item/TilePlanterItem
+	METHOD <init> (ILqn;)V
+		ARG 1 id
+		ARG 2 tile
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z
+	FIELD a tileId I

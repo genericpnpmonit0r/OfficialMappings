@@ -1,0 +1,6 @@
+CLASS of net/minecraft/network/packet/ChunkVisibilityPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a x I
+	FIELD b z I
+	FIELD c visible Z

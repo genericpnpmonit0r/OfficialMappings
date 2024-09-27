@@ -1,0 +1,15 @@
+CLASS po net/minecraft/world/level/storage/DirectoryLevelStorageSource
+	FIELD a dir Ljava/io/File;
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 dir
+	METHOD a getName ()Ljava/lang/String;
+	METHOD a requiresConversion (Ljava/lang/String;)Z
+	METHOD a renameLevel (Ljava/lang/String;Ljava/lang/String;)V
+	METHOD a convertLevel (Ljava/lang/String;Ltb;)Z
+	METHOD a selectLevel (Ljava/lang/String;Z)Lrz;
+	METHOD a delete ([Ljava/io/File;)V
+		ARG 0 files
+	METHOD b getLevelList ()Ljava/util/List;
+	METHOD b getTagDataFor (Ljava/lang/String;)Ldd;
+	METHOD c clearAll ()V
+	METHOD c deleteLevel (Ljava/lang/String;)V

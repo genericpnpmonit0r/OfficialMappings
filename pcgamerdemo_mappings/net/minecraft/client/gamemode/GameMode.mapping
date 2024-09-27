@@ -1,0 +1,60 @@
+CLASS ky net/minecraft/client/gamemode/GameMode
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a tick ()V
+	METHOD a render (F)V
+		ARG 1 a
+	METHOD a startDestroyBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD a handleInventoryMouseClock (IIILff;)Lha;
+		ARG 1 containerId
+		ARG 2 slotNum
+		ARG 3 buttonNum
+		ARG 4 player
+	METHOD a handleCloseInventory (ILff;)V
+		ARG 1 containerId
+		ARG 2 player
+	METHOD a initLevel (Ldu;)V
+		ARG 1 level
+	METHOD a initPlayer (Lff;)V
+		ARG 1 player
+	METHOD a useItem (Lff;Ldu;Lha;)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+	METHOD a useItemOn (Lff;Ldu;Lha;IIII)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 item
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD a attack (Lff;Loo;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD b stopDestroyBlock ()V
+	METHOD b continueDestroyBlock (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD b createPlayer (Ldu;)Lff;
+		ARG 1 level
+	METHOD b adjustPlayer (Lff;)V
+		ARG 1 player
+	METHOD b interact (Lff;Loo;)V
+		ARG 1 player
+		ARG 2 entity
+	METHOD c getPickRange ()F
+	METHOD c destroyBlock (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+	METHOD d canHurtPlayer ()Z
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b instaBuild Z

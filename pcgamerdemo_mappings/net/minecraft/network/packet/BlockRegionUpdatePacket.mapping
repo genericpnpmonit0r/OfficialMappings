@@ -1,0 +1,11 @@
+CLASS db net/minecraft/network/packet/BlockRegionUpdatePacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d xs I
+	FIELD e ys I
+	FIELD f zs I
+	FIELD g buffer [B
+	FIELD h size I

@@ -1,0 +1,10 @@
+CLASS tr net/minecraft/world/inventory/ResultSlot
+	METHOD <init> (Ljd;Ljd;III)V
+		ARG 1 craftSlots
+		ARG 2 inventory
+		ARG 3 slot
+		ARG 4 x
+		ARG 5 y
+	METHOD a onTake ()V
+	METHOD a mayPlace (Lha;)Z
+	FIELD d craftSlots Ljd;

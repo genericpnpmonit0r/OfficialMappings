@@ -1,0 +1,9 @@
+CLASS im net/minecraft/world/level/chunk/storage/McRegionChunkStorage
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 dir
+	METHOD a tick ()V
+	METHOD a load (Ldu;II)Liu;
+	METHOD a save (Ldu;Liu;)V
+	METHOD b flush ()V
+	METHOD b saveEntities (Ldu;Liu;)V
+	FIELD a dir Ljava/io/File;

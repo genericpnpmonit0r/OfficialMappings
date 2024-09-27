@@ -1,0 +1,8 @@
+CLASS pz net/minecraft/client/gui/inventory/InventoryScreen
+	METHOD <init> (Lff;)V
+		ARG 1 player
+	METHOD a renderBg (F)V
+	METHOD a render (IIF)V
+	METHOD j renderLabels ()V
+	FIELD k xMouse F
+	FIELD l yMouse F

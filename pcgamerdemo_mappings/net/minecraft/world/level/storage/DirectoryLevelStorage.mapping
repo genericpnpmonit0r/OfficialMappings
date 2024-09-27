@@ -1,0 +1,16 @@
+CLASS ed net/minecraft/world/level/storage/DirectoryLevelStorage
+	METHOD <init> (Ljava/io/File;Ljava/lang/String;Z)V
+		ARG 1 workDir
+		ARG 2 levelName
+		ARG 3 players
+	METHOD a getDirectory ()Ljava/io/File;
+	METHOD a saveLevelData (Ldd;)V
+	METHOD a saveLevelData (Ldd;Ljava/util/List;)V
+	METHOD a createChunkStorage (Lsg;)Lao;
+	METHOD b checkSession ()V
+	METHOD c prepareLevel ()Ldd;
+	METHOD d init ()V
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b dir Ljava/io/File;
+	FIELD c playerDir Ljava/io/File;
+	FIELD d sessionId J

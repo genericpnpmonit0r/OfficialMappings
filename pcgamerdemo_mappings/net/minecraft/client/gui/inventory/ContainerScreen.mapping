@@ -1,0 +1,9 @@
+CLASS fw net/minecraft/client/gui/inventory/ContainerScreen
+	METHOD <init> (Ljd;Ljd;)V
+		ARG 1 inventory
+		ARG 2 container
+	METHOD a renderBg (F)V
+	METHOD j renderLabels ()V
+	FIELD k inventory Ljd;
+	FIELD l container Ljd;
+	FIELD m containerRows I

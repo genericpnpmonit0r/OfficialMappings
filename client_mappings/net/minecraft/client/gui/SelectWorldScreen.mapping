@@ -9,9 +9,9 @@ CLASS nr net/minecraft/client/gui/SelectWorldScreen
 	FIELD o world Ljava/lang/String;
 	FIELD p conversion Ljava/lang/String;
 	FIELD q unk_q Z
-	FIELD r rename Lhw;
-	FIELD s select Lhw;
-	FIELD t delete Lhw;
+	FIELD r renameButton Lhw;
+	FIELD s selectButton Lhw;
+	FIELD t deleteButton Lhw;
 	METHOD <init> (Lcb;)V
 		ARG 1 lastScreen
 	METHOD a access$000 (Lnr;)Ljava/util/List;

@@ -1,0 +1,9 @@
+CLASS kn net/minecraft/client/model/SlimeModel
+	METHOD <init> (I)V
+		ARG 1 vOffs
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a cube Lmd;
+	FIELD b eye0 Lmd;
+	FIELD c eye1 Lmd;
+	FIELD d mouth Lmd;

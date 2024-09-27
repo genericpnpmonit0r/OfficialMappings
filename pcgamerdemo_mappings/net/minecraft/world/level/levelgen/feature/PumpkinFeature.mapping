@@ -1,0 +1,2 @@
+CLASS sd net/minecraft/world/level/levelgen/feature/PumpkinFeature
+	METHOD a place (Ldu;Ljava/util/Random;III)Z

@@ -1,0 +1,62 @@
+CLASS bb net/minecraft/client/renderer/entity/EntityRenderer
+	METHOD a getFont ()Lok;
+	METHOD a renderFlat (Ldj;)V
+		ARG 0 bb
+	METHOD a render (Ldj;DDD)V
+		ARG 0 bb
+		ARG 1 xo
+		ARG 3 yo
+		ARG 5 zo
+	METHOD a bindTexture (Ljava/lang/String;)V
+		ARG 1 resourceName
+	METHOD a bindTexture (Ljava/lang/String;Ljava/lang/String;)Z
+		ARG 1 urlTexture
+		ARG 2 backupTexture
+	METHOD a renderFlame (Loo;DDDF)V
+		ARG 1 e
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 a
+	METHOD a render (Loo;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 rot
+		ARG 9 a
+	METHOD a init (Lpf;)V
+		ARG 1 entityRenderDispatcher
+	METHOD a renderTileShadow (Lqn;DDDIIIFFDDD)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xt
+		ARG 9 yt
+		ARG 10 zt
+		ARG 11 pow
+		ARG 12 r
+		ARG 13 xo
+		ARG 15 yo
+		ARG 17 zo
+	METHOD b getLevel ()Ldu;
+	METHOD b postRender (Loo;DDDFF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 rot
+		ARG 9 a
+	METHOD c renderShadow (Loo;DDDFF)V
+		ARG 1 e
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 pow
+		ARG 9 a
+	FIELD a model Lid;
+	FIELD b entityRenderDispatcher Lpf;
+	FIELD c shadowRadius F
+	FIELD d shadowStrength F
+	FIELD e tileRenderer Lbw;

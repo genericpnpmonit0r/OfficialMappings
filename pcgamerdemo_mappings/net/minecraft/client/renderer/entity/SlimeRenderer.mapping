@@ -1,0 +1,8 @@
+CLASS jr net/minecraft/client/renderer/entity/SlimeRenderer
+	METHOD <init> (Lid;Lid;F)V
+		ARG 1 model
+		ARG 2 armor
+		ARG 3 shadow
+	METHOD a scale (Lja;F)V
+	METHOD a prepareArmor (Lja;IF)Z
+	FIELD a armor Lid;

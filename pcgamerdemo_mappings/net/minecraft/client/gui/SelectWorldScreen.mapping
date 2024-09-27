@@ -1,0 +1,47 @@
+CLASS nt net/minecraft/client/gui/SelectWorldScreen
+	FIELD a lastScreen Lcb;
+	FIELD h title Ljava/lang/String;
+	FIELD i df Ljava/text/DateFormat;
+	FIELD k done Z
+	FIELD l selected I
+	FIELD m levelList Ljava/util/List;
+	FIELD n selectionMenu Ljo;
+	FIELD o world Ljava/lang/String;
+	FIELD p conversion Ljava/lang/String;
+	FIELD q unk_q Z
+	FIELD r renameButton Lhx;
+	FIELD s selectButton Lhx;
+	FIELD t deleteButton Lhx;
+	METHOD <init> (Lcb;)V
+		ARG 1 lastScreen
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhx;)V
+	METHOD a access$000 (Lnt;)Ljava/util/List;
+		ARG 0 this$0
+	METHOD a access$100 (Lnt;I)I
+		ARG 0 this$0
+		ARG 1 selected
+	METHOD a confirmResult (ZI)V
+	METHOD b access$200 (Lnt;)I
+		ARG 0 this$0
+	METHOD c getLevelId (I)Ljava/lang/String;
+		ARG 1 i
+	METHOD c access$300 (Lnt;)Lhx;
+		ARG 0 this$0
+	METHOD d getWorldName (I)Ljava/lang/String;
+		ARG 1 i
+	METHOD d access$400 (Lnt;)Lhx;
+		ARG 0 this$0
+	METHOD e worldSelected (I)V
+		ARG 1 i
+	METHOD e access$500 (Lnt;)Lhx;
+		ARG 0 this$0
+	METHOD f access$600 (Lnt;)Ljava/lang/String;
+		ARG 0 this$0
+	METHOD g access$700 (Lnt;)Ljava/text/DateFormat;
+		ARG 0 this$0
+	METHOD h access$800 (Lnt;)Ljava/lang/String;
+		ARG 0 this$0
+	METHOD j postInit ()V
+	METHOD k unk_k ()V

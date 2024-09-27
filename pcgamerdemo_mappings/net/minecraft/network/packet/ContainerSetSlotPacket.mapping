@@ -1,0 +1,6 @@
+CLASS fx net/minecraft/network/packet/ContainerSetSlotPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a containerId I
+	FIELD b slot I
+	FIELD c item Lha;

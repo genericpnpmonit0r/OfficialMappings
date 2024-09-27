@@ -1,0 +1,6 @@
+CLASS af net/minecraft/world/entity/animal/WaterAnimal
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD c canSpawn ()Z
+	METHOD c_ isWaterMob ()Z
+	METHOD d getAmbientSoundInterval ()I

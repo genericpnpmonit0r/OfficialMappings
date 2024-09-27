@@ -1,0 +1,34 @@
+CLASS pv net/minecraft/client/gui/GuiComponent
+	METHOD a fill (IIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 x1
+		ARG 4 y1
+		ARG 5 col
+	METHOD a fillGradient (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 x1
+		ARG 4 y1
+		ARG 5 col1
+		ARG 6 col2
+	METHOD a drawCenteredString (Lok;Ljava/lang/String;III)V
+		ARG 1 font
+		ARG 2 string
+		ARG 3 x
+		ARG 4 y
+		ARG 5 color
+	METHOD b blit (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 sx
+		ARG 4 sy
+		ARG 5 w
+		ARG 6 h
+	METHOD b drawString (Lok;Ljava/lang/String;III)V
+		ARG 1 font
+		ARG 2 string
+		ARG 3 x
+		ARG 4 y
+		ARG 5 color
+	FIELD j blitOffset F

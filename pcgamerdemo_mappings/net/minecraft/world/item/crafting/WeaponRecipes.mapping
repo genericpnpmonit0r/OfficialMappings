@@ -1,0 +1,5 @@
+CLASS si net/minecraft/world/item/crafting/WeaponRecipes
+	METHOD a addRecipes (Lfs;)V
+		ARG 1 recipes
+	FIELD a shapes [[Ljava/lang/String;
+	FIELD b map [[Ljava/lang/Object;

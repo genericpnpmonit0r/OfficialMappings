@@ -1,0 +1,122 @@
+CLASS h net/minecraft/client/renderer/LevelRenderer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lhg;)V
+		ARG 1 minecraft
+		ARG 2 textures
+	METHOD a allChanged ()V
+	METHOD a renderSky (F)V
+		ARG 1 alpha
+	METHOD a renderSameAsLast (ID)V
+		ARG 1 layer
+		ARG 2 alpha
+	METHOD a checkQueryResults (II)V
+		ARG 1 from
+		ARG 2 to
+	METHOD a tileChanged (III)V
+	METHOD a renderChunks (IIID)I
+		ARG 1 from
+		ARG 2 to
+		ARG 3 layer
+		ARG 4 alpha
+	METHOD a setDirty (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a tileEntityChanged (IIILll;)V
+	METHOD a renderEntities (Lay;Ltm;F)V
+		ARG 1 vam
+		ARG 2 culler
+		ARG 3 a
+	METHOD a render (Ldj;)V
+		ARG 1 bb
+	METHOD a setLevel (Ldu;)V
+		ARG 1 level
+	METHOD a renderHit (Lff;Lqx;ILha;F)V
+		ARG 1 player
+		ARG 2 h
+		ARG 3 mode
+		ARG 4 inventoryItem
+		ARG 5 a
+	METHOD a render (Lja;ID)I
+		ARG 1 player
+		ARG 2 layer
+		ARG 3 alpha
+	METHOD a updateDirtyChunks (Lja;Z)Z
+		ARG 1 player
+		ARG 2 force
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+	METHOD a playStreamingMusic (Ljava/lang/String;III)V
+	METHOD a entityAdded (Loo;)V
+	METHOD a cull (Ltm;F)V
+		ARG 1 culler
+		ARG 2 a
+	METHOD b gatherStats1 ()Ljava/lang/String;
+	METHOD b renderClouds (F)V
+		ARG 1 alpha
+	METHOD b resortChunks (III)V
+		ARG 1 xc
+		ARG 2 yc
+		ARG 3 zc
+	METHOD b setTilesDirty (IIIIII)V
+	METHOD b renderHitOutline (Lff;Lqx;ILha;F)V
+		ARG 1 player
+		ARG 2 h
+		ARG 3 mode
+		ARG 4 inventoryItem
+		ARG 5 a
+	METHOD b entityRemoved (Loo;)V
+	METHOD c gatherStats2 ()Ljava/lang/String;
+	METHOD c renderAdvancedClouds (F)V
+		ARG 1 alpha
+	METHOD d tick ()V
+	METHOD e skyColorChanged ()V
+	METHOD f renderStars ()V
+	FIELD A darkList I
+	FIELD B xMinChunk I
+	FIELD C yMinChunk I
+	FIELD D zMinChunk I
+	FIELD E xMaxChunk I
+	FIELD F yMaxChunk I
+	FIELD G zMaxChunk I
+	FIELD H lastViewDistance I
+	FIELD I noEntityRenderFrames I
+	FIELD J totalEntities I
+	FIELD K renderedEntities I
+	FIELD L culledEntities I
+	FIELD M totalChunks I
+	FIELD N offscreenChunks I
+	FIELD O occludedChunks I
+	FIELD P renderedChunks I
+	FIELD Q emptyChunks I
+	FIELD R chunkFixOffs I
+	FIELD S renderChunks Ljava/util/List;
+	FIELD T renderLists [Lpe;
+	FIELD a renderableTileEntities Ljava/util/List;
+	FIELD b toRender [I
+	FIELD c resultBuffer Ljava/nio/IntBuffer;
+	FIELD d frame I
+	FIELD e repeatList I
+	FIELD f xOld D
+	FIELD g yOld D
+	FIELD h zOld D
+	FIELD i destroyProgress F
+	FIELD j cullStep I
+	FIELD k level Ldu;
+	FIELD l textures Lhg;
+	FIELD m dirtyChunks Ljava/util/List;
+	FIELD n sortedChunks [Lcl;
+	FIELD o chunks [Lcl;
+	FIELD p xChunks I
+	FIELD q yChunks I
+	FIELD r zChunks I
+	FIELD s chunkLists I
+	FIELD t mc Lnet/minecraft/client/Minecraft;
+	FIELD u tileRenderer Lbw;
+	FIELD v occlusionCheckIds Ljava/nio/IntBuffer;
+	FIELD w occlusionCheck Z
+	FIELD x ticks I
+	FIELD y starList I
+	FIELD z skyList I

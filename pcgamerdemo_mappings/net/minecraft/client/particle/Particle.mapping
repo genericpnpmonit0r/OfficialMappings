@@ -1,0 +1,39 @@
+CLASS sw net/minecraft/client/particle/Particle
+	METHOD <init> (Ldu;DDDDDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xa
+		ARG 10 ya
+		ARG 12 za
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a render (Lkv;FFFFFF)V
+		ARG 1 t
+		ARG 2 a
+		ARG 3 xa
+		ARG 4 ya
+		ARG 5 za
+		ARG 6 xa2
+		ARG 7 za2
+	METHOD b defineSynchedData ()V
+	METHOD b setPower (F)Lsw;
+		ARG 1 power
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD b_ getParticleTexture ()I
+	METHOD d scale (F)Lsw;
+		ARG 1 scale
+	METHOD q_ tick ()V
+	FIELD b tex I
+	FIELD c uo F
+	FIELD d vo F
+	FIELD e age I
+	FIELD f lifetime I
+	FIELD g size F
+	FIELD h gravity F
+	FIELD i rCol F
+	FIELD j gCol F
+	FIELD k bCol F
+	FIELD l xOff D
+	FIELD m yOff D
+	FIELD n zOff D

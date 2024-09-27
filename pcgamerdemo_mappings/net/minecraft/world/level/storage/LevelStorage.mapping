@@ -1,0 +1,10 @@
+CLASS rz net/minecraft/world/level/storage/LevelStorage
+	METHOD a saveLevelData (Ldd;)V
+		ARG 1 levelData
+	METHOD a saveLevelData (Ldd;Ljava/util/List;)V
+		ARG 1 levelData
+		ARG 2 players
+	METHOD a createChunkStorage (Lsg;)Lao;
+		ARG 1 dimension
+	METHOD b checkSession ()V
+	METHOD c prepareLevel ()Ldd;

@@ -1,0 +1,5 @@
+CLASS kr net/minecraft/network/packet/SetRidingPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a riderId I
+	FIELD b riddenId I

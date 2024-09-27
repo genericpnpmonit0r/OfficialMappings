@@ -1,0 +1,3 @@
+CLASS mp net/minecraft/network/packet/PlayerInputPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V

@@ -1,0 +1,3 @@
+CLASS tt net/minecraft/client/renderer/entity/SpiderRenderer
+	METHOD a getFlipDegrees (Lja;)F
+	METHOD a prepareArmor (Lja;IF)Z

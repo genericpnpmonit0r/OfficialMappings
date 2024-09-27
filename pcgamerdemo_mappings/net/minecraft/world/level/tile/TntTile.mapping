@@ -1,0 +1,9 @@
+CLASS z net/minecraft/world/level/tile/TntTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a getTexture (I)I
+	METHOD a neighborChanged (Ldu;IIII)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b destroy (Ldu;IIII)V
+	METHOD c wasExploded (Ldu;III)V

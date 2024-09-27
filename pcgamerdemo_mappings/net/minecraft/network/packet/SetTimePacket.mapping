@@ -1,0 +1,4 @@
+CLASS fp net/minecraft/network/packet/SetTimePacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a time J

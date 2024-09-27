@@ -1,0 +1,3 @@
+CLASS ds net/minecraft/world/level/tile/ObsidianTile
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I

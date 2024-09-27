@@ -1,0 +1,13 @@
+CLASS ak net/minecraft/world/level/tile/entity/DispenserTileEntity
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lha;
+	METHOD a setItem (ILha;)V
+	METHOD a load (Lkt;)V
+	METHOD a_ stillValid (Lff;)Z
+	METHOD b removeRandomItem ()Lha;
+	METHOD b save (Lkt;)V
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Lha;
+	METHOD d getMaxStackSize ()I
+	FIELD a items [Lha;
+	FIELD b random Ljava/util/Random;

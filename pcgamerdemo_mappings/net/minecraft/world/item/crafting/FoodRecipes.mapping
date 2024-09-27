@@ -1,0 +1,3 @@
+CLASS kz net/minecraft/world/item/crafting/FoodRecipes
+	METHOD a addRecipes (Lfs;)V
+		ARG 1 recipes

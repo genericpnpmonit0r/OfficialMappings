@@ -1,0 +1,11 @@
+CLASS sf net/minecraft/client/multiplayer/ConnectScreen$1
+	FIELD a val$minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b val$ip Ljava/lang/String;
+	FIELD c val$port I
+	FIELD d this$0 Lri;
+	METHOD <init> (Lri;Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 this$0
+		ARG 2 val$minecraft
+		ARG 3 val$ip
+		ARG 4 val$port
+	METHOD run run ()V

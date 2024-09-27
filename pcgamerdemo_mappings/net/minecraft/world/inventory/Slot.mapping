@@ -1,0 +1,23 @@
+CLASS fb net/minecraft/world/inventory/Slot
+	METHOD <init> (Ljd;III)V
+		ARG 1 container
+		ARG 2 slot
+		ARG 3 x
+		ARG 4 y
+	METHOD a onTake ()V
+	METHOD a remove (I)Lha;
+		ARG 1 c
+	METHOD a mayPlace (Lha;)Z
+		ARG 1 item
+	METHOD b getItem ()Lha;
+	METHOD b set (Lha;)V
+		ARG 1 item
+	METHOD c hasItem ()Z
+	METHOD d setChanged ()V
+	METHOD e getMaxStackSize ()I
+	METHOD f getNoItemIcon ()I
+	FIELD a index I
+	FIELD b x I
+	FIELD c y I
+	FIELD d slot I
+	FIELD e container Ljd;

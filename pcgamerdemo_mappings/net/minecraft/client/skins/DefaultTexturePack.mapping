@@ -1,0 +1,5 @@
+CLASS lp net/minecraft/client/skins/DefaultTexturePack
+	METHOD b unload (Lnet/minecraft/client/Minecraft;)V
+	METHOD c bindTexture (Lnet/minecraft/client/Minecraft;)V
+	FIELD e texture I
+	FIELD f icon Ljava/awt/image/BufferedImage;

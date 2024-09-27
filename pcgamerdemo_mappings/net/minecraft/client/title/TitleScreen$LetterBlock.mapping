@@ -1,0 +1,10 @@
+CLASS oj net/minecraft/client/title/TitleScreen$LetterBlock
+	FIELD a y D
+	FIELD b yO D
+	FIELD c ya D
+	FIELD d this$0 Lei;
+	METHOD <init> (Lei;II)V
+		ARG 1 this$0
+		ARG 2 a
+		ARG 3 b
+	METHOD a tick ()V

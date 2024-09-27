@@ -1,0 +1,25 @@
+CLASS ga net/minecraft/client/Options$Option
+	FIELD a MUSIC Lga;
+	FIELD b SOUND Lga;
+	FIELD c INVERT_MOUSE Lga;
+	FIELD d SENSITIVITY Lga;
+	FIELD e RENDER_DISTANCE Lga;
+	FIELD f VIEW_BOBBING Lga;
+	FIELD g ANAGLYPH Lga;
+	FIELD h LIMIT_FRAMERATE Lga;
+	FIELD i DIFFICULTY Lga;
+	FIELD j GRAPHICS Lga;
+	FIELD k AMBIENT_OCCLUSION Lga;
+	FIELD l isProgress Z
+	FIELD m isBoolean Z
+	FIELD n captionId Ljava/lang/String;
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 captionId
+		ARG 4 isProgress
+		ARG 5 isBoolean
+	METHOD a isProgress ()Z
+	METHOD a getItem (I)Lga;
+		ARG 0 id
+	METHOD b isBoolean ()Z
+	METHOD c getId ()I
+	METHOD d captionId ()Ljava/lang/String;

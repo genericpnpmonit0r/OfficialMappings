@@ -1,0 +1,4 @@
+CLASS nx net/minecraft/network/packet/RemoveEntityPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a id I

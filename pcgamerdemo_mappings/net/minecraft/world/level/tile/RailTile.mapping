@@ -1,0 +1,20 @@
+CLASS lq net/minecraft/world/level/tile/RailTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (II)I
+	METHOD a mayPlace (Ldu;III)Z
+	METHOD a neighborChanged (Ldu;IIII)V
+	METHOD a clip (Ldu;IIILay;Lay;)Lqx;
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a updateShape (Lsp;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD d getAABB (Ldu;III)Ldj;
+	METHOD e onPlace (Ldu;III)V
+	METHOD g getRenderShape ()I
+	METHOD h updateDir (Ldu;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

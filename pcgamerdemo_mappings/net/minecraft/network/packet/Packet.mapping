@@ -1,0 +1,13 @@
+CLASS ia net/minecraft/network/packet/Packet
+	METHOD a getEstimatedSize ()I
+	METHOD a map (ILjava/lang/Class;)V
+		ARG 0 id
+		ARG 1 c
+	METHOD a handle (Lpg;)V
+		ARG 1 pl
+	FIELD a idToClassMap Ljava/util/Map;
+	FIELD b classToIdMap Ljava/util/Map;
+	FIELD c packetCounts Ljava/util/HashMap;
+	FIELD d readPacketCount I
+	FIELD j createTime J
+	FIELD k shouldDelay Z

@@ -1,0 +1,2 @@
+CLASS cn net/minecraft/world/item/SnowballItem
+	METHOD a use (Lha;Ldu;Lff;)Lha;

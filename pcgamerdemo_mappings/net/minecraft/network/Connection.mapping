@@ -1,0 +1,29 @@
+CLASS lt net/minecraft/network/Connection
+	FIELD a threadCounterLock Ljava/lang/Object;
+	FIELD b writeLock Ljava/lang/Object;
+	FIELD c socket Ljava/net/Socket;
+	FIELD d dis Ljava/io/DataInputStream;
+	FIELD e dos Ljava/io/DataOutputStream;
+	FIELD f running Z
+	FIELD g incoming Ljava/util/List;
+	FIELD h outgoing Ljava/util/List;
+	FIELD i outgoing_slow Ljava/util/List;
+	FIELD j packetListener Lpg;
+	FIELD k quitting Z
+	FIELD l writeThread Ljava/lang/Thread;
+	FIELD m readThread Ljava/lang/Thread;
+	FIELD n disconnected Z
+	FIELD o disconnectReason Ljava/lang/String;
+	FIELD p disconnectReasonObjects [Ljava/lang/Object;
+	FIELD q noInputTicks I
+	FIELD r estimatedRemaining I
+	METHOD a tick ()V
+	METHOD a send (Lia;)V
+		ARG 1 pack
+	METHOD a close (Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 reason
+		ARG 2 reasonObjects
+	METHOD a access$000 (Llt;)Ljava/lang/Thread;
+		ARG 0 this$0
+	METHOD b access$100 (Llt;)Ljava/lang/Thread;
+		ARG 0 this$0

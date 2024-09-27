@@ -1,9 +1,9 @@
 CLASS dz net/minecraft/client/gui/CreateWorldScreen
 	FIELD a lastScreen Lcb;
-	FIELD h name Lnp;
-	FIELD i seed Lnp;
+	FIELD h nameEdit Lnp;
+	FIELD i seedEdit Lnp;
 	FIELD k resultFolder Ljava/lang/String;
-	FIELD l unk_l Z
+	FIELD l done Z
 	METHOD <init> (Lcb;)V
 		ARG 1 lastScreen
 	METHOD j updateResultFolder ()V

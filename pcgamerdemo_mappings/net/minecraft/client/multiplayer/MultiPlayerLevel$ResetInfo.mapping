@@ -1,0 +1,15 @@
+CLASS pk net/minecraft/client/multiplayer/MultiPlayerLevel$ResetInfo
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d ticks I
+	FIELD e tile I
+	FIELD f data I
+	FIELD g this$0 Ljs;
+	METHOD <init> (Ljs;IIIII)V
+		ARG 1 this$0
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 tile
+		ARG 6 data

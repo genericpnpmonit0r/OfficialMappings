@@ -1,0 +1,5 @@
+CLASS hd net/minecraft/network/packet/EntityEventPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a entityId I
+	FIELD b eventId B

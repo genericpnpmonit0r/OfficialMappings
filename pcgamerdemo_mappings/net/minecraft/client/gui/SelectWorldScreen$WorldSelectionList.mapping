@@ -1,0 +1,4 @@
+CLASS jo net/minecraft/client/gui/SelectWorldScreen$WorldSelectionList
+	FIELD a this$0 Lnt;
+	METHOD <init> (Lnt;)V
+		ARG 1 this$0

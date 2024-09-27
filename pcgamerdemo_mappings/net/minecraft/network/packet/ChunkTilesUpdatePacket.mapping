@@ -1,0 +1,9 @@
+CLASS sb net/minecraft/network/packet/ChunkTilesUpdatePacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a xc I
+	FIELD b zc I
+	FIELD c positions [S
+	FIELD d blocks [B
+	FIELD e data [B
+	FIELD f count I

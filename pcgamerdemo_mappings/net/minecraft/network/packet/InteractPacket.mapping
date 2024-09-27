@@ -1,0 +1,10 @@
+CLASS a net/minecraft/network/packet/InteractPacket
+	METHOD <init> (III)V
+		ARG 1 source
+		ARG 2 target
+		ARG 3 action
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a source I
+	FIELD b target I
+	FIELD c action I

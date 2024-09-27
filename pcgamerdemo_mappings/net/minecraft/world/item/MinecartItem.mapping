@@ -1,0 +1,6 @@
+CLASS np net/minecraft/world/item/MinecartItem
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 type
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z
+	FIELD a type I

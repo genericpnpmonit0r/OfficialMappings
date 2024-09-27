@@ -1,0 +1,33 @@
+CLASS qw net/minecraft/world/level/tile/BedTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Ldu;IIII)V
+	METHOD a use (Ldu;IIILff;)Z
+	METHOD a setOccupied (Ldu;IIIZ)V
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 occupied
+	METHOD a updateShape (Lsp;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD c getDir (I)I
+		COMMENT total guess
+		COMMENT your guess is as good as mine
+		ARG 0 data
+	METHOD d isHeadPiece (I)Z
+		ARG 0 data
+	METHOD f isOccupied (I)Z
+		ARG 0 data
+	METHOD g getRenderShape ()I
+	METHOD g findStandUpPosition (Ldu;IIII)Lav;
+		ARG 0 level
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 i
+	METHOD j setShape ()V
+	FIELD a HEAD_DIRECTION_OFFSETS [[I

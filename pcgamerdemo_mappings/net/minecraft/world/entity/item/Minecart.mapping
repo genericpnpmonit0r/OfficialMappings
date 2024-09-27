@@ -1,0 +1,60 @@
+CLASS tk net/minecraft/world/entity/item/Minecart
+	METHOD <init> (Ldu;DDDI)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
+	METHOD G remove ()V
+	METHOD a getContainerSize ()I
+	METHOD a lerpMotion (DDD)V
+	METHOD a getPosOffs (DDDD)Lay;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 a
+	METHOD a lerpTo (DDDFFI)V
+	METHOD a removeItem (II)Lha;
+	METHOD a setItem (ILha;)V
+	METHOD a interact (Lff;)Z
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a getCollideAgainstBox (Loo;)Ldj;
+	METHOD a hurt (Loo;I)Z
+	METHOD a_ stillValid (Lff;)Z
+	METHOD b defineSynchedData ()V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Lha;
+	METHOD d getMaxStackSize ()I
+	METHOD f_ isPickable ()Z
+	METHOD g_ isPushable ()Z
+	METHOD h animateHurt ()V
+	METHOD h getPos (DDD)Lay;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD h push (Loo;)V
+	METHOD i_ getCollideBox ()Ldj;
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD l getRideHeight ()D
+	METHOD q_ tick ()V
+	METHOD r_ setChanged ()V
+	FIELD a damage I
+	FIELD b hurtTime I
+	FIELD c hurtDir I
+	FIELD d type I
+	FIELD e fuel I
+	FIELD f xPush D
+	FIELD g zPush D
+	FIELD h items [Lha;
+	FIELD i flipped Z
+	FIELD j EXITS [[[I
+	FIELD k lSteps I
+	FIELD l lx D
+	FIELD m ly D
+	FIELD n lz D
+	FIELD o lyr D
+	FIELD p lxr D
+	FIELD q lxd D
+	FIELD r lyd D
+	FIELD s lzd D

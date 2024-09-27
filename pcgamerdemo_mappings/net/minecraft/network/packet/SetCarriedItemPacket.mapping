@@ -1,0 +1,6 @@
+CLASS fv net/minecraft/network/packet/SetCarriedItemPacket
+	METHOD <init> (I)V
+		ARG 1 slot
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a slot I

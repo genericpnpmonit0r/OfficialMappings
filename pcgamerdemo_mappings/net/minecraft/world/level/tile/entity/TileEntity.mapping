@@ -1,0 +1,24 @@
+CLASS ll net/minecraft/world/level/tile/entity/TileEntity
+	METHOD a distanceToSqr (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V
+		ARG 0 c
+		ARG 1 s
+	METHOD a load (Lkt;)V
+		ARG 1 tag
+	METHOD b save (Lkt;)V
+		ARG 1 tag
+	METHOD c loadStatic (Lkt;)Lll;
+		ARG 0 tag
+	METHOD e getData ()I
+	METHOD f getTile ()Lqn;
+	METHOD m_ tick ()V
+	METHOD r_ setChanged ()V
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	FIELD d level Ldu;
+	FIELD e x I
+	FIELD f y I
+	FIELD g z I

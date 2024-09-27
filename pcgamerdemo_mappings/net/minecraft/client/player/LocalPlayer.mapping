@@ -1,0 +1,37 @@
+CLASS cc net/minecraft/client/player/LocalPlayer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ldu;Lfd;I)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 user
+		ARG 4 dimension
+	METHOD a startCrafting (III)V
+	METHOD a setKey (IZ)V
+		ARG 1 eventKey
+		ARG 2 eventKeyState
+	METHOD a openTrap (Lak;)V
+	METHOD a chat (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD a openContainer (Ljd;)V
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a openFurnace (Lol;)V
+	METHOD a openTextEdit (Ltj;)V
+	METHOD a_ hurtTo (I)V
+		ARG 1 newHealth
+	METHOD b displayClientMessage (Ljava/lang/String;)V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD b take (Loo;I)V
+	METHOD d_ updateAi ()V
+	METHOD m aiStep ()V
+	METHOD n_ releaseAllKeys ()V
+	METHOD p closeContainer ()V
+	METHOD q getArmor ()I
+	METHOD r isSneaking ()Z
+	METHOD s handleInsidePortal ()V
+	METHOD t respawn ()V
+	METHOD u animateRespawn ()V
+	FIELD a input Lqk;
+	FIELD bI isInsidePortal Z
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c changingDimensionDelay I
+	FIELD d portalTime F
+	FIELD e oPortalTime F

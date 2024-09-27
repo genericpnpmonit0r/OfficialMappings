@@ -1,0 +1,29 @@
+CLASS do net/minecraft/world/level/Region
+	METHOD <init> (Ldu;IIIIII)V
+		ARG 1 level
+		ARG 2 xc1
+		ARG 3 yc1
+		ARG 4 zc1
+		ARG 5 xc2
+		ARG 6 yc2
+		ARG 7 zc2
+	METHOD a getBiomeSource ()Lsv;
+	METHOD a getTile (III)I
+	METHOD a getRawBrightness (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 c
+	METHOD b getTileEntity (III)Lll;
+	METHOD c getBrightness (III)F
+	METHOD d getRawBrightness (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e getData (III)I
+	METHOD f getMaterial (III)Liv;
+	METHOD g isSolidTile (III)Z
+	FIELD a xc1 I
+	FIELD b zc1 I
+	FIELD c chunks [[Liu;
+	FIELD d level Ldu;

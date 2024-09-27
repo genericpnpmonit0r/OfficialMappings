@@ -1,0 +1,12 @@
+CLASS fs net/minecraft/world/item/crafting/Recipes
+	METHOD a getInstance ()Lfs;
+	METHOD a addShapedRecipy (Lha;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+	METHOD a getItemFor (Ljw;)Lha;
+		ARG 1 craftingContainer
+	METHOD b addShapelessRecipy (Lha;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+	FIELD a instance Lfs;
+	FIELD b recipies Ljava/util/List;

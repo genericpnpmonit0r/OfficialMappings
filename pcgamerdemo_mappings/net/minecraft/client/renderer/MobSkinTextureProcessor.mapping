@@ -1,0 +1,20 @@
+CLASS nu net/minecraft/client/renderer/MobSkinTextureProcessor
+	METHOD a setForceAlpha (IIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 x1
+		ARG 4 y1
+	METHOD a process (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+	METHOD b setNoAlpha (IIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 x1
+		ARG 4 y1
+	METHOD c hasAlpha (IIII)Z
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 x1
+		ARG 4 y1
+	FIELD a pixels [I
+	FIELD b width I
+	FIELD c height I

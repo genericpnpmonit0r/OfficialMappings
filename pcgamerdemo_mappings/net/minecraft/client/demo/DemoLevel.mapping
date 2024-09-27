@@ -1,0 +1,5 @@
+CLASS nl net/minecraft/client/demo/DemoLevel
+	FIELD u seed J
+	METHOD <init> (Lrz;Ljava/lang/String;)V
+		ARG 1 storage
+		ARG 2 name

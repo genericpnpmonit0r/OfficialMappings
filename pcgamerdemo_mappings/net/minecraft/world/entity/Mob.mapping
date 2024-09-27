@@ -1,0 +1,125 @@
+CLASS ja net/minecraft/world/entity/Mob
+	METHOD A getHeadHeight ()F
+	METHOD J isSleeping ()Z
+	METHOD M getTexture ()Ljava/lang/String;
+	METHOD N playAmbientSound ()V
+	METHOD O baseTick ()V
+	METHOD P spawnAnim ()V
+	METHOD Q isAlive ()Z
+	METHOD R jumpFromGround ()V
+	METHOD S beforeRemove ()V
+	METHOD T outOfWorld ()V
+	METHOD U getLookAngle ()Lay;
+	METHOD a handleEntityEvent (B)V
+	METHOD a lerpTo (DDDFFI)V
+	METHOD a pick (DF)Lqx;
+		ARG 1 aa
+		ARG 3 a
+	METHOD a setSize (FF)V
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD a hurt (Loo;I)Z
+	METHOD a knockback (Loo;IDD)V
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
+		ARG 5 d
+	METHOD b defineSynchedData ()V
+	METHOD b travel (FF)V
+		ARG 1 a
+		ARG 2 b
+	METHOD b rotlerp (FFF)F
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
+	METHOD b actuallyHurt (I)V
+		ARG 1 dmg
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD b die (Loo;)V
+		ARG 1 entity
+	METHOD b lookAt (Loo;F)V
+		ARG 1 entity
+		ARG 2 a
+	METHOD c canSpawn ()Z
+	METHOD c causeFallDamage (F)V
+	METHOD c heal (I)V
+		ARG 1 heal
+	METHOD c_ isWaterMob ()Z
+	METHOD d getAmbientSoundInterval ()I
+	METHOD d getAttackAnim (F)F
+		ARG 1 a
+	METHOD d_ updateAi ()V
+	METHOD e getPos (F)Lay;
+		ARG 1 a
+	METHOD e canSee (Loo;)Z
+		ARG 1 entity
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD f getViewVector (F)Lay;
+		ARG 1 a
+	METHOD f_ isPickable ()Z
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD g_ isPushable ()Z
+	METHOD h animateHurt ()V
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD j getSoundVolume ()F
+	METHOD k getMaxSpawnClusterSize ()I
+	METHOD m aiStep ()V
+	METHOD n onLadder ()Z
+	METHOD o dropDeathLoot ()V
+	METHOD o_ getCarriedItem ()Lha;
+	METHOD q_ tick ()V
+	METHOD v isImmobile ()Z
+	METHOD x rideTick ()V
+	FIELD B invulnerableDuration I
+	FIELD C timeOffs F
+	FIELD D rotA F
+	FIELD E yBodyRot F
+	FIELD F yBodyRotO F
+	FIELD G oRun F
+	FIELD H run F
+	FIELD I animStep F
+	FIELD J animStepO F
+	FIELD K hasHair Z
+	FIELD L textureName Ljava/lang/String;
+	FIELD M allowAlpha Z
+	FIELD N rotOffs F
+	FIELD O modelName Ljava/lang/String;
+	FIELD P bobStrength F
+	FIELD Q deathScore I
+	FIELD R renderOffset F
+	FIELD S interpolateOnly Z
+	FIELD T oAttackAnim F
+	FIELD U attackAnim F
+	FIELD V health I
+	FIELD W lastHealth I
+	FIELD X hurtTime I
+	FIELD Y hurtDuration I
+	FIELD Z hurtDir F
+	FIELD a ambientSoundTime I
+	FIELD aa deathTime I
+	FIELD ab attackTime I
+	FIELD ac oTilt F
+	FIELD ad tilt F
+	FIELD ae dead Z
+	FIELD af modelNum I
+	FIELD ag animSpeed F
+	FIELD ah walkAnimSpeedO F
+	FIELD ai walkAnimSpeed F
+	FIELD aj walkAnimPos F
+	FIELD ak lSteps I
+	FIELD al lx D
+	FIELD am ly D
+	FIELD an lz D
+	FIELD ao lyr D
+	FIELD ap lxr D
+	FIELD aq fallTime F
+	FIELD ar lastHurt I
+	FIELD as noActionTime I
+	FIELD at xxa F
+	FIELD au yya F
+	FIELD av yRotA F
+	FIELD aw jumping Z
+	FIELD ax defaultLookAngle F
+	FIELD ay runSpeed F
+	FIELD b lookingAt Loo;
+	FIELD c lookTime I

@@ -1,0 +1,16 @@
+CLASS la net/minecraft/world/inventory/CompoundContainer
+	METHOD <init> (Ljava/lang/String;Ljd;Ljd;)V
+		ARG 1 name
+		ARG 2 c1
+		ARG 3 c2
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lha;
+	METHOD a setItem (ILha;)V
+	METHOD a_ stillValid (Lff;)Z
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Lha;
+	METHOD d getMaxStackSize ()I
+	METHOD r_ setChanged ()V
+	FIELD a name Ljava/lang/String;
+	FIELD b c1 Ljd;
+	FIELD c c2 Ljd;

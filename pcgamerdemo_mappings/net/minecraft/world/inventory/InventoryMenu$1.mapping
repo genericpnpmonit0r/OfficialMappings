@@ -1,0 +1,10 @@
+CLASS mf net/minecraft/world/inventory/InventoryMenu$1
+	FIELD d val$i I
+	FIELD e this$0 Lt;
+	METHOD <init> (Lt;Ljd;IIII)V
+		ARG 1 this$0
+		ARG 2 container
+		ARG 3 slot
+		ARG 4 x
+		ARG 5 y
+		ARG 6 val$i

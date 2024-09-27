@@ -1,0 +1,10 @@
+CLASS ev net/minecraft/client/multiplayer/ReceivingLevelScreen
+	METHOD <init> (Lkc;)V
+		ARG 1 connection
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhx;)V
+	METHOD g tick ()V
+	FIELD a connection Lkc;
+	FIELD h tickCount I

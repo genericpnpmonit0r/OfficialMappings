@@ -1,0 +1,6 @@
+CLASS nn net/minecraft/world/item/SeedItem
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 resultId
+	METHOD a useOn (Lha;Lff;Ldu;IIII)Z
+	FIELD a resultId I

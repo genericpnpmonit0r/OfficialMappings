@@ -1,0 +1,13 @@
+CLASS cs net/minecraft/client/renderer/entity/PlayerRenderer
+	METHOD a renderName (Lja;DDD)V
+	METHOD a scale (Lja;F)V
+	METHOD a setupRotations (Lja;FFF)V
+	METHOD a prepareArmor (Lja;IF)Z
+	METHOD a render (Loo;DDDFF)V
+	METHOD b renderHand ()V
+	METHOD b setupPosition (Lja;DDD)V
+	METHOD b additionalRendering (Lja;F)V
+	FIELD a humanoidModel Ldy;
+	FIELD g armorParts1 Ldy;
+	FIELD h armorParts2 Ldy;
+	FIELD i MATERIAL_NAMES [Ljava/lang/String;

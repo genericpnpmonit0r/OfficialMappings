@@ -1,0 +1,10 @@
+CLASS rp net/minecraft/world/level/TilePos
+	METHOD <init> (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

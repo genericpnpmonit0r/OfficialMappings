@@ -1,0 +1,2 @@
+CLASS jt net/minecraft/world/item/EggItem
+	METHOD a use (Lha;Ldu;Lff;)Lha;

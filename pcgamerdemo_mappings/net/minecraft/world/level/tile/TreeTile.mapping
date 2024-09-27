@@ -1,0 +1,8 @@
+CLASS qy net/minecraft/world/level/tile/TreeTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b getSpawnResourcesAuxValue (I)I
+	METHOD b onRemove (Ldu;III)V

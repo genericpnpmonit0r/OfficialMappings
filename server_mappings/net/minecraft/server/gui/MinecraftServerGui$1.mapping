@@ -1,0 +1,6 @@
+CLASS m net/minecraft/server/gui/MinecraftServerGui$1
+	FIELD a val$server Lnet/minecraft/server/MinecraftServer;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 val$server
+	METHOD windowClosing windowClosing (Ljava/awt/event/WindowEvent;)V
+		ARG 1 e

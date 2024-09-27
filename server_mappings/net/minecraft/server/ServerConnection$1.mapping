@@ -1,0 +1,8 @@
+CLASS jl net/minecraft/server/ServerConnection$1
+	FIELD a val$server Lnet/minecraft/server/MinecraftServer;
+	FIELD b this$0 Lcc;
+	METHOD <init> (Lcc;Ljava/lang/String;Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 this$0
+		ARG 2 val$string
+		ARG 3 val$server
+	METHOD run run ()V

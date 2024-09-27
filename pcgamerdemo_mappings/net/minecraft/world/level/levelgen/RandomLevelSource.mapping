@@ -1,0 +1,53 @@
+CLASS te net/minecraft/world/level/levelgen/RandomLevelSource
+	METHOD <init> (Ldu;J)V
+		ARG 1 level
+		ARG 2 seed
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a buildSurfaces (II[B[Lhw;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a prepareHeights (II[B[Lhw;[D)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+		ARG 5 temperatures
+	METHOD a postProcess (Lbo;II)V
+	METHOD a save (ZLtb;)Z
+	METHOD a getHeights ([DIIIIII)[D
+		ARG 1 heights
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Liu;
+	METHOD c gatherStats ()Ljava/lang/String;
+	FIELD a scaleNoise Lqa;
+	FIELD b depthNoise Lqa;
+	FIELD c forestNoise Lqa;
+	FIELD d pnr [D
+	FIELD e ar [D
+	FIELD f br [D
+	FIELD g sr [D
+	FIELD h dr [D
+	FIELD i waterDepths [[I
+	FIELD j random Ljava/util/Random;
+	FIELD k lperlinNoise1 Lqa;
+	FIELD l lperlinNoise2 Lqa;
+	FIELD m perlinNoise1 Lqa;
+	FIELD n perlinNoise2 Lqa;
+	FIELD o perlinNoise3 Lqa;
+	FIELD p level Ldu;
+	FIELD q buffer [D
+	FIELD r sandBuffer [D
+	FIELD s gravelBuffer [D
+	FIELD t depthBuffer [D
+	FIELD u caveFeature Lel;
+	FIELD v biomes [Lhw;
+	FIELD w temperatures [D

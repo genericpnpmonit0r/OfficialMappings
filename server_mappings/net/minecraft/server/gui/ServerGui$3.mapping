@@ -1,8 +1,0 @@
-CLASS o net/minecraft/server/gui/ServerGui$3
-	FIELD a val$field Ljavax/swing/JTextField;
-	FIELD b this$0 Llg;
-	METHOD <init> (Llg;Ljavax/swing/JTextField;)V
-		ARG 1 this$0
-		ARG 2 val$field
-	METHOD actionPerformed actionPerformed (Ljava/awt/event/ActionEvent;)V
-		ARG 1 e

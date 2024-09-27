@@ -1,0 +1,12 @@
+CLASS km net/minecraft/client/model/QuadrupedModel
+	METHOD <init> (IF)V
+		ARG 1 legSize
+		ARG 2 g
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD d head Lmd;
+	FIELD e body Lmd;
+	FIELD f leg0 Lmd;
+	FIELD g leg1 Lmd;
+	FIELD h leg2 Lmd;
+	FIELD i leg3 Lmd;

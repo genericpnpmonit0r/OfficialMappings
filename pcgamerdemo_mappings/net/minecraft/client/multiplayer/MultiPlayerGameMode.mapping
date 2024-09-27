@@ -1,0 +1,31 @@
+CLASS sm net/minecraft/client/multiplayer/MultiPlayerGameMode
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lkc;)V
+		ARG 1 minecraft
+		ARG 2 connection
+	METHOD a tick ()V
+	METHOD a render (F)V
+	METHOD a startDestroyBlock (IIII)V
+	METHOD a handleInventoryMouseClock (IIILff;)Lha;
+	METHOD a handleCloseInventory (ILff;)V
+	METHOD a initLevel (Ldu;)V
+	METHOD a initPlayer (Lff;)V
+	METHOD a useItem (Lff;Ldu;Lha;)Z
+	METHOD a useItemOn (Lff;Ldu;Lha;IIII)Z
+	METHOD a attack (Lff;Loo;)V
+	METHOD b stopDestroyBlock ()V
+	METHOD b continueDestroyBlock (IIII)V
+	METHOD b createPlayer (Ldu;)Lff;
+	METHOD b interact (Lff;Loo;)V
+	METHOD c getPickRange ()F
+	METHOD c destroyBlock (IIII)Z
+	METHOD e ensureHasSentCarriedItem ()V
+	FIELD c xDestroyBlock I
+	FIELD d yDestroyBlock I
+	FIELD e zDestroyBlock I
+	FIELD f destroyProgress F
+	FIELD g oDestroyProgress F
+	FIELD h destroyTicks F
+	FIELD i destroyDelay I
+	FIELD j isDestroying Z
+	FIELD k connection Lkc;
+	FIELD l carriedItem I

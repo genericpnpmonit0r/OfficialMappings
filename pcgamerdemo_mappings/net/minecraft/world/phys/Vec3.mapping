@@ -1,0 +1,54 @@
+CLASS ay net/minecraft/world/phys/Vec3
+	METHOD <init> (DDD)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD a resetPool ()V
+	METHOD a newPermanent (DDD)Lay;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD a xRot (F)V
+		ARG 1 a
+	METHOD a vectorTo (Lay;)Lay;
+		ARG 1 v
+	METHOD a clipX (Lay;D)Lay;
+		ARG 1 t
+		ARG 2 xa
+	METHOD b normalize ()Lay;
+	METHOD b newTemp (DDD)Lay;
+		ARG 0 x
+		ARG 2 y
+		ARG 4 z
+	METHOD b yRot (F)V
+		ARG 1 a
+	METHOD b cross (Lay;)Lay;
+		ARG 1 v
+	METHOD b clipY (Lay;D)Lay;
+		ARG 1 t
+		ARG 2 ya
+	METHOD c length ()D
+	METHOD c add (DDD)Lay;
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD c distanceTo (Lay;)D
+		ARG 1 v
+	METHOD c clipZ (Lay;D)Lay;
+		ARG 1 t
+		ARG 2 za
+	METHOD d distanceToSqr (DDD)D
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD d distanceToSqr (Lay;)D
+		ARG 1 v
+	METHOD e set (DDD)Lay;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d pool Ljava/util/List;
+	FIELD e poolPointer I

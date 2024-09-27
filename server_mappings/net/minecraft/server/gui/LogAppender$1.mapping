@@ -1,0 +1,6 @@
+CLASS ej net/minecraft/server/gui/LogAppender$1
+	FIELD a this$0 Lbs;
+	METHOD <init> (Lbs;)V
+		ARG 1 this$0
+	METHOD format format (Ljava/util/logging/LogRecord;)Ljava/lang/String;
+		ARG 1 record

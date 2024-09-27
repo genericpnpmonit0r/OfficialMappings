@@ -1,0 +1,9 @@
+CLASS fr net/minecraft/client/Screenshot
+	METHOD a grab (Ljava/io/File;II)Ljava/lang/String;
+		ARG 0 workDir
+		ARG 1 width
+		ARG 2 height
+	FIELD a df Ljava/text/DateFormat;
+	FIELD b pixels Ljava/nio/ByteBuffer;
+	FIELD c buffer [B
+	FIELD d pixelBuffer [I

@@ -1,0 +1,31 @@
+CLASS om net/minecraft/world/entity/projectile/Arrow
+	METHOD <init> (Ldu;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Ldu;Lja;)V
+		ARG 1 level
+		ARG 2 owner
+	METHOD a lerpMotion (DDD)V
+	METHOD a shoot (DDDFF)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+		ARG 7 xr
+		ARG 8 yr
+	METHOD a addAdditionalSaveData (Lkt;)V
+	METHOD b defineSynchedData ()V
+	METHOD b playerTouch (Lff;)V
+	METHOD b readAdditionalSaveData (Lkt;)V
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD q_ tick ()V
+	FIELD a shakeTime I
+	FIELD b owner Lja;
+	FIELD c xTile I
+	FIELD d yTile I
+	FIELD e zTile I
+	FIELD f lastTile I
+	FIELD g inGround Z
+	FIELD h life I
+	FIELD i flightTime I

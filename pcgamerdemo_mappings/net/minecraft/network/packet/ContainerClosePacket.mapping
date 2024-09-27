@@ -1,0 +1,6 @@
+CLASS ju net/minecraft/network/packet/ContainerClosePacket
+	METHOD <init> (I)V
+		ARG 1 containerId
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V
+	FIELD a containerId I

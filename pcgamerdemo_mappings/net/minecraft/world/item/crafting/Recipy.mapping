@@ -1,0 +1,6 @@
+CLASS ct net/minecraft/world/item/crafting/Recipy
+	METHOD a size ()I
+	METHOD a matches (Ljw;)Z
+		ARG 1 craftingContainer
+	METHOD b assemble (Ljw;)Lha;
+		ARG 1 craftingContainer

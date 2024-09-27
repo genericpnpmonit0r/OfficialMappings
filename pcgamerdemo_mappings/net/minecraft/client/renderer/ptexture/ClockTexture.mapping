@@ -1,0 +1,9 @@
+CLASS ig net/minecraft/client/renderer/ptexture/ClockTexture
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 mc
+	METHOD a tick ()V
+	FIELD g mc Lnet/minecraft/client/Minecraft;
+	FIELD h raw [I
+	FIELD i dialRaw [I
+	FIELD j rot D
+	FIELD k rota D

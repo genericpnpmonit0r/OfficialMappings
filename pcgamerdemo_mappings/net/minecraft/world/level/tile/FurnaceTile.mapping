@@ -1,0 +1,24 @@
+CLASS pb net/minecraft/world/level/tile/FurnaceTile
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 lit
+	METHOD a getTexture (I)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a use (Ldu;IIILff;)Z
+	METHOD a setPlacedBy (Ldu;IIILja;)V
+	METHOD a getTexture (Lsp;IIII)I
+	METHOD a setLit (ZLdu;III)V
+		ARG 0 lit
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a_ newTileEntity ()Lll;
+	METHOD b animateTick (Ldu;IIILjava/util/Random;)V
+	METHOD e onPlace (Ldu;III)V
+	METHOD h recalcLockDir (Ldu;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a lit Z

@@ -1,0 +1,15 @@
+CLASS jd net/minecraft/world/Container
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lha;
+		ARG 1 i
+		ARG 2 j
+	METHOD a setItem (ILha;)V
+		ARG 1 i
+		ARG 2 item
+	METHOD a_ stillValid (Lff;)Z
+		ARG 1 player
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Lha;
+		ARG 1 i
+	METHOD d getMaxStackSize ()I
+	METHOD r_ setChanged ()V

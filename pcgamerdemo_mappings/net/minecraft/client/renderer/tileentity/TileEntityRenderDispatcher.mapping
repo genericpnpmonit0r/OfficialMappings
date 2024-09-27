@@ -1,0 +1,37 @@
+CLASS it net/minecraft/client/renderer/tileentity/TileEntityRenderDispatcher
+	METHOD a getFont ()Lok;
+	METHOD a prepare (Ldu;Lhg;Lok;Lja;F)V
+		ARG 1 level
+		ARG 2 textures
+		ARG 3 font
+		ARG 4 player
+		ARG 5 a
+	METHOD a getRenderer (Ljava/lang/Class;)Lhc;
+		ARG 1 e
+	METHOD a hasRenderer (Lll;)Z
+		ARG 1 e
+	METHOD a render (Lll;DDDF)V
+		ARG 1 entity
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 a
+	METHOD a render (Lll;F)V
+		ARG 1 e
+		ARG 2 a
+	METHOD b getRenderer (Lll;)Lhc;
+		ARG 1 e
+	FIELD a instance Lit;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textures Lhg;
+	FIELD f level Ldu;
+	FIELD g player Lja;
+	FIELD h playerRotY F
+	FIELD i playerRotX F
+	FIELD j xPlayer D
+	FIELD k yPlayer D
+	FIELD l zPlayer D
+	FIELD m renderers Ljava/util/Map;
+	FIELD n font Lok;

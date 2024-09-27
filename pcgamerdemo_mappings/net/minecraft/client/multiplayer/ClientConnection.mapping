@@ -1,0 +1,57 @@
+CLASS kc net/minecraft/client/multiplayer/ClientConnection
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 ip
+		ARG 3 port
+	METHOD a tick ()V
+	METHOD a getEntity (I)Loo;
+		ARG 1 id
+	METHOD a handleTakeItemEntity (Lcj;)V
+	METHOD a handleBlockRegionUpdate (Ldb;)V
+	METHOD a handleSetHealth (Ldm;)V
+	METHOD a handleSetEntityMotion (Lex;)V
+	METHOD a handleSetTime (Lfp;)V
+	METHOD a handleContainerSetSlot (Lfx;)V
+	METHOD a handleMovePlayer (Lgk;)V
+	METHOD a handleContainerOpen (Lgy;)V
+	METHOD a handleEntityEvent (Lhd;)V
+	METHOD a handleAddMob (Lhj;)V
+	METHOD a handleEntityActionAtPosition (Lhu;)V
+	METHOD a handleContainerContent (Lhv;)V
+	METHOD a send (Lia;)V
+		ARG 1 packet
+	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a handleAddPlayer (Ljp;)V
+	METHOD a handleContainerClose (Lju;)V
+	METHOD a handlePreLogin (Ljv;)V
+	METHOD a handleContainerSetData (Lkb;)V
+	METHOD a handleAddItemEntity (Lke;)V
+	METHOD a handleAnimate (Lkl;)V
+	METHOD a handleRidePacket (Lkr;)V
+	METHOD a handleLogin (Lkx;)V
+	METHOD a handleContainerAck (Lld;)V
+	METHOD a handleRespawn (Lln;)V
+	METHOD a handleChat (Llu;)V
+	METHOD a handleSetEquippedItem (Lm;)V
+	METHOD a handleSetSpawn (Lnf;)V
+	METHOD a handleTeleportEntity (Lnj;)V
+	METHOD a handleExplosion (Lnq;)V
+	METHOD a handleRemoveEntity (Lnx;)V
+	METHOD a handleChunkVisibility (Lof;)V
+	METHOD a handleAddEntity (Lop;)V
+	METHOD a handleTileUpdate (Lps;)V
+	METHOD a handleMoveEntity (Lqc;)V
+	METHOD a handleSignUpdate (Lqd;)V
+	METHOD a handleSetEntityData (Lqq;)V
+	METHOD a handleAddPainting (Lrf;)V
+	METHOD a handleTileEvent (Lrh;)V
+	METHOD a handleChunkTilesUpdate (Lsb;)V
+	METHOD a handleDisconnect (Ltp;)V
+	METHOD b close ()V
+	FIELD a message Ljava/lang/String;
+	FIELD b random Ljava/util/Random;
+	FIELD c done Z
+	FIELD d connection Llt;
+	FIELD e minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f level Ljs;
+	FIELD g started Z

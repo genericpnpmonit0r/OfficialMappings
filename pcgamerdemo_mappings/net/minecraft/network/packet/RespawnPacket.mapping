@@ -1,0 +1,3 @@
+CLASS ln net/minecraft/network/packet/RespawnPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a handle (Lpg;)V

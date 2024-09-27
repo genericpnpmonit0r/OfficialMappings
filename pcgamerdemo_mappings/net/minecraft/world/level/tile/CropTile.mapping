@@ -1,0 +1,18 @@
+CLASS kh net/minecraft/world/level/tile/CropTile
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a tick (Ldu;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b destroy (Ldu;IIII)V
+	METHOD c mayPlaceOn (I)Z
+	METHOD c_ growCropsToMax (Ldu;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getRenderShape ()I
+	METHOD i getGrowthSpeed (Ldu;III)F
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

@@ -1,0 +1,5 @@
+CLASS lw net/minecraft/client/gamemode/CreativeMode
+	METHOD a tick ()V
+	METHOD a initLevel (Ldu;)V
+	METHOD b adjustPlayer (Lff;)V
+	METHOD d canHurtPlayer ()Z

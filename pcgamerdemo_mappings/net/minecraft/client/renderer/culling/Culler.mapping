@@ -1,0 +1,7 @@
+CLASS tm net/minecraft/client/renderer/culling/Culler
+	METHOD a prepare (DDD)V
+		ARG 1 xOff
+		ARG 3 yOff
+		ARG 5 zOff
+	METHOD a isVisible (Ldj;)Z
+		ARG 1 bb

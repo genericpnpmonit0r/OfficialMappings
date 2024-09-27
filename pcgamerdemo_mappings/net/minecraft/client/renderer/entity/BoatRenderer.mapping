@@ -1,0 +1,3 @@
+CLASS dw net/minecraft/client/renderer/entity/BoatRenderer
+	METHOD a render (Loo;DDDFF)V
+	FIELD a model Lid;
