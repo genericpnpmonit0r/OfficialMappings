@@ -395,7 +395,7 @@ CLASS cp net/minecraft/world/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD m getChunkSource ()Lmi;
+	METHOD m getLevelStorage ()Lmi;
 	METHOD m getTileEntity (III)Lhv;
 		ARG 1 x
 		ARG 2 y
