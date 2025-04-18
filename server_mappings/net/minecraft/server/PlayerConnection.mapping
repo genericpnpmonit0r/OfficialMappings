@@ -23,7 +23,7 @@ CLASS fv net/minecraft/server/PlayerConnection
 		ARG 5 z
 		ARG 7 yRot
 		ARG 8 xRot
-	METHOD a handleSetHealth (Lee;)V
+	METHOD a handleSetCarriedItem (Lee;)V
 	METHOD a handleMovePlayer (Len;)V
 	METHOD a onUnhandledPacket (Lfp;)V
 	METHOD a handleContainerClose (Lgr;)V

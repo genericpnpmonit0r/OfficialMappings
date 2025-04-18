@@ -14,7 +14,7 @@ CLASS gb net/minecraft/world/level/chunk/EmptyLevelChunk
 	METHOD a removeEntity (Ljw;I)V
 	METHOD a getEntities (Ljw;Lcg;Ljava/util/List;)V
 	METHOD a shouldSave (Z)Z
-	METHOD a setBlocksAndData ([BIIIIIII)I
+	METHOD a getBlocksAndData ([BIIIIIII)I
 	METHOD b recalcHeightmap ()V
 	METHOD b getHeightmap (II)I
 	METHOD b getData (III)I
