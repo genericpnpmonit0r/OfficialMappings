@@ -80,7 +80,7 @@ CLASS gd net/minecraft/world/level/chunk/LevelChunk
 		ARG 3 entities
 	METHOD a shouldSave (Z)Z
 		ARG 1 force
-	METHOD a setBlocksAndData ([BIIIIIII)I
+	METHOD a getBlocksAndData ([BIIIIIII)I
 		ARG 1 data
 		ARG 2 a
 		ARG 3 b

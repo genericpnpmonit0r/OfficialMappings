@@ -1,6 +1,4 @@
-TODO fix getBlocksAndData, setBlocksAndData conflict
-TODO fix pathfinder Node field names conflict
-TODO fix serverside level getLevelStorage (incorrectly getChunkStorage)
+TODO fix serverside level getLevelStorage (incorrectly getChunkStorage) (is this even a problem anymore i forgot?????, if so let me know in an issue i guess.
 
 Most of the mapped names are based off the b1.2_02 test build. 
 Methods and classes introduced in b1.3 are mapped from various name sources, including MCPE / legacy console edition debug symbols.
