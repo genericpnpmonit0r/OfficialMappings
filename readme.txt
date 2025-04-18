@@ -1,4 +1,4 @@
-Notchian or 'mojmap' for B1.3_01, PC Gamer Demo build (internal fork of B1.3_01), and b1.3 server
+Notchian mappings or 'mojmap' for B1.3_01, PC Gamer Demo build (internal fork of B1.3_01), and b1.3 server
 
 Most of the mapped names are based off the b1.2_02 test build. 
 Methods and classes introduced in b1.3 are mapped from various name sources, including MCPE / legacy console edition debug symbols.
