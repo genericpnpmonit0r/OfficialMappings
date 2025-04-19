@@ -1,28 +1,8 @@
-using various shitty tools to make a merged workspace (this is only general guidance, i wont go in to the specifics)
-
+the .exc and .tiny and the .patch file is for using the mappings on retromcp-java v1.0 full
+i will not guarantee they will work at all (the pcgamer demo mappings not tested)
 1.
-open the client and server mappings in enigma with the corresponding jar
-save as tiny v2
-
+set up b1.3_01 and set it to decompile merged, clear out ignored packages
 2.
-open the mappings in a text editor and change the following fields at the top:
-from: (it might vary but just replace the first line in the file)
-tiny	2	0	obfuscated	deobfuscated
-to
-tiny	2	0	official	named
-save them as you will need them in the next step
-
-3. 
-set up retromcp-java (only tested on v1.0-pre1, mapping formats might have changed after that), select b1.3_01 as the version, let it set it up
-now, go in the conf directory, delete client.exc, server.exc and replace client.tiny and server.tiny with the mappings you saved from enigma and edited
-
-3.1.
-for pc gamer demo you will have to select b1.3-pcg in retromcp-java and use the pcgamer demo version of the mappings and repeat step 2 but with client.tiny only
-
-4.
-click decompile
-you will have to fix the exception errors manually since i could not be arsed to make .exc files for these since its a bunch of painful manual labor so eh
-
-5.
-the rest is patch/winmerge/etc hell unless you figure out a clean way to automerge the missing parts of client adn server together
-idfk how to properly use shit like this
+go into conf and replace the exceptions.exc and mappings.tiny files with the ones from here
+3.
+click decompile and pray it works
