@@ -1,7 +1,7 @@
 CLASS fd net/minecraft/world/entity/player/Player
 	FIELD A fishing Ljd;
 	FIELD a sleeping Z
-	FIELD b respawnPosition Lav;
+	FIELD b bedPosition Lav;
 	FIELD c sleepTimer I
 	FIELD d dmgSpill I
 	FIELD f inventory Lgy;

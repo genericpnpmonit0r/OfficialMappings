@@ -2,7 +2,7 @@ CLASS dp net/minecraft/world/entity/player/Player
 	FIELD A unk_y F
 	FIELD B fishing Lgl;
 	FIELD a sleeping Z
-	FIELD b respawnPosition Lal;
+	FIELD b bedPosition Lal;
 	FIELD c sleepTimer I
 	FIELD d dmgSpill I
 	FIELD i inventory Lex;

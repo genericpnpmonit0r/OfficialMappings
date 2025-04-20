@@ -1708,7 +1708,7 @@ c	net/minecraft/client/User	fb
 c	net/minecraft/client/gui/inventory/TrapScreen	fc	
 	m	(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/level/tile/entity/DispenserTileEntity;)V	<init>	<init>	
 c	net/minecraft/world/entity/player/Player	fd	dp
-	f	Lnet/minecraft/Pos;	respawnPosition	b	b
+	f	Lnet/minecraft/Pos;	bedPosition	b	b
 	f	Z	sleeping	a	a
 	f	Lnet/minecraft/world/inventory/AbstractContainerMenu;	containerMenu	h	k
 	f	I	swingTime	n	q

@@ -77,7 +77,7 @@ CLASS ff net/minecraft/world/entity/player/Player
 	METHOD z drop ()V
 	FIELD A fishing Lje;
 	FIELD a sleeping Z
-	FIELD b respawnPosition Lav;
+	FIELD b bedPosition Lav;
 	FIELD c sleepTimer I
 	FIELD d dmgSpill I
 	FIELD f inventory Lgz;

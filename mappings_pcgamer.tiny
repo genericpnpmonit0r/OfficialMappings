@@ -1841,7 +1841,7 @@ c	net/minecraft/world/entity/player/Player	ff
 	f	D	xCloakO	r
 	f	Lnet/minecraft/world/inventory/AbstractContainerMenu;	inventoryMenu	g
 	f	Lnet/minecraft/world/entity/player/Inventory;	inventory	f
-	f	Lnet/minecraft/Pos;	respawnPosition	b
+	f	Lnet/minecraft/Pos;	bedPosition	b
 	f	Z	sleeping	a
 	f	I	swingTime	n
 	f	I	score	j
