@@ -1,0 +1,189 @@
+--- net/minecraft/isom/IsomPreview.java
++++ net/minecraft/isom/IsomPreview.java
+@@ -48,12 +48,12 @@
+ 	public File getWorkingDirectory(String var1) {
+ 		String var2 = System.getProperty("user.home", ".");
+ 		File var3;
+-		switch(null.$VALUES[getPlatform().ordinal()]) {
+-		case 1:
+-		case 2:
++		switch(getPlatform()) {
++		case linux:
++		case solaris:
+ 			var3 = new File(var2, '.' + var1 + '/');
+ 			break;
+-		case 3:
++		case windows:
+ 			String var4 = System.getenv("APPDATA");
+ 			if(var4 != null) {
+ 				var3 = new File(var4, "." + var1 + '/');
+@@ -61,7 +61,7 @@
+ 				var3 = new File(var2, '.' + var1 + '/');
+ 			}
+ 			break;
+-		case 4:
++		case macos:
+ 			var3 = new File(var2, "Library/Application Support/" + var1);
+ 			break;
+ 		default:
+--- net/minecraft/server/ServerPlayer.java
++++ net/minecraft/server/ServerPlayer.java
+@@ -317,4 +317,7 @@
+ 		this.xRot = var5;
+ 		this.yRot = var6;
+ 	}
++
++	public void animateRespawn() {
++	}
+ }
+--- net/minecraft/server/ServerChunkCache.java
++++ net/minecraft/server/ServerChunkCache.java
+@@ -201,4 +201,8 @@
+ 	public boolean shouldSave() {
+ 		return !this.level.levelSavingDisabled;
+ 	}
++
++	public String gatherStats() {
++		return "ServerChunkCache: " + this.loadedChunks.size() + ", Drop: " + this.droppedChunks.size();
++	}
+ }
+--- net/minecraft/world/level/storage/MockedLevelStorage.java
++++ net/minecraft/world/level/storage/MockedLevelStorage.java
+@@ -22,4 +22,11 @@
+ 
+ 	public void saveLevelData(LevelData var1) {
+ 	}
++
++	public PlayerIO getPlayerIO() {
++		return null;
++	}
++
++	public void closeAll() {
++	}
+ }
+--- net/minecraft/client/Options.java
++++ net/minecraft/client/Options.java
+@@ -136,16 +136,16 @@
+ 	}
+ 
+ 	public boolean getBooleanValue(Options.Option var1) {
+-		switch(null.$VALUES[var1.ordinal()]) {
+-		case 1:
++		switch(var1) {
++		case INVERT_MOUSE:
+ 			return this.invertYMouse;
+-		case 2:
++		case VIEW_BOBBING:
+ 			return this.bobView;
+-		case 3:
++		case ANAGLYPH:
+ 			return this.anaglyph3d;
+-		case 4:
++		case LIMIT_FRAMERATE:
+ 			return this.limitFramerate;
+-		case 5:
++		case AMBIENT_OCCLUSION:
+ 			return this.ao;
+ 		default:
+ 			return false;
+--- net/minecraft/world/inventory/InventoryMenu.java
++++ net/minecraft/world/inventory/InventoryMenu.java
+@@ -24,7 +24,7 @@
+ 		this.active = var2;
+ 		this.addSlot(new ResultSlot(var1.player, this.craftSlots, this.resultSlots, 0, 144, 36));
+ 
+-		final int var3;
++		int var3;
+ 		int var4;
+ 		for(var3 = 0; var3 < 2; ++var3) {
+ 			for(var4 = 0; var4 < 2; ++var4) {
+@@ -33,13 +33,14 @@
+ 		}
+ 
+ 		for(var3 = 0; var3 < 4; ++var3) {
++			final int var3_1 = var3;
+ 			this.addSlot(new Slot(var1, var1.getContainerSize() - 1 - var3, 8, 8 + var3 * 18) {
+ 				public int getMaxStackSize() {
+ 					return 1;
+ 				}
+ 
+ 				public boolean mayPlace(ItemInstance var1) {
+-					return var1.getItem() instanceof ArmorItem ? ((ArmorItem)var1.getItem()).slot == var3 : (var1.getItem().id == Tile.pumpkin.id ? var3 == 0 : false);
++					return var1.getItem() instanceof ArmorItem ? ((ArmorItem)var1.getItem()).slot == var3_1 : (var1.getItem().id == Tile.pumpkin.id ? var3_1 == 0 : false);
+ 				}
+ 			});
+ 		}
+--- net/minecraft/client/Minecraft.java
++++ net/minecraft/client/Minecraft.java
+@@ -144,8 +144,8 @@
+ 		this.orgHeight = var5;
+ 		this.fullscreen = var6;
+ 		this.minecraftApplet = var3;
+-		Thread var10001 = new Thread("Timer hack thread") {
+-			public {
++		new Thread("Timer hack thread") {
++			{
+ 				this.setDaemon(true);
+ 				this.start();
+ 			}
+@@ -338,12 +338,12 @@
+ 	public static File getWorkingDirectory(String var0) {
+ 		String var1 = System.getProperty("user.home", ".");
+ 		File var2;
+-		switch(null.$VALUES[getPlatform().ordinal()]) {
+-		case 1:
+-		case 2:
++		switch(getPlatform()) {
++		case linux:
++		case solaris:
+ 			var2 = new File(var1, '.' + var0 + '/');
+ 			break;
+-		case 3:
++		case windows:
+ 			String var3 = System.getenv("APPDATA");
+ 			if(var3 != null) {
+ 				var2 = new File(var3, "." + var0 + '/');
+@@ -351,7 +351,7 @@
+ 				var2 = new File(var1, '.' + var0 + '/');
+ 			}
+ 			break;
+-		case 4:
++		case macos:
+ 			var2 = new File(var1, "Library/Application Support/" + var0);
+ 			break;
+ 		default:
+--- net/minecraft/client/MinecraftApplet.java
++++ net/minecraft/client/MinecraftApplet.java
+@@ -21,7 +21,7 @@
+ 				super.removeNotify();
+ 			}
+ 		};
+-		final boolean var1 = false;
++		boolean var1 = false;
+ 		if(this.getParameter("fullscreen") != null) {
+ 			var1 = this.getParameter("fullscreen").equalsIgnoreCase("true");
+ 		}
+--- paulscode/sound/Vector3D.java
++++ paulscode/sound/Vector3D.java
+@@ -59,8 +59,4 @@
+ 		this.y = (float)((double)this.y / var1);
+ 		this.z = (float)((double)this.z / var1);
+ 	}
+-
+-	public Object clone() {
+-		return this.clone();
+-	}
+ }
+--- net/minecraft/server/MinecraftServer.java
++++ net/minecraft/server/MinecraftServer.java
+@@ -45,8 +45,8 @@
+ 	public boolean pvpAllowed;
+ 
+ 	public MinecraftServer() {
+-		Thread var10001 = new Thread() {
+-			public {
++		new Thread() {
++			{
+ 				this.setDaemon(true);
+ 				this.start();
+ 			}

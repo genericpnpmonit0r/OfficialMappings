@@ -5,5 +5,3 @@ Methods and classes introduced later are mapped from various name sources, inclu
 (same for the serverside only classes)
 (field names for things introduced after b1.2_02 are guesstimated)
 (argument/parameter names are guessed and or incomplete)
-
-todo: hashes for the jars too tired for this its 5am
