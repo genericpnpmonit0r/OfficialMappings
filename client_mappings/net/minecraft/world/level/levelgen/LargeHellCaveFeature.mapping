@@ -1,4 +1,4 @@
-CLASS lx net/minecraft/world/level/levelgen/LargeHellCaveFeature
+CLASS mm net/minecraft/world/level/levelgen/LargeHellCaveFeature
 	METHOD a addRoom (II[BDDD)V
 		ARG 1 x
 		ARG 2 z
@@ -19,3 +19,4 @@ CLASS lx net/minecraft/world/level/levelgen/LargeHellCaveFeature
 		ARG 13 g
 		ARG 14 h
 		ARG 15 i
+	METHOD a addFeature (Leb;IIII[B)V

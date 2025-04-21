@@ -1,5 +1,5 @@
-CLASS ox net/minecraft/world/item/HatchetItem
-	FIELD bi diggables [Lqk;
-	METHOD <init> (ILaz;)V
+CLASS pm net/minecraft/world/item/HatchetItem
+	METHOD <init> (ILbc;)V
 		ARG 1 id
 		ARG 2 tier
+	FIELD bi diggables [Lra;

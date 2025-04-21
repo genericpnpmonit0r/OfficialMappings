@@ -1,4 +1,4 @@
-CLASS ta util/ProgressListener
+CLASS tw util/ProgressListener
 	METHOD a progressStagePercentage (I)V
 		ARG 1 i
 	METHOD b progressStartNoAbort (Ljava/lang/String;)V

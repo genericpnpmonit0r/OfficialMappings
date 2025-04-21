@@ -1,4 +1,0 @@
-CLASS cf net/minecraft/client/demo/DemoMode
-	FIELD c demoHasEnded Z
-	FIELD d demoEndedReminder I
-	METHOD e outputDemoReminder ()V

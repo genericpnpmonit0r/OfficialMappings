@@ -1,1 +1,2 @@
-CLASS oe net/minecraft/world/level/levelgen/feature/HellPortalFeature
+CLASS ou net/minecraft/world/level/levelgen/feature/HellPortalFeature
+	METHOD a place (Leb;Ljava/util/Random;III)Z

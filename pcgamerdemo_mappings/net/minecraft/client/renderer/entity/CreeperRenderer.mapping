@@ -1,3 +1,0 @@
-CLASS i net/minecraft/client/renderer/entity/CreeperRenderer
-	METHOD a scale (Lja;F)V
-	METHOD a getOverlayColor (Lja;FF)I

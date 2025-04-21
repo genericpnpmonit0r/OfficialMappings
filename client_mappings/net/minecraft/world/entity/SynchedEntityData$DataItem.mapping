@@ -1,4 +1,4 @@
-CLASS jh net/minecraft/world/entity/SynchedEntityData$DataItem
+CLASS ju net/minecraft/world/entity/SynchedEntityData$DataItem
 	FIELD a type I
 	FIELD b id I
 	FIELD c value Ljava/lang/Object;

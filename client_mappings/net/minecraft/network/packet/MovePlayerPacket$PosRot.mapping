@@ -1,4 +1,4 @@
-CLASS dm net/minecraft/network/packet/MovePlayerPacket$PosRot
+CLASS du net/minecraft/network/packet/MovePlayerPacket$PosRot
 	METHOD <init> (DDDDFFZ)V
 		ARG 1 x
 		ARG 3 y
@@ -7,3 +7,6 @@ CLASS dm net/minecraft/network/packet/MovePlayerPacket$PosRot
 		ARG 9 yRot
 		ARG 10 xRot
 		ARG 11 onGround
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

@@ -1,15 +1,5 @@
-CLASS np net/minecraft/client/gui/EditBox
-	FIELD a active Z
-	FIELD b visible Z
-	FIELD c font Loi;
-	FIELD d x I
-	FIELD e y I
-	FIELD f w I
-	FIELD g h I
-	FIELD h value Ljava/lang/String;
-	FIELD i maxLength I
-	FIELD k frame I
-	METHOD <init> (Loi;IIIILjava/lang/String;)V
+CLASS of net/minecraft/client/gui/EditBox
+	METHOD <init> (Lox;IIIILjava/lang/String;)V
 		ARG 1 font
 		ARG 2 x
 		ARG 3 y
@@ -30,3 +20,13 @@ CLASS np net/minecraft/client/gui/EditBox
 		ARG 1 text
 	METHOD b tick ()V
 	METHOD c render ()V
+	FIELD a active Z
+	FIELD b visible Z
+	FIELD c font Lox;
+	FIELD d x I
+	FIELD e y I
+	FIELD f w I
+	FIELD g h I
+	FIELD h value Ljava/lang/String;
+	FIELD i maxLength I
+	FIELD j frame I

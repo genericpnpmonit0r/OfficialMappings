@@ -1,3 +1,0 @@
-CLASS pa net/minecraft/client/renderer/entity/MinecartRenderer
-	METHOD a render (Loo;DDDFF)V
-	FIELD a model Lid;

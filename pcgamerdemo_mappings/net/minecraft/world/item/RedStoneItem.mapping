@@ -1,2 +1,0 @@
-CLASS gi net/minecraft/world/item/RedStoneItem
-	METHOD a useOn (Lha;Lff;Ldu;IIII)Z

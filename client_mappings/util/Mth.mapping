@@ -1,5 +1,4 @@
-CLASS gq util/Mth
-	FIELD a sin [F
+CLASS gz util/Mth
 	METHOD a sqrt (D)F
 		ARG 0 d
 	METHOD a asbMax (DD)D
@@ -22,3 +21,4 @@ CLASS gq util/Mth
 		ARG 0 f
 	METHOD e abs (F)F
 		ARG 0 f
+	FIELD a sin [F

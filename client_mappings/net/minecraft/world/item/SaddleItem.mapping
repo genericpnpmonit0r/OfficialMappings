@@ -1,1 +1,3 @@
-CLASS nz net/minecraft/world/item/SaddleItem
+CLASS op net/minecraft/world/item/SaddleItem
+	METHOD a interactEnemy (Lhi;Ljm;)V
+	METHOD a hurtEnemy (Lhi;Ljm;Ljm;)Z

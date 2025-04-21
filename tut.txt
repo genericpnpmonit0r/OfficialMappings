@@ -1,3 +1,5 @@
+todo: rewrite for b1.4_01
+
 the .exc and .tiny and the .patch file is for using the mappings on retromcp-java v1.0 full
 i will not guarantee they will work at all (the pcgamer demo mappings not tested)
 1.

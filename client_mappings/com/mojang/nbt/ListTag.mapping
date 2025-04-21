@@ -1,8 +1,11 @@
-CLASS oo com/mojang/nbt/ListTag
+CLASS pd com/mojang/nbt/ListTag
+	METHOD a getId ()B
+	METHOD a get (I)Lgu;
+		ARG 1 index
+	METHOD a add (Lgu;)V
+		ARG 1 tag
+	METHOD a load (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD c size ()I
 	FIELD a list Ljava/util/List;
 	FIELD b type B
-	METHOD a get (I)Lgl;
-		ARG 1 index
-	METHOD a add (Lgl;)V
-		ARG 1 tag
-	METHOD c size ()I

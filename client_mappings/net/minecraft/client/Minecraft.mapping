@@ -1,61 +1,63 @@
 CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
-	FIELD A mouseHandler Lrh;
-	FIELD B texturePackRepository Lgn;
-	FIELD C frameTimes [J
-	FIELD D tickTimes [J
-	FIELD E frameTimePos I
-	FIELD F running Z
-	FIELD G fpsString Ljava/lang/String;
-	FIELD H wasDown Z
-	FIELD I lastTimer J
-	FIELD J mouseGrabbed Z
-	FIELD K isRaining Z
-	FIELD L lastTickTime J
-	FIELD M fullscreen Z
-	FIELD N openGLCapabilities Lby;
-	FIELD O timer Lmi;
-	FIELD P bgLoader Lbz;
-	FIELD Q ticks I
-	FIELD R missTime I
-	FIELD S orgWidth I
-	FIELD T orgHeight I
-	FIELD U workingDirectory Ljava/io/File;
-	FIELD V levelStorageSource Lkj;
-	FIELD W connectToIp Ljava/lang/String;
-	FIELD X connectToPort I
-	FIELD Y waterTexture Lrb;
-	FIELD Z lavaTexture Lbk;
+	FIELD A soundEngine Luj;
+	FIELD B mouseHandler Lsb;
+	FIELD C texturePackRepository Lgw;
+	FIELD D frameTimes [J
+	FIELD E tickTimes [J
+	FIELD F frameTimePos I
+	FIELD G statsCounter Lte;
+	FIELD H running Z
+	FIELD I fpsString Ljava/lang/String;
+	FIELD J wasDown Z
+	FIELD K lastTimer J
+	FIELD L mouseGrabbed Z
+	FIELD M isRaining Z
+	FIELD N lastTickTime J
+	FIELD O fullscreen Z
+	FIELD P openGLCapabilities Lcd;
+	FIELD Q timer Lmx;
+	FIELD R bgLoader Lce;
+	FIELD S ticks I
+	FIELD T missTime I
+	FIELD U orgWidth I
+	FIELD V orgHeight I
+	FIELD W workingDirectory Ljava/io/File;
+	FIELD X levelStorageSource Lkx;
+	FIELD Y connectToIp Ljava/lang/String;
+	FIELD Z connectToPort I
 	FIELD a instance Lnet/minecraft/client/Minecraft;
-	FIELD aa workDir Ljava/io/File;
-	FIELD ab lastClickTick I
-	FIELD ac recheckPlayerIn I
-	FIELD b gameMode Lky;
+	FIELD aa waterTexture Lrv;
+	FIELD ab lavaTexture Lbo;
+	FIELD ac workDir Ljava/io/File;
+	FIELD ad lastClickTick I
+	FIELD ae recheckPlayerIn I
+	FIELD b gameMode Lln;
 	FIELD c width I
 	FIELD d height I
-	FIELD e level Ldt;
-	FIELD f levelRenderer Lh;
-	FIELD g player Lcc;
-	FIELD h cameraEntity Liz;
+	FIELD e level Leb;
+	FIELD f levelRenderer Li;
+	FIELD g player Lch;
+	FIELD h cameraEntity Ljm;
 		COMMENT why is this here wtf notch this is literally just the same as the player field
 		COMMENT just another guesstimated field name cause no fucking clue
-	FIELD i particleEngine Lcn;
-	FIELD j user Lfb;
+	FIELD i particleEngine Lcs;
+	FIELD j user Lfk;
 	FIELD k serverDomain Ljava/lang/String;
 	FIELD l parent Ljava/awt/Canvas;
 	FIELD m appletMode Z
 	FIELD n pause Z
-	FIELD o textures Lhf;
-	FIELD p font Loi;
-	FIELD q screen Lcb;
-	FIELD r progressRenderer Ljp;
-	FIELD s gameRenderer Lmh;
-	FIELD t gui Lqf;
-	FIELD u noRender Z
-	FIELD v humanoidModel Ldx;
-	FIELD w hitResult Lqu;
-	FIELD x options Lig;
-	FIELD y minecraftApplet Lnet/minecraft/client/MinecraftApplet;
-	FIELD z soundEngine Ltm;
+	FIELD o textures Lho;
+	FIELD p font Lox;
+	FIELD q screen Lcf;
+	FIELD r progressRenderer Lkc;
+	FIELD s gameRenderer Lmw;
+	FIELD t overlay Lrq;
+	FIELD u gui Lqv;
+	FIELD v noRender Z
+	FIELD w humanoidModel Lef;
+	FIELD x hitResult Lrk;
+	FIELD y options Lis;
+	FIELD z minecraftApplet Lnet/minecraft/client/MinecraftApplet;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
 		ARG 1 component
 		ARG 2 parent
@@ -63,8 +65,7 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 4 w
 		ARG 5 h
 		ARG 6 fullscreen
-	METHOD A handleGrabTexture ()V
-	METHOD B reloadSound ()V
+	METHOD A reloadSound ()V
 	METHOD a init ()V
 	METHOD a handleMouseClick (I)V
 		ARG 1 buttonNum
@@ -83,14 +84,14 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 2 b
 	METHOD a renderFpsMeter (J)V
 		ARG 1 time
-	METHOD a setScreen (Lcb;)V
+	METHOD a setScreen (Lcf;)V
 		ARG 1 screen
-	METHOD a setLevel (Ldt;)V
+	METHOD a setLevel (Leb;)V
 		ARG 1 level
-	METHOD a setLevel (Ldt;Ljava/lang/String;)V
+	METHOD a setLevel (Leb;Ljava/lang/String;)V
 		ARG 1 level
 		ARG 2 title
-	METHOD a setLevel (Ldt;Ljava/lang/String;Lfd;)V
+	METHOD a setLevel (Leb;Ljava/lang/String;Lfm;)V
 		ARG 1 level
 		ARG 2 title
 		ARG 3 player
@@ -119,15 +120,17 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 		ARG 0 name
 		ARG 1 sessionId
 		ARG 2 server
-	METHOD a onCrash (Ljm;)V
+	METHOD a onCrash (Ljz;)V
 		ARG 1 crashReport
+	METHOD a respawnPlayer (Z)V
+		ARG 1 b
 	METHOD b getWorkingDirectory ()Ljava/io/File;
 	METHOD b isCommand (Ljava/lang/String;)Z
 		ARG 1 msg
 	METHOD b convertLevel (Ljava/lang/String;Ljava/lang/String;)V
 		ARG 1 levelName
 		ARG 2 n
-	METHOD c getLevelStorage ()Lkj;
+	METHOD c getLevelStorage ()Lkx;
 	METHOD c checkGLError (Ljava/lang/String;)V
 		ARG 1 string
 	METHOD d destroy ()V
@@ -141,20 +144,20 @@ CLASS net/minecraft/client/Minecraft net/minecraft/client/Minecraft
 	METHOD j tick ()V
 	METHOD k isOnline ()Z
 	METHOD l toggleDimension ()V
-	METHOD m getOpenGLCapabilities ()Lby;
+	METHOD m getOpenGLCapabilities ()Lcd;
 	METHOD main main ([Ljava/lang/String;)V
 		ARG 0 args
 	METHOD n gatherStats1 ()Ljava/lang/String;
 	METHOD o gatherStats2 ()Ljava/lang/String;
 	METHOD p gatherStats4 ()Ljava/lang/String;
 	METHOD q gatherStats3 ()Ljava/lang/String;
-	METHOD r respawnPlayer ()V
+	METHOD r getConnection ()Lko;
 	METHOD run run ()V
-	METHOD s getConnection ()Lkb;
-	METHOD t showGui ()Z
-	METHOD u fancyGraphics ()Z
-	METHOD v useAmbientOcclusion ()Z
-	METHOD w showFps ()Z
-	METHOD x renderLoadingScreen ()V
-	METHOD y getPlatform ()Lls;
-	METHOD z checkScreenshot ()V
+	METHOD s showGui ()Z
+	METHOD t fancyGraphics ()Z
+	METHOD u useAmbientOcclusion ()Z
+	METHOD v showFps ()Z
+	METHOD w renderLoadingScreen ()V
+	METHOD x getPlatform ()Lmh;
+	METHOD y checkScreenshot ()V
+	METHOD z handleGrabTexture ()V

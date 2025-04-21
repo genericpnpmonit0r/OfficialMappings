@@ -1,9 +1,9 @@
-CLASS az net/minecraft/world/item/Item$Tier
-	FIELD a WOOD Laz;
-	FIELD b STONE Laz;
-	FIELD c IRON Laz;
-	FIELD d EMERALD Laz;
-	FIELD e GOLD Laz;
+CLASS bc net/minecraft/world/item/Item$Tier
+	FIELD a WOOD Lbc;
+	FIELD b STONE Lbc;
+	FIELD c IRON Lbc;
+	FIELD d EMERALD Lbc;
+	FIELD e GOLD Lbc;
 	FIELD f level I
 	FIELD g uses I
 	FIELD h speed F

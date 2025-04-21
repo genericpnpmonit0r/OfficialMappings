@@ -1,11 +1,12 @@
-CLASS cb net/minecraft/client/gui/Screen
-	FIELD a clickedButton Lhw;
+CLASS cf net/minecraft/client/gui/Screen
+	FIELD a clickedButton Lih;
 	FIELD b minecraft Lnet/minecraft/client/Minecraft;
 	FIELD c width I
 	FIELD d height I
 	FIELD e buttons Ljava/util/List;
 	FIELD f passEvents Z
-	FIELD g font Loi;
+	FIELD g font Lox;
+	FIELD h unk_h Lcz;
 	METHOD a init ()V
 	METHOD a keyPressed (CI)V
 		ARG 1 eventCharacter
@@ -20,7 +21,7 @@ CLASS cb net/minecraft/client/gui/Screen
 		ARG 1 x
 		ARG 2 y
 		ARG 3 buttonNum
-	METHOD a buttonClicked (Lhw;)V
+	METHOD a buttonClicked (Lih;)V
 		ARG 1 button
 	METHOD a init (Lnet/minecraft/client/Minecraft;II)V
 		ARG 1 minecraft

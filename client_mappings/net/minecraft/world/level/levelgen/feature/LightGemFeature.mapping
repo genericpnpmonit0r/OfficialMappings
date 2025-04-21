@@ -1,1 +1,2 @@
-CLASS es net/minecraft/world/level/levelgen/feature/LightGemFeature
+CLASS fa net/minecraft/world/level/levelgen/feature/LightGemFeature
+	METHOD a place (Leb;Ljava/util/Random;III)Z

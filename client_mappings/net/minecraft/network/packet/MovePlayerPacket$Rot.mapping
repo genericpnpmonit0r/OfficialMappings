@@ -1,5 +1,8 @@
-CLASS qw net/minecraft/network/packet/MovePlayerPacket$Rot
+CLASS rm net/minecraft/network/packet/MovePlayerPacket$Rot
 	METHOD <init> (FFZ)V
 		ARG 1 yRot
 		ARG 2 xRot
 		ARG 3 onGround
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

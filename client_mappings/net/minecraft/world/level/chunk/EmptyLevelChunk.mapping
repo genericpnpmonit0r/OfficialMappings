@@ -1,1 +1,32 @@
-CLASS iq net/minecraft/world/level/chunk/EmptyLevelChunk
+CLASS jd net/minecraft/world/level/chunk/EmptyLevelChunk
+	METHOD a recalcBlockLights ()V
+	METHOD a isAt (II)Z
+	METHOD a getTile (III)I
+	METHOD a setTile (IIII)Z
+	METHOD a setTileAndData (IIIII)Z
+	METHOD a setTileEntity (IIILma;)V
+	METHOD a getRandom (J)Ljava/util/Random;
+	METHOD a getBrightness (Lde;III)I
+	METHOD a setBrightness (Lde;IIII)V
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Ldq;Ljava/util/List;)V
+	METHOD a addTileEntity (Lma;)V
+	METHOD a addEntity (Lpb;)V
+	METHOD a removeEntity (Lpb;I)V
+	METHOD a getEntities (Lpb;Ldq;Ljava/util/List;)V
+	METHOD a shouldSave (Z)Z
+	METHOD a setBlocksAndData ([BIIIIIII)I
+	METHOD b recalcHeightmapOnly ()V
+	METHOD b getHeightmap (II)I
+	METHOD b getData (III)I
+	METHOD b setData (IIII)V
+	METHOD b removeEntity (Lpb;)V
+	METHOD c recalcHeightmap ()V
+	METHOD c isSkyLit (III)Z
+	METHOD c getRawBrightness (IIII)I
+	METHOD d lightLava ()V
+	METHOD d getTileEntity (III)Lma;
+	METHOD e load ()V
+	METHOD e removeTileEntity (III)V
+	METHOD f unload ()V
+	METHOD g markUnsaved ()V
+	METHOD h isEmpty ()Z

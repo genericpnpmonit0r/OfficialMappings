@@ -1,12 +1,12 @@
-CLASS fx net/minecraft/client/sound/SoundRepository
+CLASS gg net/minecraft/client/sound/SoundRepository
+	METHOD a any ()Lat;
+	METHOD a get (Ljava/lang/String;)Lat;
+		ARG 1 name
+	METHOD a add (Ljava/lang/String;Ljava/io/File;)Lat;
+		ARG 1 name
+		ARG 2 file
 	FIELD a count I
 	FIELD b trimDigits Z
 	FIELD c random Ljava/util/Random;
 	FIELD d urls Ljava/util/Map;
 	FIELD e all Ljava/util/List;
-	METHOD a any ()Lar;
-	METHOD a get (Ljava/lang/String;)Lar;
-		ARG 1 name
-	METHOD a add (Ljava/lang/String;Ljava/io/File;)Lar;
-		ARG 1 name
-		ARG 2 file

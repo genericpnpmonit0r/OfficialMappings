@@ -1,4 +1,8 @@
-CLASS m net/minecraft/network/packet/SetEquippedItemPacket
+CLASS o net/minecraft/network/packet/SetEquippedItemPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
 	FIELD a entity I
 	FIELD b slot I
 	FIELD c item I

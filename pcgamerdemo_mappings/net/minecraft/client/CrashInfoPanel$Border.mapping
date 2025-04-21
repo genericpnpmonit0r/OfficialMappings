@@ -1,3 +1,0 @@
-CLASS sc net/minecraft/client/CrashInfoPanel$Border
-	METHOD <init> (I)V
-		ARG 1 size

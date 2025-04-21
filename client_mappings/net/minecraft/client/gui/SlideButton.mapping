@@ -1,11 +1,15 @@
-CLASS rg net/minecraft/client/gui/SlideButton
-	FIELD i value F
-	FIELD k sliding Z
-	FIELD l option Lfz;
-	METHOD <init> (IIILfz;Ljava/lang/String;F)V
+CLASS sa net/minecraft/client/gui/SlideButton
+	METHOD <init> (IIILgi;Ljava/lang/String;F)V
 		ARG 1 id
 		ARG 2 x
 		ARG 3 y
 		ARG 4 option
 		ARG 5 msg
 		ARG 6 value
+	METHOD a released (II)V
+	METHOD a getYImage (Z)I
+	METHOD b renderBg (Lnet/minecraft/client/Minecraft;II)V
+	METHOD c clicked (Lnet/minecraft/client/Minecraft;II)Z
+	FIELD i value F
+	FIELD j sliding Z
+	FIELD l option Lgi;

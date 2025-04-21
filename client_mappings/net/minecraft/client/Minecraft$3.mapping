@@ -1,4 +1,4 @@
-CLASS hy net/minecraft/client/Minecraft$3
+CLASS ij net/minecraft/client/Minecraft$3
 	FIELD a val$frame Ljava/awt/Frame;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZLjava/awt/Frame;)V
 		ARG 1 component
@@ -8,3 +8,4 @@ CLASS hy net/minecraft/client/Minecraft$3
 		ARG 5 h
 		ARG 6 fullscreen
 		ARG 7 val$frame
+	METHOD a onCrash (Ljz;)V

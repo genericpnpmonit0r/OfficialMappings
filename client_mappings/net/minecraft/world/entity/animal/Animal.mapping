@@ -1,1 +1,6 @@
-CLASS aq net/minecraft/world/entity/animal/Animal
+CLASS as net/minecraft/world/entity/animal/Animal
+	METHOD a getWalkTargetValue (III)F
+	METHOD a addAdditionalSaveData (Llg;)V
+	METHOD b readAdditionalSaveData (Llg;)V
+	METHOD c canSpawn ()Z
+	METHOD d getAmbientSoundInterval ()I

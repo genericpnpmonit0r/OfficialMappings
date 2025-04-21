@@ -1,13 +1,29 @@
-CLASS lb net/minecraft/world/level/tile/ButtonTile
+CLASS lq net/minecraft/world/level/tile/ButtonTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD h unk_h (Ldt;III)I
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a use (Leb;IIILfm;)Z
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a updateShape (Ltk;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD b onRemove (Leb;III)V
+	METHOD b attack (Leb;IIILfm;)V
+	METHOD c getDirectSignal (Leb;IIII)Z
+	METHOD c getSignal (Ltk;IIII)Z
+	METHOD d getTickDelay ()I
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD d setPlacedOnFace (Leb;IIII)V
+	METHOD e isSignalSource ()Z
+	METHOD f updateDefaultShape ()V
+	METHOD h unk_h (Leb;III)I
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD i checkCanSurvive (Ldt;III)Z
+	METHOD i checkCanSurvive (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y

@@ -1,9 +1,19 @@
-CLASS ab net/minecraft/world/level/tile/PortalTile
+CLASS ac net/minecraft/world/level/tile/PortalTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a_ trySpawnPortal (Ldt;III)Z
+	METHOD a isSolidRender ()Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a entityInside (Leb;IIILpb;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a updateShape (Ltk;III)V
+	METHOD a_ trySpawnPortal (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	METHOD b isCubeShaped ()Z
+	METHOD b animateTick (Leb;IIILjava/util/Random;)V
+	METHOD b shouldRenderFace (Ltk;IIII)Z
+	METHOD c getRenderLayer ()I
+	METHOD d getAABB (Leb;III)Ldq;

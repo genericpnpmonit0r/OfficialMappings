@@ -1,2 +1,0 @@
-CLASS lh net/minecraft/world/item/SignItem
-	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z

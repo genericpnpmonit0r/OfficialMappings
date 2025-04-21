@@ -1,7 +1,10 @@
-CLASS lf net/minecraft/client/gui/inventory/CraftingScreen
-	METHOD <init> (Lgy;Ldt;III)V
+CLASS lu net/minecraft/client/gui/inventory/CraftingScreen
+	METHOD <init> (Lhh;Leb;III)V
 		ARG 1 inventory
 		ARG 2 level
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
+	METHOD a renderBg (F)V
+	METHOD h removed ()V
+	METHOD j renderLabels ()V

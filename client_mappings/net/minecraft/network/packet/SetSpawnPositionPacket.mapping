@@ -1,4 +1,8 @@
-CLASS nf net/minecraft/network/packet/SetSpawnPositionPacket
+CLASS nv net/minecraft/network/packet/SetSpawnPositionPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I

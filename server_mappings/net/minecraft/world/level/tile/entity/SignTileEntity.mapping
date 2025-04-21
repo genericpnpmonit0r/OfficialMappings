@@ -1,5 +1,0 @@
-CLASS nk net/minecraft/world/level/tile/entity/SignTileEntity
-	FIELD a messages [Ljava/lang/String;
-	FIELD b selectedLine I
-	METHOD a load (Lhj;)V
-	METHOD b save (Lhj;)V

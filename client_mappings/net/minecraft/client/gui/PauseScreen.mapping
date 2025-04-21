@@ -1,3 +1,7 @@
-CLASS lo net/minecraft/client/gui/PauseScreen
+CLASS md net/minecraft/client/gui/PauseScreen
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lih;)V
+	METHOD g tick ()V
 	FIELD a saveStep I
-	FIELD h visibleTime I
+	FIELD i visibleTime I

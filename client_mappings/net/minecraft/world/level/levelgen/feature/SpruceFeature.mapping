@@ -1,1 +1,2 @@
-CLASS rv net/minecraft/world/level/levelgen/feature/SpruceFeature
+CLASS sq net/minecraft/world/level/levelgen/feature/SpruceFeature
+	METHOD a place (Leb;Ljava/util/Random;III)Z

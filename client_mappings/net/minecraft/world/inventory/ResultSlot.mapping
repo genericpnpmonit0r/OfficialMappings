@@ -1,8 +1,12 @@
-CLASS tq net/minecraft/world/inventory/ResultSlot
-	FIELD d craftSlots Ljc;
-	METHOD <init> (Ljc;Ljc;III)V
-		ARG 1 craftSlots
-		ARG 2 inventory
-		ARG 3 slot
-		ARG 4 x
-		ARG 5 y
+CLASS un net/minecraft/world/inventory/ResultSlot
+	FIELD d craftSlots Ljp;
+	FIELD e player Lfm;
+	METHOD <init> (Lfm;Ljp;Ljp;III)V
+		ARG 1 player
+		ARG 2 craftSlots
+		ARG 3 container
+		ARG 4 slot
+		ARG 5 x
+		ARG 6 y
+	METHOD a onTake (Lhi;)V
+	METHOD b mayPlace (Lhi;)Z

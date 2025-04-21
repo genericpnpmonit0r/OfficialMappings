@@ -1,9 +1,4 @@
-CLASS hr util/IntHashMap
-	FIELD a table [Lrq;
-	FIELD b size I
-	FIELD c threshold I
-	FIELD d loadFactor F
-	FIELD e modCount I
+CLASS ib util/IntHashMap
 	METHOD a clear ()V
 	METHOD a get (I)Ljava/lang/Object;
 		ARG 1 value
@@ -18,11 +13,11 @@ CLASS hr util/IntHashMap
 	METHOD a put (ILjava/lang/Object;)V
 		ARG 1 key
 		ARG 2 value
-	METHOD a transfer ([Lrq;)V
+	METHOD a transfer ([Lsl;)V
 		ARG 1 tab
 	METHOD b remove (I)Ljava/lang/Object;
 		ARG 1 key
-	METHOD c removeEntryForKey (I)Lrq;
+	METHOD c removeEntryForKey (I)Lsl;
 		ARG 1 key
 	METHOD d access$000 (I)I
 		ARG 0 i
@@ -30,3 +25,8 @@ CLASS hr util/IntHashMap
 		ARG 0 key
 	METHOD f resize (I)V
 		ARG 1 size
+	FIELD a table [Lsl;
+	FIELD b size I
+	FIELD c threshold I
+	FIELD d loadFactor F
+	FIELD e modCount I

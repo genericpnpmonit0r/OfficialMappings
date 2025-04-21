@@ -1,140 +1,142 @@
-CLASS ex net/minecraft/world/item/Item
-	FIELD A hatchet_emerald Lex;
-	FIELD B stick Lex;
-	FIELD C bowl Lex;
-	FIELD D mushroomStew Lex;
-	FIELD E sword_gold Lex;
-	FIELD F shovel_gold Lex;
-	FIELD G pickAxe_gold Lex;
-	FIELD H hatchet_gold Lex;
-	FIELD I string Lex;
-	FIELD J feather Lex;
-	FIELD K sulphur Lex;
-	FIELD L hoe_wood Lex;
-	FIELD M hoe_stone Lex;
-	FIELD N hoe_iron Lex;
-	FIELD O hoe_emerald Lex;
-	FIELD P hoe_gold Lex;
-	FIELD Q seeds Lex;
-	FIELD R wheat Lex;
-	FIELD S bread Lex;
-	FIELD T helmet_cloth Lex;
-	FIELD U chestplate_cloth Lex;
-	FIELD V leggings_cloth Lex;
-	FIELD W boots_cloth Lex;
-	FIELD X helmet_chain Lex;
-	FIELD Y chestplate_chain Lex;
-	FIELD Z leggings_chain Lex;
-	FIELD aA redStone Lex;
-	FIELD aB snowBall Lex;
-	FIELD aC boat Lex;
-	FIELD aD leather Lex;
-	FIELD aE milk Lex;
-	FIELD aF brick Lex;
-	FIELD aG clay Lex;
-	FIELD aH reeds Lex;
-	FIELD aI paper Lex;
-	FIELD aJ book Lex;
-	FIELD aK slimeBall Lex;
-	FIELD aL minecart_chest Lex;
-	FIELD a craftingRemainingItem Lex;
-	FIELD aM minecart_furnace Lex;
-	FIELD aN egg Lex;
-	FIELD aO compass Lex;
-	FIELD aP fishingRod Lex;
-	FIELD aQ clock Lex;
-	FIELD aR yellowDust Lex;
-	FIELD aS fish_raw Lex;
-	FIELD aT fish_cooked Lex;
-	FIELD aU dye_powder Lex;
-	FIELD aV bone Lex;
-	FIELD aW sugar Lex;
-	FIELD aX cake Lex;
-	FIELD aY bed Lex;
-	FIELD aZ diode Lex;
-	FIELD aa boots_chain Lex;
-	FIELD ab helmet_iron Lex;
-	FIELD ac chestplate_iron Lex;
-	FIELD ad leggings_iron Lex;
-	FIELD ae boots_iron Lex;
-	FIELD af helmet_diamond Lex;
-	FIELD ag chestplate_diamond Lex;
-	FIELD ah leggings_diamond Lex;
-	FIELD ai boots_diamond Lex;
-	FIELD aj helmet_gold Lex;
-	FIELD ak chestplate_gold Lex;
-	FIELD al leggings_gold Lex;
-	FIELD am boots_gold Lex;
-	FIELD an flint Lex;
-	FIELD ao porkChop_raw Lex;
-	FIELD ap porkChop_cooked Lex;
-	FIELD aq painting Lex;
-	FIELD ar apple_gold Lex;
-	FIELD as sign Lex;
-	FIELD at door_wood Lex;
-	FIELD au bucket_empty Lex;
-	FIELD av bucket_water Lex;
-	FIELD aw bucket_lava Lex;
-	FIELD ax minecart Lex;
-	FIELD ay saddle Lex;
-	FIELD az door_iron Lex;
+CLASS fg net/minecraft/world/item/Item
+	FIELD A hatchet_emerald Lfg;
+	FIELD B stick Lfg;
+	FIELD C bowl Lfg;
+	FIELD D mushroomStew Lfg;
+	FIELD E sword_gold Lfg;
+	FIELD F shovel_gold Lfg;
+	FIELD G pickAxe_gold Lfg;
+	FIELD H hatchet_gold Lfg;
+	FIELD I string Lfg;
+	FIELD J feather Lfg;
+	FIELD K sulphur Lfg;
+	FIELD L hoe_wood Lfg;
+	FIELD M hoe_stone Lfg;
+	FIELD N hoe_iron Lfg;
+	FIELD O hoe_emerald Lfg;
+	FIELD P hoe_gold Lfg;
+	FIELD Q seeds Lfg;
+	FIELD R wheat Lfg;
+	FIELD S bread Lfg;
+	FIELD T helmet_cloth Lfg;
+	FIELD U chestplate_cloth Lfg;
+	FIELD V leggings_cloth Lfg;
+	FIELD W boots_cloth Lfg;
+	FIELD X helmet_chain Lfg;
+	FIELD Y chestplate_chain Lfg;
+	FIELD Z leggings_chain Lfg;
+	FIELD aA redStone Lfg;
+	FIELD aB snowBall Lfg;
+	FIELD aC boat Lfg;
+	FIELD aD leather Lfg;
+	FIELD aE milk Lfg;
+	FIELD aF brick Lfg;
+	FIELD aG clay Lfg;
+	FIELD aH reeds Lfg;
+	FIELD a maxDamage I
+	FIELD aI paper Lfg;
+	FIELD aJ book Lfg;
+	FIELD aK slimeBall Lfg;
+	FIELD aL minecart_chest Lfg;
+	FIELD aM minecart_furnace Lfg;
+	FIELD aN egg Lfg;
+	FIELD aO compass Lfg;
+	FIELD aP fishingRod Lfg;
+	FIELD aQ clock Lfg;
+	FIELD aR yellowDust Lfg;
+	FIELD aS fish_raw Lfg;
+	FIELD aT fish_cooked Lfg;
+	FIELD aU dye_powder Lfg;
+	FIELD aV bone Lfg;
+	FIELD aW sugar Lfg;
+	FIELD aX cake Lfg;
+	FIELD aY bed Lfg;
+	FIELD aZ diode Lfg;
+	FIELD aa boots_chain Lfg;
+	FIELD ab helmet_iron Lfg;
+	FIELD ac chestplate_iron Lfg;
+	FIELD ad leggings_iron Lfg;
+	FIELD ae boots_iron Lfg;
+	FIELD af helmet_diamond Lfg;
+	FIELD ag chestplate_diamond Lfg;
+	FIELD ah leggings_diamond Lfg;
+	FIELD ai boots_diamond Lfg;
+	FIELD aj helmet_gold Lfg;
+	FIELD ak chestplate_gold Lfg;
+	FIELD al leggings_gold Lfg;
+	FIELD am boots_gold Lfg;
+	FIELD an flint Lfg;
+	FIELD ao porkChop_raw Lfg;
+	FIELD ap porkChop_cooked Lfg;
+	FIELD aq painting Lfg;
+	FIELD ar apple_gold Lfg;
+	FIELD as sign Lfg;
+	FIELD at door_wood Lfg;
+	FIELD au bucket_empty Lfg;
+	FIELD av bucket_water Lfg;
+	FIELD aw bucket_lava Lfg;
+	FIELD ax minecart Lfg;
+	FIELD ay saddle Lfg;
+	FIELD az door_iron Lfg;
 	FIELD b random Ljava/util/Random;
-	FIELD ba record_01 Lex;
-	FIELD bb record_02 Lex;
-	FIELD bc id I
-	FIELD bd maxStackSize I
-	FIELD be maxDamage I
+	FIELD ba cookie Lfg;
+	FIELD bb record_01 Lfg;
+	FIELD bc record_02 Lfg;
+	FIELD bd id I
+	FIELD be maxStackSize I
 	FIELD bf icon I
 	FIELD bg handEquipped Z
 	FIELD bh isStackedByData Z
-	FIELD bi descriptionId Ljava/lang/String;
-	FIELD c items [Lex;
-	FIELD d shovel_iron Lex;
-	FIELD e pickAxe_iron Lex;
-	FIELD f hatchet_iron Lex;
-	FIELD g flintAndSteel Lex;
-	FIELD h apple Lex;
-	FIELD i bow Lex;
-	FIELD j arrow Lex;
-	FIELD k coal Lex;
-	FIELD l emerald Lex;
-	FIELD m ironIngot Lex;
-	FIELD n goldIngot Lex;
-	FIELD o sword_iron Lex;
-	FIELD p sword_wood Lex;
-	FIELD q shovel_wood Lex;
-	FIELD r pickAxe_wood Lex;
-	FIELD s hatchet_wood Lex;
-	FIELD t sword_stone Lex;
-	FIELD u shovel_stone Lex;
-	FIELD v pickAxe_stone Lex;
-	FIELD w hatchet_stone Lex;
-	FIELD x sword_emerald Lex;
-	FIELD y shovel_emerald Lex;
-	FIELD z pickAxe_emerald Lex;
+	FIELD bi craftingRemainingItem Lfg;
+	FIELD bj descriptionId Ljava/lang/String;
+	FIELD c items [Lfg;
+	FIELD d shovel_iron Lfg;
+	FIELD e pickAxe_iron Lfg;
+	FIELD f hatchet_iron Lfg;
+	FIELD g flintAndSteel Lfg;
+	FIELD h apple Lfg;
+	FIELD i bow Lfg;
+	FIELD j arrow Lfg;
+	FIELD k coal Lfg;
+	FIELD l emerald Lfg;
+	FIELD m ironIngot Lfg;
+	FIELD n goldIngot Lfg;
+	FIELD o sword_iron Lfg;
+	FIELD p sword_wood Lfg;
+	FIELD q shovel_wood Lfg;
+	FIELD r pickAxe_wood Lfg;
+	FIELD s hatchet_wood Lfg;
+	FIELD t sword_stone Lfg;
+	FIELD u shovel_stone Lfg;
+	FIELD v pickAxe_stone Lfg;
+	FIELD w hatchet_stone Lfg;
+	FIELD x sword_emerald Lfg;
+	FIELD y shovel_emerald Lfg;
+	FIELD z pickAxe_emerald Lfg;
 	METHOD <init> (I)V
 		ARG 1 id
 	METHOD a getDescriptionId ()Ljava/lang/String;
 	METHOD a getLevelDataForAuxValue (I)I
 		ARG 1 value
-	METHOD a setIcon (II)Lex;
+	METHOD a setIcon (II)Lfg;
 		ARG 1 x
 		ARG 2 y
-	METHOD a setCraftingRemainingItem (Lex;)Lex;
+	METHOD a setCraftingRemainingItem (Lfg;)Lfg;
 		ARG 1 craftingRemainingItem
-	METHOD a getIcon (Lgz;)I
+	METHOD a getIcon (Lhi;)I
 		ARG 1 item
-	METHOD a mineBlock (Lgz;IIII)V
+	METHOD a mineBlock (Lhi;IIIILjm;)Z
 		ARG 1 item
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-		ARG 5 face
-	METHOD a use (Lgz;Ldt;Lfd;)Lgz;
+		ARG 5 f
+		ARG 6 player
+	METHOD a use (Lhi;Leb;Lfm;)Lhi;
 		ARG 1 item
 		ARG 2 level
 		ARG 3 player
-	METHOD a useOn (Lgz;Lfd;Ldt;IIII)Z
+	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z
 		ARG 1 item
 		ARG 2 player
 		ARG 3 level
@@ -142,36 +144,39 @@ CLASS ex net/minecraft/world/item/Item
 		ARG 5 y
 		ARG 6 z
 		ARG 7 face
-	METHOD a hurtEnemy (Lgz;Liz;)V
+	METHOD a interactEnemy (Lhi;Ljm;)V
 		ARG 1 item
 		ARG 2 mob
-	METHOD a getDestroySpeed (Lgz;Lqk;)F
+	METHOD a hurtEnemy (Lhi;Ljm;Ljm;)Z
+		ARG 1 item
+		ARG 2 mob
+		ARG 3 player
+	METHOD a getDestroySpeed (Lhi;Lra;)F
 		ARG 1 item
 		ARG 2 tile
-	METHOD a setDescriptionId (Ljava/lang/String;)Lex;
+	METHOD a setDescriptionId (Ljava/lang/String;)Lfg;
 		ARG 1 id
-	METHOD a getAttackDamage (Lom;)I
+	METHOD a getAttackDamage (Lpb;)I
 		ARG 1 entity
-	METHOD a canDestroySpecial (Lqk;)Z
+	METHOD a canDestroySpecial (Lra;)Z
 		ARG 1 tile
-	METHOD a setStackedByData (Z)Lex;
+	METHOD a setStackedByData (Z)Lfg;
 		ARG 1 stackedByData
 	METHOD b isHandEquipped ()Z
-	METHOD b setIcon (I)Lex;
+	METHOD b setIcon (I)Lfg;
 		ARG 1 icon
-	METHOD b getDescriptionId (Lgz;)Ljava/lang/String;
+	METHOD b getDescriptionId (Lhi;)Ljava/lang/String;
 		ARG 1 item
-	METHOD b interactEnemy (Lgz;Liz;)V
-		ARG 1 item
-		ARG 2 mob
 	METHOD c isMirroredArt ()Z
-	METHOD c setMaxStackSize (I)Lex;
+	METHOD c setMaxStackSize (I)Lfg;
 		ARG 1 maxStackSize
 	METHOD d getMaxStackSize ()I
-	METHOD d setMaxDamage (I)Lex;
+	METHOD d setMaxDamage (I)Lfg;
 		ARG 1 maxDamage
 	METHOD e isStackedByData ()Z
 	METHOD f getMaxDamage ()I
-	METHOD g handEquipped ()Lex;
-	METHOD h getCraftingRemainingItem ()Lex;
-	METHOD i hasCraftingRemainingItem ()Z
+	METHOD g canBeDepleted ()Z
+	METHOD h handEquipped ()Lfg;
+	METHOD i getCraftingRemainingItem ()Lfg;
+	METHOD j hasCraftingRemainingItem ()Z
+	METHOD k getName ()Ljava/lang/String;

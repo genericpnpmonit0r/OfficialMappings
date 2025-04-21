@@ -1,5 +1,6 @@
-CLASS ga net/minecraft/world/item/DoorItem
-	FIELD a material Liu;
-	METHOD <init> (ILiu;)V
+CLASS gj net/minecraft/world/item/DoorItem
+	METHOD <init> (ILjh;)V
 		ARG 1 id
 		ARG 2 material
+	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z
+	FIELD a material Ljh;

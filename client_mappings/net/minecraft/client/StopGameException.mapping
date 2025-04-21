@@ -1,1 +1,1 @@
-CLASS sw net/minecraft/client/StopGameException
+CLASS ts net/minecraft/client/StopGameException

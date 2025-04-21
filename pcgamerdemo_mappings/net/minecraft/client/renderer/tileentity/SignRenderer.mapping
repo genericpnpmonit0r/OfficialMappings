@@ -1,3 +1,0 @@
-CLASS ma net/minecraft/client/renderer/tileentity/SignRenderer
-	METHOD a render (Lll;DDDF)V
-	FIELD b signModel Lni;

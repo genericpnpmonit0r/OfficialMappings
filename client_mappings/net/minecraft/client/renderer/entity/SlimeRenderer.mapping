@@ -1,6 +1,8 @@
-CLASS jq net/minecraft/client/renderer/entity/SlimeRenderer
-	FIELD a armor Lic;
-	METHOD <init> (Lic;Lic;F)V
+CLASS kd net/minecraft/client/renderer/entity/SlimeRenderer
+	METHOD <init> (Lin;Lin;F)V
 		ARG 1 model
 		ARG 2 armor
 		ARG 3 shadow
+	METHOD a scale (Ljm;F)V
+	METHOD a prepareArmor (Ljm;IF)Z
+	FIELD a armor Lin;

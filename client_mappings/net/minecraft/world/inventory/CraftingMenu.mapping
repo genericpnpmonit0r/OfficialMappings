@@ -1,13 +1,16 @@
-CLASS gw net/minecraft/world/inventory/CraftingMenu
-	FIELD a craftSlots Ljv;
-	FIELD b resultSlots Ljc;
-	FIELD c level Ldt;
-	FIELD h x I
-	FIELD i y I
-	FIELD j z I
-	METHOD <init> (Lgy;Ldt;III)V
+CLASS hf net/minecraft/world/inventory/CraftingMenu
+	METHOD <init> (Lhh;Leb;III)V
 		ARG 1 inventory
 		ARG 2 level
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
+	METHOD a removed (Lfm;)V
+	METHOD a slotsChanged (Ljp;)V
+	METHOD b stillValid (Lfm;)Z
+	FIELD a craftSlots Lki;
+	FIELD b resultSlots Ljp;
+	FIELD c level Leb;
+	FIELD h x I
+	FIELD i y I
+	FIELD j z I

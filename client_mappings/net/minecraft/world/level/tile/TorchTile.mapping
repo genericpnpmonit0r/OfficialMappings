@@ -1,8 +1,19 @@
-CLASS qy net/minecraft/world/level/tile/TorchTile
+CLASS rp net/minecraft/world/level/tile/TorchTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD h checkCanSurvive (Ldt;III)Z
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a clip (Leb;IIILbb;Lbb;)Lrk;
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD b isCubeShaped ()Z
+	METHOD b animateTick (Leb;IIILjava/util/Random;)V
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD d setPlacedOnFace (Leb;IIII)V
+	METHOD e onPlace (Leb;III)V
+	METHOD g getRenderShape ()I
+	METHOD h checkCanSurvive (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y

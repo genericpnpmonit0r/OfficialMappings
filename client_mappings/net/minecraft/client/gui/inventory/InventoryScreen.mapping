@@ -1,5 +1,10 @@
-CLASS pw net/minecraft/client/gui/inventory/InventoryScreen
-	FIELD k xMouse F
-	FIELD l yMouse F
-	METHOD <init> (Lfd;)V
+CLASS qm net/minecraft/client/gui/inventory/InventoryScreen
+	METHOD <init> (Lfm;)V
 		ARG 1 player
+	METHOD a init ()V
+	METHOD a renderBg (F)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lih;)V
+	METHOD j renderLabels ()V
+	FIELD l xMouse F
+	FIELD m yMouse F

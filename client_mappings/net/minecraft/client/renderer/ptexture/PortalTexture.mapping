@@ -1,3 +1,4 @@
-CLASS fy net/minecraft/client/renderer/ptexture/PortalTexture
+CLASS gh net/minecraft/client/renderer/ptexture/PortalTexture
+	METHOD a tick ()V
 	FIELD g time I
 	FIELD h frames [[B

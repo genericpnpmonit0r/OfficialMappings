@@ -1,1 +1,2 @@
-CLASS dd net/minecraft/client/model/ZombieModel
+CLASS dk net/minecraft/client/model/ZombieModel
+	METHOD b setupAnim (FFFFFF)V

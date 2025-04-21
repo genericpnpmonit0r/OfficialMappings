@@ -1,8 +1,22 @@
-CLASS sq net/minecraft/world/level/tile/LeverTile
+CLASS tm net/minecraft/world/level/tile/LeverTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD h checkCanSurvive (Ldt;III)Z
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a use (Leb;IIILfm;)Z
+	METHOD a updateShape (Ltk;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD b onRemove (Leb;III)V
+	METHOD b attack (Leb;IIILfm;)V
+	METHOD c getDirectSignal (Leb;IIII)Z
+	METHOD c getSignal (Ltk;IIII)Z
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD d setPlacedOnFace (Leb;IIII)V
+	METHOD e isSignalSource ()Z
+	METHOD g getRenderShape ()I
+	METHOD h checkCanSurvive (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y

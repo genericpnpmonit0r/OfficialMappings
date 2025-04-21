@@ -1,4 +1,4 @@
-CLASS ig net/minecraft/client/Options
+CLASS is net/minecraft/client/Options
 	FIELD A showFps Z
 	FIELD B lastMpIp Ljava/lang/String;
 	FIELD C unk_C Z
@@ -6,9 +6,11 @@ CLASS ig net/minecraft/client/Options
 	FIELD E unk_E Z
 	FIELD F unk_F F
 	FIELD G unk_G F
-	FIELD H RENDER_DISTANCE_NAMES [Ljava/lang/String;
-	FIELD I DIFFICULTY_NAMES [Ljava/lang/String;
-	FIELD J optionsFile Ljava/io/File;
+	FIELD H guiScale I
+	FIELD I RENDER_DISTANCE_NAMES [Ljava/lang/String;
+	FIELD J DIFFICULTY_NAMES [Ljava/lang/String;
+	FIELD K GUI_SCALE_NAMES [Ljava/lang/String;
+	FIELD L optionsFile Ljava/io/File;
 	FIELD a music F
 	FIELD b sound F
 	FIELD c sensitivity F
@@ -20,17 +22,17 @@ CLASS ig net/minecraft/client/Options
 	FIELD i fancyGraphics Z
 	FIELD j ao Z
 	FIELD k skin Ljava/lang/String;
-	FIELD l keyUp Lmk;
-	FIELD m keyLeft Lmk;
-	FIELD n keyDown Lmk;
-	FIELD o keyRight Lmk;
-	FIELD p keyJump Lmk;
-	FIELD q keyInventory Lmk;
-	FIELD r keyDrop Lmk;
-	FIELD s keyChat Lmk;
-	FIELD t keyFog Lmk;
-	FIELD u keySneak Lmk;
-	FIELD v keyMappings [Lmk;
+	FIELD l keyUp Lmz;
+	FIELD m keyLeft Lmz;
+	FIELD n keyDown Lmz;
+	FIELD o keyRight Lmz;
+	FIELD p keyJump Lmz;
+	FIELD q keyInventory Lmz;
+	FIELD r keyDrop Lmz;
+	FIELD s keyChat Lmz;
+	FIELD t keyFog Lmz;
+	FIELD u keySneak Lmz;
+	FIELD v keyMappings [Lmz;
 	FIELD w minecraft Lnet/minecraft/client/Minecraft;
 	FIELD x difficulty I
 	FIELD y showGui Z
@@ -44,12 +46,12 @@ CLASS ig net/minecraft/client/Options
 	METHOD a setKey (II)V
 		ARG 1 i
 		ARG 2 key
-	METHOD a getProgressValue (Lfz;)F
+	METHOD a getProgressValue (Lgi;)F
 		ARG 1 option
-	METHOD a set (Lfz;F)V
+	METHOD a set (Lgi;F)V
 		ARG 1 option
 		ARG 2 value
-	METHOD a toggle (Lfz;I)V
+	METHOD a toggle (Lgi;I)V
 		ARG 1 option
 		ARG 2 value
 	METHOD a readFloat (Ljava/lang/String;)F
@@ -57,7 +59,7 @@ CLASS ig net/minecraft/client/Options
 	METHOD b save ()V
 	METHOD b getKeyMessage (I)Ljava/lang/String;
 		ARG 1 i
-	METHOD b getBooleanValue (Lfz;)Z
+	METHOD b getBooleanValue (Lgi;)Z
 		ARG 1 option
-	METHOD c getMessage (Lfz;)Ljava/lang/String;
+	METHOD c getMessage (Lgi;)Ljava/lang/String;
 		ARG 1 option

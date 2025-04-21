@@ -1,4 +1,4 @@
-CLASS iz net/minecraft/world/entity/Mob
+CLASS jm net/minecraft/world/entity/Mob
 	FIELD B invulnerableDuration I
 	FIELD C timeOffs F
 	FIELD D rotA F
@@ -50,35 +50,51 @@ CLASS iz net/minecraft/world/entity/Mob
 	FIELD aw jumping Z
 	FIELD ax defaultLookAngle F
 	FIELD ay runSpeed F
-	FIELD b lookingAt Lom;
-	FIELD c lookTime I
-	METHOD K isSleeping ()Z
-	METHOD O playAmbientSound ()V
-	METHOD Q spawnAnim ()V
-	METHOD S jumpFromGround ()V
-	METHOD T beforeRemove ()V
-	METHOD a pick (DF)Lqu;
+	FIELD az lookTime I
+	FIELD b lookingAt Lpb;
+	METHOD M isSleeping ()Z
+	METHOD Q jumpFromGround ()V
+	METHOD R playAmbientSound ()V
+	METHOD S baseTick ()V
+	METHOD T spawnAnim ()V
+	METHOD U isAlive ()Z
+	METHOD V isLookingAtAnEntity ()Z
+	METHOD W getLookingAt ()Lpb;
+		COMMENT again unsure cause other editions its always inlined or some bs so not in syms
+	METHOD X beforeRemove ()V
+	METHOD Y outOfWorld ()V
+	METHOD Z getLookAngle ()Lbb;
+	METHOD a handleEntityEvent (B)V
+	METHOD a lerpTo (DDDFFI)V
+	METHOD a pick (DF)Lrk;
 		ARG 1 aa
 		ARG 3 a
-	METHOD a knockback (Lom;IDD)V
+	METHOD a addAdditionalSaveData (Llg;)V
+	METHOD a lookAt (Lpb;FF)V
+		ARG 1 entity
+		ARG 2 yyr
+		ARG 3 xxr
+	METHOD a hurt (Lpb;I)Z
+	METHOD a knockback (Lpb;IDD)V
 		ARG 1 a
 		ARG 2 b
 		ARG 3 c
 		ARG 5 d
-	METHOD b travel (FF)V
+	METHOD a_ travel (FF)V
 		ARG 1 a
 		ARG 2 b
+	METHOD b defineSynchedData ()V
+	METHOD b causeFallDamage (F)V
+	METHOD b setSize (FF)V
 	METHOD b rotlerp (FFF)F
 		ARG 1 a
 		ARG 2 b
 		ARG 3 c
 	METHOD b actuallyHurt (I)V
 		ARG 1 dmg
-	METHOD b die (Lom;)V
+	METHOD b readAdditionalSaveData (Llg;)V
+	METHOD b die (Lpb;)V
 		ARG 1 entity
-	METHOD b lookAt (Lom;F)V
-		ARG 1 entity
-		ARG 2 a
 	METHOD c canSpawn ()Z
 	METHOD c heal (I)V
 		ARG 1 heal
@@ -86,21 +102,30 @@ CLASS iz net/minecraft/world/entity/Mob
 	METHOD d getAmbientSoundInterval ()I
 	METHOD d getAttackAnim (F)F
 		ARG 1 a
-	METHOD d_ updateAi ()V
-	METHOD e getPos (F)Lay;
+	METHOD e getPos (F)Lbb;
 		ARG 1 a
-	METHOD e canSee (Lom;)Z
+	METHOD e canSee (Lpb;)Z
 		ARG 1 entity
+	METHOD e_ updateAi ()V
 	METHOD f getAmbientSound ()Ljava/lang/String;
-	METHOD f getViewVector (F)Lay;
+	METHOD f getViewVector (F)Lbb;
 		ARG 1 a
 	METHOD g getHurtSound ()Ljava/lang/String;
-	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD g_ isPickable ()Z
+	METHOD h animateHurt ()V
+	METHOD h_ isPushable ()Z
 	METHOD i getDeathLoot ()I
+	METHOD i_ getDeathSound ()Ljava/lang/String;
 	METHOD j getSoundVolume ()F
 	METHOD k getMaxSpawnClusterSize ()I
-	METHOD m aiStep ()V
-	METHOD n onLadder ()Z
-	METHOD o dropDeathLoot ()V
-	METHOD o_ getCarriedItem ()Lgz;
-	METHOD v isImmobile ()Z
+	METHOD n aiStep ()V
+	METHOD o onLadder ()Z
+	METHOD p dropDeathLoot ()V
+	METHOD q_ getTexture ()Ljava/lang/String;
+	METHOD r_ getCarriedItem ()Lhi;
+	METHOD t_ rideTick ()V
+	METHOD u shouldDespawn ()Z
+	METHOD w getHeadHeight ()F
+	METHOD w_ tick ()V
+	METHOD x getMaxHeadXRot ()I
+	METHOD y isImmobile ()Z

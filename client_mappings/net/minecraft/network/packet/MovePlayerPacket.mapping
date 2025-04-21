@@ -1,4 +1,10 @@
-CLASS gj net/minecraft/network/packet/MovePlayerPacket
+CLASS gs net/minecraft/network/packet/MovePlayerPacket
+	METHOD <init> (Z)V
+		ARG 1 onGround
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D
@@ -8,5 +14,3 @@ CLASS gj net/minecraft/network/packet/MovePlayerPacket
 	FIELD g onGround Z
 	FIELD h hasPos Z
 	FIELD i hasRot Z
-	METHOD <init> (Z)V
-		ARG 1 onGround

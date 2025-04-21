@@ -1,4 +1,6 @@
-CLASS cz net/minecraft/world/level/tile/ClothTile
+CLASS dg net/minecraft/world/level/tile/ClothTile
+	METHOD a getTexture (II)I
+	METHOD b getSpawnResourcesAuxValue (I)I
 	METHOD c getTileDataForItemAuxValue (I)I
 		ARG 0 data
 	METHOD d getItemAuxValueForTileData (I)I

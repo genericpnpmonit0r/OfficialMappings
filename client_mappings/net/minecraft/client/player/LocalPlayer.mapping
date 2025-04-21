@@ -1,24 +1,41 @@
-CLASS cc net/minecraft/client/player/LocalPlayer
-	FIELD a input Lqh;
-	FIELD bI isInsidePortal Z
-	FIELD bJ unk_bJ Lbt;
-	FIELD bK unk_bK Lbt;
-	FIELD bL unk_bL Lbt;
-	FIELD b minecraft Lnet/minecraft/client/Minecraft;
-	FIELD c changingDimensionDelay I
-	FIELD d portalTime F
-	FIELD e oPortalTime F
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Ldt;Lfb;I)V
+CLASS ch net/minecraft/client/player/LocalPlayer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Leb;Lfk;I)V
 		ARG 1 minecraft
 		ARG 2 level
 		ARG 3 user
 		ARG 4 dimension
+	METHOD a startCrafting (III)V
 	METHOD a setKey (IZ)V
 		ARG 1 eventKey
 		ARG 2 eventKeyState
+	METHOD a openTrap (Lal;)V
 	METHOD a chat (Ljava/lang/String;)V
 		ARG 1 message
+	METHOD a openContainer (Ljp;)V
+	METHOD a addAdditionalSaveData (Llg;)V
+	METHOD a openFurnace (Loy;)V
+	METHOD a openTextEdit (Luf;)V
 	METHOD a_ hurtTo (I)V
 		ARG 1 newHealth
-	METHOD n_ releaseAllKeys ()V
-	METHOD q getArmor ()I
+	METHOD b move (DDD)V
+	METHOD b displayClientMessage (Ljava/lang/String;)V
+	METHOD b readAdditionalSaveData (Llg;)V
+	METHOD b take (Lpb;I)V
+	METHOD e_ updateAi ()V
+	METHOD n aiStep ()V
+	METHOD o_ releaseAllKeys ()V
+	METHOD p_ respawn ()V
+	METHOD q closeContainer ()V
+	METHOD r getArmor ()I
+	METHOD s isSneaking ()Z
+	METHOD t handleInsidePortal ()V
+	METHOD v animateRespawn ()V
+	FIELD a input Lqx;
+	FIELD bI isInsidePortal Z
+	FIELD bJ unk_bJ Lbx;
+	FIELD bK unk_bK Lbx;
+	FIELD bL unk_bL Lbx;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c changingDimensionDelay I
+	FIELD d portalTime F
+	FIELD e oPortalTime F

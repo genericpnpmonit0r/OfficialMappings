@@ -1,1 +1,2 @@
-CLASS ne net/minecraft/world/level/biome/ForestBiome
+CLASS nu net/minecraft/world/level/biome/ForestBiome
+	METHOD a getTreeFeature (Ljava/util/Random;)Lmk;

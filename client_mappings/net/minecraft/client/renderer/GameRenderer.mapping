@@ -1,38 +1,4 @@
-CLASS mh net/minecraft/client/renderer/GameRenderer
-	FIELD A unk_A F
-	FIELD B zoom D
-	FIELD C zoom_x D
-	FIELD D zoom_y D
-	FIELD E lastActiveTime J
-	FIELD F random Ljava/util/Random;
-	FIELD G fogBrO F
-	FIELD H fogBr F
-	FIELD a itemInHandRenderer Lnd;
-	FIELD b xMod I
-	FIELD c yMod I
-	FIELD d lb Ljava/nio/FloatBuffer;
-	FIELD e fr F
-	FIELD f fg F
-	FIELD g fb F
-	FIELD h mc Lnet/minecraft/client/Minecraft;
-	FIELD i renderDistance F
-	FIELD j tick I
-	FIELD k hovered Lom;
-	FIELD l unk_l Lbt;
-	FIELD m unk_m Lbt;
-	FIELD n unk_n Lbt;
-	FIELD o unk_o Lbt;
-	FIELD p unk_p Lbt;
-	FIELD q unk_q Lbt;
-	FIELD r unk_r F
-	FIELD s unk_s F
-	FIELD t unk_t F
-	FIELD u unk_u F
-	FIELD v unk_v F
-	FIELD w unk_w F
-	FIELD x unk_x F
-	FIELD y unk_y F
-	FIELD z unk_z F
+CLASS mw net/minecraft/client/renderer/GameRenderer
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
 	METHOD a tick ()V
@@ -72,3 +38,37 @@ CLASS mh net/minecraft/client/renderer/GameRenderer
 		ARG 1 a
 	METHOD h setupClearColor (F)V
 		ARG 1 a
+	FIELD A unk_A F
+	FIELD B zoom D
+	FIELD C zoom_x D
+	FIELD D zoom_y D
+	FIELD E lastActiveTime J
+	FIELD F random Ljava/util/Random;
+	FIELD G fogBrO F
+	FIELD H fogBr F
+	FIELD a itemInHandRenderer Lnt;
+	FIELD b xMod I
+	FIELD c yMod I
+	FIELD d lb Ljava/nio/FloatBuffer;
+	FIELD e fr F
+	FIELD f fg F
+	FIELD g fb F
+	FIELD h mc Lnet/minecraft/client/Minecraft;
+	FIELD i renderDistance F
+	FIELD j tick I
+	FIELD k hovered Lpb;
+	FIELD l unk_l Lbx;
+	FIELD m unk_m Lbx;
+	FIELD n unk_n Lbx;
+	FIELD o unk_o Lbx;
+	FIELD p unk_p Lbx;
+	FIELD q unk_q Lbx;
+	FIELD r unk_r F
+	FIELD s unk_s F
+	FIELD t unk_t F
+	FIELD u unk_u F
+	FIELD v unk_v F
+	FIELD w unk_w F
+	FIELD x unk_x F
+	FIELD y unk_y F
+	FIELD z unk_z F

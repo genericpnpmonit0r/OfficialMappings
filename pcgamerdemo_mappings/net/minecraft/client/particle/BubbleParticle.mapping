@@ -1,2 +1,0 @@
-CLASS bs net/minecraft/client/particle/BubbleParticle
-	METHOD q_ tick ()V

@@ -1,3 +1,0 @@
-CLASS jg net/minecraft/network/packet/KeepAlivePacket
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V

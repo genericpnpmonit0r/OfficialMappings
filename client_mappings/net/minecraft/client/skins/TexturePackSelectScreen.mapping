@@ -1,29 +1,35 @@
-CLASS ei net/minecraft/client/skins/TexturePackSelectScreen
-	FIELD a lastScreen Lcb;
-	FIELD h updateIn I
-	FIELD i instructions Ljava/lang/String;
-	FIELD k selectionList Lce;
-	METHOD <init> (Lcb;)V
+CLASS eq net/minecraft/client/skins/TexturePackSelectScreen
+	METHOD <init> (Lcf;)V
 		ARG 1 lastScreen
-	METHOD a access$000 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a access$000 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD b access$100 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD a buttonClicked (Lih;)V
+	METHOD b mouseReleased (III)V
+	METHOD b access$100 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD c access$200 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD c access$200 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD d access$300 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD d access$300 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD e access$400 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD e access$400 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD f access$500 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD f access$500 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD g access$600 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD g tick ()V
+	METHOD g access$600 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD h access$700 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD h access$700 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD i access$800 (Lei;)Lnet/minecraft/client/Minecraft;
+	METHOD i access$800 (Leq;)Lnet/minecraft/client/Minecraft;
 		ARG 0 this$0
-	METHOD j access$900 (Lei;)Loi;
+	METHOD j access$900 (Leq;)Lox;
 		ARG 0 this$0
-	METHOD k access$910 (Lei;)Loi;
-	METHOD l access$920 (Lei;)Loi;
+	METHOD k access$910 (Leq;)Lox;
+	METHOD l access$920 (Leq;)Lox;
+	FIELD a lastScreen Lcf;
+	FIELD i updateIn I
+	FIELD j instructions Ljava/lang/String;
+	FIELD l selectionList Lcj;

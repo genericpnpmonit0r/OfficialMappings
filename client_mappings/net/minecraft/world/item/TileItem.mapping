@@ -1,2 +1,5 @@
-CLASS bm net/minecraft/world/item/TileItem
+CLASS bq net/minecraft/world/item/TileItem
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z
+	METHOD b getDescriptionId (Lhi;)Ljava/lang/String;
 	FIELD a tileId I

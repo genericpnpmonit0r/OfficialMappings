@@ -1,1 +1,2 @@
-CLASS bs net/minecraft/client/particle/BubbleParticle
+CLASS bw net/minecraft/client/particle/BubbleParticle
+	METHOD w_ tick ()V

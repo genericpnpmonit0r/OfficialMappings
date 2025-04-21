@@ -1,4 +1,7 @@
-CLASS mi net/minecraft/client/Timer
+CLASS mx net/minecraft/client/Timer
+	METHOD <init> (F)V
+		ARG 1 ticksPerSecond
+	METHOD a advanceTime ()V
 	FIELD a ticksPerSecond F
 	FIELD b ticks I
 	FIELD c a F
@@ -8,6 +11,3 @@ CLASS mi net/minecraft/client/Timer
 	FIELD g lastMs J
 	FIELD h lastMsSysTime J
 	FIELD i adjustTime D
-	METHOD <init> (F)V
-		ARG 1 ticksPerSecond
-	METHOD a advanceTime ()V

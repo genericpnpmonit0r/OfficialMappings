@@ -1,4 +1,8 @@
-CLASS fw net/minecraft/network/packet/ContainerSetSlotPacket
+CLASS gf net/minecraft/network/packet/ContainerSetSlotPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
 	FIELD a containerId I
 	FIELD b slot I
-	FIELD c item Lgz;
+	FIELD c item Lhi;

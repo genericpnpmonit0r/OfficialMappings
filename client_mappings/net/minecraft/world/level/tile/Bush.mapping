@@ -1,10 +1,18 @@
-CLASS rj net/minecraft/world/level/tile/Bush
+CLASS sd net/minecraft/world/level/tile/Bush
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD b isCubeShaped ()Z
 	METHOD c mayPlaceOn (I)Z
 		ARG 1 tile
-	METHOD h checkAlive (Ldt;III)V
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD g getRenderShape ()I
+	METHOD g canSurvive (Leb;III)Z
+	METHOD h checkAlive (Leb;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y

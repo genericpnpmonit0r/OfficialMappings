@@ -1,6 +1,5 @@
-CLASS mq net/minecraft/client/particle/TerrainParticle
-	FIELD a tile Lqk;
-	METHOD <init> (Ldt;DDDDDDLqk;)V
+CLASS ng net/minecraft/client/particle/TerrainParticle
+	METHOD <init> (Leb;DDDDDDLra;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
@@ -9,7 +8,10 @@ CLASS mq net/minecraft/client/particle/TerrainParticle
 		ARG 10 ya
 		ARG 12 za
 		ARG 14 tile
-	METHOD a init (III)Lmq;
+	METHOD a init (III)Lng;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+	METHOD a render (Llj;FFFFFF)V
+	METHOD b_ getParticleTexture ()I
+	FIELD a tile Lra;

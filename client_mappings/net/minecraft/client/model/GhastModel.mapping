@@ -1,3 +1,5 @@
-CLASS iv net/minecraft/client/model/GhastModel
-	FIELD a body Lmd;
-	FIELD b tentacles [Lmd;
+CLASS ji net/minecraft/client/model/GhastModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a body Lms;
+	FIELD b tentacles [Lms;

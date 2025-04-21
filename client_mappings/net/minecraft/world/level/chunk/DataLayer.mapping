@@ -1,5 +1,4 @@
-CLASS ro net/minecraft/world/level/chunk/DataLayer
-	FIELD a data [B
+CLASS sj net/minecraft/world/level/chunk/DataLayer
 	METHOD <init> (I)V
 		ARG 1 length
 	METHOD <init> ([B)V
@@ -14,3 +13,4 @@ CLASS ro net/minecraft/world/level/chunk/DataLayer
 		ARG 2 y
 		ARG 3 z
 		ARG 4 val
+	FIELD a data [B

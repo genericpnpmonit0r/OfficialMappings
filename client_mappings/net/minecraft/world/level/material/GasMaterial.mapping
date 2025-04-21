@@ -1,1 +1,4 @@
-CLASS ja net/minecraft/world/level/material/GasMaterial
+CLASS jn net/minecraft/world/level/material/GasMaterial
+	METHOD a isSolid ()Z
+	METHOD b blocksLight ()Z
+	METHOD c blocksMotion ()Z

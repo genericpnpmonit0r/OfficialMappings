@@ -1,1 +1,2 @@
-CLASS qr net/minecraft/world/item/SignItem
+CLASS rh net/minecraft/world/item/SignItem
+	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z

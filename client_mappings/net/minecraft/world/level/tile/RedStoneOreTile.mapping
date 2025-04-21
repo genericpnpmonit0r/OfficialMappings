@@ -1,16 +1,24 @@
-CLASS ax net/minecraft/world/level/tile/RedStoneOreTile
-	FIELD a lit Z
+CLASS ba net/minecraft/world/level/tile/RedStoneOreTile
 	METHOD <init> (IIZ)V
 		ARG 1 id
 		ARG 2 tex
 		ARG 3 lit
-	METHOD h interact (Ldt;III)V
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a use (Leb;IIILfm;)Z
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b attack (Leb;IIILfm;)V
+	METHOD b animateTick (Leb;IIILjava/util/Random;)V
+	METHOD b stepOn (Leb;IIILpb;)V
+	METHOD d getTickDelay ()I
+	METHOD h interact (Leb;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD i poofParticles (Ldt;III)V
+	METHOD i poofParticles (Leb;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	FIELD a lit Z

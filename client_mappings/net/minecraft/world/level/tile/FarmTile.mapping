@@ -1,12 +1,20 @@
-CLASS qx net/minecraft/world/level/tile/FarmTile
+CLASS ro net/minecraft/world/level/tile/FarmTile
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD h isUnderCrops (Ldt;III)Z
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD b isCubeShaped ()Z
+	METHOD b stepOn (Leb;IIILpb;)V
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD h isUnderCrops (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD i isNearWater (Ldt;III)Z
+	METHOD i isNearWater (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y

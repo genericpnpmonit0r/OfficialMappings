@@ -1,8 +1,18 @@
-CLASS hm net/minecraft/world/level/tile/TopSnowTile
+CLASS hw net/minecraft/world/level/tile/TopSnowTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD h checkCanSurvive (Ldt;III)Z
+	METHOD a isSolidRender ()Z
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a playerDestroy (Leb;Lfm;IIII)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b isCubeShaped ()Z
+	METHOD b shouldRenderFace (Ltk;IIII)Z
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD h checkCanSurvive (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y

@@ -1,4 +1,4 @@
-CLASS id net/minecraft/client/Minecraft$4
+CLASS io net/minecraft/client/Minecraft$4
 	FIELD a val$minecraft Lnet/minecraft/client/Minecraft;
 	FIELD b val$thread Ljava/lang/Thread;
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/Thread;)V

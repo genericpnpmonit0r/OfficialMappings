@@ -1,15 +1,4 @@
-CLASS qf net/minecraft/client/gui/Gui
-	FIELD a selectedName Ljava/lang/String;
-	FIELD b progress F
-	FIELD c tbr F
-	FIELD d itemRenderer Lal;
-	FIELD e guiMessages Ljava/util/List;
-	FIELD f random Ljava/util/Random;
-	FIELD g minecraft Lnet/minecraft/client/Minecraft;
-	FIELD h tickCount I
-	FIELD i nowPlayingString Ljava/lang/String;
-	FIELD k nowPlayingTime I
-	FIELD l unk_l Z
+CLASS qv net/minecraft/client/gui/Gui
 	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
 		ARG 1 minecraft
 	METHOD a tick ()V
@@ -40,3 +29,14 @@ CLASS qf net/minecraft/client/gui/Gui
 		ARG 1 string
 	METHOD c displayClientMessage (Ljava/lang/String;)V
 		ARG 1 string
+	FIELD a selectedName Ljava/lang/String;
+	FIELD b progress F
+	FIELD c tbr F
+	FIELD d itemRenderer Lam;
+	FIELD e guiMessages Ljava/util/List;
+	FIELD f random Ljava/util/Random;
+	FIELD g minecraft Lnet/minecraft/client/Minecraft;
+	FIELD h tickCount I
+	FIELD i nowPlayingString Ljava/lang/String;
+	FIELD j nowPlayingTime I
+	FIELD l unk_l Z

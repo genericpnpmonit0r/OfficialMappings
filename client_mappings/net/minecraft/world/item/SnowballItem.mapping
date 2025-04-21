@@ -1,1 +1,2 @@
-CLASS cm net/minecraft/world/item/SnowballItem
+CLASS cr net/minecraft/world/item/SnowballItem
+	METHOD a use (Lhi;Leb;Lfm;)Lhi;

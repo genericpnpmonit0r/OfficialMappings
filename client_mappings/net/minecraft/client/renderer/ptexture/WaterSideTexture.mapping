@@ -1,4 +1,5 @@
-CLASS lc net/minecraft/client/renderer/ptexture/WaterSideTexture
+CLASS lr net/minecraft/client/renderer/ptexture/WaterSideTexture
+	METHOD a tick ()V
 	FIELD g current [F
 	FIELD h next [F
 	FIELD i heat [F

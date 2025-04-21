@@ -1,10 +1,25 @@
-CLASS qd net/minecraft/world/level/tile/CakeTile
+CLASS qt net/minecraft/world/level/tile/CakeTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD c eat (Ldt;IIILfd;)V
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a use (Leb;IIILfm;)Z
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a updateShape (Ltk;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD b attack (Leb;IIILfm;)V
+	METHOD c eat (Leb;IIILfm;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 player
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD f updateDefaultShape ()V
+	METHOD f getTileAABB (Leb;III)Ldq;
+	METHOD g canSurvive (Leb;III)Z

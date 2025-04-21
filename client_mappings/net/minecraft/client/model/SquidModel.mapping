@@ -1,3 +1,5 @@
-CLASS rr net/minecraft/client/model/SquidModel
-	FIELD a body Lmd;
-	FIELD b tentacles [Lmd;
+CLASS sm net/minecraft/client/model/SquidModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a body Lms;
+	FIELD b tentacles [Lms;

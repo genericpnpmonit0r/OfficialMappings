@@ -1,0 +1,58 @@
+CLASS hs net/minecraft/stats/Stats
+	FIELD A itemsUsed [Lru;
+	FIELD B itemsBroken [Lru;
+	FIELD C idMap Ljava/util/Map;
+	FIELD D unk_D Z
+	FIELD E unk_E Z
+	FIELD a stats Ljava/util/List;
+	FIELD b unk_b_ Ljava/util/List;
+	FIELD c tileStats Ljava/util/List;
+	FIELD d itemStats Ljava/util/List;
+	FIELD e startGame Lru;
+	FIELD f createWorld Lru;
+	FIELD g loadWorld Lru;
+	FIELD h joinMultiplayer Lru;
+	FIELD i leaveGame Lru;
+	FIELD j playOneMinute Lru;
+	FIELD k walkOneCm Lru;
+	FIELD l swimOneCm Lru;
+	FIELD m fallOneCm Lru;
+	FIELD n climbOneCm Lru;
+	FIELD o flyOneCm Lru;
+	FIELD p diveOneCm Lru;
+	FIELD q jump Lru;
+	FIELD r drop Lru;
+	FIELD s damageDealt Lru;
+	FIELD t damageTaken Lru;
+	FIELD u death Lru;
+	FIELD v mobKill Lru;
+	FIELD w playerKill Lru;
+	FIELD x fishCaught Lru;
+	FIELD y blocksMined [Lru;
+	FIELD z itemsCrafted [Lru;
+	METHOD a buildTileStats ()V
+	METHOD a unk_a (Ljava/lang/String;I)[Lru;
+		ARG 0 a
+		ARG 1 b
+	METHOD a add (Lru;)V
+		ARG 0 stat
+	METHOD a unk_a ([Lru;)V
+		ARG 0 a
+	METHOD a unk_a ([Lru;II)V
+		ARG 0 a
+		ARG 1 b
+		ARG 2 c
+	METHOD a unk_a ([Lru;Ljava/lang/String;III)[Lru;
+		ARG 0 a
+		ARG 1 b
+		ARG 2 c
+		ARG 3 d
+		ARG 4 e
+	METHOD b buildItemStats ()V
+	METHOD b unk_b ([Lru;Ljava/lang/String;III)[Lru;
+		ARG 0 a
+		ARG 1 b
+		ARG 2 c
+		ARG 3 d
+		ARG 4 e
+	METHOD c buildCraftableStats ()V

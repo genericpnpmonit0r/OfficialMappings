@@ -1,11 +1,4 @@
-CLASS bg net/minecraft/world/level/levelgen/synth/SimplexNoise
-	FIELD a xo D
-	FIELD b yo D
-	FIELD c zo D
-	FIELD d grad3 [[I
-	FIELD e p [I
-	FIELD f F2 D
-	FIELD g G2 D
+CLASS bk net/minecraft/world/level/levelgen/synth/SimplexNoise
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
 	METHOD a fastfloor (D)I
@@ -23,3 +16,10 @@ CLASS bg net/minecraft/world/level/levelgen/synth/SimplexNoise
 		ARG 0 grad
 		ARG 1 x
 		ARG 3 y
+	FIELD a xo D
+	FIELD b yo D
+	FIELD c zo D
+	FIELD d grad3 [[I
+	FIELD e p [I
+	FIELD f F2 D
+	FIELD g G2 D

@@ -1,5 +1,6 @@
-CLASS jk net/minecraft/client/renderer/entity/PigRenderer
-	METHOD <init> (Lic;Lic;F)V
+CLASS jx net/minecraft/client/renderer/entity/PigRenderer
+	METHOD <init> (Lin;Lin;F)V
 		ARG 1 model
 		ARG 2 armor
 		ARG 3 shadow
+	METHOD a prepareArmor (Ljm;IF)Z

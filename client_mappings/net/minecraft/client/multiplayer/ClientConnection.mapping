@@ -1,18 +1,57 @@
-CLASS kb net/minecraft/client/multiplayer/ClientConnection
-	FIELD a message Ljava/lang/String;
-	FIELD b random Ljava/util/Random;
-	FIELD c done Z
-	FIELD d connection Llt;
-	FIELD e minecraft Lnet/minecraft/client/Minecraft;
-	FIELD f level Ljr;
-	FIELD g started Z
+CLASS ko net/minecraft/client/multiplayer/ClientConnection
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
 		ARG 1 minecraft
 		ARG 2 ip
 		ARG 3 port
 	METHOD a tick ()V
-	METHOD a getEntity (I)Lom;
+	METHOD a getEntity (I)Lpb;
 		ARG 1 id
-	METHOD a send (Lhz;)V
+	METHOD a handleTakeItemEntity (Lcn;)V
+	METHOD a handleBlockRegionUpdate (Ldh;)V
+	METHOD a handleSetHealth (Ldt;)V
+	METHOD a handleSetEntityMotion (Lfe;)V
+	METHOD a handleSetTime (Lfx;)V
+	METHOD a handleContainerSetSlot (Lgf;)V
+	METHOD a handleMovePlayer (Lgs;)V
+	METHOD a handleContainerOpen (Lhg;)V
+	METHOD a handleEntityEvent (Lhl;)V
+	METHOD a handleAddMob (Lhr;)V
+	METHOD a handleEntityActionAtPosition (Lid;)V
+	METHOD a handleContainerContent (Lie;)V
+	METHOD a send (Lik;)V
 		ARG 1 packet
+	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a handleAddPlayer (Lkb;)V
+	METHOD a handleContainerClose (Lkg;)V
+	METHOD a handlePreLogin (Lkh;)V
+	METHOD a handleContainerSetData (Lkn;)V
+	METHOD a handleAddItemEntity (Lkq;)V
+	METHOD a handleAnimate (Lky;)V
+	METHOD a handleRidePacket (Lle;)V
+	METHOD a handleLogin (Llm;)V
+	METHOD a handleContainerAck (Lls;)V
+	METHOD a handleRespawn (Lmc;)V
+	METHOD a handleChat (Lmi;)V
+	METHOD a handleSetSpawn (Lnv;)V
+	METHOD a handleTeleportEntity (Lnz;)V
+	METHOD a handleSetEquippedItem (Lo;)V
+	METHOD a handleExplosion (Loe;)V
+	METHOD a handleRemoveEntity (Lol;)V
+	METHOD a handleChunkVisibility (Lot;)V
+	METHOD a handleAddEntity (Lpc;)V
+	METHOD a handleTileUpdate (Lqg;)V
+	METHOD a handleMoveEntity (Lqp;)V
+	METHOD a handleSignUpdate (Lqq;)V
+	METHOD a handleSetEntityData (Lrd;)V
+	METHOD a handleAddPainting (Lrw;)V
+	METHOD a handleTileEvent (Lry;)V
+	METHOD a handleChunkTilesUpdate (Lst;)V
+	METHOD a handleDisconnect (Lul;)V
 	METHOD b close ()V
+	FIELD a message Ljava/lang/String;
+	FIELD b random Ljava/util/Random;
+	FIELD c done Z
+	FIELD d connection Lmj;
+	FIELD e minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f level Lke;
+	FIELD g started Z

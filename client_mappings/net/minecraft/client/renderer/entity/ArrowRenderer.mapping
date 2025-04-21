@@ -1,1 +1,2 @@
-CLASS ji net/minecraft/client/renderer/entity/ArrowRenderer
+CLASS jv net/minecraft/client/renderer/entity/ArrowRenderer
+	METHOD a render (Lpb;DDDFF)V

@@ -1,38 +1,50 @@
-CLASS tn net/minecraft/world/level/tile/FireTile
-	FIELD a flameOdds [I
-	FIELD b burnOdds [I
+CLASS uk net/minecraft/world/level/tile/FireTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
+	METHOD a isSolidRender ()Z
 	METHOD a setFlammable (III)V
 		ARG 1 tile
 		ARG 2 flameOdds
 		ARG 3 burnOdds
-	METHOD a checkBurn (Ldt;IIIILjava/util/Random;)V
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a checkBurn (Leb;IIIILjava/util/Random;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 odds
 		ARG 6 random
-	METHOD c canBurn (Lso;III)Z
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b isCubeShaped ()Z
+	METHOD b animateTick (Leb;IIILjava/util/Random;)V
+	METHOD c canBurn (Ltk;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD g getFlammability (Ldt;IIII)I
+	METHOD d getTickDelay ()I
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD e onPlace (Leb;III)V
+	METHOD f getFlammability (Leb;IIII)I
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 odds
-	METHOD h isValidFireLocation (Ldt;III)Z
+	METHOD g getRenderShape ()I
+	METHOD h mayPick ()Z
+	METHOD h isValidFireLocation (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD i getFireOdds (Ldt;III)I
+	METHOD i getFireOdds (Leb;III)I
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	FIELD a flameOdds [I
+	FIELD b burnOdds [I

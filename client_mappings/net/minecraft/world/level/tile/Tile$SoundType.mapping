@@ -1,4 +1,4 @@
-CLASS bu net/minecraft/world/level/tile/Tile$SoundType
+CLASS by net/minecraft/world/level/tile/Tile$SoundType
 	FIELD a name Ljava/lang/String;
 	FIELD b volume F
 	FIELD c pitch F

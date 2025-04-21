@@ -1,12 +1,4 @@
-CLASS hw net/minecraft/client/gui/Button
-	FIELD a w I
-	FIELD b h I
-	FIELD c x I
-	FIELD d y I
-	FIELD e msg Ljava/lang/String;
-	FIELD f id I
-	FIELD g active Z
-	FIELD h visible Z
+CLASS ih net/minecraft/client/gui/Button
 	METHOD <init> (IIIIILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 x
@@ -36,3 +28,11 @@ CLASS hw net/minecraft/client/gui/Button
 		ARG 1 minecraft
 		ARG 2 mx
 		ARG 3 my
+	FIELD a w I
+	FIELD b h I
+	FIELD c x I
+	FIELD d y I
+	FIELD e msg Ljava/lang/String;
+	FIELD f id I
+	FIELD g active Z
+	FIELD h visible Z

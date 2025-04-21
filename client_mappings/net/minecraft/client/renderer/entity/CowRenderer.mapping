@@ -1,1 +1,2 @@
-CLASS qp net/minecraft/client/renderer/entity/CowRenderer
+CLASS rf net/minecraft/client/renderer/entity/CowRenderer
+	METHOD a render (Lpb;DDDFF)V

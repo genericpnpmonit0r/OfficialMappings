@@ -1,1 +1,2 @@
-CLASS gh net/minecraft/world/item/RedStoneItem
+CLASS gq net/minecraft/world/item/RedStoneItem
+	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z

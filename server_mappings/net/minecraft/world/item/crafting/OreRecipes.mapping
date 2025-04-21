@@ -1,4 +1,0 @@
-CLASS kn net/minecraft/world/item/crafting/OreRecipes
-	METHOD a addRecipes (Leb;)V
-		ARG 1 recipes
-	FIELD a map [[Ljava/lang/Object;

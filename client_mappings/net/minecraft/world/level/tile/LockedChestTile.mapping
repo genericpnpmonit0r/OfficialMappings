@@ -1,0 +1,7 @@
+CLASS iq net/minecraft/world/level/tile/LockedChestTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTexture (I)I
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a getTexture (Ltk;IIII)I

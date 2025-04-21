@@ -1,9 +1,13 @@
-CLASS qg net/minecraft/client/gui/ControlsScreen
-	FIELD a title Ljava/lang/String;
-	FIELD h lastScreen Lcb;
-	FIELD i options Lig;
-	FIELD k selectedKey I
-	METHOD <init> (Lcb;Lig;)V
+CLASS qw net/minecraft/client/gui/ControlsScreen
+	METHOD <init> (Lcf;Lis;)V
 		ARG 1 lastScreen
 		ARG 2 options
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lih;)V
 	METHOD j getLeftScreenPosition ()I
+	FIELD a title Ljava/lang/String;
+	FIELD i lastScreen Lcf;
+	FIELD j options Lis;
+	FIELD l selectedKey I

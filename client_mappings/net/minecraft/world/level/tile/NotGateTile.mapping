@@ -1,18 +1,29 @@
-CLASS ca net/minecraft/world/level/tile/NotGateTile
-	FIELD a on Z
-	FIELD b recentToggles Ljava/util/List;
+CLASS cg net/minecraft/world/level/tile/NotGateTile
 	METHOD <init> (IIZ)V
 		ARG 1 id
 		ARG 2 tex
 		ARG 3 on
-	METHOD a isToggledTooFrequently (Ldt;IIIZ)Z
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a isToggledTooFrequently (Leb;IIIZ)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 toggle
-	METHOD h hasNeighborSignal (Ldt;III)Z
+	METHOD b onRemove (Leb;III)V
+	METHOD b animateTick (Leb;IIILjava/util/Random;)V
+	METHOD c getDirectSignal (Leb;IIII)Z
+	METHOD c getSignal (Ltk;IIII)Z
+	METHOD d getTickDelay ()I
+	METHOD e isSignalSource ()Z
+	METHOD e onPlace (Leb;III)V
+	METHOD h hasNeighborSignal (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	FIELD a on Z
+	FIELD b recentToggles Ljava/util/List;

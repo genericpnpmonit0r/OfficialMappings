@@ -1,8 +1,14 @@
-CLASS tb net/minecraft/client/gui/inventory/TextEditScreen
-	FIELD a title Ljava/lang/String;
-	FIELD h sign Lti;
-	FIELD i frame I
-	FIELD k line I
-	FIELD l allowedChars Ljava/lang/String;
-	METHOD <init> (Lti;)V
+CLASS tx net/minecraft/client/gui/inventory/TextEditScreen
+	METHOD <init> (Luf;)V
 		ARG 1 sign
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lih;)V
+	METHOD g tick ()V
+	METHOD h removed ()V
+	FIELD a title Ljava/lang/String;
+	FIELD i sign Luf;
+	FIELD j frame I
+	FIELD l line I
+	FIELD m allowedChars Ljava/lang/String;

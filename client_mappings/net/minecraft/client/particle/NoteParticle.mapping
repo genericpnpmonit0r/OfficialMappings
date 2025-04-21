@@ -1,6 +1,5 @@
-CLASS w net/minecraft/client/particle/NoteParticle
-	FIELD a oSize F
-	METHOD <init> (Ldt;DDDDDDF)V
+CLASS x net/minecraft/client/particle/NoteParticle
+	METHOD <init> (Leb;DDDDDDF)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
@@ -9,3 +8,6 @@ CLASS w net/minecraft/client/particle/NoteParticle
 		ARG 10 ya
 		ARG 12 za
 		ARG 14 scale
+	METHOD a render (Llj;FFFFFF)V
+	METHOD w_ tick ()V
+	FIELD a oSize F

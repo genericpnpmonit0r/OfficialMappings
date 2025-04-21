@@ -1,4 +1,8 @@
-CLASS no net/minecraft/network/packet/ExplodePacket
+CLASS oe net/minecraft/network/packet/ExplodePacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D

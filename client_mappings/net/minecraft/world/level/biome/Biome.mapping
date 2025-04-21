@@ -1,42 +1,42 @@
-CLASS hv net/minecraft/world/level/biome/Biome
-	FIELD a rainForest Lhv;
-	FIELD b swampland Lhv;
-	FIELD c seasonalForest Lhv;
-	FIELD d forest Lhv;
-	FIELD e savanna Lhv;
-	FIELD f shrubland Lhv;
-	FIELD g taiga Lhv;
-	FIELD h desert Lhv;
-	FIELD i plains Lhv;
-	FIELD j iceDesert Lhv;
-	FIELD k tundra Lhv;
-	FIELD l hell Lhv;
+CLASS ig net/minecraft/world/level/biome/Biome
+	METHOD a recalc ()V
+	METHOD a getBiome (DD)Lig;
+		ARG 0 t
+		ARG 2 h
+	METHOD a getSkyColor (F)I
+		ARG 1 t
+	METHOD a _getBiome (FF)Lig;
+		ARG 0 t
+		ARG 1 h
+	METHOD a setLeafColor (I)Lig;
+		ARG 1 leafColor
+	METHOD a setName (Ljava/lang/String;)Lig;
+		ARG 1 name
+	METHOD a getTreeFeature (Ljava/util/Random;)Lmk;
+		ARG 1 random
+	METHOD a getMobs (Lje;)Ljava/util/List;
+		ARG 1 cat
+	METHOD b setSnowCovered ()Lig;
+	METHOD b setColor (I)Lig;
+		ARG 1 color
+	FIELD a rainForest Lig;
+	FIELD b swampland Lig;
+	FIELD c seasonalForest Lig;
+	FIELD d forest Lig;
+	FIELD e savanna Lig;
+	FIELD f shrubland Lig;
+	FIELD g taiga Lig;
+	FIELD h desert Lig;
+	FIELD i plains Lig;
+	FIELD j iceDesert Lig;
+	FIELD k tundra Lig;
+	FIELD l hell Lig;
 	FIELD m name Ljava/lang/String;
 	FIELD n color I
 	FIELD o topMaterial B
 	FIELD p material B
 	FIELD q leafColor I
-	FIELD r enemies [Ljava/lang/Class;
-	FIELD s friendlies [Ljava/lang/Class;
-	FIELD t waterFriendlies [Ljava/lang/Class;
-	FIELD u map [Lhv;
-	METHOD a recalc ()V
-	METHOD a getBiome (DD)Lhv;
-		ARG 0 t
-		ARG 2 h
-	METHOD a getSkyColor (F)I
-		ARG 1 t
-	METHOD a _getBiome (FF)Lhv;
-		ARG 0 t
-		ARG 1 h
-	METHOD a setLeafColor (I)Lhv;
-		ARG 1 leafColor
-	METHOD a getMobs (Lir;)[Ljava/lang/Class;
-		ARG 1 cat
-	METHOD a setName (Ljava/lang/String;)Lhv;
-		ARG 1 name
-	METHOD a getTreeFeature (Ljava/util/Random;)Llv;
-		ARG 1 random
-	METHOD b setSnowCovered ()Lhv;
-	METHOD b setColor (I)Lhv;
-		ARG 1 color
+	FIELD r enemies Ljava/util/List;
+	FIELD s friendlies Ljava/util/List;
+	FIELD t waterFriendlies Ljava/util/List;
+	FIELD u map [Lig;

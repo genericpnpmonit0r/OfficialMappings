@@ -1,10 +1,15 @@
-CLASS rf net/minecraft/client/multiplayer/ConnectScreen
-	FIELD a connection Lkb;
-	FIELD h aborted Z
+CLASS rz net/minecraft/client/multiplayer/ConnectScreen
 	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
 		ARG 1 minecraft
 		ARG 2 ip
 		ARG 3 port
-	METHOD a access$100 (Lrf;)Z
-	METHOD a access$000 (Lrf;Lkb;)Lkb;
-	METHOD b access$200 (Lrf;)Lkb;
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lih;)V
+	METHOD a access$100 (Lrz;)Z
+	METHOD a access$000 (Lrz;Lko;)Lko;
+	METHOD b access$200 (Lrz;)Lko;
+	METHOD g tick ()V
+	FIELD a connection Lko;
+	FIELD i aborted Z

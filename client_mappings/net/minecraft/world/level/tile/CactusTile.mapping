@@ -1,4 +1,15 @@
-CLASS li net/minecraft/world/level/tile/CactusTile
+CLASS lx net/minecraft/world/level/tile/CactusTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a entityInside (Leb;IIILpb;)V
+	METHOD b isCubeShaped ()Z
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD f getTileAABB (Leb;III)Ldq;
+	METHOD g getRenderShape ()I
+	METHOD g canSurvive (Leb;III)Z

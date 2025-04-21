@@ -1,10 +1,12 @@
-CLASS ku net/minecraft/world/level/tile/LiquidTileStatic
-	METHOD j setDynamic (Ldt;III)V
+CLASS li net/minecraft/world/level/tile/LiquidTileStatic
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD j setDynamic (Leb;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD k isFlammable (Ldt;III)Z
+	METHOD k isFlammable (Leb;III)Z
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y

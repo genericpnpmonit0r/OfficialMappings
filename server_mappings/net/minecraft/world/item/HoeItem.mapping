@@ -1,5 +1,0 @@
-CLASS fu net/minecraft/world/item/HoeItem
-	METHOD <init> (ILap;)V
-		ARG 1 id
-		ARG 2 tier
-	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z

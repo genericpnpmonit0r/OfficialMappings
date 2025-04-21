@@ -1,1 +1,5 @@
-CLASS jf net/minecraft/network/packet/KeepAlivePacket
+CLASS js net/minecraft/network/packet/KeepAlivePacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V

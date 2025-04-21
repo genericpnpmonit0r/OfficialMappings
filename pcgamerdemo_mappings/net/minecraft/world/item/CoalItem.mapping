@@ -1,2 +1,0 @@
-CLASS nz net/minecraft/world/item/CoalItem
-	METHOD b getDescriptionId (Lha;)Ljava/lang/String;

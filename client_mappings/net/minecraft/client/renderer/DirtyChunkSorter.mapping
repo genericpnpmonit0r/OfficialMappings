@@ -1,7 +1,7 @@
-CLASS jj net/minecraft/client/renderer/DirtyChunkSorter
-	FIELD a player Liz;
-	METHOD <init> (Liz;)V
+CLASS jw net/minecraft/client/renderer/DirtyChunkSorter
+	METHOD <init> (Ljm;)V
 		ARG 1 player
-	METHOD compare compare (Ljava/lang/Object;Ljava/lang/Object;)I
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
 		ARG 1 c0
 		ARG 2 c1
+	FIELD a player Ljm;

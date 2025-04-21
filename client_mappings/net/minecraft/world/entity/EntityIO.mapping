@@ -1,22 +1,22 @@
-CLASS ha net/minecraft/world/entity/EntityIO
-	FIELD a idClassMap Ljava/util/Map;
-	FIELD b classIdMap Ljava/util/Map;
-	FIELD c numClassMap Ljava/util/Map;
-	FIELD d classNumMap Ljava/util/Map;
-	METHOD a newById (ILdt;)Lom;
+CLASS hj net/minecraft/world/entity/EntityIO
+	METHOD a newById (ILeb;)Lpb;
 		ARG 0 id
 		ARG 1 level
 	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;I)V
 		ARG 0 clas
 		ARG 1 id
 		ARG 2 num
-	METHOD a newEntity (Ljava/lang/String;Ldt;)Lom;
+	METHOD a newEntity (Ljava/lang/String;Leb;)Lpb;
 		ARG 0 id
 		ARG 1 level
-	METHOD a loadStatic (Lks;Ldt;)Lom;
+	METHOD a loadStatic (Llg;Leb;)Lpb;
 		ARG 0 entityTag
 		ARG 1 level
-	METHOD a getId (Lom;)I
+	METHOD a getId (Lpb;)I
 		ARG 0 e
-	METHOD b getEncodeId (Lom;)Ljava/lang/String;
+	METHOD b getEncodeId (Lpb;)Ljava/lang/String;
 		ARG 0 e
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	FIELD c numClassMap Ljava/util/Map;
+	FIELD d classNumMap Ljava/util/Map;

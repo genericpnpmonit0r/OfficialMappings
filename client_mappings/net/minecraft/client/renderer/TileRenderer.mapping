@@ -1,4 +1,192 @@
-CLASS bw net/minecraft/client/renderer/TileRenderer
+CLASS ca net/minecraft/client/renderer/TileRenderer
+	METHOD <init> (Ltk;)V
+		ARG 1 level
+	METHOD a canRender (I)Z
+		ARG 0 renderShape
+	METHOD a getWaterHeight (IIILjh;)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
+	METHOD a tesselateTorch (Lra;DDDDD)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xxa
+		ARG 10 zza
+	METHOD a renderFaceUp (Lra;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD a renderTile (Lra;I)V
+		ARG 1 tile
+		ARG 2 data
+	METHOD a tesselateCrossTexture (Lra;IDDD)V
+		ARG 1 tt
+		ARG 2 data
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a tesselateInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a tesselateBlockInWorldWithAmbienceOcclusion (Lra;IIIFFF)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 r
+		ARG 6 g
+		ARG 7 b
+	METHOD a tesselateInWorld (Lra;IIII)V
+		ARG 1 tile
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 fixedTexture
+	METHOD a renderBlock (Lra;Leb;III)V
+		ARG 1 tt
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD b renderFaceDown (Lra;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD b tesselateRowTexture (Lra;IDDD)V
+		ARG 1 tt
+		ARG 2 data
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD b tesselateTorchInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b tesselateBlockInWorld (Lra;IIIFFF)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 r
+		ARG 6 g
+		ARG 7 b
+	METHOD c renderNorth (Lra;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD c tesselateLeverInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c tesselateCactusInWorld (Lra;IIIFFF)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 r
+		ARG 6 g
+		ARG 7 b
+	METHOD d renderSouth (Lra;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD d tesselateFireInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e renderWest (Lra;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tile
+	METHOD e tesselateDustInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f renderEast (Lra;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD f tesselateRailInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g tesselateLadderInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h tesselateCrossInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i tesselateRowInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j tesselateWaterInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k tesselateBlockInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l tesselateCactusInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m tesselateFenceInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD n tesselateStairsInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD o tesselateDoorInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD p tesselateBedInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD q tessellateDiodeInWorld (Lra;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
 	FIELD A unk_A F
 	FIELD B unk_B F
 	FIELD C unk_C F
@@ -25,7 +213,7 @@ CLASS bw net/minecraft/client/renderer/TileRenderer
 	FIELD X unk_X Z
 	FIELD Y unk_Y Z
 	FIELD Z unk_Z Z
-	FIELD a level Lso;
+	FIELD a level Ltk;
 	FIELD aa unk_aa Z
 	FIELD ab unk_ab Z
 	FIELD ac unk_ac Z
@@ -56,194 +244,3 @@ CLASS bw net/minecraft/client/renderer/TileRenderer
 	FIELD x unk_x F
 	FIELD y unk_y F
 	FIELD z unk_z F
-	METHOD <init> (Lso;)V
-		ARG 1 level
-	METHOD a canRender (I)Z
-		ARG 0 renderShape
-	METHOD a getWaterHeight (IIILiu;)F
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 material
-	METHOD a tesselateTorch (Lqk;DDDDD)V
-		ARG 1 tt
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 xxa
-		ARG 10 zza
-	METHOD a renderFaceUp (Lqk;DDDI)V
-		ARG 1 tt
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 tex
-	METHOD a renderCube (Lqk;F)V
-		ARG 1 tile
-		ARG 2 alpha
-	METHOD a renderTile (Lqk;I)V
-		ARG 1 tile
-		ARG 2 data
-	METHOD a tesselateCrossTexture (Lqk;IDDD)V
-		ARG 1 tt
-		ARG 2 data
-		ARG 3 x
-		ARG 5 y
-		ARG 7 z
-	METHOD a tesselateInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD a tesselateBlockInWorldWithAmbienceOcclusion (Lqk;IIIFFF)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 r
-		ARG 6 g
-		ARG 7 b
-	METHOD a tesselateInWorld (Lqk;IIII)V
-		ARG 1 tile
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 fixedTexture
-	METHOD a renderBlock (Lqk;Ldt;III)V
-		ARG 1 tt
-		ARG 2 level
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
-	METHOD b renderFaceDown (Lqk;DDDI)V
-		ARG 1 tt
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 tex
-	METHOD b tesselateRowTexture (Lqk;IDDD)V
-		ARG 1 tt
-		ARG 2 data
-		ARG 3 x
-		ARG 5 y
-		ARG 7 z
-	METHOD b tesselateTorchInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD b tesselateBlockInWorld (Lqk;IIIFFF)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 r
-		ARG 6 g
-		ARG 7 b
-	METHOD c renderNorth (Lqk;DDDI)V
-		ARG 1 tt
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 tex
-	METHOD c tesselateLeverInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD c tesselateCactusInWorld (Lqk;IIIFFF)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 r
-		ARG 6 g
-		ARG 7 b
-	METHOD d renderSouth (Lqk;DDDI)V
-		ARG 1 tt
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 tex
-	METHOD d tesselateFireInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD e renderWest (Lqk;DDDI)V
-		ARG 1 tt
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 tile
-	METHOD e tesselateDustInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD f renderEast (Lqk;DDDI)V
-		ARG 1 tt
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 tex
-	METHOD f tesselateRailInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD g tesselateLadderInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD h tesselateCrossInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD i tesselateRowInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD j tesselateWaterInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD k tesselateBlockInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD l tesselateCactusInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD m tesselateFenceInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD n tesselateStairsInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD o tesselateDoorInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD p tesselateBedInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-	METHOD q tessellateDiodeInWorld (Lqk;III)Z
-		ARG 1 tt
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z

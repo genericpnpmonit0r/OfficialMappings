@@ -1,0 +1,11 @@
+CLASS lk net/minecraft/stats/Achievement
+	FIELD a x I
+	FIELD b y I
+	FIELD c requirement Llk;
+		COMMENT again unsure what to call this parent or requirement
+	METHOD <init> (ILjava/lang/String;IILlk;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 x
+		ARG 4 y
+		ARG 5 requirement

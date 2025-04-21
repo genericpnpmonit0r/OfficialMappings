@@ -1,3 +1,0 @@
-CLASS ho net/minecraft/world/item/crafting/FoodRecipes
-	METHOD a addRecipes (Leb;)V
-		ARG 1 recipes

@@ -1,3 +1,6 @@
-CLASS ti net/minecraft/world/level/tile/entity/SignTileEntity
+CLASS uf net/minecraft/world/level/tile/entity/SignTileEntity
 	FIELD a messages [Ljava/lang/String;
 	FIELD b selectedLine I
+	FIELD c editable Z
+	METHOD a load (Llg;)V
+	METHOD b save (Llg;)V

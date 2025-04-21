@@ -1,6 +1,0 @@
-CLASS kb net/minecraft/network/packet/ContainerSetDataPacket
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V
-	FIELD a containerId I
-	FIELD b id I
-	FIELD c value I

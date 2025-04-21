@@ -1,5 +1,6 @@
-CLASS jw net/minecraft/world/level/levelgen/feature/ClayFeature
-	FIELD a tile I
-	FIELD b count I
+CLASS kj net/minecraft/world/level/levelgen/feature/ClayFeature
 	METHOD <init> (I)V
 		ARG 1 count
+	METHOD a place (Leb;Ljava/util/Random;III)Z
+	FIELD a tile I
+	FIELD b count I

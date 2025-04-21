@@ -1,23 +1,12 @@
-CLASS dc net/minecraft/world/level/LevelData
-	FIELD a seed J
-	FIELD b xSpawn I
-	FIELD c ySpawn I
-	FIELD d zSpawn I
-	FIELD e time J
-	FIELD f lastPlayed J
-	FIELD g sizeOnDisk J
-	FIELD h loadedPlayerTag Lks;
-	FIELD i dimension I
-	FIELD j levelName Ljava/lang/String;
-	FIELD k storageVersion I
+CLASS dj net/minecraft/world/level/LevelData
 	METHOD <init> (JLjava/lang/String;)V
 		ARG 1 seed
 		ARG 3 levelName
-	METHOD <init> (Ldc;)V
+	METHOD <init> (Ldj;)V
 		ARG 1 d
-	METHOD <init> (Lks;)V
+	METHOD <init> (Llg;)V
 		ARG 1 tag
-	METHOD a createTag ()Lks;
+	METHOD a createTag ()Llg;
 	METHOD a setXSpawn (I)V
 		ARG 1 xSpawn
 	METHOD a setSpawn (III)V
@@ -28,11 +17,11 @@ CLASS dc net/minecraft/world/level/LevelData
 		ARG 1 time
 	METHOD a setLevelName (Ljava/lang/String;)V
 		ARG 1 levelName
-	METHOD a createTag (Ljava/util/List;)Lks;
+	METHOD a createTag (Ljava/util/List;)Llg;
 		ARG 1 players
-	METHOD a setLoadedPlayerTag (Lks;)V
+	METHOD a setLoadedPlayerTag (Llg;)V
 		ARG 1 tag
-	METHOD a setTagData (Lks;Lks;)V
+	METHOD a setTagData (Llg;Llg;)V
 		ARG 1 tag
 		ARG 2 playerTag
 	METHOD b getSeed ()J
@@ -49,8 +38,19 @@ CLASS dc net/minecraft/world/level/LevelData
 	METHOD e getZSpawn ()I
 	METHOD f getTime ()J
 	METHOD g getSizeOnDisk ()J
-	METHOD h getLoadedPlayerTag ()Lks;
+	METHOD h getLoadedPlayerTag ()Llg;
 	METHOD i getDimension ()I
 	METHOD j getLevelName ()Ljava/lang/String;
 	METHOD k getStorageVersion ()I
 	METHOD l getLastPlayed ()J
+	FIELD a seed J
+	FIELD b xSpawn I
+	FIELD c ySpawn I
+	FIELD d zSpawn I
+	FIELD e time J
+	FIELD f lastPlayed J
+	FIELD g sizeOnDisk J
+	FIELD h loadedPlayerTag Llg;
+	FIELD i dimension I
+	FIELD j levelName Ljava/lang/String;
+	FIELD k storageVersion I

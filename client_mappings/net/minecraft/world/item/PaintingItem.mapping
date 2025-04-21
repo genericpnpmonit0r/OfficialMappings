@@ -1,1 +1,2 @@
-CLASS tk net/minecraft/world/item/PaintingItem
+CLASS uh net/minecraft/world/item/PaintingItem
+	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z

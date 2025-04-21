@@ -1,13 +1,8 @@
-CLASS bb net/minecraft/client/renderer/entity/EntityRenderer
-	FIELD a model Lic;
-	FIELD b entityRenderDispatcher Lpd;
-	FIELD c shadowRadius F
-	FIELD d shadowStrength F
-	FIELD e tileRenderer Lbw;
-	METHOD a getFont ()Loi;
-	METHOD a renderFlat (Ldi;)V
+CLASS be net/minecraft/client/renderer/entity/EntityRenderer
+	METHOD a getFont ()Lox;
+	METHOD a renderFlat (Ldq;)V
 		ARG 0 bb
-	METHOD a render (Ldi;DDD)V
+	METHOD a render (Ldq;DDD)V
 		ARG 0 bb
 		ARG 1 xo
 		ARG 3 yo
@@ -17,22 +12,22 @@ CLASS bb net/minecraft/client/renderer/entity/EntityRenderer
 	METHOD a bindTexture (Ljava/lang/String;Ljava/lang/String;)Z
 		ARG 1 urlTexture
 		ARG 2 backupTexture
-	METHOD a renderFlame (Lom;DDDF)V
+	METHOD a renderFlame (Lpb;DDDF)V
 		ARG 1 e
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 a
-	METHOD a render (Lom;DDDFF)V
+	METHOD a render (Lpb;DDDFF)V
 		ARG 1 entity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 rot
 		ARG 9 a
-	METHOD a init (Lpd;)V
+	METHOD a init (Lps;)V
 		ARG 1 entityRenderDispatcher
-	METHOD a renderTileShadow (Lqk;DDDIIIFFDDD)V
+	METHOD a renderTileShadow (Lra;DDDIIIFFDDD)V
 		ARG 1 tt
 		ARG 2 x
 		ARG 4 y
@@ -45,18 +40,23 @@ CLASS bb net/minecraft/client/renderer/entity/EntityRenderer
 		ARG 13 xo
 		ARG 15 yo
 		ARG 17 zo
-	METHOD b getLevel ()Ldt;
-	METHOD b postRender (Lom;DDDFF)V
+	METHOD b getLevel ()Leb;
+	METHOD b postRender (Lpb;DDDFF)V
 		ARG 1 entity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 rot
 		ARG 9 a
-	METHOD c renderShadow (Lom;DDDFF)V
+	METHOD c renderShadow (Lpb;DDDFF)V
 		ARG 1 e
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 pow
 		ARG 9 a
+	FIELD a model Lin;
+	FIELD b entityRenderDispatcher Lps;
+	FIELD c shadowRadius F
+	FIELD d shadowStrength F
+	FIELD e tileRenderer Lca;

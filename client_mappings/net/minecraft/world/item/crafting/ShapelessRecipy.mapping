@@ -1,6 +1,9 @@
-CLASS pp net/minecraft/world/item/crafting/ShapelessRecipy
-	FIELD a result Lgz;
-	FIELD b ingredients Ljava/util/List;
-	METHOD <init> (Lgz;Ljava/util/List;)V
+CLASS qe net/minecraft/world/item/crafting/ShapelessRecipy
+	METHOD <init> (Lhi;Ljava/util/List;)V
 		ARG 1 result
 		ARG 2 ingredients
+	METHOD a size ()I
+	METHOD a matches (Lki;)Z
+	METHOD b assemble (Lki;)Lhi;
+	FIELD a result Lhi;
+	FIELD b ingredients Ljava/util/List;

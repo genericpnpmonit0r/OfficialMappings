@@ -1,12 +1,13 @@
-CLASS fd net/minecraft/world/entity/player/Player
-	FIELD A fishing Ljd;
+CLASS fm net/minecraft/world/entity/player/Player
+	FIELD A fishing Ljq;
 	FIELD a sleeping Z
-	FIELD b bedPosition Lav;
+	FIELD b bedPosition Lay;
 	FIELD c sleepTimer I
-	FIELD d dmgSpill I
-	FIELD f inventory Lgy;
-	FIELD g inventoryMenu Lct;
-	FIELD h containerMenu Lct;
+	FIELD d respawnPosition Lay;
+	FIELD e dmgSpill I
+	FIELD f inventory Lhh;
+	FIELD g inventoryMenu Lda;
+	FIELD h containerMenu Lda;
 	FIELD i userType B
 	FIELD j score I
 	FIELD k oBob F
@@ -25,61 +26,102 @@ CLASS fd net/minecraft/world/entity/player/Player
 	FIELD x unk_x F
 	FIELD y unk_y F
 	FIELD z unk_z F
-	METHOD A drop ()V
-	METHOD C unk_C ()V
-	METHOD D getSelectedItem ()Lgz;
-	METHOD E removeSelectedItem ()V
-	METHOD G swing ()V
-	METHOD J getSleepingRotation ()F
-	METHOD L isSleepingLongEnough ()Z
-	METHOD M getSleepTimer ()I
+	METHOD C getScore ()I
+	METHOD D drop ()V
+	METHOD E unk_C ()V
+	METHOD F getSelectedItem ()Lhi;
+	METHOD G removeSelectedItem ()V
+	METHOD H getRidingHeight ()D
+	METHOD I swing ()V
+	METHOD J remove ()V
+	METHOD K isInWall ()Z
+	METHOD L getSleepingRotation ()F
+	METHOD M isSleeping ()Z
+	METHOD N isSleepingLongEnough ()Z
+	METHOD O getSleepTimer ()I
+	METHOD P getSpawnPosition ()Lay;
+	METHOD Q jumpFromGround ()V
 	METHOD a startCrafting (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a openTrap (Lak;)V
+	METHOD a openTrap (Lal;)V
 		ARG 1 trap
-	METHOD a reallyDrop (Lfs;)V
+	METHOD a setRespawnPosition (Lay;)V
+		ARG 1 respawnPosition
+	METHOD a checkBedValidRespawnPosition (Leb;Lay;)Lay;
+		COMMENT again unsure cant find any refs anywhere in other editions with syms
+		ARG 0 level
+		ARG 1 pos
+	METHOD a reallyDrop (Lgb;)V
 		ARG 1 item
-	METHOD a drop (Lgz;)V
+	METHOD a drop (Lhi;)V
 		ARG 1 item
-	METHOD a drop (Lgz;Z)V
+	METHOD a drop (Lhi;Z)V
 		ARG 1 item
 		ARG 2 b
-	METHOD a openContainer (Ljc;)V
+	METHOD a attack (Ljm;Z)V
+		COMMENT dunno what actually called so just calling this another overload method
+		ARG 1 target
+		ARG 2 b
+	METHOD a openContainer (Ljp;)V
 		ARG 1 container
-	METHOD a openFurnace (Loj;)V
+	METHOD a addAdditionalSaveData (Llg;)V
+	METHOD a openFurnace (Loy;)V
 		ARG 1 furnace
-	METHOD a getDestroySpeed (Lqk;)F
+	METHOD a hurt (Lpb;I)Z
+	METHOD a getDestroySpeed (Lra;)F
 		ARG 1 tile
-	METHOD a openTextEdit (Lti;)V
+	METHOD a awardStat (Lru;I)V
+		ARG 1 stat
+		ARG 2 amount
+	METHOD a openTextEdit (Luf;)V
 		ARG 1 sign
-	METHOD a stopSleepInBed (ZZ)V
+	METHOD a stopSleepInBed (ZZZ)V
 		ARG 1 a
 		ARG 2 b
-	METHOD b startSleepInBed (III)Z
+		ARG 3 c
+	METHOD a_ travel (FF)V
+	METHOD ah checkBed ()Z
+	METHOD b defineSynchedData ()V
+	METHOD b causeFallDamage (F)V
+	METHOD b actuallyHurt (I)V
+	METHOD b startSleepInBed (III)Lcb;
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b carriedChanged (Lgz;)V
+	METHOD b carriedChanged (Lhi;)V
 		ARG 1 item
 	METHOD b displayClientMessage (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD b take (Lom;I)V
+	METHOD b readAdditionalSaveData (Llg;)V
+	METHOD b die (Lpb;)V
+	METHOD b take (Lpb;I)V
 		ARG 1 e
 		ARG 2 orgCount
-	METHOD b canDestroy (Lqk;)Z
+	METHOD b canDestroy (Lra;)Z
 		ARG 1 tile
-	METHOD c interact (Lom;)V
+	METHOD c interact (Lpb;)V
 		ARG 1 entity
-	METHOD d attack (Lom;)V
+	METHOD c awardKillScore (Lpb;I)V
+	METHOD d attack (Lpb;)V
 		ARG 1 entity
 	METHOD e setBedOffset (I)V
 		ARG 1 dir
-	METHOD j touch (Lom;)V
+	METHOD e_ updateAi ()V
+	METHOD h checkMovementStatistiscs (DDD)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD j touch (Lpb;)V
 		ARG 1 entity
-	METHOD p closeContainer ()V
-	METHOD q checkBed ()Z
-	METHOD t respawn ()V
-	METHOD u animateRespawn ()V
-	METHOD z getScore ()I
+	METHOD n aiStep ()V
+	METHOD p_ respawn ()V
+	METHOD q closeContainer ()V
+	METHOD t_ rideTick ()V
+	METHOD u_ resetPos ()V
+	METHOD v animateRespawn ()V
+	METHOD v_ prepareCustomTextures ()V
+	METHOD w getHeadHeight ()F
+	METHOD w_ tick ()V
+	METHOD y isImmobile ()Z

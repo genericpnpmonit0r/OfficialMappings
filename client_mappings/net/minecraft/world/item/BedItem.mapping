@@ -1,1 +1,2 @@
-CLASS ix net/minecraft/world/item/BedItem
+CLASS jj net/minecraft/world/item/BedItem
+	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z

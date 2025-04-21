@@ -1,5 +1,10 @@
-CLASS et net/minecraft/client/multiplayer/ReceivingLevelScreen
-	FIELD a connection Lkb;
-	FIELD h tickCount I
-	METHOD <init> (Lkb;)V
+CLASS fb net/minecraft/client/multiplayer/ReceivingLevelScreen
+	METHOD <init> (Lko;)V
 		ARG 1 connection
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lih;)V
+	METHOD g tick ()V
+	FIELD a connection Lko;
+	FIELD i tickCount I

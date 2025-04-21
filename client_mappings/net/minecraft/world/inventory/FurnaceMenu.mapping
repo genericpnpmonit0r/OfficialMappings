@@ -1,8 +1,11 @@
-CLASS au net/minecraft/world/inventory/FurnaceMenu
-	FIELD a furnace Loj;
+CLASS ax net/minecraft/world/inventory/FurnaceMenu
+	METHOD <init> (Ljp;Loy;)V
+		ARG 1 container
+		ARG 2 oj
+	METHOD a broadcastChanges ()V
+	METHOD a setData (II)V
+	METHOD b stillValid (Lfm;)Z
+	FIELD a furnace Loy;
 	FIELD b tc I
 	FIELD c lt I
 	FIELD h ld I
-	METHOD <init> (Ljc;Loj;)V
-		ARG 1 container
-		ARG 2 oj

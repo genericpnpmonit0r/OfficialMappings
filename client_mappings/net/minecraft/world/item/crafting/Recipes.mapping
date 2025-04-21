@@ -1,12 +1,13 @@
-CLASS fr net/minecraft/world/item/crafting/Recipes
-	FIELD a instance Lfr;
+CLASS ga net/minecraft/world/item/crafting/Recipes
+	FIELD a instance Lga;
 	FIELD b recipies Ljava/util/List;
-	METHOD a getInstance ()Lfr;
-	METHOD a addShapedRecipy (Lgz;[Ljava/lang/Object;)V
+	METHOD a getInstance ()Lga;
+	METHOD a addShapedRecipy (Lhi;[Ljava/lang/Object;)V
 		ARG 1 result
 		ARG 2 pattern
-	METHOD a getItemFor (Ljv;)Lgz;
+	METHOD a getItemFor (Lki;)Lhi;
 		ARG 1 craftingContainer
-	METHOD b addShapelessRecipy (Lgz;[Ljava/lang/Object;)V
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b addShapelessRecipy (Lhi;[Ljava/lang/Object;)V
 		ARG 1 result
 		ARG 2 pattern

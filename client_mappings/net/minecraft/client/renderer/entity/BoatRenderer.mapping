@@ -1,2 +1,3 @@
-CLASS dv net/minecraft/client/renderer/entity/BoatRenderer
-	FIELD a model Lic;
+CLASS ed net/minecraft/client/renderer/entity/BoatRenderer
+	METHOD a render (Lpb;DDDFF)V
+	FIELD a model Lin;

@@ -1,0 +1,13 @@
+CLASS rq net/minecraft/client/gui/Overlay
+	COMMENT again, dunno what could be called cant find any xrefs in other edtions with symbols.
+	COMMENT also unused as everything else set to private
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b width I
+	FIELD c height I
+	FIELD d title Ljava/lang/String;
+	FIELD e message Ljava/lang/String;
+	FIELD f time J
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a render ()V
+	METHOD b resize ()V

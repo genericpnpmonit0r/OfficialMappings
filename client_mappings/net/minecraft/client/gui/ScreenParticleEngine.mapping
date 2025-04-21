@@ -1,0 +1,8 @@
+CLASS cz net/minecraft/client/gui/ScreenParticleEngine
+	FIELD a particles Ljava/util/List;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	METHOD <init> (Lnet/minecraft/client/Minecraft;)V
+		ARG 1 minecraft
+	METHOD a tick ()V
+	METHOD a render (F)V
+		ARG 1 a

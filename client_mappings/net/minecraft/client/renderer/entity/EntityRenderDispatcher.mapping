@@ -1,45 +1,45 @@
-CLASS pd net/minecraft/client/renderer/entity/EntityRenderDispatcher
-	FIELD a instance Lpd;
-	FIELD b xOff D
-	FIELD c yOff D
-	FIELD d zOff D
-	FIELD e textures Lhf;
-	FIELD f itemInHandRenderer Lnd;
-	FIELD g level Ldt;
-	FIELD h player Liz;
-	FIELD i playerRotY F
-	FIELD j playerRotX F
-	FIELD k options Lig;
-	FIELD l xPlayer D
-	FIELD m yPlayer D
-	FIELD n zPlayer D
-	FIELD o renderers Ljava/util/Map;
-	FIELD p font Loi;
-	METHOD a getFont ()Loi;
+CLASS ps net/minecraft/client/renderer/entity/EntityRenderDispatcher
+	METHOD a getFont ()Lox;
 	METHOD a distanceToSqr (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD a setLevel (Ldt;)V
+	METHOD a setLevel (Leb;)V
 		ARG 1 level
-	METHOD a prepare (Ldt;Lhf;Loi;Liz;Lig;F)V
+	METHOD a prepare (Leb;Lho;Lox;Ljm;Lis;F)V
 		ARG 1 level
 		ARG 2 textures
 		ARG 3 font
 		ARG 4 player
 		ARG 5 options
 		ARG 6 a
-	METHOD a getRenderer (Ljava/lang/Class;)Lbb;
+	METHOD a getRenderer (Ljava/lang/Class;)Lbe;
 		ARG 1 c
-	METHOD a getRenderer (Lom;)Lbb;
+	METHOD a getRenderer (Lpb;)Lbe;
 		ARG 1 e
-	METHOD a render (Lom;DDDFF)V
+	METHOD a render (Lpb;DDDFF)V
 		ARG 1 entity
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 rot
 		ARG 9 a
-	METHOD a render (Lom;F)V
+	METHOD a render (Lpb;F)V
 		ARG 1 e
 		ARG 2 a
+	FIELD a instance Lps;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textures Lho;
+	FIELD f itemInHandRenderer Lnt;
+	FIELD g level Leb;
+	FIELD h player Ljm;
+	FIELD i playerRotY F
+	FIELD j playerRotX F
+	FIELD k options Lis;
+	FIELD l xPlayer D
+	FIELD m yPlayer D
+	FIELD n zPlayer D
+	FIELD o renderers Ljava/util/Map;
+	FIELD p font Lox;

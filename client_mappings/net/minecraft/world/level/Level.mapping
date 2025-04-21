@@ -1,4 +1,4 @@
-CLASS dt net/minecraft/world/level/Level
+CLASS eb net/minecraft/world/level/Level
 	FIELD A allPlayersSleeping Z
 	FIELD B boxes Ljava/util/ArrayList;
 	FIELD C maxRecurse I
@@ -19,11 +19,11 @@ CLASS dt net/minecraft/world/level/Level
 	FIELD j difficulty I
 	FIELD k random Ljava/util/Random;
 	FIELD l isNew Z
-	FIELD m dimension Lsd;
+	FIELD m dimension Lsy;
 	FIELD n listeners Ljava/util/List;
-	FIELD o chunkSource Lbo;
-	FIELD p levelStorage Lrw;
-	FIELD q levelData Ldc;
+	FIELD o chunkSource Lbs;
+	FIELD p levelStorage Lsr;
+	FIELD q levelData Ldj;
 	FIELD r isFindingSpawn Z
 	FIELD s maxLoop I
 	FIELD t isOnline Z
@@ -33,24 +33,26 @@ CLASS dt net/minecraft/world/level/Level
 	FIELD x tickNextTickSet Ljava/util/Set;
 	FIELD y cloudColor J
 	FIELD z sessionId J
-	METHOD <init> (Ldt;Lsd;)V
+	METHOD <init> (Leb;Lsy;)V
 		ARG 1 level
 		ARG 2 dimension
-	METHOD <init> (Lrw;Ljava/lang/String;J)V
+	METHOD <init> (Lsr;Ljava/lang/String;J)V
 		ARG 1 storage
 		ARG 2 levelName
 		ARG 3 seed
-	METHOD <init> (Lrw;Ljava/lang/String;JLsd;)V
+	METHOD <init> (Lsr;Ljava/lang/String;JLsy;)V
 		ARG 1 storage
 		ARG 2 levelName
 		ARG 3 seed
 		ARG 5 dimension
-	METHOD <init> (Lrw;Ljava/lang/String;Lsd;J)V
+	METHOD <init> (Lsr;Ljava/lang/String;Lsy;J)V
 		ARG 1 storage
 		ARG 2 levelName
 		ARG 3 dimension
 		ARG 4 seed
-	METHOD a getNearestPlayer (DDDD)Lfd;
+	METHOD A saveLevelData ()V
+	METHOD a getBiomeSource ()Ltq;
+	METHOD a getNearestPlayer (DDDD)Lfm;
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
@@ -69,6 +71,7 @@ CLASS dt net/minecraft/world/level/Level
 	METHOD a getTopTile (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD a getTile (III)I
 	METHOD a hasChunkAt (IIII)Z
 		ARG 1 x0
 		ARG 2 z0
@@ -101,7 +104,7 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 3 y
 		ARG 4 z
 		ARG 5 b
-	METHOD a setTileEntity (IIILll;)V
+	METHOD a setTileEntity (IIILma;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -113,30 +116,30 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 4 slab
 	METHOD a setTime (J)V
 		ARG 1 time
-	METHOD a setSpawnPos (Lav;)V
+	METHOD a setSpawnPos (Lay;)V
 		ARG 1 pos
-	METHOD a clip (Lay;Lay;)Lqu;
+	METHOD a clip (Lbb;Lbb;)Lrk;
 		ARG 1 v0
 		ARG 2 v1
-	METHOD a clip (Lay;Lay;Z)Lqu;
+	METHOD a clip (Lbb;Lbb;Z)Lrk;
 		ARG 1 v0
 		ARG 2 v1
 		ARG 3 b
-	METHOD a getSeenPercent (Lay;Ldi;)F
+	METHOD a getSeenPercent (Lbb;Ldq;)F
 		ARG 1 v
 		ARG 2 box
-	METHOD a getBrightness (Lcx;III)I
+	METHOD a getBrightness (Lde;III)I
 		ARG 1 layer
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a updateLightIfOtherThan (Lcx;IIII)V
+	METHOD a updateLightIfOtherThan (Lde;IIII)V
 		ARG 1 layer
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 brightness
-	METHOD a updateLight (Lcx;IIIIII)V
+	METHOD a updateLight (Lde;IIIIII)V
 		ARG 1 layer
 		ARG 2 x0
 		ARG 3 y0
@@ -144,7 +147,7 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 5 x1
 		ARG 6 y1
 		ARG 7 z1
-	METHOD a updateLight (Lcx;IIIIIIZ)V
+	METHOD a updateLight (Lde;IIIIIIZ)V
 		ARG 1 layer
 		ARG 2 x0
 		ARG 3 y0
@@ -153,27 +156,29 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 6 y1
 		ARG 7 z1
 		ARG 8 bl
-	METHOD a isUnobstructed (Ldi;)Z
+	METHOD a isUnobstructed (Ldq;)Z
 		ARG 1 bb
-	METHOD a containsMaterial (Ldi;Liu;)Z
+	METHOD a containsMaterial (Ldq;Ljh;)Z
 		ARG 1 bb
 		ARG 2 material
-	METHOD a checkAndHandleWater (Ldi;Liu;Lom;)Z
+	METHOD a checkAndHandleWater (Ldq;Ljh;Lpb;)Z
 		ARG 1 box
 		ARG 2 material
 		ARG 3 entity
-	METHOD a loadPlayer (Lfd;)V
+	METHOD a loadPlayer (Lfm;)V
 		ARG 1 player
-	METHOD a mayInteract (Lfd;III)Z
+	METHOD a mayInteract (Lfm;III)Z
 		ARG 1 player
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a findSubclassOf (Ljava/lang/Class;)Lom;
+	METHOD a findSubclassOf (Ljava/lang/Class;)Lpb;
 		ARG 1 c
-	METHOD a getEntitiesOfClass (Ljava/lang/Class;Ldi;)Ljava/util/List;
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Ldq;)Ljava/util/List;
 		ARG 1 clas
 		ARG 2 box
+	METHOD a getPlayer (Ljava/lang/String;)Lfm;
+		ARG 1 name
 	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
 		ARG 1 name
 		ARG 2 x
@@ -189,69 +194,70 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 4 z
 	METHOD a addEntities (Ljava/util/List;)V
 		ARG 1 entities
-	METHOD a addListener (Lly;)V
+	METHOD a addListener (Lmo;)V
 		ARG 1 listener
-	METHOD a addEntity (Lom;)Z
+	METHOD a addEntity (Lpb;)Z
 		ARG 1 entity
-	METHOD a broadcastEntityEvent (Lom;B)V
+	METHOD a broadcastEntityEvent (Lpb;B)V
 		ARG 1 entity
 		ARG 2 event
-	METHOD a getNearestPlayer (Lom;D)Lfd;
+	METHOD a getNearestPlayer (Lpb;D)Lfm;
 		ARG 1 e
 		ARG 2 radius
-	METHOD a explode (Lom;DDDF)Lna;
+	METHOD a explode (Lpb;DDDF)Lnq;
 		ARG 1 source
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 r
-	METHOD a explode (Lom;DDDFZ)Lna;
+	METHOD a explode (Lpb;DDDFZ)Lnq;
 		ARG 1 source
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 r
 		ARG 9 fire
-	METHOD a getSkyColor (Lom;F)Lay;
+	METHOD a getSkyColor (Lpb;F)Lbb;
 		ARG 1 entity
 		ARG 2 a
-	METHOD a findPath (Lom;IIIF)Lch;
+	METHOD a findPath (Lpb;IIIF)Lcm;
 		ARG 1 source
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 rad
-	METHOD a getCubes (Lom;Ldi;)Ljava/util/List;
+	METHOD a getCubes (Lpb;Ldq;)Ljava/util/List;
 		ARG 1 entity
 		ARG 2 box
-	METHOD a playSound (Lom;Ljava/lang/String;FF)V
+	METHOD a playSound (Lpb;Ljava/lang/String;FF)V
 		ARG 1 e
 		ARG 2 name
 		ARG 3 volume
 		ARG 4 pitch
-	METHOD a findPath (Lom;Lom;F)Lch;
+	METHOD a findPath (Lpb;Lpb;F)Lcm;
 		ARG 1 source
 		ARG 2 dest
 		ARG 3 radius
-	METHOD a tick (Lom;Z)V
+	METHOD a tick (Lpb;Z)V
 		ARG 1 e
 		ARG 2 b
-	METHOD a forceSave (Lta;)V
+	METHOD a forceSave (Ltw;)V
 		ARG 1 progressListener
 	METHOD a tickPendingTicks (Z)Z
 		ARG 1 force
-	METHOD a save (ZLta;)V
+	METHOD a save (ZLtw;)V
 		ARG 1 force
 		ARG 2 progressListener
 	METHOD a setSpawnSettings (ZZ)V
 		ARG 1 spawnEnemies
 		ARG 2 spawnFriendlies
-	METHOD b createChunkSource ()Lbo;
+	METHOD b createChunkSource ()Lbs;
 	METHOD b getTimeOfDay (F)F
 		ARG 1 a
-	METHOD b getChunkAt (II)Lit;
+	METHOD b getChunkAt (II)Ljg;
 		ARG 1 x
 		ARG 2 z
+	METHOD b getTileEntity (III)Lma;
 	METHOD b setTileNoUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -270,39 +276,40 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 4 x1
 		ARG 5 y1
 		ARG 6 z1
-	METHOD b tileEntityChanged (IIILll;)V
+	METHOD b tileEntityChanged (IIILma;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 te
-	METHOD b setBrightness (Lcx;IIII)V
+	METHOD b setBrightness (Lde;IIII)V
 		ARG 1 layer
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 brightness
-	METHOD b containsAnyLiquid (Ldi;)Z
+	METHOD b containsAnyLiquid (Ldq;)Z
 		ARG 1 bb
-	METHOD b containsLiquid (Ldi;Liu;)Z
+	METHOD b containsLiquid (Ldq;Ljh;)Z
 		ARG 1 bb
 		ARG 2 material
 	METHOD b countInstanceOf (Ljava/lang/Class;)I
 		ARG 1 c
 	METHOD b removeEntities (Ljava/util/List;)V
 		ARG 1 entities
-	METHOD b removeListener (Lly;)V
+	METHOD b removeListener (Lmo;)V
 		ARG 1 listener
-	METHOD b entityAdded (Lom;)V
+	METHOD b entityAdded (Lpb;)V
 		ARG 1 entity
-	METHOD b getEntities (Lom;Ldi;)Ljava/util/List;
+	METHOD b getEntities (Lpb;Ldq;)Ljava/util/List;
 		ARG 1 e
 		ARG 2 box
-	METHOD c validateSpawn ()V
-	METHOD c getCloudColor (F)Lay;
+	METHOD c findSpawn ()V
+	METHOD c getCloudColor (F)Lbb;
 		ARG 1 a
-	METHOD c getChunk (II)Lit;
+	METHOD c getChunk (II)Ljg;
 		ARG 1 x
 		ARG 2 z
+	METHOD c getBrightness (III)F
 	METHOD c setData (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -314,12 +321,12 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 3 z
 		ARG 4 tileId
 		ARG 5 delay
-	METHOD c containsFireTile (Ldi;)Z
+	METHOD c containsFireTile (Ldq;)Z
 		ARG 1 bb
-	METHOD c entityRemoved (Lom;)V
+	METHOD c entityRemoved (Lpb;)V
 		ARG 1 entity
-	METHOD d clearLoadedPlayerData ()V
-	METHOD d getFogColor (F)Lay;
+	METHOD d validateSpawn ()V
+	METHOD d getFogColor (F)Lbb;
 		ARG 1 a
 	METHOD d getHeightmap (II)I
 		ARG 1 x
@@ -339,42 +346,45 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 3 z
 		ARG 4 a
 		ARG 5 b
-	METHOD d removeEntity (Lom;)V
+	METHOD d removeEntity (Lpb;)V
 		ARG 1 entity
-	METHOD e isDay ()Z
+	METHOD e clearLoadedPlayerData ()V
 	METHOD e getStarBrightness (F)F
 		ARG 1 a
 	METHOD e getTopSolidBlock (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD e getData (III)I
 	METHOD e setTile (IIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 tile
-	METHOD e tick (Lom;)V
+	METHOD e tick (Lpb;)V
 		ARG 1 e
-	METHOD f tickEntities ()V
+	METHOD f isDay ()Z
 	METHOD f getLightDepth (II)I
 		ARG 1 x
 		ARG 2 z
+	METHOD f getMaterial (III)Ljh;
 	METHOD f tileUpdated (IIII)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 tile
-	METHOD f ensureAdded (Lom;)V
+	METHOD f ensureAdded (Lpb;)V
 		ARG 1 entity
-	METHOD g gatherStats ()Ljava/lang/String;
+	METHOD g tickEntities ()V
 	METHOD g hasChunk (II)Z
 		ARG 1 x
 		ARG 2 z
+	METHOD g isSolidTile (III)Z
 	METHOD g lightColumnChanged (IIII)V
 		ARG 1 x
 		ARG 2 z
 		ARG 3 y0
 		ARG 4 y1
-	METHOD h gatherChunkSourceStats ()Ljava/lang/String;
+	METHOD h gatherStats ()Ljava/lang/String;
 	METHOD h hasChunkAt (III)Z
 		ARG 1 x
 		ARG 2 y
@@ -384,7 +394,7 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 f
-	METHOD i updateLights ()Z
+	METHOD i gatherChunkSourceStats ()Ljava/lang/String;
 	METHOD i sendTileUpdated (III)V
 		ARG 1 x
 		ARG 2 y
@@ -394,7 +404,7 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 face
-	METHOD j updateSkyBrightness ()V
+	METHOD j updateLights ()Z
 	METHOD j setTileDirty (III)V
 		ARG 1 x
 		ARG 2 y
@@ -404,7 +414,7 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 signal
-	METHOD k tick ()V
+	METHOD k updateSkyBrightness ()V
 	METHOD k canSeeSky (III)Z
 		ARG 1 x
 		ARG 2 y
@@ -414,7 +424,7 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 signal
-	METHOD l tickTiles ()V
+	METHOD l tick ()V
 	METHOD l getRawBrightness (III)I
 		ARG 1 x
 		ARG 2 y
@@ -424,37 +434,37 @@ CLASS dt net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 f
-	METHOD m getAllEntities ()Ljava/util/List;
+	METHOD m tickTiles ()V
 	METHOD m isSkyLit (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD n prepare ()V
+	METHOD n getAllEntities ()Ljava/util/List;
 	METHOD n removeTileEntity (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD o disconnect ()V
+	METHOD o prepare ()V
 	METHOD o animateTick (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD p checkSession ()V
+	METHOD p disconnect ()V
 	METHOD p hasDirectSignal (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD q getSeed ()J
+	METHOD q checkSession ()V
 	METHOD q hasNeighborSignal (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD r getTime ()J
-	METHOD s getSharedSpawnPos ()Lav;
-	METHOD t removeAllPendingEntityRemovals ()V
-	METHOD u getChunkSource ()Lbo;
-	METHOD v getLevelData ()Ldc;
-	METHOD w updateSleepingPlayerList ()V
-	METHOD x awakenAllPlayers ()V
-	METHOD y allPlayersSleeping ()Z
-	METHOD z saveLevelData ()V
+	METHOD r getSeed ()J
+	METHOD s getTime ()J
+	METHOD t getSharedSpawnPos ()Lay;
+	METHOD u removeAllPendingEntityRemovals ()V
+	METHOD v getChunkSource ()Lbs;
+	METHOD w getLevelData ()Ldj;
+	METHOD x updateSleepingPlayerList ()V
+	METHOD y awakenAllPlayers ()V
+	METHOD z allPlayersSleeping ()Z

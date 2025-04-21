@@ -1,0 +1,24 @@
+CLASS it net/minecraft/client/gui/ScreenParticle
+	FIELD a x D
+	FIELD b y D
+	FIELD c xOld D
+	FIELD d yOld D
+	FIELD e xd D
+	FIELD f yd D
+	FIELD g gravity D
+	FIELD h removed Z
+	FIELD i age I
+	FIELD j lifetime I
+	FIELD k rCol D
+	FIELD l gCol D
+	FIELD m bCol D
+	FIELD n aCol D
+	FIELD o rColO D
+	FIELD p gColO D
+	FIELD q bColO D
+	FIELD r aColO D
+	FIELD s random Ljava/util/Random;
+	METHOD a tick ()V
+	METHOD a render (Lcz;)V
+		ARG 1 spe
+	METHOD b remove ()V

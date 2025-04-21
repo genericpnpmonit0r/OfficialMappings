@@ -1,6 +1,27 @@
-CLASS ok net/minecraft/world/entity/projectile/Arrow
+CLASS oz net/minecraft/world/entity/projectile/Arrow
+	METHOD <init> (Leb;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Leb;Ljm;)V
+		ARG 1 level
+		ARG 2 owner
+	METHOD a lerpMotion (DDD)V
+	METHOD a shoot (DDDFF)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+		ARG 7 xr
+		ARG 8 yr
+	METHOD a addAdditionalSaveData (Llg;)V
+	METHOD b defineSynchedData ()V
+	METHOD b playerTouch (Lfm;)V
+	METHOD b readAdditionalSaveData (Llg;)V
+	METHOD l_ getShadowHeightOffs ()F
+	METHOD w_ tick ()V
 	FIELD a shakeTime I
-	FIELD b owner Liz;
+	FIELD b owner Ljm;
 	FIELD c xTile I
 	FIELD d yTile I
 	FIELD e zTile I
@@ -8,17 +29,3 @@ CLASS ok net/minecraft/world/entity/projectile/Arrow
 	FIELD g inGround Z
 	FIELD h life I
 	FIELD i flightTime I
-	METHOD <init> (Ldt;DDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD <init> (Ldt;Liz;)V
-		ARG 1 level
-		ARG 2 owner
-	METHOD a shoot (DDDFF)V
-		ARG 1 xa
-		ARG 3 ya
-		ARG 5 za
-		ARG 7 xr
-		ARG 8 yr

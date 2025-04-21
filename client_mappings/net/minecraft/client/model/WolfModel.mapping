@@ -1,0 +1,14 @@
+CLASS k net/minecraft/client/model/WolfModel
+	FIELD a head Lms;
+	FIELD b body Lms;
+	FIELD c leg0 Lms;
+	FIELD d leg1 Lms;
+	FIELD e leg2 Lms;
+	FIELD f leg3 Lms;
+	FIELD g ear0 Lms;
+	FIELD h ear1 Lms;
+	FIELD i nose Lms;
+	FIELD j tail Lms;
+	FIELD k mane Lms;
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V

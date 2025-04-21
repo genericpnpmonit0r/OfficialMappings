@@ -1,4 +1,7 @@
-CLASS qe net/minecraft/isom/ZoneRenderer
+CLASS qu net/minecraft/isom/ZoneRenderer
+	METHOD a postProcess ()V
+	METHOD a render (Lnx;)V
+		ARG 1 zone
 	FIELD a texCols [F
 	FIELD b pixels [I
 	FIELD c zBuf [I
@@ -6,6 +9,3 @@ CLASS qe net/minecraft/isom/ZoneRenderer
 	FIELD e waterBr [I
 	FIELD f yBuf [I
 	FIELD g textures [I
-	METHOD a postProcess ()V
-	METHOD a render (Lnh;)V
-		ARG 1 zone

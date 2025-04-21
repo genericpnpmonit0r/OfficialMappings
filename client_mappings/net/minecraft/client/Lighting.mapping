@@ -1,5 +1,4 @@
-CLASS p net/minecraft/client/Lighting
-	FIELD a lb Ljava/nio/FloatBuffer;
+CLASS q net/minecraft/client/Lighting
 	METHOD a turnOn ()V
 	METHOD a getBuffer (DDDD)Ljava/nio/FloatBuffer;
 		ARG 0 a
@@ -12,3 +11,4 @@ CLASS p net/minecraft/client/Lighting
 		ARG 2 c
 		ARG 3 d
 	METHOD b turnOff ()V
+	FIELD a lb Ljava/nio/FloatBuffer;

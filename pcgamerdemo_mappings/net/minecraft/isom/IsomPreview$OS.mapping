@@ -1,6 +1,0 @@
-CLASS hk net/minecraft/isom/IsomPreview$OS
-	FIELD a linux Lhk;
-	FIELD b solaris Lhk;
-	FIELD c windows Lhk;
-	FIELD d macos Lhk;
-	FIELD e unknown Lhk;

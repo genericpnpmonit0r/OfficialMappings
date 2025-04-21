@@ -1,5 +1,23 @@
-CLASS pg net/minecraft/client/multiplayer/MultiplayerLocalPlayer
-	FIELD bI connection Lkb;
+CLASS pv net/minecraft/client/multiplayer/MultiplayerLocalPlayer
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Leb;Lfk;Lko;)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 user
+		ARG 4 connection
+	METHOD D drop ()V
+	METHOD I swing ()V
+	METHOD a reallyDrop (Lgb;)V
+	METHOD a chat (Ljava/lang/String;)V
+	METHOD a hurt (Lpb;I)Z
+	METHOD a_ hurtTo (I)V
+	METHOD ah sendPosition ()V
+	METHOD ai ensureHasSentInventory ()V
+	METHOD b actuallyHurt (I)V
+	METHOD c heal (I)V
+	METHOD p_ respawn ()V
+	METHOD q closeContainer ()V
+	METHOD w_ tick ()V
+	FIELD bI connection Lko;
 	FIELD bJ lastInventorySendTime I
 	FIELD bK flashOnSetHealth Z
 	FIELD bL xLast D
@@ -11,10 +29,3 @@ CLASS pg net/minecraft/client/multiplayer/MultiplayerLocalPlayer
 	FIELD bR lastOnGround Z
 	FIELD bS lastSneaked Z
 	FIELD bT noSendTime I
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Ldt;Lfb;Lkb;)V
-		ARG 1 minecraft
-		ARG 2 level
-		ARG 3 user
-		ARG 4 connection
-	METHOD ad sendPosition ()V
-	METHOD ae ensureHasSentInventory ()V

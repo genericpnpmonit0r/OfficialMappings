@@ -1,16 +1,4 @@
-CLASS dx net/minecraft/client/model/HumanoidModel
-	FIELD a head Lmd;
-	FIELD b hair Lmd;
-	FIELD c body Lmd;
-	FIELD d arm0 Lmd;
-	FIELD e arm1 Lmd;
-	FIELD f leg2 Lmd;
-	FIELD g leg1 Lmd;
-	FIELD h ear Lmd;
-	FIELD i cloak Lmd;
-	FIELD j holdingLeftHand Z
-	FIELD k holdingRightHand Z
-	FIELD l sneaking Z
+CLASS ef net/minecraft/client/model/HumanoidModel
 	METHOD <init> (F)V
 		ARG 1 g
 	METHOD <init> (FF)V
@@ -18,5 +6,19 @@ CLASS dx net/minecraft/client/model/HumanoidModel
 		ARG 2 yOffset
 	METHOD a renderEars (F)V
 		ARG 1 scale
+	METHOD a render (FFFFFF)V
 	METHOD b renderCloak (F)V
 		ARG 1 scale
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a head Lms;
+	FIELD b hair Lms;
+	FIELD c body Lms;
+	FIELD d arm0 Lms;
+	FIELD e arm1 Lms;
+	FIELD f leg2 Lms;
+	FIELD g leg1 Lms;
+	FIELD h ear Lms;
+	FIELD i cloak Lms;
+	FIELD j holdingLeftHand Z
+	FIELD k holdingRightHand Z
+	FIELD l sneaking Z

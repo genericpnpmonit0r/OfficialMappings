@@ -1,12 +1,12 @@
-CLASS pi net/minecraft/client/multiplayer/MultiPlayerLevel$ResetInfo
+CLASS px net/minecraft/client/multiplayer/MultiPlayerLevel$ResetInfo
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
 	FIELD d ticks I
 	FIELD e tile I
 	FIELD f data I
-	FIELD g this$0 Ljr;
-	METHOD <init> (Ljr;IIIII)V
+	FIELD g this$0 Lke;
+	METHOD <init> (Lke;IIIII)V
 		ARG 1 this$0
 		ARG 2 x
 		ARG 3 y

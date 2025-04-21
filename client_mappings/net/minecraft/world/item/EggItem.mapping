@@ -1,1 +1,2 @@
-CLASS js net/minecraft/world/item/EggItem
+CLASS kf net/minecraft/world/item/EggItem
+	METHOD a use (Lhi;Leb;Lfm;)Lhi;

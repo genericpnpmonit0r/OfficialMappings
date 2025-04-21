@@ -1,8 +1,10 @@
-CLASS go net/minecraft/client/model/CreeperModel
-	FIELD a head Lmd;
-	FIELD b hair Lmd;
-	FIELD c body Lmd;
-	FIELD d leg0 Lmd;
-	FIELD e leg1 Lmd;
-	FIELD f leg2 Lmd;
-	FIELD g leg3 Lmd;
+CLASS gx net/minecraft/client/model/CreeperModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a head Lms;
+	FIELD b hair Lms;
+	FIELD c body Lms;
+	FIELD d leg0 Lms;
+	FIELD e leg1 Lms;
+	FIELD f leg2 Lms;
+	FIELD g leg3 Lms;

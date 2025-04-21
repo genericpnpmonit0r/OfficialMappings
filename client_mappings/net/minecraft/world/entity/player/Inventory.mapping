@@ -1,39 +1,40 @@
-CLASS gy net/minecraft/world/entity/player/Inventory
-	FIELD a items [Lgz;
-	FIELD b armor [Lgz;
-	FIELD c selected I
-	FIELD d changed Z
-	FIELD e player Lfd;
-	FIELD f carried Lgz;
-	METHOD <init> (Lfd;)V
+CLASS hh net/minecraft/world/entity/player/Inventory
+	METHOD <init> (Lfm;)V
 		ARG 1 player
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lhi;
+	METHOD a setItem (ILhi;)V
 	METHOD a grabTexture (IZ)V
 		ARG 1 id
 		ARG 2 b
-	METHOD a add (Lgz;)Z
+	METHOD a add (Lhi;)Z
 		ARG 1 item
-	METHOD a getAttackDamage (Lom;)I
+	METHOD a getAttackDamage (Lpb;)I
 		ARG 1 e
-	METHOD a save (Loo;)Loo;
+	METHOD a save (Lpd;)Lpd;
 		ARG 1 tag
-	METHOD a getDestroySpeed (Lqk;)F
+	METHOD a getDestroySpeed (Lra;)F
 		ARG 1 tile
-	METHOD b getSelected ()Lgz;
+	METHOD a_ stillValid (Lfm;)Z
+	METHOD b getSelected ()Lhi;
 	METHOD b swapPaint (I)V
 		ARG 1 id
-	METHOD b setCarried (Lgz;)V
+	METHOD b setCarried (Lhi;)V
 		ARG 1 item
-	METHOD b load (Loo;)V
+	METHOD b load (Lpd;)V
 		ARG 1 tag
-	METHOD b canDestroy (Lqk;)Z
+	METHOD b canDestroy (Lra;)Z
 		ARG 1 tile
+	METHOD c getName ()Ljava/lang/String;
 	METHOD c removeResource (I)Z
 		ARG 1 item
-	METHOD c getSlotWithRemainingSpace (Lgz;)I
+	METHOD c getSlotWithRemainingSpace (Lhi;)I
 		ARG 1 item
-	METHOD d getArmor (I)Lgz;
+	METHOD c_ getItem (I)Lhi;
+	METHOD d getMaxStackSize ()I
+	METHOD d getArmor (I)Lhi;
 		ARG 1 i
-	METHOD d addResource (Lgz;)I
+	METHOD d addResource (Lhi;)I
 		ARG 1 item
 	METHOD e tick ()V
 	METHOD e hurtArmor (I)V
@@ -42,5 +43,12 @@ CLASS gy net/minecraft/world/entity/player/Inventory
 	METHOD f getSlot (I)I
 		ARG 1 id
 	METHOD g dropAll ()V
-	METHOD i getCarried ()Lgz;
+	METHOD i getCarried ()Lhi;
 	METHOD j getFreeSlot ()I
+	METHOD x_ setChanged ()V
+	FIELD a items [Lhi;
+	FIELD b armor [Lhi;
+	FIELD c selected I
+	FIELD d player Lfm;
+	FIELD e changed Z
+	FIELD f carried Lhi;

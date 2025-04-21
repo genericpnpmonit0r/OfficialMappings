@@ -1,4 +1,8 @@
-CLASS ht net/minecraft/network/packet/EntityActionAtPositionPacket
+CLASS id net/minecraft/network/packet/EntityActionAtPositionPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
 	FIELD a entityId I
 	FIELD b x I
 	FIELD c y I

@@ -1,2 +1,4 @@
-CLASS nw net/minecraft/world/level/tile/EntityTile
-	METHOD a_ newTileEntity ()Lll;
+CLASS om net/minecraft/world/level/tile/EntityTile
+	METHOD a_ newTileEntity ()Lma;
+	METHOD b onRemove (Leb;III)V
+	METHOD e onPlace (Leb;III)V

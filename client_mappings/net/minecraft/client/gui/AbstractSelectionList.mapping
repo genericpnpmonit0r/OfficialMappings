@@ -1,4 +1,4 @@
-CLASS io net/minecraft/client/gui/AbstractSelectionList
+CLASS jb net/minecraft/client/gui/AbstractSelectionList
 	FIELD a minecraft Lnet/minecraft/client/Minecraft;
 	FIELD b width I
 	FIELD c height I
@@ -14,6 +14,7 @@ CLASS io net/minecraft/client/gui/AbstractSelectionList
 	FIELD m yo F
 	FIELD n unk_n I
 	FIELD o unk_o J
+	FIELD p unk_p Z
 	METHOD <init> (Lnet/minecraft/client/Minecraft;IIIII)V
 		ARG 1 minecraft
 		ARG 2 width
@@ -33,7 +34,7 @@ CLASS io net/minecraft/client/gui/AbstractSelectionList
 		ARG 2 y1
 		ARG 3 a0
 		ARG 4 a1
-	METHOD a renderItem (IIIILkv;)V
+	METHOD a renderItem (IIIILlj;)V
 		ARG 1 item
 		ARG 2 x
 		ARG 3 y
@@ -42,7 +43,7 @@ CLASS io net/minecraft/client/gui/AbstractSelectionList
 	METHOD a selectItem (IZ)V
 		ARG 1 item
 		ARG 2 selected
-	METHOD a buttonClicked (Lhw;)V
+	METHOD a buttonClicked (Lih;)V
 		ARG 1 button
 	METHOD a init (Ljava/util/List;II)V
 		ARG 1 buttons

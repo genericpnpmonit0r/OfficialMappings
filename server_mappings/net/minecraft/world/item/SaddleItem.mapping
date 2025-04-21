@@ -1,3 +1,0 @@
-CLASS jn net/minecraft/world/item/SaddleItem
-	METHOD a hurtEnemy (Ley;Lgh;)V
-	METHOD b interactEnemy (Ley;Lgh;)V

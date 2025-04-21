@@ -1,5 +1,10 @@
-CLASS mm net/minecraft/world/item/WeaponItem
-	FIELD a damage I
-	METHOD <init> (ILaz;)V
+CLASS nb net/minecraft/world/item/WeaponItem
+	METHOD <init> (ILbc;)V
 		ARG 1 id
 		ARG 2 tier
+	METHOD a mineBlock (Lhi;IIIILjm;)Z
+	METHOD a hurtEnemy (Lhi;Ljm;Ljm;)Z
+	METHOD a getDestroySpeed (Lhi;Lra;)F
+	METHOD a getAttackDamage (Lpb;)I
+	METHOD b isHandEquipped ()Z
+	FIELD a damage I

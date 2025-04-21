@@ -1,4 +1,4 @@
-CLASS md net/minecraft/client/model/Cube
+CLASS ms net/minecraft/client/model/Cube
 	FIELD a x F
 	FIELD b y F
 	FIELD c z F
@@ -8,8 +8,8 @@ CLASS md net/minecraft/client/model/Cube
 	FIELD g mirror Z
 	FIELD h visible Z
 	FIELD i neverRender Z
-	FIELD j vertices [Lge;
-	FIELD k polygons [Lpu;
+	FIELD j vertices [Lgn;
+	FIELD k polygons [Lqk;
 	FIELD l xTexOffs I
 	FIELD m yTexOffs I
 	FIELD n compiled Z
@@ -38,7 +38,9 @@ CLASS md net/minecraft/client/model/Cube
 		ARG 5 h
 		ARG 6 d
 		ARG 7 g
-	METHOD b translateTo (F)V
+	METHOD b render2 (F)V
 		ARG 1 scale
-	METHOD c compile (F)V
+	METHOD c translateTo (F)V
+		ARG 1 scale
+	METHOD d compile (F)V
 		ARG 1 scale

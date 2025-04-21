@@ -1,4 +1,0 @@
-CLASS cz net/minecraft/SharedConstants
-	FIELD a acceptableLetters Ljava/lang/String;
-	FIELD b invalidFilenameLetters [C
-	METHOD a readAcceptableChars ()Ljava/lang/String;

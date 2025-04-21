@@ -1,4 +1,0 @@
-CLASS dh net/minecraft/world/item/StoneSlabTileItem
-	METHOD a getLevelDataForAuxValue (I)I
-	METHOD a getIcon (Lha;)I
-	METHOD b getDescriptionId (Lha;)Ljava/lang/String;

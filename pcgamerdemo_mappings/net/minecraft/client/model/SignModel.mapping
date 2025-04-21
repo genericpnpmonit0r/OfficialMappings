@@ -1,4 +1,0 @@
-CLASS ni net/minecraft/client/model/SignModel
-	METHOD a render ()V
-	FIELD a cube Lmd;
-	FIELD b cube2 Lmd;

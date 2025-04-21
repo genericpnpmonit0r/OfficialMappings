@@ -1,4 +1,6 @@
-CLASS ny net/minecraft/world/level/tile/ClayTile
+CLASS oo net/minecraft/world/level/tile/ClayTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I

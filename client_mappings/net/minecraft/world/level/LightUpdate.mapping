@@ -1,12 +1,5 @@
-CLASS os net/minecraft/world/level/LightUpdate
-	FIELD a layer Lcx;
-	FIELD b x0 I
-	FIELD c y0 I
-	FIELD d z0 I
-	FIELD e x1 I
-	FIELD f y1 I
-	FIELD g z1 I
-	METHOD <init> (Lcx;IIIIII)V
+CLASS ph net/minecraft/world/level/LightUpdate
+	METHOD <init> (Lde;IIIIII)V
 		ARG 1 layer
 		ARG 2 x0
 		ARG 3 y0
@@ -21,5 +14,12 @@ CLASS os net/minecraft/world/level/LightUpdate
 		ARG 4 x1
 		ARG 5 y1
 		ARG 6 z1
-	METHOD a update (Ldt;)V
+	METHOD a update (Leb;)V
 		ARG 1 level
+	FIELD a layer Lde;
+	FIELD b x0 I
+	FIELD c y0 I
+	FIELD d z0 I
+	FIELD e x1 I
+	FIELD f y1 I
+	FIELD g z1 I

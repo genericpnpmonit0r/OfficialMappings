@@ -1,8 +1,4 @@
-CLASS ad net/minecraft/world/level/levelgen/synth/ImprovedNoise
-	FIELD a xo D
-	FIELD b yo D
-	FIELD c zo D
-	FIELD d p [I
+CLASS ae net/minecraft/world/level/levelgen/synth/ImprovedNoise
 	METHOD <init> (Ljava/util/Random;)V
 		ARG 1 random
 	METHOD a getValue (DD)D
@@ -37,3 +33,7 @@ CLASS ad net/minecraft/world/level/levelgen/synth/ImprovedNoise
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
+	FIELD a xo D
+	FIELD b yo D
+	FIELD c zo D
+	FIELD d p [I

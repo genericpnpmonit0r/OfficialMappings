@@ -1,1 +1,2 @@
-CLASS kr net/minecraft/world/entity/monster/Giant
+CLASS lf net/minecraft/world/entity/monster/Giant
+	METHOD a getWalkTargetValue (III)F

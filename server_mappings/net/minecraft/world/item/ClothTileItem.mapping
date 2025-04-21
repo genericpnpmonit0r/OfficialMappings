@@ -1,2 +1,0 @@
-CLASS ai net/minecraft/world/item/ClothTileItem
-	METHOD a getLevelDataForAuxValue (I)I

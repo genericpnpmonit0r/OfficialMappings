@@ -1,4 +1,7 @@
-CLASS qc com/mojang/nbt/ShortTag
-	FIELD a data S
+CLASS qs com/mojang/nbt/ShortTag
 	METHOD <init> (S)V
 		ARG 1 data
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	FIELD a data S

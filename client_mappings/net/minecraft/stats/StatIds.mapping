@@ -1,0 +1,6 @@
+CLASS a net/minecraft/stats/StatIds
+	COMMENT total wildcard
+	FIELD a instance La;
+	FIELD b idMap Ljava/util/Map;
+	METHOD a getUUID (I)Ljava/lang/String;
+		ARG 0 id

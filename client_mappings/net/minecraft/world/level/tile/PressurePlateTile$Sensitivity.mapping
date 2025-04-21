@@ -1,4 +1,4 @@
-CLASS nu net/minecraft/world/level/tile/PressurePlateTile$Sensitivity
-	FIELD a everything Lnu;
-	FIELD b mobs Lnu;
-	FIELD c players Lnu;
+CLASS ok net/minecraft/world/level/tile/PressurePlateTile$Sensitivity
+	FIELD a everything Lok;
+	FIELD b mobs Lok;
+	FIELD c players Lok;

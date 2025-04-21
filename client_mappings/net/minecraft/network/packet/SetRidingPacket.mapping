@@ -1,3 +1,7 @@
-CLASS kq net/minecraft/network/packet/SetRidingPacket
+CLASS le net/minecraft/network/packet/SetRidingPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
 	FIELD a riderId I
 	FIELD b riddenId I

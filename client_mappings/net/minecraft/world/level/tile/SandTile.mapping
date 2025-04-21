@@ -1,15 +1,19 @@
-CLASS ew net/minecraft/world/level/tile/SandTile
-	FIELD a instaFall Z
+CLASS ff net/minecraft/world/level/tile/SandTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD b_ isFree (Ldt;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD b_ isFree (Leb;III)Z
 		ARG 0 level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD h checkSlide (Ldt;III)V
+	METHOD d getTickDelay ()I
+	METHOD e onPlace (Leb;III)V
+	METHOD h checkSlide (Leb;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	FIELD a instaFall Z

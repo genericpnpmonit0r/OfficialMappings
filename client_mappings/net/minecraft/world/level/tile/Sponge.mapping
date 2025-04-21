@@ -1,3 +1,5 @@
-CLASS sh net/minecraft/world/level/tile/Sponge
+CLASS tc net/minecraft/world/level/tile/Sponge
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD b onRemove (Leb;III)V
+	METHOD e onPlace (Leb;III)V

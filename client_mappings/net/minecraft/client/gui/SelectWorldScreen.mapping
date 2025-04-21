@@ -1,43 +1,47 @@
-CLASS nr net/minecraft/client/gui/SelectWorldScreen
-	FIELD a lastScreen Lcb;
-	FIELD h title Ljava/lang/String;
-	FIELD i df Ljava/text/DateFormat;
-	FIELD k done Z
-	FIELD l selected I
-	FIELD m levelList Ljava/util/List;
-	FIELD n selectionMenu Ljn;
-	FIELD o world Ljava/lang/String;
-	FIELD p conversion Ljava/lang/String;
-	FIELD q unk_q Z
-	FIELD r renameButton Lhw;
-	FIELD s selectButton Lhw;
-	FIELD t deleteButton Lhw;
-	METHOD <init> (Lcb;)V
+CLASS oh net/minecraft/client/gui/SelectWorldScreen
+	METHOD <init> (Lcf;)V
 		ARG 1 lastScreen
-	METHOD a access$000 (Lnr;)Ljava/util/List;
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lih;)V
+	METHOD a access$000 (Loh;)Ljava/util/List;
 		ARG 0 this$0
-	METHOD a access$100 (Lnr;I)I
+	METHOD a access$100 (Loh;I)I
 		ARG 0 this$0
 		ARG 1 selected
-	METHOD b access$200 (Lnr;)I
+	METHOD a confirmResult (ZI)V
+	METHOD b access$200 (Loh;)I
 		ARG 0 this$0
 	METHOD c getLevelId (I)Ljava/lang/String;
 		ARG 1 i
-	METHOD c access$300 (Lnr;)Lhw;
+	METHOD c access$300 (Loh;)Lih;
 		ARG 0 this$0
 	METHOD d getWorldName (I)Ljava/lang/String;
 		ARG 1 i
-	METHOD d access$400 (Lnr;)Lhw;
+	METHOD d access$400 (Loh;)Lih;
 		ARG 0 this$0
 	METHOD e worldSelected (I)V
 		ARG 1 i
-	METHOD e access$500 (Lnr;)Lhw;
+	METHOD e access$500 (Loh;)Lih;
 		ARG 0 this$0
-	METHOD f access$600 (Lnr;)Ljava/lang/String;
+	METHOD f access$600 (Loh;)Ljava/lang/String;
 		ARG 0 this$0
-	METHOD g access$700 (Lnr;)Ljava/text/DateFormat;
+	METHOD g access$700 (Loh;)Ljava/text/DateFormat;
 		ARG 0 this$0
-	METHOD h access$800 (Lnr;)Ljava/lang/String;
+	METHOD h access$800 (Loh;)Ljava/lang/String;
 		ARG 0 this$0
 	METHOD j postInit ()V
 	METHOD k unk_k ()V
+	FIELD a lastScreen Lcf;
+	FIELD i title Ljava/lang/String;
+	FIELD j df Ljava/text/DateFormat;
+	FIELD l done Z
+	FIELD m selected I
+	FIELD n levelList Ljava/util/List;
+	FIELD o selectionMenu Lka;
+	FIELD p world Ljava/lang/String;
+	FIELD q conversion Ljava/lang/String;
+	FIELD r unk_q Z
+	FIELD s renameButton Lih;
+	FIELD t selectButton Lih;
+	FIELD u deleteButton Lih;

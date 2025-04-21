@@ -1,1 +1,2 @@
-CLASS je net/minecraft/world/level/tile/LightGemTile
+CLASS jr net/minecraft/world/level/tile/LightGemTile
+	METHOD a getResource (ILjava/util/Random;)I

@@ -1,2 +1,0 @@
-CLASS nm net/minecraft/world/item/PaintingItem
-	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z

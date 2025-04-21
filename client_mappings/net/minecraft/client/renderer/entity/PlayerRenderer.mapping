@@ -1,7 +1,14 @@
-CLASS cr net/minecraft/client/renderer/entity/PlayerRenderer
-	FIELD a humanoidModel Ldx;
-	FIELD g armorParts1 Ldx;
-	FIELD h armorParts2 Ldx;
-	FIELD i MATERIAL_NAMES [Ljava/lang/String;
+CLASS cx net/minecraft/client/renderer/entity/PlayerRenderer
+	METHOD a renderName (Ljm;DDD)V
+	METHOD a scale (Ljm;F)V
+	METHOD a setupRotations (Ljm;FFF)V
+	METHOD a prepareArmor (Ljm;IF)Z
+	METHOD a render (Lpb;DDDFF)V
 	METHOD b renderHand ()V
-	METHOD b scale (Lfd;F)V
+	METHOD b scale (Lfm;F)V
+	METHOD b setupPosition (Ljm;DDD)V
+	METHOD b additionalRendering (Ljm;F)V
+	FIELD a humanoidModel Lef;
+	FIELD g armorParts1 Lef;
+	FIELD h armorParts2 Lef;
+	FIELD i MATERIAL_NAMES [Ljava/lang/String;

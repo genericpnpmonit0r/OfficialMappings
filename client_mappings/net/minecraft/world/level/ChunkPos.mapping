@@ -1,6 +1,4 @@
-CLASS tt net/minecraft/world/level/ChunkPos
-	FIELD a x I
-	FIELD b z I
+CLASS uq net/minecraft/world/level/ChunkPos
 	METHOD <init> (II)V
 		ARG 1 x
 		ARG 2 z
@@ -9,3 +7,5 @@ CLASS tt net/minecraft/world/level/ChunkPos
 		ARG 1 z
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
+	FIELD a x I
+	FIELD b z I

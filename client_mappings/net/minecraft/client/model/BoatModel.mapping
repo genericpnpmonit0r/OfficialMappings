@@ -1,2 +1,4 @@
-CLASS dq net/minecraft/client/model/BoatModel
-	FIELD a cubes [Lmd;
+CLASS dy net/minecraft/client/model/BoatModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a cubes [Lms;

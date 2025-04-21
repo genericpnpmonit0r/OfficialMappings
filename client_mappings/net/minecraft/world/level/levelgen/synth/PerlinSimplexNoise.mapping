@@ -1,6 +1,4 @@
-CLASS py net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise
-	FIELD a noiseLevels [Lbg;
-	FIELD b levels I
+CLASS qo net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise
 	METHOD <init> (Ljava/util/Random;I)V
 		ARG 1 random
 		ARG 2 levels
@@ -23,3 +21,5 @@ CLASS py net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise
 		ARG 10 g
 		ARG 12 h
 		ARG 14 i
+	FIELD a noiseLevels [Lbk;
+	FIELD b levels I

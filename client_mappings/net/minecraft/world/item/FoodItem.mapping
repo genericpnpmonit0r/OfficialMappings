@@ -1,5 +1,10 @@
-CLASS tr net/minecraft/world/item/FoodItem
+CLASS uo net/minecraft/world/item/FoodItem
 	FIELD a nutrition I
-	METHOD <init> (II)V
+	FIELD bi meat Z
+	METHOD <init> (IIZ)V
 		ARG 1 id
 		ARG 2 nutrition
+		ARG 3 meat
+	METHOD a use (Lhi;Leb;Lfm;)Lhi;
+	METHOD l getNutrition ()I
+	METHOD m isMeat ()Z

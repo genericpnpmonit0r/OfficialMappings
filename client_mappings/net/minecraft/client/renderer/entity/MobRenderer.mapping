@@ -1,52 +1,53 @@
-CLASS ff net/minecraft/client/renderer/entity/MobRenderer
-	FIELD e model Lic;
-	FIELD f armor Lic;
-	METHOD <init> (Lic;F)V
+CLASS fo net/minecraft/client/renderer/entity/MobRenderer
+	METHOD <init> (Lin;F)V
 		ARG 1 model
 		ARG 2 shadow
-	METHOD a setArmor (Lic;)V
+	METHOD a setArmor (Lin;)V
 		ARG 1 armor
-	METHOD a getFlipDegrees (Liz;)F
+	METHOD a getFlipDegrees (Ljm;)F
 		ARG 1 mob
-	METHOD a renderName (Liz;DDD)V
+	METHOD a renderName (Ljm;DDD)V
 		ARG 1 mob
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a scale (Liz;F)V
+	METHOD a scale (Ljm;F)V
 		ARG 1 mob
 		ARG 2 a
-	METHOD a getOverlayColor (Liz;FF)I
+	METHOD a getOverlayColor (Ljm;FF)I
 		ARG 1 mob
 		ARG 2 br
 		ARG 3 a
-	METHOD a setupRotations (Liz;FFF)V
+	METHOD a setupRotations (Ljm;FFF)V
 		ARG 1 mob
 		ARG 2 bob
 		ARG 3 bodyRot
 		ARG 4 a
-	METHOD a prepareArmor (Liz;IF)Z
+	METHOD a prepareArmor (Ljm;IF)Z
 		ARG 1 mob
 		ARG 2 layer
 		ARG 3 a
-	METHOD a renderNameTag (Liz;Ljava/lang/String;DDDI)V
+	METHOD a renderNameTag (Ljm;Ljava/lang/String;DDDI)V
 		ARG 1 mob
 		ARG 2 name
 		ARG 3 x
 		ARG 5 y
 		ARG 7 z
 		ARG 9 maxDist
-	METHOD b setupPosition (Liz;DDD)V
+	METHOD a render (Lpb;DDDFF)V
+	METHOD b setupPosition (Ljm;DDD)V
 		ARG 1 mob
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD b additionalRendering (Liz;F)V
+	METHOD b additionalRendering (Ljm;F)V
 		ARG 1 mob
 		ARG 2 a
-	METHOD c getBob (Liz;F)F
+	METHOD c getBob (Ljm;F)F
 		ARG 1 mob
 		ARG 2 a
-	METHOD d getAttackAnim (Liz;F)F
+	METHOD d getAttackAnim (Ljm;F)F
 		ARG 1 mob
 		ARG 2 a
+	FIELD e model Lin;
+	FIELD f armor Lin;

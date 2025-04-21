@@ -1,32 +1,4 @@
-CLASS kv net/minecraft/client/renderer/Tesselator
-	FIELD A vboCounts I
-	FIELD B size I
-	FIELD a instance Lkv;
-	FIELD b TRIANGLE_MODE Z
-	FIELD c USE_VBO Z
-	FIELD d buffer Ljava/nio/ByteBuffer;
-	FIELD e ib Ljava/nio/IntBuffer;
-	FIELD f fb Ljava/nio/FloatBuffer;
-	FIELD g array [I
-	FIELD h vertices I
-	FIELD i u D
-	FIELD j v D
-	FIELD k col I
-	FIELD l hasColor Z
-	FIELD m hasTexture Z
-	FIELD n hasNormal Z
-	FIELD o p I
-	FIELD p count I
-	FIELD q noColor Z
-	FIELD r mode I
-	FIELD s xo D
-	FIELD t yo D
-	FIELD u zo D
-	FIELD v normal I
-	FIELD w tesselating Z
-	FIELD x vboMode Z
-	FIELD y vboIds Ljava/nio/IntBuffer;
-	FIELD z vboId I
+CLASS lj net/minecraft/client/renderer/Tesselator
 	METHOD <init> (I)V
 		ARG 1 size
 	METHOD a end ()V
@@ -83,3 +55,31 @@ CLASS kv net/minecraft/client/renderer/Tesselator
 		ARG 2 y
 		ARG 3 z
 	METHOD d clear ()V
+	FIELD A vboCounts I
+	FIELD B size I
+	FIELD a instance Llj;
+	FIELD b TRIANGLE_MODE Z
+	FIELD c USE_VBO Z
+	FIELD d buffer Ljava/nio/ByteBuffer;
+	FIELD e ib Ljava/nio/IntBuffer;
+	FIELD f fb Ljava/nio/FloatBuffer;
+	FIELD g array [I
+	FIELD h vertices I
+	FIELD i u D
+	FIELD j v D
+	FIELD k col I
+	FIELD l hasColor Z
+	FIELD m hasTexture Z
+	FIELD n hasNormal Z
+	FIELD o p I
+	FIELD p count I
+	FIELD q noColor Z
+	FIELD r mode I
+	FIELD s xo D
+	FIELD t yo D
+	FIELD u zo D
+	FIELD v normal I
+	FIELD w tesselating Z
+	FIELD x vboMode Z
+	FIELD y vboIds Ljava/nio/IntBuffer;
+	FIELD z vboId I

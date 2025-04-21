@@ -1,13 +1,19 @@
-CLASS qt net/minecraft/world/level/tile/BedTile
-	FIELD a HEAD_DIRECTION_OFFSETS [[I
+CLASS rj net/minecraft/world/level/tile/BedTile
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a setOccupied (Ldt;IIIZ)V
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a use (Leb;IIILfm;)Z
+	METHOD a setOccupied (Leb;IIIZ)V
 		ARG 0 level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 occupied
+	METHOD a updateShape (Ltk;III)V
+	METHOD b isCubeShaped ()Z
 	METHOD c getDir (I)I
 		COMMENT total guess
 		COMMENT your guess is as good as mine
@@ -16,10 +22,12 @@ CLASS qt net/minecraft/world/level/tile/BedTile
 		ARG 0 data
 	METHOD f isOccupied (I)Z
 		ARG 0 data
-	METHOD g findStandUpPosition (Ldt;IIII)Lav;
+	METHOD f findStandUpPosition (Leb;IIII)Lay;
 		ARG 0 level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 i
-	METHOD j setShape ()V
+	METHOD g getRenderShape ()I
+	METHOD k setShape ()V
+	FIELD a HEAD_DIRECTION_OFFSETS [[I

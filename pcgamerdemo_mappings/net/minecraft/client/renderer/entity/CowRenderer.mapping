@@ -1,2 +1,0 @@
-CLASS qs net/minecraft/client/renderer/entity/CowRenderer
-	METHOD a render (Loo;DDDFF)V

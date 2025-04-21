@@ -1,41 +1,22 @@
-CLASS td net/minecraft/world/level/levelgen/RandomLevelSource
-	FIELD a scaleNoise Lpx;
-	FIELD b depthNoise Lpx;
-	FIELD c forestNoise Lpx;
-	FIELD d pnr [D
-	FIELD e ar [D
-	FIELD f br [D
-	FIELD g sr [D
-	FIELD h dr [D
-	FIELD i waterDepths [[I
-	FIELD j random Ljava/util/Random;
-	FIELD k lperlinNoise1 Lpx;
-	FIELD l lperlinNoise2 Lpx;
-	FIELD m perlinNoise1 Lpx;
-	FIELD n perlinNoise2 Lpx;
-	FIELD o perlinNoise3 Lpx;
-	FIELD p level Ldt;
-	FIELD q buffer [D
-	FIELD r sandBuffer [D
-	FIELD s gravelBuffer [D
-	FIELD t depthBuffer [D
-	FIELD u caveFeature Lek;
-	FIELD v biomes [Lhv;
-	FIELD w temperatures [D
-	METHOD <init> (Ldt;J)V
+CLASS tz net/minecraft/world/level/levelgen/RandomLevelSource
+	METHOD <init> (Leb;J)V
 		ARG 1 level
 		ARG 2 seed
-	METHOD a buildSurfaces (II[B[Lhv;)V
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a buildSurfaces (II[B[Lig;)V
 		ARG 1 x
 		ARG 2 z
 		ARG 3 blocks
 		ARG 4 biomes
-	METHOD a prepareHeights (II[B[Lhv;[D)V
+	METHOD a prepareHeights (II[B[Lig;[D)V
 		ARG 1 x
 		ARG 2 z
 		ARG 3 blocks
 		ARG 4 biomes
 		ARG 5 temperatures
+	METHOD a postProcess (Lbs;II)V
+	METHOD a save (ZLtw;)Z
 	METHOD a getHeights ([DIIIIII)[D
 		ARG 1 heights
 		ARG 2 a
@@ -44,3 +25,30 @@ CLASS td net/minecraft/world/level/levelgen/RandomLevelSource
 		ARG 5 x
 		ARG 6 y
 		ARG 7 z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Ljg;
+	METHOD c gatherStats ()Ljava/lang/String;
+	METHOD c create (II)Ljg;
+	FIELD a scaleNoise Lqn;
+	FIELD b depthNoise Lqn;
+	FIELD c forestNoise Lqn;
+	FIELD d pnr [D
+	FIELD e ar [D
+	FIELD f br [D
+	FIELD g sr [D
+	FIELD h dr [D
+	FIELD i waterDepths [[I
+	FIELD j random Ljava/util/Random;
+	FIELD k lperlinNoise1 Lqn;
+	FIELD l lperlinNoise2 Lqn;
+	FIELD m perlinNoise1 Lqn;
+	FIELD n perlinNoise2 Lqn;
+	FIELD o perlinNoise3 Lqn;
+	FIELD p level Leb;
+	FIELD q buffer [D
+	FIELD r sandBuffer [D
+	FIELD s gravelBuffer [D
+	FIELD t depthBuffer [D
+	FIELD u caveFeature Les;
+	FIELD v biomes [Lig;
+	FIELD w temperatures [D

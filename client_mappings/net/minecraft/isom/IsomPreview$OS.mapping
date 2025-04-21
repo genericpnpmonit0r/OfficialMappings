@@ -1,6 +1,6 @@
-CLASS hj net/minecraft/isom/IsomPreview$OS
-	FIELD a linux Lhj;
-	FIELD b solaris Lhj;
-	FIELD c windows Lhj;
-	FIELD d macos Lhj;
-	FIELD e unknown Lhj;
+CLASS ht net/minecraft/isom/IsomPreview$OS
+	FIELD a linux Lht;
+	FIELD b solaris Lht;
+	FIELD c windows Lht;
+	FIELD d macos Lht;
+	FIELD e unknown Lht;

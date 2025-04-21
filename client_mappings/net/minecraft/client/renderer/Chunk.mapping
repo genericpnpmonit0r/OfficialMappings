@@ -1,11 +1,36 @@
-CLASS ck net/minecraft/client/renderer/Chunk
+CLASS cp net/minecraft/client/renderer/Chunk
+	METHOD <init> (Leb;Ljava/util/List;IIIII)V
+		ARG 1 level
+		ARG 2 globalRenderableTileEntities
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 size
+		ARG 7 lists
+	METHOD a rebuild ()V
+	METHOD a getList (I)I
+		ARG 1 layer
+	METHOD a setPos (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a distanceToSqr (Lpb;)F
+		ARG 1 player
+	METHOD a cull (Lui;)V
+		ARG 1 culler
+	METHOD b reset ()V
+	METHOD c delete ()V
+	METHOD d renderBB ()V
+	METHOD e isEmpty ()Z
+	METHOD f setDirty ()V
+	METHOD g translateToPos ()V
 	FIELD A skyLit Z
 	FIELD B renderableTileEntities Ljava/util/List;
 	FIELD C lists I
-	FIELD D t Lkv;
+	FIELD D t Llj;
 	FIELD E compiled Z
 	FIELD F globalRenderableTileEntities Ljava/util/List;
-	FIELD a level Ldt;
+	FIELD a level Leb;
 	FIELD b updates I
 	FIELD c x I
 	FIELD d y I
@@ -26,33 +51,8 @@ CLASS ck net/minecraft/client/renderer/Chunk
 	FIELD s zm I
 	FIELD t radius F
 	FIELD u dirty Z
-	FIELD v bb Ldi;
+	FIELD v bb Ldq;
 	FIELD w id I
 	FIELD x occlusion_visible Z
 	FIELD y occlusion_querying Z
 	FIELD z occlusion_id I
-	METHOD <init> (Ldt;Ljava/util/List;IIIII)V
-		ARG 1 level
-		ARG 2 globalRenderableTileEntities
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z
-		ARG 6 size
-		ARG 7 lists
-	METHOD a rebuild ()V
-	METHOD a getList (I)I
-		ARG 1 layer
-	METHOD a setPos (III)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-	METHOD a distanceToSqr (Lom;)F
-		ARG 1 player
-	METHOD a cull (Ltl;)V
-		ARG 1 culler
-	METHOD b reset ()V
-	METHOD c delete ()V
-	METHOD d renderBB ()V
-	METHOD e isEmpty ()Z
-	METHOD f setDirty ()V
-	METHOD g translateToPos ()V

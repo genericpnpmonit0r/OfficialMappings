@@ -1,4 +1,8 @@
-CLASS jt net/minecraft/network/packet/ContainerClosePacket
-	FIELD a containerId I
+CLASS kg net/minecraft/network/packet/ContainerClosePacket
 	METHOD <init> (I)V
 		ARG 1 containerId
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
+	FIELD a containerId I

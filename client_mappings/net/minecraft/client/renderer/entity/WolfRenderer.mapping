@@ -1,0 +1,4 @@
+CLASS sg net/minecraft/client/renderer/entity/WolfRenderer
+	METHOD a scale (Ljm;F)V
+	METHOD a render (Lpb;DDDFF)V
+	METHOD c getBob (Ljm;F)F

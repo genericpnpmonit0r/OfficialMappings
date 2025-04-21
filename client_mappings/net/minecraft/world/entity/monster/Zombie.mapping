@@ -1,1 +1,6 @@
-CLASS qo net/minecraft/world/entity/monster/Zombie
+CLASS re net/minecraft/world/entity/monster/Zombie
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD i_ getDeathSound ()Ljava/lang/String;
+	METHOD n aiStep ()V

@@ -1,1 +1,2 @@
-CLASS nx net/minecraft/world/item/CoalItem
+CLASS on net/minecraft/world/item/CoalItem
+	METHOD b getDescriptionId (Lhi;)Ljava/lang/String;

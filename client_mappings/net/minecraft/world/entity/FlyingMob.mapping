@@ -1,1 +1,4 @@
-CLASS ru net/minecraft/world/entity/FlyingMob
+CLASS sp net/minecraft/world/entity/FlyingMob
+	METHOD a_ travel (FF)V
+	METHOD b causeFallDamage (F)V
+	METHOD o onLadder ()Z

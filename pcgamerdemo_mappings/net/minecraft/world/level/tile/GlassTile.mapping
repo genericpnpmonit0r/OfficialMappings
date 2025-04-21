@@ -1,2 +1,0 @@
-CLASS eb net/minecraft/world/level/tile/GlassTile
-	METHOD a getResourceCount (Ljava/util/Random;)I

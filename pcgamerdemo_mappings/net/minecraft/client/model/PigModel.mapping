@@ -1,3 +1,0 @@
-CLASS dc net/minecraft/client/model/PigModel
-	METHOD <init> (F)V
-		ARG 1 grow

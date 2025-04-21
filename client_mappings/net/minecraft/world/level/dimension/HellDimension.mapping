@@ -1,1 +1,8 @@
-CLASS rl net/minecraft/world/level/dimension/HellDimension
+CLASS sf net/minecraft/world/level/dimension/HellDimension
+	METHOD a init ()V
+	METHOD a getFogColor (FF)Lbb;
+	METHOD a isValidSpawn (II)Z
+	METHOD a getTimeOfDay (JF)F
+	METHOD b updateLightRamp ()V
+	METHOD c createRandomLevelSource ()Lbs;
+	METHOD d mayRespawn ()Z

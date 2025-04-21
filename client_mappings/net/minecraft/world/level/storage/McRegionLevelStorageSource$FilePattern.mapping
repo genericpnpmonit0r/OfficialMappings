@@ -1,6 +1,6 @@
-CLASS nt net/minecraft/world/level/storage/McRegionLevelStorageSource$FilePattern
+CLASS oj net/minecraft/world/level/storage/McRegionLevelStorageSource$FilePattern
 	FIELD a FILE_PATTERN Ljava/util/regex/Pattern;
-	METHOD <init> (Lgf;)V
+	METHOD <init> (Lgo;)V
 		ARG 1 a
 	METHOD accept accept (Ljava/io/File;Ljava/lang/String;)Z
 		ARG 1 dir

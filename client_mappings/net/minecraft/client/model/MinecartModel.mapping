@@ -1,2 +1,4 @@
-CLASS ko net/minecraft/client/model/MinecartModel
-	FIELD a cubes [Lmd;
+CLASS lc net/minecraft/client/model/MinecartModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a cubes [Lms;

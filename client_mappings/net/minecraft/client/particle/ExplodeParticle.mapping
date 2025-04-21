@@ -1,1 +1,3 @@
-CLASS fh net/minecraft/client/particle/ExplodeParticle
+CLASS fq net/minecraft/client/particle/ExplodeParticle
+	METHOD a render (Llj;FFFFFF)V
+	METHOD w_ tick ()V

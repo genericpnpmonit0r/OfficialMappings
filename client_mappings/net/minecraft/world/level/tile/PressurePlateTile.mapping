@@ -1,11 +1,26 @@
-CLASS ba net/minecraft/world/level/tile/PressurePlateTile
-	FIELD a sensitivity Lnu;
-	METHOD <init> (IILnu;)V
+CLASS bd net/minecraft/world/level/tile/PressurePlateTile
+	METHOD <init> (IILok;)V
 		ARG 1 id
 		ARG 2 tex
 		ARG 3 sensitivity
-	METHOD h checkPressed (Ldt;III)V
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Leb;III)Z
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a tick (Leb;IIILjava/util/Random;)V
+	METHOD a entityInside (Leb;IIILpb;)V
+	METHOD a updateShape (Ltk;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD b onRemove (Leb;III)V
+	METHOD c getDirectSignal (Leb;IIII)Z
+	METHOD c getSignal (Ltk;IIII)Z
+	METHOD d getTickDelay ()I
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD e isSignalSource ()Z
+	METHOD e onPlace (Leb;III)V
+	METHOD f updateDefaultShape ()V
+	METHOD h checkPressed (Leb;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
+	FIELD a sensitivity Lok;

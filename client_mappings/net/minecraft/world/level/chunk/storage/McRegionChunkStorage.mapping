@@ -1,4 +1,9 @@
-CLASS il net/minecraft/world/level/chunk/storage/McRegionChunkStorage
-	FIELD a dir Ljava/io/File;
+CLASS iy net/minecraft/world/level/chunk/storage/McRegionChunkStorage
 	METHOD <init> (Ljava/io/File;)V
 		ARG 1 dir
+	METHOD a tick ()V
+	METHOD a load (Leb;II)Ljg;
+	METHOD a save (Leb;Ljg;)V
+	METHOD b flush ()V
+	METHOD b saveEntities (Leb;Ljg;)V
+	FIELD a dir Ljava/io/File;

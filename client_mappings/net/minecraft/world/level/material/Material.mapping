@@ -1,33 +1,33 @@
-CLASS iu net/minecraft/world/level/material/Material
-	FIELD a air Liu;
-	FIELD b dirt Liu;
-	FIELD c wood Liu;
-	FIELD d stone Liu;
-	FIELD e metal Liu;
-	FIELD f water Liu;
-	FIELD g lava Liu;
-	FIELD h leaves Liu;
-	FIELD i plant Liu;
-	FIELD j sponge Liu;
-	FIELD k cloth Liu;
-	FIELD l fire Liu;
-	FIELD m sand Liu;
-	FIELD n decoration Liu;
-	FIELD o glass Liu;
-	FIELD p explosive Liu;
-	FIELD q coral Liu;
-	FIELD r ice Liu;
-	FIELD s topSnow Liu;
-	FIELD t snow Liu;
-	FIELD u cactus Liu;
-	FIELD v clay Liu;
-	FIELD w vegetable Liu;
-	FIELD x portal Liu;
-	FIELD y cake Liu;
-	FIELD z flammable Z
+CLASS jh net/minecraft/world/level/material/Material
 	METHOD a isSolid ()Z
 	METHOD b blocksLight ()Z
 	METHOD c blocksMotion ()Z
 	METHOD d isLiquid ()Z
 	METHOD e isFlammable ()Z
-	METHOD f flammable ()Liu;
+	METHOD f flammable ()Ljh;
+	FIELD a air Ljh;
+	FIELD b dirt Ljh;
+	FIELD c wood Ljh;
+	FIELD d stone Ljh;
+	FIELD e metal Ljh;
+	FIELD f water Ljh;
+	FIELD g lava Ljh;
+	FIELD h leaves Ljh;
+	FIELD i plant Ljh;
+	FIELD j sponge Ljh;
+	FIELD k cloth Ljh;
+	FIELD l fire Ljh;
+	FIELD m sand Ljh;
+	FIELD n decoration Ljh;
+	FIELD o glass Ljh;
+	FIELD p explosive Ljh;
+	FIELD q coral Ljh;
+	FIELD r ice Ljh;
+	FIELD s topSnow Ljh;
+	FIELD t snow Ljh;
+	FIELD u cactus Ljh;
+	FIELD v clay Ljh;
+	FIELD w vegetable Ljh;
+	FIELD x portal Ljh;
+	FIELD y cake Ljh;
+	FIELD z flammable Z

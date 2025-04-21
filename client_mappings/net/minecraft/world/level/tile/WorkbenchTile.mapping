@@ -1,3 +1,5 @@
-CLASS dy net/minecraft/world/level/tile/WorkbenchTile
+CLASS eg net/minecraft/world/level/tile/WorkbenchTile
 	METHOD <init> (I)V
 		ARG 1 id
+	METHOD a getTexture (I)I
+	METHOD a use (Leb;IIILfm;)Z

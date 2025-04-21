@@ -1,1 +1,2 @@
-CLASS kc net/minecraft/world/level/tile/GravelTile
+CLASS kp net/minecraft/world/level/tile/GravelTile
+	METHOD a getResource (ILjava/util/Random;)I

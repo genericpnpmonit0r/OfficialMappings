@@ -1,9 +1,9 @@
-CLASS rq util/IntHashMap$Entry
+CLASS sl util/IntHashMap$Entry
 	FIELD a key I
 	FIELD b value Ljava/lang/Object;
-	FIELD c next Lrq;
+	FIELD c next Lsl;
 	FIELD d hash I
-	METHOD <init> (IILjava/lang/Object;Lrq;)V
+	METHOD <init> (IILjava/lang/Object;Lsl;)V
 		ARG 1 h
 		ARG 2 k
 		ARG 3 v

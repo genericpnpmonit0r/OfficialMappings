@@ -1,6 +1,5 @@
-CLASS gp net/minecraft/client/particle/RedDustParticle
-	FIELD a oSize F
-	METHOD <init> (Ldt;DDDFFF)V
+CLASS gy net/minecraft/client/particle/RedDustParticle
+	METHOD <init> (Leb;DDDFFF)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
@@ -8,7 +7,7 @@ CLASS gp net/minecraft/client/particle/RedDustParticle
 		ARG 8 xa
 		ARG 9 ya
 		ARG 10 za
-	METHOD <init> (Ldt;DDDFFFF)V
+	METHOD <init> (Leb;DDDFFFF)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
@@ -17,3 +16,6 @@ CLASS gp net/minecraft/client/particle/RedDustParticle
 		ARG 9 r
 		ARG 10 g
 		ARG 11 b
+	METHOD a render (Llj;FFFFFF)V
+	METHOD w_ tick ()V
+	FIELD a oSize F

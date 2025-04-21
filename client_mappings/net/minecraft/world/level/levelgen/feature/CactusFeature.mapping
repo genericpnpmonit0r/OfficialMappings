@@ -1,1 +1,2 @@
-CLASS em net/minecraft/world/level/levelgen/feature/CactusFeature
+CLASS eu net/minecraft/world/level/levelgen/feature/CactusFeature
+	METHOD a place (Leb;Ljava/util/Random;III)Z

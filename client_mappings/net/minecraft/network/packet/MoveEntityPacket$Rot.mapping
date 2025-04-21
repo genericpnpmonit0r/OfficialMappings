@@ -1,1 +1,4 @@
-CLASS oa net/minecraft/network/packet/MoveEntityPacket$Rot
+CLASS oq net/minecraft/network/packet/MoveEntityPacket$Rot
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V

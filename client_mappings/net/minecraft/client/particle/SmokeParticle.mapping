@@ -1,6 +1,5 @@
-CLASS sm net/minecraft/client/particle/SmokeParticle
-	FIELD a oSize F
-	METHOD <init> (Ldt;DDDDDDF)V
+CLASS ti net/minecraft/client/particle/SmokeParticle
+	METHOD <init> (Leb;DDDDDDF)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
@@ -9,3 +8,6 @@ CLASS sm net/minecraft/client/particle/SmokeParticle
 		ARG 10 ya
 		ARG 12 za
 		ARG 14 scale
+	METHOD a render (Llj;FFFFFF)V
+	METHOD w_ tick ()V
+	FIELD a oSize F

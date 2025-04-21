@@ -1,4 +1,4 @@
-CLASS hf net/minecraft/client/renderer/Textures
+CLASS ho net/minecraft/client/renderer/Textures
 	FIELD a MIPMAP Z
 	FIELD b idMap Ljava/util/HashMap;
 	FIELD c loadedImages Ljava/util/HashMap;
@@ -6,11 +6,12 @@ CLASS hf net/minecraft/client/renderer/Textures
 	FIELD e pixels Ljava/nio/ByteBuffer;
 	FIELD f dynamicTextures Ljava/util/List;
 	FIELD g httpTextures Ljava/util/Map;
-	FIELD h options Lig;
+	FIELD h options Lis;
 	FIELD i clamp Z
 	FIELD j blur Z
-	FIELD k skins Lgn;
-	METHOD <init> (Lgn;Lig;)V
+	FIELD k skins Lgw;
+	FIELD l missingNo Ljava/awt/image/BufferedImage;
+	METHOD <init> (Lgw;Lis;)V
 		ARG 1 skins
 		ARG 2 options
 	METHOD a tick ()V
@@ -19,7 +20,7 @@ CLASS hf net/minecraft/client/renderer/Textures
 	METHOD a smoothBlend (II)I
 		ARG 1 c0
 		ARG 2 c1
-	METHOD a addDynamicTexture (Lah;)V
+	METHOD a addDynamicTexture (Lai;)V
 		ARG 1 dynamicTexture
 	METHOD a getTexture (Ljava/awt/image/BufferedImage;)I
 		ARG 1 img
@@ -33,7 +34,7 @@ CLASS hf net/minecraft/client/renderer/Textures
 	METHOD a loadHttpTexture (Ljava/lang/String;Ljava/lang/String;)I
 		ARG 1 url
 		ARG 2 backup
-	METHOD a addHttpTexture (Ljava/lang/String;Lke;)Lde;
+	METHOD a addHttpTexture (Ljava/lang/String;Lks;)Ldl;
 		ARG 1 url
 		ARG 2 processor
 	METHOD b reloadAll ()V

@@ -1,23 +1,26 @@
-CLASS ez net/minecraft/world/inventory/Slot
+CLASS fi net/minecraft/world/inventory/Slot
 	FIELD a index I
 	FIELD b x I
 	FIELD c y I
 	FIELD d slot I
-	FIELD e container Ljc;
-	METHOD <init> (Ljc;III)V
+	FIELD e container Ljp;
+	METHOD <init> (Ljp;III)V
 		ARG 1 container
 		ARG 2 slot
 		ARG 3 x
 		ARG 4 y
-	METHOD a onTake ()V
-	METHOD a remove (I)Lgz;
+	METHOD a getItem ()Lhi;
+	METHOD a remove (I)Lhi;
 		ARG 1 c
-	METHOD a mayPlace (Lgz;)Z
+	METHOD a onTake (Lhi;)V
 		ARG 1 item
-	METHOD b getItem ()Lgz;
-	METHOD b set (Lgz;)V
+	METHOD b hasItem ()Z
+	METHOD b mayPlace (Lhi;)Z
 		ARG 1 item
-	METHOD c hasItem ()Z
-	METHOD d setChanged ()V
-	METHOD e getMaxStackSize ()I
-	METHOD f getNoItemIcon ()I
+	METHOD c setChanged ()V
+	METHOD c set (Lhi;)V
+		ARG 1 item
+	METHOD d getMaxStackSize ()I
+	METHOD e getNoItemIcon ()I
+	METHOD f checkTakeAchievements ()Z
+		COMMENT some unused leftover func in this specific version, probably gone by b1.5 when stats were finalized

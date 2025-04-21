@@ -1,5 +1,8 @@
-CLASS iy net/minecraft/client/player/KeyboardInput
-	FIELD f keys [Z
-	FIELD g options Lig;
-	METHOD <init> (Lig;)V
+CLASS jl net/minecraft/client/player/KeyboardInput
+	METHOD <init> (Lis;)V
 		ARG 1 options
+	METHOD a releaseAllKeys ()V
+	METHOD a setKey (IZ)V
+	METHOD a tick (Lfm;)V
+	FIELD f keys [Z
+	FIELD g options Lis;

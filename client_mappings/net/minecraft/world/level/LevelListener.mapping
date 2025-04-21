@@ -1,9 +1,9 @@
-CLASS ly net/minecraft/world/level/LevelListener
+CLASS mo net/minecraft/world/level/LevelListener
 	METHOD a tileChanged (III)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a tileEntityChanged (IIILll;)V
+	METHOD a tileEntityChanged (IIILma;)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
@@ -28,7 +28,7 @@ CLASS ly net/minecraft/world/level/LevelListener
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a entityAdded (Lom;)V
+	METHOD a entityAdded (Lpb;)V
 		ARG 1 entity
 	METHOD b setTilesDirty (IIIIII)V
 		ARG 1 x0
@@ -37,6 +37,6 @@ CLASS ly net/minecraft/world/level/LevelListener
 		ARG 4 x1
 		ARG 5 y1
 		ARG 6 z1
-	METHOD b entityRemoved (Lom;)V
+	METHOD b entityRemoved (Lpb;)V
 		ARG 1 entity
 	METHOD e skyColorChanged ()V

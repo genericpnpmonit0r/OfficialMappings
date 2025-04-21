@@ -1,12 +1,16 @@
-CLASS mv net/minecraft/network/packet/ContainerClickPacket
-	FIELD a containerId I
-	FIELD b slotNum I
-	FIELD c buttonNum I
-	FIELD d uid S
-	FIELD e item Lgz;
-	METHOD <init> (IIILgz;S)V
+CLASS nl net/minecraft/network/packet/ContainerClickPacket
+	METHOD <init> (IIILhi;S)V
 		ARG 1 containerId
 		ARG 2 slotNum
 		ARG 3 buttonNum
 		ARG 4 item
 		ARG 5 uid
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lpt;)V
+	FIELD a containerId I
+	FIELD b slotNum I
+	FIELD c buttonNum I
+	FIELD d uid S
+	FIELD e item Lhi;

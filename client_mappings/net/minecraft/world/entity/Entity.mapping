@@ -1,33 +1,32 @@
-CLASS om net/minecraft/world/entity/Entity
-	FIELD aA viewScale D
-	FIELD aB blocksBuilding Z
-	FIELD aC rider Lom;
-	FIELD aD riding Lom;
-	FIELD aE level Ldt;
-	FIELD aF xo D
-	FIELD aG yo D
-	FIELD aH zo D
+CLASS pb net/minecraft/world/entity/Entity
+	FIELD aA entityId I
+	FIELD aB viewScale D
+	FIELD aC blocksBuilding Z
+	FIELD aD rider Lpb;
+	FIELD aE riding Lpb;
+	FIELD aF level Leb;
+	FIELD aG xo D
+	FIELD aH yo D
 	FIELD a entityCounter I
-	FIELD aI x D
-	FIELD aJ y D
-	FIELD aK z D
-	FIELD aL xd D
-	FIELD aM yd D
-	FIELD aN zd D
-	FIELD aO yRot F
-	FIELD aP xRot F
-	FIELD aQ yRotO F
-	FIELD aR xRotO F
-	FIELD aS bb Ldi;
-	FIELD aT onGround Z
-	FIELD aU horizontalCollision Z
-	FIELD aV verticalCollision Z
-	FIELD aW collision Z
-	FIELD aX hurtMarked Z
-	FIELD aY slide Z
-	FIELD aZ removed Z
-	FIELD az entityId I
-	FIELD bA entityData Lpv;
+	FIELD aI zo D
+	FIELD aJ x D
+	FIELD aK y D
+	FIELD aL z D
+	FIELD aM xd D
+	FIELD aN yd D
+	FIELD aO zd D
+	FIELD aP yRot F
+	FIELD aQ xRot F
+	FIELD aR yRotO F
+	FIELD aS xRotO F
+	FIELD aT bb Ldq;
+	FIELD aU onGround Z
+	FIELD aV horizontalCollision Z
+	FIELD aW verticalCollision Z
+	FIELD aX collision Z
+	FIELD aY hurtMarked Z
+	FIELD aZ slide Z
+	FIELD bA entityData Lql;
 	FIELD bB inChunk Z
 	FIELD bC xChunk I
 	FIELD bD yChunk I
@@ -36,12 +35,12 @@ CLASS om net/minecraft/world/entity/Entity
 	FIELD bG yp I
 	FIELD bH zp I
 	FIELD b nextStep I
-	FIELD ba heightOffset F
-	FIELD bb bbWidth F
-	FIELD bc bbHeight F
-	FIELD bd walkDistO F
-	FIELD be walkDist F
-	FIELD bf makeStepSound Z
+	FIELD ba removed Z
+	FIELD bb heightOffset F
+	FIELD bc bbWidth F
+	FIELD bd bbHeight F
+	FIELD be walkDistO F
+	FIELD bf walkDist F
 	FIELD bg fallDistance F
 	FIELD bh xOld D
 	FIELD bi yOld D
@@ -65,21 +64,15 @@ CLASS om net/minecraft/world/entity/Entity
 	FIELD c firstTick Z
 	FIELD d xRideRotA D
 	FIELD e yRideRotA D
-	METHOD <init> (Ldt;)V
+	METHOD <init> (Leb;)V
 		ARG 1 level
-	METHOD B getHeadHeight ()F
-	METHOD F getRidingHeight ()D
-	METHOD H remove ()V
-	METHOD I isInWall ()Z
-	METHOD N getTexture ()Ljava/lang/String;
-	METHOD P baseTick ()V
-	METHOD R isAlive ()Z
-	METHOD U outOfWorld ()V
-	METHOD V getLookAngle ()Lay;
-	METHOD W getEntityData ()Lpv;
-	METHOD X lavaHurt ()V
-	METHOD Y isInLava ()Z
-	METHOD Z markHurt ()V
+	METHOD H getRidingHeight ()D
+	METHOD J remove ()V
+	METHOD K isInWall ()Z
+	METHOD S baseTick ()V
+	METHOD U isAlive ()Z
+	METHOD Y outOfWorld ()V
+	METHOD Z getLookAngle ()Lbb;
 	METHOD a handleEntityEvent (B)V
 		ARG 1 event
 	METHOD a shouldRenderAtSqrDistance (D)Z
@@ -100,44 +93,45 @@ CLASS om net/minecraft/world/entity/Entity
 		ARG 3 b
 	METHOD a getBrightness (F)F
 		ARG 1 v
-	METHOD a setSize (FF)V
-		ARG 1 bbWidth
-		ARG 2 bbHeight
 	METHOD a moveRelative (FFF)V
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 	METHOD a burn (I)V
 		ARG 1 dmg
-	METHOD a spawnAtLocation (IIF)Lfs;
+	METHOD a spawnAtLocation (IIF)Lgb;
 		ARG 1 item
 		ARG 2 count
 		ARG 3 f
-	METHOD a shouldRender (Lay;)Z
+	METHOD a shouldRender (Lbb;)Z
 		ARG 1 v
-	METHOD a setLevel (Ldt;)V
+	METHOD a setLevel (Leb;)V
 		ARG 1 level
-	METHOD a interact (Lfd;)Z
+	METHOD a interact (Lfm;)Z
 		ARG 1 player
-	METHOD a spawnAtLocation (Lgz;F)Lfs;
+	METHOD a spawnAtLocation (Lhi;F)Lgb;
 		ARG 1 item
 		ARG 2 f
-	METHOD a isUnderLiquid (Liu;)Z
+	METHOD a isUnderLiquid (Ljh;)Z
 		ARG 1 material
-	METHOD a addAdditionalSaveData (Lks;)V
+	METHOD a addAdditionalSaveData (Llg;)V
 		ARG 1 entityTag
-	METHOD a getCollideAgainstBox (Lom;)Ldi;
+	METHOD a getCollideAgainstBox (Lpb;)Ldq;
 		ARG 1 entity
-	METHOD a hurt (Lom;I)Z
+	METHOD a hurt (Lpb;I)Z
 		ARG 1 source
 		ARG 2 dmg
-	METHOD a newDoubleList ([D)Loo;
+	METHOD a newDoubleList ([D)Lpd;
 		ARG 1 d
-	METHOD a newFloatList ([F)Loo;
+	METHOD a newFloatList ([F)Lpd;
 		ARG 1 f
-	METHOD aa getEncodeId ()Ljava/lang/String;
-	METHOD ab isOnFire ()Z
-	METHOD ac isRiding ()Z
+	METHOD aa getEntityData ()Lql;
+	METHOD ab lavaHurt ()V
+	METHOD ac isInLava ()Z
+	METHOD ad markHurt ()V
+	METHOD ae getEncodeId ()Ljava/lang/String;
+	METHOD af isOnFire ()Z
+	METHOD ag isRiding ()Z
 	METHOD b defineSynchedData ()V
 	METHOD b move (DDD)V
 		ARG 1 x
@@ -149,15 +143,20 @@ CLASS om net/minecraft/world/entity/Entity
 		ARG 5 z
 		ARG 7 yRot
 		ARG 8 xRot
-	METHOD b spawnAtLocation (II)Lfs;
+	METHOD b causeFallDamage (F)V
+		ARG 1 fallDistance
+	METHOD b setSize (FF)V
+		ARG 1 bbWidth
+		ARG 2 bbHeight
+	METHOD b spawnAtLocation (II)Lgb;
 		ARG 1 item
 		ARG 2 count
 	METHOD b setSharedFlag (IZ)V
 		ARG 1 data
 		ARG 2 flag
-	METHOD b playerTouch (Lfd;)V
+	METHOD b playerTouch (Lfm;)V
 		ARG 1 player
-	METHOD b readAdditionalSaveData (Lks;)V
+	METHOD b readAdditionalSaveData (Llg;)V
 		ARG 1 tag
 	METHOD c setPos (DDD)V
 		ARG 1 x
@@ -169,8 +168,6 @@ CLASS om net/minecraft/world/entity/Entity
 		ARG 5 z
 		ARG 7 yRot
 		ARG 8 xRot
-	METHOD c causeFallDamage (F)V
-		ARG 1 fallDistance
 	METHOD c setRot (FF)V
 		ARG 1 yRot
 		ARG 2 xRot
@@ -178,9 +175,9 @@ CLASS om net/minecraft/world/entity/Entity
 		ARG 1 slot
 		ARG 2 itemId
 		ARG 3 auxValue
-	METHOD c save (Lks;)Z
+	METHOD c save (Llg;)Z
 		ARG 1 entityTag
-	METHOD c awardKillScore (Lom;I)V
+	METHOD c awardKillScore (Lpb;I)V
 		ARG 1 entity
 		ARG 2 score
 	METHOD d isFree (DDD)Z
@@ -192,14 +189,14 @@ CLASS om net/minecraft/world/entity/Entity
 		ARG 2 yr
 	METHOD d getSharedFlag (I)Z
 		ARG 1 data
-	METHOD d saveWithoutId (Lks;)V
+	METHOD d saveWithoutId (Llg;)V
 		ARG 1 entityTag
 	METHOD e getPickRadius ()F
 	METHOD e distanceToSqr (DDD)D
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD e load (Lks;)V
+	METHOD e load (Llg;)V
 		ARG 1 tag
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o
@@ -207,29 +204,32 @@ CLASS om net/minecraft/world/entity/Entity
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD f distanceTo (Lom;)F
+	METHOD f distanceTo (Lpb;)F
 		ARG 1 entity
-	METHOD f_ isPickable ()Z
 	METHOD g push (DDD)V
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD g distanceToSqr (Lom;)D
+	METHOD g distanceToSqr (Lpb;)D
 		ARG 1 entity
-	METHOD g_ isPushable ()Z
+	METHOD g_ isPickable ()Z
 	METHOD h animateHurt ()V
-	METHOD h push (Lom;)V
+	METHOD h push (Lpb;)V
 		ARG 1 entity
-	METHOD i ride (Lom;)V
+	METHOD h_ isPushable ()Z
+	METHOD i ride (Lpb;)V
 		ARG 1 e
-	METHOD i_ getCollideBox ()Ldi;
-	METHOD j_ isInWater ()Z
-	METHOD k_ getShadowHeightOffs ()F
+	METHOD j_ getCollideBox ()Ldq;
+	METHOD k_ isInWater ()Z
 	METHOD l getRideHeight ()D
-	METHOD l_ positionRider ()V
-	METHOD q_ tick ()V
-	METHOD r isSneaking ()Z
-	METHOD s handleInsidePortal ()V
-	METHOD w prepareCustomTextures ()V
-	METHOD x rideTick ()V
-	METHOD y resetPos ()V
+	METHOD l_ getShadowHeightOffs ()F
+	METHOD m makeStepSound ()Z
+	METHOD m_ positionRider ()V
+	METHOD q_ getTexture ()Ljava/lang/String;
+	METHOD s isSneaking ()Z
+	METHOD t handleInsidePortal ()V
+	METHOD t_ rideTick ()V
+	METHOD u_ resetPos ()V
+	METHOD v_ prepareCustomTextures ()V
+	METHOD w getHeadHeight ()F
+	METHOD w_ tick ()V

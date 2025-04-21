@@ -1,12 +1,12 @@
-CLASS qz net/minecraft/world/level/tile/RailTile$Rail
-	FIELD a this$0 Llq;
-	FIELD b level Ldt;
+CLASS rr net/minecraft/world/level/tile/RailTile$Rail
+	FIELD a this$0 Lmg;
+	FIELD b level Leb;
 	FIELD c x I
 	FIELD d y I
 	FIELD e z I
 	FIELD f data I
 	FIELD g connections Ljava/util/List;
-	METHOD <init> (Llq;Ldt;III)V
+	METHOD <init> (Lmg;Leb;III)V
 		ARG 1 this$0
 		ARG 2 level
 		ARG 3 x
@@ -17,9 +17,9 @@ CLASS qz net/minecraft/world/level/tile/RailTile$Rail
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD a access$000 (Lqz;)I
+	METHOD a access$000 (Lrr;)I
 		ARG 0 this$0
-	METHOD a getRail (Lrm;)Lqz;
+	METHOD a getRail (Lsh;)Lrr;
 		ARG 1 pos
 	METHOD a place (Z)V
 		ARG 1 place
@@ -28,14 +28,14 @@ CLASS qz net/minecraft/world/level/tile/RailTile$Rail
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b connectsTo (Lqz;)Z
+	METHOD b connectsTo (Lrr;)Z
 		ARG 1 rail
 	METHOD c countPotentialConnections ()I
 	METHOD c hasNeighborRail (III)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD c canConnectTo (Lqz;)Z
+	METHOD c canConnectTo (Lrr;)Z
 		ARG 1 rail
-	METHOD d connectTo (Lqz;)V
+	METHOD d connectTo (Lrr;)V
 		ARG 1 rail

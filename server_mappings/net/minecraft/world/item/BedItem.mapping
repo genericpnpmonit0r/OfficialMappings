@@ -1,2 +1,0 @@
-CLASS gf net/minecraft/world/item/BedItem
-	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z

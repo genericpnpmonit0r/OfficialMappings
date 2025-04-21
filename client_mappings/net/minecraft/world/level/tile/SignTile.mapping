@@ -1,7 +1,16 @@
-CLASS qb net/minecraft/world/level/tile/SignTile
-	FIELD a clas Ljava/lang/Class;
-	FIELD b onGround Z
+CLASS qr net/minecraft/world/level/tile/SignTile
 	METHOD <init> (ILjava/lang/Class;Z)V
 		ARG 1 id
 		ARG 2 clas
 		ARG 3 onGround
+	METHOD a isSolidRender ()Z
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Leb;IIII)V
+	METHOD a updateShape (Ltk;III)V
+	METHOD a_ newTileEntity ()Lma;
+	METHOD b isCubeShaped ()Z
+	METHOD d getAABB (Leb;III)Ldq;
+	METHOD f getTileAABB (Leb;III)Ldq;
+	METHOD g getRenderShape ()I
+	FIELD a clas Ljava/lang/Class;
+	FIELD b onGround Z
