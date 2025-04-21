@@ -1,0 +1,4 @@
+CLASS hi net/minecraft/world/level/storage/McRegionLevelStorage
+	METHOD a saveLevelData (Lch;Ljava/util/List;)V
+	METHOD a createChunkStorage (Lne;)Lai;
+	METHOD e closeAll ()V

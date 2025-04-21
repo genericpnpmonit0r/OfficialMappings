@@ -1,0 +1,2 @@
+CLASS bv net/minecraft/world/item/SnowballItem
+	METHOD a use (Lfg;Lcw;Ldx;)Lfg;

@@ -1,0 +1,25 @@
+CLASS ba net/minecraft/world/entity/projectile/Fireball
+	METHOD <init> (Lcw;Lgq;DDD)V
+		ARG 1 level
+		ARG 2 owner
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a defineSynchedData ()V
+	METHOD a addAdditionalSaveData (Lhu;)V
+	METHOD a hurt (Lkj;I)Z
+	METHOD b readAdditionalSaveData (Lhu;)V
+	METHOD d_ isPickable ()Z
+	METHOD f_ tick ()V
+	FIELD a shakeTime I
+	FIELD b xPower D
+	FIELD c yPower D
+	FIELD d zPower D
+	FIELD e xTile I
+	FIELD f yTile I
+	FIELD g zTile I
+	FIELD h lastTime I
+	FIELD i inGround Z
+	FIELD j owner Lgq;
+	FIELD k life I
+	FIELD l flightTime I

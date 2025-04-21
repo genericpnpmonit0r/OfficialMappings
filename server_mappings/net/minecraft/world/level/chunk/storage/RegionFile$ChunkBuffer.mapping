@@ -1,0 +1,9 @@
+CLASS eq net/minecraft/world/level/chunk/storage/RegionFile$ChunkBuffer
+	FIELD a this$0 Liw;
+	FIELD b x I
+	FIELD c z I
+	METHOD <init> (Liw;II)V
+		ARG 1 this$0
+		ARG 2 x
+		ARG 3 z
+	METHOD close close ()V

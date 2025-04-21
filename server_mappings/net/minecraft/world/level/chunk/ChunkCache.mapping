@@ -1,0 +1,32 @@
+CLASS gb net/minecraft/world/level/chunk/ChunkCache
+	METHOD <init> (Lcw;Lai;Lbc;)V
+		ARG 1 level
+		ARG 2 storage
+		ARG 3 source
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a postProcess (Lbc;II)V
+	METHOD a saveEntities (Lgn;)V
+		ARG 1 lc
+	METHOD a save (ZLnv;)Z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lgn;
+	METHOD b save (Lgn;)V
+		ARG 1 lc
+	METHOD c create (II)Lgn;
+	METHOD d fits (II)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD e load (II)Lgn;
+		ARG 1 x
+		ARG 2 z
+	FIELD a xLast I
+	FIELD b zLast I
+	FIELD c emptyChunk Lgn;
+	FIELD d source Lbc;
+	FIELD e storage Lai;
+	FIELD f chunks [Lgn;
+	FIELD g level Lcw;
+	FIELD h last Lgn;
+	FIELD i xCenter I
+	FIELD j yCenter I

@@ -1,0 +1,13 @@
+CLASS hw net/minecraft/world/level/tile/LiquidTileStatic
+	METHOD a neighborChanged (Lcw;IIII)V
+	METHOD a tick (Lcw;IIILjava/util/Random;)V
+	METHOD i setDynamic (Lcw;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j isFlammable (Lcw;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

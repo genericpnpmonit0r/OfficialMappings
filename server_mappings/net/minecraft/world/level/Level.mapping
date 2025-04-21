@@ -1,0 +1,423 @@
+CLASS cw net/minecraft/world/level/Level
+	FIELD A allPlayersSleeping Z
+	FIELD B boxes Ljava/util/ArrayList;
+	FIELD C maxRecurse I
+	FIELD D spawnEnemies Z
+	FIELD E spawnFriendlies Z
+	FIELD F chunksToPoll Ljava/util/Set;
+	FIELD G delayUntilNextMoodSound I
+	FIELD H es Ljava/util/List;
+	FIELD a instaTick Z
+	FIELD b entities Ljava/util/List;
+	FIELD c tileEntityList Ljava/util/List;
+	FIELD d players Ljava/util/List;
+	FIELD e skyDarken I
+	FIELD f randValue I
+	FIELD g addend I
+	FIELD h noNeighborUpdate Z
+	FIELD i saveInterval I
+	FIELD j difficulty I
+	FIELD k random Ljava/util/Random;
+	FIELD l isNew Z
+	FIELD m dimension Lne;
+	FIELD n listeners Ljava/util/List;
+	FIELD o chunkSource Lbc;
+	FIELD p levelStorage Lmz;
+	FIELD q levelData Lch;
+	FIELD r isFindingSpawn Z
+	FIELD s maxLoop I
+	FIELD t isOnline Z
+	FIELD u lightUpdates Ljava/util/List;
+	FIELD v entitiesToRemove Ljava/util/List;
+	FIELD w tickNextTickList Ljava/util/TreeSet;
+	FIELD x tickNextTickSet Ljava/util/Set;
+	FIELD y cloudColor J
+	FIELD z sessionId J
+	METHOD <init> (Lmz;Ljava/lang/String;JLne;)V
+		ARG 1 storage
+		ARG 2 levelName
+		ARG 3 seed
+		ARG 5 dimension
+	METHOD a getBiomeSource ()Lnt;
+	METHOD a getNearestPlayer (DDDD)Ldx;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 radius
+	METHOD a playSound (DDDLjava/lang/String;FF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 name
+		ARG 8 volume
+		ARG 9 pitch
+	METHOD a getSkyDarken (F)I
+		ARG 1 a
+	METHOD a getTopTile (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD a getTile (III)I
+	METHOD a hasChunkAt (IIII)Z
+		ARG 1 x0
+		ARG 2 z0
+		ARG 3 x1
+		ARG 4 z1
+	METHOD a setTileAndDataNoUpdate (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+		ARG 5 data
+	METHOD a hasChunksAt (IIIIII)Z
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD a mayPlace (IIIIZ)Z
+		ARG 1 tile
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 b
+	METHOD a setTileEntity (IIILih;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 te
+	METHOD a getRawBrightness (IIIZ)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 slab
+	METHOD a setTime (J)V
+		ARG 1 time
+	METHOD a clip (Lar;Lar;)Llw;
+		ARG 1 v0
+		ARG 2 v1
+	METHOD a clip (Lar;Lar;Z)Llw;
+		ARG 1 v0
+		ARG 2 v1
+		ARG 3 b
+	METHOD a getSeenPercent (Lar;Lcm;)F
+		ARG 1 v
+		ARG 2 box
+	METHOD a getBrightness (Lcd;III)I
+		ARG 1 layer
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a updateLightIfOtherThan (Lcd;IIII)V
+		ARG 1 layer
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 brightness
+	METHOD a updateLight (Lcd;IIIIII)V
+		ARG 1 layer
+		ARG 2 x0
+		ARG 3 y0
+		ARG 4 z0
+		ARG 5 x1
+		ARG 6 y1
+		ARG 7 z1
+	METHOD a updateLight (Lcd;IIIIIIZ)V
+		ARG 1 layer
+		ARG 2 x0
+		ARG 3 y0
+		ARG 4 z0
+		ARG 5 x1
+		ARG 6 y1
+		ARG 7 z1
+		ARG 8 bl
+	METHOD a isUnobstructed (Lcm;)Z
+		ARG 1 bb
+	METHOD a containsMaterial (Lcm;Lgo;)Z
+		ARG 1 bb
+		ARG 2 material
+	METHOD a checkAndHandleWater (Lcm;Lgo;Lkj;)Z
+		ARG 1 box
+		ARG 2 material
+		ARG 3 entity
+	METHOD a mayInteract (Ldx;III)Z
+		ARG 1 player
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a addListener (Lio;)V
+		ARG 1 listener
+	METHOD a countInstanceOf (Ljava/lang/Class;)I
+		ARG 1 c
+	METHOD a getEntitiesOfClass (Ljava/lang/Class;Lcm;)Ljava/util/List;
+		ARG 1 clas
+		ARG 2 box
+	METHOD a getPlayer (Ljava/lang/String;)Ldx;
+		ARG 1 name
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+		ARG 1 name
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xa
+		ARG 10 ya
+		ARG 12 za
+	METHOD a playStreamingMusic (Ljava/lang/String;III)V
+		ARG 1 name
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a addEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD a addEntity (Lkj;)Z
+		ARG 1 entity
+	METHOD a broadcastEntityEvent (Lkj;B)V
+		ARG 1 entity
+		ARG 2 event
+	METHOD a getNearestPlayer (Lkj;D)Ldx;
+		ARG 1 e
+		ARG 2 radius
+	METHOD a explode (Lkj;DDDF)Ljf;
+		ARG 1 source
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 r
+	METHOD a explode (Lkj;DDDFZ)Ljf;
+		ARG 1 source
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 r
+		ARG 9 fire
+	METHOD a findPath (Lkj;IIIF)Lbr;
+		ARG 1 source
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 rad
+	METHOD a getCubes (Lkj;Lcm;)Ljava/util/List;
+		ARG 1 entity
+		ARG 2 box
+	METHOD a playSound (Lkj;Ljava/lang/String;FF)V
+		ARG 1 e
+		ARG 2 name
+		ARG 3 volume
+		ARG 4 pitch
+	METHOD a findPath (Lkj;Lkj;F)Lbr;
+		ARG 1 source
+		ARG 2 dest
+		ARG 3 radius
+	METHOD a tick (Lkj;Z)V
+		ARG 1 e
+		ARG 2 b
+	METHOD a tickPendingTicks (Z)Z
+		ARG 1 force
+	METHOD a save (ZLnv;)V
+		ARG 1 force
+		ARG 2 progressListener
+	METHOD a setSpawnSettings (ZZ)V
+		ARG 1 spawnEnemies
+		ARG 2 spawnFriendlies
+	METHOD b createChunkSource ()Lbc;
+	METHOD b getTimeOfDay (F)F
+		ARG 1 a
+	METHOD b getChunkAt (II)Lgn;
+		ARG 1 x
+		ARG 2 z
+	METHOD b getData (III)I
+	METHOD b setTileNoUpdate (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+	METHOD b setTileAndData (IIIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+		ARG 5 data
+	METHOD b setTilesDirty (IIIIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD b tileEntityChanged (IIILih;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 te
+	METHOD b setBrightness (Lcd;IIII)V
+		ARG 1 layer
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 brightness
+	METHOD b containsAnyLiquid (Lcm;)Z
+		ARG 1 bb
+	METHOD b containsLiquid (Lcm;Lgo;)Z
+		ARG 1 bb
+		ARG 2 material
+	METHOD b removeEntities (Ljava/util/List;)V
+		ARG 1 entities
+	METHOD b entityAdded (Lkj;)V
+		ARG 1 entity
+	METHOD b getEntities (Lkj;Lcm;)Ljava/util/List;
+		ARG 1 e
+		ARG 2 box
+	METHOD c findSpawn ()V
+	METHOD c getChunk (II)Lgn;
+		ARG 1 x
+		ARG 2 z
+	METHOD c getMaterial (III)Lgo;
+	METHOD c setData (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 data
+	METHOD c addToTickNextTick (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileId
+		ARG 5 delay
+	METHOD c getBlocksAndData (IIIIII)[B
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD c containsFireTile (Lcm;)Z
+		ARG 1 bb
+	METHOD c entityRemoved (Lkj;)V
+		ARG 1 entity
+	METHOD d isDay ()Z
+	METHOD d getHeightmap (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD d isSolidTile (III)Z
+	METHOD d setDataNoUpdate (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 data
+	METHOD d tileEvent (IIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 a
+		ARG 5 b
+	METHOD d removeEntity (Lkj;)V
+		ARG 1 entity
+	METHOD e tickEntities ()V
+	METHOD e getTopSolidBlock (II)I
+		ARG 1 x
+		ARG 2 z
+	METHOD e isEmptyTile (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD e setTile (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+	METHOD e removeEntityImmediately (Lkj;)V
+		ARG 1 entity
+	METHOD f updateLights ()Z
+	METHOD f hasChunk (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD f hasChunkAt (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD f tileUpdated (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tile
+	METHOD f tick (Lkj;)V
+		ARG 1 e
+	METHOD g updateSkyBrightness ()V
+	METHOD g sendTileUpdated (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD g lightColumnChanged (IIII)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 y0
+		ARG 4 y1
+	METHOD h tick ()V
+	METHOD h setTileDirty (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD h updateNeighborsAt (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+	METHOD i tickTiles ()V
+	METHOD i canSeeSky (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD i getDirectSignal (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 signal
+	METHOD j checkSession ()V
+	METHOD j getRawBrightness (III)I
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD j getSignal (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 signal
+	METHOD k getSeed ()J
+	METHOD k isSkyLit (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD k neighborChanged (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 f
+	METHOD l getTime ()J
+	METHOD l getBrightness (III)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD m getSharedSpawnPos ()Lao;
+	METHOD m getTileEntity (III)Lih;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD n getChunkSource ()Lbc;
+	METHOD n removeTileEntity (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD o getLevelStorage ()Lmz;
+	METHOD o hasDirectSignal (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD p getLevelData ()Lch;
+	METHOD p hasNeighborSignal (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD q updateSleepingPlayerList ()V
+	METHOD r awakenAllPlayers ()V
+	METHOD s allPlayersSleeping ()Z
+	METHOD t saveLevelData ()V

@@ -1,0 +1,6 @@
+CLASS kf net/minecraft/world/inventory/TrapMenu
+	METHOD <init> (Lgu;Lae;)V
+		ARG 1 container
+		ARG 2 trap
+	METHOD b stillValid (Ldx;)Z
+	FIELD a trap Lae;

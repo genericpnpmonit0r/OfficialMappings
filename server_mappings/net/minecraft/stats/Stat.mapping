@@ -1,0 +1,9 @@
+CLASS mh net/minecraft/stats/Stat
+	FIELD d id I
+	FIELD e name Ljava/lang/String;
+	FIELD f uuid Ljava/lang/String;
+	METHOD <init> (ILjava/lang/String;)V
+		ARG 1 id
+		ARG 2 name
+	METHOD a isAchievement ()Z
+	METHOD c postConstruct ()Lmh;

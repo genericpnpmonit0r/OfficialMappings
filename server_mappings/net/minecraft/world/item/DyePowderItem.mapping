@@ -1,0 +1,4 @@
+CLASS fz net/minecraft/world/item/DyePowderItem
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z
+	METHOD a interactEnemy (Lfg;Lgq;)V
+	FIELD a COLOR_DESCS [Ljava/lang/String;

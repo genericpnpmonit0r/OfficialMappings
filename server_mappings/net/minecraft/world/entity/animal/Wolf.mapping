@@ -1,0 +1,25 @@
+CLASS ds net/minecraft/world/entity/animal/Wolf
+	FIELD a unk_a Z
+	FIELD b headRoll F
+	FIELD c oHeadRoll F
+	FIELD f wet Z
+	FIELD g unk_g Z
+	FIELD h bodyRoll F
+	FIELD i oBodyRoll F
+	METHOD a setOwner (Ljava/lang/String;)V
+		ARG 1 name
+	METHOD a spawnParticles (Z)V
+		ARG 1 heart
+	METHOD b setTarget (Lkj;F)V
+		ARG 1 e
+		ARG 2 f
+	METHOD b setSitting (Z)V
+		ARG 1 sit
+	METHOD c setAngry (Z)V
+		ARG 1 angry
+	METHOD d setTame (Z)V
+		ARG 1 tame
+	METHOD v getOwner ()Ljava/lang/String;
+	METHOD w isSitting ()Z
+	METHOD x isAngry ()Z
+	METHOD y isTame ()Z

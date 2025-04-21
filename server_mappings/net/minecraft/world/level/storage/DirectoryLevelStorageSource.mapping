@@ -1,0 +1,13 @@
+CLASS lb net/minecraft/world/level/storage/DirectoryLevelStorageSource
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 dir
+	METHOD a requiresConversion (Ljava/lang/String;)Z
+	METHOD a convertLevel (Ljava/lang/String;Lnv;)Z
+	METHOD a selectLevel (Ljava/lang/String;Z)Lmz;
+		ARG 1 levelName
+		ARG 2 b
+	METHOD a delete ([Ljava/io/File;)V
+		ARG 0 files
+	METHOD b getTagDataFor (Ljava/lang/String;)Lch;
+		ARG 1 levelName
+	FIELD a dir Ljava/io/File;

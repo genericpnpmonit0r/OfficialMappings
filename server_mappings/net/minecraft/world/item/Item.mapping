@@ -1,0 +1,176 @@
+CLASS du net/minecraft/world/item/Item
+	FIELD A hatchet_emerald Ldu;
+	FIELD B stick Ldu;
+	FIELD C bowl Ldu;
+	FIELD D mushroomStew Ldu;
+	FIELD E sword_gold Ldu;
+	FIELD F shovel_gold Ldu;
+	FIELD G pickAxe_gold Ldu;
+	FIELD H hatchet_gold Ldu;
+	FIELD I string Ldu;
+	FIELD J feather Ldu;
+	FIELD K sulphur Ldu;
+	FIELD L hoe_wood Ldu;
+	FIELD M hoe_stone Ldu;
+	FIELD N hoe_iron Ldu;
+	FIELD O hoe_emerald Ldu;
+	FIELD P hoe_gold Ldu;
+	FIELD Q seeds Ldu;
+	FIELD R wheat Ldu;
+	FIELD S bread Ldu;
+	FIELD T helmet_cloth Ldu;
+	FIELD U chestplate_cloth Ldu;
+	FIELD V leggings_cloth Ldu;
+	FIELD W boots_cloth Ldu;
+	FIELD X helmet_chain Ldu;
+	FIELD Y chestplate_chain Ldu;
+	FIELD Z leggings_chain Ldu;
+	FIELD aA redStone Ldu;
+	FIELD aB snowBall Ldu;
+	FIELD aC boat Ldu;
+	FIELD aD leather Ldu;
+	FIELD aE milk Ldu;
+	FIELD aF brick Ldu;
+	FIELD aG clay Ldu;
+	FIELD aH reeds Ldu;
+	FIELD a maxDamage I
+	FIELD aI paper Ldu;
+	FIELD aJ book Ldu;
+	FIELD aK slimeBall Ldu;
+	FIELD aL minecart_chest Ldu;
+	FIELD aM minecart_furnace Ldu;
+	FIELD aN egg Ldu;
+	FIELD aO compass Ldu;
+	FIELD aP fishingRod Ldu;
+	FIELD aQ clock Ldu;
+	FIELD aR yellowDust Ldu;
+	FIELD aS fish_raw Ldu;
+	FIELD aT fish_cooked Ldu;
+	FIELD aU dye_powder Ldu;
+	FIELD aV bone Ldu;
+	FIELD aW sugar Ldu;
+	FIELD aX cake Ldu;
+	FIELD aY bed Ldu;
+	FIELD aZ diode Ldu;
+	FIELD aa boots_chain Ldu;
+	FIELD ab helmet_iron Ldu;
+	FIELD ac chestplate_iron Ldu;
+	FIELD ad leggings_iron Ldu;
+	FIELD ae boots_iron Ldu;
+	FIELD af helmet_diamond Ldu;
+	FIELD ag chestplate_diamond Ldu;
+	FIELD ah leggings_diamond Ldu;
+	FIELD ai boots_diamond Ldu;
+	FIELD aj helmet_gold Ldu;
+	FIELD ak chestplate_gold Ldu;
+	FIELD al leggings_gold Ldu;
+	FIELD am boots_gold Ldu;
+	FIELD an flint Ldu;
+	FIELD ao porkChop_raw Ldu;
+	FIELD ap porkChop_cooked Ldu;
+	FIELD aq painting Ldu;
+	FIELD ar apple_gold Ldu;
+	FIELD as sign Ldu;
+	FIELD at door_wood Ldu;
+	FIELD au bucket_empty Ldu;
+	FIELD av bucket_water Ldu;
+	FIELD aw bucket_lava Ldu;
+	FIELD ax minecart Ldu;
+	FIELD ay saddle Ldu;
+	FIELD az door_iron Ldu;
+	FIELD b random Ljava/util/Random;
+	FIELD ba cookie Ldu;
+	FIELD bb record_01 Ldu;
+	FIELD bc record_02 Ldu;
+	FIELD bd id I
+	FIELD be maxStackSize I
+	FIELD bf icon I
+	FIELD bg handEquipped Z
+	FIELD bh isStackedByData Z
+	FIELD bi craftingRemainingItem Ldu;
+	FIELD bj descriptionId Ljava/lang/String;
+	FIELD c items [Ldu;
+	FIELD d shovel_iron Ldu;
+	FIELD e pickAxe_iron Ldu;
+	FIELD f hatchet_iron Ldu;
+	FIELD g flintAndSteel Ldu;
+	FIELD h apple Ldu;
+	FIELD i bow Ldu;
+	FIELD j arrow Ldu;
+	FIELD k coal Ldu;
+	FIELD l emerald Ldu;
+	FIELD m ironIngot Ldu;
+	FIELD n goldIngot Ldu;
+	FIELD o sword_iron Ldu;
+	FIELD p sword_wood Ldu;
+	FIELD q shovel_wood Ldu;
+	FIELD r pickAxe_wood Ldu;
+	FIELD s hatchet_wood Ldu;
+	FIELD t sword_stone Ldu;
+	FIELD u shovel_stone Ldu;
+	FIELD v pickAxe_stone Ldu;
+	FIELD w hatchet_stone Ldu;
+	FIELD x sword_emerald Ldu;
+	FIELD y shovel_emerald Ldu;
+	FIELD z pickAxe_emerald Ldu;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getDescriptionId ()Ljava/lang/String;
+	METHOD a getLevelDataForAuxValue (I)I
+		ARG 1 value
+	METHOD a setIcon (II)Ldu;
+		ARG 1 x
+		ARG 2 y
+	METHOD a setCraftingRemainingItem (Ldu;)Ldu;
+		ARG 1 craftingRemainingItem
+	METHOD a mineBlock (Lfg;IIIILgq;)Z
+		ARG 1 item
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 f
+		ARG 6 player
+	METHOD a use (Lfg;Lcw;Ldx;)Lfg;
+		ARG 1 item
+		ARG 2 level
+		ARG 3 player
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z
+		ARG 1 item
+		ARG 2 player
+		ARG 3 level
+		ARG 4 x
+		ARG 5 y
+		ARG 6 z
+		ARG 7 face
+	METHOD a interactEnemy (Lfg;Lgq;)V
+		ARG 1 item
+		ARG 2 mob
+	METHOD a hurtEnemy (Lfg;Lgq;Lgq;)Z
+		ARG 1 item
+		ARG 2 mob
+		ARG 3 player
+	METHOD a getDestroySpeed (Lfg;Llq;)F
+		ARG 1 item
+		ARG 2 tile
+	METHOD a setDescriptionId (Ljava/lang/String;)Ldu;
+		ARG 1 id
+	METHOD a getAttackDamage (Lkj;)I
+		ARG 1 entity
+	METHOD a canDestroySpecial (Llq;)Z
+		ARG 1 tile
+	METHOD a setStackedByData (Z)Ldu;
+		ARG 1 stackedByData
+	METHOD b getMaxStackSize ()I
+	METHOD b setIcon (I)Ldu;
+		ARG 1 icon
+	METHOD c isStackedByData ()Z
+	METHOD c setMaxStackSize (I)Ldu;
+		ARG 1 maxStackSize
+	METHOD d getMaxDamage ()I
+	METHOD d setMaxDamage (I)Ldu;
+		ARG 1 maxDamage
+	METHOD e canBeDepleted ()Z
+	METHOD f handEquipped ()Ldu;
+	METHOD g getCraftingRemainingItem ()Ldu;
+	METHOD h hasCraftingRemainingItem ()Z
+	METHOD i getName ()Ljava/lang/String;

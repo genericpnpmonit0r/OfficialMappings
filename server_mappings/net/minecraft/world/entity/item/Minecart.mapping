@@ -1,0 +1,48 @@
+CLASS od net/minecraft/world/entity/item/Minecart
+	METHOD <init> (Lcw;DDDI)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 type
+	METHOD D remove ()V
+	METHOD a defineSynchedData ()V
+	METHOD a removeItem (II)Lfg;
+	METHOD a setItem (ILfg;)V
+	METHOD a interact (Ldx;)Z
+	METHOD a addAdditionalSaveData (Lhu;)V
+	METHOD a hurt (Lkj;I)Z
+	METHOD a_ stillValid (Ldx;)Z
+	METHOD a_ getCollideAgainstBox (Lkj;)Lcm;
+	METHOD b readAdditionalSaveData (Lhu;)V
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Lfg;
+	METHOD d getCollideBox ()Lcm;
+	METHOD d_ isPickable ()Z
+	METHOD e_ isPushable ()Z
+	METHOD f_ tick ()V
+	METHOD g getPos (DDD)Lar;
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD h push (Lkj;)V
+	METHOD i setChanged ()V
+	METHOD k getRideHeight ()D
+	METHOD q_ getContainerSize ()I
+	METHOD r_ getMaxStackSize ()I
+	FIELD a damage I
+	FIELD b hurtTime I
+	FIELD c hurtDir I
+	FIELD d type I
+	FIELD e fuel I
+	FIELD f xPush D
+	FIELD g zPush D
+	FIELD h items [Lfg;
+	FIELD i flipped Z
+	FIELD j EXITS [[[I
+	FIELD k lSteps I
+	FIELD l lx D
+	FIELD m ly D
+	FIELD n lz D
+	FIELD o lyr D
+	FIELD p lxr D

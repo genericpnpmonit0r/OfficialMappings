@@ -1,0 +1,8 @@
+CLASS oc net/minecraft/world/level/tile/entity/SignTileEntity
+	FIELD a messages [Ljava/lang/String;
+	FIELD b selectedLine I
+	FIELD c editable Z
+	METHOD a isEditable ()Z
+	METHOD a load (Lhu;)V
+	METHOD b save (Lhu;)V
+	METHOD e getUpdatePacket ()Lfy;

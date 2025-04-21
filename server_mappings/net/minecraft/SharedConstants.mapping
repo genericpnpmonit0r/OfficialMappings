@@ -1,0 +1,4 @@
+CLASS dg net/minecraft/SharedConstants
+	METHOD a readAcceptableChars ()Ljava/lang/String;
+	FIELD a acceptableLetters Ljava/lang/String;
+	FIELD b invalidFilenameLetters [C

@@ -1,0 +1,2 @@
+CLASS oe net/minecraft/world/item/PaintingItem
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z

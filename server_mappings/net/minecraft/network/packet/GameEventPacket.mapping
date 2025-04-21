@@ -1,0 +1,5 @@
+CLASS ax net/minecraft/network/packet/GameEventPacket
+	FIELD a EVENT_NAMES [Ljava/lang/String;
+	FIELD b event I
+	METHOD <init> (I)V
+		ARG 1 event

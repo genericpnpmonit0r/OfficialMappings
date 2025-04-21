@@ -1,0 +1,5 @@
+CLASS ge net/minecraft/world/item/HoeItem
+	METHOD <init> (ILas;)V
+		ARG 1 id
+		ARG 2 tier
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z

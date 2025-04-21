@@ -1,0 +1,6 @@
+CLASS gs net/minecraft/world/item/TilePlanterItem
+	METHOD <init> (ILlq;)V
+		ARG 1 id
+		ARG 2 tile
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z
+	FIELD a tileId I

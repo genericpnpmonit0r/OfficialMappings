@@ -1,0 +1,14 @@
+CLASS lu net/minecraft/server/gui/MinecraftServerGui
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 minecraftServer
+	METHOD a buildInfoPanel ()Ljavax/swing/JComponent;
+	METHOD a access$000 (Llu;)Lnet/minecraft/server/MinecraftServer;
+		ARG 0 this$0
+	METHOD a showFrameFor (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 0 minecraftServer
+	METHOD b buildPlayerPanel ()Ljavax/swing/JComponent;
+	METHOD b sendMessage (Ljava/lang/String;)V
+	METHOD c getConsoleName ()Ljava/lang/String;
+	METHOD d buildChatPanel ()Ljavax/swing/JComponent;
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b minecraftServer Lnet/minecraft/server/MinecraftServer;

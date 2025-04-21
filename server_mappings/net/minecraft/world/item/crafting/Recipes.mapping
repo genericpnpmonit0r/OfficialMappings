@@ -1,0 +1,13 @@
+CLASS ei net/minecraft/world/item/crafting/Recipes
+	FIELD a instance Lei;
+	FIELD b recipies Ljava/util/List;
+	METHOD a getInstance ()Lei;
+	METHOD a addShapedRecipy (Lfg;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+	METHOD a getItemFor (Lhe;)Lfg;
+		ARG 1 craftingContainer
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b addShapelessRecipy (Lfg;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern

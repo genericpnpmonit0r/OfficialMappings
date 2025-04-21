@@ -1,0 +1,8 @@
+CLASS eg net/minecraft/network/packet/SetTimePacket
+	METHOD <init> (J)V
+		ARG 1 time
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkw;)V
+	FIELD a time J

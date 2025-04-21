@@ -1,0 +1,33 @@
+CLASS dc net/minecraft/server/ServerLevel
+	FIELD u serverChunkCache Lgk;
+	FIELD v canInteract Z
+	FIELD w levelSavingDisabled Z
+	FIELD x server Lnet/minecraft/server/MinecraftServer;
+	FIELD y entitiesById Lft;
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lmz;Ljava/lang/String;IJ)V
+		ARG 1 server
+		ARG 2 storage
+		ARG 3 name
+		ARG 4 dimension
+		ARG 5 seed
+	METHOD a getEntity (I)Lkj;
+		ARG 1 id
+	METHOD a mayInteract (Ldx;III)Z
+	METHOD a broadcastEntityEvent (Lkj;B)V
+	METHOD a explode (Lkj;DDDFZ)Ljf;
+	METHOD a tick (Lkj;Z)V
+	METHOD b createChunkSource ()Lbc;
+	METHOD b entityAdded (Lkj;)V
+	METHOD b forceTick (Lkj;Z)V
+		ARG 1 e
+		ARG 2 b
+	METHOD c entityRemoved (Lkj;)V
+	METHOD d tileEvent (IIIII)V
+	METHOD d getTileEntities (IIIIII)Ljava/util/List;
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
+	METHOD t closeLevelStorage ()V

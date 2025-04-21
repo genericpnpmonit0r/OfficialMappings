@@ -1,0 +1,2 @@
+CLASS jh net/minecraft/world/item/BowItem
+	METHOD a use (Lfg;Lcw;Ldx;)Lfg;

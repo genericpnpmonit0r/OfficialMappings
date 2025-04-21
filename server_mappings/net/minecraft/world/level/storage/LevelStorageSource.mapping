@@ -1,0 +1,6 @@
+CLASS hp net/minecraft/world/level/storage/LevelStorageSource
+	METHOD a requiresConversion (Ljava/lang/String;)Z
+		ARG 1 levelName
+	METHOD a convertLevel (Ljava/lang/String;Lnv;)Z
+		ARG 1 levelName
+		ARG 2 progressListener

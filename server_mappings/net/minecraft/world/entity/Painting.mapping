@@ -1,0 +1,24 @@
+CLASS jd net/minecraft/world/entity/Painting
+	METHOD <init> (Lcw;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+	METHOD a defineSynchedData ()V
+	METHOD a addAdditionalSaveData (Lhu;)V
+	METHOD a hurt (Lkj;I)Z
+	METHOD b setDir (I)V
+		ARG 1 dir
+	METHOD b readAdditionalSaveData (Lhu;)V
+	METHOD c offs (I)F
+		ARG 1 offs
+	METHOD d_ isPickable ()Z
+	METHOD f_ tick ()V
+	METHOD h survives ()Z
+	FIELD a dir I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e motive Lfa;
+	FIELD f checkInterval I

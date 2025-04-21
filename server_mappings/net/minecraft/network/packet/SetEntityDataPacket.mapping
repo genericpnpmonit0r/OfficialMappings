@@ -1,0 +1,10 @@
+CLASS ls net/minecraft/network/packet/SetEntityDataPacket
+	METHOD <init> (ILlh;)V
+		ARG 1 id
+		ARG 2 data
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkw;)V
+	FIELD a id I
+	FIELD b packedItems Ljava/util/List;

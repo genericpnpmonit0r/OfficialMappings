@@ -1,0 +1,5 @@
+CLASS aw net/minecraft/world/item/BowlFoodItem
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 nutrition
+	METHOD a use (Lfg;Lcw;Ldx;)Lfg;

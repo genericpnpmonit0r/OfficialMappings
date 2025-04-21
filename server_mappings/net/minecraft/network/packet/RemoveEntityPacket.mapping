@@ -1,0 +1,8 @@
+CLASS jv net/minecraft/network/packet/RemoveEntityPacket
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkw;)V
+	FIELD a id I

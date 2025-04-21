@@ -1,0 +1,10 @@
+CLASS hq net/minecraft/network/packet/AnimatePacket
+	METHOD <init> (Lkj;I)V
+		ARG 1 entity
+		ARG 2 action
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkw;)V
+	FIELD a id I
+	FIELD b action I

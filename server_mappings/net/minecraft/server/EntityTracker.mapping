@@ -1,0 +1,29 @@
+CLASS mb net/minecraft/server/EntityTracker
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD a tick ()V
+	METHOD a removePlayer (Lcy;)V
+		ARG 1 player
+	METHOD a addEntity (Lkj;)V
+		ARG 1 entity
+	METHOD a trackEntity (Lkj;II)V
+		ARG 1 entity
+		ARG 2 range
+		ARG 3 updInterval
+	METHOD a trackEntity (Lkj;IIZ)V
+		ARG 1 entity
+		ARG 2 range
+		ARG 3 updInterval
+		ARG 4 sendMotion
+	METHOD a broadcast (Lkj;Lfy;)V
+		ARG 1 entity
+		ARG 2 packet
+	METHOD b removeEntity (Lkj;)V
+		ARG 1 entity
+	METHOD b broadcastAndSend (Lkj;Lfy;)V
+		ARG 1 entity
+		ARG 2 packet
+	FIELD a trackedEntities Ljava/util/Set;
+	FIELD b trackedEntitesById Lft;
+	FIELD c server Lnet/minecraft/server/MinecraftServer;
+	FIELD d maxRange I

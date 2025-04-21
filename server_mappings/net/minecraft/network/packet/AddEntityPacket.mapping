@@ -1,0 +1,13 @@
+CLASS kl net/minecraft/network/packet/AddEntityPacket
+	METHOD <init> (Lkj;I)V
+		ARG 1 entity
+		ARG 2 type
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkw;)V
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e type I

@@ -1,0 +1,22 @@
+CLASS ne net/minecraft/world/level/dimension/Dimension
+	METHOD a init ()V
+	METHOD a getNew (I)Lne;
+		ARG 0 id
+	METHOD a isValidSpawn (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a getTimeOfDay (JF)F
+		ARG 1 ff
+		ARG 3 fff
+	METHOD a init (Lcw;)V
+		ARG 1 level
+	METHOD b updateLightRamp ()V
+	METHOD c createRandomLevelSource ()Lbc;
+	FIELD a level Lcw;
+	FIELD b biomeSource Lnt;
+	FIELD c foggy Z
+	FIELD d ultraWarm Z
+	FIELD e hasCeiling Z
+	FIELD f brightnessRamp [F
+	FIELD g id I
+	FIELD h sunriseCol [F

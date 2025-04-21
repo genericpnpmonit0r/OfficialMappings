@@ -1,0 +1,49 @@
+CLASS ff net/minecraft/world/entity/player/Inventory
+	FIELD a items [Lfg;
+	FIELD b armor [Lfg;
+	FIELD c selected I
+	FIELD d player Ldx;
+	FIELD e changed Z
+	FIELD f carried Lfg;
+	METHOD <init> (Ldx;)V
+		ARG 1 player
+	METHOD a removeItem (II)Lfg;
+	METHOD a setItem (ILfg;)V
+	METHOD a add (Lfg;)Z
+		ARG 1 item
+	METHOD a getAttackDamage (Lkj;)I
+		ARG 1 e
+	METHOD a save (Lkk;)Lkk;
+		ARG 1 tag
+	METHOD a getDestroySpeed (Llq;)F
+		ARG 1 tile
+	METHOD a_ stillValid (Ldx;)Z
+	METHOD b getSelected ()Lfg;
+	METHOD b removeResource (I)Z
+		ARG 1 item
+	METHOD b setCarried (Lfg;)V
+		ARG 1 item
+	METHOD b load (Lkk;)V
+		ARG 1 tag
+	METHOD b canDestroy (Llq;)Z
+		ARG 1 tile
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c hurtArmor (I)V
+		ARG 1 dmg
+	METHOD c getSlotWithRemainingSpace (Lfg;)I
+		ARG 1 item
+	METHOD c_ getItem (I)Lfg;
+	METHOD d getSlot (I)I
+		ARG 1 id
+	METHOD d addResource (Lfg;)I
+		ARG 1 item
+	METHOD e getCarriedSlotCount ()I
+		COMMENT idk cause inlined in other editions with symbols
+	METHOD f tick ()V
+	METHOD g getArmorValue ()I
+	METHOD h dropAll ()V
+	METHOD i setChanged ()V
+	METHOD j getCarried ()Lfg;
+	METHOD k getFreeSlot ()I
+	METHOD q_ getContainerSize ()I
+	METHOD r_ getMaxStackSize ()I

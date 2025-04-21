@@ -1,0 +1,9 @@
+CLASS iq net/minecraft/world/level/tile/MusicTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTexture (I)I
+	METHOD a neighborChanged (Lcw;IIII)V
+	METHOD a triggerEvent (Lcw;IIIII)V
+	METHOD a use (Lcw;IIILdx;)Z
+	METHOD a_ newTileEntity ()Lih;
+	METHOD b attack (Lcw;IIILdx;)V

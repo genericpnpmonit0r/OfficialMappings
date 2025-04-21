@@ -1,0 +1,20 @@
+CLASS kv net/minecraft/server/ServerCommandDispatcher
+	COMMENT total guess as usual.
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD a command (Lab;)V
+		ARG 1 c
+	METHOD a parseInt (Ljava/lang/String;I)I
+		ARG 1 str
+		ARG 2 def
+	METHOD a broadcastAllOps (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 user
+		ARG 2 message
+	METHOD a whitelist (Ljava/lang/String;Ljava/lang/String;Lku;)V
+		ARG 1 name
+		ARG 2 command
+		ARG 3 s
+	METHOD a help (Lku;)V
+		ARG 1 s
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b server Lnet/minecraft/server/MinecraftServer;

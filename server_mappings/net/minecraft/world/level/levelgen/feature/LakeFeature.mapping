@@ -1,0 +1,5 @@
+CLASS bt net/minecraft/world/level/levelgen/feature/LakeFeature
+	METHOD <init> (I)V
+		ARG 1 tile
+	METHOD a place (Lcw;Ljava/util/Random;III)Z
+	FIELD a tile I

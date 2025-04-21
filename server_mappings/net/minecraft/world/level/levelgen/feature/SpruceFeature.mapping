@@ -1,0 +1,2 @@
+CLASS my net/minecraft/world/level/levelgen/feature/SpruceFeature
+	METHOD a place (Lcw;Ljava/util/Random;III)Z

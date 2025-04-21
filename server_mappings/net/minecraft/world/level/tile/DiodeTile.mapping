@@ -1,0 +1,28 @@
+CLASS mv net/minecraft/world/level/tile/DiodeTile
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 on
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPlace (Lcw;III)Z
+	METHOD a neighborChanged (Lcw;IIII)V
+	METHOD a use (Lcw;IIILdx;)Z
+	METHOD a setPlacedBy (Lcw;IIILgq;)V
+	METHOD a tick (Lcw;IIILjava/util/Random;)V
+	METHOD a shouldRenderFace (Lnn;IIII)Z
+	METHOD b getSignal (Lnn;IIII)Z
+	METHOD c isSignalSource ()Z
+	METHOD c getDirectSignal (Lcw;IIII)Z
+	METHOD e onPlace (Lcw;III)V
+	METHOD f canSurvive (Lcw;III)Z
+	METHOD f shouldTurnOn (Lcw;IIII)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 data
+	FIELD a unk_a [D
+	FIELD b unk_b [I
+	FIELD c on Z

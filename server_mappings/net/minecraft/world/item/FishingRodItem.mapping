@@ -1,0 +1,2 @@
+CLASS bl net/minecraft/world/item/FishingRodItem
+	METHOD a use (Lfg;Lcw;Ldx;)Lfg;

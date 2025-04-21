@@ -1,0 +1,2 @@
+CLASS lv net/minecraft/world/item/SignItem
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z

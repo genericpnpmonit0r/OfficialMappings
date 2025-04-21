@@ -1,0 +1,2 @@
+CLASS is net/minecraft/world/level/levelgen/feature/PineFeature
+	METHOD a place (Lcw;Ljava/util/Random;III)Z

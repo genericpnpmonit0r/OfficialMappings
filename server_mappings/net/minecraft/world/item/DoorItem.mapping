@@ -1,0 +1,6 @@
+CLASS ep net/minecraft/world/item/DoorItem
+	METHOD <init> (ILgo;)V
+		ARG 1 id
+		ARG 2 material
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z
+	FIELD a material Lgo;

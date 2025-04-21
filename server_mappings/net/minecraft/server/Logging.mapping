@@ -1,0 +1,3 @@
+CLASS ef net/minecraft/server/Logging
+	METHOD a init ()V
+	FIELD a logger Ljava/util/logging/Logger;

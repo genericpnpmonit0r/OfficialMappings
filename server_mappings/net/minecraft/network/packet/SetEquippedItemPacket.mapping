@@ -1,0 +1,13 @@
+CLASS j net/minecraft/network/packet/SetEquippedItemPacket
+	METHOD <init> (IILfg;)V
+		ARG 1 entity
+		ARG 2 slot
+		ARG 3 item
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkw;)V
+	FIELD a entity I
+	FIELD b slot I
+	FIELD c item I
+	FIELD d auxValue I

@@ -1,0 +1,2 @@
+CLASS nz net/minecraft/world/level/levelgen/feature/TreeFeature
+	METHOD a place (Lcw;Ljava/util/Random;III)Z

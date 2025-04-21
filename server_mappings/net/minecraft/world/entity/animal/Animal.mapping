@@ -1,0 +1,6 @@
+CLASS aj net/minecraft/world/entity/animal/Animal
+	METHOD a getWalkTargetValue (III)F
+	METHOD a addAdditionalSaveData (Lhu;)V
+	METHOD b canSpawn ()Z
+	METHOD b readAdditionalSaveData (Lhu;)V
+	METHOD c getAmbientSoundInterval ()I

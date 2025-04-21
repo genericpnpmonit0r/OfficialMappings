@@ -1,0 +1,51 @@
+CLASS gf net/minecraft/server/PlayerConnection
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lil;Lcy;)V
+		ARG 1 server
+		ARG 2 connection
+		ARG 3 player
+	METHOD a tick ()V
+	METHOD a moveTo (DDDFF)V
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 yRot
+		ARG 8 xRot
+	METHOD a handleInteract (La;)V
+	METHOD a handleUseItem (Ldz;)V
+	METHOD a handleSetCarriedItem (Lem;)V
+	METHOD a handleMovePlayer (Lev;)V
+	METHOD a handlePlayerAction (Lfr;)V
+	METHOD a onUnhandledPacket (Lfy;)V
+	METHOD a handleContainerClose (Lhb;)V
+	METHOD a handleAnimate (Lhq;)V
+	METHOD a handleContainerAck (Lid;)V
+	METHOD a handleRespawn (Lii;)V
+	METHOD a handleChat (Lik;)V
+	METHOD a handlePlayerInput (Liy;)V
+	METHOD a disconnect (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
+	METHOD a handleContainerClick (Ljc;)V
+	METHOD a handlePlayerCommand (Lld;)V
+	METHOD a handleSignUpdate (Lll;)V
+	METHOD a handleDisconnect (Loh;)V
+	METHOD b countDelayedPackets ()I
+	METHOD b send (Lfy;)V
+		ARG 1 packet
+	METHOD b sendMessage (Ljava/lang/String;)V
+	METHOD c getConsoleName ()Ljava/lang/String;
+	METHOD c command (Ljava/lang/String;)V
+		ARG 1 command
+	FIELD a logger Ljava/util/logging/Logger;
+	FIELD b connection Lil;
+	FIELD c disconnected Z
+	FIELD d server Lnet/minecraft/server/MinecraftServer;
+	FIELD e player Lcy;
+	FIELD f oTickCount I
+	FIELD g tickCount I
+	FIELD h unk_h Z
+	FIELD i x D
+	FIELD j y D
+	FIELD k z D
+	FIELD l moving Z
+	FIELD m containerUidMap Ljava/util/Map;

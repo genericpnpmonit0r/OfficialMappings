@@ -1,0 +1,2 @@
+CLASS hc net/minecraft/world/item/EggItem
+	METHOD a use (Lfg;Lcw;Ldx;)Lfg;

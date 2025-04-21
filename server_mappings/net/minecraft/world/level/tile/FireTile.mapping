@@ -1,0 +1,47 @@
+CLASS of net/minecraft/world/level/tile/FireTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a setFlammable (III)V
+		ARG 1 tile
+		ARG 2 flameOdds
+		ARG 3 burnOdds
+	METHOD a mayPlace (Lcw;III)Z
+	METHOD a neighborChanged (Lcw;IIII)V
+	METHOD a checkBurn (Lcw;IIIILjava/util/Random;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 odds
+		ARG 6 random
+	METHOD a tick (Lcw;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b getTickDelay ()I
+	METHOD b canBurn (Lnn;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d mayPick ()Z
+	METHOD d getAABB (Lcw;III)Lcm;
+	METHOD e onPlace (Lcw;III)V
+	METHOD f getFlammability (Lcw;IIII)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 odds
+	METHOD g isValidFireLocation (Lcw;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h getFireOdds (Lcw;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a flameOdds [I
+	FIELD b burnOdds [I

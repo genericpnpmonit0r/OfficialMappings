@@ -1,0 +1,6 @@
+CLASS nk net/minecraft/network/Connection$1
+	FIELD a this$0 Lil;
+	METHOD <init> (Lil;Ljava/lang/String;)V
+		ARG 1 this$0
+		ARG 2 val$name
+	METHOD run run ()V

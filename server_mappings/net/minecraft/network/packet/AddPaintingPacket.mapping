@@ -1,0 +1,13 @@
+CLASS mi net/minecraft/network/packet/AddPaintingPacket
+	METHOD <init> (Ljd;)V
+		ARG 1 painting
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lkw;)V
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e dir I
+	FIELD f motive Ljava/lang/String;

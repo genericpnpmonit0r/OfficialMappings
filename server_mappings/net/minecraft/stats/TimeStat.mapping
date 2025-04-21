@@ -1,0 +1,2 @@
+CLASS oa net/minecraft/stats/TimeStat
+	FIELD a DECIMAL_FORMAT Ljava/text/DecimalFormat;

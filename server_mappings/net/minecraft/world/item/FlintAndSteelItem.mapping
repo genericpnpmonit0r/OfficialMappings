@@ -1,0 +1,2 @@
+CLASS nx net/minecraft/world/item/FlintAndSteelItem
+	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z

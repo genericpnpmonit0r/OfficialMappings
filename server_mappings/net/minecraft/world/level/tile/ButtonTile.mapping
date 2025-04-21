@@ -1,0 +1,28 @@
+CLASS ic net/minecraft/world/level/tile/ButtonTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Lcw;III)Z
+	METHOD a neighborChanged (Lcw;IIII)V
+	METHOD a use (Lcw;IIILdx;)Z
+	METHOD a tick (Lcw;IIILjava/util/Random;)V
+	METHOD a updateShape (Lnn;III)V
+	METHOD b getTickDelay ()I
+	METHOD b onRemove (Lcw;III)V
+	METHOD b attack (Lcw;IIILdx;)V
+	METHOD b getSignal (Lnn;IIII)Z
+	METHOD c isSignalSource ()Z
+	METHOD c getDirectSignal (Lcw;IIII)Z
+	METHOD d getAABB (Lcw;III)Lcm;
+	METHOD d setPlacedOnFace (Lcw;IIII)V
+	METHOD g unk_h (Lcw;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h checkCanSurvive (Lcw;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

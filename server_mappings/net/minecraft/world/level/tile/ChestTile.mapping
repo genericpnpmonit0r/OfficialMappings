@@ -1,0 +1,14 @@
+CLASS d net/minecraft/world/level/tile/ChestTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTexture (I)I
+	METHOD a mayPlace (Lcw;III)Z
+	METHOD a use (Lcw;IIILdx;)Z
+	METHOD a_ newTileEntity ()Lih;
+	METHOD b onRemove (Lcw;III)V
+	METHOD g isFullChest (Lcw;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD a random Ljava/util/Random;

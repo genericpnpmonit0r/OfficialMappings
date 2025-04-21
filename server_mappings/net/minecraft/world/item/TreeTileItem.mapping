@@ -1,0 +1,2 @@
+CLASS dv net/minecraft/world/item/TreeTileItem
+	METHOD a getLevelDataForAuxValue (I)I

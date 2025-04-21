@@ -1,0 +1,17 @@
+CLASS gm net/minecraft/world/entity/MobCategory
+	METHOD <init> (Ljava/lang/String;ILjava/lang/Class;ILgo;Z)V
+		ARG 3 base
+		ARG 4 max
+		ARG 5 material
+		ARG 6 friendly
+	METHOD a getBaseClass ()Ljava/lang/Class;
+	METHOD b getMaxInstancesPerChunk ()I
+	METHOD c getSpawnPositionMaterial ()Lgo;
+	METHOD d isFriendly ()Z
+	FIELD a monster Lgm;
+	FIELD b creature Lgm;
+	FIELD c waterCreature Lgm;
+	FIELD d base Ljava/lang/Class;
+	FIELD e max I
+	FIELD f spawnPositionMaterial Lgo;
+	FIELD g isFriendly Z

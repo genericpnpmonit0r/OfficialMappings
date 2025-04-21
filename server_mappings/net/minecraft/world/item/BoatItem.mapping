@@ -1,0 +1,2 @@
+CLASS lx net/minecraft/world/item/BoatItem
+	METHOD a use (Lfg;Lcw;Ldx;)Lfg;

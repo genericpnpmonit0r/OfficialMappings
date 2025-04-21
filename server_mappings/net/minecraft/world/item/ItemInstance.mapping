@@ -1,0 +1,86 @@
+CLASS fg net/minecraft/world/item/ItemInstance
+	FIELD a count I
+	FIELD b popTime I
+	FIELD c id I
+	FIELD d auxValue I
+	METHOD <init> (III)V
+		ARG 1 id
+		ARG 2 count
+		ARG 3 auxValue
+	METHOD <init> (Ldu;)V
+		ARG 1 item
+	METHOD <init> (Ldu;I)V
+		ARG 1 item
+		ARG 2 count
+	METHOD <init> (Ldu;II)V
+		ARG 1 item
+		ARG 2 count
+		ARG 3 auxValue
+	METHOD <init> (Lhu;)V
+		ARG 1 tag
+	METHOD <init> (Llq;)V
+		ARG 1 tile
+	METHOD <init> (Llq;I)V
+		ARG 1 tile
+		ARG 2 count
+	METHOD <init> (Llq;II)V
+		ARG 1 tile
+		ARG 2 count
+		ARG 3 auxValue
+	METHOD a getItem ()Ldu;
+	METHOD a remove (I)Lfg;
+		ARG 1 count
+	METHOD a mineBlock (IIIILdx;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 face
+		ARG 5 player
+	METHOD a hurt (ILkj;)V
+		ARG 1 damage
+		ARG 2 e
+	METHOD a use (Lcw;Ldx;)Lfg;
+		ARG 1 level
+		ARG 2 player
+	METHOD a snap (Ldx;)V
+		ARG 1 player
+	METHOD a useOn (Ldx;Lcw;IIII)Z
+		ARG 1 player
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+		ARG 6 face
+	METHOD a sameItem (Lfg;)Z
+		ARG 1 item
+	METHOD a matches (Lfg;Lfg;)Z
+		ARG 0 item1
+		ARG 1 item2
+	METHOD a interactEnemy (Lgq;)V
+		ARG 1 mob
+	METHOD a hurtEnemy (Lgq;Ldx;)V
+		ARG 1 mob
+		ARG 2 player
+	METHOD a save (Lhu;)Lhu;
+		ARG 1 tag
+	METHOD a getAttackDamage (Lkj;)I
+		ARG 1 entity
+	METHOD a getDestroySpeed (Llq;)F
+		ARG 1 tile
+	METHOD b getMaxStackSize ()I
+	METHOD b clone (Lfg;)Lfg;
+		ARG 0 item
+	METHOD b load (Lhu;)V
+		ARG 1 tag
+	METHOD b canDestroySpecial (Llq;)Z
+		ARG 1 tile
+	METHOD c isStackable ()Z
+	METHOD c matches (Lfg;)Z
+		ARG 1 item
+	METHOD d isDamageableItem ()Z
+	METHOD e isStackedByData ()Z
+	METHOD f isDamaged ()Z
+	METHOD g getDamageValue ()I
+	METHOD h getAuxValue ()I
+	METHOD i getMaxDamage ()I
+	METHOD j copy ()Lfg;

@@ -1,0 +1,40 @@
+CLASS jr net/minecraft/world/level/tile/LiquidTile
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPick (IZ)Z
+	METHOD a neighborChanged (Lcw;IIII)V
+	METHOD a tick (Lcw;IIILjava/util/Random;)V
+	METHOD a handleEntityInside (Lcw;IIILkj;Lar;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a shouldRenderFace (Lnn;IIII)Z
+	METHOD b getTickDelay ()I
+	METHOD b getRenderedDepth (Lnn;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c getHeight (I)F
+		ARG 0 d
+	METHOD c getFlow (Lnn;III)Lar;
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD d getAABB (Lcw;III)Lcm;
+	METHOD e onPlace (Lcw;III)V
+	METHOD g getDepth (Lcw;III)I
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h fizz (Lcw;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i updateLiquid (Lcw;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

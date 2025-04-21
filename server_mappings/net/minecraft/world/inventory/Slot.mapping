@@ -1,0 +1,27 @@
+CLASS dw net/minecraft/world/inventory/Slot
+	FIELD a index I
+	FIELD b x I
+	FIELD c y I
+	FIELD d slot I
+	FIELD e container Lgu;
+	METHOD <init> (Lgu;III)V
+		ARG 1 container
+		ARG 2 slot
+		ARG 3 x
+		ARG 4 y
+	METHOD a getItem ()Lfg;
+	METHOD a remove (I)Lfg;
+		ARG 1 c
+	METHOD a onTake (Lfg;)V
+		ARG 1 item
+	METHOD a isAt (Lgu;I)Z
+		ARG 1 container
+		ARG 2 slot
+	METHOD b setChanged ()V
+	METHOD b mayPlace (Lfg;)Z
+		ARG 1 item
+	METHOD c getMaxStackSize ()I
+	METHOD c set (Lfg;)V
+		ARG 1 item
+	METHOD d checkTakeAchievements ()Z
+		COMMENT some unused leftover func in this specific version, probably gone by b1.5 when stats were finalized
