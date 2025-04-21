@@ -3,4 +3,4 @@ CLASS av net/minecraft/world/level/biome/Biome$MobSpawnerData
 	FIELD b count I
 	METHOD <init> (Ljava/lang/Class;I)V
 		ARG 1 base
-		ARG 2 rarity
+		ARG 2 count
