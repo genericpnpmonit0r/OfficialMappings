@@ -1,5 +1,0 @@
-CLASS rn net/minecraft/world/level/chunk/UNKNOWN_CLASS
-	COMMENT nobody knows what this is precisely called
-	FIELD a blocks [B
-	METHOD a init ([B)V
-		ARG 0 b

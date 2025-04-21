@@ -1,0 +1,6 @@
+CLASS rn net/minecraft/world/level/chunk/InvalidChunkTilesFix
+	COMMENT nobody knows what this is precisely called
+	COMMENT if you can find any reference to this class' real name lmk
+	FIELD a blocks [B
+	METHOD a apply ([B)V
+		ARG 0 b
