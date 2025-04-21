@@ -1,3 +1,1 @@
 CLASS ka net/minecraft/world/item/SaddleItem
-	METHOD a interactEnemy (Lfg;Lgq;)V
-	METHOD a hurtEnemy (Lfg;Lgq;Lgq;)Z

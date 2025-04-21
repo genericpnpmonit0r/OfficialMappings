@@ -3,6 +3,3 @@ CLASS oc net/minecraft/world/level/tile/entity/SignTileEntity
 	FIELD b selectedLine I
 	FIELD c editable Z
 	METHOD a isEditable ()Z
-	METHOD a load (Lhu;)V
-	METHOD b save (Lhu;)V
-	METHOD e getUpdatePacket ()Lfy;

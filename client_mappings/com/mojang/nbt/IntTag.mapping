@@ -1,7 +1,4 @@
 CLASS mq com/mojang/nbt/IntTag
+	FIELD a data I
 	METHOD <init> (I)V
 		ARG 1 data
-	METHOD a getId ()B
-	METHOD a load (Ljava/io/DataInput;)V
-	METHOD a write (Ljava/io/DataOutput;)V
-	FIELD a data I

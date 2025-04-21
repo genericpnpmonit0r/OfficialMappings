@@ -8,15 +8,6 @@ CLASS dd net/minecraft/world/level/storage/DirectoryLevelStorage
 		ARG 2 levelName
 		ARG 3 players
 	METHOD a getDirectory ()Ljava/io/File;
-	METHOD a saveLevelData (Lch;)V
-	METHOD a saveLevelData (Lch;Ljava/util/List;)V
-	METHOD a save (Ldx;)V
 	METHOD a loadPlayerDataTag (Ljava/lang/String;)Lhu;
 		ARG 1 playerName
-	METHOD a createChunkStorage (Lne;)Lai;
-	METHOD b checkSession ()V
-	METHOD b load (Ldx;)V
-	METHOD c prepareLevel ()Lch;
-	METHOD d getPlayerIO ()Leu;
-	METHOD e closeAll ()V
 	METHOD f init ()V

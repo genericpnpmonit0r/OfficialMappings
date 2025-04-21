@@ -1,15 +1,11 @@
 CLASS lg net/minecraft/network/packet/TileUpdatePacket
-	METHOD <init> (IIILcw;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 level
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkw;)V
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
 	FIELD d block I
 	FIELD e data I
+	METHOD <init> (IIILcw;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 level

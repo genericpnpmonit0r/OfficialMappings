@@ -1,2 +1,1 @@
 CLASS jt net/minecraft/client/renderer/entity/DefaultRenderer
-	METHOD a render (Lpb;DDDFF)V

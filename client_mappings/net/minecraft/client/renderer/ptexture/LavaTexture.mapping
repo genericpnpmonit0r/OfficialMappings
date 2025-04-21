@@ -1,5 +1,4 @@
 CLASS bo net/minecraft/client/renderer/ptexture/LavaTexture
-	METHOD a tick ()V
 	FIELD g current [F
 	FIELD h next [F
 	FIELD i heat [F

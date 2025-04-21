@@ -31,16 +31,11 @@ CLASS fm net/minecraft/world/entity/player/Player
 	METHOD E unk_C ()V
 	METHOD F getSelectedItem ()Lhi;
 	METHOD G removeSelectedItem ()V
-	METHOD H getRidingHeight ()D
 	METHOD I swing ()V
-	METHOD J remove ()V
-	METHOD K isInWall ()Z
 	METHOD L getSleepingRotation ()F
-	METHOD M isSleeping ()Z
 	METHOD N isSleepingLongEnough ()Z
 	METHOD O getSleepTimer ()I
 	METHOD P getSpawnPosition ()Lay;
-	METHOD Q jumpFromGround ()V
 	METHOD a startCrafting (III)V
 		ARG 1 x
 		ARG 2 y
@@ -66,10 +61,8 @@ CLASS fm net/minecraft/world/entity/player/Player
 		ARG 2 b
 	METHOD a openContainer (Ljp;)V
 		ARG 1 container
-	METHOD a addAdditionalSaveData (Llg;)V
 	METHOD a openFurnace (Loy;)V
 		ARG 1 furnace
-	METHOD a hurt (Lpb;I)Z
 	METHOD a getDestroySpeed (Lra;)F
 		ARG 1 tile
 	METHOD a awardStat (Lru;I)V
@@ -81,11 +74,7 @@ CLASS fm net/minecraft/world/entity/player/Player
 		ARG 1 a
 		ARG 2 b
 		ARG 3 c
-	METHOD a_ travel (FF)V
 	METHOD ah checkBed ()Z
-	METHOD b defineSynchedData ()V
-	METHOD b causeFallDamage (F)V
-	METHOD b actuallyHurt (I)V
 	METHOD b startSleepInBed (III)Lcb;
 		ARG 1 x
 		ARG 2 y
@@ -94,8 +83,6 @@ CLASS fm net/minecraft/world/entity/player/Player
 		ARG 1 item
 	METHOD b displayClientMessage (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD b readAdditionalSaveData (Llg;)V
-	METHOD b die (Lpb;)V
 	METHOD b take (Lpb;I)V
 		ARG 1 e
 		ARG 2 orgCount
@@ -103,25 +90,16 @@ CLASS fm net/minecraft/world/entity/player/Player
 		ARG 1 tile
 	METHOD c interact (Lpb;)V
 		ARG 1 entity
-	METHOD c awardKillScore (Lpb;I)V
 	METHOD d attack (Lpb;)V
 		ARG 1 entity
 	METHOD e setBedOffset (I)V
 		ARG 1 dir
-	METHOD e_ updateAi ()V
 	METHOD h checkMovementStatistiscs (DDD)V
 		ARG 1 xa
 		ARG 3 ya
 		ARG 5 za
 	METHOD j touch (Lpb;)V
 		ARG 1 entity
-	METHOD n aiStep ()V
 	METHOD p_ respawn ()V
 	METHOD q closeContainer ()V
-	METHOD t_ rideTick ()V
-	METHOD u_ resetPos ()V
 	METHOD v animateRespawn ()V
-	METHOD v_ prepareCustomTextures ()V
-	METHOD w getHeadHeight ()F
-	METHOD w_ tick ()V
-	METHOD y isImmobile ()Z

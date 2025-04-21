@@ -1,10 +1,4 @@
 CLASS kq net/minecraft/network/packet/AddItemEntityPacket
-	METHOD <init> (Lgb;)V
-		ARG 1 item
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lpt;)V
 	FIELD a id I
 	FIELD b x I
 	FIELD c y I
@@ -15,3 +9,5 @@ CLASS kq net/minecraft/network/packet/AddItemEntityPacket
 	FIELD h itemId I
 	FIELD i itemCount I
 	FIELD l auxValue I
+	METHOD <init> (Lgb;)V
+		ARG 1 item

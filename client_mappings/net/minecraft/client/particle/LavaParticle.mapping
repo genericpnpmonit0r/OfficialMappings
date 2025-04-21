@@ -1,10 +1,7 @@
 CLASS ee net/minecraft/client/particle/LavaParticle
+	FIELD a oSize F
 	METHOD <init> (Leb;DDD)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a getBrightness (F)F
-	METHOD a render (Llj;FFFFFF)V
-	METHOD w_ tick ()V
-	FIELD a oSize F

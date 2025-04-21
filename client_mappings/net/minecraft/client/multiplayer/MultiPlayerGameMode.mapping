@@ -1,24 +1,4 @@
 CLASS tg net/minecraft/client/multiplayer/MultiPlayerGameMode
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Lko;)V
-		ARG 1 minecraft
-		ARG 2 connection
-	METHOD a stopDestroyBlock ()V
-	METHOD a render (F)V
-	METHOD a startDestroyBlock (IIII)V
-	METHOD a handleInventoryMouseClock (IIILfm;)Lhi;
-	METHOD a handleCloseInventory (ILfm;)V
-	METHOD a initLevel (Leb;)V
-	METHOD a initPlayer (Lfm;)V
-	METHOD a useItem (Lfm;Leb;Lhi;)Z
-	METHOD a useItemOn (Lfm;Leb;Lhi;IIII)Z
-	METHOD a interact (Lfm;Lpb;)V
-	METHOD b getPickRange ()F
-	METHOD b destroyBlock (IIII)Z
-	METHOD b createPlayer (Leb;)Lfm;
-	METHOD b attack (Lfm;Lpb;)V
-	METHOD c tick ()V
-	METHOD c continueDestroyBlock (IIII)V
-	METHOD e ensureHasSentCarriedItem ()V
 	FIELD c xDestroyBlock I
 	FIELD d yDestroyBlock I
 	FIELD e zDestroyBlock I
@@ -29,3 +9,7 @@ CLASS tg net/minecraft/client/multiplayer/MultiPlayerGameMode
 	FIELD j isDestroying Z
 	FIELD k connection Lko;
 	FIELD l carriedItem I
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Lko;)V
+		ARG 1 minecraft
+		ARG 2 connection
+	METHOD e ensureHasSentCarriedItem ()V

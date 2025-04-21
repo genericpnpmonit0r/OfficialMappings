@@ -1,19 +1,11 @@
 CLASS ki net/minecraft/world/inventory/CraftingContainer
+	FIELD a items [Lhi;
+	FIELD b width I
+	FIELD c menu Lda;
 	METHOD <init> (Lda;II)V
 		ARG 1 menu
 		ARG 2 width
 		ARG 3 height
-	METHOD a getContainerSize ()I
-	METHOD a removeItem (II)Lhi;
-	METHOD a setItem (ILhi;)V
-	METHOD a_ stillValid (Lfm;)Z
 	METHOD b getItem (II)Lhi;
 		ARG 1 x
 		ARG 2 y
-	METHOD c getName ()Ljava/lang/String;
-	METHOD c_ getItem (I)Lhi;
-	METHOD d getMaxStackSize ()I
-	METHOD x_ setChanged ()V
-	FIELD a items [Lhi;
-	FIELD b width I
-	FIELD c menu Lda;

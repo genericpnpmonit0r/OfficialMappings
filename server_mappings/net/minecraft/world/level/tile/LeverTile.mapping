@@ -2,18 +2,6 @@ CLASS np net/minecraft/world/level/tile/LeverTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a mayPlace (Lcw;III)Z
-	METHOD a neighborChanged (Lcw;IIII)V
-	METHOD a use (Lcw;IIILdx;)Z
-	METHOD a updateShape (Lnn;III)V
-	METHOD b onRemove (Lcw;III)V
-	METHOD b attack (Lcw;IIILdx;)V
-	METHOD b getSignal (Lnn;IIII)Z
-	METHOD c isSignalSource ()Z
-	METHOD c getDirectSignal (Lcw;IIII)Z
-	METHOD d getAABB (Lcw;III)Lcm;
-	METHOD d setPlacedOnFace (Lcw;IIII)V
 	METHOD g checkCanSurvive (Lcw;III)Z
 		ARG 1 level
 		ARG 2 x

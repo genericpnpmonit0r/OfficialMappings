@@ -8,4 +8,3 @@ CLASS ij net/minecraft/client/Minecraft$3
 		ARG 5 h
 		ARG 6 fullscreen
 		ARG 7 val$frame
-	METHOD a onCrash (Ljz;)V

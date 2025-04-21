@@ -1,14 +1,6 @@
 CLASS ro net/minecraft/world/level/tile/FarmTile
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (II)I
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a neighborChanged (Leb;IIII)V
-	METHOD a tick (Leb;IIILjava/util/Random;)V
-	METHOD b isCubeShaped ()Z
-	METHOD b stepOn (Leb;IIILpb;)V
-	METHOD d getAABB (Leb;III)Ldq;
 	METHOD h isUnderCrops (Leb;III)Z
 		ARG 1 level
 		ARG 2 x

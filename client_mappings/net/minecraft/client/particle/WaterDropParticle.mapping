@@ -4,5 +4,3 @@ CLASS tb net/minecraft/client/particle/WaterDropParticle
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a render (Llj;FFFFFF)V
-	METHOD w_ tick ()V

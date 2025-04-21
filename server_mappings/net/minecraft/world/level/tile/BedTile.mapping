@@ -1,18 +1,13 @@
 CLASS ly net/minecraft/world/level/tile/BedTile
+	FIELD a HEAD_DIRECTION_OFFSETS [[I
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (II)I
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a neighborChanged (Lcw;IIII)V
-	METHOD a use (Lcw;IIILdx;)Z
 	METHOD a setOccupied (Lcw;IIIZ)V
 		ARG 0 level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 occupied
-	METHOD a updateShape (Lnn;III)V
 	METHOD c getDir (I)I
 		COMMENT total guess
 		COMMENT your guess is as good as mine
@@ -28,4 +23,3 @@ CLASS ly net/minecraft/world/level/tile/BedTile
 		ARG 3 z
 		ARG 4 i
 	METHOD g setShape ()V
-	FIELD a HEAD_DIRECTION_OFFSETS [[I

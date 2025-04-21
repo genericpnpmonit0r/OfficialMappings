@@ -1,11 +1,9 @@
 CLASS ky net/minecraft/world/level/tile/entity/MusicTileEntity
+	FIELD a note B
+	FIELD b on Z
 	METHOD a tune ()V
 	METHOD a playNote (Lcw;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a load (Lhu;)V
-	METHOD b save (Lhu;)V
-	FIELD a note B
-	FIELD b on Z

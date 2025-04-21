@@ -1,6 +1,4 @@
 CLASS gx net/minecraft/client/model/CreeperModel
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V
 	FIELD a head Lms;
 	FIELD b hair Lms;
 	FIELD c body Lms;

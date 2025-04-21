@@ -1,21 +1,4 @@
 CLASS dn net/minecraft/world/entity/item/Boat
-	METHOD <init> (Lcw;DDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD a defineSynchedData ()V
-	METHOD a interact (Ldx;)Z
-	METHOD a addAdditionalSaveData (Lhu;)V
-	METHOD a hurt (Lkj;I)Z
-	METHOD a_ getCollideAgainstBox (Lkj;)Lcm;
-	METHOD b readAdditionalSaveData (Lhu;)V
-	METHOD d getCollideBox ()Lcm;
-	METHOD d_ isPickable ()Z
-	METHOD e_ isPushable ()Z
-	METHOD f_ tick ()V
-	METHOD h_ positionRider ()V
-	METHOD k getRideHeight ()D
 	FIELD a damage I
 	FIELD b hurtTime I
 	FIELD c hutDir I
@@ -25,3 +8,8 @@ CLASS dn net/minecraft/world/entity/item/Boat
 	FIELD g lz D
 	FIELD h lyr D
 	FIELD i lxr D
+	METHOD <init> (Lcw;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z

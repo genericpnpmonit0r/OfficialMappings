@@ -1,6 +1,4 @@
 CLASS pp net/minecraft/client/model/ChickenModel
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V
 	FIELD a head Lms;
 	FIELD b body Lms;
 	FIELD c leg0 Lms;

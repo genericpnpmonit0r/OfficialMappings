@@ -1,3 +1,2 @@
 CLASS ed net/minecraft/client/renderer/entity/BoatRenderer
-	METHOD a render (Lpb;DDDFF)V
 	FIELD a model Lin;

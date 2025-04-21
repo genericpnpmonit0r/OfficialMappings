@@ -1,11 +1,9 @@
 CLASS py net/minecraft/world/level/tile/entity/MusicTileEntity
+	FIELD a note B
+	FIELD b on Z
 	METHOD a tune ()V
 	METHOD a playNote (Leb;III)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD a load (Llg;)V
-	METHOD b save (Llg;)V
-	FIELD a note B
-	FIELD b on Z

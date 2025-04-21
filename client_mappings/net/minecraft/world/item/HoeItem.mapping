@@ -2,5 +2,3 @@ CLASS iw net/minecraft/world/item/HoeItem
 	METHOD <init> (ILbc;)V
 		ARG 1 id
 		ARG 2 tier
-	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z
-	METHOD b isHandEquipped ()Z

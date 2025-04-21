@@ -1,9 +1,7 @@
 CLASS la net/minecraft/client/model/SlimeModel
-	METHOD <init> (I)V
-		ARG 1 vOffs
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V
 	FIELD a cube Lms;
 	FIELD b eye0 Lms;
 	FIELD c eye1 Lms;
 	FIELD d mouth Lms;
+	METHOD <init> (I)V
+		ARG 1 vOffs

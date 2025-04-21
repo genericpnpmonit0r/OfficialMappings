@@ -1,13 +1,9 @@
 CLASS qw net/minecraft/client/gui/ControlsScreen
-	METHOD <init> (Lcf;Lis;)V
-		ARG 1 lastScreen
-		ARG 2 options
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Lih;)V
-	METHOD j getLeftScreenPosition ()I
 	FIELD a title Ljava/lang/String;
 	FIELD i lastScreen Lcf;
 	FIELD j options Lis;
 	FIELD l selectedKey I
+	METHOD <init> (Lcf;Lis;)V
+		ARG 1 lastScreen
+		ARG 2 options
+	METHOD j getLeftScreenPosition ()I

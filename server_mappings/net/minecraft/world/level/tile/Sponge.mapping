@@ -1,5 +1,3 @@
 CLASS nh net/minecraft/world/level/tile/Sponge
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD b onRemove (Lcw;III)V
-	METHOD e onPlace (Lcw;III)V

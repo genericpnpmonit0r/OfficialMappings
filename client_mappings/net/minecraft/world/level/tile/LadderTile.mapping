@@ -2,12 +2,3 @@ CLASS cu net/minecraft/world/level/tile/LadderTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a mayPlace (Leb;III)Z
-	METHOD a neighborChanged (Leb;IIII)V
-	METHOD a getResourceCount (Ljava/util/Random;)I
-	METHOD b isCubeShaped ()Z
-	METHOD d getAABB (Leb;III)Ldq;
-	METHOD d setPlacedOnFace (Leb;IIII)V
-	METHOD f getTileAABB (Leb;III)Ldq;
-	METHOD g getRenderShape ()I

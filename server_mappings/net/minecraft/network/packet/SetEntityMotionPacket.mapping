@@ -1,4 +1,8 @@
 CLASS dr net/minecraft/network/packet/SetEntityMotionPacket
+	FIELD a id I
+	FIELD b xa I
+	FIELD c ya I
+	FIELD d za I
 	METHOD <init> (IDDD)V
 		ARG 1 id
 		ARG 2 xa
@@ -6,11 +10,3 @@ CLASS dr net/minecraft/network/packet/SetEntityMotionPacket
 		ARG 6 za
 	METHOD <init> (Lkj;)V
 		ARG 1 entity
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkw;)V
-	FIELD a id I
-	FIELD b xa I
-	FIELD c ya I
-	FIELD d za I

@@ -1,5 +1,4 @@
 CLASS fv net/minecraft/world/level/tile/Sapling
-	METHOD a tick (Leb;IIILjava/util/Random;)V
 	METHOD c growTree (Leb;IIILjava/util/Random;)V
 		ARG 1 level
 		ARG 2 x

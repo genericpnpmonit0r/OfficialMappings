@@ -9,5 +9,3 @@ CLASS if net/minecraft/client/particle/HeartParticle
 		ARG 10 ya
 		ARG 12 za
 		ARG 14 size
-	METHOD a render (Llj;FFFFFF)V
-	METHOD w_ tick ()V

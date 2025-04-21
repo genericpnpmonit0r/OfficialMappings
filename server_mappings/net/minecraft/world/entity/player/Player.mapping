@@ -26,16 +26,8 @@ CLASS dx net/minecraft/world/entity/player/Player
 	FIELD z unk_x F
 	METHOD A getSelectedItem ()Lfg;
 	METHOD B removeSelectedItem ()V
-	METHOD C getRidingHeight ()D
-	METHOD D remove ()V
-	METHOD E isInWall ()Z
-	METHOD F isSleeping ()Z
 	METHOD G isSleepingLongEnough ()Z
 	METHOD H getSpawnPosition ()Lao;
-	METHOD I jumpFromGround ()V
-	METHOD a defineSynchedData ()V
-	METHOD a causeFallDamage (F)V
-	METHOD a travel (FF)V
 	METHOD a startSleepInBed (III)Lbm;
 		ARG 1 x
 		ARG 2 y
@@ -61,13 +53,10 @@ CLASS dx net/minecraft/world/entity/player/Player
 		ARG 2 b
 	METHOD a openContainer (Lgu;)V
 		ARG 1 container
-	METHOD a addAdditionalSaveData (Lhu;)V
 	METHOD a displayClientMessage (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD a openFurnace (Lkg;)V
 		ARG 1 furnace
-	METHOD a die (Lkj;)V
-	METHOD a hurt (Lkj;I)Z
 	METHOD a getDestroySpeed (Llq;)F
 		ARG 1 tile
 	METHOD a awardStat (Lmh;I)V
@@ -85,22 +74,17 @@ CLASS dx net/minecraft/world/entity/player/Player
 		ARG 3 z
 	METHOD b drop (Lfg;)V
 		ARG 1 item
-	METHOD b readAdditionalSaveData (Lhu;)V
 	METHOD b take (Lkj;I)V
 		ARG 1 e
 		ARG 2 orgCount
 	METHOD b canDestroy (Llq;)Z
 		ARG 1 tile
-	METHOD c actuallyHurt (I)V
 	METHOD c interact (Lkj;)V
 		ARG 1 entity
-	METHOD c awardKillScore (Lkj;I)V
-	METHOD c_ updateAi ()V
 	METHOD d attack (Lkj;)V
 		ARG 1 entity
 	METHOD e setBedOffset (I)V
 		ARG 1 dir
-	METHOD f_ tick ()V
 	METHOD g checkMovementStatistiscs (DDD)V
 		ARG 1 xa
 		ARG 3 ya
@@ -110,9 +94,5 @@ CLASS dx net/minecraft/world/entity/player/Player
 	METHOD l_ unk_C ()V
 	METHOD m checkBed ()Z
 	METHOD m_ swing ()V
-	METHOD o_ rideTick ()V
-	METHOD p_ isImmobile ()Z
-	METHOD q getHeadHeight ()F
-	METHOD r aiStep ()V
 	METHOD u closeContainer ()V
 	METHOD z drop ()V

@@ -1,4 +1,10 @@
 CLASS nm net/minecraft/client/gui/ConfirmScreen
+	FIELD a parent Lcf;
+	FIELD i title1 Ljava/lang/String;
+	FIELD j title2 Ljava/lang/String;
+	FIELD l yes Ljava/lang/String;
+	FIELD m no Ljava/lang/String;
+	FIELD n id I
 	METHOD <init> (Lcf;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 		ARG 1 parent
 		ARG 2 title1
@@ -6,12 +12,3 @@ CLASS nm net/minecraft/client/gui/ConfirmScreen
 		ARG 4 yes
 		ARG 5 no
 		ARG 6 id
-	METHOD a init ()V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Lih;)V
-	FIELD a parent Lcf;
-	FIELD i title1 Ljava/lang/String;
-	FIELD j title2 Ljava/lang/String;
-	FIELD l yes Ljava/lang/String;
-	FIELD m no Ljava/lang/String;
-	FIELD n id I

@@ -10,20 +10,13 @@ CLASS fd net/minecraft/world/entity/animal/Wolf
 	METHOD B isSitting ()Z
 	METHOD C isAngry ()Z
 	METHOD D isTame ()Z
-	METHOD a handleEntityEvent (B)V
 	METHOD a getBodyRollAngle (FF)F
 		ARG 1 a
 		ARG 2 b
-	METHOD a interact (Lfm;)Z
 	METHOD a setOwner (Ljava/lang/String;)V
 		ARG 1 name
-	METHOD a addAdditionalSaveData (Llg;)V
-	METHOD a checkHurtTarget (Lpb;F)V
-	METHOD a hurt (Lpb;I)Z
 	METHOD a spawnParticles (Z)V
 		ARG 1 heart
-	METHOD b defineSynchedData ()V
-	METHOD b readAdditionalSaveData (Llg;)V
 	METHOD b setTarget (Lpb;F)V
 		ARG 1 e
 		ARG 2 f
@@ -37,17 +30,5 @@ CLASS fd net/minecraft/world/entity/animal/Wolf
 		ARG 1 angry
 	METHOD d setTame (Z)V
 		ARG 1 tame
-	METHOD e_ updateAi ()V
-	METHOD f getAmbientSound ()Ljava/lang/String;
-	METHOD f_ findAttackTarget ()Lpb;
-	METHOD g getHurtSound ()Ljava/lang/String;
-	METHOD i getDeathLoot ()I
-	METHOD i_ getDeathSound ()Ljava/lang/String;
-	METHOD j getSoundVolume ()F
-	METHOD k getMaxSpawnClusterSize ()I
-	METHOD n aiStep ()V
-	METHOD q_ getTexture ()Ljava/lang/String;
 	METHOD v isWet ()Z
-	METHOD w getHeadHeight ()F
-	METHOD w_ tick ()V
 	METHOD z getTailAngle ()F

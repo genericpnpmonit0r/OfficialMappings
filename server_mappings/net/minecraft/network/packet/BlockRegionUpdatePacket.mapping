@@ -1,16 +1,4 @@
 CLASS cg net/minecraft/network/packet/BlockRegionUpdatePacket
-	METHOD <init> (IIIIIILcw;)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 xs
-		ARG 5 ys
-		ARG 6 zs
-		ARG 7 level
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkw;)V
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
@@ -19,3 +7,11 @@ CLASS cg net/minecraft/network/packet/BlockRegionUpdatePacket
 	FIELD f zs I
 	FIELD g buffer [B
 	FIELD h size I
+	METHOD <init> (IIIIIILcw;)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 xs
+		ARG 5 ys
+		ARG 6 zs
+		ARG 7 level

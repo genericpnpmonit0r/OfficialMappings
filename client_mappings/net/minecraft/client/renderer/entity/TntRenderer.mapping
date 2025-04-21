@@ -1,3 +1,2 @@
 CLASS lv net/minecraft/client/renderer/entity/TntRenderer
-	METHOD a render (Lpb;DDDFF)V
 	FIELD a tileRenderer Lca;

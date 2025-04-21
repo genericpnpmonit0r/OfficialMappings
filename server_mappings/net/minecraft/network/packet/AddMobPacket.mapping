@@ -1,10 +1,4 @@
 CLASS fl net/minecraft/network/packet/AddMobPacket
-	METHOD <init> (Lgq;)V
-		ARG 1 mob
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkw;)V
 	FIELD a id I
 	FIELD b type B
 	FIELD c x I
@@ -14,3 +8,5 @@ CLASS fl net/minecraft/network/packet/AddMobPacket
 	FIELD g xRot B
 	FIELD h entityData Llh;
 	FIELD i unpack Ljava/util/List;
+	METHOD <init> (Lgq;)V
+		ARG 1 mob

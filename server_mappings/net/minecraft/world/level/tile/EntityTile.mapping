@@ -1,4 +1,2 @@
 CLASS jw net/minecraft/world/level/tile/EntityTile
 	METHOD a_ newTileEntity ()Lih;
-	METHOD b onRemove (Lcw;III)V
-	METHOD e onPlace (Lcw;III)V

@@ -1,16 +1,10 @@
 CLASS hy net/minecraft/world/entity/item/FallingTile
+	FIELD a tile I
+	FIELD b time I
 	METHOD <init> (Leb;DDDI)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 tile
-	METHOD a addAdditionalSaveData (Llg;)V
-	METHOD b defineSynchedData ()V
-	METHOD b readAdditionalSaveData (Llg;)V
-	METHOD g_ isPickable ()Z
 	METHOD k getLevel ()Leb;
-	METHOD l_ getShadowHeightOffs ()F
-	METHOD w_ tick ()V
-	FIELD a tile I
-	FIELD b time I

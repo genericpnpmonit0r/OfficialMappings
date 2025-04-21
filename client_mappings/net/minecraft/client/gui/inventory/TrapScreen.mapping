@@ -2,5 +2,3 @@ CLASS fl net/minecraft/client/gui/inventory/TrapScreen
 	METHOD <init> (Lhh;Lal;)V
 		ARG 1 inventory
 		ARG 2 trap
-	METHOD a renderBg (F)V
-	METHOD j renderLabels ()V

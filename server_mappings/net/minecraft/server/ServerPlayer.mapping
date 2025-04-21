@@ -1,53 +1,4 @@
 CLASS cy net/minecraft/server/ServerPlayer
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lcw;Ljava/lang/String;Log;)V
-		ARG 1 mcs
-		ARG 2 level
-		ARG 3 name
-		ARG 4 gameMode
-	METHOD Z nextContainerCounter ()V
-	METHOD a checkFallDamage (DZ)V
-	METHOD a setInput (FFZZFF)V
-		ARG 1 xxa
-		ARG 2 yya
-		ARG 3 jumping
-		ARG 4 sneaking
-		ARG 5 xRot
-		ARG 6 yRot
-	METHOD a startSleepInBed (III)Lbm;
-	METHOD a openTrap (Lae;)V
-	METHOD a setContainerData (Lcb;II)V
-	METHOD a slotChanged (Lcb;ILfg;)V
-	METHOD a refreshContainer (Lcb;Ljava/util/List;)V
-	METHOD a carriedChanged (Lfg;)V
-	METHOD a openContainer (Lgu;)V
-	METHOD a broadcast (Lih;)V
-		ARG 1 tileEntity
-	METHOD a openFurnace (Lkg;)V
-	METHOD a die (Lkj;)V
-	METHOD a hurt (Lkj;I)Z
-	METHOD a doChunkSendingTick (Z)V
-		ARG 1 b
-	METHOD a stopSleepInBed (ZZZ)V
-	METHOD b doCheckFallDamage (DZ)V
-		ARG 1 a
-		ARG 3 b
-	METHOD b heal (I)V
-	METHOD b startCrafting (III)V
-	METHOD b ride (Lkj;)V
-	METHOD b take (Lkj;I)V
-	METHOD b_ getCarried (I)Lfg;
-		ARG 1 selected
-	METHOD f_ tick ()V
-	METHOD k_ getEquipmentSlots ()[Lfg;
-	METHOD l_ unk_C ()V
-	METHOD m initMenu ()V
-	METHOD m_ swing ()V
-	METHOD q getHeadHeight ()F
-	METHOD r aiStep ()V
-	METHOD t unk_s ()V
-	METHOD u closeContainer ()V
-	METHOD v broadcastCarriedItem ()V
-	METHOD w doCloseContainer ()V
 	FIELD a connection Lgf;
 	FIELD bE lastHealth I
 	FIELD bF invulnerableTicks I
@@ -60,3 +11,29 @@ CLASS cy net/minecraft/server/ServerPlayer
 	FIELD f chunks Ljava/util/List;
 	FIELD g loadedChunks Ljava/util/Set;
 	FIELD h containerPendingChanges Z
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;Lcw;Ljava/lang/String;Log;)V
+		ARG 1 mcs
+		ARG 2 level
+		ARG 3 name
+		ARG 4 gameMode
+	METHOD Z nextContainerCounter ()V
+	METHOD a setInput (FFZZFF)V
+		ARG 1 xxa
+		ARG 2 yya
+		ARG 3 jumping
+		ARG 4 sneaking
+		ARG 5 xRot
+		ARG 6 yRot
+	METHOD a broadcast (Lih;)V
+		ARG 1 tileEntity
+	METHOD a doChunkSendingTick (Z)V
+		ARG 1 b
+	METHOD b doCheckFallDamage (DZ)V
+		ARG 1 a
+		ARG 3 b
+	METHOD b_ getCarried (I)Lfg;
+		ARG 1 selected
+	METHOD m initMenu ()V
+	METHOD t unk_s ()V
+	METHOD v broadcastCarriedItem ()V
+	METHOD w doCloseContainer ()V

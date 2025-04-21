@@ -1,3 +1,1 @@
 CLASS kl net/minecraft/world/level/storage/McRegionLevelStorage
-	METHOD a saveLevelData (Ldj;Ljava/util/List;)V
-	METHOD a createChunkStorage (Lsy;)Lar;

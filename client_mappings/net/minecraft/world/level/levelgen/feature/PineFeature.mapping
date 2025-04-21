@@ -1,2 +1,1 @@
 CLASS mv net/minecraft/world/level/levelgen/feature/PineFeature
-	METHOD a place (Leb;Ljava/util/Random;III)Z

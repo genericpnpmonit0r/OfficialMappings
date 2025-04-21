@@ -1,25 +1,17 @@
 CLASS gb net/minecraft/world/entity/item/ItemEntity
-	METHOD <init> (Leb;DDDLhi;)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 item
-	METHOD a burn (I)V
-	METHOD a addAdditionalSaveData (Llg;)V
-	METHOD a hurt (Lpb;I)Z
-	METHOD b defineSynchedData ()V
-	METHOD b playerTouch (Lfm;)V
-	METHOD b readAdditionalSaveData (Llg;)V
-	METHOD h checkInTile (DDD)Z
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-	METHOD k_ isInWater ()Z
-	METHOD w_ tick ()V
 	FIELD a item Lhi;
 	FIELD b age I
 	FIELD c throwTime I
 	FIELD d bobOffs F
 	FIELD e tickCount I
 	FIELD f health I
+	METHOD <init> (Leb;DDDLhi;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 item
+	METHOD h checkInTile (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z

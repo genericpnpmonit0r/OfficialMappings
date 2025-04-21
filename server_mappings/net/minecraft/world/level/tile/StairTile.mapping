@@ -1,31 +1,5 @@
 CLASS kn net/minecraft/world/level/tile/StairTile
+	FIELD a base Llq;
 	METHOD <init> (ILlq;)V
 		ARG 1 id
 		ARG 2 base
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (I)I
-	METHOD a getTexture (II)I
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a mayPick (IZ)Z
-	METHOD a mayPlace (Lcw;III)Z
-	METHOD a spawnResources (Lcw;IIIIF)V
-	METHOD a addAABBs (Lcw;IIILcm;Ljava/util/ArrayList;)V
-	METHOD a use (Lcw;IIILdx;)Z
-	METHOD a setPlacedBy (Lcw;IIILgq;)V
-	METHOD a tick (Lcw;IIILjava/util/Random;)V
-	METHOD a handleEntityInside (Lcw;IIILkj;Lar;)V
-	METHOD a getResourceCount (Ljava/util/Random;)I
-	METHOD a getExplosionResistance (Lkj;)F
-	METHOD a updateShape (Lnn;III)V
-	METHOD a shouldRenderFace (Lnn;IIII)Z
-	METHOD a_ spawnResources (Lcw;IIII)V
-	METHOD b getTickDelay ()I
-	METHOD b onRemove (Lcw;III)V
-	METHOD b destroy (Lcw;IIII)V
-	METHOD b attack (Lcw;IIILdx;)V
-	METHOD b stepOn (Lcw;IIILkj;)V
-	METHOD c wasExploded (Lcw;III)V
-	METHOD d mayPick ()Z
-	METHOD d getAABB (Lcw;III)Lcm;
-	METHOD e onPlace (Lcw;III)V
-	FIELD a base Llq;

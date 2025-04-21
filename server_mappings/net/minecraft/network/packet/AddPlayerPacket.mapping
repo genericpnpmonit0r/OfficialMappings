@@ -1,10 +1,4 @@
 CLASS gz net/minecraft/network/packet/AddPlayerPacket
-	METHOD <init> (Ldx;)V
-		ARG 1 player
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkw;)V
 	FIELD a id I
 	FIELD b name Ljava/lang/String;
 	FIELD c x I
@@ -13,3 +7,5 @@ CLASS gz net/minecraft/network/packet/AddPlayerPacket
 	FIELD f yRot B
 	FIELD g xRot B
 	FIELD h carriedItem I
+	METHOD <init> (Ldx;)V
+		ARG 1 player

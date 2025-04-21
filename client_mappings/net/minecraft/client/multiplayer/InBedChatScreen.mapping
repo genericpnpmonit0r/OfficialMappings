@@ -1,7 +1,2 @@
 CLASS fc net/minecraft/client/multiplayer/InBedChatScreen
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Lih;)V
-	METHOD h removed ()V
 	METHOD j stopSleeping ()V

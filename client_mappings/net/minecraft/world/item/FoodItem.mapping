@@ -5,6 +5,5 @@ CLASS uo net/minecraft/world/item/FoodItem
 		ARG 1 id
 		ARG 2 nutrition
 		ARG 3 meat
-	METHOD a use (Lhi;Leb;Lfm;)Lhi;
 	METHOD l getNutrition ()I
 	METHOD m isMeat ()Z

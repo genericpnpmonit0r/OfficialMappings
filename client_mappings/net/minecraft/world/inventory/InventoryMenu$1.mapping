@@ -8,5 +8,3 @@ CLASS mu net/minecraft/world/inventory/InventoryMenu$1
 		ARG 4 x
 		ARG 5 y
 		ARG 6 val$i
-	METHOD b mayPlace (Lhi;)Z
-	METHOD d getMaxStackSize ()I

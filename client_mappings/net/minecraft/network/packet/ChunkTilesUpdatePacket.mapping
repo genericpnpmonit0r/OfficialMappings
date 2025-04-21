@@ -1,8 +1,4 @@
 CLASS st net/minecraft/network/packet/ChunkTilesUpdatePacket
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lpt;)V
 	FIELD a xc I
 	FIELD b zc I
 	FIELD c positions [S

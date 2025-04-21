@@ -1,13 +1,4 @@
 CLASS ae net/minecraft/world/level/tile/entity/DispenserTileEntity
-	METHOD a removeItem (II)Lfg;
-	METHOD a setItem (ILfg;)V
-	METHOD a load (Lhu;)V
-	METHOD a_ stillValid (Ldx;)Z
-	METHOD b removeRandomItem ()Lfg;
-	METHOD b save (Lhu;)V
-	METHOD c getName ()Ljava/lang/String;
-	METHOD c_ getItem (I)Lfg;
-	METHOD q_ getContainerSize ()I
-	METHOD r_ getMaxStackSize ()I
 	FIELD a items [Lfg;
 	FIELD b random Ljava/util/Random;
+	METHOD b removeRandomItem ()Lfg;

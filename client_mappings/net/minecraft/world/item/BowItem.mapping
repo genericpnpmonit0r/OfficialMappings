@@ -1,2 +1,1 @@
 CLASS ns net/minecraft/world/item/BowItem
-	METHOD a use (Lhi;Leb;Lfm;)Lhi;

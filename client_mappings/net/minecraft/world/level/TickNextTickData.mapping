@@ -1,16 +1,4 @@
 CLASS nr net/minecraft/world/level/TickNextTickData
-	METHOD <init> (IIII)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
-		ARG 4 tileId
-	METHOD a delay (J)Lnr;
-		ARG 1 delay
-	METHOD a compareTo (Lnr;)I
-	METHOD compareTo (Ljava/lang/Object;)I
-		ARG 1 o
-	METHOD equals (Ljava/lang/Object;)Z
-		ARG 1 o
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I
@@ -18,3 +6,14 @@ CLASS nr net/minecraft/world/level/TickNextTickData
 	FIELD e delay J
 	FIELD f C J
 	FIELD g c J
+	METHOD <init> (IIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 tileId
+	METHOD a delay (J)Lnr;
+		ARG 1 delay
+	METHOD compareTo (Ljava/lang/Object;)I
+		ARG 1 o
+	METHOD equals (Ljava/lang/Object;)Z
+		ARG 1 o

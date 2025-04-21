@@ -1,13 +1,7 @@
 CLASS lm net/minecraft/world/level/tile/SignTile
+	FIELD a clas Ljava/lang/Class;
+	FIELD b onGround Z
 	METHOD <init> (ILjava/lang/Class;Z)V
 		ARG 1 id
 		ARG 2 clas
 		ARG 3 onGround
-	METHOD a isSolidRender ()Z
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a neighborChanged (Lcw;IIII)V
-	METHOD a updateShape (Lnn;III)V
-	METHOD a_ newTileEntity ()Lih;
-	METHOD d getAABB (Lcw;III)Lcm;
-	FIELD a clas Ljava/lang/Class;
-	FIELD b onGround Z

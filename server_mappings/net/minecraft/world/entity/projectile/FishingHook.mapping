@@ -1,18 +1,4 @@
 CLASS gv net/minecraft/world/entity/projectile/FishingHook
-	METHOD <init> (Lcw;Ldx;)V
-		ARG 1 level
-		ARG 2 owner
-	METHOD a defineSynchedData ()V
-	METHOD a shoot (DDDFF)V
-		ARG 1 xa
-		ARG 3 ya
-		ARG 5 za
-		ARG 7 xr
-		ARG 8 yr
-	METHOD a addAdditionalSaveData (Lhu;)V
-	METHOD b readAdditionalSaveData (Lhu;)V
-	METHOD f_ tick ()V
-	METHOD h retrieve ()I
 	FIELD a shakeTime I
 	FIELD b owner Ldx;
 	FIELD c hookedIn Lkj;
@@ -30,3 +16,13 @@ CLASS gv net/minecraft/world/entity/projectile/FishingHook
 	FIELD o lz D
 	FIELD p lyr D
 	FIELD q lxr D
+	METHOD <init> (Lcw;Ldx;)V
+		ARG 1 level
+		ARG 2 owner
+	METHOD a shoot (DDDFF)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+		ARG 7 xr
+		ARG 8 yr
+	METHOD h retrieve ()I

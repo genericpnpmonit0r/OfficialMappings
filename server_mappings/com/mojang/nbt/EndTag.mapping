@@ -1,4 +1,1 @@
 CLASS gj com/mojang/nbt/EndTag
-	METHOD a getId ()B
-	METHOD a load (Ljava/io/DataInput;)V
-	METHOD a write (Ljava/io/DataOutput;)V

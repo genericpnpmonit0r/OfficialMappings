@@ -1,3 +1,2 @@
 CLASS z net/minecraft/client/renderer/tileentity/MobSpawnerRenderer
-	METHOD a render (Lma;DDDF)V
 	FIELD b models Ljava/util/Map;

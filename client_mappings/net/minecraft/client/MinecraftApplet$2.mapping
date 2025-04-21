@@ -8,4 +8,3 @@ CLASS m net/minecraft/client/MinecraftApplet$2
 		ARG 5 w
 		ARG 6 h
 		ARG 7 fullscreen
-	METHOD a onCrash (Ljz;)V

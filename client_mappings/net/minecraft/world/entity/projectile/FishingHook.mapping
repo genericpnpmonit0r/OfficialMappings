@@ -1,27 +1,4 @@
 CLASS jq net/minecraft/world/entity/projectile/FishingHook
-	METHOD <init> (Leb;DDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD <init> (Leb;Lfm;)V
-		ARG 1 level
-		ARG 2 owner
-	METHOD a shouldRenderAtSqrDistance (D)Z
-	METHOD a lerpMotion (DDD)V
-	METHOD a shoot (DDDFF)V
-		ARG 1 xa
-		ARG 3 ya
-		ARG 5 za
-		ARG 7 xr
-		ARG 8 yr
-	METHOD a lerpTo (DDDFFI)V
-	METHOD a addAdditionalSaveData (Llg;)V
-	METHOD b defineSynchedData ()V
-	METHOD b readAdditionalSaveData (Llg;)V
-	METHOD k retrieve ()I
-	METHOD l_ getShadowHeightOffs ()F
-	METHOD w_ tick ()V
 	FIELD a shakeTime I
 	FIELD b owner Lfm;
 	FIELD c hookedIn Lpb;
@@ -42,3 +19,18 @@ CLASS jq net/minecraft/world/entity/projectile/FishingHook
 	FIELD r lxd D
 	FIELD s lyd D
 	FIELD t lzd D
+	METHOD <init> (Leb;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Leb;Lfm;)V
+		ARG 1 level
+		ARG 2 owner
+	METHOD a shoot (DDDFF)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+		ARG 7 xr
+		ARG 8 yr
+	METHOD k retrieve ()I

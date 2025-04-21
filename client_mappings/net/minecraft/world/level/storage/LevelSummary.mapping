@@ -1,4 +1,9 @@
 CLASS rg net/minecraft/world/level/storage/LevelSummary
+	FIELD a levelId Ljava/lang/String;
+	FIELD b levelName Ljava/lang/String;
+	FIELD c lastPlayed J
+	FIELD d sizeOnDisk J
+	FIELD e requiresConversion Z
 	METHOD <init> (Ljava/lang/String;Ljava/lang/String;JJZ)V
 		ARG 1 lid
 		ARG 2 ln
@@ -12,8 +17,3 @@ CLASS rg net/minecraft/world/level/storage/LevelSummary
 		ARG 1 ls
 	METHOD d isRequiresConversion ()Z
 	METHOD e getLastPlayed ()J
-	FIELD a levelId Ljava/lang/String;
-	FIELD b levelName Ljava/lang/String;
-	FIELD c lastPlayed J
-	FIELD d sizeOnDisk J
-	FIELD e requiresConversion Z

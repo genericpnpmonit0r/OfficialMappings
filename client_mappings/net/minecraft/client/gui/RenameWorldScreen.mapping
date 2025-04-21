@@ -1,14 +1,7 @@
 CLASS hq net/minecraft/client/gui/RenameWorldScreen
-	METHOD <init> (Lcf;Ljava/lang/String;)V
-		ARG 1 lastScreen
-		ARG 2 oldName
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
-	METHOD a render (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD a buttonClicked (Lih;)V
-	METHOD g tick ()V
-	METHOD h removed ()V
 	FIELD a lastScreen Lcf;
 	FIELD i nameEdit Lof;
 	FIELD j oldName Ljava/lang/String;
+	METHOD <init> (Lcf;Ljava/lang/String;)V
+		ARG 1 lastScreen
+		ARG 2 oldName

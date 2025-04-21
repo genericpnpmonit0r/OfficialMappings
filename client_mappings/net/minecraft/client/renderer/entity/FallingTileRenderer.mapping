@@ -1,3 +1,2 @@
 CLASS fh net/minecraft/client/renderer/entity/FallingTileRenderer
-	METHOD a render (Lpb;DDDFF)V
 	FIELD a tileRenderer Lca;

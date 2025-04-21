@@ -55,28 +55,20 @@ CLASS gq net/minecraft/world/entity/Mob
 	METHOD F isSleeping ()Z
 	METHOD I jumpFromGround ()V
 	METHOD J playAmbientSound ()V
-	METHOD K baseTick ()V
 	METHOD L spawnAnim ()V
-	METHOD M isAlive ()Z
 	METHOD N isLookingAtAnEntity ()Z
 	METHOD O getLookingAt ()Lkj;
 		COMMENT again unsure cause other editions its always inlined or some bs so not in syms
 	METHOD P beforeRemove ()V
-	METHOD Q outOfWorld ()V
-	METHOD R getLookAngle ()Lar;
-	METHOD a defineSynchedData ()V
-	METHOD a causeFallDamage (F)V
 	METHOD a travel (FF)V
 		ARG 1 a
 		ARG 2 b
-	METHOD a addAdditionalSaveData (Lhu;)V
 	METHOD a die (Lkj;)V
 		ARG 1 entity
 	METHOD a lookAt (Lkj;FF)V
 		ARG 1 entity
 		ARG 2 yyr
 		ARG 3 xxr
-	METHOD a hurt (Lkj;I)Z
 	METHOD a knockback (Lkj;IDD)V
 		ARG 1 a
 		ARG 2 b
@@ -85,35 +77,28 @@ CLASS gq net/minecraft/world/entity/Mob
 	METHOD b canSpawn ()Z
 	METHOD b getViewVector (F)Lar;
 		ARG 1 a
-	METHOD b setSize (FF)V
 	METHOD b rotlerp (FFF)F
 		ARG 1 a
 		ARG 2 b
 		ARG 3 c
 	METHOD b heal (I)V
 		ARG 1 heal
-	METHOD b readAdditionalSaveData (Lhu;)V
 	METHOD b_ isWaterMob ()Z
 	METHOD c getAmbientSoundInterval ()I
 	METHOD c actuallyHurt (I)V
 		ARG 1 dmg
 	METHOD c_ updateAi ()V
-	METHOD d_ isPickable ()Z
 	METHOD e getAmbientSound ()Ljava/lang/String;
 	METHOD e canSee (Lkj;)Z
 		ARG 1 entity
-	METHOD e_ isPushable ()Z
 	METHOD f getHurtSound ()Ljava/lang/String;
-	METHOD f_ tick ()V
 	METHOD g getDeathSound ()Ljava/lang/String;
 	METHOD h getDeathLoot ()I
 	METHOD i getSoundVolume ()F
 	METHOD j getMaxSpawnClusterSize ()I
 	METHOD n onLadder ()Z
 	METHOD n_ getMaxHeadXRot ()I
-	METHOD o_ rideTick ()V
 	METHOD p dropDeathLoot ()V
 	METHOD p_ isImmobile ()Z
-	METHOD q getHeadHeight ()F
 	METHOD r aiStep ()V
 	METHOD s shouldDespawn ()Z

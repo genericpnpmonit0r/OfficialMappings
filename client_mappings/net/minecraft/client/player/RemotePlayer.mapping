@@ -1,15 +1,4 @@
 CLASS tu net/minecraft/client/player/RemotePlayer
-	METHOD <init> (Leb;Ljava/lang/String;)V
-		ARG 1 level
-		ARG 2 name
-	METHOD E unk_C ()V
-	METHOD a lerpTo (DDDFFI)V
-	METHOD a hurt (Lpb;I)Z
-	METHOD c setEquippedSlot (III)V
-	METHOD l_ getShadowHeightOffs ()F
-	METHOD n aiStep ()V
-	METHOD v animateRespawn ()V
-	METHOD w_ tick ()V
 	FIELD a fallTime F
 	FIELD b lSteps I
 	FIELD bI lyr D
@@ -17,3 +6,6 @@ CLASS tu net/minecraft/client/player/RemotePlayer
 	FIELD c lx D
 	FIELD d ly D
 	FIELD e lz D
+	METHOD <init> (Leb;Ljava/lang/String;)V
+		ARG 1 level
+		ARG 2 name

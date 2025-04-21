@@ -1,6 +1,5 @@
 CLASS ad net/minecraft/world/item/PickaxeItem
+	FIELD bi diggables [Llq;
 	METHOD <init> (ILas;)V
 		ARG 1 id
 		ARG 2 tier
-	METHOD a canDestroySpecial (Llq;)Z
-	FIELD bi diggables [Llq;

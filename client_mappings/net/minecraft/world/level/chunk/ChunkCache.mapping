@@ -1,29 +1,4 @@
 CLASS iu net/minecraft/world/level/chunk/ChunkCache
-	METHOD <init> (Leb;Lar;Lbs;)V
-		ARG 1 level
-		ARG 2 storage
-		ARG 3 source
-	METHOD a tick ()Z
-	METHOD a hasChunk (II)Z
-	METHOD a postProcess (Lbs;II)V
-	METHOD a saveEntities (Ljg;)V
-		ARG 1 lc
-	METHOD a save (ZLtw;)Z
-	METHOD b shouldSave ()Z
-	METHOD b getChunk (II)Ljg;
-	METHOD b save (Ljg;)V
-		ARG 1 lc
-	METHOD c gatherStats ()Ljava/lang/String;
-	METHOD c create (II)Ljg;
-	METHOD d centerOn (II)V
-		ARG 1 x
-		ARG 2 y
-	METHOD e fits (II)Z
-		ARG 1 x
-		ARG 2 y
-	METHOD f load (II)Ljg;
-		ARG 1 x
-		ARG 2 z
 	FIELD a xLast I
 	FIELD b zLast I
 	FIELD c emptyChunk Ljg;
@@ -34,3 +9,20 @@ CLASS iu net/minecraft/world/level/chunk/ChunkCache
 	FIELD h last Ljg;
 	FIELD i xCenter I
 	FIELD j yCenter I
+	METHOD <init> (Leb;Lar;Lbs;)V
+		ARG 1 level
+		ARG 2 storage
+		ARG 3 source
+	METHOD a saveEntities (Ljg;)V
+		ARG 1 lc
+	METHOD b save (Ljg;)V
+		ARG 1 lc
+	METHOD d centerOn (II)V
+		ARG 1 x
+		ARG 2 y
+	METHOD e fits (II)Z
+		ARG 1 x
+		ARG 2 y
+	METHOD f load (II)Ljg;
+		ARG 1 x
+		ARG 2 z

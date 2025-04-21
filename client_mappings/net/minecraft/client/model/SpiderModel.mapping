@@ -1,6 +1,4 @@
 CLASS or net/minecraft/client/model/SpiderModel
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V
 	FIELD a head Lms;
 	FIELD b body0 Lms;
 	FIELD c body1 Lms;

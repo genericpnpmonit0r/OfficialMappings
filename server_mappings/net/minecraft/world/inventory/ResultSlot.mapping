@@ -8,5 +8,3 @@ CLASS ok net/minecraft/world/inventory/ResultSlot
 		ARG 4 slot
 		ARG 5 x
 		ARG 6 y
-	METHOD a onTake (Lfg;)V
-	METHOD b mayPlace (Lfg;)Z

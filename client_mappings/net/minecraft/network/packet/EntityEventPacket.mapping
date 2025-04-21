@@ -1,7 +1,3 @@
 CLASS hl net/minecraft/network/packet/EntityEventPacket
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lpt;)V
 	FIELD a entityId I
 	FIELD b eventId B

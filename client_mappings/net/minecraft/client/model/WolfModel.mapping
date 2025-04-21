@@ -10,5 +10,3 @@ CLASS k net/minecraft/client/model/WolfModel
 	FIELD i nose Lms;
 	FIELD j tail Lms;
 	FIELD k mane Lms;
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V

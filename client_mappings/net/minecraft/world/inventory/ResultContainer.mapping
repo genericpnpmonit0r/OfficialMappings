@@ -1,10 +1,2 @@
 CLASS sk net/minecraft/world/inventory/ResultContainer
-	METHOD a getContainerSize ()I
-	METHOD a removeItem (II)Lhi;
-	METHOD a setItem (ILhi;)V
-	METHOD a_ stillValid (Lfm;)Z
-	METHOD c getName ()Ljava/lang/String;
-	METHOD c_ getItem (I)Lhi;
-	METHOD d getMaxStackSize ()I
-	METHOD x_ setChanged ()V
 	FIELD a items [Lhi;

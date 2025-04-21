@@ -1,6 +1,4 @@
 CLASS hw net/minecraft/world/level/tile/LiquidTileStatic
-	METHOD a neighborChanged (Lcw;IIII)V
-	METHOD a tick (Lcw;IIILjava/util/Random;)V
 	METHOD i setDynamic (Lcw;III)V
 		ARG 1 level
 		ARG 2 x

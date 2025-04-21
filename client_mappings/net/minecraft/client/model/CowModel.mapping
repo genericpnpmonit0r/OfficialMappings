@@ -1,6 +1,4 @@
 CLASS fw net/minecraft/client/model/CowModel
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V
 	FIELD a udder Lms;
 	FIELD b horn1 Lms;
 	FIELD c horn2 Lms;

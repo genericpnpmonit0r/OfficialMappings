@@ -1,10 +1,2 @@
 CLASS ms net/minecraft/world/inventory/ResultContainer
-	METHOD a removeItem (II)Lfg;
-	METHOD a setItem (ILfg;)V
-	METHOD a_ stillValid (Ldx;)Z
-	METHOD c getName ()Ljava/lang/String;
-	METHOD c_ getItem (I)Lfg;
-	METHOD i setChanged ()V
-	METHOD q_ getContainerSize ()I
-	METHOD r_ getMaxStackSize ()I
 	FIELD a items [Lfg;

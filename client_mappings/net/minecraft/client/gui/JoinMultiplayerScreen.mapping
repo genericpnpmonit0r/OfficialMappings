@@ -1,15 +1,8 @@
 CLASS jk net/minecraft/client/gui/JoinMultiplayerScreen
+	FIELD a lastScreen Lcf;
+	FIELD i ipEdit Lof;
 	METHOD <init> (Lcf;)V
 		ARG 1 lastScreen
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
-	METHOD a render (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD a buttonClicked (Lih;)V
 	METHOD a parseInt (Ljava/lang/String;I)I
 		ARG 1 str
 		ARG 2 def
-	METHOD g tick ()V
-	METHOD h removed ()V
-	FIELD a lastScreen Lcf;
-	FIELD i ipEdit Lof;

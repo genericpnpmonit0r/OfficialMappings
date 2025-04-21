@@ -1,38 +1,5 @@
 CLASS pg net/minecraft/world/level/tile/StairTile
+	FIELD a base Lra;
 	METHOD <init> (ILra;)V
 		ARG 1 id
 		ARG 2 base
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (I)I
-	METHOD a getTexture (II)I
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a mayPick (IZ)Z
-	METHOD a mayPlace (Leb;III)Z
-	METHOD a spawnResources (Leb;IIIIF)V
-	METHOD a addAABBs (Leb;IIILdq;Ljava/util/ArrayList;)V
-	METHOD a use (Leb;IIILfm;)Z
-	METHOD a tick (Leb;IIILjava/util/Random;)V
-	METHOD a setPlacedBy (Leb;IIILjm;)V
-	METHOD a handleEntityInside (Leb;IIILpb;Lbb;)V
-	METHOD a getResourceCount (Ljava/util/Random;)I
-	METHOD a getExplosionResistance (Lpb;)F
-	METHOD a updateShape (Ltk;III)V
-	METHOD a getTexture (Ltk;IIII)I
-	METHOD a_ spawnResources (Leb;IIII)V
-	METHOD b isCubeShaped ()Z
-	METHOD b onRemove (Leb;III)V
-	METHOD b destroy (Leb;IIII)V
-	METHOD b attack (Leb;IIILfm;)V
-	METHOD b animateTick (Leb;IIILjava/util/Random;)V
-	METHOD b stepOn (Leb;IIILpb;)V
-	METHOD b shouldRenderFace (Ltk;IIII)Z
-	METHOD c getRenderLayer ()I
-	METHOD c wasExploded (Leb;III)V
-	METHOD d getTickDelay ()I
-	METHOD d getAABB (Leb;III)Ldq;
-	METHOD d getBrightness (Ltk;III)F
-	METHOD e onPlace (Leb;III)V
-	METHOD f getTileAABB (Leb;III)Ldq;
-	METHOD g getRenderShape ()I
-	METHOD h mayPick ()Z
-	FIELD a base Lra;

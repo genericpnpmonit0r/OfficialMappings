@@ -1,12 +1,9 @@
 CLASS u net/minecraft/world/inventory/InventoryMenu
+	FIELD a craftSlots Lki;
+	FIELD b resultSlots Ljp;
+	FIELD c active Z
 	METHOD <init> (Lhh;)V
 		ARG 1 inventory
 	METHOD <init> (Lhh;Z)V
 		ARG 1 inventory
 		ARG 2 active
-	METHOD a removed (Lfm;)V
-	METHOD a slotsChanged (Ljp;)V
-	METHOD b stillValid (Lfm;)Z
-	FIELD a craftSlots Lki;
-	FIELD b resultSlots Ljp;
-	FIELD c active Z

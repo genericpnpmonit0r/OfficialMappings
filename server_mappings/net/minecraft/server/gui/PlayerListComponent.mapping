@@ -1,6 +1,5 @@
 CLASS g net/minecraft/server/gui/PlayerListComponent
-	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
-		ARG 1 s
-	METHOD a tick ()V
 	FIELD a s Lnet/minecraft/server/MinecraftServer;
 	FIELD b tickCount I
+	METHOD <init> (Lnet/minecraft/server/MinecraftServer;)V
+		ARG 1 s

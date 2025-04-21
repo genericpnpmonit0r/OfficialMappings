@@ -1,23 +1,4 @@
 CLASS kh net/minecraft/world/entity/projectile/Arrow
-	METHOD <init> (Lcw;DDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD <init> (Lcw;Lgq;)V
-		ARG 1 level
-		ARG 2 owner
-	METHOD a defineSynchedData ()V
-	METHOD a shoot (DDDFF)V
-		ARG 1 xa
-		ARG 3 ya
-		ARG 5 za
-		ARG 7 xr
-		ARG 8 yr
-	METHOD a addAdditionalSaveData (Lhu;)V
-	METHOD b playerTouch (Ldx;)V
-	METHOD b readAdditionalSaveData (Lhu;)V
-	METHOD f_ tick ()V
 	FIELD a shakeTime I
 	FIELD b owner Lgq;
 	FIELD c xTile I
@@ -27,3 +8,17 @@ CLASS kh net/minecraft/world/entity/projectile/Arrow
 	FIELD g inGround Z
 	FIELD h life I
 	FIELD i flightTime I
+	METHOD <init> (Lcw;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Lcw;Lgq;)V
+		ARG 1 level
+		ARG 2 owner
+	METHOD a shoot (DDDFF)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+		ARG 7 xr
+		ARG 8 yr

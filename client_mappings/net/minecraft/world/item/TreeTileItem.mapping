@@ -1,3 +1,1 @@
 CLASS fj net/minecraft/world/item/TreeTileItem
-	METHOD a getLevelDataForAuxValue (I)I
-	METHOD a getIcon (Lhi;)I

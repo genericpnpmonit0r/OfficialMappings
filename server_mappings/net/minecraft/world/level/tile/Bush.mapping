@@ -2,14 +2,8 @@ CLASS mm net/minecraft/world/level/tile/Bush
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a mayPlace (Lcw;III)Z
-	METHOD a neighborChanged (Lcw;IIII)V
-	METHOD a tick (Lcw;IIILjava/util/Random;)V
 	METHOD c mayPlaceOn (I)Z
 		ARG 1 tile
-	METHOD d getAABB (Lcw;III)Lcm;
-	METHOD f canSurvive (Lcw;III)Z
 	METHOD g checkAlive (Lcw;III)V
 		ARG 1 level
 		ARG 2 x

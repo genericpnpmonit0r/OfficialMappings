@@ -8,7 +8,6 @@ CLASS ay net/minecraft/Pos
 		ARG 3 z
 	METHOD <init> (Lay;)V
 		ARG 1 pos
-	METHOD a compareTo (Lay;)I
 	METHOD compareTo compareTo (Ljava/lang/Object;)I
 		ARG 1 pos
 	METHOD equals (Ljava/lang/Object;)Z

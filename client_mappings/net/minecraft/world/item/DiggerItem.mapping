@@ -1,15 +1,10 @@
 CLASS cv net/minecraft/world/item/DiggerItem
+	FIELD a tier Lbc;
+	FIELD bi tiles [Lra;
+	FIELD bj speed F
+	FIELD bk attackDamage I
 	METHOD <init> (IILbc;[Lra;)V
 		ARG 1 id
 		ARG 2 attackDamage
 		ARG 3 tier
 		ARG 4 tiles
-	METHOD a mineBlock (Lhi;IIIILjm;)Z
-	METHOD a hurtEnemy (Lhi;Ljm;Ljm;)Z
-	METHOD a getDestroySpeed (Lhi;Lra;)F
-	METHOD a getAttackDamage (Lpb;)I
-	METHOD b isHandEquipped ()Z
-	FIELD a tier Lbc;
-	FIELD bi tiles [Lra;
-	FIELD bj speed F
-	FIELD bk attackDamage I

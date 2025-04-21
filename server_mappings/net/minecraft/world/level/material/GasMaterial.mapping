@@ -1,4 +1,1 @@
 CLASS gt net/minecraft/world/level/material/GasMaterial
-	METHOD a isSolid ()Z
-	METHOD b blocksLight ()Z
-	METHOD c blocksMotion ()Z

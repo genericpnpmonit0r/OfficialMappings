@@ -2,9 +2,6 @@ CLASS df net/minecraft/world/level/tile/RecordPlayerTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a getTexture (I)I
-	METHOD a spawnResources (Lcw;IIIIF)V
-	METHOD a use (Lcw;IIILdx;)Z
 	METHOD e dropRecording (Lcw;IIII)V
 		ARG 1 level
 		ARG 2 x

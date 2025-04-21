@@ -1,9 +1,5 @@
 CLASS iv net/minecraft/world/item/WeaponItem
+	FIELD a damage I
 	METHOD <init> (ILas;)V
 		ARG 1 id
 		ARG 2 tier
-	METHOD a mineBlock (Lfg;IIIILgq;)Z
-	METHOD a hurtEnemy (Lfg;Lgq;Lgq;)Z
-	METHOD a getDestroySpeed (Lfg;Llq;)F
-	METHOD a getAttackDamage (Lkj;)I
-	FIELD a damage I

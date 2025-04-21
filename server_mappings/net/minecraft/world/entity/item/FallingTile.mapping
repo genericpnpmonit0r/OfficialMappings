@@ -1,14 +1,9 @@
 CLASS fq net/minecraft/world/entity/item/FallingTile
+	FIELD a tile I
+	FIELD b time I
 	METHOD <init> (Lcw;DDDI)V
 		ARG 1 level
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
 		ARG 8 tile
-	METHOD a defineSynchedData ()V
-	METHOD a addAdditionalSaveData (Lhu;)V
-	METHOD b readAdditionalSaveData (Lhu;)V
-	METHOD d_ isPickable ()Z
-	METHOD f_ tick ()V
-	FIELD a tile I
-	FIELD b time I

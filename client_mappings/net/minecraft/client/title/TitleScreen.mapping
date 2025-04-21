@@ -3,8 +3,3 @@ CLASS ep net/minecraft/client/title/TitleScreen
 	FIELD i vo F
 	FIELD j splash Ljava/lang/String;
 	FIELD l multiplayerButton Lih;
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Lih;)V
-	METHOD g tick ()V

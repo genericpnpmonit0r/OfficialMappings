@@ -1,6 +1,5 @@
 CLASS qc net/minecraft/world/item/RecordingItem
+	FIELD a recording Ljava/lang/String;
 	METHOD <init> (ILjava/lang/String;)V
 		ARG 1 id
 		ARG 2 recording
-	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z
-	FIELD a recording Ljava/lang/String;

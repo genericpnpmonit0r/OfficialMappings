@@ -6,14 +6,7 @@ CLASS eh net/minecraft/client/gui/CreateWorldScreen
 	FIELD m done Z
 	METHOD <init> (Lcf;)V
 		ARG 1 lastScreen
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
-	METHOD a render (IIF)V
-	METHOD a mouseClicked (III)V
-	METHOD a buttonClicked (Lih;)V
 	METHOD a findAvailableName (Lkx;Ljava/lang/String;)Ljava/lang/String;
 		ARG 0 storage
 		ARG 1 resultFolder
-	METHOD g tick ()V
-	METHOD h removed ()V
 	METHOD j updateResultFolder ()V

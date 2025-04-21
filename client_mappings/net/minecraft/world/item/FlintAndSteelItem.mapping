@@ -1,2 +1,1 @@
 CLASS ty net/minecraft/world/item/FlintAndSteelItem
-	METHOD a useOn (Lhi;Lfm;Leb;IIII)Z

@@ -1,8 +1,4 @@
 CLASS qp net/minecraft/network/packet/MoveEntityPacket
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lpt;)V
 	FIELD a id I
 	FIELD b xa B
 	FIELD c ya B

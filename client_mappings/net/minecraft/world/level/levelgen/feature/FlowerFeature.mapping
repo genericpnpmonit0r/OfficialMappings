@@ -1,5 +1,4 @@
 CLASS aq net/minecraft/world/level/levelgen/feature/FlowerFeature
+	FIELD a tile I
 	METHOD <init> (I)V
 		ARG 1 tile
-	METHOD a place (Leb;Ljava/util/Random;III)Z
-	FIELD a tile I

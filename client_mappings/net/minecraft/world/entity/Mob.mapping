@@ -55,26 +55,18 @@ CLASS jm net/minecraft/world/entity/Mob
 	METHOD M isSleeping ()Z
 	METHOD Q jumpFromGround ()V
 	METHOD R playAmbientSound ()V
-	METHOD S baseTick ()V
 	METHOD T spawnAnim ()V
-	METHOD U isAlive ()Z
 	METHOD V isLookingAtAnEntity ()Z
 	METHOD W getLookingAt ()Lpb;
 		COMMENT again unsure cause other editions its always inlined or some bs so not in syms
 	METHOD X beforeRemove ()V
-	METHOD Y outOfWorld ()V
-	METHOD Z getLookAngle ()Lbb;
-	METHOD a handleEntityEvent (B)V
-	METHOD a lerpTo (DDDFFI)V
 	METHOD a pick (DF)Lrk;
 		ARG 1 aa
 		ARG 3 a
-	METHOD a addAdditionalSaveData (Llg;)V
 	METHOD a lookAt (Lpb;FF)V
 		ARG 1 entity
 		ARG 2 yyr
 		ARG 3 xxr
-	METHOD a hurt (Lpb;I)Z
 	METHOD a knockback (Lpb;IDD)V
 		ARG 1 a
 		ARG 2 b
@@ -83,16 +75,12 @@ CLASS jm net/minecraft/world/entity/Mob
 	METHOD a_ travel (FF)V
 		ARG 1 a
 		ARG 2 b
-	METHOD b defineSynchedData ()V
-	METHOD b causeFallDamage (F)V
-	METHOD b setSize (FF)V
 	METHOD b rotlerp (FFF)F
 		ARG 1 a
 		ARG 2 b
 		ARG 3 c
 	METHOD b actuallyHurt (I)V
 		ARG 1 dmg
-	METHOD b readAdditionalSaveData (Llg;)V
 	METHOD b die (Lpb;)V
 		ARG 1 entity
 	METHOD c canSpawn ()Z
@@ -111,9 +99,6 @@ CLASS jm net/minecraft/world/entity/Mob
 	METHOD f getViewVector (F)Lbb;
 		ARG 1 a
 	METHOD g getHurtSound ()Ljava/lang/String;
-	METHOD g_ isPickable ()Z
-	METHOD h animateHurt ()V
-	METHOD h_ isPushable ()Z
 	METHOD i getDeathLoot ()I
 	METHOD i_ getDeathSound ()Ljava/lang/String;
 	METHOD j getSoundVolume ()F
@@ -121,11 +106,7 @@ CLASS jm net/minecraft/world/entity/Mob
 	METHOD n aiStep ()V
 	METHOD o onLadder ()Z
 	METHOD p dropDeathLoot ()V
-	METHOD q_ getTexture ()Ljava/lang/String;
 	METHOD r_ getCarriedItem ()Lhi;
-	METHOD t_ rideTick ()V
 	METHOD u shouldDespawn ()Z
-	METHOD w getHeadHeight ()F
-	METHOD w_ tick ()V
 	METHOD x getMaxHeadXRot ()I
 	METHOD y isImmobile ()Z

@@ -1,34 +1,4 @@
 CLASS tz net/minecraft/world/level/levelgen/RandomLevelSource
-	METHOD <init> (Leb;J)V
-		ARG 1 level
-		ARG 2 seed
-	METHOD a tick ()Z
-	METHOD a hasChunk (II)Z
-	METHOD a buildSurfaces (II[B[Lig;)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-		ARG 4 biomes
-	METHOD a prepareHeights (II[B[Lig;[D)V
-		ARG 1 x
-		ARG 2 z
-		ARG 3 blocks
-		ARG 4 biomes
-		ARG 5 temperatures
-	METHOD a postProcess (Lbs;II)V
-	METHOD a save (ZLtw;)Z
-	METHOD a getHeights ([DIIIIII)[D
-		ARG 1 heights
-		ARG 2 a
-		ARG 3 b
-		ARG 4 c
-		ARG 5 x
-		ARG 6 y
-		ARG 7 z
-	METHOD b shouldSave ()Z
-	METHOD b getChunk (II)Ljg;
-	METHOD c gatherStats ()Ljava/lang/String;
-	METHOD c create (II)Ljg;
 	FIELD a scaleNoise Lqn;
 	FIELD b depthNoise Lqn;
 	FIELD c forestNoise Lqn;
@@ -52,3 +22,25 @@ CLASS tz net/minecraft/world/level/levelgen/RandomLevelSource
 	FIELD u caveFeature Les;
 	FIELD v biomes [Lig;
 	FIELD w temperatures [D
+	METHOD <init> (Leb;J)V
+		ARG 1 level
+		ARG 2 seed
+	METHOD a buildSurfaces (II[B[Lig;)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+	METHOD a prepareHeights (II[B[Lig;[D)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+		ARG 4 biomes
+		ARG 5 temperatures
+	METHOD a getHeights ([DIIIIII)[D
+		ARG 1 heights
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+		ARG 5 x
+		ARG 6 y
+		ARG 7 z

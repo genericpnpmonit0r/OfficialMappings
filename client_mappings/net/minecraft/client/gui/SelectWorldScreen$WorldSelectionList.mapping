@@ -2,9 +2,3 @@ CLASS ka net/minecraft/client/gui/SelectWorldScreen$WorldSelectionList
 	FIELD a this$0 Loh;
 	METHOD <init> (Loh;)V
 		ARG 1 this$0
-	METHOD a getNumberOfItems ()I
-	METHOD a isSelectedItem (I)Z
-	METHOD a renderItem (IIIILlj;)V
-	METHOD a selectItem (IZ)V
-	METHOD b getMaxPosition ()I
-	METHOD c renderBackground ()V

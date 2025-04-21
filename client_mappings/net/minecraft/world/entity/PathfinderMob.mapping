@@ -13,9 +13,7 @@ CLASS gv net/minecraft/world/entity/PathfinderMob
 	METHOD a checkHurtTarget (Lpb;F)V
 		ARG 1 e
 		ARG 2 f
-	METHOD c canSpawn ()Z
 	METHOD c setAttackTarget (Lpb;)V
 		ARG 1 attackTarget
 	METHOD d_ shouldHoldGround ()Z
-	METHOD e_ updateAi ()V
 	METHOD f_ findAttackTarget ()Lpb;

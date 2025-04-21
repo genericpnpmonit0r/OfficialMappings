@@ -1,2 +1,1 @@
 CLASS et net/minecraft/world/item/RedStoneItem
-	METHOD a useOn (Lfg;Ldx;Lcw;IIII)Z

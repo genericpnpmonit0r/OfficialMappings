@@ -1,3 +1,2 @@
 CLASS pn net/minecraft/client/renderer/entity/MinecartRenderer
-	METHOD a render (Lpb;DDDFF)V
 	FIELD a model Lin;

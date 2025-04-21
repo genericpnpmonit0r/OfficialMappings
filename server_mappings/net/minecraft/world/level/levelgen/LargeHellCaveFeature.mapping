@@ -19,4 +19,3 @@ CLASS in net/minecraft/world/level/levelgen/LargeHellCaveFeature
 		ARG 13 g
 		ARG 14 h
 		ARG 15 i
-	METHOD a addFeature (Lcw;IIII[B)V

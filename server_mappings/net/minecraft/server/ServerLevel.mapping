@@ -12,17 +12,9 @@ CLASS dc net/minecraft/server/ServerLevel
 		ARG 5 seed
 	METHOD a getEntity (I)Lkj;
 		ARG 1 id
-	METHOD a mayInteract (Ldx;III)Z
-	METHOD a broadcastEntityEvent (Lkj;B)V
-	METHOD a explode (Lkj;DDDFZ)Ljf;
-	METHOD a tick (Lkj;Z)V
-	METHOD b createChunkSource ()Lbc;
-	METHOD b entityAdded (Lkj;)V
 	METHOD b forceTick (Lkj;Z)V
 		ARG 1 e
 		ARG 2 b
-	METHOD c entityRemoved (Lkj;)V
-	METHOD d tileEvent (IIIII)V
 	METHOD d getTileEntities (IIIIII)Ljava/util/List;
 		ARG 1 x0
 		ARG 2 y0

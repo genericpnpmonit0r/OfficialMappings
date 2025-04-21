@@ -1,6 +1,2 @@
 CLASS em net/minecraft/network/packet/SetCarriedItemPacket
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkw;)V
 	FIELD a slot I

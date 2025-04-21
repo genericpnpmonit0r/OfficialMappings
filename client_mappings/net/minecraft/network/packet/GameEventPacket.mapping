@@ -1,7 +1,3 @@
 CLASS bi net/minecraft/network/packet/GameEventPacket
 	FIELD a EVENT_NAMES [Ljava/lang/String;
 	FIELD b event I
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lpt;)V

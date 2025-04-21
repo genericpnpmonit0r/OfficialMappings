@@ -1,11 +1,8 @@
 CLASS an net/minecraft/world/inventory/FurnaceMenu
-	METHOD <init> (Lgu;Lkg;)V
-		ARG 1 container
-		ARG 2 oj
-	METHOD a broadcastChanges ()V
-	METHOD a addSlotListener (Lce;)V
-	METHOD b stillValid (Ldx;)Z
 	FIELD a furnace Lkg;
 	FIELD b tc I
 	FIELD c lt I
 	FIELD h ld I
+	METHOD <init> (Lgu;Lkg;)V
+		ARG 1 container
+		ARG 2 oj
