@@ -1,8 +1,4 @@
 CLASS jp net/minecraft/network/packet/AddPlayerPacket
-	METHOD <init> (Lff;)V
-		ARG 1 player
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V
 	FIELD a id I
 	FIELD b name Ljava/lang/String;
 	FIELD c x I
@@ -11,3 +7,5 @@ CLASS jp net/minecraft/network/packet/AddPlayerPacket
 	FIELD f yRot B
 	FIELD g xRot B
 	FIELD h carriedItem I
+	METHOD <init> (Lff;)V
+		ARG 1 player

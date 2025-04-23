@@ -1,2 +1,1 @@
 CLASS iy net/minecraft/world/item/BedItem
-	METHOD a useOn (Lha;Lff;Ldu;IIII)Z

@@ -1,2 +1,1 @@
 CLASS mc net/minecraft/client/renderer/entity/GhastRenderer
-	METHOD a scale (Lja;F)V

@@ -1,4 +1,1 @@
 CLASS rx net/minecraft/world/entity/FlyingMob
-	METHOD b travel (FF)V
-	METHOD c causeFallDamage (F)V
-	METHOD n onLadder ()Z

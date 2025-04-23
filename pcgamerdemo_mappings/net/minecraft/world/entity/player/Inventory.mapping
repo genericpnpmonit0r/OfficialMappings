@@ -1,9 +1,12 @@
 CLASS gz net/minecraft/world/entity/player/Inventory
+	FIELD a items [Lha;
+	FIELD b armor [Lha;
+	FIELD c selected I
+	FIELD d changed Z
+	FIELD e player Lff;
+	FIELD f carried Lha;
 	METHOD <init> (Lff;)V
 		ARG 1 player
-	METHOD a getContainerSize ()I
-	METHOD a removeItem (II)Lha;
-	METHOD a setItem (ILha;)V
 	METHOD a grabTexture (IZ)V
 		ARG 1 id
 		ARG 2 b
@@ -15,7 +18,6 @@ CLASS gz net/minecraft/world/entity/player/Inventory
 		ARG 1 tag
 	METHOD a getDestroySpeed (Lqn;)F
 		ARG 1 tile
-	METHOD a_ stillValid (Lff;)Z
 	METHOD b getSelected ()Lha;
 	METHOD b swapPaint (I)V
 		ARG 1 id
@@ -25,13 +27,10 @@ CLASS gz net/minecraft/world/entity/player/Inventory
 		ARG 1 tag
 	METHOD b canDestroy (Lqn;)Z
 		ARG 1 tile
-	METHOD c getName ()Ljava/lang/String;
 	METHOD c removeResource (I)Z
 		ARG 1 item
 	METHOD c getSlotWithRemainingSpace (Lha;)I
 		ARG 1 item
-	METHOD c_ getItem (I)Lha;
-	METHOD d getMaxStackSize ()I
 	METHOD d getArmor (I)Lha;
 		ARG 1 i
 	METHOD d addResource (Lha;)I
@@ -45,10 +44,3 @@ CLASS gz net/minecraft/world/entity/player/Inventory
 	METHOD g dropAll ()V
 	METHOD i getCarried ()Lha;
 	METHOD j getFreeSlot ()I
-	METHOD r_ setChanged ()V
-	FIELD a items [Lha;
-	FIELD b armor [Lha;
-	FIELD c selected I
-	FIELD d changed Z
-	FIELD e player Lff;
-	FIELD f carried Lha;

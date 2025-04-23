@@ -13,8 +13,7 @@ CLASS nb net/minecraft/world/level/TickNextTickData
 		ARG 4 tileId
 	METHOD a delay (J)Lnb;
 		ARG 1 delay
-	METHOD a compareTo (Lnb;)I
-	METHOD compareTo compareTo (Ljava/lang/Object;)I
+	METHOD compareTo (Ljava/lang/Object;)I
 		ARG 1 o
 	METHOD equals (Ljava/lang/Object;)Z
 		ARG 1 o

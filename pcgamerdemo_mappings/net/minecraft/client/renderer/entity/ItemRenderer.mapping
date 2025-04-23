@@ -1,4 +1,6 @@
 CLASS al net/minecraft/client/renderer/entity/ItemRenderer
+	FIELD a tileRenderer Lbw;
+	FIELD e random Ljava/util/Random;
 	METHOD a blit (IIIIII)V
 		ARG 1 x
 		ARG 2 y
@@ -19,12 +21,9 @@ CLASS al net/minecraft/client/renderer/entity/ItemRenderer
 		ARG 3 item
 		ARG 4 x
 		ARG 5 y
-	METHOD a render (Loo;DDDFF)V
 	METHOD b renderGuiItemDecorations (Lok;Lhg;Lha;II)V
 		ARG 1 font
 		ARG 2 textures
 		ARG 3 item
 		ARG 4 x
 		ARG 5 y
-	FIELD a tileRenderer Lbw;
-	FIELD e random Ljava/util/Random;

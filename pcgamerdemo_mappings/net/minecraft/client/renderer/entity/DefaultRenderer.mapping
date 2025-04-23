@@ -1,2 +1,1 @@
 CLASS jh net/minecraft/client/renderer/entity/DefaultRenderer
-	METHOD a render (Loo;DDDFF)V

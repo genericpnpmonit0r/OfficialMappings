@@ -1,6 +1,4 @@
 CLASS nq net/minecraft/network/packet/ExplodePacket
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D

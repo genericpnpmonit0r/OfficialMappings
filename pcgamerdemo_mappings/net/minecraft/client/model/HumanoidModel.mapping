@@ -1,15 +1,4 @@
 CLASS dy net/minecraft/client/model/HumanoidModel
-	METHOD <init> (F)V
-		ARG 1 g
-	METHOD <init> (FF)V
-		ARG 1 g
-		ARG 2 yOffset
-	METHOD a renderEars (F)V
-		ARG 1 scale
-	METHOD a setupAnim (FFFFFF)V
-	METHOD b renderCloak (F)V
-		ARG 1 scale
-	METHOD b render (FFFFFF)V
 	FIELD a head Lmd;
 	FIELD b hair Lmd;
 	FIELD c body Lmd;
@@ -22,3 +11,12 @@ CLASS dy net/minecraft/client/model/HumanoidModel
 	FIELD j holdingLeftHand Z
 	FIELD k holdingRightHand Z
 	FIELD l sneaking Z
+	METHOD <init> (F)V
+		ARG 1 g
+	METHOD <init> (FF)V
+		ARG 1 g
+		ARG 2 yOffset
+	METHOD a renderEars (F)V
+		ARG 1 scale
+	METHOD b renderCloak (F)V
+		ARG 1 scale

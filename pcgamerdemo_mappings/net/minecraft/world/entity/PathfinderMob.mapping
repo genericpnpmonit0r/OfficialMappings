@@ -1,4 +1,7 @@
 CLASS gn net/minecraft/world/entity/PathfinderMob
+	FIELD a path Lci;
+	FIELD d attackTarget Loo;
+	FIELD e holdGround Z
 	METHOD a getWalkTargetValue (III)F
 		ARG 1 x
 		ARG 2 y
@@ -6,9 +9,4 @@ CLASS gn net/minecraft/world/entity/PathfinderMob
 	METHOD a checkHurtTarget (Loo;F)V
 		ARG 1 e
 		ARG 2 f
-	METHOD c canSpawn ()Z
-	METHOD d_ updateAi ()V
 	METHOD e_ findAttackTarget ()Loo;
-	FIELD a path Lci;
-	FIELD d attackTarget Loo;
-	FIELD e holdGround Z

@@ -1,3 +1,1 @@
 CLASS gt net/minecraft/client/renderer/entity/ChickenRenderer
-	METHOD a render (Loo;DDDFF)V
-	METHOD c getBob (Lja;F)F

@@ -1,2 +1,1 @@
 CLASS ti net/minecraft/world/level/biome/RainforestBiome
-	METHOD a getTreeFeature (Ljava/util/Random;)Llv;

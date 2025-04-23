@@ -1,6 +1,4 @@
 CLASS hu net/minecraft/network/packet/EntityActionAtPositionPacket
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V
 	FIELD a entityId I
 	FIELD b x I
 	FIELD c y I

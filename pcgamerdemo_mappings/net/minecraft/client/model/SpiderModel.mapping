@@ -1,6 +1,4 @@
 CLASS od net/minecraft/client/model/SpiderModel
-	METHOD a setupAnim (FFFFFF)V
-	METHOD b render (FFFFFF)V
 	FIELD a head Lmd;
 	FIELD b body0 Lmd;
 	FIELD c body1 Lmd;

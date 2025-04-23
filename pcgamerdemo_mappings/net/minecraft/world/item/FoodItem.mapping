@@ -1,6 +1,5 @@
 CLASS ts net/minecraft/world/item/FoodItem
+	FIELD a nutrition I
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 nutrition
-	METHOD a use (Lha;Ldu;Lff;)Lha;
-	FIELD a nutrition I

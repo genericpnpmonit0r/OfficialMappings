@@ -1,7 +1,5 @@
 CLASS lm net/minecraft/client/gui/inventory/FurnaceScreen
+	FIELD k furnace Lol;
 	METHOD <init> (Lgz;Lol;)V
 		ARG 1 incentory
 		ARG 2 furnace
-	METHOD a renderBg (F)V
-	METHOD j renderLabels ()V
-	FIELD k furnace Lol;

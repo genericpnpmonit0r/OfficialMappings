@@ -51,7 +51,6 @@ CLASS du net/minecraft/world/level/Level
 		ARG 3 dimension
 		ARG 4 seed
 	METHOD A saveLevelData ()V
-	METHOD a getBiomeSource ()Lsv;
 	METHOD a getNearestPlayer (DDDD)Lff;
 		ARG 1 x
 		ARG 3 y
@@ -71,7 +70,6 @@ CLASS du net/minecraft/world/level/Level
 	METHOD a getTopTile (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getTile (III)I
 	METHOD a hasChunkAt (IIII)Z
 		ARG 1 x0
 		ARG 2 z0
@@ -255,7 +253,6 @@ CLASS du net/minecraft/world/level/Level
 	METHOD b getChunkAt (II)Liu;
 		ARG 1 x
 		ARG 2 z
-	METHOD b getTileEntity (III)Lll;
 	METHOD b setTileNoUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -307,7 +304,6 @@ CLASS du net/minecraft/world/level/Level
 	METHOD c getChunk (II)Liu;
 		ARG 1 x
 		ARG 2 z
-	METHOD c getBrightness (III)F
 	METHOD c setData (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -352,7 +348,6 @@ CLASS du net/minecraft/world/level/Level
 	METHOD e getTopSolidBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD e getData (III)I
 	METHOD e setTile (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -364,7 +359,6 @@ CLASS du net/minecraft/world/level/Level
 	METHOD f getLightDepth (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD f getMaterial (III)Liv;
 	METHOD f tileUpdated (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -376,7 +370,6 @@ CLASS du net/minecraft/world/level/Level
 	METHOD g hasChunk (II)Z
 		ARG 1 x
 		ARG 2 z
-	METHOD g isSolidTile (III)Z
 	METHOD g lightColumnChanged (IIII)V
 		ARG 1 x
 		ARG 2 z

@@ -1,2 +1,1 @@
 CLASS qv net/minecraft/world/item/BoatItem
-	METHOD a use (Lha;Ldu;Lff;)Lha;

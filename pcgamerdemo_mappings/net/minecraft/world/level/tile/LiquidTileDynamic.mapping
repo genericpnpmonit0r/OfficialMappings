@@ -1,5 +1,7 @@
 CLASS le net/minecraft/world/level/tile/LiquidTileDynamic
-	METHOD a tick (Ldu;IIILjava/util/Random;)V
+	FIELD a maxCount I
+	FIELD b result [Z
+	FIELD c dist [I
 	METHOD b getSlopeDistance (Ldu;IIIII)I
 		ARG 1 level
 		ARG 2 x
@@ -7,7 +9,6 @@ CLASS le net/minecraft/world/level/tile/LiquidTileDynamic
 		ARG 4 z
 		ARG 5 a
 		ARG 6 b
-	METHOD e onPlace (Ldu;III)V
 	METHOD f getHighest (Ldu;IIII)I
 		ARG 1 level
 		ARG 2 x
@@ -40,6 +41,3 @@ CLASS le net/minecraft/world/level/tile/LiquidTileDynamic
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	FIELD a maxCount I
-	FIELD b result [Z
-	FIELD c dist [I

@@ -1,5 +1,3 @@
 CLASS cj net/minecraft/network/packet/TakeItemEntityPacket
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V
 	FIELD a itemId I
 	FIELD b playerId I

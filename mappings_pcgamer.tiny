@@ -1,18 +1,8 @@
 tiny	2	0	named	client
 c	net/minecraft/world/level/tile/Tile$2	aa
 c	net/minecraft/world/level/tile/PortalTile	ab
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
 	m	(Lnet/minecraft/world/level/Level;III)Z	trySpawnPortal	a_
 	m	(II)V	<init>	<init>
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	()Z	isSolidRender	a
-	m	()I	getRenderLayer	c
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	entityInside	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
-	m	(Ljava/util/Random;)I	getResourceCount	a
 c	net/minecraft/world/level/tile/Tile$1	ac
 c	net/minecraft/world/level/levelgen/synth/ImprovedNoise	ad
 	f	[I	p	d
@@ -27,15 +17,7 @@ c	net/minecraft/world/level/levelgen/synth/ImprovedNoise	ad
 	m	(DDD)D	noise	a
 	m	(Ljava/util/Random;)V	<init>	<init>
 c	net/minecraft/world/level/material/DecorationMaterial	ae
-	m	()Z	isSolid	a
-	m	()Z	blocksMotion	c
-	m	()Z	blocksLight	b
 c	net/minecraft/world/entity/animal/WaterAnimal	af
-	m	()Z	canSpawn	c
-	m	()I	getAmbientSoundInterval	d
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()Z	isWaterMob	c_
 c	com/mojang/nbt/NbtIo	ag
 	m	(Lcom/mojang/nbt/CompoundTag;Ljava/io/OutputStream;)V	writeCompressed	a
 	m	(Ljava/io/InputStream;)Lcom/mojang/nbt/CompoundTag;	readCompressed	a
@@ -56,36 +38,23 @@ c	net/minecraft/client/renderer/ptexture/CompassTexture	ai
 	f	D	rot	i
 	f	Lnet/minecraft/client/Minecraft;	mc	g
 	f	D	rota	j
-	m	()V	tick	a
 	m	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>
 c	net/minecraft/world/item/PickaxeItem	aj
 	f	[Lnet/minecraft/world/level/tile/Tile;	diggables	bi
 	m	(ILnet/minecraft/world/item/Item$Tier;)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/tile/Tile;)Z	canDestroySpecial	a
 c	net/minecraft/world/level/tile/entity/DispenserTileEntity	ak
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	a
 	f	Ljava/util/Random;	random	b
-	m	()I	getMaxStackSize	d
-	m	(Lcom/mojang/nbt/CompoundTag;)V	load	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	save	b
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
-	m	()Ljava/lang/String;	getName	c
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
 	m	()Lnet/minecraft/world/item/ItemInstance;	removeRandomItem	b
-	m	()I	getContainerSize	a
 c	net/minecraft/client/renderer/entity/ItemRenderer	al
 	f	Lnet/minecraft/client/renderer/TileRenderer;	tileRenderer	a
 	f	Ljava/util/Random;	random	e
 	m	(Lnet/minecraft/client/gui/Font;Lnet/minecraft/client/renderer/Textures;Lnet/minecraft/world/item/ItemInstance;II)V	renderGuiItem	a
 	m	(Lnet/minecraft/client/renderer/Tesselator;IIIII)V	fillRect	a
 	m	(IIIIII)V	blit	a
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 	m	(Lnet/minecraft/client/gui/Font;Lnet/minecraft/client/renderer/Textures;Lnet/minecraft/world/item/ItemInstance;II)V	renderGuiItemDecorations	b
 c	net/minecraft/world/item/BucketItem	am
 	f	I	content	a
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 	m	(II)V	<init>	<init>
 c	net/minecraft/isom/IsomPreview	an
 	f	Ljava/util/List;	zonesToRender	g
@@ -132,45 +101,25 @@ c	net/minecraft/world/level/chunk/storage/ChunkStorage	ao
 	m	()V	flush	b
 c	net/minecraft/world/level/levelgen/feature/FlowerFeature	ap
 	f	I	tile	a
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 	m	(I)V	<init>	<init>
 c	net/minecraft/world/entity/animal/Animal	aq
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	(III)F	getWalkTargetValue	a
-	m	()Z	canSpawn	c
-	m	()I	getAmbientSoundInterval	d
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
 c	net/minecraft/client/sound/Sound	ar
 	f	Ljava/net/URL;	url	b
 	f	Ljava/lang/String;	name	a
 	m	(Ljava/lang/String;Ljava/net/URL;)V	<init>	<init>
 c	net/minecraft/world/item/ClothTileItem	as
-	m	(Lnet/minecraft/world/item/ItemInstance;)I	getIcon	a
-	m	(Lnet/minecraft/world/item/ItemInstance;)Ljava/lang/String;	getDescriptionId	b
-	m	(I)I	getLevelDataForAuxValue	a
 c	net/minecraft/world/level/tile/LeafTile	at
 	f	[I	checkBuffer	a
 	f	I	oTex	c
 	m	(Lnet/minecraft/world/level/Level;III)V	die	h
 	m	(Z)V	setFancy	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(II)V	<init>	<init>
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(II)I	getTexture	a
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	stepOn	b
-	m	(Lnet/minecraft/world/level/LevelSource;III)I	getColor	b
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
 c	net/minecraft/world/inventory/FurnaceMenu	au
 	f	I	tc	b
 	f	Lnet/minecraft/world/level/tile/entity/FurnaceTileEntity;	furnace	a
 	f	I	lt	c
 	f	I	ld	h
 	m	(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/tile/entity/FurnaceTileEntity;)V	<init>	<init>
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	b
-	m	()V	broadcastChanges	a
-	m	(II)V	setData	a
 c	net/minecraft/isom/IsomPreviewApplet	net/minecraft/isom/IsomPreviewApplet
 	f	Lnet/minecraft/isom/IsomPreview;	isomPreview	a
 	m	()V	stop	stop
@@ -182,7 +131,6 @@ c	net/minecraft/Pos	av
 	m	(III)V	<init>	<init>
 	m	(Ljava/lang/Object;)Z	equals	equals
 	m	(Ljava/lang/Object;)I	compareTo	compareTo
-	m	(Lnet/minecraft/Pos;)I	compareTo	a
 c	net/minecraft/world/entity/monster/Ghast	aw
 	f	Lnet/minecraft/world/entity/Entity;	target	g
 	f	I	floatDuration	a
@@ -192,28 +140,12 @@ c	net/minecraft/world/entity/monster/Ghast	aw
 	f	D	yTarget	c
 	f	D	xTarget	b
 	f	D	zTarget	d
-	m	()Z	canSpawn	c
-	m	()Ljava/lang/String;	getDeathSound	h_
 	m	(DDDD)Z	canReach	a
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	()I	getDeathLoot	i
-	m	()I	getMaxSpawnClusterSize	k
-	m	()F	getSoundVolume	j
-	m	()V	updateAi	d_
 c	net/minecraft/world/level/tile/RedStoneOreTile	ax
 	f	Z	lit	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
 	m	(IIZ)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	stepOn	b
-	m	()I	getTickDelay	d
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
 	m	(Lnet/minecraft/world/level/Level;III)V	poofParticles	i
 	m	(Lnet/minecraft/world/level/Level;III)V	interact	h
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	attack	b
 c	net/minecraft/world/phys/Vec3	ay
 	f	Ljava/util/List;	pool	d
 	f	D	x	a
@@ -255,23 +187,8 @@ c	net/minecraft/world/item/Item$Tier	az
 	m	()I	getLevel	d
 c	net/minecraft/world/level/tile/PressurePlateTile	ba
 	f	Lnet/minecraft/world/level/tile/PressurePlateTile$Sensitivity;	sensitivity	a
-	m	()V	updateDefaultShape	f
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	()I	getTickDelay	d
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	(Lnet/minecraft/world/level/Level;IIII)Z	getDirectSignal	c
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
 	m	(Lnet/minecraft/world/level/Level;III)V	checkPressed	h
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()Z	isSolidRender	a
-	m	()Z	isSignalSource	e
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	entityInside	a
 	m	(IILnet/minecraft/world/level/tile/PressurePlateTile$Sensitivity;)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	getSignal	c
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 c	net/minecraft/client/renderer/entity/EntityRenderer	bb
 	f	Lnet/minecraft/client/model/Model;	model	a
 	f	Lnet/minecraft/client/renderer/entity/EntityRenderDispatcher;	entityRenderDispatcher	b
@@ -291,14 +208,6 @@ c	net/minecraft/client/renderer/entity/EntityRenderer	bb
 	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	postRender	b
 	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	renderShadow	c
 c	net/minecraft/world/entity/animal/Cow	bc
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	interact	a
-	m	()F	getSoundVolume	j
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()I	getDeathLoot	i
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 c	net/minecraft/world/entity/projectile/Snowball	bd
 	f	Lnet/minecraft/world/entity/Mob;	owner	g
 	f	I	xTile	b
@@ -309,19 +218,10 @@ c	net/minecraft/world/entity/projectile/Snowball	bd
 	f	I	life	h
 	f	I	flightTime	i
 	f	Z	inGround	f
-	m	()F	getShadowHeightOffs	k_
-	m	(Lnet/minecraft/world/entity/player/Player;)V	playerTouch	b
 	m	(DDDFF)V	shoot	a
-	m	(DDD)V	lerpMotion	a
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
 	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Mob;)V	<init>	<init>
-	m	(D)Z	shouldRenderAtSqrDistance	a
-	m	()V	tick	q_
-	m	()V	defineSynchedData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 c	net/minecraft/world/item/BowlFoodItem	be
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 c	net/minecraft/client/CrashInfoPanel	bf
 	m	(Lnet/minecraft/client/CrashReport;)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/synth/SimplexNoise	bg
@@ -338,14 +238,10 @@ c	net/minecraft/world/level/levelgen/synth/SimplexNoise	bg
 	m	(Ljava/util/Random;)V	<init>	<init>
 c	net/minecraft/world/inventory/ContainerMenu	bh
 	f	Lnet/minecraft/world/Container;	container	a
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	b
 	m	(Lnet/minecraft/world/Container;Lnet/minecraft/world/Container;)V	<init>	<init>
 c	net/minecraft/client/gui/ErrorScreen	bi
 	f	Ljava/lang/String;	message	h
 	f	Ljava/lang/String;	title	a
-	m	(CI)V	keyPressed	a
-	m	()V	init	a
-	m	(IIF)V	render	a
 c	net/minecraft/world/entity/projectile/Fireball	bj
 	f	I	shakeTime	a
 	f	I	yTile	f
@@ -359,33 +255,15 @@ c	net/minecraft/world/entity/projectile/Fireball	bj
 	f	I	flightTime	l
 	f	I	life	k
 	f	Z	inGround	i
-	m	()F	getPickRadius	e
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	()F	getShadowHeightOffs	k_
-	m	(D)Z	shouldRenderAtSqrDistance	a
 	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Mob;DDD)V	<init>	<init>
-	m	()V	defineSynchedData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()Z	isPickable	f_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()V	tick	q_
 c	net/minecraft/client/renderer/ptexture/LavaTexture	bk
 	f	[F	current	g
 	f	[F	heat	i
 	f	[F	next	h
 	f	[F	heata	j
-	m	()V	tick	a
 c	net/minecraft/client/gui/DeathScreen	bl
-	m	()V	init	a
-	m	(IIF)V	render	a
-	m	(CI)V	keyPressed	a
-	m	()Z	isPauseScreen	b
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 c	net/minecraft/world/item/TileItem	bm
 	f	I	tileId	a
-	m	(Lnet/minecraft/world/item/ItemInstance;)Ljava/lang/String;	getDescriptionId	b
-	m	()Ljava/lang/String;	getDescriptionId	a
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/world/level/storage/McRegionLevelStorageSource$FolderPattern	bn
 	f	Ljava/util/regex/Pattern;	FOLDER_PATTERN	a
 	m	(Ljava/io/File;)Z	accept	accept
@@ -399,25 +277,12 @@ c	net/minecraft/world/level/chunk/ChunkSource	bo
 	m	(ZLutil/ProgressListener;)Z	save	a
 	m	()Z	tick	a
 c	net/minecraft/world/entity/monster/Spider	bp
-	m	()I	getDeathLoot	i
-	m	(Lnet/minecraft/world/entity/Entity;F)V	checkHurtTarget	a
-	m	()Lnet/minecraft/world/entity/Entity;	findAttackTarget	e_
-	m	()Z	onLadder	n
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()D	getRideHeight	l
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
 c	net/minecraft/client/gui/OptionsScreen	bq
 	f	Lnet/minecraft/client/gui/Screen;	lastScreen	h
 	f	[Lnet/minecraft/client/Options$Option;	items	k
 	f	Lnet/minecraft/client/Options;	options	i
 	f	Ljava/lang/String;	title	a
-	m	(IIF)V	render	a
 	m	(Lnet/minecraft/client/gui/Screen;Lnet/minecraft/client/Options;)V	<init>	<init>
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
-	m	()V	init	a
 c	net/minecraft/world/level/MobSpawner	br
 	f	Ljava/util/Set;	chunksToPoll	b
 	f	[Ljava/lang/Class;	unk_field_a	a
@@ -428,7 +293,6 @@ c	net/minecraft/world/level/MobSpawner	br
 	m	(Lnet/minecraft/world/level/Level;Ljava/util/List;)Z	sleepTick	a
 		c	idfk what to call this\nsleepTick?\nsleepSpawn?
 c	net/minecraft/client/particle/BubbleParticle	bs
-	m	()V	tick	q_
 c	net/minecraft/client/player/SmoothFloat	bt
 	f	F	targetValue	a
 	f	F	lastAmount	c
@@ -444,9 +308,6 @@ c	net/minecraft/world/level/tile/Tile$SoundType	bu
 	m	()F	getVolume	b
 	m	()F	getPitch	c
 c	net/minecraft/world/item/FishingRodItem	bv
-	m	()Z	isMirroredArt	c
-	m	()Z	isHandEquipped	b
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 c	net/minecraft/client/renderer/TileRenderer	bw
 	f	F	unk_k	k
 	f	F	unk_N	N
@@ -549,9 +410,6 @@ c	net/minecraft/world/level/tile/entity/MobSpawnerTileEntity	bx
 	m	(Ljava/lang/String;)V	setEntityId	a
 	m	()Z	isNearPlayer	b
 	m	()Ljava/lang/String;	getEntityId	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	save	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	load	a
-	m	()V	tick	m_
 	m	()V	delay	d
 c	net/minecraft/client/OpenGLCapabilities	by
 	f	Z	USE_OCCLUSION_QUERY	a
@@ -571,19 +429,8 @@ c	net/minecraft/world/level/tile/NotGateTile	ca
 	f	Z	on	a
 	f	Ljava/util/List;	recentToggles	b
 	m	(Lnet/minecraft/world/level/Level;IIIZ)Z	isToggledTooFrequently	a
-	m	(ILjava/util/Random;)I	getResource	a
 	m	(IIZ)V	<init>	<init>
-	m	()I	getTickDelay	d
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(Lnet/minecraft/world/level/Level;III)Z	hasNeighborSignal	h
-	m	(Lnet/minecraft/world/level/Level;IIII)Z	getDirectSignal	c
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
-	m	(II)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	getSignal	c
-	m	()Z	isSignalSource	e
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 c	net/minecraft/client/gui/Screen	cb
 	f	Lnet/minecraft/client/Minecraft;	minecraft	b
 	f	I	width	c
@@ -617,41 +464,19 @@ c	net/minecraft/client/player/LocalPlayer	cc
 	f	Z	isInsidePortal	bI
 	f	I	changingDimensionDelay	c
 	f	F	oPortalTime	e
-	m	()V	aiStep	m
-	m	()V	handleInsidePortal	s
-	m	()V	animateRespawn	u
-	m	(Lnet/minecraft/world/Container;)V	openContainer	a
-	m	(III)V	startCrafting	a
 	m	(IZ)V	setKey	a
 	m	()V	releaseAllKeys	n_
-	m	(Lnet/minecraft/world/entity/Entity;I)V	take	b
-	m	(Ljava/lang/String;)V	displayClientMessage	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 	m	(I)V	hurtTo	a_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()Z	isSneaking	r
-	m	(Lnet/minecraft/world/level/tile/entity/SignTileEntity;)V	openTextEdit	a
-	m	()V	updateAi	d_
-	m	()V	closeContainer	p
-	m	()V	respawn	t
-	m	(Lnet/minecraft/world/level/tile/entity/FurnaceTileEntity;)V	openFurnace	a
 	m	()I	getArmor	q
-	m	(Lnet/minecraft/world/level/tile/entity/DispenserTileEntity;)V	openTrap	a
 	m	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/Level;Lnet/minecraft/client/User;I)V	<init>	<init>
 	m	(Ljava/lang/String;)V	chat	a
 c	net/minecraft/world/level/tile/MobSpawnerTile	cd
-	m	()Lnet/minecraft/world/level/tile/entity/TileEntity;	newTileEntity	a_
-	m	(ILjava/util/Random;)I	getResource	a
 	m	(II)V	<init>	<init>
-	m	()Z	isSolidRender	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
 c	net/minecraft/network/packet/InteractPacket	a
 	f	I	target	b
 	f	I	action	c
 	f	I	source	a
-	m	()I	getEstimatedSize	a
 	m	(III)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/level/pathfinder/Node	b
 	f	F	h	f
 	f	I	hash	j
@@ -673,13 +498,7 @@ c	net/minecraft/client/skins/TexturePackSelectScreen$TexturePackSelectionList	ce
 	m	(Lnet/minecraft/client/skins/TexturePackSelectScreen;)V	<init>	<init>
 c	net/minecraft/world/level/tile/ChestTile	c
 	f	Ljava/util/Random;	random	a
-	m	(I)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	()Lnet/minecraft/world/level/tile/entity/TileEntity;	newTileEntity	a_
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
 	m	(Lnet/minecraft/world/level/Level;III)Z	isFullChest	h
 c	net/minecraft/client/demo/DemoMode	cf
 	f	Z	demoHasEnded	c
@@ -687,7 +506,6 @@ c	net/minecraft/client/demo/DemoMode	cf
 	m	()V	outputDemoReminder	e
 c	net/minecraft/world/level/levelgen/synth/Synth	cg
 c	net/minecraft/world/level/biome/TaigaBiome	d
-	m	(Ljava/util/Random;)Lnet/minecraft/world/level/levelgen/feature/Feature;	getTreeFeature	a
 c	net/minecraft/client/skins/TexturePack	e
 	f	Ljava/lang/String;	name	a
 	f	Ljava/lang/String;	desc1	b
@@ -702,7 +520,6 @@ c	net/minecraft/client/skins/TexturePack	e
 c	net/minecraft/client/renderer/entity/ItemSpriteRenderer	ch
 	f	I	icon	a
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/world/level/pathfinder/Path	ci
 	f	I	length	a
 	f	I	pos	c
@@ -713,18 +530,13 @@ c	net/minecraft/world/level/pathfinder/Path	ci
 	m	()Lnet/minecraft/world/level/pathfinder/Node;	last	c
 	m	(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/Vec3;	current	a
 c	net/minecraft/world/level/levelgen/feature/BirchFeature	f
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/level/tile/MetalTile	g
-	m	(I)I	getTexture	a
 	m	(II)V	<init>	<init>
 c	net/minecraft/network/packet/TakeItemEntityPacket	cj
 	f	I	itemId	a
 	f	I	playerId	b
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/level/levelgen/feature/LakeFeature	ck
 	f	I	tile	a
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 	m	(I)V	<init>	<init>
 c	net/minecraft/client/renderer/LevelRenderer	h
 	f	I	offscreenChunks	N
@@ -775,23 +587,16 @@ c	net/minecraft/client/renderer/LevelRenderer	h
 	f	I	chunkLists	s
 	m	(Lnet/minecraft/world/entity/Mob;ID)I	render	a
 	m	(III)V	resortChunks	b
-	m	(Ljava/lang/String;III)V	playStreamingMusic	a
 	m	(IIID)I	renderChunks	a
 	m	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/renderer/Textures;)V	<init>	<init>
 	m	()Ljava/lang/String;	gatherStats2	c
 	m	(F)V	renderAdvancedClouds	c
 	m	()V	tick	d
-	m	(III)V	tileChanged	a
-	m	(IIILnet/minecraft/world/level/tile/entity/TileEntity;)V	tileEntityChanged	a
-	m	(Ljava/lang/String;DDDFF)V	playSound	a
-	m	(Lnet/minecraft/world/entity/Entity;)V	entityRemoved	b
 	m	()Ljava/lang/String;	gatherStats1	b
 	m	(Lnet/minecraft/world/phys/AABB;)V	render	a
-	m	()V	skyColorChanged	e
 	m	()V	allChanged	a
 	m	(Lnet/minecraft/world/level/Level;)V	setLevel	a
 	m	(ID)V	renderSameAsLast	a
-	m	(Lnet/minecraft/world/entity/Entity;)V	entityAdded	a
 	m	(Lnet/minecraft/client/renderer/culling/Culler;F)V	cull	a
 	m	(Lnet/minecraft/world/entity/Mob;Z)Z	updateDirtyChunks	a
 	m	(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/HitResult;ILnet/minecraft/world/item/ItemInstance;F)V	renderHit	a
@@ -799,14 +604,10 @@ c	net/minecraft/client/renderer/LevelRenderer	h
 	m	(F)V	renderSky	a
 	m	(IIIIII)V	setDirty	a
 	m	(II)V	checkQueryResults	a
-	m	(Ljava/lang/String;DDDDDD)V	addParticle	a
 	m	(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/phys/HitResult;ILnet/minecraft/world/item/ItemInstance;F)V	renderHitOutline	b
 	m	(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/culling/Culler;F)V	renderEntities	a
 	m	(F)V	renderClouds	b
-	m	(IIIIII)V	setTilesDirty	b
 c	net/minecraft/client/renderer/entity/CreeperRenderer	i
-	m	(Lnet/minecraft/world/entity/Mob;FF)I	getOverlayColor	a
-	m	(Lnet/minecraft/world/entity/Mob;F)V	scale	a
 c	net/minecraft/client/renderer/Chunk	cl
 	f	I	updates	b
 	f	I	lists	C
@@ -854,26 +655,15 @@ c	net/minecraft/client/renderer/Chunk	cl
 	m	()V	setDirty	f
 c	net/minecraft/world/entity/animal/Sheep	cm
 	f	[[F	COLOR	a
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	()V	defineSynchedData	b
 	m	()I	getColor	p_
-	m	()Ljava/lang/String;	getAmbientSound	f
 	m	(Ljava/util/Random;)I	getSheepColor	a
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 	m	(Z)V	setSheared	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
 	m	(I)V	setColor	b_
 	m	()Z	isSheared	p
 c	com/mojang/nbt/FloatTag	j
 	f	F	data	a
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	()B	getId	a
-	m	(Ljava/io/DataInput;)V	load	a
 	m	(F)V	<init>	<init>
 c	net/minecraft/world/item/SnowballItem	cn
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 c	net/minecraft/client/MinecraftApplet$2	k
 	f	Lnet/minecraft/client/MinecraftApplet;	this$0	a
 	m	(Lnet/minecraft/client/MinecraftApplet;Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V	<init>	<init>
@@ -897,34 +687,18 @@ c	net/minecraft/client/MinecraftApplet$1	l
 	m	()V	removeNotify	removeNotify
 	m	()V	addNotify	addNotify
 c	net/minecraft/world/level/tile/LadderTile	cp
-	m	()I	getRenderShape	g
 	m	(II)V	<init>	<init>
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	setPlacedOnFace	d
-	m	()Z	isCubeShaped	b
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getTileAABB	f
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
 c	net/minecraft/network/packet/SetEquippedItemPacket	m
 	f	I	item	c
 	f	I	slot	b
 	f	I	auxValue	d
 	f	I	entity	a
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/item/DiggerItem	cq
 	f	Lnet/minecraft/world/item/Item$Tier;	tier	a
 	f	[Lnet/minecraft/world/level/tile/Tile;	tiles	bi
 	f	F	speed	bj
 	f	I	attackDamage	bk
 	m	(IILnet/minecraft/world/item/Item$Tier;[Lnet/minecraft/world/level/tile/Tile;)V	<init>	<init>
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/Mob;)V	hurtEnemy	a
-	m	()Z	isHandEquipped	b
-	m	(Lnet/minecraft/world/entity/Entity;)I	getAttackDamage	a
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/tile/Tile;)F	getDestroySpeed	a
-	m	(Lnet/minecraft/world/item/ItemInstance;IIII)V	mineBlock	a
 c	net/minecraft/client/locale/Language	n
 	f	Lnet/minecraft/client/locale/Language;	singleton	a
 	f	Ljava/util/Properties;	languageRepository	b
@@ -944,14 +718,7 @@ c	net/minecraft/client/renderer/entity/PlayerRenderer	cs
 	f	Lnet/minecraft/client/model/HumanoidModel;	armorParts1	g
 	f	Lnet/minecraft/client/model/HumanoidModel;	armorParts2	h
 	f	Lnet/minecraft/client/model/HumanoidModel;	humanoidModel	a
-	m	(Lnet/minecraft/world/entity/Mob;DDD)V	setupPosition	b
-	m	(Lnet/minecraft/world/entity/Mob;F)V	scale	a
-	m	(Lnet/minecraft/world/entity/Mob;F)V	additionalRendering	b
 	m	()V	renderHand	b
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
-	m	(Lnet/minecraft/world/entity/Mob;IF)Z	prepareArmor	a
-	m	(Lnet/minecraft/world/entity/Mob;FFF)V	setupRotations	a
-	m	(Lnet/minecraft/world/entity/Mob;DDD)V	renderName	a
 c	net/minecraft/client/Lighting	p
 	f	Ljava/nio/FloatBuffer;	lb	a
 	m	()V	turnOff	b
@@ -964,7 +731,6 @@ c	net/minecraft/world/item/crafting/Recipy	ct
 	m	(Lnet/minecraft/world/inventory/CraftingContainer;)Z	matches	a
 c	net/minecraft/client/renderer/entity/HumanoidMobRenderer	q
 	f	Lnet/minecraft/client/model/HumanoidModel;	humanoidModel	a
-	m	(Lnet/minecraft/world/entity/Mob;F)V	additionalRendering	b
 	m	(Lnet/minecraft/client/model/HumanoidModel;F)V	<init>	<init>
 c	net/minecraft/world/inventory/AbstractContainerMenu	cu
 	f	Ljava/util/List;	slots	e
@@ -1000,7 +766,6 @@ c	net/minecraft/world/item/crafting/ArmorRecipes	s
 	m	(Lnet/minecraft/world/item/crafting/Recipes;)V	addRecipes	a
 c	net/minecraft/client/renderer/entity/PaintingRenderer	cv
 	f	Ljava/util/Random;	random	a
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 	m	(Lnet/minecraft/world/entity/Painting;FF)V	setBrightness	a
 	m	(Lnet/minecraft/world/entity/Painting;IIII)V	renderPainting	a
 c	net/minecraft/world/level/storage/McRegionLevelStorageSource$ChunkFile	cw
@@ -1017,19 +782,13 @@ c	net/minecraft/world/inventory/InventoryMenu	t
 	f	Lnet/minecraft/world/inventory/CraftingContainer;	craftSlots	a
 	f	Z	active	c
 	m	(Lnet/minecraft/world/entity/player/Inventory;Z)V	<init>	<init>
-	m	(Lnet/minecraft/world/Container;)V	slotsChanged	a
 	m	(Lnet/minecraft/world/entity/player/Inventory;)V	<init>	<init>
-	m	(Lnet/minecraft/world/entity/player/Player;)V	removed	a
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	b
 c	net/minecraft/client/model/SheepFurModel	cx
 c	net/minecraft/client/gui/SmallButton	u
 	f	Lnet/minecraft/client/Options$Option;	option	i
 	m	(IIILnet/minecraft/client/Options$Option;Ljava/lang/String;)V	<init>	<init>
 	m	()Lnet/minecraft/client/Options$Option;	getOption	a
 c	net/minecraft/world/level/tile/SnowTile	v
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(ILjava/util/Random;)I	getResource	a
 	m	(II)V	<init>	<init>
 c	net/minecraft/world/level/LightLayer	cy
 	f	I	surrounding	c
@@ -1042,24 +801,14 @@ c	net/minecraft/world/inventory/ContainerListener	cz
 c	net/minecraft/client/particle/NoteParticle	w
 	f	F	oSize	a
 	m	(Lnet/minecraft/world/level/Level;DDDDDDF)V	<init>	<init>
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
-	m	()V	tick	q_
 c	net/minecraft/network/packet/MovePlayerPacket$Pos	x
 	m	(DDDDZ)V	<init>	<init>
 c	net/minecraft/client/renderer/tileentity/MobSpawnerRenderer	y
 	f	Ljava/util/Map;	models	b
-	m	(Lnet/minecraft/world/level/tile/entity/TileEntity;DDDF)V	render	a
 c	net/minecraft/world/level/tile/TntTile	z
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(I)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;III)V	wasExploded	c
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIII)V	destroy	b
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 c	net/minecraft/world/level/tile/ClothTile	da
-	m	(I)I	getSpawnResourcesAuxValue	b
 	m	(I)I	getTileDataForItemAuxValue	c
-	m	(II)I	getTexture	a
 	m	(I)I	getItemAuxValueForTileData	d
 c	net/minecraft/network/packet/BlockRegionUpdatePacket	db
 	f	I	size	h
@@ -1070,8 +819,6 @@ c	net/minecraft/network/packet/BlockRegionUpdatePacket	db
 	f	I	xs	d
 	f	I	ys	e
 	f	I	zs	f
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/client/model/PigModel	dc
 	m	(F)V	<init>	<init>
 c	net/minecraft/world/level/LevelData	dd
@@ -1113,7 +860,6 @@ c	net/minecraft/world/level/LevelData	dd
 	m	()Lcom/mojang/nbt/CompoundTag;	createTag	a
 	m	(JLjava/lang/String;)V	<init>	<init>
 c	net/minecraft/client/model/ZombieModel	de
-	m	(FFFFFF)V	setupAnim	a
 c	net/minecraft/client/renderer/HttpTexture	df
 	f	I	count	b
 	f	Ljava/awt/image/BufferedImage;	loadedImage	a
@@ -1127,15 +873,8 @@ c	net/minecraft/client/particle/TakeAnimationParticle	dg
 	f	I	lifeTime	q
 	f	F	yOffs	r
 	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;F)V	<init>	<init>
-	m	()V	tick	q_
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
-	m	()I	getParticleTexture	b_
 c	net/minecraft/world/item/StoneSlabTileItem	dh
-	m	(Lnet/minecraft/world/item/ItemInstance;)I	getIcon	a
-	m	(I)I	getLevelDataForAuxValue	a
-	m	(Lnet/minecraft/world/item/ItemInstance;)Ljava/lang/String;	getDescriptionId	b
 c	net/minecraft/world/level/tile/StoneTile	di
-	m	(ILjava/util/Random;)I	getResource	a
 	m	(II)V	<init>	<init>
 c	net/minecraft/world/phys/AABB	dj
 	f	D	x0	a
@@ -1170,16 +909,9 @@ c	net/minecraft/world/phys/AABB	dj
 c	net/minecraft/world/level/levelgen/feature/MonsterRoomFeature	dk
 	m	(Ljava/util/Random;)Lnet/minecraft/world/item/ItemInstance;	randomItem	a
 	m	(Ljava/util/Random;)Ljava/lang/String;	randomEntityId	b
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/client/renderer/entity/SquidRenderer	dl
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
-	m	(Lnet/minecraft/world/entity/Mob;FFF)V	setupRotations	a
-	m	(Lnet/minecraft/world/entity/Mob;F)V	scale	a
-	m	(Lnet/minecraft/world/entity/Mob;F)F	getBob	c
 c	net/minecraft/network/packet/SetHealthPacket	dm
 	f	I	health	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/network/packet/MovePlayerPacket$PosRot	dn
 	m	(DDDDFFZ)V	<init>	<init>
 c	net/minecraft/world/level/Region	do
@@ -1188,24 +920,12 @@ c	net/minecraft/world/level/Region	do
 	f	I	xc1	a
 	f	I	zc1	b
 	m	(Lnet/minecraft/world/level/Level;IIIIII)V	<init>	<init>
-	m	()Lnet/minecraft/world/level/biome/BiomeSource;	getBiomeSource	a
-	m	(III)Z	isSolidTile	g
 	m	(IIIZ)I	getRawBrightness	a
-	m	(III)Lnet/minecraft/world/level/tile/entity/TileEntity;	getTileEntity	b
-	m	(III)I	getTile	a
 	m	(III)I	getRawBrightness	d
-	m	(III)I	getData	e
-	m	(III)F	getBrightness	c
-	m	(III)Lnet/minecraft/world/level/material/Material;	getMaterial	f
 c	net/minecraft/client/multiplayer/DisconnectedScreen	dp
 	f	Ljava/lang/String;	reason	h
 	f	Ljava/lang/String;	title	a
-	m	(IIF)V	render	a
 	m	(Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V	<init>	<init>
-	m	()V	tick	g
-	m	(CI)V	keyPressed	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
-	m	()V	init	a
 c	net/minecraft/world/item/crafting/FurnaceRecipes	dq
 	f	Ljava/util/Map;	recipies	b
 	f	Lnet/minecraft/world/item/crafting/FurnaceRecipes;	instance	a
@@ -1214,19 +934,10 @@ c	net/minecraft/world/item/crafting/FurnaceRecipes	dq
 	m	()Lnet/minecraft/world/item/crafting/FurnaceRecipes;	getInstance	a
 c	net/minecraft/client/model/BoatModel	dr
 	f	[Lnet/minecraft/client/model/Cube;	cubes	a
-	m	(FFFFFF)V	setupAnim	a
-	m	(FFFFFF)V	render	b
 c	net/minecraft/world/level/tile/ObsidianTile	ds
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
 c	net/minecraft/world/level/tile/PumpkinTile	dt
 	f	Z	lit	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Mob;)V	setPlacedBy	a
-	m	(II)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
 	m	(IIZ)V	<init>	<init>
-	m	(I)I	getTexture	a
 c	net/minecraft/world/level/Level	du
 	f	Ljava/util/List;	entities	b
 	f	I	skyDarken	e
@@ -1267,7 +978,6 @@ c	net/minecraft/world/level/Level	du
 	m	(II)Lnet/minecraft/world/level/chunk/LevelChunk;	getChunkAt	b
 	m	(II)I	getTopSolidBlock	e
 	m	(IIII)Z	getDirectSignal	j
-	m	(III)I	getData	e
 	m	(I)Z	pauseSave	a
 	m	()V	clearLoadedPlayerData	e
 	m	(Lnet/minecraft/world/entity/Entity;)Z	addEntity	a
@@ -1295,7 +1005,6 @@ c	net/minecraft/world/level/Level	du
 	m	()V	validateSpawn	d
 	m	(IIII)V	neighborChanged	l
 	m	(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;	getEntities	b
-	m	(III)Lnet/minecraft/world/level/tile/entity/TileEntity;	getTileEntity	b
 	m	(Lutil/ProgressListener;)V	forceSave	a
 	m	()V	tickTiles	m
 	m	()Ljava/lang/String;	gatherChunkSourceStats	i
@@ -1309,7 +1018,6 @@ c	net/minecraft/world/level/Level	du
 	m	(Lnet/minecraft/world/entity/Entity;)V	entityRemoved	c
 	m	(Ljava/lang/Class;)Lnet/minecraft/world/entity/Entity;	findSubclassOf	a
 	m	(Lnet/minecraft/world/phys/AABB;Lnet/minecraft/world/level/material/Material;Lnet/minecraft/world/entity/Entity;)Z	checkAndHandleWater	a
-	m	(III)F	getBrightness	c
 	m	(Lnet/minecraft/world/level/LightLayer;IIII)V	updateLightIfOtherThan	a
 	m	(IIII)Z	setDataNoUpdate	d
 	m	(Lnet/minecraft/world/level/storage/LevelStorage;Ljava/lang/String;J)V	<init>	<init>
@@ -1341,7 +1049,6 @@ c	net/minecraft/world/level/Level	du
 	m	(IIIIII[B)V	setBlocksAndData	a
 	m	(IIII)V	tileUpdated	f
 	m	(Lnet/minecraft/world/phys/AABB;)Z	containsFireTile	c
-	m	(III)I	getTile	a
 	m	(III)Z	hasNeighborSignal	q
 	m	(IIILnet/minecraft/world/level/tile/entity/TileEntity;)V	setTileEntity	a
 	m	(IIII)V	lightColumnChanged	g
@@ -1353,7 +1060,6 @@ c	net/minecraft/world/level/Level	du
 	m	(Lnet/minecraft/world/entity/Entity;B)V	broadcastEntityEvent	a
 	m	()Z	allPlayersSleeping	z
 	m	(Lnet/minecraft/world/entity/Entity;)V	ensureAdded	f
-	m	(III)Lnet/minecraft/world/level/material/Material;	getMaterial	f
 	m	(DDDLjava/lang/String;FF)V	playSound	a
 	m	()V	awakenAllPlayers	y
 	m	()Ljava/util/List;	getAllEntities	n
@@ -1382,11 +1088,9 @@ c	net/minecraft/world/level/Level	du
 	m	()V	tick	l
 	m	(IIII)V	extinguishFire	i
 	m	(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;Z)Lnet/minecraft/world/phys/HitResult;	clip	a
-	m	(III)Z	isSolidTile	g
 	m	(IIII)Z	hasChunkAt	a
 	m	(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;)Ljava/util/List;	getEntitiesOfClass	a
 	m	()J	getTime	s
-	m	()Lnet/minecraft/world/level/biome/BiomeSource;	getBiomeSource	a
 	m	(Lnet/minecraft/world/level/LightLayer;III)I	getBrightness	a
 	m	()V	saveLevelData	A
 	m	(IIIZ)I	getRawBrightness	a
@@ -1399,13 +1103,9 @@ c	net/minecraft/world/level/Level	du
 c	net/minecraft/world/entity/monster/Enemy	dv
 c	net/minecraft/client/renderer/entity/BoatRenderer	dw
 	f	Lnet/minecraft/client/model/Model;	model	a
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/client/particle/LavaParticle	dx
 	f	F	oSize	a
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
-	m	()V	tick	q_
-	m	(F)F	getBrightness	a
 c	net/minecraft/client/model/HumanoidModel	dy
 	f	Z	holdingLeftHand	j
 	f	Z	holdingRightHand	k
@@ -1423,35 +1123,22 @@ c	net/minecraft/client/model/HumanoidModel	dy
 	m	(F)V	renderEars	a
 	m	(F)V	renderCloak	b
 	m	(FF)V	<init>	<init>
-	m	(FFFFFF)V	setupAnim	a
-	m	(FFFFFF)V	render	b
 c	net/minecraft/world/level/tile/WorkbenchTile	dz
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(I)I	getTexture	a
 c	net/minecraft/client/gui/CreateWorldScreen	ea
 	f	Z	done	l
 	f	Lnet/minecraft/client/gui/EditBox;	seedEdit	i
 	f	Lnet/minecraft/client/gui/EditBox;	nameEdit	h
 	f	Ljava/lang/String;	resultFolder	k
 	f	Lnet/minecraft/client/gui/Screen;	lastScreen	a
-	m	()V	tick	g
-	m	()V	removed	h
 	m	()V	updateResultFolder	j
-	m	(III)V	mouseClicked	a
-	m	(IIF)V	render	a
 	m	(Lnet/minecraft/world/level/storage/LevelStorageSource;Ljava/lang/String;)Ljava/lang/String;	findAvailableName	a
-	m	(CI)V	keyPressed	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/gui/Screen;)V	<init>	<init>
-	m	()V	init	a
 c	net/minecraft/world/level/tile/GlassTile	eb
-	m	(Ljava/util/Random;)I	getResourceCount	a
 c	net/minecraft/world/level/levelgen/feature/OreFeature	ec
 	f	I	tile	a
 	f	I	count	b
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/level/storage/DirectoryLevelStorage	ed
 	f	Ljava/io/File;	dir	b
 	f	Ljava/io/File;	playerDir	c
@@ -1459,18 +1146,10 @@ c	net/minecraft/world/level/storage/DirectoryLevelStorage	ed
 	f	Ljava/util/logging/Logger;	logger	a
 	m	()Ljava/io/File;	getDirectory	a
 	m	(Ljava/io/File;Ljava/lang/String;Z)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/LevelData;Ljava/util/List;)V	saveLevelData	a
-	m	()Lnet/minecraft/world/level/LevelData;	prepareLevel	c
-	m	(Lnet/minecraft/world/level/LevelData;)V	saveLevelData	a
-	m	()V	checkSession	b
-	m	(Lnet/minecraft/world/level/dimension/Dimension;)Lnet/minecraft/world/level/chunk/storage/ChunkStorage;	createChunkStorage	a
 	m	()V	init	d
 c	net/minecraft/world/level/tile/RecordPlayerTile	ee
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIIIF)V	spawnResources	a
 	m	(Lnet/minecraft/world/level/Level;IIII)V	dropRecording	e
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(I)I	getTexture	a
 c	net/minecraft/SharedConstants	ef
 	f	Ljava/lang/String;	acceptableLetters	a
 	f	[C	invalidFilenameLetters	b
@@ -1480,16 +1159,6 @@ c	net/minecraft/client/Options$1	eg
 	f	[I	$VALUES	a
 c	net/minecraft/world/entity/monster/Skeleton	eh
 	f	Lnet/minecraft/world/item/ItemInstance;	bow	a
-	m	(Lnet/minecraft/world/entity/Entity;F)V	checkHurtTarget	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()V	aiStep	m
-	m	()V	dropDeathLoot	o
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	()Lnet/minecraft/world/item/ItemInstance;	getCarriedItem	o_
-	m	()I	getDeathLoot	i
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	()Ljava/lang/String;	getHurtSound	g
 c	net/minecraft/client/title/TitleScreen	ei
 	f	Lnet/minecraft/client/gui/Button;	resetDemoButton	n
 	f	Lnet/minecraft/client/gui/Button;	multiplayerButton	m
@@ -1498,15 +1167,9 @@ c	net/minecraft/client/title/TitleScreen	ei
 	f	[[Lnet/minecraft/client/title/TitleScreen$LetterBlock;	letterBlocks	i
 	f	Ljava/util/Random;	random	h
 	f	[Ljava/lang/String;	logo	a
-	m	(CI)V	keyPressed	a
 	m	(F)V	renderMinecraftLogo	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	()Lnet/minecraft/world/level/storage/LevelSummary;	findDemoWorld	j
-	m	(IIF)V	render	a
-	m	()V	init	a
-	m	(ZI)V	confirmResult	a
 	m	()Ljava/util/Random;	access$000	k
-	m	()V	tick	g
 c	net/minecraft/client/skins/TexturePackSelectScreen	ej
 	f	Lnet/minecraft/client/gui/Screen;	lastScreen	a
 	f	I	updateIn	h
@@ -1521,16 +1184,10 @@ c	net/minecraft/client/skins/TexturePackSelectScreen	ej
 	m	(Lnet/minecraft/client/skins/TexturePackSelectScreen;)Lnet/minecraft/client/Minecraft;	access$700	h
 	m	(Lnet/minecraft/client/skins/TexturePackSelectScreen;)Lnet/minecraft/client/Minecraft;	access$600	g
 	m	(Lnet/minecraft/client/skins/TexturePackSelectScreen;)Lnet/minecraft/client/Minecraft;	access$800	i
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/skins/TexturePackSelectScreen;)Lnet/minecraft/client/gui/Font;	access$920	l
-	m	(III)V	mouseReleased	b
-	m	(III)V	mouseClicked	a
-	m	(IIF)V	render	a
 	m	(Lnet/minecraft/client/gui/Screen;)V	<init>	<init>
 	m	(Lnet/minecraft/client/skins/TexturePackSelectScreen;)Lnet/minecraft/client/gui/Font;	access$910	k
-	m	()V	init	a
 	m	(Lnet/minecraft/client/skins/TexturePackSelectScreen;)Lnet/minecraft/client/gui/Font;	access$900	j
-	m	()V	tick	g
 c	net/minecraft/world/level/biome/FlatBiome	ek
 c	net/minecraft/world/level/levelgen/LargeFeature	el
 	f	I	radius	a
@@ -1553,7 +1210,6 @@ c	net/minecraft/world/level/pathfinder/PathFinder	em
 	m	(Lnet/minecraft/world/level/pathfinder/Node;Lnet/minecraft/world/level/pathfinder/Node;)Lnet/minecraft/world/level/pathfinder/Path;	reconstruct_path	a
 	m	(Lnet/minecraft/world/entity/Entity;IIILnet/minecraft/world/level/pathfinder/Node;I)Lnet/minecraft/world/level/pathfinder/Node;	getNode	a
 c	net/minecraft/world/level/levelgen/feature/CactusFeature	en
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/client/demo/DemoIntroScreen	eo
 	f	Ljava/lang/String;	url	i
 	f	I	imageWidth	a
@@ -1577,48 +1233,17 @@ c	net/minecraft/world/entity/item/Boat	eq
 	f	D	lxr	i
 	f	D	lz	g
 	f	D	lx	e
-	m	(DDD)V	lerpMotion	a
-	m	()V	tick	q_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	interact	a
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	()Z	isPushable	g_
-	m	()Z	isPickable	f_
-	m	()V	positionRider	l_
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
-	m	()V	animateHurt	h
-	m	()Lnet/minecraft/world/phys/AABB;	getCollideBox	i_
-	m	()F	getShadowHeightOffs	k_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	defineSynchedData	b
-	m	(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/AABB;	getCollideAgainstBox	a
-	m	()D	getRideHeight	l
-	m	(DDDFFI)V	lerpTo	a
 c	net/minecraft/world/entity/monster/Creeper	er
 	f	I	oldSwell	b
 	f	I	swell	a
-	m	(Lnet/minecraft/world/entity/Entity;)V	die	b
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()V	tick	q_
 	m	(I)V	setSwellDir	e
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()V	defineSynchedData	b
-	m	()Ljava/lang/String;	getDeathSound	h_
 	m	()I	getSwellDir	q
-	m	(Lnet/minecraft/world/entity/Entity;F)V	checkHurtTarget	a
-	m	()I	getDeathLoot	i
 	m	(F)F	getSwelling	b
 c	net/minecraft/client/gui/ChatScreen	es
 	f	Ljava/lang/String;	allowedChars	i
 	f	Ljava/lang/String;	message	a
 	f	I	frame	h
-	m	()V	init	a
-	m	()V	removed	h
-	m	(III)V	mouseClicked	a
-	m	()V	tick	g
-	m	(CI)V	keyPressed	a
-	m	(IIF)V	render	a
 c	net/minecraft/client/MemoryTracker	et
 	f	Ljava/util/List;	lists	a
 	f	Ljava/util/List;	textures	b
@@ -1629,41 +1254,24 @@ c	net/minecraft/client/MemoryTracker	et
 	m	(I)Ljava/nio/IntBuffer;	createIntBuffer	c
 	m	(I)I	genLists	a
 c	net/minecraft/world/level/levelgen/feature/LightGemFeature	eu
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/client/multiplayer/ReceivingLevelScreen	ev
 	f	I	tickCount	h
 	f	Lnet/minecraft/client/multiplayer/ClientConnection;	connection	a
-	m	(IIF)V	render	a
-	m	()V	init	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/multiplayer/ClientConnection;)V	<init>	<init>
-	m	(CI)V	keyPressed	a
-	m	()V	tick	g
 c	net/minecraft/client/multiplayer/InBedChatScreen	ew
-	m	(CI)V	keyPressed	a
-	m	(IIF)V	render	a
-	m	()V	init	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	()V	stopSleeping	j
-	m	()V	removed	h
 c	net/minecraft/network/packet/SetEntityMotionPacket	ex
 	f	I	za	d
 	f	I	ya	c
 	f	I	xa	b
 	f	I	id	a
 	m	(IDDD)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 	m	(Lnet/minecraft/world/entity/Entity;)V	<init>	<init>
 c	net/minecraft/world/level/tile/SandTile	ey
 	f	Z	instaFall	a
 	m	(Lnet/minecraft/world/level/Level;III)V	checkSlide	h
 	m	(Lnet/minecraft/world/level/Level;III)Z	isFree	b_
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	()I	getTickDelay	d
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 c	net/minecraft/world/item/Item	ez
 	f	Lnet/minecraft/world/item/Item;	fish_raw	aS
 	f	I	maxDamage	be
@@ -1808,7 +1416,6 @@ c	net/minecraft/world/item/Item	ez
 	m	(I)Lnet/minecraft/world/item/Item;	setMaxDamage	d
 c	net/minecraft/client/renderer/entity/FallingTileRenderer	fa
 	f	Lnet/minecraft/client/renderer/TileRenderer;	tileRenderer	a
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/world/inventory/Slot	fb
 	f	I	slot	d
 	f	I	y	c
@@ -1826,17 +1433,13 @@ c	net/minecraft/world/inventory/Slot	fb
 	m	()V	setChanged	d
 	m	(I)Lnet/minecraft/world/item/ItemInstance;	remove	a
 c	net/minecraft/world/item/TreeTileItem	fc
-	m	(Lnet/minecraft/world/item/ItemInstance;)I	getIcon	a
-	m	(I)I	getLevelDataForAuxValue	a
 c	net/minecraft/client/User	fd
 	f	Ljava/lang/String;	sessionId	c
 	f	Ljava/lang/String;	name	b
 	f	Ljava/util/List;	allowedTiles	a
 	m	(Ljava/lang/String;Ljava/lang/String;)V	<init>	<init>
 c	net/minecraft/client/gui/inventory/TrapScreen	fe
-	m	()V	renderLabels	j
 	m	(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/level/tile/entity/DispenserTileEntity;)V	<init>	<init>
-	m	(F)V	renderBg	a
 c	net/minecraft/world/entity/player/Player	ff
 	f	D	xCloakO	r
 	f	Lnet/minecraft/world/inventory/AbstractContainerMenu;	inventoryMenu	g
@@ -1864,46 +1467,29 @@ c	net/minecraft/world/entity/player/Player	ff
 	f	F	oBob	k
 	f	Ljava/lang/String;	name	o
 	f	D	zCloak	w
-	m	()V	defineSynchedData	b
-	m	(Lnet/minecraft/world/entity/Entity;I)V	awardKillScore	c
 	m	(Lnet/minecraft/world/level/tile/entity/SignTileEntity;)V	openTextEdit	a
-	m	()V	updateAi	d_
 	m	(Lnet/minecraft/world/entity/Entity;)V	touch	j
 	m	(III)V	startCrafting	a
-	m	()V	prepareCustomTextures	w
-	m	()Z	isImmobile	v
-	m	()F	getHeadHeight	A
 	m	(Lnet/minecraft/world/item/ItemInstance;Z)V	drop	a
-	m	(I)V	actuallyHurt	b
-	m	()Z	isInWall	H
 	m	()V	removeSelectedItem	D
 	m	(ZZ)V	stopSleepInBed	a
 	m	(Lnet/minecraft/world/entity/Entity;I)V	take	b
 	m	()V	drop	z
 	m	()F	getSleepingRotation	I
-	m	()D	getRidingHeight	E
 	m	()V	animateRespawn	u
 	m	(Lnet/minecraft/world/level/tile/Tile;)Z	canDestroy	b
-	m	()V	tick	q_
-	m	(Lnet/minecraft/world/entity/Entity;)V	die	b
 	m	()Z	checkBed	q
-	m	()V	aiStep	m
 	m	(I)V	setBedOffset	e
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	resetPos	y
 	m	()I	getSleepTimer	L
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
 	m	()V	respawn	t
 	m	()V	closeContainer	p
 	m	(Lnet/minecraft/world/entity/Entity;)V	interact	c
 	m	(Lnet/minecraft/world/level/tile/entity/FurnaceTileEntity;)V	openFurnace	a
 	m	(Lnet/minecraft/world/level/tile/entity/DispenserTileEntity;)V	openTrap	a
 	m	()Z	isSleepingLongEnough	K
-	m	()V	remove	G
 	m	(Lnet/minecraft/world/level/tile/Tile;)F	getDestroySpeed	a
 	m	()V	unk_C	B
 	m	()Lnet/minecraft/world/item/ItemInstance;	getSelectedItem	C
-	m	()V	rideTick	x
 	m	(Lnet/minecraft/world/item/ItemInstance;)V	carriedChanged	b
 	m	(III)Z	startSleepInBed	b
 	m	(Lnet/minecraft/world/Container;)V	openContainer	a
@@ -1911,15 +1497,12 @@ c	net/minecraft/world/entity/player/Player	ff
 	m	(Lnet/minecraft/world/entity/Entity;)V	attack	d
 	m	(Ljava/lang/String;)V	displayClientMessage	b
 	m	(Lnet/minecraft/world/entity/item/ItemEntity;)V	reallyDrop	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()Z	isSleeping	J
 	m	()V	swing	F
 c	net/minecraft/client/renderer/entity/MobRenderer	fg
 	f	Lnet/minecraft/client/model/Model;	armor	f
 	f	Lnet/minecraft/client/model/Model;	model	e
 	m	(Lnet/minecraft/world/entity/Mob;F)V	scale	a
 	m	(Lnet/minecraft/world/entity/Mob;F)V	additionalRendering	b
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 	m	(Lnet/minecraft/world/entity/Mob;IF)Z	prepareArmor	a
 	m	(Lnet/minecraft/client/model/Model;F)V	<init>	<init>
 	m	(Lnet/minecraft/world/entity/Mob;DDD)V	setupPosition	b
@@ -1938,64 +1521,32 @@ c	net/minecraft/network/packet/UseItemPacket	fh
 	f	I	y	b
 	f	I	x	a
 	m	(IIIILnet/minecraft/world/item/ItemInstance;)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/client/particle/ExplodeParticle	fi
-	m	()V	tick	q_
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
 c	net/minecraft/world/entity/monster/Monster	fj
 	f	I	attackDamage	c
-	m	(Lnet/minecraft/world/entity/Entity;F)V	checkHurtTarget	a
-	m	(III)F	getWalkTargetValue	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	tick	q_
-	m	()Z	canSpawn	c
-	m	()V	aiStep	m
-	m	()Lnet/minecraft/world/entity/Entity;	findAttackTarget	e_
 c	net/minecraft/world/item/crafting/ToolRecipes	fk
 	f	[[Ljava/lang/String;	shapes	a
 	f	[[Ljava/lang/Object;	map	b
 	m	(Lnet/minecraft/world/item/crafting/Recipes;)V	addRecipes	a
 c	net/minecraft/world/level/tile/BookshelfTile	fl
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(I)I	getTexture	a
 	m	(II)V	<init>	<init>
 c	net/minecraft/world/level/biome/FixedBiomeSource	fm
 	f	D	downfall	g
 	f	D	temperature	f
 	f	Lnet/minecraft/world/level/biome/Biome;	biome	e
-	m	(IIII)[Lnet/minecraft/world/level/biome/Biome;	getBiomeBlock	a
-	m	(Lnet/minecraft/world/level/ChunkPos;)Lnet/minecraft/world/level/biome/Biome;	getBiome	a
-	m	(II)Lnet/minecraft/world/level/biome/Biome;	getBiome	a
 	m	(Lnet/minecraft/world/level/biome/Biome;DD)V	<init>	<init>
-	m	([Lnet/minecraft/world/level/biome/Biome;IIII)[Lnet/minecraft/world/level/biome/Biome;	getBiomeBlock	a
-	m	([DIIII)[D	getTemperatureBlock	a
-	m	(II)D	getTemperature	b
 c	net/minecraft/world/level/tile/Sapling	fn
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	growTree	c
 c	net/minecraft/client/model/CowModel	fo
 	f	Lnet/minecraft/client/model/Cube;	horn2	c
 	f	Lnet/minecraft/client/model/Cube;	horn1	b
 	f	Lnet/minecraft/client/model/Cube;	udder	a
-	m	(FFFFFF)V	render	b
-	m	(FFFFFF)V	setupAnim	a
 c	net/minecraft/network/packet/SetTimePacket	fp
 	f	J	time	a
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/level/storage/McRegionLevelStorageSource	fq
-	m	(Ljava/lang/String;Z)Lnet/minecraft/world/level/storage/LevelStorage;	selectLevel	a
 	m	(Ljava/io/File;Ljava/util/ArrayList;Ljava/util/ArrayList;)V	addChunkFiles	a
 	m	(Ljava/util/ArrayList;IILutil/ProgressListener;)V	deleteFiles	a
-	m	(Ljava/lang/String;)Z	requiresConversion	a
-	m	()V	clearAll	c
 	m	(Ljava/io/File;Ljava/util/ArrayList;IILutil/ProgressListener;)V	convertChunks	a
-	m	()Ljava/util/List;	getLevelList	b
-	m	(Ljava/lang/String;Lutil/ProgressListener;)Z	convertLevel	a
-	m	()Ljava/lang/String;	getName	a
 c	net/minecraft/client/Screenshot	fr
 	f	Ljava/text/DateFormat;	df	a
 	f	[I	pixelBuffer	d
@@ -2016,40 +1567,23 @@ c	net/minecraft/world/entity/item/ItemEntity	ft
 	f	I	age	b
 	f	Lnet/minecraft/world/item/ItemInstance;	item	a
 	f	F	bobOffs	d
-	m	()Z	isInWater	j_
 	m	(DDD)Z	checkInTile	h
-	m	()V	tick	q_
 	m	(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/ItemInstance;)V	<init>	<init>
-	m	(I)V	burn	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	defineSynchedData	b
-	m	(Lnet/minecraft/world/entity/player/Player;)V	playerTouch	b
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
 c	com/mojang/nbt/ByteArrayTag	fu
 	f	[B	data	a
-	m	(Ljava/io/DataInput;)V	load	a
-	m	(Ljava/io/DataOutput;)V	write	a
 	m	([B)V	<init>	<init>
-	m	()B	getId	a
 c	net/minecraft/network/packet/SetCarriedItemPacket	fv
 	f	I	slot	a
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 	m	(I)V	<init>	<init>
 c	net/minecraft/client/gui/inventory/ContainerScreen	fw
 	f	I	containerRows	m
 	f	Lnet/minecraft/world/Container;	container	l
 	f	Lnet/minecraft/world/Container;	inventory	k
-	m	(F)V	renderBg	a
-	m	()V	renderLabels	j
 	m	(Lnet/minecraft/world/Container;Lnet/minecraft/world/Container;)V	<init>	<init>
 c	net/minecraft/network/packet/ContainerSetSlotPacket	fx
 	f	Lnet/minecraft/world/item/ItemInstance;	item	c
 	f	I	slot	b
 	f	I	containerId	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/client/sound/SoundRepository	fy
 	f	Ljava/util/Map;	urls	d
 	f	Ljava/util/Random;	random	c
@@ -2062,7 +1596,6 @@ c	net/minecraft/client/sound/SoundRepository	fy
 c	net/minecraft/client/renderer/ptexture/PortalTexture	fz
 	f	I	time	g
 	f	[[B	frames	h
-	m	()V	tick	a
 c	net/minecraft/client/Options$Option	ga
 	f	Lnet/minecraft/client/Options$Option;	GRAPHICS	j
 	f	Lnet/minecraft/client/Options$Option;	DIFFICULTY	i
@@ -2087,7 +1620,6 @@ c	net/minecraft/client/Options$Option	ga
 c	net/minecraft/world/item/DoorItem	gb
 	f	Lnet/minecraft/world/level/material/Material;	material	a
 	m	(ILnet/minecraft/world/level/material/Material;)V	<init>	<init>
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/world/ContainerListener	gc
 	m	(Lnet/minecraft/world/SimpleContainer;)V	containerChanged	a
 c	net/minecraft/world/level/chunk/storage/RegionFile$ChunkBuffer	gd
@@ -2115,26 +1647,17 @@ c	net/minecraft/client/gui/inventory/AbstractContainerScreen	gh
 	f	I	imageWidth	a
 	m	(F)V	renderBg	a
 	m	(II)Lnet/minecraft/world/inventory/Slot;	findSlot	a
-	m	()V	init	a
-	m	()Z	isPauseScreen	b
 	m	(Lnet/minecraft/world/inventory/Slot;)V	renderSlot	a
-	m	(III)V	mouseReleased	b
 	m	(Lnet/minecraft/world/inventory/Slot;II)Z	isHovering	a
-	m	(III)V	mouseClicked	a
-	m	(IIF)V	render	a
 	m	(Lnet/minecraft/world/inventory/AbstractContainerMenu;)V	<init>	<init>
 	m	()V	renderLabels	j
-	m	(CI)V	keyPressed	a
-	m	()V	removed	h
 c	net/minecraft/world/item/RedStoneItem	gi
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/client/renderer/ptexture/LavaSideTexture	gj
 	f	I	tickCount	k
 	f	[F	heata	j
 	f	[F	heat	i
 	f	[F	next	h
 	f	[F	current	g
-	m	()V	tick	a
 c	net/minecraft/network/packet/MovePlayerPacket	gk
 	f	F	xRot	f
 	f	D	yView	d
@@ -2145,8 +1668,6 @@ c	net/minecraft/network/packet/MovePlayerPacket	gk
 	f	D	y	b
 	f	Z	onGround	g
 	f	D	x	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 	m	(Z)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/BasicTree	gl
 	f	D	foliageDensity	k
@@ -2168,7 +1689,6 @@ c	net/minecraft/world/level/levelgen/feature/BasicTree	gl
 	m	(IIIFBI)V	crossection	a
 	m	()V	makeTrunk	c
 	m	()Z	checkLocation	e
-	m	(DDD)V	init	a
 	m	()V	prepare	a
 	m	(I)F	treeShape	a
 	m	()V	makeBranches	d
@@ -2176,7 +1696,6 @@ c	net/minecraft/world/level/levelgen/feature/BasicTree	gl
 	m	(I)F	foliageHeight	b
 	m	([I[I)I	checkLine	a
 	m	(III)V	foliageCluster	a
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 	m	([I[II)V	limb	a
 c	com/mojang/nbt/Tag	gm
 	f	Ljava/lang/String;	name	a
@@ -2193,11 +1712,9 @@ c	net/minecraft/world/entity/PathfinderMob	gn
 	f	Lnet/minecraft/world/entity/Entity;	attackTarget	d
 	f	Lnet/minecraft/world/level/pathfinder/Path;	path	a
 	f	Z	holdGround	e
-	m	()V	updateAi	d_
 	m	(Lnet/minecraft/world/entity/Entity;F)V	checkHurtTarget	a
 	m	(III)F	getWalkTargetValue	a
 	m	()Lnet/minecraft/world/entity/Entity;	findAttackTarget	e_
-	m	()Z	canSpawn	c
 c	net/minecraft/client/skins/TexturePackRepository	go
 	f	Ljava/util/List;	gexturePacks	b
 	f	Lnet/minecraft/client/skins/TexturePack;	defaultTexturePack	c
@@ -2218,14 +1735,10 @@ c	net/minecraft/client/model/CreeperModel	gp
 	f	Lnet/minecraft/client/model/Cube;	leg3	g
 	f	Lnet/minecraft/client/model/Cube;	leg1	e
 	f	Lnet/minecraft/client/model/Cube;	leg2	f
-	m	(FFFFFF)V	render	b
-	m	(FFFFFF)V	setupAnim	a
 c	net/minecraft/client/particle/RedDustParticle	gq
 	f	F	oSize	a
-	m	()V	tick	q_
 	m	(Lnet/minecraft/world/level/Level;DDDFFFF)V	<init>	<init>
 	m	(Lnet/minecraft/world/level/Level;DDDFFF)V	<init>	<init>
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
 c	util/Mth	gr
 	f	[F	sin	a
 	m	(II)I	intFloorDiv	a
@@ -2240,8 +1753,6 @@ c	util/Mth	gr
 c	net/minecraft/client/sound/CodecMus	gs
 	m	()Ljava/io/InputStream;	openInputStream	openInputStream
 c	net/minecraft/client/renderer/entity/ChickenRenderer	gt
-	m	(Lnet/minecraft/world/entity/Mob;F)F	getBob	c
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/world/entity/Painting$Motive	gu
 	f	I	vo	C
 	f	Lnet/minecraft/world/entity/Painting$Motive;	Skeleton	x
@@ -2275,18 +1786,14 @@ c	net/minecraft/world/entity/Painting$Motive	gu
 	f	Lnet/minecraft/world/entity/Painting$Motive;	Aztec2	d
 	m	(Ljava/lang/String;ILjava/lang/String;IIII)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/ReedsFeature	gv
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/item/crafting/ShapedRecipy	gw
 	f	I	height	c
 	f	Lnet/minecraft/world/item/ItemInstance;	result	e
 	f	I	resultId	a
 	f	I	width	b
 	f	[Lnet/minecraft/world/item/ItemInstance;	recipeItems	d
-	m	(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemInstance;	assemble	b
 	m	(II[Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/item/ItemInstance;)V	<init>	<init>
 	m	(Lnet/minecraft/world/inventory/CraftingContainer;IIZ)Z	matches	a
-	m	()I	size	a
-	m	(Lnet/minecraft/world/inventory/CraftingContainer;)Z	matches	a
 c	net/minecraft/world/inventory/CraftingMenu	gx
 	f	I	x	h
 	f	I	y	i
@@ -2294,17 +1801,12 @@ c	net/minecraft/world/inventory/CraftingMenu	gx
 	f	Lnet/minecraft/world/Container;	resultSlots	b
 	f	I	z	j
 	f	Lnet/minecraft/world/level/Level;	level	c
-	m	(Lnet/minecraft/world/Container;)V	slotsChanged	a
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	b
 	m	(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/level/Level;III)V	<init>	<init>
-	m	(Lnet/minecraft/world/entity/player/Player;)V	removed	a
 c	net/minecraft/network/packet/ContainerOpenPacket	gy
 	f	Ljava/lang/String;	title	c
 	f	I	size	d
 	f	I	containerId	a
 	f	I	type	b
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/world/entity/player/Inventory	gz
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	a
 	f	Lnet/minecraft/world/item/ItemInstance;	carried	f
@@ -2315,29 +1817,21 @@ c	net/minecraft/world/entity/player/Inventory	gz
 	m	(IZ)V	grabTexture	a
 	m	(Lnet/minecraft/world/item/ItemInstance;)Z	add	a
 	m	(I)Lnet/minecraft/world/item/ItemInstance;	getArmor	d
-	m	()V	setChanged	r_
 	m	(Lcom/mojang/nbt/ListTag;)Lcom/mojang/nbt/ListTag;	save	a
-	m	()I	getContainerSize	a
 	m	(I)V	hurtArmor	e
 	m	(Lnet/minecraft/world/level/tile/Tile;)Z	canDestroy	b
 	m	(Lcom/mojang/nbt/ListTag;)V	load	b
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
 	m	(Lnet/minecraft/world/item/ItemInstance;)I	getSlotWithRemainingSpace	c
-	m	()Ljava/lang/String;	getName	c
 	m	(Lnet/minecraft/world/entity/player/Player;)V	<init>	<init>
 	m	()I	getFreeSlot	j
 	m	(Lnet/minecraft/world/item/ItemInstance;)V	setCarried	b
 	m	()I	getArmorValue	f
-	m	()I	getMaxStackSize	d
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
 	m	()Lnet/minecraft/world/item/ItemInstance;	getCarried	i
 	m	(I)V	swapPaint	b
 	m	()V	dropAll	g
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
 	m	()V	tick	e
 	m	(Lnet/minecraft/world/level/tile/Tile;)F	getDestroySpeed	a
 	m	(Lnet/minecraft/world/item/ItemInstance;)I	addResource	d
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
 	m	(I)Z	removeResource	c
 	m	()Lnet/minecraft/world/item/ItemInstance;	getSelected	b
 	m	(Lnet/minecraft/world/entity/Entity;)I	getAttackDamage	a
@@ -2403,8 +1897,6 @@ c	net/minecraft/client/renderer/tileentity/TileEntityRenderer	hc
 c	net/minecraft/network/packet/EntityEventPacket	hd
 	f	I	entityId	a
 	f	B	eventId	b
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/phys/HitResult$Type	he
 	f	Lnet/minecraft/world/phys/HitResult$Type;	TILE	a
 	f	Lnet/minecraft/world/phys/HitResult$Type;	ENTITY	b
@@ -2449,14 +1941,7 @@ c	net/minecraft/client/gui/RenameWorldScreen	hi
 	f	Lnet/minecraft/client/gui/EditBox;	nameEdit	h
 	f	Lnet/minecraft/client/gui/Screen;	lastScreen	a
 	f	Ljava/lang/String;	oldName	i
-	m	(IIF)V	render	a
-	m	()V	init	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/gui/Screen;Ljava/lang/String;)V	<init>	<init>
-	m	(CI)V	keyPressed	a
-	m	()V	tick	g
-	m	()V	removed	h
-	m	(III)V	mouseClicked	a
 c	net/minecraft/network/packet/AddMobPacket	hj
 	f	B	type	b
 	f	I	z	e
@@ -2467,9 +1952,7 @@ c	net/minecraft/network/packet/AddMobPacket	hj
 	f	B	yRot	f
 	f	B	xRot	g
 	f	Ljava/util/List;	unpack	i
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 	m	()Ljava/util/List;	getUnpackedData	b
-	m	()I	getEstimatedSize	a
 	m	(Lnet/minecraft/world/entity/Mob;)V	<init>	<init>
 c	net/minecraft/isom/IsomPreview$OS	hk
 	f	Lnet/minecraft/isom/IsomPreview$OS;	linux	a
@@ -2483,42 +1966,15 @@ c	net/minecraft/client/renderer/DistanceSorter	hl
 	m	(Lnet/minecraft/world/entity/Entity;)V	<init>	<init>
 c	net/minecraft/world/level/tile/HalfTransparentTile	hm
 	f	Z	allowSame	a
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	()Z	isSolidRender	a
 	m	(IILnet/minecraft/world/level/material/Material;Z)V	<init>	<init>
 c	net/minecraft/world/level/tile/TopSnowTile	hn
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
 	m	(Lnet/minecraft/world/level/Level;III)Z	checkCanSurvive	h
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;IIII)V	playerDestroy	a_
 	m	(II)V	<init>	<init>
-	m	(ILjava/util/Random;)I	getResource	a
-	m	()Z	isSolidRender	a
 c	net/minecraft/world/level/tile/entity/ChestTileEntity	ho
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	a
-	m	()Ljava/lang/String;	getName	c
-	m	(Lcom/mojang/nbt/CompoundTag;)V	save	b
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	load	a
-	m	()I	getMaxStackSize	d
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
-	m	()I	getContainerSize	a
 c	net/minecraft/world/entity/item/FallingTile	hp
 	f	I	tile	a
 	f	I	time	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()F	getShadowHeightOffs	k_
-	m	()Z	isPickable	f_
-	m	()V	defineSynchedData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	tick	q_
 	m	()Lnet/minecraft/world/level/Level;	getLevel	k
 	m	(Lnet/minecraft/world/level/Level;DDDI)V	<init>	<init>
 c	net/minecraft/network/packet/PlayerActionPacket	hq
@@ -2527,16 +1983,9 @@ c	net/minecraft/network/packet/PlayerActionPacket	hq
 	f	I	action	e
 	f	I	y	b
 	f	I	z	c
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 	m	(IIIII)V	<init>	<init>
 c	net/minecraft/world/level/tile/FenceTile	hr
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
 	m	(II)V	<init>	<init>
-	m	()I	getRenderShape	g
 c	util/IntHashMap	hs
 	f	I	size	b
 	f	I	threshold	c
@@ -2562,13 +2011,9 @@ c	net/minecraft/network/packet/EntityActionAtPositionPacket	hu
 	f	I	x	b
 	f	I	y	c
 	f	I	entityId	a
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/network/packet/ContainerSetContentPacket	hv
 	f	I	containerId	a
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	b
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/level/biome/Biome	hw
 	f	Ljava/lang/String;	name	m
 	f	[Ljava/lang/Class;	waterFriendlies	t
@@ -2635,13 +2080,8 @@ c	net/minecraft/network/packet/Packet	ia
 	m	(ILjava/lang/Class;)V	map	a
 	m	()I	getEstimatedSize	a
 c	net/minecraft/client/renderer/entity/FireballRenderer	ib
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/world/item/DyePowderItem	ic
 	f	[Ljava/lang/String;	COLOR_DESCS	a
-	m	(Lnet/minecraft/world/item/ItemInstance;)Ljava/lang/String;	getDescriptionId	b
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/Mob;)V	interactEnemy	b
-	m	(Lnet/minecraft/world/item/ItemInstance;)I	getIcon	a
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/client/model/Model	id
 	f	F	attackTime	m
 	f	Z	riding	n
@@ -2660,7 +2100,6 @@ c	net/minecraft/client/renderer/ptexture/ClockTexture	ig
 	f	D	rot	j
 	f	D	rota	k
 	f	Lnet/minecraft/client/Minecraft;	mc	g
-	m	()V	tick	a
 	m	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>
 c	net/minecraft/client/Options	ih
 	f	Z	limitFramerate	h
@@ -2727,48 +2166,21 @@ c	net/minecraft/world/level/chunk/ChunkCache	ii
 	m	(Lnet/minecraft/world/level/chunk/LevelChunk;)V	saveEntities	a
 	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/chunk/storage/ChunkStorage;Lnet/minecraft/world/level/chunk/ChunkSource;)V	<init>	<init>
 	m	(II)Z	fits	d
-	m	()Z	shouldSave	b
-	m	(ZLutil/ProgressListener;)Z	save	a
-	m	()Z	tick	a
 	m	(II)Lnet/minecraft/world/level/chunk/LevelChunk;	load	e
-	m	()Ljava/lang/String;	gatherStats	c
-	m	(II)Z	hasChunk	a
-	m	(II)Lnet/minecraft/world/level/chunk/LevelChunk;	getChunk	b
-	m	(Lnet/minecraft/world/level/chunk/ChunkSource;II)V	postProcess	a
 c	net/minecraft/world/item/crafting/Recipes$1	ij
 	f	Lnet/minecraft/world/item/crafting/Recipes;	this$0	a
 	m	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare
 	m	(Lnet/minecraft/world/item/crafting/Recipes;)V	<init>	<init>
 c	net/minecraft/world/item/HoeItem	ik
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
-	m	()Z	isHandEquipped	b
 	m	(ILnet/minecraft/world/item/Item$Tier;)V	<init>	<init>
 c	net/minecraft/client/model/SkeletonModel	il
 c	net/minecraft/world/level/chunk/storage/McRegionChunkStorage	im
 	f	Ljava/io/File;	dir	a
-	m	()V	flush	b
-	m	(Lnet/minecraft/world/level/Level;II)Lnet/minecraft/world/level/chunk/LevelChunk;	load	a
-	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/chunk/LevelChunk;)V	saveEntities	b
-	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/chunk/LevelChunk;)V	save	a
-	m	()V	tick	a
 	m	(Ljava/io/File;)V	<init>	<init>
 c	net/minecraft/world/level/tile/DoorTile	in
 	m	(Lnet/minecraft/world/level/Level;IIIZ)V	setOpen	a
 	m	(I)V	setShape	c
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getTileAABB	f
-	m	()Z	isSolidRender	a
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/HitResult;	clip	a
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 	m	(I)I	getDir	d
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	attack	b
-	m	(II)I	getTexture	a
 c	net/minecraft/world/level/pathfinder/BinaryHeap	io
 	f	[Lnet/minecraft/world/level/pathfinder/Node;	heap	a
 	f	I	size	b
@@ -2808,41 +2220,7 @@ c	net/minecraft/client/gui/AbstractSelectionList	ip
 	m	(IIII)V	renderHoleBackground	a
 	m	()I	getMaxPosition	b
 c	com/mojang/nbt/EndTag	iq
-	m	()B	getId	a
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	(Ljava/io/DataInput;)V	load	a
 c	net/minecraft/world/level/chunk/EmptyLevelChunk	ir
-	m	(Lnet/minecraft/world/level/tile/entity/TileEntity;)V	addTileEntity	a
-	m	(Lnet/minecraft/world/level/LightLayer;III)I	getBrightness	a
-	m	()V	markUnsaved	g
-	m	()V	load	e
-	m	(III)Lnet/minecraft/world/level/tile/entity/TileEntity;	getTileEntity	d
-	m	()V	recalcHeightmap	c
-	m	(III)I	getData	b
-	m	(IIII)Z	setTile	a
-	m	()V	recalcBlockLights	a
-	m	(IIII)V	setData	b
-	m	(Lnet/minecraft/world/entity/Entity;I)V	removeEntity	a
-	m	(II)Z	isAt	a
-	m	(J)Ljava/util/Random;	getRandom	a
-	m	(Lnet/minecraft/world/entity/Entity;)V	removeEntity	b
-	m	(II)I	getHeightmap	b
-	m	(Lnet/minecraft/world/level/LightLayer;IIII)V	setBrightness	a
-	m	(IIII)I	getRawBrightness	c
-	m	(Lnet/minecraft/world/entity/Entity;)V	addEntity	a
-	m	(Ljava/lang/Class;Lnet/minecraft/world/phys/AABB;Ljava/util/List;)V	getEntitiesOfClass	a
-	m	()V	unload	f
-	m	(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/AABB;Ljava/util/List;)V	getEntities	a
-	m	(IIIII)Z	setTileAndData	a
-	m	()Z	isEmpty	h
-	m	()V	lightLava	d
-	m	(III)I	getTile	a
-	m	()V	recalcHeightmapOnly	b
-	m	(III)V	removeTileEntity	e
-	m	(Z)Z	shouldSave	a
-	m	(IIILnet/minecraft/world/level/tile/entity/TileEntity;)V	setTileEntity	a
-	m	(III)Z	isSkyLit	c
-	m	([BIIIIIII)I	setBlocksAndData	a
 c	net/minecraft/world/entity/MobCategory	is
 	f	Lnet/minecraft/world/level/material/Material;	spawnPositionMaterial	f
 	f	Ljava/lang/Class;	base	d
@@ -2969,29 +2347,16 @@ c	net/minecraft/world/level/material/Material	iv
 c	net/minecraft/client/model/GhastModel	iw
 	f	Lnet/minecraft/client/model/Cube;	body	a
 	f	[Lnet/minecraft/client/model/Cube;	tentacles	b
-	m	(FFFFFF)V	render	b
-	m	(FFFFFF)V	setupAnim	a
 c	net/minecraft/client/gui/JoinMultiplayerScreen	ix
 	f	Lnet/minecraft/client/gui/EditBox;	ipEdit	h
 	f	Lnet/minecraft/client/gui/Screen;	lastScreen	a
-	m	()V	init	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/gui/Screen;)V	<init>	<init>
 	m	(Ljava/lang/String;I)I	parseInt	a
-	m	(IIF)V	render	a
-	m	()V	removed	h
-	m	(III)V	mouseClicked	a
-	m	(CI)V	keyPressed	a
-	m	()V	tick	g
 c	net/minecraft/world/item/BedItem	iy
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/client/player/KeyboardInput	iz
 	f	[Z	keys	f
 	f	Lnet/minecraft/client/Options;	options	g
 	m	(Lnet/minecraft/client/Options;)V	<init>	<init>
-	m	(IZ)V	setKey	a
-	m	()V	releaseAllKeys	a
-	m	(Lnet/minecraft/world/entity/player/Player;)V	tick	a
 c	net/minecraft/world/entity/Mob	ja
 	f	I	lSteps	ak
 	f	F	oTilt	ac
@@ -3048,11 +2413,8 @@ c	net/minecraft/world/entity/Mob	ja
 	f	F	bobStrength	P
 	m	(F)F	getAttackAnim	d
 	m	()Z	isWaterMob	c_
-	m	()V	outOfWorld	T
-	m	()Z	isPushable	g_
 	m	()V	aiStep	m
 	m	(F)Lnet/minecraft/world/phys/Vec3;	getPos	e
-	m	(F)V	causeFallDamage	c
 	m	(FFF)F	rotlerp	b
 	m	()I	getAmbientSoundInterval	d
 	m	()Lnet/minecraft/world/item/ItemInstance;	getCarriedItem	o_
@@ -3061,7 +2423,6 @@ c	net/minecraft/world/entity/Mob	ja
 	m	(F)Lnet/minecraft/world/phys/Vec3;	getViewVector	f
 	m	()Z	canSpawn	c
 	m	(Lnet/minecraft/world/entity/Entity;F)V	lookAt	b
-	m	()Z	isPickable	f_
 	m	(Lnet/minecraft/world/entity/Entity;)V	die	b
 	m	()V	playAmbientSound	N
 	m	()V	dropDeathLoot	o
@@ -3069,42 +2430,23 @@ c	net/minecraft/world/entity/Mob	ja
 	m	(I)V	actuallyHurt	b
 	m	()Ljava/lang/String;	getHurtSound	g
 	m	(FF)V	travel	b
-	m	(B)V	handleEntityEvent	a
 	m	()Z	isImmobile	v
-	m	()Lnet/minecraft/world/phys/Vec3;	getLookAngle	U
 	m	()Ljava/lang/String;	getAmbientSound	f
-	m	(FF)V	setSize	a
-	m	()Ljava/lang/String;	getTexture	M
 	m	()I	getDeathLoot	i
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	()V	tick	q_
 	m	()V	spawnAnim	P
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	animateHurt	h
-	m	()V	rideTick	x
 	m	(Lnet/minecraft/world/entity/Entity;)Z	canSee	e
 	m	(Lnet/minecraft/world/entity/Entity;IDD)V	knockback	a
-	m	()V	baseTick	O
 	m	(I)V	heal	c
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 	m	()V	updateAi	d_
-	m	(DDDFFI)V	lerpTo	a
 	m	()I	getMaxSpawnClusterSize	k
 	m	()Ljava/lang/String;	getDeathSound	h_
 	m	()V	jumpFromGround	R
 	m	(DF)Lnet/minecraft/world/phys/HitResult;	pick	a
-	m	()V	defineSynchedData	b
 	m	()F	getSoundVolume	j
-	m	()F	getHeadHeight	A
-	m	()Z	isAlive	Q
 c	net/minecraft/world/level/material/GasMaterial	jb
-	m	()Z	isSolid	a
-	m	()Z	blocksMotion	c
-	m	()Z	blocksLight	b
 c	net/minecraft/world/item/TilePlanterItem	jc
 	f	I	tileId	a
 	m	(ILnet/minecraft/world/level/tile/Tile;)V	<init>	<init>
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/world/Container	jd
 	m	()V	setChanged	r_
 	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
@@ -3136,24 +2478,12 @@ c	net/minecraft/world/entity/projectile/FishingHook	je
 	f	Z	inGround	h
 	f	D	lxr	q
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
-	m	(D)Z	shouldRenderAtSqrDistance	a
-	m	(DDDFFI)V	lerpTo	a
 	m	()I	retrieve	k
-	m	(DDD)V	lerpMotion	a
 	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)V	<init>	<init>
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	defineSynchedData	b
-	m	()F	getShadowHeightOffs	k_
 	m	(DDDFF)V	shoot	a
-	m	()V	tick	q_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 c	net/minecraft/world/level/tile/LightGemTile	jf
-	m	(ILjava/util/Random;)I	getResource	a
 c	net/minecraft/network/packet/KeepAlivePacket	jg
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/client/renderer/entity/DefaultRenderer	jh
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/world/entity/SynchedEntityData$DataItem	ji
 	f	I	type	a
 	f	Z	dirty	d
@@ -3165,20 +2495,15 @@ c	net/minecraft/world/entity/SynchedEntityData$DataItem	ji
 	m	(IILjava/lang/Object;)V	<init>	<init>
 	m	(Z)V	setDirty	a
 c	net/minecraft/client/renderer/entity/ArrowRenderer	jj
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/client/renderer/DirtyChunkSorter	jk
 	f	Lnet/minecraft/world/entity/Mob;	player	a
 	m	(Ljava/lang/Object;Ljava/lang/Object;)I	compare	compare
 	m	(Lnet/minecraft/world/entity/Mob;)V	<init>	<init>
 c	net/minecraft/client/renderer/entity/PigRenderer	jl
-	m	(Lnet/minecraft/world/entity/Mob;IF)Z	prepareArmor	a
 	m	(Lnet/minecraft/client/model/Model;Lnet/minecraft/client/model/Model;F)V	<init>	<init>
 c	com/mojang/nbt/LongTag	jm
 	f	J	data	a
-	m	()B	getId	a
-	m	(Ljava/io/DataInput;)V	load	a
 	m	(J)V	<init>	<init>
-	m	(Ljava/io/DataOutput;)V	write	a
 c	net/minecraft/client/CrashReport	jn
 	f	Ljava/lang/String;	title	a
 	f	Ljava/lang/Throwable;	e	b
@@ -3195,8 +2520,6 @@ c	net/minecraft/network/packet/AddPlayerPacket	jp
 	f	I	x	c
 	f	I	z	e
 	f	I	id	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 	m	(Lnet/minecraft/world/entity/player/Player;)V	<init>	<init>
 c	net/minecraft/client/ProgressRenderer	jq
 	f	Ljava/lang/String;	status	a
@@ -3205,15 +2528,10 @@ c	net/minecraft/client/ProgressRenderer	jq
 	f	Z	noAbort	e
 	f	J	lastTime	d
 	m	(Ljava/lang/String;)V	progressStart	a
-	m	(Ljava/lang/String;)V	progressStartNoAbort	b
 	m	(Ljava/lang/String;)V	_progressStart	c
 	m	(Lnet/minecraft/client/Minecraft;)V	<init>	<init>
-	m	(Ljava/lang/String;)V	progressStage	d
-	m	(I)V	progressStagePercentage	a
 c	net/minecraft/client/renderer/entity/SlimeRenderer	jr
 	f	Lnet/minecraft/client/model/Model;	armor	a
-	m	(Lnet/minecraft/world/entity/Mob;IF)Z	prepareArmor	a
-	m	(Lnet/minecraft/world/entity/Mob;F)V	scale	a
 	m	(Lnet/minecraft/client/model/Model;Lnet/minecraft/client/model/Model;F)V	<init>	<init>
 c	net/minecraft/client/multiplayer/MultiPlayerLevel	js
 	f	Ljava/util/Set;	forced	y
@@ -3222,73 +2540,38 @@ c	net/minecraft/client/multiplayer/MultiPlayerLevel	js
 	f	Lutil/IntHashMap;	entitiesById	x
 	f	Ljava/util/Set;	reEntries	z
 	f	Lnet/minecraft/client/multiplayer/MultiPlayerChunkCache;	chunkCache	w
-	m	()V	tick	l
-	m	(Lnet/minecraft/world/entity/Entity;)Z	addEntity	a
-	m	(IIIII)V	addToTickNextTick	c
 	m	(IIIII)Z	doSetTileAndData	e
-	m	()V	validateSpawn	d
 	m	(IIIIII)V	clearResetRegion	c
-	m	(IIIII)Z	setTileAndDataNoUpdate	a
-	m	(IIII)Z	setTileNoUpdate	b
 	m	(Lnet/minecraft/client/multiplayer/ClientConnection;JI)V	<init>	<init>
-	m	(Lnet/minecraft/world/entity/Entity;)V	entityRemoved	c
 	m	(I)Lnet/minecraft/world/entity/Entity;	removeEntity	c
-	m	(Z)Z	tickPendingTicks	a
-	m	()V	disconnect	p
 	m	(ILnet/minecraft/world/entity/Entity;)V	putEntity	a
-	m	()V	tickTiles	m
 	m	(IIZ)V	setChunkVisible	a
-	m	(IIII)Z	setDataNoUpdate	d
-	m	(Lnet/minecraft/world/entity/Entity;)V	removeEntity	d
 	m	(I)Lnet/minecraft/world/entity/Entity;	getEntity	b
-	m	(Lnet/minecraft/world/entity/Entity;)V	entityAdded	b
-	m	()Lnet/minecraft/world/level/chunk/ChunkSource;	createChunkSource	b
 c	net/minecraft/world/item/EggItem	jt
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 c	net/minecraft/network/packet/ContainerClosePacket	ju
 	f	I	containerId	a
-	m	()I	getEstimatedSize	a
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/network/packet/PreLoginPacket	jv
 	f	Ljava/lang/String;	userName	a
-	m	()I	getEstimatedSize	a
 	m	(Ljava/lang/String;)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/inventory/CraftingContainer	jw
 	f	Lnet/minecraft/world/inventory/AbstractContainerMenu;	menu	c
 	f	I	width	b
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	a
-	m	()V	setChanged	r_
-	m	()I	getMaxStackSize	d
-	m	()I	getContainerSize	a
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
 	m	(II)Lnet/minecraft/world/item/ItemInstance;	getItem	b
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
-	m	()Ljava/lang/String;	getName	c
 	m	(Lnet/minecraft/world/inventory/AbstractContainerMenu;II)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/ClayFeature	jx
 	f	I	count	b
 	f	I	tile	a
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 	m	(I)V	<init>	<init>
 c	net/minecraft/world/level/tile/OreTile	jy
 	m	(II)V	<init>	<init>
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(I)I	getSpawnResourcesAuxValue	b
 c	net/minecraft/world/level/storage/McRegionLevelStorage	jz
-	m	(Lnet/minecraft/world/level/LevelData;Ljava/util/List;)V	saveLevelData	a
-	m	(Lnet/minecraft/world/level/dimension/Dimension;)Lnet/minecraft/world/level/chunk/storage/ChunkStorage;	createChunkStorage	a
 c	net/minecraft/client/model/SheepModel	ka
 c	net/minecraft/network/packet/ContainerSetDataPacket	kb
 	f	I	containerId	a
 	f	I	value	c
 	f	I	id	b
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/client/multiplayer/ClientConnection	kc
 	f	Lnet/minecraft/client/multiplayer/MultiPlayerLevel;	level	f
 	f	Z	started	g
@@ -3297,52 +2580,12 @@ c	net/minecraft/client/multiplayer/ClientConnection	kc
 	f	Lnet/minecraft/network/Connection;	connection	d
 	f	Ljava/lang/String;	message	a
 	f	Lnet/minecraft/client/Minecraft;	minecraft	e
-	m	(Lnet/minecraft/network/packet/ContainerSetSlotPacket;)V	handleContainerSetSlot	a
-	m	(Lnet/minecraft/network/packet/SetEquippedItemPacket;)V	handleSetEquippedItem	a
-	m	(Lnet/minecraft/network/packet/SignUpdatePacket;)V	handleSignUpdate	a
 	m	(I)Lnet/minecraft/world/entity/Entity;	getEntity	a
-	m	(Lnet/minecraft/network/packet/AddItemEntityPacket;)V	handleAddItemEntity	a
-	m	(Lnet/minecraft/network/packet/TileUpdatePacket;)V	handleTileUpdate	a
-	m	(Lnet/minecraft/network/packet/AddPlayerPacket;)V	handleAddPlayer	a
-	m	(Lnet/minecraft/network/packet/PreLoginPacket;)V	handlePreLogin	a
-	m	(Lnet/minecraft/network/packet/SetTimePacket;)V	handleSetTime	a
-	m	(Lnet/minecraft/network/packet/SetHealthPacket;)V	handleSetHealth	a
-	m	(Lnet/minecraft/network/packet/RemoveEntityPacket;)V	handleRemoveEntity	a
-	m	(Lnet/minecraft/network/packet/ChatPacket;)V	handleChat	a
-	m	(Lnet/minecraft/network/packet/EntityActionAtPositionPacket;)V	handleEntityActionAtPosition	a
 	m	()V	tick	a
-	m	(Lnet/minecraft/network/packet/DisconnectPacket;)V	handleDisconnect	a
-	m	(Lnet/minecraft/network/packet/ContainerAckPacket;)V	handleContainerAck	a
-	m	(Lnet/minecraft/network/packet/ContainerOpenPacket;)V	handleContainerOpen	a
-	m	(Lnet/minecraft/network/packet/SetEntityMotionPacket;)V	handleSetEntityMotion	a
-	m	(Lnet/minecraft/network/packet/EntityEventPacket;)V	handleEntityEvent	a
-	m	(Lnet/minecraft/network/packet/BlockRegionUpdatePacket;)V	handleBlockRegionUpdate	a
-	m	(Lnet/minecraft/network/packet/MovePlayerPacket;)V	handleMovePlayer	a
-	m	(Lnet/minecraft/network/packet/ChunkVisibilityPacket;)V	handleChunkVisibility	a
-	m	(Lnet/minecraft/network/packet/ContainerSetDataPacket;)V	handleContainerSetData	a
 	m	(Lnet/minecraft/network/packet/Packet;)V	send	a
-	m	(Lnet/minecraft/network/packet/MoveEntityPacket;)V	handleMoveEntity	a
-	m	(Lnet/minecraft/network/packet/SetEntityDataPacket;)V	handleSetEntityData	a
-	m	(Ljava/lang/String;[Ljava/lang/Object;)V	onDisconnect	a
 	m	(Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/AddMobPacket;)V	handleAddMob	a
-	m	(Lnet/minecraft/network/packet/RespawnPacket;)V	handleRespawn	a
-	m	(Lnet/minecraft/network/packet/ExplodePacket;)V	handleExplosion	a
-	m	(Lnet/minecraft/network/packet/ChunkTilesUpdatePacket;)V	handleChunkTilesUpdate	a
-	m	(Lnet/minecraft/network/packet/ContainerClosePacket;)V	handleContainerClose	a
-	m	(Lnet/minecraft/network/packet/ContainerSetContentPacket;)V	handleContainerContent	a
-	m	(Lnet/minecraft/network/packet/SetSpawnPositionPacket;)V	handleSetSpawn	a
-	m	(Lnet/minecraft/network/packet/TileEventPacket;)V	handleTileEvent	a
-	m	(Lnet/minecraft/network/packet/AddPaintingPacket;)V	handleAddPainting	a
-	m	(Lnet/minecraft/network/packet/TeleportEntityPacket;)V	handleTeleportEntity	a
-	m	(Lnet/minecraft/network/packet/AnimatePacket;)V	handleAnimate	a
-	m	(Lnet/minecraft/network/packet/AddEntityPacket;)V	handleAddEntity	a
-	m	(Lnet/minecraft/network/packet/SetRidingPacket;)V	handleRidePacket	a
-	m	(Lnet/minecraft/network/packet/TakeItemEntityPacket;)V	handleTakeItemEntity	a
-	m	(Lnet/minecraft/network/packet/LoginPacket;)V	handleLogin	a
 	m	()V	close	b
 c	net/minecraft/world/level/tile/GravelTile	kd
-	m	(ILjava/util/Random;)I	getResource	a
 c	net/minecraft/network/packet/AddItemEntityPacket	ke
 	f	I	x	b
 	f	I	id	a
@@ -3354,39 +2597,22 @@ c	net/minecraft/network/packet/AddItemEntityPacket	ke
 	f	I	itemCount	i
 	f	I	z	d
 	f	I	y	c
-	m	()I	getEstimatedSize	a
 	m	(Lnet/minecraft/world/entity/item/ItemEntity;)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/item/crafting/ClothDyeRecipes	kf
 	m	(Lnet/minecraft/world/item/crafting/Recipes;)V	addRecipes	a
 c	net/minecraft/client/renderer/HttpTextureProcessor	kg
 	m	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	process	a
 c	net/minecraft/world/level/tile/CropTile	kh
-	m	(II)I	getTexture	a
 	m	(Lnet/minecraft/world/level/Level;III)V	growCropsToMax	c_
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(Lnet/minecraft/world/level/Level;III)F	getGrowthSpeed	i
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	destroy	b
-	m	()I	getRenderShape	g
-	m	(I)Z	mayPlaceOn	c
-	m	(Ljava/util/Random;)I	getResourceCount	a
 c	net/minecraft/world/level/tile/IceTile	ki
-	m	()I	getRenderLayer	c
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
-	m	(Ljava/util/Random;)I	getResourceCount	a
 c	net/minecraft/client/gui/VideoSettingsScreen	kj
 	f	Lnet/minecraft/client/gui/Screen;	lastScreen	h
 	f	Lnet/minecraft/client/Options;	options	i
 	f	Ljava/lang/String;	title	a
 	f	[Lnet/minecraft/client/Options$Option;	items	k
-	m	()V	init	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/gui/Screen;Lnet/minecraft/client/Options;)V	<init>	<init>
-	m	(IIF)V	render	a
 c	net/minecraft/world/level/storage/LevelStorageSource	kk
 	m	()V	clearAll	c
 	m	(Ljava/lang/String;Z)Lnet/minecraft/world/level/storage/LevelStorage;	selectLevel	a
@@ -3400,8 +2626,6 @@ c	net/minecraft/world/level/storage/LevelStorageSource	kk
 c	net/minecraft/network/packet/AnimatePacket	kl
 	f	I	action	b
 	f	I	id	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 	m	(Lnet/minecraft/world/entity/Entity;I)V	<init>	<init>
 c	net/minecraft/client/model/QuadrupedModel	km
 	f	Lnet/minecraft/client/model/Cube;	body	e
@@ -3410,26 +2634,18 @@ c	net/minecraft/client/model/QuadrupedModel	km
 	f	Lnet/minecraft/client/model/Cube;	leg0	f
 	f	Lnet/minecraft/client/model/Cube;	leg3	i
 	f	Lnet/minecraft/client/model/Cube;	leg2	h
-	m	(FFFFFF)V	setupAnim	a
-	m	(FFFFFF)V	render	b
 	m	(IF)V	<init>	<init>
 c	net/minecraft/client/model/SlimeModel	kn
 	f	Lnet/minecraft/client/model/Cube;	mouth	d
 	f	Lnet/minecraft/client/model/Cube;	eye1	c
 	f	Lnet/minecraft/client/model/Cube;	eye0	b
 	f	Lnet/minecraft/client/model/Cube;	cube	a
-	m	(FFFFFF)V	render	b
-	m	(FFFFFF)V	setupAnim	a
 	m	(I)V	<init>	<init>
 c	net/minecraft/world/level/tile/TransparentTile	ko
 	f	Z	allowSame	b
 	m	(IILnet/minecraft/world/level/material/Material;Z)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	()Z	isSolidRender	a
 c	net/minecraft/client/model/MinecartModel	kp
 	f	[Lnet/minecraft/client/model/Cube;	cubes	a
-	m	(FFFFFF)V	render	b
-	m	(FFFFFF)V	setupAnim	a
 c	net/minecraft/client/sound/CodecMus$DecoderInputStream	kq
 	f	Lnet/minecraft/client/sound/CodecMus;	this$0	b
 	f	Ljava/io/InputStream;	in	d
@@ -3441,23 +2657,17 @@ c	net/minecraft/client/sound/CodecMus$DecoderInputStream	kq
 c	net/minecraft/network/packet/SetRidingPacket	kr
 	f	I	riderId	a
 	f	I	riddenId	b
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/world/entity/monster/Giant	ks
-	m	(III)F	getWalkTargetValue	a
 c	com/mojang/nbt/CompoundTag	kt
 	f	Ljava/util/Map;	tags	a
 	m	(Ljava/lang/String;[B)V	putByteArray	a
 	m	(Ljava/lang/String;)Lcom/mojang/nbt/CompoundTag;	getCompound	k
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	(Ljava/io/DataInput;)V	load	a
 	m	(Ljava/lang/String;)F	getFloat	g
 	m	(Ljava/lang/String;)B	getByte	c
 	m	(Ljava/lang/String;)Z	contains	b
 	m	(Ljava/lang/String;Z)V	putBoolean	a
 	m	(Ljava/lang/String;)J	getLong	f
 	m	(Ljava/lang/String;)S	getShort	d
-	m	()B	getId	a
 	m	(Ljava/lang/String;J)V	putLong	a
 	m	(Ljava/lang/String;Lcom/mojang/nbt/Tag;)V	put	a
 	m	(Ljava/lang/String;Ljava/lang/String;)V	putString	a
@@ -3476,8 +2686,6 @@ c	com/mojang/nbt/CompoundTag	kt
 c	net/minecraft/world/level/tile/LiquidTileStatic	ku
 	m	(Lnet/minecraft/world/level/Level;III)V	setDynamic	j
 	m	(Lnet/minecraft/world/level/Level;III)Z	isFlammable	k
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 c	net/minecraft/client/renderer/Tesselator	kv
 	f	I	vboCounts	A
 	f	Ljava/nio/FloatBuffer;	fb	f
@@ -3526,9 +2734,7 @@ c	net/minecraft/client/renderer/Tesselator	kv
 	m	(III)V	color	a
 	m	(DDD)V	vertex	a
 c	net/minecraft/world/level/tile/HellSandTile	kw
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	entityInside	a
 c	net/minecraft/network/packet/LoginPacket	kx
 	f	J	seed	d
 	f	I	clientVersion	a
@@ -3536,8 +2742,6 @@ c	net/minecraft/network/packet/LoginPacket	kx
 	f	B	dimension	e
 	f	Ljava/lang/String;	loginKey	c
 	m	(Ljava/lang/String;Ljava/lang/String;I)V	<init>	<init>
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/client/gamemode/GameMode	ky
 	f	Lnet/minecraft/client/Minecraft;	minecraft	a
 	f	Z	instaBuild	b
@@ -3566,49 +2770,22 @@ c	net/minecraft/world/inventory/CompoundContainer	la
 	f	Lnet/minecraft/world/Container;	c1	b
 	f	Lnet/minecraft/world/Container;	c2	c
 	f	Ljava/lang/String;	name	a
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
-	m	()Ljava/lang/String;	getName	c
 	m	(Ljava/lang/String;Lnet/minecraft/world/Container;Lnet/minecraft/world/Container;)V	<init>	<init>
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
-	m	()V	setChanged	r_
-	m	()I	getMaxStackSize	d
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
-	m	()I	getContainerSize	a
 c	net/minecraft/world/level/tile/ButtonTile	lb
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
 	m	(Lnet/minecraft/world/level/Level;III)Z	checkCanSurvive	i
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	setPlacedOnFace	d
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
-	m	()I	getTickDelay	d
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	attack	b
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(II)V	<init>	<init>
 	m	(Lnet/minecraft/world/level/Level;III)I	unk_h	h
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	()V	updateDefaultShape	f
-	m	()Z	isSignalSource	e
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	getSignal	c
-	m	(Lnet/minecraft/world/level/Level;IIII)Z	getDirectSignal	c
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	()Z	isSolidRender	a
-	m	()Z	isCubeShaped	b
 c	net/minecraft/client/renderer/ptexture/WaterSideTexture	lc
 	f	[F	heata	j
 	f	I	tickCount	k
 	f	[F	current	g
 	f	[F	next	h
 	f	[F	heat	i
-	m	()V	tick	a
 c	net/minecraft/network/packet/ContainerAckPacket	ld
 	f	S	uid	b
 	f	I	containerId	a
 	f	Z	accepted	c
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 	m	(ISZ)V	<init>	<init>
-	m	()I	getEstimatedSize	a
 c	net/minecraft/world/level/tile/LiquidTileDynamic	le
 	f	[I	dist	c
 	f	I	maxCount	a
@@ -3618,39 +2795,19 @@ c	net/minecraft/world/level/tile/LiquidTileDynamic	le
 	m	(Lnet/minecraft/world/level/Level;IIII)I	getHighest	f
 	m	(Lnet/minecraft/world/level/Level;III)Z	canSpreadTo	m
 	m	(Lnet/minecraft/world/level/Level;IIII)V	trySpreadTo	g
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 	m	(Lnet/minecraft/world/level/Level;III)[Z	getSpread	k
 	m	(Lnet/minecraft/world/level/Level;IIIII)I	getSlopeDistance	b
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 c	net/minecraft/client/gui/inventory/CraftingScreen	lf
-	m	()V	removed	h
 	m	(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/level/Level;III)V	<init>	<init>
-	m	()V	renderLabels	j
-	m	(F)V	renderBg	a
 c	net/minecraft/client/renderer/entity/TntRenderer	lg
 	f	Lnet/minecraft/client/renderer/TileRenderer;	tileRenderer	a
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/client/particle/PortalParticle	lh
 	f	D	xStart	o
 	f	F	oSize	a
 	f	D	yStart	p
 	f	D	zStart	q
-	m	()V	tick	q_
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
-	m	(F)F	getBrightness	a
 c	net/minecraft/world/level/tile/CactusTile	li
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()Z	isSolidRender	a
 	m	(II)V	<init>	<init>
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getTileAABB	f
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;III)Z	canSurvive	g
-	m	()I	getRenderShape	g
-	m	(I)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	entityInside	a
 c	net/minecraft/world/level/tile/DirtTile	lj
 	m	(II)V	<init>	<init>
 c	net/minecraft/client/gamemode/SurvivalMode	lk
@@ -3661,15 +2818,6 @@ c	net/minecraft/client/gamemode/SurvivalMode	lk
 	f	I	yDestroyBlock	d
 	f	I	zDestroyBlock	e
 	f	I	xDestroyBlock	c
-	m	()V	tick	a
-	m	()V	stopDestroyBlock	b
-	m	(Lnet/minecraft/world/level/Level;)V	initLevel	a
-	m	()F	getPickRange	c
-	m	(Lnet/minecraft/world/entity/player/Player;)V	initPlayer	a
-	m	(IIII)Z	destroyBlock	c
-	m	(IIII)V	startDestroyBlock	a
-	m	(F)V	render	a
-	m	(IIII)V	continueDestroyBlock	b
 c	net/minecraft/world/level/tile/entity/TileEntity	ll
 	f	Lnet/minecraft/world/level/Level;	level	d
 	f	I	x	e
@@ -3688,42 +2836,19 @@ c	net/minecraft/world/level/tile/entity/TileEntity	ll
 	m	(Lcom/mojang/nbt/CompoundTag;)Lnet/minecraft/world/level/tile/entity/TileEntity;	loadStatic	c
 c	net/minecraft/client/gui/inventory/FurnaceScreen	lm
 	f	Lnet/minecraft/world/level/tile/entity/FurnaceTileEntity;	furnace	k
-	m	(F)V	renderBg	a
 	m	(Lnet/minecraft/world/entity/player/Inventory;Lnet/minecraft/world/level/tile/entity/FurnaceTileEntity;)V	<init>	<init>
-	m	()V	renderLabels	j
 c	net/minecraft/network/packet/RespawnPacket	ln
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/client/gui/PauseScreen	lo
 	f	I	visibleTime	h
 	f	I	saveStep	a
-	m	(IIF)V	render	a
-	m	()V	tick	g
-	m	()V	init	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 c	net/minecraft/client/skins/DefaultTexturePack	lp
 	f	I	texture	e
 	f	Ljava/awt/image/BufferedImage;	icon	f
-	m	(Lnet/minecraft/client/Minecraft;)V	unload	b
-	m	(Lnet/minecraft/client/Minecraft;)V	bindTexture	c
 c	net/minecraft/world/level/tile/RailTile	lq
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/HitResult;	clip	a
-	m	()Z	isSolidRender	a
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	()I	getRenderShape	g
-	m	(II)I	getTexture	a
 	m	(Lnet/minecraft/world/level/Level;III)V	updateDir	h
 	m	(II)V	<init>	<init>
 c	net/minecraft/client/particle/BreakingItemParticle	lr
 	m	(Lnet/minecraft/world/level/Level;DDDLnet/minecraft/world/item/Item;)V	<init>	<init>
-	m	()I	getParticleTexture	b_
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
 c	net/minecraft/client/Minecraft$OS	ls
 	f	Lnet/minecraft/client/Minecraft$OS;	linux	a
 	f	Lnet/minecraft/client/Minecraft$OS;	solaris	b
@@ -3756,20 +2881,13 @@ c	net/minecraft/network/Connection	lt
 	m	(Ljava/lang/String;[Ljava/lang/Object;)V	close	a
 c	net/minecraft/network/packet/ChatPacket	lu
 	f	Ljava/lang/String;	message	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 	m	(Ljava/lang/String;)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/Feature	lv
 	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 	m	(DDD)V	init	a
 c	net/minecraft/client/gamemode/CreativeMode	lw
-	m	(Lnet/minecraft/world/level/Level;)V	initLevel	a
-	m	()Z	canHurtPlayer	d
-	m	(Lnet/minecraft/world/entity/player/Player;)V	adjustPlayer	b
-	m	()V	tick	a
 c	net/minecraft/world/level/levelgen/LargeHellCaveFeature	lx
 	m	(II[BDDDFFFIID)V	addTunnel	a
-	m	(Lnet/minecraft/world/level/Level;IIII[B)V	addFeature	a
 	m	(II[BDDD)V	addRoom	a
 c	net/minecraft/world/level/LevelListener	ly
 	m	(Ljava/lang/String;DDDDDD)V	addParticle	a
@@ -3782,18 +2900,12 @@ c	net/minecraft/world/level/LevelListener	ly
 	m	(Ljava/lang/String;DDDFF)V	playSound	a
 	m	()V	skyColorChanged	e
 c	net/minecraft/client/renderer/entity/FishingHookRenderer	lz
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/client/renderer/tileentity/SignRenderer	ma
 	f	Lnet/minecraft/client/model/SignModel;	signModel	b
-	m	(Lnet/minecraft/world/level/tile/entity/TileEntity;DDDF)V	render	a
 c	com/mojang/nbt/IntTag	mb
 	f	I	data	a
 	m	(I)V	<init>	<init>
-	m	()B	getId	a
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	(Ljava/io/DataInput;)V	load	a
 c	net/minecraft/client/renderer/entity/GhastRenderer	mc
-	m	(Lnet/minecraft/world/entity/Mob;F)V	scale	a
 c	net/minecraft/client/model/Cube	md
 	f	I	xTexOffs	l
 	f	I	yTexOffs	m
@@ -3818,19 +2930,12 @@ c	net/minecraft/client/model/Cube	md
 	m	(F)V	translateTo	b
 	m	(F)V	compile	c
 c	net/minecraft/world/level/tile/MusicTile	me
-	m	()Lnet/minecraft/world/level/tile/entity/TileEntity;	newTileEntity	a_
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	attack	b
-	m	(I)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;IIIII)V	triggerEvent	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 c	net/minecraft/world/inventory/InventoryMenu$1	mf
 	f	Lnet/minecraft/world/inventory/InventoryMenu;	this$0	e
 	f	I	val$i	d
 	m	(Lnet/minecraft/world/inventory/InventoryMenu;Lnet/minecraft/world/Container;IIII)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/PineFeature	mg
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/client/renderer/GameRenderer	mh
 	f	F	renderDistance	i
 	f	F	fr	e
@@ -3901,22 +3006,12 @@ c	net/minecraft/client/KeyMapping	mk
 	m	(Ljava/lang/String;I)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/HellSpringFeature	ml
 	f	I	tile	a
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 	m	(I)V	<init>	<init>
 c	net/minecraft/world/item/WeaponItem	mm
 	f	I	damage	a
 	m	(ILnet/minecraft/world/item/Item$Tier;)V	<init>	<init>
-	m	()Z	isHandEquipped	b
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/tile/Tile;)F	getDestroySpeed	a
-	m	(Lnet/minecraft/world/item/ItemInstance;IIII)V	mineBlock	a
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/Mob;)V	hurtEnemy	a
-	m	(Lnet/minecraft/world/entity/Entity;)I	getAttackDamage	a
 c	net/minecraft/client/gui/LevelConflictScreen	mn
 	f	I	frame	a
-	m	(IIF)V	render	a
-	m	()V	init	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
-	m	()V	tick	g
 c	net/minecraft/world/level/chunk/storage/RegionFile	mo
 	f	Ljava/util/ArrayList;	sectorFree	f
 	f	Ljava/io/File;	fileName	b
@@ -3944,13 +3039,9 @@ c	net/minecraft/world/level/chunk/storage/RegionFile	mo
 	m	(Ljava/lang/String;)V	debug	a
 	m	(Ljava/lang/String;IIILjava/lang/String;)V	debug	a
 c	net/minecraft/network/packet/PlayerInputPacket	mp
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/client/particle/TerrainParticle	mq
 	f	Lnet/minecraft/world/level/tile/Tile;	tile	a
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
 	m	(Lnet/minecraft/world/level/Level;DDDDDDLnet/minecraft/world/level/tile/Tile;)V	<init>	<init>
-	m	()I	getParticleTexture	b_
 	m	(III)Lnet/minecraft/client/particle/TerrainParticle;	init	a
 c	net/minecraft/world/level/levelgen/HellRandomLevelSource	mr
 	f	Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;	perlinNoise3	m
@@ -3973,30 +3064,15 @@ c	net/minecraft/world/level/levelgen/HellRandomLevelSource	mr
 	f	[D	pnr	c
 	f	[D	br	e
 	m	(Lnet/minecraft/world/level/Level;J)V	<init>	<init>
-	m	()Ljava/lang/String;	gatherStats	c
-	m	()Z	tick	a
 	m	(II[B)V	buildSurfaces	b
-	m	(II)Z	hasChunk	a
-	m	(ZLutil/ProgressListener;)Z	save	a
-	m	()Z	shouldSave	b
 	m	(II[B)V	prepareHeights	a
-	m	(Lnet/minecraft/world/level/chunk/ChunkSource;II)V	postProcess	a
-	m	(II)Lnet/minecraft/world/level/chunk/LevelChunk;	getChunk	b
 	m	([DIIIIII)[D	getHeights	a
 c	net/minecraft/world/SimpleContainer	ms
 	f	Ljava/lang/String;	name	a
 	f	Ljava/util/List;	listeners	d
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	c
 	f	I	size	b
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
-	m	()Ljava/lang/String;	getName	c
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
-	m	()I	getMaxStackSize	d
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
 	m	(Ljava/lang/String;I)V	<init>	<init>
-	m	()V	setChanged	r_
-	m	()I	getContainerSize	a
 c	net/minecraft/client/gui/ScreenSizeCalculator	mt
 	f	I	w	d
 	f	I	h	e
@@ -4008,9 +3084,6 @@ c	net/minecraft/client/gui/ScreenSizeCalculator	mt
 	m	()I	getHeight	b
 c	com/mojang/nbt/ByteTag	mu
 	f	B	data	a
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	()B	getId	a
-	m	(Ljava/io/DataInput;)V	load	a
 	m	(B)V	<init>	<init>
 c	net/minecraft/network/packet/ContainerClickPacket	mv
 	f	I	containerId	a
@@ -4018,9 +3091,7 @@ c	net/minecraft/network/packet/ContainerClickPacket	mv
 	f	I	slotNum	b
 	f	I	buttonNum	c
 	f	Lnet/minecraft/world/item/ItemInstance;	item	e
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 	m	(IIILnet/minecraft/world/item/ItemInstance;S)V	<init>	<init>
-	m	()I	getEstimatedSize	a
 c	net/minecraft/client/gui/ConfirmScreen	mw
 	f	Ljava/lang/String;	title1	h
 	f	Ljava/lang/String;	title2	i
@@ -4028,15 +3099,9 @@ c	net/minecraft/client/gui/ConfirmScreen	mw
 	f	Ljava/lang/String;	yes	k
 	f	Ljava/lang/String;	no	l
 	f	Lnet/minecraft/client/gui/Screen;	parent	a
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/gui/Screen;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V	<init>	<init>
-	m	()V	init	a
-	m	(IIF)V	render	a
 c	net/minecraft/client/particle/FlameParticle	mx
 	f	F	oSize	a
-	m	()V	tick	q_
-	m	(F)F	getBrightness	a
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
 c	net/minecraft/world/entity/Painting	my
 	f	I	dir	a
 	f	I	xTile	b
@@ -4045,26 +3110,14 @@ c	net/minecraft/world/entity/Painting	my
 	f	Lnet/minecraft/world/entity/Painting$Motive;	motive	e
 	f	I	checkInterval	f
 	m	(Lnet/minecraft/world/level/Level;IIII)V	<init>	<init>
-	m	()V	tick	q_
 	m	()Z	survives	k
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
 	m	(I)V	setDir	b
-	m	()V	defineSynchedData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 	m	(Lnet/minecraft/world/level/Level;IIIILjava/lang/String;)V	<init>	<init>
 	m	(I)F	offs	c
-	m	()Z	isPickable	f_
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
 c	net/minecraft/world/entity/item/PrimedTnt	mz
 	f	I	life	a
-	m	()V	tick	q_
-	m	()V	defineSynchedData	b
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
 	m	()V	explode	k
-	m	()Z	isPickable	f_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()F	getShadowHeightOffs	k_
 c	net/minecraft/world/level/Explosion	na
 	f	D	y	c
 	f	F	r	f
@@ -4087,12 +3140,10 @@ c	net/minecraft/world/level/TickNextTickData	nb
 	f	J	delay	e
 	f	I	tileId	d
 	m	(Ljava/lang/Object;)Z	equals	equals
-	m	(Lnet/minecraft/world/level/TickNextTickData;)I	compareTo	a
 	m	(IIII)V	<init>	<init>
 	m	(Ljava/lang/Object;)I	compareTo	compareTo
 	m	(J)Lnet/minecraft/world/level/TickNextTickData;	delay	a
 c	net/minecraft/world/item/BowItem	nc
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 c	net/minecraft/client/renderer/ItemInHandRenderer	nd
 	f	F	oHeight	d
 	f	I	lastSlot	f
@@ -4111,16 +3162,12 @@ c	net/minecraft/client/renderer/ItemInHandRenderer	nd
 	m	()V	itemPlaced	b
 	m	()V	itemUsed	c
 c	net/minecraft/world/level/biome/ForestBiome	ne
-	m	(Ljava/util/Random;)Lnet/minecraft/world/level/levelgen/feature/Feature;	getTreeFeature	a
 c	net/minecraft/network/packet/SetSpawnPositionPacket	nf
 	f	I	z	c
 	f	I	y	b
 	f	I	x	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/world/level/tile/SandStoneTile	ng
 	m	(I)V	<init>	<init>
-	m	(I)I	getTexture	a
 c	net/minecraft/isom/Zone	nh
 	f	Z	noContent	f
 	f	Z	rendered	e
@@ -4144,21 +3191,10 @@ c	net/minecraft/network/packet/TeleportEntityPacket	nj
 	f	I	x	b
 	f	I	id	a
 	f	B	yRot	e
-	m	()I	getEstimatedSize	a
 	m	(Lnet/minecraft/world/entity/Entity;)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/level/tile/ReedTile	nk
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(Lnet/minecraft/world/level/Level;III)V	checkAlive	h
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(ILjava/util/Random;)I	getResource	a
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	canSurvive	g
 c	net/minecraft/client/demo/DemoLevel	nl
 	f	J	seed	u
 	m	(Lnet/minecraft/world/level/storage/LevelStorage;Ljava/lang/String;)V	<init>	<init>
@@ -4171,21 +3207,17 @@ c	net/minecraft/world/level/chunk/storage/RegionFileCache	nm
 	m	(Ljava/io/File;II)Lnet/minecraft/world/level/chunk/storage/RegionFile;	getRegionFile	a
 c	net/minecraft/world/item/SeedItem	nn
 	f	I	resultId	a
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 	m	(II)V	<init>	<init>
 c	net/minecraft/client/demo/DemoUser	no
 c	net/minecraft/world/item/MinecartItem	np
 	f	I	type	a
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/network/packet/ExplodePacket	nq
 	f	F	r	d
 	f	D	y	b
 	f	D	x	a
 	f	D	z	c
 	f	Ljava/util/Set;	toBlow	e
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/client/gui/EditBox	nr
 	f	Z	active	a
 	f	Lnet/minecraft/client/gui/Font;	font	c
@@ -4207,27 +3239,10 @@ c	net/minecraft/client/gui/EditBox	nr
 	m	()Ljava/lang/String;	getValue	a
 c	net/minecraft/world/level/tile/LiquidTile	ns
 	m	(Lnet/minecraft/world/level/Level;III)I	getDepth	h
-	m	(Lnet/minecraft/world/level/LevelSource;III)F	getBrightness	d
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	()Z	isCubeShaped	b
-	m	()Z	isSolidRender	a
 	m	(Lnet/minecraft/world/level/LevelSource;III)Lnet/minecraft/world/phys/Vec3;	getFlow	e
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V	handleEntityInside	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	(I)I	getTexture	a
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 	m	(I)F	getHeight	c
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
-	m	(IZ)Z	mayPick	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(Lnet/minecraft/world/level/Level;III)V	fizz	i
 	m	(Lnet/minecraft/world/level/LevelSource;III)I	getRenderedDepth	c
-	m	()I	getTickDelay	d
-	m	()I	getRenderLayer	c
 	m	(Lnet/minecraft/world/level/Level;III)V	updateLiquid	j
 	m	(Lnet/minecraft/world/level/LevelSource;IIILnet/minecraft/world/level/material/Material;)D	getSlopeAngle	a
 c	net/minecraft/client/gui/SelectWorldScreen	nt
@@ -4256,20 +3271,15 @@ c	net/minecraft/client/gui/SelectWorldScreen	nt
 	m	()V	unk_k	k
 	m	(Lnet/minecraft/client/gui/SelectWorldScreen;I)I	access$100	a
 	m	(Lnet/minecraft/client/gui/Screen;)V	<init>	<init>
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
-	m	()V	init	a
-	m	(IIF)V	render	a
 	m	(I)Ljava/lang/String;	getLevelId	c
 	m	(I)V	worldSelected	e
 	m	(Lnet/minecraft/client/gui/SelectWorldScreen;)Ljava/text/DateFormat;	access$700	g
-	m	(ZI)V	confirmResult	a
 c	net/minecraft/client/renderer/MobSkinTextureProcessor	nu
 	f	[I	pixels	a
 	f	I	height	c
 	f	I	width	b
 	m	(IIII)V	setNoAlpha	b
 	m	(IIII)V	setForceAlpha	a
-	m	(Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;	process	a
 	m	(IIII)Z	hasAlpha	c
 c	net/minecraft/world/level/storage/McRegionLevelStorageSource$FilePattern	nv
 	f	Ljava/util/regex/Pattern;	FILE_PATTERN	a
@@ -4281,21 +3291,12 @@ c	net/minecraft/world/level/tile/PressurePlateTile$Sensitivity	nw
 	f	Lnet/minecraft/world/level/tile/PressurePlateTile$Sensitivity;	everything	a
 c	net/minecraft/network/packet/RemoveEntityPacket	nx
 	f	I	id	a
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/level/tile/EntityTile	ny
 	m	()Lnet/minecraft/world/level/tile/entity/TileEntity;	newTileEntity	a_
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 c	net/minecraft/world/item/CoalItem	nz
-	m	(Lnet/minecraft/world/item/ItemInstance;)Ljava/lang/String;	getDescriptionId	b
 c	net/minecraft/world/level/tile/ClayTile	oa
-	m	(Ljava/util/Random;)I	getResourceCount	a
 	m	(II)V	<init>	<init>
-	m	(ILjava/util/Random;)I	getResource	a
 c	net/minecraft/world/item/SaddleItem	ob
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/Mob;)V	interactEnemy	b
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/Mob;)V	hurtEnemy	a
 c	net/minecraft/network/packet/MoveEntityPacket$Rot	oc
 c	net/minecraft/client/model/SpiderModel	od
 	f	Lnet/minecraft/client/model/Cube;	leg0	d
@@ -4309,28 +3310,18 @@ c	net/minecraft/client/model/SpiderModel	od
 	f	Lnet/minecraft/client/model/Cube;	leg3	g
 	f	Lnet/minecraft/client/model/Cube;	leg2	f
 	f	Lnet/minecraft/client/model/Cube;	leg1	e
-	m	(FFFFFF)V	render	b
-	m	(FFFFFF)V	setupAnim	a
 c	net/minecraft/client/renderer/ptexture/FireTexture	oe
 	f	[F	next	h
 	f	[F	current	g
-	m	()V	tick	a
 c	net/minecraft/network/packet/ChunkVisibilityPacket	of
 	f	Z	visible	c
 	f	I	z	b
 	f	I	x	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/world/level/levelgen/feature/HellPortalFeature	og
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/level/material/LiquidMaterial	oh
-	m	()Z	isSolid	a
-	m	()Z	isLiquid	d
-	m	()Z	blocksMotion	c
 c	net/minecraft/world/inventory/TrapMenu	oi
 	f	Lnet/minecraft/world/level/tile/entity/DispenserTileEntity;	trap	a
 	m	(Lnet/minecraft/world/Container;Lnet/minecraft/world/level/tile/entity/DispenserTileEntity;)V	<init>	<init>
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	b
 c	net/minecraft/client/title/TitleScreen$LetterBlock	oj
 	f	D	yO	b
 	f	Lnet/minecraft/client/title/TitleScreen;	this$0	d
@@ -4356,19 +3347,9 @@ c	net/minecraft/world/level/tile/entity/FurnaceTileEntity	ol
 	m	()Z	isLit	b
 	m	(Lnet/minecraft/world/item/ItemInstance;)I	getBurnDuration	a
 	m	(I)I	getBurnProgress	b
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
 	m	(I)I	getLitProgress	c
-	m	()I	getContainerSize	a
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
-	m	()Ljava/lang/String;	getName	c
-	m	()I	getMaxStackSize	d
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
-	m	()V	tick	m_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	load	a
 	m	()Z	canBurn	i
-	m	(Lcom/mojang/nbt/CompoundTag;)V	save	b
 	m	()V	burn	g
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
 c	net/minecraft/world/entity/projectile/Arrow	om
 	f	Z	inGround	g
 	f	I	flightTime	i
@@ -4380,38 +3361,17 @@ c	net/minecraft/world/entity/projectile/Arrow	om
 	f	I	yTile	d
 	f	I	xTile	c
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
-	m	()V	defineSynchedData	b
 	m	(DDDFF)V	shoot	a
-	m	(DDD)V	lerpMotion	a
-	m	()V	tick	q_
-	m	(Lnet/minecraft/world/entity/player/Player;)V	playerTouch	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Mob;)V	<init>	<init>
-	m	()F	getShadowHeightOffs	k_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
 c	net/minecraft/world/level/tile/RedStoneDustTile	on
 	f	Z	shouldSignal	a
 	f	Ljava/util/Set;	toUpdate	b
-	m	()Z	isCubeShaped	b
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	getSignal	c
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	()Z	isSignalSource	e
 	m	(Lnet/minecraft/world/level/Level;IIII)I	checkTarget	g
-	m	(ILjava/util/Random;)I	getResource	a
 	m	(Lnet/minecraft/world/level/Level;IIIIII)V	updatePowerStrength	a
-	m	(II)I	getTexture	a
 	m	(Lnet/minecraft/world/level/LevelSource;III)Z	shouldConnectTo	c
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;IIII)Z	getDirectSignal	c
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 	m	(Lnet/minecraft/world/level/Level;III)V	checkCornerChangeAt	i
 	m	(II)V	<init>	<init>
 	m	(Lnet/minecraft/world/level/Level;III)V	updatePowerStrength	h
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 c	net/minecraft/world/entity/Entity	oo
 	f	F	yRot	aO
 	f	D	yo	aG
@@ -4564,65 +3524,24 @@ c	net/minecraft/network/packet/AddEntityPacket	op
 	f	I	y	c
 	f	I	x	b
 	f	I	id	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	com/mojang/nbt/ListTag	oq
 	f	B	type	b
 	f	Ljava/util/List;	list	a
-	m	(Ljava/io/DataInput;)V	load	a
 	m	()I	size	c
-	m	()B	getId	a
 	m	(I)Lcom/mojang/nbt/Tag;	get	a
 	m	(Lcom/mojang/nbt/Tag;)V	add	a
-	m	(Ljava/io/DataOutput;)V	write	a
 c	net/minecraft/world/level/levelgen/LargeCaveFeature	or
 	m	(II[BDDD)V	addRoom	a
 	m	(II[BDDDFFFIID)V	addTunnel	a
-	m	(Lnet/minecraft/world/level/Level;IIII[B)V	addFeature	a
 c	net/minecraft/client/renderer/culling/FrustumCuller	os
 	f	D	yOff	c
 	f	D	xOff	b
 	f	D	zOff	d
 	f	Lnet/minecraft/client/renderer/culling/FrustumData;	frustum	a
-	m	(DDD)V	prepare	a
-	m	(Lnet/minecraft/world/phys/AABB;)Z	isVisible	a
 	m	(DDDDDD)Z	cubeInFrustum	a
 c	net/minecraft/world/level/tile/StairTile	ot
 	f	Lnet/minecraft/world/level/tile/Tile;	base	a
-	m	(Lnet/minecraft/world/level/LevelSource;III)F	getBrightness	d
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getTileAABB	f
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/Vec3;)V	handleEntityInside	a
-	m	(Lnet/minecraft/world/entity/Entity;)F	getExplosionResistance	a
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	(I)I	getTexture	a
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;IIII)V	destroy	b
-	m	(Lnet/minecraft/world/level/Level;III)V	wasExploded	c
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	attack	b
-	m	(IZ)Z	mayPick	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
-	m	()I	getRenderLayer	c
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Mob;)V	setPlacedBy	a
-	m	(Lnet/minecraft/world/level/Level;IIIIF)V	spawnResources	a
-	m	()Z	mayPick	h
 	m	(ILnet/minecraft/world/level/tile/Tile;)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	stepOn	b
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	(Lnet/minecraft/world/level/Level;IIII)V	spawnResources	b_
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/phys/AABB;Ljava/util/ArrayList;)V	addAABBs	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(II)I	getTexture	a
-	m	()I	getTickDelay	d
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)I	getTexture	a
 c	net/minecraft/world/level/LightUpdate	ou
 	f	I	z1	g
 	f	Lnet/minecraft/world/level/LightLayer;	layer	a
@@ -4642,29 +3561,17 @@ c	net/minecraft/client/GuiMessage	ow
 c	net/minecraft/client/particle/SplashParticle	ox
 c	com/mojang/nbt/DoubleTag	oy
 	f	D	data	a
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	(Ljava/io/DataInput;)V	load	a
 	m	(D)V	<init>	<init>
-	m	()B	getId	a
 c	net/minecraft/world/item/HatchetItem	oz
 	f	[Lnet/minecraft/world/level/tile/Tile;	diggables	bi
 	m	(ILnet/minecraft/world/item/Item$Tier;)V	<init>	<init>
 c	net/minecraft/client/renderer/entity/MinecartRenderer	pa
 	f	Lnet/minecraft/client/model/Model;	model	a
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/world/level/tile/FurnaceTile	pb
 	f	Z	lit	a
 	m	(ZLnet/minecraft/world/level/Level;III)V	setLit	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(I)I	getTexture	a
-	m	()Lnet/minecraft/world/level/tile/entity/TileEntity;	newTileEntity	a_
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Mob;)V	setPlacedBy	a
 	m	(IZ)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 	m	(Lnet/minecraft/world/level/Level;III)V	recalcLockDir	h
-	m	(ILjava/util/Random;)I	getResource	a
 c	net/minecraft/client/model/ChickenModel	pc
 	f	Lnet/minecraft/client/model/Cube;	head	a
 	f	Lnet/minecraft/client/model/Cube;	body	b
@@ -4674,8 +3581,6 @@ c	net/minecraft/client/model/ChickenModel	pc
 	f	Lnet/minecraft/client/model/Cube;	wing1	f
 	f	Lnet/minecraft/client/model/Cube;	leg0	c
 	f	Lnet/minecraft/client/model/Cube;	leg1	d
-	m	(FFFFFF)V	render	b
-	m	(FFFFFF)V	setupAnim	a
 c	net/minecraft/world/level/biome/SwampBiome	pd
 c	net/minecraft/client/renderer/OffsettedRenderList	pe
 	f	F	zOff	f
@@ -4784,23 +3689,10 @@ c	net/minecraft/client/multiplayer/MultiplayerLocalPlayer	pi
 	f	Z	lastOnGround	bR
 	f	F	xRotLast	bQ
 	f	D	zLast	bO
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	(I)V	actuallyHurt	b
-	m	(Ljava/lang/String;)V	chat	a
 	m	()V	sendPosition	ac
-	m	(I)V	hurtTo	a_
-	m	()V	drop	z
 	m	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/Level;Lnet/minecraft/client/User;Lnet/minecraft/client/multiplayer/ClientConnection;)V	<init>	<init>
-	m	()V	closeContainer	p
-	m	()V	respawn	t
-	m	(I)V	heal	c
-	m	()V	tick	q_
-	m	(Lnet/minecraft/world/entity/item/ItemEntity;)V	reallyDrop	a
-	m	()V	swing	F
 	m	()V	ensureHasSentInventory	ad
 c	net/minecraft/world/level/tile/Mushroom	pj
-	m	(Lnet/minecraft/world/level/Level;III)Z	canSurvive	g
-	m	(I)Z	mayPlaceOn	c
 c	net/minecraft/client/multiplayer/MultiPlayerLevel$ResetInfo	pk
 	f	Lnet/minecraft/client/multiplayer/MultiPlayerLevel;	this$0	g
 	f	I	z	c
@@ -4814,19 +3706,12 @@ c	net/minecraft/world/level/tile/entity/MusicTileEntity	pl
 	f	Z	on	b
 	f	B	note	a
 	m	()V	tune	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	load	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	save	b
 	m	(Lnet/minecraft/world/level/Level;III)V	playNote	a
 c	net/minecraft/world/level/chunk/storage/OldChunkStorage	pm
 	f	Z	create	b
 	f	Ljava/io/File;	dir	a
-	m	(Lnet/minecraft/world/level/Level;II)Lnet/minecraft/world/level/chunk/LevelChunk;	load	a
-	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/chunk/LevelChunk;)V	save	a
 	m	(Ljava/io/File;Z)V	<init>	<init>
 	m	(Lnet/minecraft/world/level/Level;Lcom/mojang/nbt/CompoundTag;)Lnet/minecraft/world/level/chunk/LevelChunk;	load	a
-	m	()V	tick	a
-	m	()V	flush	b
-	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/level/chunk/LevelChunk;)V	saveEntities	b
 	m	(Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/Level;Lcom/mojang/nbt/CompoundTag;)V	save	a
 	m	(II)Ljava/io/File;	getFile	a
 c	net/minecraft/world/item/crafting/OreRecipes	pn
@@ -4834,42 +3719,25 @@ c	net/minecraft/world/item/crafting/OreRecipes	pn
 	m	(Lnet/minecraft/world/item/crafting/Recipes;)V	addRecipes	a
 c	net/minecraft/world/level/storage/DirectoryLevelStorageSource	po
 	f	Ljava/io/File;	dir	a
-	m	(Ljava/lang/String;Z)Lnet/minecraft/world/level/storage/LevelStorage;	selectLevel	a
-	m	()V	clearAll	c
-	m	()Ljava/util/List;	getLevelList	b
-	m	(Ljava/lang/String;Lutil/ProgressListener;)Z	convertLevel	a
-	m	(Ljava/lang/String;Ljava/lang/String;)V	renameLevel	a
-	m	()Ljava/lang/String;	getName	a
-	m	(Ljava/lang/String;)Lnet/minecraft/world/level/LevelData;	getTagDataFor	b
-	m	(Ljava/lang/String;)Z	requiresConversion	a
 	m	([Ljava/io/File;)V	delete	a
 	m	(Ljava/io/File;)V	<init>	<init>
-	m	(Ljava/lang/String;)V	deleteLevel	c
 c	net/minecraft/world/item/RecordingItem	pp
 	f	Ljava/lang/String;	recording	a
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 	m	(ILjava/lang/String;)V	<init>	<init>
 c	net/minecraft/network/packet/PlayerCommandPacket	pq
 	f	I	action	b
 	f	I	id	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 	m	(Lnet/minecraft/world/entity/Entity;I)V	<init>	<init>
 c	net/minecraft/world/item/crafting/ShapelessRecipy	pr
 	f	Ljava/util/List;	ingredients	b
 	f	Lnet/minecraft/world/item/ItemInstance;	result	a
 	m	(Lnet/minecraft/world/item/ItemInstance;Ljava/util/List;)V	<init>	<init>
-	m	(Lnet/minecraft/world/inventory/CraftingContainer;)Z	matches	a
-	m	()I	size	a
-	m	(Lnet/minecraft/world/inventory/CraftingContainer;)Lnet/minecraft/world/item/ItemInstance;	assemble	b
 c	net/minecraft/network/packet/TileUpdatePacket	ps
 	f	I	block	d
 	f	I	data	e
 	f	I	y	b
 	f	I	z	c
 	f	I	x	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/isom/IsomPreview$3	pt
 	f	Lnet/minecraft/isom/IsomPreview;	this$0	a
 	m	(Lnet/minecraft/isom/IsomPreview;)V	<init>	<init>
@@ -4905,10 +3773,7 @@ c	net/minecraft/isom/IsomPreview$1	py
 c	net/minecraft/client/gui/inventory/InventoryScreen	pz
 	f	F	xMouse	k
 	f	F	yMouse	l
-	m	()V	renderLabels	j
 	m	(Lnet/minecraft/world/entity/player/Player;)V	<init>	<init>
-	m	(IIF)V	render	a
-	m	(F)V	renderBg	a
 c	net/minecraft/world/level/levelgen/synth/PerlinNoise	qa
 	f	I	levels	b
 	f	[Lnet/minecraft/world/level/levelgen/synth/ImprovedNoise;	noiseLevels	a
@@ -4930,53 +3795,22 @@ c	net/minecraft/network/packet/MoveEntityPacket	qc
 	f	B	za	d
 	f	B	yRot	e
 	f	I	id	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/network/packet/SignUpdatePacket	qd
 	f	[Ljava/lang/String;	lines	d
 	f	I	y	b
 	f	I	z	c
 	f	I	x	a
 	m	(III[Ljava/lang/String;)V	<init>	<init>
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 c	net/minecraft/world/level/tile/SignTile	qe
 	f	Ljava/lang/Class;	clas	a
 	f	Z	onGround	b
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getTileAABB	f
 	m	(ILjava/lang/Class;Z)V	<init>	<init>
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	()Z	isCubeShaped	b
-	m	()Lnet/minecraft/world/level/tile/entity/TileEntity;	newTileEntity	a_
 c	com/mojang/nbt/ShortTag	qf
 	f	S	data	a
-	m	()B	getId	a
 	m	(S)V	<init>	<init>
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	(Ljava/io/DataInput;)V	load	a
 c	net/minecraft/world/level/tile/CakeTile	qg
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	(I)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	canSurvive	g
 	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	eat	c
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	attack	b
-	m	(II)I	getTexture	a
-	m	()V	updateDefaultShape	f
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getTileAABB	f
-	m	(ILjava/util/Random;)I	getResource	a
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 c	net/minecraft/isom/ZoneRenderer	qh
 	f	[I	zBuf	c
 	f	[I	waterBuf	d
@@ -5014,12 +3848,8 @@ c	net/minecraft/client/gui/ControlsScreen	qj
 	f	I	selectedKey	k
 	f	Lnet/minecraft/client/Options;	options	i
 	f	Lnet/minecraft/client/gui/Screen;	lastScreen	h
-	m	(CI)V	keyPressed	a
 	m	()I	getLeftScreenPosition	j
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
 	m	(Lnet/minecraft/client/gui/Screen;Lnet/minecraft/client/Options;)V	<init>	<init>
-	m	()V	init	a
-	m	(IIF)V	render	a
 c	net/minecraft/client/player/Input	qk
 	f	Z	wasJumping	c
 	f	F	ya	b
@@ -5228,47 +4058,21 @@ c	net/minecraft/client/multiplayer/MultiPlayerChunkCache	qo
 	f	Lnet/minecraft/world/level/Level;	level	d
 	f	Ljava/util/List;	loadedChunkList	c
 	f	Ljava/util/Map;	loadedChunks	b
-	m	()Z	shouldSave	b
-	m	(II)Z	hasChunk	a
-	m	(Lnet/minecraft/world/level/chunk/ChunkSource;II)V	postProcess	a
-	m	()Z	tick	a
-	m	(II)Lnet/minecraft/world/level/chunk/LevelChunk;	getChunk	b
 	m	(II)Lnet/minecraft/world/level/chunk/LevelChunk;	create	d
 	m	(II)V	drop	c
 	m	(Lnet/minecraft/world/level/Level;)V	<init>	<init>
-	m	(ZLutil/ProgressListener;)Z	save	a
-	m	()Ljava/lang/String;	gatherStats	c
 c	net/minecraft/world/entity/monster/Slime	qp
 	f	I	size	c
 	f	I	jumpDelay	d
 	f	F	squish	a
 	f	F	oSquish	b
-	m	()Z	canSpawn	c
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	()I	getDeathLoot	i
-	m	()F	getSoundVolume	j
-	m	()V	updateAi	d_
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()V	tick	q_
-	m	(Lnet/minecraft/world/entity/player/Player;)V	playerTouch	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()V	remove	G
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
 	m	(I)V	setSize	e
 c	net/minecraft/network/packet/SetEntityDataPacket	qq
 	f	I	id	a
 	f	Ljava/util/List;	packedItems	b
-	m	()I	getEstimatedSize	a
 	m	()Ljava/util/List;	getUnpackedData	b
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/world/entity/monster/Zombie	qr
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()I	getDeathLoot	i
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	()V	aiStep	m
 c	net/minecraft/client/renderer/entity/CowRenderer	qs
-	m	(Lnet/minecraft/world/entity/Entity;DDDFF)V	render	a
 c	net/minecraft/world/level/storage/LevelSummary	qt
 	f	Z	requiresConversion	e
 	f	Ljava/lang/String;	levelId	a
@@ -5283,26 +4087,16 @@ c	net/minecraft/world/level/storage/LevelSummary	qt
 	m	()J	sizeOnDisk	c
 	m	()Z	isRequiresConversion	d
 c	net/minecraft/world/item/SignItem	qu
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/world/item/BoatItem	qv
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 c	net/minecraft/world/level/tile/BedTile	qw
 	f	[[I	HEAD_DIRECTION_OFFSETS	a
 	m	(I)Z	isHeadPiece	d
-	m	(ILjava/util/Random;)I	getResource	a
 	m	()V	setShape	j
 	m	(I)Z	isOccupied	f
 	m	(Lnet/minecraft/world/level/Level;IIII)Lnet/minecraft/Pos;	findStandUpPosition	g
-	m	()Z	isCubeShaped	b
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
 	m	(I)I	getDir	c
 		c	total guess\nyour guess is as good as mine
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
 	m	(I)V	<init>	<init>
-	m	(II)I	getTexture	a
 	m	(Lnet/minecraft/world/level/Level;IIIZ)V	setOccupied	a
 c	net/minecraft/world/phys/HitResult	qx
 	f	Lnet/minecraft/world/entity/Entity;	entity	g
@@ -5315,40 +4109,16 @@ c	net/minecraft/world/phys/HitResult	qx
 	m	(IIIILnet/minecraft/world/phys/Vec3;)V	<init>	<init>
 	m	(Lnet/minecraft/world/entity/Entity;)V	<init>	<init>
 c	net/minecraft/world/level/tile/TreeTile	qy
-	m	(I)I	getSpawnResourcesAuxValue	b
 	m	(I)V	<init>	<init>
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(II)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
-	m	(Ljava/util/Random;)I	getResourceCount	a
 c	net/minecraft/network/packet/MovePlayerPacket$Rot	qz
 	m	(FFZ)V	<init>	<init>
 c	net/minecraft/world/level/tile/FarmTile	ra
-	m	(II)I	getTexture	a
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Entity;)V	stepOn	b
-	m	()Z	isCubeShaped	b
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(ILjava/util/Random;)I	getResource	a
 	m	(Lnet/minecraft/world/level/Level;III)Z	isUnderCrops	h
 	m	(Lnet/minecraft/world/level/Level;III)Z	isNearWater	i
 c	net/minecraft/world/level/tile/TorchTile	rb
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
 	m	(II)V	<init>	<init>
 	m	(Lnet/minecraft/world/level/Level;III)Z	checkCanSurvive	h
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;IIII)V	setPlacedOnFace	d
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/phys/HitResult;	clip	a
-	m	()Z	isSolidRender	a
 c	net/minecraft/client/Minecraft	net/minecraft/client/Minecraft
 	f	Z	running	F
 	f	Lnet/minecraft/client/sound/SoundEngine;	soundEngine	z
@@ -5483,21 +4253,14 @@ c	net/minecraft/client/skins/FileTexturePack	rd
 	f	Ljava/util/zip/ZipFile;	zf	e
 	f	Ljava/awt/image/BufferedImage;	icon	g
 	f	Ljava/io/File;	file	h
-	m	()V	deselect	b
 	m	(Ljava/lang/String;)Ljava/lang/String;	trim	b
 	m	(Ljava/io/File;)V	<init>	<init>
-	m	()V	select	a
-	m	(Ljava/lang/String;)Ljava/io/InputStream;	getResource	a
-	m	(Lnet/minecraft/client/Minecraft;)V	unload	b
-	m	(Lnet/minecraft/client/Minecraft;)V	bindTexture	c
-	m	(Lnet/minecraft/client/Minecraft;)V	load	a
 c	net/minecraft/client/renderer/ptexture/WaterTexture	re
 	f	[F	next	h
 	f	[F	heat	i
 	f	[F	current	g
 	f	I	tickCount	k
 	f	[F	heata	j
-	m	()V	tick	a
 c	net/minecraft/network/packet/AddPaintingPacket	rf
 	f	I	dir	e
 	f	Ljava/lang/String;	motive	f
@@ -5505,9 +4268,7 @@ c	net/minecraft/network/packet/AddPaintingPacket	rf
 	f	I	z	d
 	f	I	id	a
 	f	I	x	b
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 	m	(Lnet/minecraft/world/entity/Painting;)V	<init>	<init>
-	m	()I	getEstimatedSize	a
 c	net/minecraft/world/entity/projectile/ThrownEgg	rg
 	f	I	life	h
 	f	I	flightTime	i
@@ -5519,15 +4280,7 @@ c	net/minecraft/world/entity/projectile/ThrownEgg	rg
 	f	Lnet/minecraft/world/entity/Mob;	owner	g
 	f	Z	inGround	f
 	m	(DDDFF)V	shoot	a
-	m	(DDD)V	lerpMotion	a
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
-	m	()V	tick	q_
-	m	(Lnet/minecraft/world/entity/player/Player;)V	playerTouch	b
-	m	()F	getShadowHeightOffs	k_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()V	defineSynchedData	b
-	m	(D)Z	shouldRenderAtSqrDistance	a
 	m	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Mob;)V	<init>	<init>
 c	net/minecraft/network/packet/TileEventPacket	rh
 	f	I	x	a
@@ -5535,29 +4288,18 @@ c	net/minecraft/network/packet/TileEventPacket	rh
 	f	I	b1	e
 	f	I	z	c
 	f	I	b0	d
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/client/multiplayer/ConnectScreen	ri
 	f	Lnet/minecraft/client/multiplayer/ClientConnection;	connection	a
 	f	Z	aborted	h
-	m	()V	tick	g
-	m	(IIF)V	render	a
-	m	(CI)V	keyPressed	a
 	m	(Lnet/minecraft/client/multiplayer/ConnectScreen;)Z	access$100	a
 	m	(Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V	<init>	<init>
 	m	(Lnet/minecraft/client/multiplayer/ConnectScreen;)Lnet/minecraft/client/multiplayer/ClientConnection;	access$200	b
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
-	m	()V	init	a
 	m	(Lnet/minecraft/client/multiplayer/ConnectScreen;Lnet/minecraft/client/multiplayer/ClientConnection;)Lnet/minecraft/client/multiplayer/ClientConnection;	access$000	a
 c	net/minecraft/client/gui/SlideButton	rj
 	f	F	value	i
 	f	Z	sliding	k
 	f	Lnet/minecraft/client/Options$Option;	option	l
 	m	(IIILnet/minecraft/client/Options$Option;Ljava/lang/String;F)V	<init>	<init>
-	m	(Z)I	getYImage	a
-	m	(Lnet/minecraft/client/Minecraft;II)V	renderBg	b
-	m	(II)V	released	a
-	m	(Lnet/minecraft/client/Minecraft;II)Z	clicked	c
 c	net/minecraft/client/MouseHandler	rk
 	f	I	xd	a
 	f	Ljava/awt/Component;	parent	c
@@ -5577,29 +4319,13 @@ c	net/minecraft/world/item/ArmorItem	rl
 	f	I	icon	bk
 	m	(IIII)V	<init>	<init>
 c	net/minecraft/world/level/tile/Bush	rm
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
 	m	(Lnet/minecraft/world/level/Level;III)V	checkAlive	h
-	m	()Z	isSolidRender	a
-	m	()Z	isCubeShaped	b
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;III)Z	canSurvive	g
-	m	()I	getRenderShape	g
 	m	(I)Z	mayPlaceOn	c
 c	net/minecraft/world/item/ShovelItem	rn
 	f	[Lnet/minecraft/world/level/tile/Tile;	diggables	bi
 	m	(ILnet/minecraft/world/item/Item$Tier;)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/tile/Tile;)Z	canDestroySpecial	a
 c	net/minecraft/world/level/dimension/HellDimension	ro
-	m	()Lnet/minecraft/world/level/chunk/ChunkSource;	createRandomLevelSource	c
-	m	(JF)F	getTimeOfDay	a
-	m	(II)Z	isValidSpawn	a
-	m	()V	init	a
-	m	()V	updateLightRamp	b
-	m	()Z	mayRespawn	d
-	m	(FF)Lnet/minecraft/world/phys/Vec3;	getFogColor	a
 c	net/minecraft/world/level/TilePos	rp
 	f	I	x	a
 	f	I	y	b
@@ -5607,16 +4333,8 @@ c	net/minecraft/world/level/TilePos	rp
 	m	(III)V	<init>	<init>
 	m	(Ljava/lang/Object;)Z	equals	equals
 c	net/minecraft/world/entity/animal/Pig	rq
-	m	()Ljava/lang/String;	getHurtSound	g
 	m	()Z	hasSaddle	q
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	()V	defineSynchedData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()I	getDeathLoot	i
 	m	(Z)V	setSaddle	a
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	interact	a
 c	net/minecraft/world/level/chunk/DataLayer	rr
 	f	[B	data	a
 	m	(I)V	<init>	<init>
@@ -5626,14 +4344,6 @@ c	net/minecraft/world/level/chunk/DataLayer	rr
 	m	()Z	isValid	a
 c	net/minecraft/world/inventory/ResultContainer	rs
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	a
-	m	()I	getMaxStackSize	d
-	m	()Ljava/lang/String;	getName	c
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
-	m	()V	setChanged	r_
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
-	m	()I	getContainerSize	a
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
 c	util/IntHashMap$Entry	rt
 	f	I	hash	d
 	f	Lutil/IntHashMap$Entry;	next	c
@@ -5646,44 +4356,16 @@ c	util/IntHashMap$Entry	rt
 c	net/minecraft/client/model/SquidModel	ru
 	f	Lnet/minecraft/client/model/Cube;	body	a
 	f	[Lnet/minecraft/client/model/Cube;	tentacles	b
-	m	(FFFFFF)V	setupAnim	a
-	m	(FFFFFF)V	render	b
 c	net/minecraft/world/level/tile/DiodeTile	rv
 	f	Z	on	c
 	f	[I	unk_b	b
 	f	[D	unk_a	a
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	getSignal	c
 	m	(Lnet/minecraft/world/level/Level;IIII)Z	shouldTurnOn	g
-	m	()Z	isSolidRender	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	()Z	isCubeShaped	b
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()Z	isSignalSource	e
-	m	(Lnet/minecraft/world/level/Level;IIII)Z	getDirectSignal	c
 	m	(IZ)V	<init>	<init>
-	m	(I)I	getTexture	a
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	canSurvive	g
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Mob;)V	setPlacedBy	a
-	m	(II)I	getTexture	a
 c	net/minecraft/world/level/tile/GrassTile	rw
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(Lnet/minecraft/world/level/LevelSource;III)I	getColor	b
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)I	getTexture	a
 c	net/minecraft/world/entity/FlyingMob	rx
-	m	(F)V	causeFallDamage	c
-	m	()Z	onLadder	n
-	m	(FF)V	travel	b
 c	net/minecraft/world/level/levelgen/feature/SpruceFeature	ry
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/level/storage/LevelStorage	rz
 	m	(Lnet/minecraft/world/level/dimension/Dimension;)Lnet/minecraft/world/level/chunk/storage/ChunkStorage;	createChunkStorage	a
 	m	(Lnet/minecraft/world/level/LevelData;Ljava/util/List;)V	saveLevelData	a
@@ -5698,14 +4380,6 @@ c	net/minecraft/world/entity/animal/Chicken	sa
 	f	I	eggTime	i
 	f	F	oFlapSpeed	f
 	f	F	flapping	h
-	m	()V	aiStep	m
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(F)V	causeFallDamage	c
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	()I	getDeathLoot	i
 c	net/minecraft/network/packet/ChunkTilesUpdatePacket	sb
 	f	I	xc	a
 	f	I	zc	b
@@ -5713,18 +4387,10 @@ c	net/minecraft/network/packet/ChunkTilesUpdatePacket	sb
 	f	[B	data	e
 	f	I	count	f
 	f	[B	blocks	d
-	m	()I	getEstimatedSize	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
 c	net/minecraft/client/CrashInfoPanel$Border	sc
 	m	(I)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/PumpkinFeature	sd
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/level/storage/MockedLevelStorage	se
-	m	()V	checkSession	b
-	m	()Lnet/minecraft/world/level/LevelData;	prepareLevel	c
-	m	(Lnet/minecraft/world/level/dimension/Dimension;)Lnet/minecraft/world/level/chunk/storage/ChunkStorage;	createChunkStorage	a
-	m	(Lnet/minecraft/world/level/LevelData;)V	saveLevelData	a
-	m	(Lnet/minecraft/world/level/LevelData;Ljava/util/List;)V	saveLevelData	a
 c	net/minecraft/client/multiplayer/ConnectScreen$1	sf
 	f	Lnet/minecraft/client/Minecraft;	val$minecraft	a
 	f	Ljava/lang/String;	val$ip	b
@@ -5753,21 +4419,14 @@ c	net/minecraft/world/level/dimension/Dimension	sg
 	m	()Z	mayRespawn	d
 c	com/mojang/nbt/StringTag	sh
 	f	Ljava/lang/String;	data	a
-	m	(Ljava/io/DataInput;)V	load	a
-	m	(Ljava/io/DataOutput;)V	write	a
-	m	()B	getId	a
 	m	(Ljava/lang/String;)V	<init>	<init>
 c	net/minecraft/world/item/crafting/WeaponRecipes	si
 	f	[[Ljava/lang/String;	shapes	a
 	f	[[Ljava/lang/Object;	map	b
 	m	(Lnet/minecraft/world/item/crafting/Recipes;)V	addRecipes	a
 c	net/minecraft/client/particle/WaterDropParticle	sj
-	m	()V	tick	q_
 	m	(Lnet/minecraft/world/level/Level;DDD)V	<init>	<init>
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
 c	net/minecraft/world/level/tile/Sponge	sk
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
 	m	(I)V	<init>	<init>
 c	net/minecraft/network/Connection$1	sl
 	f	Lnet/minecraft/network/Connection;	this$0	a
@@ -5784,33 +4443,14 @@ c	net/minecraft/client/multiplayer/MultiPlayerGameMode	sm
 	f	F	destroyTicks	h
 	f	I	yDestroyBlock	d
 	f	F	destroyProgress	f
-	m	(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemInstance;IIII)Z	useItemOn	a
-	m	(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemInstance;)Z	useItem	a
-	m	(Lnet/minecraft/world/level/Level;)V	initLevel	a
-	m	(Lnet/minecraft/world/entity/player/Player;)V	initPlayer	a
-	m	()V	tick	a
-	m	(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;)V	interact	b
 	m	()V	ensureHasSentCarriedItem	e
-	m	(IIILnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	handleInventoryMouseClock	a
-	m	(IIII)V	continueDestroyBlock	b
 	m	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/multiplayer/ClientConnection;)V	<init>	<init>
-	m	(IIII)Z	destroyBlock	c
-	m	()F	getPickRange	c
-	m	(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/entity/player/Player;	createPlayer	b
-	m	(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;)V	attack	a
-	m	()V	stopDestroyBlock	b
-	m	(IIII)V	startDestroyBlock	a
-	m	(F)V	render	a
-	m	(ILnet/minecraft/world/entity/player/Player;)V	handleCloseInventory	a
 c	net/minecraft/client/particle/SmokeParticle	sn
 	f	F	oSize	a
-	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
-	m	()V	tick	q_
 	m	(Lnet/minecraft/world/level/Level;DDDDDDF)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/SpringFeature	so
 	f	I	tile	a
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/level/LevelSource	sp
 	m	(III)Lnet/minecraft/world/level/tile/entity/TileEntity;	getTileEntity	b
 	m	(III)Lnet/minecraft/world/level/material/Material;	getMaterial	f
@@ -5821,37 +4461,12 @@ c	net/minecraft/world/level/LevelSource	sp
 	m	(III)I	getData	e
 c	net/minecraft/world/level/tile/DispenserTile	sq
 	m	(I)V	<init>	<init>
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(I)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
 	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	fireArrow	c
-	m	()Lnet/minecraft/world/level/tile/entity/TileEntity;	newTileEntity	a_
-	m	()I	getTickDelay	d
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/Mob;)V	setPlacedBy	a
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
 	m	(Lnet/minecraft/world/level/Level;III)V	recalcLockDir	h
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 c	net/minecraft/world/level/tile/LeverTile	sr
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)V	attack	b
-	m	()Z	isCubeShaped	b
-	m	()Z	isSolidRender	a
-	m	()Z	isSignalSource	e
-	m	(Lnet/minecraft/world/level/Level;IIII)V	setPlacedOnFace	d
-	m	(Lnet/minecraft/world/level/Level;IIILnet/minecraft/world/entity/player/Player;)Z	use	a
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	getSignal	c
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	(Lnet/minecraft/world/level/Level;IIII)Z	getDirectSignal	c
-	m	(Lnet/minecraft/world/level/LevelSource;III)V	updateShape	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
 	m	(II)V	<init>	<init>
 	m	(Lnet/minecraft/world/level/Level;III)Z	checkCanSurvive	h
-	m	(Lnet/minecraft/world/level/Level;III)V	onRemove	b
 c	net/minecraft/world/level/levelgen/feature/HellFireFeature	ss
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/entity/animal/Squid	st
 	f	F	ty	o
 	f	F	tentacleMovement	g
@@ -5867,19 +4482,6 @@ c	net/minecraft/world/entity/animal/Squid	st
 	f	F	tx	n
 	f	F	xBodyRot	a
 	f	F	zBodyRot	c
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	()F	getSoundVolume	j
-	m	()V	dropDeathLoot	o
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()I	getDeathLoot	i
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	interact	a
-	m	()Z	isInWater	j_
-	m	()V	aiStep	m
-	m	()Ljava/lang/String;	getDeathSound	h_
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()V	updateAi	d_
-	m	(FF)V	travel	b
-	m	()Ljava/lang/String;	getAmbientSound	f
 c	net/minecraft/world/level/tile/NotGateTile$Toggle	su
 	f	J	when	d
 	f	I	z	c
@@ -5915,18 +4517,13 @@ c	net/minecraft/client/particle/Particle	sw
 	f	F	rCol	i
 	f	F	gravity	h
 	f	I	tex	b
-	m	()V	defineSynchedData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 	m	(Lnet/minecraft/world/level/Level;DDDDDD)V	<init>	<init>
 	m	(F)Lnet/minecraft/client/particle/Particle;	setPower	b
-	m	()V	tick	q_
 	m	(Lnet/minecraft/client/renderer/Tesselator;FFFFFF)V	render	a
 	m	()I	getParticleTexture	b_
 	m	(F)Lnet/minecraft/client/particle/Particle;	scale	d
 c	net/minecraft/client/StopGameException	sx
 c	net/minecraft/client/renderer/entity/SheepRenderer	sy
-	m	(Lnet/minecraft/world/entity/Mob;IF)Z	prepareArmor	a
 	m	(Lnet/minecraft/client/model/Model;Lnet/minecraft/client/model/Model;F)V	<init>	<init>
 c	net/minecraft/client/player/RemotePlayer	sz
 	f	D	ly	d
@@ -5936,32 +4533,12 @@ c	net/minecraft/client/player/RemotePlayer	sz
 	f	D	lxr	bJ
 	f	I	lSteps	b
 	f	F	fallTime	a
-	m	()F	getShadowHeightOffs	k_
-	m	()V	unk_C	B
-	m	()V	animateRespawn	u
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	(III)V	setEquippedSlot	c
-	m	()V	tick	q_
-	m	()V	aiStep	m
 	m	(Lnet/minecraft/world/level/Level;Ljava/lang/String;)V	<init>	<init>
-	m	(DDDFFI)V	lerpTo	a
 c	net/minecraft/world/entity/monster/PigZombie	ta
 	f	I	angerTime	a
 	f	I	playAngrySoundIn	b
 	f	Lnet/minecraft/world/item/ItemInstance;	sword	f
-	m	()Ljava/lang/String;	getAmbientSound	f
-	m	()V	aiStep	m
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	()Ljava/lang/String;	getDeathSound	h_
 	m	(Lnet/minecraft/world/entity/Entity;)V	alert	c
-	m	()V	tick	q_
-	m	()Lnet/minecraft/world/item/ItemInstance;	getCarriedItem	o_
-	m	()Z	canSpawn	c
-	m	()I	getDeathLoot	i
-	m	()Ljava/lang/String;	getHurtSound	g
-	m	()Lnet/minecraft/world/entity/Entity;	findAttackTarget	e_
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
 c	util/ProgressListener	tb
 	m	(Ljava/lang/String;)V	progressStartNoAbort	b
 	m	(I)V	progressStagePercentage	a
@@ -5972,15 +4549,8 @@ c	net/minecraft/client/gui/inventory/TextEditScreen	tc
 	f	I	frame	i
 	f	I	line	k
 	f	Ljava/lang/String;	allowedChars	l
-	m	(Lnet/minecraft/client/gui/Button;)V	buttonClicked	a
-	m	(CI)V	keyPressed	a
-	m	()V	init	a
 	m	(Lnet/minecraft/world/level/tile/entity/SignTileEntity;)V	<init>	<init>
-	m	(IIF)V	render	a
-	m	()V	removed	h
-	m	()V	tick	g
 c	net/minecraft/world/item/FlintAndSteelItem	td
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/world/level/levelgen/RandomLevelSource	te
 	f	[D	pnr	d
 	f	Lnet/minecraft/world/level/Level;	level	p
@@ -6005,32 +4575,20 @@ c	net/minecraft/world/level/levelgen/RandomLevelSource	te
 	f	Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;	perlinNoise3	o
 	f	[D	buffer	q
 	f	Lnet/minecraft/world/level/levelgen/synth/PerlinNoise;	lperlinNoise1	k
-	m	()Ljava/lang/String;	gatherStats	c
 	m	(Lnet/minecraft/world/level/Level;J)V	<init>	<init>
-	m	(II)Z	hasChunk	a
-	m	(Lnet/minecraft/world/level/chunk/ChunkSource;II)V	postProcess	a
 	m	(II[B[Lnet/minecraft/world/level/biome/Biome;)V	buildSurfaces	a
-	m	()Z	shouldSave	b
-	m	(ZLutil/ProgressListener;)Z	save	a
 	m	(II[B[Lnet/minecraft/world/level/biome/Biome;[D)V	prepareHeights	a
-	m	(II)Lnet/minecraft/world/level/chunk/LevelChunk;	getChunk	b
 	m	([DIIIIII)[D	getHeights	a
-	m	()Z	tick	a
 c	net/minecraft/client/renderer/entity/GiantMobRenderer	tf
 	f	F	scale	a
-	m	(Lnet/minecraft/world/entity/Mob;F)V	scale	a
 	m	(Lnet/minecraft/client/model/Model;FF)V	<init>	<init>
 c	net/minecraft/world/level/levelgen/feature/TreeFeature	tg
-	m	(Lnet/minecraft/world/level/Level;Ljava/util/Random;III)Z	place	a
 c	net/minecraft/world/level/tile/HellStoneTile	th
 	m	(II)V	<init>	<init>
 c	net/minecraft/world/level/biome/RainforestBiome	ti
-	m	(Ljava/util/Random;)Lnet/minecraft/world/level/levelgen/feature/Feature;	getTreeFeature	a
 c	net/minecraft/world/level/tile/entity/SignTileEntity	tj
 	f	I	selectedLine	b
 	f	[Ljava/lang/String;	messages	a
-	m	(Lcom/mojang/nbt/CompoundTag;)V	save	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	load	a
 c	net/minecraft/world/entity/item/Minecart	tk
 	f	[Lnet/minecraft/world/item/ItemInstance;	items	h
 	f	D	xPush	f
@@ -6051,36 +4609,10 @@ c	net/minecraft/world/entity/item/Minecart	tk
 	f	[[[I	EXITS	j
 	f	D	lyr	o
 	f	D	lxd	q
-	m	()Z	isPushable	g_
 	m	(DDDD)Lnet/minecraft/world/phys/Vec3;	getPosOffs	a
-	m	(Lnet/minecraft/world/entity/Entity;I)Z	hurt	a
-	m	()V	tick	q_
-	m	()V	setChanged	r_
-	m	()I	getContainerSize	a
-	m	(DDD)V	lerpMotion	a
-	m	(Lnet/minecraft/world/entity/Entity;)V	push	h
-	m	(DDDFFI)V	lerpTo	a
-	m	()Z	isPickable	f_
-	m	()Ljava/lang/String;	getName	c
-	m	()F	getShadowHeightOffs	k_
-	m	()V	animateHurt	h
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	stillValid	a_
-	m	()V	remove	G
 	m	(Lnet/minecraft/world/level/Level;DDDI)V	<init>	<init>
-	m	()Lnet/minecraft/world/phys/AABB;	getCollideBox	i_
-	m	()V	defineSynchedData	b
-	m	(Lcom/mojang/nbt/CompoundTag;)V	addAdditionalSaveData	a
-	m	(ILnet/minecraft/world/item/ItemInstance;)V	setItem	a
 	m	(DDD)Lnet/minecraft/world/phys/Vec3;	getPos	h
-	m	(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/AABB;	getCollideAgainstBox	a
-	m	()I	getMaxStackSize	d
-	m	(I)Lnet/minecraft/world/item/ItemInstance;	getItem	c_
-	m	(Lnet/minecraft/world/entity/player/Player;)Z	interact	a
-	m	(II)Lnet/minecraft/world/item/ItemInstance;	removeItem	a
-	m	()D	getRideHeight	l
-	m	(Lcom/mojang/nbt/CompoundTag;)V	readAdditionalSaveData	b
 c	net/minecraft/world/item/PaintingItem	tl
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/level/Level;IIII)Z	useOn	a
 c	net/minecraft/client/renderer/culling/Culler	tm
 	m	(Lnet/minecraft/world/phys/AABB;)Z	isVisible	a
 	m	(DDD)V	prepare	a
@@ -6109,55 +4641,27 @@ c	net/minecraft/client/sound/SoundEngine	tn
 c	net/minecraft/world/level/tile/FireTile	to
 	f	[I	burnOdds	b
 	f	[I	flameOdds	a
-	m	(Lnet/minecraft/world/level/Level;IIII)V	neighborChanged	a
-	m	()Z	isCubeShaped	b
 	m	(Lnet/minecraft/world/level/Level;IIIILjava/util/Random;)V	checkBurn	a
 	m	(II)V	<init>	<init>
-	m	()Z	isSolidRender	a
 	m	(Lnet/minecraft/world/level/LevelSource;III)Z	canBurn	c
-	m	()I	getTickDelay	d
-	m	()I	getRenderShape	g
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	animateTick	b
 	m	(III)V	setFlammable	a
 	m	(Lnet/minecraft/world/level/Level;IIII)I	getFlammability	g
-	m	(Ljava/util/Random;)I	getResourceCount	a
 	m	(Lnet/minecraft/world/level/Level;III)I	getFireOdds	i
-	m	(Lnet/minecraft/world/level/Level;III)Lnet/minecraft/world/phys/AABB;	getAABB	d
-	m	(Lnet/minecraft/world/level/Level;IIILjava/util/Random;)V	tick	a
-	m	(Lnet/minecraft/world/level/Level;III)Z	mayPlace	a
-	m	()Z	mayPick	h
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 	m	(Lnet/minecraft/world/level/Level;III)Z	isValidFireLocation	h
 c	net/minecraft/network/packet/DisconnectPacket	tp
 	f	Ljava/lang/String;	reason	a
-	m	(Lnet/minecraft/network/packet/PacketListener;)V	handle	a
-	m	()I	getEstimatedSize	a
 	m	(Ljava/lang/String;)V	<init>	<init>
 c	net/minecraft/world/level/tile/StoneSlabTile	tq
 	f	Z	fullSize	b
 	f	[Ljava/lang/String;	SLAB_NAMES	a
-	m	(Lnet/minecraft/world/level/LevelSource;IIII)Z	shouldRenderFace	b
-	m	()Z	isCubeShaped	b
-	m	(Ljava/util/Random;)I	getResourceCount	a
-	m	()Z	isSolidRender	a
 	m	(IZ)V	<init>	<init>
-	m	(I)I	getSpawnResourcesAuxValue	b
-	m	(ILjava/util/Random;)I	getResource	a
-	m	(I)I	getTexture	a
-	m	(II)I	getTexture	a
-	m	(Lnet/minecraft/world/level/Level;III)V	onPlace	e
 c	net/minecraft/world/inventory/ResultSlot	tr
 	f	Lnet/minecraft/world/Container;	craftSlots	d
-	m	(Lnet/minecraft/world/item/ItemInstance;)Z	mayPlace	a
-	m	()V	onTake	a
 	m	(Lnet/minecraft/world/Container;Lnet/minecraft/world/Container;III)V	<init>	<init>
 c	net/minecraft/world/item/FoodItem	ts
 	f	I	nutrition	a
 	m	(II)V	<init>	<init>
-	m	(Lnet/minecraft/world/item/ItemInstance;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/player/Player;)Lnet/minecraft/world/item/ItemInstance;	use	a
 c	net/minecraft/client/renderer/entity/SpiderRenderer	tt
-	m	(Lnet/minecraft/world/entity/Mob;IF)Z	prepareArmor	a
-	m	(Lnet/minecraft/world/entity/Mob;)F	getFlipDegrees	a
 c	net/minecraft/world/level/ChunkPos	tu
 	f	I	z	b
 	f	I	x	a

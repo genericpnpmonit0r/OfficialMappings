@@ -1,4 +1,5 @@
 CLASS gq net/minecraft/client/particle/RedDustParticle
+	FIELD a oSize F
 	METHOD <init> (Ldu;DDDFFF)V
 		ARG 1 level
 		ARG 2 x
@@ -16,6 +17,3 @@ CLASS gq net/minecraft/client/particle/RedDustParticle
 		ARG 9 r
 		ARG 10 g
 		ARG 11 b
-	METHOD a render (Lkv;FFFFFF)V
-	METHOD q_ tick ()V
-	FIELD a oSize F

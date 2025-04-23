@@ -10,5 +10,3 @@ CLASS fh net/minecraft/network/packet/UseItemPacket
 		ARG 3 z
 		ARG 4 face
 		ARG 5 item
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V

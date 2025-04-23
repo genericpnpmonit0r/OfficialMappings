@@ -1,2 +1,1 @@
 CLASS ib net/minecraft/client/renderer/entity/FireballRenderer
-	METHOD a render (Loo;DDDFF)V

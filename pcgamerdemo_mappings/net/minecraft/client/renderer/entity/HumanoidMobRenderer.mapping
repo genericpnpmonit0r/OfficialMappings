@@ -1,6 +1,5 @@
 CLASS q net/minecraft/client/renderer/entity/HumanoidMobRenderer
+	FIELD a humanoidModel Ldy;
 	METHOD <init> (Ldy;F)V
 		ARG 1 humanoidModel
 		ARG 2 a
-	METHOD b additionalRendering (Lja;F)V
-	FIELD a humanoidModel Ldy;

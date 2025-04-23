@@ -1,6 +1,4 @@
 CLASS qc net/minecraft/network/packet/MoveEntityPacket
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V
 	FIELD a id I
 	FIELD b xa B
 	FIELD c ya B

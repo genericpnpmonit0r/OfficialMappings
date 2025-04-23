@@ -14,15 +14,11 @@ CLASS nt net/minecraft/client/gui/SelectWorldScreen
 	FIELD t deleteButton Lhx;
 	METHOD <init> (Lcb;)V
 		ARG 1 lastScreen
-	METHOD a init ()V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Lhx;)V
 	METHOD a access$000 (Lnt;)Ljava/util/List;
 		ARG 0 this$0
 	METHOD a access$100 (Lnt;I)I
 		ARG 0 this$0
 		ARG 1 selected
-	METHOD a confirmResult (ZI)V
 	METHOD b access$200 (Lnt;)I
 		ARG 0 this$0
 	METHOD c getLevelId (I)Ljava/lang/String;

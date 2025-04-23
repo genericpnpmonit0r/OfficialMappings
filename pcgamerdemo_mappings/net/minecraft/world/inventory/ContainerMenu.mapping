@@ -1,6 +1,5 @@
 CLASS bh net/minecraft/world/inventory/ContainerMenu
+	FIELD a container Ljd;
 	METHOD <init> (Ljd;Ljd;)V
 		ARG 1 c1
 		ARG 2 c2
-	METHOD b stillValid (Lff;)Z
-	FIELD a container Ljd;

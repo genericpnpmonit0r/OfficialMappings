@@ -4,5 +4,3 @@ CLASS sj net/minecraft/client/particle/WaterDropParticle
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a render (Lkv;FFFFFF)V
-	METHOD q_ tick ()V

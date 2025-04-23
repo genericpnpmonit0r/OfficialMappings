@@ -1,6 +1,4 @@
 CLASS gp net/minecraft/client/model/CreeperModel
-	METHOD a setupAnim (FFFFFF)V
-	METHOD b render (FFFFFF)V
 	FIELD a head Lmd;
 	FIELD b hair Lmd;
 	FIELD c body Lmd;

@@ -6,5 +6,3 @@ CLASS ld net/minecraft/network/packet/ContainerAckPacket
 		ARG 1 containerId
 		ARG 2 uid
 		ARG 3 accepted
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V

@@ -6,13 +6,7 @@ CLASS ei net/minecraft/client/title/TitleScreen
 	FIELD l splash Ljava/lang/String;
 	FIELD m multiplayerButton Lhx;
 	FIELD n resetDemoButton Lhx;
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
 	METHOD a renderMinecraftLogo (F)V
 		ARG 1 a
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Lhx;)V
-	METHOD a confirmResult (ZI)V
-	METHOD g tick ()V
 	METHOD j findDemoWorld ()Lqt;
 	METHOD k access$000 ()Ljava/util/Random;

@@ -1,9 +1,4 @@
 CLASS hj net/minecraft/network/packet/AddMobPacket
-	METHOD <init> (Lja;)V
-		ARG 1 mob
-	METHOD a getEstimatedSize ()I
-	METHOD a handle (Lpg;)V
-	METHOD b getUnpackedData ()Ljava/util/List;
 	FIELD a id I
 	FIELD b type B
 	FIELD c x I
@@ -13,3 +8,6 @@ CLASS hj net/minecraft/network/packet/AddMobPacket
 	FIELD g xRot B
 	FIELD h entityData Lpx;
 	FIELD i unpack Ljava/util/List;
+	METHOD <init> (Lja;)V
+		ARG 1 mob
+	METHOD b getUnpackedData ()Ljava/util/List;
