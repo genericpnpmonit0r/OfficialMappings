@@ -8,7 +8,3 @@ CLASS en net/minecraft/network/packet/MovePlayerPacket
 	FIELD g onGround Z
 	FIELD h hasPos Z
 	FIELD i hasRot Z
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

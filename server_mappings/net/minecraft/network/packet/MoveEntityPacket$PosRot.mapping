@@ -6,6 +6,3 @@ CLASS ih net/minecraft/network/packet/MoveEntityPacket$PosRot
 		ARG 4 za
 		ARG 5 yRot
 		ARG 6 xRot
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V

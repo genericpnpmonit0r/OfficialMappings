@@ -11,7 +11,3 @@ CLASS fm net/minecraft/network/packet/EntityActionAtPositionPacket
 		ARG 3 x
 		ARG 4 y
 		ARG 5 z
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

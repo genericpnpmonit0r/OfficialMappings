@@ -1,4 +1,8 @@
 CLASS ck net/minecraft/world/level/Region
+	FIELD a xc1 I
+	FIELD b zc1 I
+	FIELD c chunks [[Lgd;
+	FIELD d level Lcp;
 	METHOD <init> (Lcp;IIIIII)V
 		ARG 1 level
 		ARG 2 xc1
@@ -7,11 +11,3 @@ CLASS ck net/minecraft/world/level/Region
 		ARG 5 xc2
 		ARG 6 yc2
 		ARG 7 zc2
-	METHOD a getTile (III)I
-	METHOD b getData (III)I
-	METHOD c getMaterial (III)Lge;
-	METHOD d isSolidTile (III)Z
-	FIELD a xc1 I
-	FIELD b zc1 I
-	FIELD c chunks [[Lgd;
-	FIELD d level Lcp;

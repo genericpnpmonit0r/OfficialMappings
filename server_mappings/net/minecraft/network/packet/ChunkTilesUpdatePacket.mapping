@@ -11,7 +11,3 @@ CLASS ml net/minecraft/network/packet/ChunkTilesUpdatePacket
 		ARG 3 positions
 		ARG 4 count
 		ARG 5 level
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

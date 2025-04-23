@@ -19,4 +19,3 @@ CLASS jz net/minecraft/world/level/levelgen/LargeCaveFeature
 		ARG 13 j
 		ARG 14 k
 		ARG 15 l
-	METHOD a addFeature (Lcp;IIII[B)V

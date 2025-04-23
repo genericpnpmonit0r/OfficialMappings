@@ -11,17 +11,9 @@ CLASS cv net/minecraft/server/ServerLevel
 		ARG 4 dimension
 	METHOD a getEntity (I)Ljw;
 		ARG 1 id
-	METHOD a mayInteract (Ldp;III)Z
-	METHOD a broadcastEntityEvent (Ljw;B)V
-	METHOD a explode (Ljw;DDDFZ)Lis;
-	METHOD a tick (Ljw;Z)V
-	METHOD b createChunkSource ()Lay;
-	METHOD b entityAdded (Ljw;)V
 	METHOD b forceTick (Ljw;Z)V
 		ARG 1 e
 		ARG 2 b
-	METHOD c entityRemoved (Ljw;)V
-	METHOD d tileEvent (IIIII)V
 	METHOD d getTileEntities (IIIIII)Ljava/util/List;
 		ARG 1 x0
 		ARG 2 y0

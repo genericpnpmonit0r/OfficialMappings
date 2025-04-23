@@ -7,7 +7,3 @@ CLASS jy net/minecraft/network/packet/AddEntityPacket
 	METHOD <init> (Ljw;I)V
 		ARG 1 entity
 		ARG 2 type
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

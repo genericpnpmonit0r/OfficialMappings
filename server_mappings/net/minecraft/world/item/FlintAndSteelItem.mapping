@@ -1,2 +1,1 @@
 CLASS nf net/minecraft/world/item/FlintAndSteelItem
-	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z

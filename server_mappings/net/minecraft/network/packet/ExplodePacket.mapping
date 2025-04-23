@@ -10,7 +10,3 @@ CLASS jd net/minecraft/network/packet/ExplodePacket
 		ARG 5 z
 		ARG 7 r
 		ARG 8 toBlow
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

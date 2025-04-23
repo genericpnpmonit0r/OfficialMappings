@@ -1,6 +1,5 @@
 CLASS eh net/minecraft/world/item/DoorItem
+	FIELD a material Lge;
 	METHOD <init> (ILge;)V
 		ARG 1 id
 		ARG 2 material
-	METHOD a useOn (Ley;Ldp;Lcp;IIII)Z
-	FIELD a material Lge;

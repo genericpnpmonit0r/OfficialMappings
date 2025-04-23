@@ -19,10 +19,8 @@ CLASS dj net/minecraft/server/PendingConnection
 	METHOD a access$100 (Ldj;Lhm;)Lhm;
 		ARG 0 this$0
 		ARG 1 val$packet
-	METHOD a onUnhandledPacket (Lfp;)V
 	METHOD a disconnect (Ljava/lang/String;)V
 		ARG 1 reason
-	METHOD a onDisconnect (Ljava/lang/String;[Ljava/lang/Object;)V
 	METHOD b getUserName ()Ljava/lang/String;
 		COMMENT no idea what this is called due to it being inlined in the LCE symbols
 	METHOD b handleAcceptedLogin (Lhm;)V

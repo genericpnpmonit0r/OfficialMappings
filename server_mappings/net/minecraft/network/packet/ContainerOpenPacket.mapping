@@ -8,7 +8,3 @@ CLASS ew net/minecraft/network/packet/ContainerOpenPacket
 		ARG 2 type
 		ARG 3 title
 		ARG 4 size
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

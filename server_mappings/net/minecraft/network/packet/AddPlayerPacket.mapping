@@ -9,7 +9,3 @@ CLASS gp net/minecraft/network/packet/AddPlayerPacket
 	FIELD h carriedItem I
 	METHOD <init> (Ldp;)V
 		ARG 1 player
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

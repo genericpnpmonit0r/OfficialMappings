@@ -17,7 +17,6 @@ CLASS cr net/minecraft/server/ServerPlayer
 		ARG 3 name
 		ARG 4 gameMode
 	METHOD V nextContainerCounter ()V
-	METHOD a checkFallDamage (DZ)V
 	METHOD a setInput (FFZZFF)V
 		ARG 1 xxa
 		ARG 2 yya
@@ -25,36 +24,16 @@ CLASS cr net/minecraft/server/ServerPlayer
 		ARG 4 sneaking
 		ARG 5 xRot
 		ARG 6 yRot
-	METHOD a startSleepInBed (III)Z
-	METHOD a openTrap (Lad;)V
-	METHOD a setContainerData (Lbv;II)V
-	METHOD a slotChanged (Lbv;ILey;)V
-	METHOD a carriedChanged (Ley;)V
-	METHOD a openContainer (Lgk;)V
 	METHOD a broadcast (Lhv;)V
 		ARG 1 tileEntity
-	METHOD a openFurnace (Ljt;)V
-	METHOD a die (Ljw;)V
-	METHOD a hurt (Ljw;I)Z
 	METHOD a doChunkSendingTick (Z)V
 		ARG 1 b
-	METHOD a stopSleepInBed (ZZ)V
 	METHOD b doCheckFallDamage (DZ)V
 		ARG 1 a
 		ARG 3 b
-	METHOD b heal (I)V
-	METHOD b startCrafting (III)V
-	METHOD b ride (Ljw;)V
-	METHOD b take (Ljw;I)V
 	METHOD b_ getCarried (I)Ley;
 		ARG 1 selected
-	METHOD f_ tick ()V
 	METHOD l initMenu ()V
-	METHOD l_ unk_C ()V
-	METHOD p getHeadHeight ()F
-	METHOD q aiStep ()V
-	METHOD r swing ()V
 	METHOD s unk_s ()V
-	METHOD t closeContainer ()V
 	METHOD u broadcastCarriedItem ()V
 	METHOD v doCloseContainer ()V

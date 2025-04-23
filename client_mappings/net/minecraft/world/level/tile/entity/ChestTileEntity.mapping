@@ -1,3 +1,2 @@
 CLASS hn net/minecraft/world/level/tile/entity/ChestTileEntity
 	FIELD a items [Lgz;
-	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;)V

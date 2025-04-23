@@ -9,9 +9,6 @@ CLASS dz net/minecraft/world/level/storage/McRegionLevelStorageSource
 		ARG 1 baseFolder
 		ARG 2 oldChunks
 		ARG 3 chunkFiles
-	METHOD a requiresConversion (Ljava/lang/String;)Z
-	METHOD a convertLevel (Ljava/lang/String;Lne;)Z
-	METHOD a selectLevel (Ljava/lang/String;Z)Lmi;
 	METHOD a deleteFiles (Ljava/util/ArrayList;IILne;)V
 		ARG 1 files
 		ARG 2 currentCount

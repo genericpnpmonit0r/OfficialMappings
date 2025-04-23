@@ -4,6 +4,3 @@ CLASS kc net/minecraft/network/packet/MoveEntityPacket$Pos
 		ARG 2 xa
 		ARG 3 ya
 		ARG 4 za
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V

@@ -9,7 +9,3 @@ CLASS ks net/minecraft/network/packet/TileUpdatePacket
 		ARG 2 y
 		ARG 3 z
 		ARG 4 level
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

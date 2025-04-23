@@ -1,6 +1,5 @@
 CLASS lw net/minecraft/world/item/ShovelItem
+	FIELD bi diggables [Llc;
 	METHOD <init> (ILap;)V
 		ARG 1 id
 		ARG 2 tier
-	METHOD a canDestroySpecial (Llc;)Z
-	FIELD bi diggables [Llc;

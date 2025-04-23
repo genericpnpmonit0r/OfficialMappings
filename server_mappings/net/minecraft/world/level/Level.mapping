@@ -56,7 +56,6 @@ CLASS cp net/minecraft/world/level/Level
 	METHOD a getTopTile (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getTile (III)I
 	METHOD a hasChunkAt (IIII)Z
 		ARG 1 x0
 		ARG 2 z0
@@ -223,7 +222,6 @@ CLASS cp net/minecraft/world/level/Level
 	METHOD b getChunkAt (II)Lgd;
 		ARG 1 x
 		ARG 2 z
-	METHOD b getData (III)I
 	METHOD b setTileNoUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -269,7 +267,6 @@ CLASS cp net/minecraft/world/level/Level
 	METHOD c getChunk (II)Lgd;
 		ARG 1 x
 		ARG 2 z
-	METHOD c getMaterial (III)Lge;
 	METHOD c setData (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -296,7 +293,6 @@ CLASS cp net/minecraft/world/level/Level
 	METHOD d getHeightmap (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD d isSolidTile (III)Z
 	METHOD d setDataNoUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y

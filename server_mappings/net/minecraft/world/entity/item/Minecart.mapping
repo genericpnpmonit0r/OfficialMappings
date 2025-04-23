@@ -21,28 +21,7 @@ CLASS nl net/minecraft/world/entity/item/Minecart
 		ARG 4 y
 		ARG 6 z
 		ARG 8 type
-	METHOD C remove ()V
-	METHOD a defineSynchedData ()V
-	METHOD a removeItem (II)Ley;
-	METHOD a setItem (ILey;)V
-	METHOD a interact (Ldp;)Z
-	METHOD a addAdditionalSaveData (Lhj;)V
-	METHOD a hurt (Ljw;I)Z
-	METHOD a_ stillValid (Ldp;)Z
-	METHOD a_ getCollideAgainstBox (Ljw;)Lcg;
-	METHOD b readAdditionalSaveData (Lhj;)V
-	METHOD c getName ()Ljava/lang/String;
-	METHOD c_ getItem (I)Ley;
-	METHOD d getCollideBox ()Lcg;
-	METHOD d_ isPickable ()Z
-	METHOD e_ isPushable ()Z
-	METHOD f_ tick ()V
 	METHOD g getPos (DDD)Lao;
 		ARG 1 x
 		ARG 3 y
 		ARG 5 z
-	METHOD h setChanged ()V
-	METHOD h push (Ljw;)V
-	METHOD k getRideHeight ()D
-	METHOD m_ getContainerSize ()I
-	METHOD n_ getMaxStackSize ()I

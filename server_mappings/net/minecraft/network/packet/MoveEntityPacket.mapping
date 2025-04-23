@@ -8,7 +8,3 @@ CLASS kw net/minecraft/network/packet/MoveEntityPacket
 	FIELD g hasRot Z
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

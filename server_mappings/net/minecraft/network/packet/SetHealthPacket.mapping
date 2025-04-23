@@ -2,7 +2,3 @@ CLASS ci net/minecraft/network/packet/SetHealthPacket
 	FIELD a health I
 	METHOD <init> (I)V
 		ARG 1 health
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

@@ -4,7 +4,3 @@ CLASS hh net/minecraft/network/packet/SetRidingPacket
 	METHOD <init> (Ljw;Ljw;)V
 		ARG 1 rider
 		ARG 2 ridden
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

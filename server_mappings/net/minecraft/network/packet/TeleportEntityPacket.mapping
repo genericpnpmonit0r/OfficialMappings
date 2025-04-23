@@ -14,7 +14,3 @@ CLASS iy net/minecraft/network/packet/TeleportEntityPacket
 		ARG 6 xRot
 	METHOD <init> (Ljw;)V
 		ARG 1 entity
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

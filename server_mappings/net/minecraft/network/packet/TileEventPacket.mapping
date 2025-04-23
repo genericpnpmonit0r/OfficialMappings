@@ -10,7 +10,3 @@ CLASS lt net/minecraft/network/packet/TileEventPacket
 		ARG 3 z
 		ARG 4 b0
 		ARG 5 b1
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V

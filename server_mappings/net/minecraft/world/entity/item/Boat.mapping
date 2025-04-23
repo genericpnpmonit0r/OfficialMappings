@@ -13,15 +13,3 @@ CLASS dg net/minecraft/world/entity/item/Boat
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a defineSynchedData ()V
-	METHOD a interact (Ldp;)Z
-	METHOD a addAdditionalSaveData (Lhj;)V
-	METHOD a hurt (Ljw;I)Z
-	METHOD a_ getCollideAgainstBox (Ljw;)Lcg;
-	METHOD b readAdditionalSaveData (Lhj;)V
-	METHOD d getCollideBox ()Lcg;
-	METHOD d_ isPickable ()Z
-	METHOD e_ isPushable ()Z
-	METHOD f_ tick ()V
-	METHOD h_ positionRider ()V
-	METHOD k getRideHeight ()D

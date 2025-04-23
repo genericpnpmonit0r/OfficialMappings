@@ -5,10 +5,6 @@ CLASS il net/minecraft/network/packet/PlayerInputPacket
 	FIELD d jumping Z
 	FIELD e xRot F
 	FIELD f yRot F
-	METHOD a getEstimatedSize ()I
-	METHOD a read (Ljava/io/DataInputStream;)V
-	METHOD a write (Ljava/io/DataOutputStream;)V
-	METHOD a handle (Lkj;)V
 	METHOD c getXxa ()F
 	METHOD d getXRot ()F
 	METHOD e getYya ()F

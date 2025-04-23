@@ -1,12 +1,9 @@
 CLASS jv net/minecraft/world/level/tile/RedStoneDustTile
+	FIELD a shouldSignal Z
+	FIELD b toUpdate Ljava/util/Set;
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (II)I
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a mayPlace (Lcp;III)Z
-	METHOD a neighborChanged (Lcp;IIII)V
 	METHOD a updatePowerStrength (Lcp;IIIIII)V
 		ARG 1 level
 		ARG 2 x0
@@ -15,17 +12,11 @@ CLASS jv net/minecraft/world/level/tile/RedStoneDustTile
 		ARG 5 x1
 		ARG 6 y1
 		ARG 7 z1
-	METHOD b onRemove (Lcp;III)V
 	METHOD b shouldConnectTo (Lmw;III)Z
 		ARG 0 level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD b getSignal (Lmw;IIII)Z
-	METHOD c isSignalSource ()Z
-	METHOD c getDirectSignal (Lcp;IIII)Z
-	METHOD d getAABB (Lcp;III)Lcg;
-	METHOD e onPlace (Lcp;III)V
 	METHOD g updatePowerStrength (Lcp;III)V
 		ARG 1 level
 		ARG 2 x
@@ -42,5 +33,3 @@ CLASS jv net/minecraft/world/level/tile/RedStoneDustTile
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	FIELD a shouldSignal Z
-	FIELD b toUpdate Ljava/util/Set;
