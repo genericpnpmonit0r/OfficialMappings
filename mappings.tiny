@@ -3174,7 +3174,7 @@ c	net/minecraft/client/model/Cube	ms
 	m	(F)V	compile	d	
 	m	(FFFIIIF)V	addBox	a	
 	m	(F)V	render	a	
-	m	(F)V	render2	b	
+	m	(F)V	renderSkinned	b	
 	m	(F)V	translateTo	c	
 	m	(FFFIII)V	addBox	a	
 	m	(FFF)V	setPos	a	

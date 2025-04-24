@@ -38,7 +38,7 @@ CLASS ms net/minecraft/client/model/Cube
 		ARG 5 h
 		ARG 6 d
 		ARG 7 g
-	METHOD b render2 (F)V
+	METHOD b renderSkinned (F)V
 		ARG 1 scale
 	METHOD c translateTo (F)V
 		ARG 1 scale
