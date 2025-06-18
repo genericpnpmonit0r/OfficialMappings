@@ -1,6 +1,0 @@
-CLASS fr net/minecraft/network/packet/PlayerActionPacket
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
-	FIELD d face I
-	FIELD e action I

@@ -1,0 +1,4 @@
+CLASS l
+	METHOD a scale (Lkw;F)V
+	METHOD a getOverlayColor (Lkw;FF)I
+	METHOD a prepareArmor (Lkw;IF)Z

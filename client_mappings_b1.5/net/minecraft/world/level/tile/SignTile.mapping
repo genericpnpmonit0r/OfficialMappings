@@ -1,0 +1,16 @@
+CLASS tf net/minecraft/world/level/tile/SignTile
+	METHOD <init> (ILjava/lang/Class;Z)V
+		ARG 1 id
+		ARG 2 clas
+		ARG 3 onGround
+	METHOD a isSolidRender ()Z
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Let;IIII)V
+	METHOD a updateShape (Lwf;III)V
+	METHOD a_ newTileEntity ()Lnx;
+	METHOD b isCubeShaped ()Z
+	METHOD d getAABB (Let;III)Leg;
+	METHOD f getTileAABB (Let;III)Leg;
+	METHOD g getRenderShape ()I
+	FIELD a clas Ljava/lang/Class;
+	FIELD b onGround Z

@@ -1,0 +1,20 @@
+CLASS uf net/minecraft/world/level/tile/TorchTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Let;III)Z
+	METHOD a neighborChanged (Let;IIII)V
+	METHOD a clip (Let;IIILbm;Lbm;)Lty;
+	METHOD a tick (Let;IIILjava/util/Random;)V
+	METHOD b isCubeShaped ()Z
+	METHOD b animateTick (Let;IIILjava/util/Random;)V
+	METHOD d getAABB (Let;III)Leg;
+	METHOD d setPlacedOnFace (Let;IIII)V
+	METHOD e onPlace (Let;III)V
+	METHOD g getRenderShape ()I
+	METHOD h checkCanSurvive (Let;III)Z
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

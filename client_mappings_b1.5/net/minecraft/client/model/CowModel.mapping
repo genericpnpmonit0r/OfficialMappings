@@ -1,0 +1,6 @@
+CLASS gv net/minecraft/client/model/CowModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a udder Lot;
+	FIELD b horn1 Lot;
+	FIELD c horn2 Lot;

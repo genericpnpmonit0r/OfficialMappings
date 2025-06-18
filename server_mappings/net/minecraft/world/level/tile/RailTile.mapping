@@ -1,9 +1,0 @@
-CLASS ij net/minecraft/world/level/tile/RailTile
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 tex
-	METHOD g updateDir (Lcw;III)V
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z

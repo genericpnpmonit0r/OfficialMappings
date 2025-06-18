@@ -1,0 +1,12 @@
+CLASS en net/minecraft/client/multiplayer/DisconnectedScreen
+	METHOD <init> (Ljava/lang/String;Ljava/lang/String;[Ljava/lang/Object;)V
+		ARG 1 title
+		ARG 2 reason
+		ARG 3 reasonObjects
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Ljk;)V
+	METHOD g tick ()V
+	FIELD a title Ljava/lang/String;
+	FIELD i reason Ljava/lang/String;

@@ -1,6 +1,0 @@
-CLASS nl net/minecraft/network/Connection$2
-	FIELD a this$0 Lil;
-	METHOD <init> (Lil;Ljava/lang/String;)V
-		ARG 1 this$0
-		ARG 2 val$name
-	METHOD run run ()V

@@ -1,0 +1,2 @@
+CLASS om net/minecraft/client/renderer/entity/FishingHookRenderer
+	METHOD a render (Lrj;DDDFF)V

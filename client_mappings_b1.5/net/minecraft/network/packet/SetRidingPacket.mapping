@@ -1,0 +1,4 @@
+CLASS mw net/minecraft/network/packet/SetRidingPacket
+	METHOD a handle (Lse;)V
+	FIELD a riderId I
+	FIELD b riddenId I

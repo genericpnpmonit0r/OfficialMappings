@@ -1,2 +1,0 @@
-CLASS ol net/minecraft/network/packet/RemoveEntityPacket
-	FIELD a id I

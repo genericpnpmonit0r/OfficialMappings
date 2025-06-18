@@ -1,0 +1,10 @@
+CLASS lj WorldSelectionList
+	METHOD <init> (Lqp;)V
+		ARG 1 this$0
+	METHOD a getNumberOfItems ()I
+	METHOD a renderItem (IIIILna;)V
+	METHOD a selectItem (IZ)V
+	METHOD a_ isSelectedItem (I)Z
+	METHOD b getMaxPosition ()I
+	METHOD c renderBackground ()V
+	FIELD a this$0 Lqp;

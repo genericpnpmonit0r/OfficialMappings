@@ -1,0 +1,17 @@
+CLASS pt net/minecraft/client/gui/ConfirmScreen
+	METHOD <init> (Lcs;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+		ARG 1 parent
+		ARG 2 title1
+		ARG 3 title2
+		ARG 4 yes
+		ARG 5 no
+		ARG 6 id
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Ljk;)V
+	FIELD a parent Lcs;
+	FIELD i title1 Ljava/lang/String;
+	FIELD j title2 Ljava/lang/String;
+	FIELD l yes Ljava/lang/String;
+	FIELD m no Ljava/lang/String;
+	FIELD n id I

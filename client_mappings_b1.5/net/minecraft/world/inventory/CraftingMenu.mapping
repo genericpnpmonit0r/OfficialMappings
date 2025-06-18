@@ -1,0 +1,16 @@
+CLASS ie net/minecraft/world/inventory/CraftingMenu
+	METHOD <init> (Lih;Let;III)V
+		ARG 1 inventory
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a removed (Lgh;)V
+	METHOD a slotsChanged (Lla;)V
+	METHOD b stillValid (Lgh;)Z
+	FIELD a craftSlots Llu;
+	FIELD b resultSlots Lla;
+	FIELD c level Let;
+	FIELD h x I
+	FIELD i y I
+	FIELD j z I

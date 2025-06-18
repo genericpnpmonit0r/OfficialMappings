@@ -1,8 +1,0 @@
-CLASS jk net/minecraft/client/gui/JoinMultiplayerScreen
-	FIELD a lastScreen Lcf;
-	FIELD i ipEdit Lof;
-	METHOD <init> (Lcf;)V
-		ARG 1 lastScreen
-	METHOD a parseInt (Ljava/lang/String;I)I
-		ARG 1 str
-		ARG 2 def

@@ -1,0 +1,2 @@
+CLASS lf net/minecraft/client/renderer/entity/DefaultRenderer
+	METHOD a render (Lrj;DDDFF)V

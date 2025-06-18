@@ -1,0 +1,3 @@
+CLASS gc net/minecraft/client/renderer/entity/FallingTileRenderer
+	METHOD a render (Lrj;DDDFF)V
+	FIELD a tileRenderer Lcn;

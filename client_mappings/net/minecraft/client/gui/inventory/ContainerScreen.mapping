@@ -1,7 +1,0 @@
-CLASS ge net/minecraft/client/gui/inventory/ContainerScreen
-	FIELD l inventory Ljp;
-	FIELD m container Ljp;
-	FIELD n containerRows I
-	METHOD <init> (Ljp;Ljp;)V
-		ARG 1 inventory
-		ARG 2 container

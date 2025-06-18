@@ -1,5 +1,0 @@
-CLASS td net/minecraft/network/Connection$3
-	FIELD a this$0 Lmj;
-	METHOD <init> (Lmj;)V
-		ARG 1 this$0
-	METHOD run run ()V

@@ -1,0 +1,3 @@
+CLASS vm Border
+	METHOD <init> (I)V
+		ARG 1 size

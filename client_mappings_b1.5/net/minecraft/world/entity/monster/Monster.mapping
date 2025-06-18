@@ -1,0 +1,11 @@
+CLASS go net/minecraft/world/entity/monster/Monster
+	METHOD a getWalkTargetValue (III)F
+	METHOD a readAdditionalSaveData (Lmy;)V
+	METHOD a checkHurtTarget (Lrj;F)V
+	METHOD a hurt (Lrj;I)Z
+	METHOD b addAdditionalSaveData (Lmy;)V
+	METHOD d canSpawn ()Z
+	METHOD f_ findAttackTarget ()Lrj;
+	METHOD o aiStep ()V
+	METHOD w_ tick ()V
+	FIELD c attackDamage I

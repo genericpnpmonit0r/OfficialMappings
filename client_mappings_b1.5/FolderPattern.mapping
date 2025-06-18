@@ -1,0 +1,6 @@
+CLASS ce FolderPattern
+	METHOD <init> (Lhn;)V
+		ARG 1 a
+	METHOD accept (Ljava/io/File;)Z
+		ARG 1 pathname
+	FIELD a FOLDER_PATTERN Ljava/util/regex/Pattern;

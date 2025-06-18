@@ -1,5 +1,0 @@
-CLASS iv net/minecraft/world/item/WeaponItem
-	FIELD a damage I
-	METHOD <init> (ILas;)V
-		ARG 1 id
-		ARG 2 tier

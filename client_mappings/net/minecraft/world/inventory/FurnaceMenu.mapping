@@ -1,8 +1,0 @@
-CLASS ax net/minecraft/world/inventory/FurnaceMenu
-	FIELD a furnace Loy;
-	FIELD b tc I
-	FIELD c lt I
-	FIELD h ld I
-	METHOD <init> (Ljp;Loy;)V
-		ARG 1 container
-		ARG 2 oj

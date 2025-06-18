@@ -1,0 +1,37 @@
+CLASS ib Motive
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;IIII)V
+		ARG 3 name
+		ARG 4 w
+		ARG 5 h
+		ARG 6 uo
+		ARG 7 vo
+	FIELD A name Ljava/lang/String;
+	FIELD B w I
+	FIELD C h I
+	FIELD D uo I
+	FIELD E vo I
+	FIELD a Kebab Lib;
+	FIELD b Aztec Lib;
+	FIELD c Alban Lib;
+	FIELD d Aztec2 Lib;
+	FIELD e Bomb Lib;
+	FIELD f Plant Lib;
+	FIELD g Wasteland Lib;
+	FIELD h Pool Lib;
+	FIELD i Courbet Lib;
+	FIELD j Sea Lib;
+	FIELD k Sunset Lib;
+	FIELD l Creebet Lib;
+	FIELD m Wanderer Lib;
+	FIELD n Graham Lib;
+	FIELD o Match Lib;
+	FIELD p Bust Lib;
+	FIELD q Stage Lib;
+	FIELD r Void Lib;
+	FIELD s SkullAndRoses Lib;
+	FIELD t Fighters Lib;
+	FIELD u Pointer Lib;
+	FIELD v Pigscene Lib;
+	FIELD w BurningSkull Lib;
+	FIELD x Skeleton Lib;
+	FIELD y DonkeyKong Lib;

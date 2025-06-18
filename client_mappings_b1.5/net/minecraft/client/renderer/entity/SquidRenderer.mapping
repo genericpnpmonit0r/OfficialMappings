@@ -1,0 +1,5 @@
+CLASS ei net/minecraft/client/renderer/entity/SquidRenderer
+	METHOD a scale (Lkw;F)V
+	METHOD a setupRotations (Lkw;FFF)V
+	METHOD a render (Lrj;DDDFF)V
+	METHOD c getBob (Lkw;F)F

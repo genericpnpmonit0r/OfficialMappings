@@ -1,5 +1,0 @@
-CLASS ay net/minecraft/world/inventory/ContainerMenu
-	FIELD a container Lgu;
-	METHOD <init> (Lgu;Lgu;)V
-		ARG 1 c1
-		ARG 2 c2

@@ -1,2 +1,0 @@
-CLASS dh net/minecraft/world/entity/monster/Skeleton
-	FIELD a bow Lfg;

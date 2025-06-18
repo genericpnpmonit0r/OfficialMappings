@@ -1,7 +1,0 @@
-CLASS ee net/minecraft/world/level/tile/Sapling
-	METHOD b growTree (Lcw;IIILjava/util/Random;)V
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z
-		ARG 5 random

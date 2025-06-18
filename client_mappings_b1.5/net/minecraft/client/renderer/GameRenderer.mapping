@@ -1,0 +1,67 @@
+CLASS oy net/minecraft/client/renderer/GameRenderer
+	METHOD a tick ()V
+	METHOD a pick (F)V
+		ARG 1 a
+	METHOD a getBuffer (FFFF)Ljava/nio/FloatBuffer;
+		ARG 1 r
+		ARG 2 g
+		ARG 3 b
+		ARG 4 a
+	METHOD a setupCamera (FI)V
+		ARG 1 a
+		ARG 2 i
+	METHOD a setupFog (IF)V
+		ARG 1 i
+	METHOD b setupGuiScreen ()V
+	METHOD b render (F)V
+		ARG 1 a
+	METHOD b renderItemInHand (FI)V
+		ARG 1 a
+		ARG 2 i
+	METHOD c tickRain ()V
+	METHOD c renderLevel (F)V
+		ARG 1 a
+	METHOD e getFov (F)F
+		ARG 1 a
+	METHOD f bobHurt (F)V
+		ARG 1 a
+	METHOD g bobView (F)V
+		ARG 1 a
+	METHOD h moveCameraToPlayer (F)V
+		ARG 1 a
+	METHOD i setupClearColor (F)V
+		ARG 1 a
+	FIELD A unk_A F
+	FIELD C zoom D
+	FIELD D zoom_x D
+	FIELD E zoom_y D
+	FIELD F lastActiveTime J
+	FIELD G random Ljava/util/Random;
+	FIELD I fogBrO F
+	FIELD J fogBr F
+	FIELD a itemInHandRenderer Lqa;
+	FIELD b yMod I
+	FIELD c xMod I
+	FIELD d lb Ljava/nio/FloatBuffer;
+	FIELD e fr F
+	FIELD f fg F
+	FIELD g fb F
+	FIELD h mc Lnet/minecraft/client/Minecraft;
+	FIELD i renderDistance F
+	FIELD j tick I
+	FIELD k hovered Lrj;
+	FIELD l unk_l Lcm;
+	FIELD m unk_m Lcm;
+	FIELD n unk_n Lcm;
+	FIELD o unk_o Lcm;
+	FIELD p unk_p Lcm;
+	FIELD q unk_q Lcm;
+	FIELD r unk_r F
+	FIELD s unk_s F
+	FIELD t unk_t F
+	FIELD u unk_u F
+	FIELD v unk_v F
+	FIELD w unk_w F
+	FIELD x unk_x F
+	FIELD y unk_y F
+	FIELD z unk_z F

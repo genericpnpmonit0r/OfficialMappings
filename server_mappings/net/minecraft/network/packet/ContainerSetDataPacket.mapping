@@ -1,8 +1,0 @@
-CLASS hh net/minecraft/network/packet/ContainerSetDataPacket
-	FIELD a containerId I
-	FIELD b id I
-	FIELD c value I
-	METHOD <init> (III)V
-		ARG 1 containerId
-		ARG 2 id
-		ARG 3 value

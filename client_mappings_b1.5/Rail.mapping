@@ -1,0 +1,37 @@
+CLASS uh Rail
+	METHOD <init> (Lod;Let;III)V
+		ARG 1 this$0
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD a removeSoftConnections ()V
+	METHOD a updateConnections (I)V
+	METHOD a hasRail (III)Z
+	METHOD a access$000 (Luh;)I
+		ARG 0 this$0
+	METHOD a getRail (Luy;)Luh;
+		ARG 1 pos
+	METHOD a place (Z)V
+		ARG 1 place
+	METHOD b countPotentialConnections ()I
+	METHOD b hasConnection (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b connectsTo (Luh;)Z
+		ARG 1 rail
+	METHOD c hasNeighborRail (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD c canConnectTo (Luh;)Z
+		ARG 1 rail
+	METHOD d connectTo (Luh;)V
+		ARG 1 rail
+	FIELD a this$0 Lod;
+	FIELD b level Let;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD g connections Ljava/util/List;

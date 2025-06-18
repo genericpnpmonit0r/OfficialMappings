@@ -1,2 +1,0 @@
-CLASS fx net/minecraft/network/packet/SetTimePacket
-	FIELD a time J

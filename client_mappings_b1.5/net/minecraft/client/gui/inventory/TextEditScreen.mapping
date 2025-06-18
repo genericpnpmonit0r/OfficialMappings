@@ -1,0 +1,14 @@
+CLASS ws net/minecraft/client/gui/inventory/TextEditScreen
+	METHOD <init> (Lxa;)V
+		ARG 1 sign
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Ljk;)V
+	METHOD g tick ()V
+	METHOD h removed ()V
+	FIELD a title Ljava/lang/String;
+	FIELD i sign Lxa;
+	FIELD j frame I
+	FIELD l line I
+	FIELD m allowedChars Ljava/lang/String;

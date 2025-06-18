@@ -1,0 +1,15 @@
+CLASS n net/minecraft/client/model/WolfModel
+	METHOD a render (FFFFFF)V
+	METHOD a prepareMobModel (Lkw;FFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a head Lot;
+	FIELD b body Lot;
+	FIELD c leg0 Lot;
+	FIELD d leg1 Lot;
+	FIELD e leg2 Lot;
+	FIELD f leg3 Lot;
+	FIELD g ear0 Lot;
+	FIELD h ear1 Lot;
+	FIELD i nose Lot;
+	FIELD j tail Lot;
+	FIELD k mane Lot;

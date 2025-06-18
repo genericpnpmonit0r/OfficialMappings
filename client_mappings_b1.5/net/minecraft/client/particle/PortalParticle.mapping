@@ -1,0 +1,8 @@
+CLASS ns net/minecraft/client/particle/PortalParticle
+	METHOD a getBrightness (F)F
+	METHOD a render (Lna;FFFFFF)V
+	METHOD w_ tick ()V
+	FIELD a oSize F
+	FIELD o xStart D
+	FIELD p yStart D
+	FIELD q zStart D

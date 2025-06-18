@@ -1,0 +1,4 @@
+CLASS vi net/minecraft/world/entity/FlyingMob
+	METHOD a_ travel (FF)V
+	METHOD b causeFallDamage (F)V
+	METHOD p onLadder ()Z

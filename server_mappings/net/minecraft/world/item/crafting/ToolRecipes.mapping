@@ -1,5 +1,0 @@
-CLASS eb net/minecraft/world/item/crafting/ToolRecipes
-	METHOD a addRecipes (Lei;)V
-		ARG 1 recipes
-	FIELD a shapes [[Ljava/lang/String;
-	FIELD b map [[Ljava/lang/Object;

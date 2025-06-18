@@ -1,3 +1,0 @@
-CLASS fj net/minecraft/world/phys/HitResult$Type
-	FIELD a TILE Lfj;
-	FIELD b ENTITY Lfj;

@@ -1,0 +1,5 @@
+CLASS if
+	METHOD a getNumberOfItems ()I
+	METHOD a selectItem (IZ)V
+	METHOD a_ isSelectedItem (I)Z
+	METHOD c renderBackground ()V

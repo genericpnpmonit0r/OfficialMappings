@@ -1,0 +1,4 @@
+CLASS qf net/minecraft/client/model/SignModel
+	METHOD a render ()V
+	FIELD a cube Lot;
+	FIELD b cube2 Lot;

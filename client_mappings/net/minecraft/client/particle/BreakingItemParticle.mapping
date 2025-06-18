@@ -1,7 +1,0 @@
-CLASS mf net/minecraft/client/particle/BreakingItemParticle
-	METHOD <init> (Leb;DDDLfg;)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-		ARG 8 item

@@ -1,5 +1,0 @@
-CLASS gj net/minecraft/world/item/DoorItem
-	FIELD a material Ljh;
-	METHOD <init> (ILjh;)V
-		ARG 1 id
-		ARG 2 material

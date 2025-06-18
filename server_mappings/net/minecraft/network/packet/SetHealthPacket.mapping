@@ -1,4 +1,0 @@
-CLASS cp net/minecraft/network/packet/SetHealthPacket
-	FIELD a health I
-	METHOD <init> (I)V
-		ARG 1 health

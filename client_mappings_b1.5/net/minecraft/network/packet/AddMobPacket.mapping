@@ -1,0 +1,14 @@
+CLASS it net/minecraft/network/packet/AddMobPacket
+	METHOD <init> (Lkw;)V
+		ARG 1 mob
+	METHOD a handle (Lse;)V
+	METHOD b getUnpackedData ()Ljava/util/List;
+	FIELD a id I
+	FIELD b type B
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f yRot B
+	FIELD g xRot B
+	FIELD h entityData Lsz;
+	FIELD i unpack Ljava/util/List;

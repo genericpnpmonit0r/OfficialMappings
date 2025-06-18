@@ -1,0 +1,15 @@
+CLASS uk net/minecraft/stats/Stat
+	FIELD b distanceFormat Ljava/text/NumberFormat;
+	FIELD c decimalFormat Ljava/text/DecimalFormat;
+	FIELD e id I
+	FIELD f name Ljava/lang/String;
+	FIELD h uuid Ljava/lang/String;
+	FIELD i defaultFormatter Lvc;
+	FIELD j timeFormatter Lvc;
+	FIELD k distanceFormatter Lvc;
+	METHOD <init> (ILjava/lang/String;Lvc;)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 formatter
+	METHOD a format (I)Ljava/lang/String;
+	METHOD g postConstruct ()Luk;

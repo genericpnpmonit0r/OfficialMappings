@@ -1,0 +1,4 @@
+CLASS jh net/minecraft/network/packet/ContainerSetContentPacket
+	METHOD a handle (Lse;)V
+	FIELD a containerId I
+	FIELD b items [Lii;

@@ -1,0 +1,18 @@
+CLASS mm net/minecraft/world/level/tile/CropTile
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a spawnResources (Let;IIIIF)V
+	METHOD a tick (Let;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD c mayPlaceOn (I)Z
+	METHOD c_ growCropsToMax (Let;III)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g getRenderShape ()I
+	METHOD i getGrowthSpeed (Let;III)F
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z

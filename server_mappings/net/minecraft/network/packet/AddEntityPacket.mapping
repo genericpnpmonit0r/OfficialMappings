@@ -1,9 +1,0 @@
-CLASS kl net/minecraft/network/packet/AddEntityPacket
-	FIELD a id I
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
-	FIELD e type I
-	METHOD <init> (Lkj;I)V
-		ARG 1 entity
-		ARG 2 type

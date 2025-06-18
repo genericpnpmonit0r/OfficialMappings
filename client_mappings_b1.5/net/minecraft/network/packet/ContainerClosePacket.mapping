@@ -1,0 +1,5 @@
+CLASS ls net/minecraft/network/packet/ContainerClosePacket
+	METHOD <init> (I)V
+		ARG 1 containerId
+	METHOD a handle (Lse;)V
+	FIELD a containerId I

@@ -1,0 +1,29 @@
+CLASS vr net/minecraft/world/level/dimension/Dimension
+	METHOD a init ()V
+	METHOD a getFogColor (FF)Lbm;
+		ARG 1 f
+		ARG 2 ff
+	METHOD a getNew (I)Lvr;
+		ARG 0 id
+	METHOD a isValidSpawn (II)Z
+		ARG 1 x
+		ARG 2 z
+	METHOD a getTimeOfDay (JF)F
+		ARG 1 ff
+		ARG 3 fff
+	METHOD a init (Let;)V
+		ARG 1 level
+	METHOD b updateLightRamp ()V
+	METHOD b getSunriseColor (FF)[F
+		ARG 1 f
+		ARG 2 ff
+	METHOD c createRandomLevelSource ()Lcf;
+	METHOD d mayRespawn ()Z
+	FIELD a level Let;
+	FIELD b biomeSource Lwl;
+	FIELD c foggy Z
+	FIELD d ultraWarm Z
+	FIELD e hasCeiling Z
+	FIELD f brightnessRamp [F
+	FIELD g id I
+	FIELD h sunriseCol [F

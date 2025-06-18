@@ -1,3 +1,0 @@
-CLASS cn net/minecraft/network/packet/TakeItemEntityPacket
-	FIELD a itemId I
-	FIELD b playerId I

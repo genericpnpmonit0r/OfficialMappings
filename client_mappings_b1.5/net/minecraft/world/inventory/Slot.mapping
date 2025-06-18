@@ -1,0 +1,26 @@
+CLASS ge net/minecraft/world/inventory/Slot
+	METHOD <init> (Lla;III)V
+		ARG 1 container
+		ARG 2 slot
+		ARG 3 x
+		ARG 4 y
+	METHOD a getItem ()Lii;
+	METHOD a remove (I)Lii;
+		ARG 1 c
+	METHOD a onTake (Lii;)V
+		ARG 1 item
+	METHOD b hasItem ()Z
+	METHOD b mayPlace (Lii;)Z
+		ARG 1 item
+	METHOD c setChanged ()V
+	METHOD c set (Lii;)V
+		ARG 1 item
+	METHOD d getMaxStackSize ()I
+	METHOD e getNoItemIcon ()I
+	METHOD f checkTakeAchievements ()Z
+		COMMENT some unused leftover func in this specific version, probably gone by b1.5 when stats were finalized
+	FIELD a index I
+	FIELD b x I
+	FIELD c y I
+	FIELD d slot I
+	FIELD e container Lla;

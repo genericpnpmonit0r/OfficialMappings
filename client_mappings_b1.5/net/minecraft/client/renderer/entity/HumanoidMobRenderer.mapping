@@ -1,0 +1,6 @@
+CLASS u net/minecraft/client/renderer/entity/HumanoidMobRenderer
+	METHOD <init> (Lex;F)V
+		ARG 1 humanoidModel
+		ARG 2 a
+	METHOD b additionalRendering (Lkw;F)V
+	FIELD a humanoidModel Lex;

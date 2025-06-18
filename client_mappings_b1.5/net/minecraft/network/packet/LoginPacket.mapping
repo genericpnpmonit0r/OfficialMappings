@@ -1,0 +1,8 @@
+CLASS nd net/minecraft/network/packet/LoginPacket
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 userName
+	METHOD a handle (Lse;)V
+	FIELD a clientVersion I
+	FIELD b userName Ljava/lang/String;
+	FIELD c seed J
+	FIELD d dimension B

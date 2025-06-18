@@ -1,0 +1,10 @@
+CLASS sp net/minecraft/world/item/crafting/ShapelessRecipy
+	METHOD <init> (Lii;Ljava/util/List;)V
+		ARG 1 result
+		ARG 2 ingredients
+	METHOD a size ()I
+	METHOD a matches (Llu;)Z
+	METHOD b getResultItem ()Lii;
+	METHOD b assemble (Llu;)Lii;
+	FIELD a result Lii;
+	FIELD b ingredients Ljava/util/List;

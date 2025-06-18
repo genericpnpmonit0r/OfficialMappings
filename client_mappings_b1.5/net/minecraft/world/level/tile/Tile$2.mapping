@@ -1,0 +1,2 @@
+CLASS ag net/minecraft/world/level/tile/Tile$2
+	METHOD a getBreakSound ()Ljava/lang/String;

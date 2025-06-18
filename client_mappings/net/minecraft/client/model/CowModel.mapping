@@ -1,4 +1,0 @@
-CLASS fw net/minecraft/client/model/CowModel
-	FIELD a udder Lms;
-	FIELD b horn1 Lms;
-	FIELD c horn2 Lms;

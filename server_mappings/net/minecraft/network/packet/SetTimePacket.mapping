@@ -1,4 +1,0 @@
-CLASS eg net/minecraft/network/packet/SetTimePacket
-	FIELD a time J
-	METHOD <init> (J)V
-		ARG 1 time

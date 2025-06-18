@@ -1,4 +1,0 @@
-CLASS mq net/minecraft/world/entity/animal/Pig
-	METHOD a setSaddle (Z)V
-		ARG 1 saddle
-	METHOD v hasSaddle ()Z

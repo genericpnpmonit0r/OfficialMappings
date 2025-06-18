@@ -1,6 +1,0 @@
-CLASS qg net/minecraft/network/packet/TileUpdatePacket
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
-	FIELD d block I
-	FIELD e data I

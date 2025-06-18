@@ -1,0 +1,3 @@
+CLASS lw net/minecraft/world/item/SaplingTileItem
+	METHOD a getIcon (I)I
+	METHOD b getLevelDataForAuxValue (I)I

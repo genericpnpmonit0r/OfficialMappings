@@ -1,8 +1,0 @@
-CLASS tx net/minecraft/client/gui/inventory/TextEditScreen
-	FIELD a title Ljava/lang/String;
-	FIELD i sign Luf;
-	FIELD j frame I
-	FIELD l line I
-	FIELD m allowedChars Ljava/lang/String;
-	METHOD <init> (Luf;)V
-		ARG 1 sign

@@ -1,0 +1,53 @@
+CLASS gk net/minecraft/client/renderer/entity/MobRenderer
+	METHOD <init> (Ljt;F)V
+		ARG 1 model
+		ARG 2 shadow
+	METHOD a setArmor (Ljt;)V
+		ARG 1 armor
+	METHOD a getFlipDegrees (Lkw;)F
+		ARG 1 mob
+	METHOD a renderName (Lkw;DDD)V
+		ARG 1 mob
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD a scale (Lkw;F)V
+		ARG 1 mob
+		ARG 2 a
+	METHOD a getOverlayColor (Lkw;FF)I
+		ARG 1 mob
+		ARG 2 br
+		ARG 3 a
+	METHOD a setupRotations (Lkw;FFF)V
+		ARG 1 mob
+		ARG 2 bob
+		ARG 3 bodyRot
+		ARG 4 a
+	METHOD a prepareArmor (Lkw;IF)Z
+		ARG 1 mob
+		ARG 2 layer
+		ARG 3 a
+	METHOD a renderNameTag (Lkw;Ljava/lang/String;DDDI)V
+		ARG 1 mob
+		ARG 2 name
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+		ARG 9 maxDist
+	METHOD a render (Lrj;DDDFF)V
+	METHOD b setupPosition (Lkw;DDD)V
+		ARG 1 mob
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD b additionalRendering (Lkw;F)V
+		ARG 1 mob
+		ARG 2 a
+	METHOD c getBob (Lkw;F)F
+		ARG 1 mob
+		ARG 2 a
+	METHOD d getAttackAnim (Lkw;F)F
+		ARG 1 mob
+		ARG 2 a
+	FIELD e model Ljt;
+	FIELD f armor Ljt;

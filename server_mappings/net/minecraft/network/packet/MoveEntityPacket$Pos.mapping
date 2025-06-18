@@ -1,6 +1,0 @@
-CLASS kp net/minecraft/network/packet/MoveEntityPacket$Pos
-	METHOD <init> (IBBB)V
-		ARG 1 id
-		ARG 2 xa
-		ARG 3 ya
-		ARG 4 za

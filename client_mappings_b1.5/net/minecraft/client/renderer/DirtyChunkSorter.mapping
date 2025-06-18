@@ -1,0 +1,7 @@
+CLASS lh net/minecraft/client/renderer/DirtyChunkSorter
+	METHOD <init> (Lkw;)V
+		ARG 1 player
+	METHOD compare (Ljava/lang/Object;Ljava/lang/Object;)I
+		ARG 1 c0
+		ARG 2 c1
+	FIELD a player Lkw;

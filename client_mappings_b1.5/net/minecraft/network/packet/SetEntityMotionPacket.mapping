@@ -1,0 +1,13 @@
+CLASS fy net/minecraft/network/packet/SetEntityMotionPacket
+	METHOD <init> (IDDD)V
+		ARG 1 id
+		ARG 2 xa
+		ARG 4 ya
+		ARG 6 za
+	METHOD <init> (Lrj;)V
+		ARG 1 entity
+	METHOD a handle (Lse;)V
+	FIELD a id I
+	FIELD b xa I
+	FIELD c ya I
+	FIELD d za I

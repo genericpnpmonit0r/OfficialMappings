@@ -1,3 +1,0 @@
-CLASS ld net/minecraft/network/packet/PlayerCommandPacket
-	FIELD a id I
-	FIELD b action I

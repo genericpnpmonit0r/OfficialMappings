@@ -1,6 +1,0 @@
-CLASS dz net/minecraft/network/packet/UseItemPacket
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I
-	FIELD d face I
-	FIELD e item Lfg;

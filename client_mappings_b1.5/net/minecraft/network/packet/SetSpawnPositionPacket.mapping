@@ -1,0 +1,5 @@
+CLASS qc net/minecraft/network/packet/SetSpawnPositionPacket
+	METHOD a handle (Lse;)V
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I

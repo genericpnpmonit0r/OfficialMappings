@@ -1,0 +1,22 @@
+CLASS jt net/minecraft/client/model/Model
+	METHOD a render (FFFFFF)V
+		ARG 1 time
+		ARG 2 r
+		ARG 3 bob
+		ARG 4 yRot
+		ARG 5 xRot
+		ARG 6 scale
+	METHOD a prepareMobModel (Lkw;FFF)V
+		ARG 1 mob
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+	METHOD b setupAnim (FFFFFF)V
+		ARG 1 time
+		ARG 2 r
+		ARG 3 bob
+		ARG 4 yRot
+		ARG 5 xRot
+		ARG 6 scale
+	FIELD m attackTime F
+	FIELD n riding Z

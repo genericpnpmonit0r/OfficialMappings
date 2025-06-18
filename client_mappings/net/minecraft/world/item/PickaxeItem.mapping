@@ -1,5 +1,0 @@
-CLASS ak net/minecraft/world/item/PickaxeItem
-	FIELD bi diggables [Lra;
-	METHOD <init> (ILbc;)V
-		ARG 1 id
-		ARG 2 tier

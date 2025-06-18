@@ -1,3 +1,0 @@
-CLASS ia net/minecraft/world/item/crafting/FoodRecipes
-	METHOD a addRecipes (Lei;)V
-		ARG 1 recipes

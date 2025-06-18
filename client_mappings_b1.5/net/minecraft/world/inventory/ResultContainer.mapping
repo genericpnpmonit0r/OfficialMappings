@@ -1,0 +1,10 @@
+CLASS vd net/minecraft/world/inventory/ResultContainer
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lii;
+	METHOD a setItem (ILii;)V
+	METHOD a_ stillValid (Lgh;)Z
+	METHOD c getName ()Ljava/lang/String;
+	METHOD d getMaxStackSize ()I
+	METHOD d_ getItem (I)Lii;
+	METHOD y_ setChanged ()V
+	FIELD a items [Lii;

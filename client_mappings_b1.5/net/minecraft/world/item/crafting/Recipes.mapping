@@ -1,0 +1,13 @@
+CLASS gy net/minecraft/world/item/crafting/Recipes
+	METHOD a getInstance ()Lgy;
+	METHOD a addShapedRecipy (Lii;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+	METHOD a getItemFor (Llu;)Lii;
+		ARG 1 craftingContainer
+	METHOD b getRecipes ()Ljava/util/List;
+	METHOD b addShapelessRecipy (Lii;[Ljava/lang/Object;)V
+		ARG 1 result
+		ARG 2 pattern
+	FIELD a instance Lgy;
+	FIELD b recipies Ljava/util/List;

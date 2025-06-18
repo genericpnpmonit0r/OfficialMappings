@@ -1,3 +1,0 @@
-CLASS rl net/minecraft/world/level/tile/TreeTile
-	METHOD <init> (I)V
-		ARG 1 id

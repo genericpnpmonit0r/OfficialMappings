@@ -1,0 +1,3 @@
+CLASS gn net/minecraft/client/particle/ExplodeParticle
+	METHOD a render (Lna;FFFFFF)V
+	METHOD w_ tick ()V

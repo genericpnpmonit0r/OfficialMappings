@@ -1,0 +1,5 @@
+CLASS ks net/minecraft/client/model/GhastModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a body Lot;
+	FIELD b tentacles [Lot;

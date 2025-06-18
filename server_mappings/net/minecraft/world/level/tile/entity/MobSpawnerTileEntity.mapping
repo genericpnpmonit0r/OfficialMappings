@@ -1,9 +1,0 @@
-CLASS bn net/minecraft/world/level/tile/entity/MobSpawnerTileEntity
-	FIELD a spawnDelay I
-	FIELD b spin D
-	FIELD c oSpin D
-	FIELD h entityId Ljava/lang/String;
-	METHOD a isNearPlayer ()Z
-	METHOD a setEntityId (Ljava/lang/String;)V
-		ARG 1 entityId
-	METHOD c delay ()V

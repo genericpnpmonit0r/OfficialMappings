@@ -1,4 +1,0 @@
-CLASS ok net/minecraft/world/level/tile/PressurePlateTile$Sensitivity
-	FIELD a everything Lok;
-	FIELD b mobs Lok;
-	FIELD c players Lok;

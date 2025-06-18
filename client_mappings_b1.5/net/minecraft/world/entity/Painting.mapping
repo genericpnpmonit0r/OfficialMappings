@@ -1,0 +1,31 @@
+CLASS pv net/minecraft/world/entity/Painting
+	METHOD <init> (Let;IIII)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+	METHOD <init> (Let;IIIILjava/lang/String;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 dir
+		ARG 6 motive
+	METHOD a readAdditionalSaveData (Lmy;)V
+	METHOD a hurt (Lrj;I)Z
+	METHOD b defineSynchedData ()V
+	METHOD b setDir (I)V
+		ARG 1 dir
+	METHOD b addAdditionalSaveData (Lmy;)V
+	METHOD c offs (I)F
+		ARG 1 offs
+	METHOD g_ isPickable ()Z
+	METHOD k survives ()Z
+	METHOD w_ tick ()V
+	FIELD a dir I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD e motive Lib;
+	FIELD f checkInterval I

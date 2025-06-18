@@ -1,6 +1,0 @@
-CLASS ej net/minecraft/world/level/levelgen/feature/OreFeature
-	FIELD a tile I
-	FIELD b count I
-	METHOD <init> (II)V
-		ARG 1 tile
-		ARG 2 count

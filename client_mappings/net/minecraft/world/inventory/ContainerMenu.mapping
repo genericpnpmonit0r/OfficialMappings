@@ -1,5 +1,0 @@
-CLASS bl net/minecraft/world/inventory/ContainerMenu
-	FIELD a container Ljp;
-	METHOD <init> (Ljp;Ljp;)V
-		ARG 1 c1
-		ARG 2 c2

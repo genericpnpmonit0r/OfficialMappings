@@ -1,7 +1,0 @@
-CLASS qf net/minecraft/stats/ItemStat
-	FIELD a itemId I
-	METHOD <init> (ILjava/lang/String;I)V
-		ARG 1 id
-		ARG 2 name
-		ARG 3 itemId
-	METHOD b getItemId ()I

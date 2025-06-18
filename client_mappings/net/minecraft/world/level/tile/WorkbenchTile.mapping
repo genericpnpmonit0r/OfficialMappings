@@ -1,3 +1,0 @@
-CLASS eg net/minecraft/world/level/tile/WorkbenchTile
-	METHOD <init> (I)V
-		ARG 1 id

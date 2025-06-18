@@ -1,0 +1,7 @@
+CLASS dg net/minecraft/world/locale/I18N
+	METHOD a get (Ljava/lang/String;)Ljava/lang/String;
+		ARG 0 elementId
+	METHOD a get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+		ARG 0 elementId
+		ARG 1 objects
+	FIELD a language Lml;

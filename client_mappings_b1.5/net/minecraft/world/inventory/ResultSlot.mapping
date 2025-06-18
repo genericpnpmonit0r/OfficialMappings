@@ -1,0 +1,13 @@
+CLASS xl net/minecraft/world/inventory/ResultSlot
+	METHOD <init> (Lgh;Lla;Lla;III)V
+		ARG 1 player
+		ARG 2 craftSlots
+		ARG 3 container
+		ARG 4 slot
+		ARG 5 x
+		ARG 6 y
+	METHOD a onTake (Lii;)V
+	METHOD b mayPlace (Lii;)Z
+	METHOD f checkTakeAchievements ()Z
+	FIELD d craftSlots Lla;
+	FIELD e player Lgh;

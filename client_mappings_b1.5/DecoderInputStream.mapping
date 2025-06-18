@@ -1,0 +1,13 @@
+CLASS mt DecoderInputStream
+	METHOD <init> (Lhz;Ljava/net/URL;Ljava/io/InputStream;)V
+		ARG 1 this$0
+		ARG 2 url
+		ARG 3 in
+	METHOD read ([BII)I
+		ARG 1 buf
+		ARG 2 off
+		ARG 3 len
+	FIELD a buff [B
+	FIELD b this$0 Lhz;
+	FIELD c seed I
+	FIELD d in Ljava/io/InputStream;

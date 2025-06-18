@@ -1,0 +1,6 @@
+CLASS ke net/minecraft/world/item/HoeItem
+	METHOD <init> (ILbn;)V
+		ARG 1 id
+		ARG 2 tier
+	METHOD a useOn (Lii;Lgh;Let;IIII)Z
+	METHOD b isHandEquipped ()Z

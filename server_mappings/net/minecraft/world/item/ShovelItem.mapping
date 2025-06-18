@@ -1,5 +1,0 @@
-CLASS mn net/minecraft/world/item/ShovelItem
-	FIELD bi diggables [Llq;
-	METHOD <init> (ILas;)V
-		ARG 1 id
-		ARG 2 tier

@@ -1,0 +1,55 @@
+CLASS ax net/minecraft/isom/IsomPreview
+	METHOD a getWorkingDirectory ()Ljava/io/File;
+	METHOD a setBrightness (I)V
+		ARG 1 i
+	METHOD a getZone (II)Lqe;
+		ARG 1 x
+		ARG 2 y
+	METHOD a access$000 (Lax;)Z
+		ARG 0 this$0
+	METHOD a render (Ljava/awt/Graphics2D;)V
+		ARG 1 g
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 1 applicationName
+	METHOD b start ()V
+	METHOD b loadLevel (Ljava/lang/String;)V
+		ARG 1 levelName
+	METHOD c stop ()V
+	METHOD d render ()V
+	METHOD e getPlatform ()Liu;
+	METHOD keyPressed (Ljava/awt/event/KeyEvent;)V
+		ARG 1 ke
+	METHOD keyReleased (Ljava/awt/event/KeyEvent;)V
+		ARG 1 ke
+	METHOD keyTyped (Ljava/awt/event/KeyEvent;)V
+		ARG 1 ke
+	METHOD mouseClicked (Ljava/awt/event/MouseEvent;)V
+		ARG 1 m
+	METHOD mouseDragged (Ljava/awt/event/MouseEvent;)V
+		ARG 1 m
+	METHOD mouseEntered (Ljava/awt/event/MouseEvent;)V
+		ARG 1 m
+	METHOD mouseExited (Ljava/awt/event/MouseEvent;)V
+		ARG 1 m
+	METHOD mouseMoved (Ljava/awt/event/MouseEvent;)V
+		ARG 1 m
+	METHOD mousePressed (Ljava/awt/event/MouseEvent;)V
+		ARG 1 m
+	METHOD mouseReleased (Ljava/awt/event/MouseEvent;)V
+		ARG 1 m
+	METHOD paint (Ljava/awt/Graphics;)V
+		ARG 1 _g
+	METHOD update (Ljava/awt/Graphics;)V
+		ARG 1 g
+	FIELD a currentRender I
+	FIELD b zoom I
+	FIELD c showHelp Z
+	FIELD d level Let;
+	FIELD e workDir Ljava/io/File;
+	FIELD f running Z
+	FIELD g zonesToRender Ljava/util/List;
+	FIELD h zoneMap [[Lqe;
+	FIELD i xCam I
+	FIELD j yCam I
+	FIELD k xDrag I
+	FIELD l yDrag I

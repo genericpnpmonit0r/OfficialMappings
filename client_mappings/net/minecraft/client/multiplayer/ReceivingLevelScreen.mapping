@@ -1,5 +1,0 @@
-CLASS fb net/minecraft/client/multiplayer/ReceivingLevelScreen
-	FIELD a connection Lko;
-	FIELD i tickCount I
-	METHOD <init> (Lko;)V
-		ARG 1 connection

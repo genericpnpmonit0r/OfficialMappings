@@ -1,6 +1,0 @@
-CLASS id net/minecraft/network/packet/EntityActionAtPositionPacket
-	FIELD a entityId I
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
-	FIELD e action I

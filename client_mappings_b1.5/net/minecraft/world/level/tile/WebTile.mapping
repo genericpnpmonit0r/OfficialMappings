@@ -1,0 +1,8 @@
+CLASS qm net/minecraft/world/level/tile/WebTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a isSolidRender ()Z
+	METHOD a entityInside (Let;IIILrj;)V
+	METHOD d getAABB (Let;III)Leg;
+	METHOD g getRenderShape ()I

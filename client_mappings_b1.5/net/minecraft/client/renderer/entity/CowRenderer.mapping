@@ -1,0 +1,2 @@
+CLASS tt net/minecraft/client/renderer/entity/CowRenderer
+	METHOD a render (Lrj;DDDFF)V

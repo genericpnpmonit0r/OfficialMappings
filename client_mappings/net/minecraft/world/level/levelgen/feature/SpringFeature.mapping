@@ -1,4 +1,0 @@
-CLASS tj net/minecraft/world/level/levelgen/feature/SpringFeature
-	FIELD a tile I
-	METHOD <init> (I)V
-		ARG 1 tile

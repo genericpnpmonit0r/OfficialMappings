@@ -1,5 +1,0 @@
-CLASS ep net/minecraft/world/item/DoorItem
-	FIELD a material Lgo;
-	METHOD <init> (ILgo;)V
-		ARG 1 id
-		ARG 2 material

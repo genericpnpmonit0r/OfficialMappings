@@ -1,3 +1,0 @@
-CLASS gk net/minecraft/world/ContainerListener
-	METHOD a containerChanged (Lni;)V
-		ARG 1 sc

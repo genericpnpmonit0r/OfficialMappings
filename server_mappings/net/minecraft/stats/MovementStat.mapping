@@ -1,2 +1,0 @@
-CLASS ag net/minecraft/stats/MovementStat
-	FIELD a DECIMAL_FORMAT Ljava/text/DecimalFormat;

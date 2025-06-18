@@ -1,0 +1,2 @@
+CLASS qv net/minecraft/world/item/CoalItem
+	METHOD a getDescriptionId (Lii;)Ljava/lang/String;

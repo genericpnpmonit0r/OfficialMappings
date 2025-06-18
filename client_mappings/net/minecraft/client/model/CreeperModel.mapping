@@ -1,8 +1,0 @@
-CLASS gx net/minecraft/client/model/CreeperModel
-	FIELD a head Lms;
-	FIELD b hair Lms;
-	FIELD c body Lms;
-	FIELD d leg0 Lms;
-	FIELD e leg1 Lms;
-	FIELD f leg2 Lms;
-	FIELD g leg3 Lms;

@@ -1,5 +1,0 @@
-CLASS ep net/minecraft/client/title/TitleScreen
-	FIELD a random Ljava/util/Random;
-	FIELD i vo F
-	FIELD j splash Ljava/lang/String;
-	FIELD l multiplayerButton Lih;

@@ -1,0 +1,7 @@
+CLASS up net/minecraft/network/packet/TileEventPacket
+	METHOD a handle (Lse;)V
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d b0 I
+	FIELD e b1 I

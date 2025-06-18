@@ -1,2 +1,0 @@
-CLASS om net/minecraft/world/level/tile/EntityTile
-	METHOD a_ newTileEntity ()Lma;

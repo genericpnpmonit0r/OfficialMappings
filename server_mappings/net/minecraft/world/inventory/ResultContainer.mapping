@@ -1,2 +1,0 @@
-CLASS ms net/minecraft/world/inventory/ResultContainer
-	FIELD a items [Lfg;

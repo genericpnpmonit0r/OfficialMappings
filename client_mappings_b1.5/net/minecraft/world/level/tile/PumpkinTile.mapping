@@ -1,0 +1,11 @@
+CLASS es net/minecraft/world/level/tile/PumpkinTile
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 tex
+		ARG 3 lit
+	METHOD a getTexture (I)I
+	METHOD a getTexture (II)I
+	METHOD a mayPlace (Let;III)Z
+	METHOD a setPlacedBy (Let;IIILkw;)V
+	METHOD e onPlace (Let;III)V
+	FIELD a lit Z

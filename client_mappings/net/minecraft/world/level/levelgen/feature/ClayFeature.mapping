@@ -1,5 +1,0 @@
-CLASS kj net/minecraft/world/level/levelgen/feature/ClayFeature
-	FIELD a tile I
-	FIELD b count I
-	METHOD <init> (I)V
-		ARG 1 count

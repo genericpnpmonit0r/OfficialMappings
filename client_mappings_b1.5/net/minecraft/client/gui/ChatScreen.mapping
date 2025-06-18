@@ -1,0 +1,10 @@
+CLASS fr net/minecraft/client/gui/ChatScreen
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD g tick ()V
+	METHOD h removed ()V
+	FIELD a message Ljava/lang/String;
+	FIELD i frame I
+	FIELD j allowedChars Ljava/lang/String;

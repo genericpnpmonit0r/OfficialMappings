@@ -1,3 +1,0 @@
-CLASS sm net/minecraft/client/model/SquidModel
-	FIELD a body Lms;
-	FIELD b tentacles [Lms;

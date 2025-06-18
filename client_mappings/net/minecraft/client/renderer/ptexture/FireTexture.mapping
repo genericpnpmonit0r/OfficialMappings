@@ -1,3 +1,0 @@
-CLASS os net/minecraft/client/renderer/ptexture/FireTexture
-	FIELD g current [F
-	FIELD h next [F

@@ -1,0 +1,9 @@
+CLASS kh net/minecraft/world/level/chunk/storage/McRegionChunkStorage
+	METHOD <init> (Ljava/io/File;)V
+		ARG 1 dir
+	METHOD a tick ()V
+	METHOD a load (Let;II)Lkq;
+	METHOD a save (Let;Lkq;)V
+	METHOD b flush ()V
+	METHOD b saveEntities (Let;Lkq;)V
+	FIELD a dir Ljava/io/File;

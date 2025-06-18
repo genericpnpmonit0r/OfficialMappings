@@ -1,0 +1,38 @@
+CLASS ro net/minecraft/world/level/tile/StairTile
+	METHOD <init> (ILto;)V
+		ARG 1 id
+		ARG 2 base
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPick (IZ)Z
+	METHOD a mayPlace (Let;III)Z
+	METHOD a spawnResources (Let;IIIIF)V
+	METHOD a addAABBs (Let;IIILeg;Ljava/util/ArrayList;)V
+	METHOD a use (Let;IIILgh;)Z
+	METHOD a tick (Let;IIILjava/util/Random;)V
+	METHOD a setPlacedBy (Let;IIILkw;)V
+	METHOD a handleEntityInside (Let;IIILrj;Lbm;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a getExplosionResistance (Lrj;)F
+	METHOD a updateShape (Lwf;III)V
+	METHOD a getTexture (Lwf;IIII)I
+	METHOD a_ spawnResources (Let;IIII)V
+	METHOD b isCubeShaped ()Z
+	METHOD b onRemove (Let;III)V
+	METHOD b destroy (Let;IIII)V
+	METHOD b attack (Let;IIILgh;)V
+	METHOD b animateTick (Let;IIILjava/util/Random;)V
+	METHOD b stepOn (Let;IIILrj;)V
+	METHOD b shouldRenderFace (Lwf;IIII)Z
+	METHOD c getRenderLayer ()I
+	METHOD c wasExploded (Let;III)V
+	METHOD d getTickDelay ()I
+	METHOD d getAABB (Let;III)Leg;
+	METHOD d getBrightness (Lwf;III)F
+	METHOD e onPlace (Let;III)V
+	METHOD f getTileAABB (Let;III)Leg;
+	METHOD g getRenderShape ()I
+	METHOD v_ mayPick ()Z
+	FIELD a base Lto;

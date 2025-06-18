@@ -1,0 +1,6 @@
+CLASS r net/minecraft/network/packet/SetEquippedItemPacket
+	METHOD a handle (Lse;)V
+	FIELD a entity I
+	FIELD b slot I
+	FIELD c item I
+	FIELD d auxValue I

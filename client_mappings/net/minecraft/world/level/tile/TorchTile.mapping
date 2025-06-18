@@ -1,9 +1,0 @@
-CLASS rp net/minecraft/world/level/tile/TorchTile
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 tex
-	METHOD h checkCanSurvive (Leb;III)Z
-		ARG 1 level
-		ARG 2 x
-		ARG 3 y
-		ARG 4 z

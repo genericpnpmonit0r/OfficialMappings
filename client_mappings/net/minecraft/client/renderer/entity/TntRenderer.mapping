@@ -1,2 +1,0 @@
-CLASS lv net/minecraft/client/renderer/entity/TntRenderer
-	FIELD a tileRenderer Lca;

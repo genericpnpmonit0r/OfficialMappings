@@ -1,2 +1,0 @@
-CLASS pn net/minecraft/client/renderer/entity/MinecartRenderer
-	FIELD a model Lin;

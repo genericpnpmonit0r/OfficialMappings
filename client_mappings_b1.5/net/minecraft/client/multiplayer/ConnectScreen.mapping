@@ -1,0 +1,15 @@
+CLASS uq net/minecraft/client/multiplayer/ConnectScreen
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/lang/String;I)V
+		ARG 1 minecraft
+		ARG 2 ip
+		ARG 3 port
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Ljk;)V
+	METHOD a access$100 (Luq;)Z
+	METHOD a access$000 (Luq;Lmg;)Lmg;
+	METHOD b access$200 (Luq;)Lmg;
+	METHOD g tick ()V
+	FIELD a connection Lmg;
+	FIELD i aborted Z

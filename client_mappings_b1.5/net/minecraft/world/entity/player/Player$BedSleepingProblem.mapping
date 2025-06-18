@@ -1,0 +1,6 @@
+CLASS co net/minecraft/world/entity/player/Player$BedSleepingProblem
+	FIELD a OK Lco;
+	FIELD b NOT_POSSIBLE_HERE Lco;
+	FIELD c NOT_POSSIBLE_NOW Lco;
+	FIELD d TOO_FAR_AWAY Lco;
+	FIELD e OTHER_PROBLEM Lco;

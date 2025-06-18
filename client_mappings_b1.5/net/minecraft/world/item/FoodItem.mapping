@@ -1,0 +1,10 @@
+CLASS xm net/minecraft/world/item/FoodItem
+	METHOD <init> (IIZ)V
+		ARG 1 id
+		ARG 2 nutrition
+		ARG 3 meat
+	METHOD a use (Lii;Let;Lgh;)Lii;
+	METHOD l getNutrition ()I
+	METHOD m isMeat ()Z
+	FIELD a nutrition I
+	FIELD bi meat Z

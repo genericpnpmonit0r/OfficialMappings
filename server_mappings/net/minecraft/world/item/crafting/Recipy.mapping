@@ -1,7 +1,0 @@
-CLASS ca net/minecraft/world/item/crafting/Recipy
-	METHOD a size ()I
-	METHOD a matches (Lhe;)Z
-		ARG 1 craftingContainer
-	METHOD b getResultItem ()Lfg;
-	METHOD b assemble (Lhe;)Lfg;
-		ARG 1 craftingContainer

@@ -1,0 +1,7 @@
+CLASS ss net/minecraft/stats/ItemStat
+	METHOD <init> (ILjava/lang/String;I)V
+		ARG 1 id
+		ARG 2 name
+		ARG 3 itemId
+	METHOD a getItemId ()I
+	FIELD a itemId I

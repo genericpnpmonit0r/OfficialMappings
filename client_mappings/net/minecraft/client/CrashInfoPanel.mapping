@@ -1,3 +1,0 @@
-CLASS bj net/minecraft/client/CrashInfoPanel
-	METHOD <init> (Ljz;)V
-		ARG 1 report

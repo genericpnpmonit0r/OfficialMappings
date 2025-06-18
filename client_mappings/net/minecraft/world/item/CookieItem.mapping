@@ -1,6 +1,0 @@
-CLASS ne net/minecraft/world/item/CookieItem
-	METHOD <init> (IIZI)V
-		ARG 1 id
-		ARG 2 nut
-		ARG 3 isM
-		ARG 4 mss

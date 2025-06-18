@@ -1,3 +1,0 @@
-CLASS me net/minecraft/client/skins/DefaultTexturePack
-	FIELD e texture I
-	FIELD f icon Ljava/awt/image/BufferedImage;

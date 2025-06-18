@@ -1,2 +1,0 @@
-CLASS ea net/minecraft/world/entity/monster/Monster
-	FIELD c attackDamage I

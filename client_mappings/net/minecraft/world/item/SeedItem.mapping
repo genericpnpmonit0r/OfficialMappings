@@ -1,5 +1,0 @@
-CLASS oc net/minecraft/world/item/SeedItem
-	FIELD a resultId I
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 resultId

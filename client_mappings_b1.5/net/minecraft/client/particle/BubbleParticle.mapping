@@ -1,0 +1,2 @@
+CLASS cj net/minecraft/client/particle/BubbleParticle
+	METHOD w_ tick ()V

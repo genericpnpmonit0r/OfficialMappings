@@ -1,2 +1,0 @@
-CLASS em net/minecraft/network/packet/SetCarriedItemPacket
-	FIELD a slot I

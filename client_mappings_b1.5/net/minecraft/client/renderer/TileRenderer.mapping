@@ -1,0 +1,243 @@
+CLASS cn net/minecraft/client/renderer/TileRenderer
+	METHOD <init> (Lwf;)V
+		ARG 1 level
+	METHOD a canRender (I)Z
+		ARG 0 renderShape
+	METHOD a getWaterHeight (IIILkr;)F
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 material
+	METHOD a tesselateRailInWorld (Lod;III)Z
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a tesselateTorch (Lto;DDDDD)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 xxa
+		ARG 10 zza
+	METHOD a renderFaceUp (Lto;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD a renderTile (Lto;I)V
+		ARG 1 tile
+		ARG 2 data
+	METHOD a tesselateCrossTexture (Lto;IDDD)V
+		ARG 1 tt
+		ARG 2 data
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD a tesselateInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD a tesselateBlockInWorldWithAmbienceOcclusion (Lto;IIIFFF)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 r
+		ARG 6 g
+		ARG 7 b
+	METHOD a tesselateInWorld (Lto;IIII)V
+		ARG 1 tile
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 fixedTexture
+	METHOD a renderBlock (Lto;Let;III)V
+		ARG 1 tt
+		ARG 2 level
+		ARG 3 x
+		ARG 4 y
+		ARG 5 z
+	METHOD b renderFaceDown (Lto;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD b tesselateRowTexture (Lto;IDDD)V
+		ARG 1 tt
+		ARG 2 data
+		ARG 3 x
+		ARG 5 y
+		ARG 7 z
+	METHOD b tesselateTorchInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD b tesselateBlockInWorld (Lto;IIIFFF)Z
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 6 g
+		ARG 7 b
+	METHOD c renderNorth (Lto;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD c tesselateLeverInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD c tesselateCactusInWorld (Lto;IIIFFF)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 r
+		ARG 6 g
+		ARG 7 b
+	METHOD d renderSouth (Lto;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD d tesselateFireInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD e renderWest (Lto;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tile
+	METHOD e tesselateDustInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD f renderEast (Lto;DDDI)V
+		ARG 1 tt
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 tex
+	METHOD f tesselateLadderInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD g tesselateCrossInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD h tesselateRowInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD i tesselateWaterInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD j tesselateBlockInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD k tesselateCactusInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD l tesselateFenceInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD m tesselateStairsInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD n tesselateDoorInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD o tesselateBedInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	METHOD p tessellateDiodeInWorld (Lto;III)Z
+		ARG 1 tt
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+	FIELD A unk_z F
+	FIELD B unk_A F
+	FIELD C unk_B F
+	FIELD D unk_C F
+	FIELD E unk_D F
+	FIELD F unk_E F
+	FIELD G unk_F F
+	FIELD H unk_G I
+	FIELD I unk_H F
+	FIELD J unk_I F
+	FIELD K unk_J F
+	FIELD L unk_K F
+	FIELD M unk_L F
+	FIELD N unk_M F
+	FIELD O unk_N F
+	FIELD P unk_O F
+	FIELD Q unk_P F
+	FIELD R unk_Q F
+	FIELD S unk_R F
+	FIELD T unk_S F
+	FIELD U unk_T Z
+	FIELD V unk_U Z
+	FIELD W unk_V Z
+	FIELD X unk_W Z
+	FIELD Y unk_X Z
+	FIELD Z unk_Y Z
+	FIELD aa unk_Z Z
+	FIELD ab unk_aa Z
+	FIELD ac unk_ab Z
+	FIELD ad unk_ac Z
+	FIELD ae unk_ad Z
+	FIELD af unk_ae Z
+	FIELD b level Lwf;
+	FIELD c fixedTexture I
+	FIELD d xFlipTexture Z
+	FIELD e noCulling Z
+	FIELD f unk_e Z
+	FIELD g unk_f F
+	FIELD h unk_g F
+	FIELD i unk_h F
+	FIELD j unk_i F
+	FIELD k unk_j F
+	FIELD l unk_k F
+	FIELD m unk_l F
+	FIELD n unk_m F
+	FIELD o unk_n F
+	FIELD p unk_o F
+	FIELD q unk_p F
+	FIELD r unk_q F
+	FIELD s unk_r F
+	FIELD t unk_s F
+	FIELD u unk_t F
+	FIELD v unk_u F
+	FIELD w unk_v F
+	FIELD x unk_w F
+	FIELD y unk_x F
+	FIELD z unk_y F

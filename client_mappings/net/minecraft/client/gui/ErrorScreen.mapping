@@ -1,3 +1,0 @@
-CLASS bm net/minecraft/client/gui/ErrorScreen
-	FIELD a title Ljava/lang/String;
-	FIELD i message Ljava/lang/String;

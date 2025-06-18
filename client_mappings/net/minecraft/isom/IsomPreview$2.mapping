@@ -1,5 +1,0 @@
-CLASS qi net/minecraft/isom/IsomPreview$2
-	FIELD a this$0 Lap;
-	METHOD <init> (Lap;)V
-		ARG 1 this$0
-	METHOD run run ()V

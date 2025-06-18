@@ -1,0 +1,11 @@
+CLASS rz net/minecraft/client/model/ChickenModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a head Lot;
+	FIELD b body Lot;
+	FIELD c leg0 Lot;
+	FIELD d leg1 Lot;
+	FIELD e wing0 Lot;
+	FIELD f wing1 Lot;
+	FIELD g beak Lot;
+	FIELD h redThing Lot;

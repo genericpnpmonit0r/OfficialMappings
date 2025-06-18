@@ -1,3 +1,0 @@
-CLASS ie net/minecraft/network/packet/ContainerSetContentPacket
-	FIELD a containerId I
-	FIELD b items [Lhi;

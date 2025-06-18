@@ -1,0 +1,7 @@
+CLASS cm net/minecraft/client/player/SmoothFloat
+	METHOD a getNewDeltaValue (FF)F
+		ARG 1 value
+		ARG 2 delta
+	FIELD a targetValue F
+	FIELD b remainingValue F
+	FIELD c lastAmount F

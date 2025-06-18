@@ -1,0 +1,3 @@
+CLASS ia net/minecraft/client/renderer/entity/ChickenRenderer
+	METHOD a render (Lrj;DDDFF)V
+	METHOD c getBob (Lkw;F)F

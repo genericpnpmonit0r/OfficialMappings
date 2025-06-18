@@ -1,6 +1,0 @@
-CLASS mh net/minecraft/client/Minecraft$OS
-	FIELD a linux Lmh;
-	FIELD b solaris Lmh;
-	FIELD c windows Lmh;
-	FIELD d macos Lmh;
-	FIELD e unknown Lmh;

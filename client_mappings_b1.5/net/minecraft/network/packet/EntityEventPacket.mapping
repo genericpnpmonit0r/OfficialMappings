@@ -1,0 +1,4 @@
+CLASS im net/minecraft/network/packet/EntityEventPacket
+	METHOD a handle (Lse;)V
+	FIELD a entityId I
+	FIELD b eventId B

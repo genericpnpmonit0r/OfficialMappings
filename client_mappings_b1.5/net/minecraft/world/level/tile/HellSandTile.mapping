@@ -1,0 +1,6 @@
+CLASS ne net/minecraft/world/level/tile/HellSandTile
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 tex
+	METHOD a entityInside (Let;IIILrj;)V
+	METHOD d getAABB (Let;III)Leg;

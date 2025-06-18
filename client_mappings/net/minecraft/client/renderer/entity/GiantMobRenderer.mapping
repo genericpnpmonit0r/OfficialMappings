@@ -1,6 +1,0 @@
-CLASS ua net/minecraft/client/renderer/entity/GiantMobRenderer
-	FIELD a scale F
-	METHOD <init> (Lin;FF)V
-		ARG 1 model
-		ARG 2 shadow
-		ARG 3 scale

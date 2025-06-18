@@ -1,0 +1,26 @@
+CLASS gz net/minecraft/world/entity/item/ItemEntity
+	METHOD <init> (Let;DDDLii;)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+		ARG 8 item
+	METHOD a burn (I)V
+	METHOD a readAdditionalSaveData (Lmy;)V
+	METHOD a hurt (Lrj;I)Z
+	METHOD b defineSynchedData ()V
+	METHOD b playerTouch (Lgh;)V
+	METHOD b addAdditionalSaveData (Lmy;)V
+	METHOD h checkInTile (DDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+	METHOD j_ isInWater ()Z
+	METHOD n makeStepSound ()Z
+	METHOD w_ tick ()V
+	FIELD a item Lii;
+	FIELD b age I
+	FIELD c throwTime I
+	FIELD d bobOffs F
+	FIELD e tickCount I
+	FIELD f health I

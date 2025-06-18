@@ -1,6 +1,0 @@
-CLASS te net/minecraft/client/stats/StatsCounter
-	FIELD a unk_a Ljava/util/Map;
-	FIELD b unk_b Ljava/util/Map;
-	METHOD a awardStat (Lru;I)V
-		ARG 1 stat
-		ARG 2 count

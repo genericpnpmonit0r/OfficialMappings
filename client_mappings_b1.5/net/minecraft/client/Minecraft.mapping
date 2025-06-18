@@ -1,0 +1,154 @@
+CLASS net/minecraft/client/Minecraft
+	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZ)V
+		ARG 1 component
+		ARG 2 parent
+		ARG 3 minecraftApplet
+		ARG 4 w
+		ARG 5 h
+		ARG 6 fullscreen
+	METHOD A reloadSound ()V
+	METHOD a init ()V
+	METHOD a handleMouseClick (I)V
+		ARG 1 buttonNum
+	METHOD a resize (II)V
+		ARG 1 w
+		ARG 2 h
+	METHOD a blit (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 sx
+		ARG 4 sy
+		ARG 5 w
+		ARG 6 h
+	METHOD a handleMouseDown (IZ)V
+		ARG 1 i
+		ARG 2 b
+	METHOD a renderFpsMeter (J)V
+		ARG 1 time
+	METHOD a setScreen (Lcs;)V
+		ARG 1 screen
+	METHOD a setLevel (Let;)V
+		ARG 1 level
+	METHOD a setLevel (Let;Ljava/lang/String;)V
+		ARG 1 level
+		ARG 2 title
+	METHOD a setLevel (Let;Ljava/lang/String;Lgh;)V
+		ARG 1 level
+		ARG 2 title
+		ARG 3 player
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+		ARG 0 applicationName
+	METHOD a connectTo (Ljava/lang/String;I)V
+		ARG 1 connectToIp
+		ARG 2 connectToPort
+	METHOD a fileDownloaded (Ljava/lang/String;Ljava/io/File;)V
+		ARG 1 name
+		ARG 2 file
+	METHOD a start (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 sessionId
+	METHOD a selectLevel (Ljava/lang/String;Ljava/lang/String;J)V
+		ARG 1 selected
+		ARG 2 levelName
+		ARG 3 seed
+	METHOD a startAndConnectTo (Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+		ARG 0 name
+		ARG 1 sessionId
+		ARG 2 server
+	METHOD a onCrash (Llk;)V
+		ARG 1 crashReport
+	METHOD a respawnPlayer (Z)V
+		ARG 1 b
+	METHOD b getWorkingDirectory ()Ljava/io/File;
+	METHOD b isCommand (Ljava/lang/String;)Z
+		ARG 1 msg
+	METHOD b convertLevel (Ljava/lang/String;Ljava/lang/String;)V
+		ARG 1 levelName
+		ARG 2 n
+	METHOD c getLevelStorage ()Lmp;
+	METHOD c checkGLError (Ljava/lang/String;)V
+		ARG 1 string
+	METHOD d destroy ()V
+	METHOD d prepareLevel (Ljava/lang/String;)V
+		ARG 1 title
+	METHOD e stop ()V
+	METHOD f grabMouse ()V
+	METHOD g releaseMouse ()V
+	METHOD h pauseGame ()V
+	METHOD i toggleFullScreen ()V
+	METHOD j tick ()V
+	METHOD k isOnline ()Z
+	METHOD l toggleDimension ()V
+	METHOD m getOpenGLCapabilities ()Lcp;
+	METHOD main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD n gatherStats1 ()Ljava/lang/String;
+	METHOD o gatherStats2 ()Ljava/lang/String;
+	METHOD p gatherStats4 ()Ljava/lang/String;
+	METHOD q gatherStats3 ()Ljava/lang/String;
+	METHOD r getConnection ()Lmg;
+	METHOD s showGui ()Z
+	METHOD t fancyGraphics ()Z
+	METHOD u useAmbientOcclusion ()Z
+	METHOD v showFps ()Z
+	METHOD w renderLoadingScreen ()V
+	METHOD x getPlatform ()Loe;
+	METHOD y checkScreenshot ()V
+	METHOD z handleGrabTexture ()V
+	FIELD A soundEngine Lxe;
+	FIELD B mouseHandler Lur;
+	FIELD C texturePackRepository Lhv;
+	FIELD D frameTimes [J
+	FIELD E tickTimes [J
+	FIELD F frameTimePos I
+	FIELD H running Z
+	FIELD I fpsString Ljava/lang/String;
+	FIELD J wasDown Z
+	FIELD K lastTimer J
+	FIELD L mouseGrabbed Z
+	FIELD N lastTickTime J
+	FIELD O fullscreen Z
+	FIELD P openGLCapabilities Lcp;
+	FIELD Q timer Loz;
+	FIELD R bgLoader Lcr;
+	FIELD S ticks I
+	FIELD T missTime I
+	FIELD U orgWidth I
+	FIELD V orgHeight I
+	FIELD W workingDirectory Ljava/io/File;
+	FIELD X levelStorageSource Lmp;
+	FIELD Y connectToIp Ljava/lang/String;
+	FIELD Z connectToPort I
+	FIELD a instance Lnet/minecraft/client/Minecraft;
+	FIELD aa waterTexture Lul;
+	FIELD ab lavaTexture Lbz;
+	FIELD ac workDir Ljava/io/File;
+	FIELD ad lastClickTick I
+	FIELD ae recheckPlayerIn I
+	FIELD b gameMode Lnf;
+	FIELD c width I
+	FIELD d height I
+	FIELD e level Let;
+	FIELD f levelRenderer Lm;
+	FIELD g player Lcu;
+	FIELD h cameraEntity Lkw;
+		COMMENT why is this here wtf notch this is literally just the same as the player field
+		COMMENT just another guesstimated field name cause no fucking clue
+	FIELD i particleEngine Ldf;
+	FIELD j user Lgg;
+	FIELD k serverDomain Ljava/lang/String;
+	FIELD l parent Ljava/awt/Canvas;
+	FIELD m appletMode Z
+	FIELD n pause Z
+	FIELD o textures Lip;
+	FIELD p font Lrf;
+	FIELD q screen Lcs;
+	FIELD r progressRenderer Llo;
+	FIELD s gameRenderer Loy;
+	FIELD t overlay Lun;
+	FIELD u gui Ltl;
+	FIELD v noRender Z
+	FIELD w humanoidModel Lex;
+	FIELD x hitResult Lty;
+	FIELD y options Ljz;
+	FIELD z minecraftApplet Lnet/minecraft/client/MinecraftApplet;

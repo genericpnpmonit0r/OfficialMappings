@@ -1,0 +1,24 @@
+CLASS ex net/minecraft/client/model/HumanoidModel
+	METHOD <init> (F)V
+		ARG 1 g
+	METHOD <init> (FF)V
+		ARG 1 g
+		ARG 2 yOffset
+	METHOD a renderEars (F)V
+		ARG 1 scale
+	METHOD a render (FFFFFF)V
+	METHOD b renderCloak (F)V
+		ARG 1 scale
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a head Lot;
+	FIELD b hair Lot;
+	FIELD c body Lot;
+	FIELD d arm0 Lot;
+	FIELD e arm1 Lot;
+	FIELD f leg2 Lot;
+	FIELD g leg1 Lot;
+	FIELD h ear Lot;
+	FIELD i cloak Lot;
+	FIELD j holdingLeftHand Z
+	FIELD k holdingRightHand Z
+	FIELD l sneaking Z

@@ -1,0 +1,2 @@
+CLASS wu net/minecraft/world/item/FlintAndSteelItem
+	METHOD a useOn (Lii;Lgh;Let;IIII)Z

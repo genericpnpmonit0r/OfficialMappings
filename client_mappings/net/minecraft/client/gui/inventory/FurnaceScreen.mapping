@@ -1,5 +1,0 @@
-CLASS mb net/minecraft/client/gui/inventory/FurnaceScreen
-	FIELD l furnace Loy;
-	METHOD <init> (Lhh;Loy;)V
-		ARG 1 incentory
-		ARG 2 furnace

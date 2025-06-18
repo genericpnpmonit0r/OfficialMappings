@@ -1,0 +1,4 @@
+CLASS ed net/minecraft/world/item/StoneSlabTileItem
+	METHOD a getIcon (I)I
+	METHOD a getDescriptionId (Lii;)Ljava/lang/String;
+	METHOD b getLevelDataForAuxValue (I)I

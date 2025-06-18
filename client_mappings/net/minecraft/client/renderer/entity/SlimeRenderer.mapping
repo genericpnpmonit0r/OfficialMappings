@@ -1,6 +1,0 @@
-CLASS kd net/minecraft/client/renderer/entity/SlimeRenderer
-	FIELD a armor Lin;
-	METHOD <init> (Lin;Lin;F)V
-		ARG 1 model
-		ARG 2 armor
-		ARG 3 shadow

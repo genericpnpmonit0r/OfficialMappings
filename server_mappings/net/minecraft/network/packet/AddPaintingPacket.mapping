@@ -1,9 +1,0 @@
-CLASS mi net/minecraft/network/packet/AddPaintingPacket
-	FIELD a id I
-	FIELD b x I
-	FIELD c y I
-	FIELD d z I
-	FIELD e dir I
-	FIELD f motive Ljava/lang/String;
-	METHOD <init> (Ljd;)V
-		ARG 1 painting

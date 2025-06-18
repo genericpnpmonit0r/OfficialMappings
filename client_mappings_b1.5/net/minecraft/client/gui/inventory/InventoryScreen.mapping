@@ -1,0 +1,10 @@
+CLASS ta net/minecraft/client/gui/inventory/InventoryScreen
+	METHOD <init> (Lgh;)V
+		ARG 1 player
+	METHOD a init ()V
+	METHOD a renderBg (F)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Ljk;)V
+	METHOD k renderLabels ()V
+	FIELD l xMouse F
+	FIELD m yMouse F

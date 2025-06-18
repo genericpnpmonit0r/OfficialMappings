@@ -1,0 +1,65 @@
+CLASS jz net/minecraft/client/Options
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Ljava/io/File;)V
+		ARG 1 minecraft
+		ARG 2 workDir
+	METHOD a load ()V
+	METHOD a getKeyDescription (I)Ljava/lang/String;
+		ARG 1 i
+	METHOD a setKey (II)V
+		ARG 1 i
+		ARG 2 key
+	METHOD a getProgressValue (Lhg;)F
+		ARG 1 option
+	METHOD a set (Lhg;F)V
+		ARG 1 option
+		ARG 2 value
+	METHOD a toggle (Lhg;I)V
+		ARG 1 option
+		ARG 2 value
+	METHOD a readFloat (Ljava/lang/String;)F
+		ARG 1 string
+	METHOD b save ()V
+	METHOD b getKeyMessage (I)Ljava/lang/String;
+		ARG 1 i
+	METHOD b getBooleanValue (Lhg;)Z
+		ARG 1 option
+	METHOD c getMessage (Lhg;)Ljava/lang/String;
+		ARG 1 option
+	FIELD A thirdPersonView Z
+	FIELD B showFps Z
+	FIELD C lastMpIp Ljava/lang/String;
+	FIELD D unk_C Z
+	FIELD E smoothCamera Z
+	FIELD F unk_E Z
+	FIELD G unk_F F
+	FIELD H unk_G F
+	FIELD I guiScale I
+	FIELD J RENDER_DISTANCE_NAMES [Ljava/lang/String;
+	FIELD K DIFFICULTY_NAMES [Ljava/lang/String;
+	FIELD L GUI_SCALE_NAMES [Ljava/lang/String;
+	FIELD M optionsFile Ljava/io/File;
+	FIELD a music F
+	FIELD b sound F
+	FIELD c sensitivity F
+	FIELD d invertYMouse Z
+	FIELD e viewDistance I
+	FIELD f bobView Z
+	FIELD g anaglyph3d Z
+	FIELD i limitFramerate Z
+	FIELD j fancyGraphics Z
+	FIELD k ao Z
+	FIELD l skin Ljava/lang/String;
+	FIELD m keyUp Lpc;
+	FIELD n keyLeft Lpc;
+	FIELD o keyDown Lpc;
+	FIELD p keyRight Lpc;
+	FIELD q keyJump Lpc;
+	FIELD r keyInventory Lpc;
+	FIELD s keyDrop Lpc;
+	FIELD t keyChat Lpc;
+	FIELD u keyFog Lpc;
+	FIELD v keySneak Lpc;
+	FIELD w keyMappings [Lpc;
+	FIELD x minecraft Lnet/minecraft/client/Minecraft;
+	FIELD y difficulty I
+	FIELD z showGui Z

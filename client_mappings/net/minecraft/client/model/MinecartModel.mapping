@@ -1,2 +1,0 @@
-CLASS lc net/minecraft/client/model/MinecartModel
-	FIELD a cubes [Lms;

@@ -1,0 +1,6 @@
+CLASS uv net/minecraft/world/item/ShovelItem
+	METHOD <init> (ILbn;)V
+		ARG 1 id
+		ARG 2 tier
+	METHOD a canDestroySpecial (Lto;)Z
+	FIELD bi diggables [Lto;

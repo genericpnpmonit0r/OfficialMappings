@@ -1,0 +1,10 @@
+CLASS um net/minecraft/network/packet/AddPaintingPacket
+	METHOD <init> (Lpv;)V
+		ARG 1 painting
+	METHOD a handle (Lse;)V
+	FIELD a id I
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e dir I
+	FIELD f motive Ljava/lang/String;

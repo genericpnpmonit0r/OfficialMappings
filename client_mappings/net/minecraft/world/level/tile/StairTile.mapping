@@ -1,5 +1,0 @@
-CLASS pg net/minecraft/world/level/tile/StairTile
-	FIELD a base Lra;
-	METHOD <init> (ILra;)V
-		ARG 1 id
-		ARG 2 base

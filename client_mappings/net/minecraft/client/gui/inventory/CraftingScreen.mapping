@@ -1,7 +1,0 @@
-CLASS lu net/minecraft/client/gui/inventory/CraftingScreen
-	METHOD <init> (Lhh;Leb;III)V
-		ARG 1 inventory
-		ARG 2 level
-		ARG 3 x
-		ARG 4 y
-		ARG 5 z

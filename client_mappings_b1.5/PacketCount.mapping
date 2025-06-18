@@ -1,0 +1,7 @@
+CLASS mz PacketCount
+	METHOD <init> (Lgl;)V
+		ARG 1 c
+	METHOD a add (I)V
+		ARG 1 estimatedSize
+	FIELD a count I
+	FIELD b estimatedSize J

@@ -1,0 +1,10 @@
+CLASS eo net/minecraft/world/item/crafting/FurnaceRecipes
+	METHOD a getInstance ()Leo;
+	METHOD a getResult (I)Lii;
+		ARG 1 item
+	METHOD a addFurnaceRecipy (ILii;)V
+		ARG 1 ingredient
+		ARG 2 result
+	METHOD b getRecipes ()Ljava/util/Map;
+	FIELD a instance Leo;
+	FIELD b recipies Ljava/util/Map;

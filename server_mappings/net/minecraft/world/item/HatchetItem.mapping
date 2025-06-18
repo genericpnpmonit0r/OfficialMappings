@@ -1,5 +1,0 @@
-CLASS kr net/minecraft/world/item/HatchetItem
-	METHOD <init> (ILas;)V
-		ARG 1 id
-		ARG 2 tier
-	FIELD bi diggables [Llq;

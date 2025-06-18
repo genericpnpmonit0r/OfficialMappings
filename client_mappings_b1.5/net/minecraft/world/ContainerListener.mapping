@@ -1,0 +1,3 @@
+CLASS hi net/minecraft/world/ContainerListener
+	METHOD a containerChanged (Lpp;)V
+		ARG 1 sc

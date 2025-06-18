@@ -1,5 +1,0 @@
-CLASS hg net/minecraft/network/packet/ContainerOpenPacket
-	FIELD a containerId I
-	FIELD b type I
-	FIELD c title Ljava/lang/String;
-	FIELD d size I

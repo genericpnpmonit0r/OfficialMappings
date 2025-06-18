@@ -1,0 +1,3 @@
+CLASS nh net/minecraft/world/item/crafting/FoodRecipes
+	METHOD a addRecipes (Lgy;)V
+		ARG 1 recipes

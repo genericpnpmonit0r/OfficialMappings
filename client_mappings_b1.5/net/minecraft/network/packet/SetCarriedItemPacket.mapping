@@ -1,0 +1,5 @@
+CLASS hb net/minecraft/network/packet/SetCarriedItemPacket
+	METHOD <init> (I)V
+		ARG 1 slot
+	METHOD a handle (Lse;)V
+	FIELD a slot I

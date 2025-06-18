@@ -1,0 +1,2 @@
+CLASS tw net/minecraft/world/item/BoatItem
+	METHOD a use (Lii;Let;Lgh;)Lii;

@@ -1,3 +1,0 @@
-CLASS md net/minecraft/client/gui/PauseScreen
-	FIELD a saveStep I
-	FIELD i visibleTime I

@@ -1,0 +1,14 @@
+CLASS qz net/minecraft/client/model/SpiderModel
+	METHOD a render (FFFFFF)V
+	METHOD b setupAnim (FFFFFF)V
+	FIELD a head Lot;
+	FIELD b body0 Lot;
+	FIELD c body1 Lot;
+	FIELD d leg0 Lot;
+	FIELD e leg1 Lot;
+	FIELD f leg2 Lot;
+	FIELD g leg3 Lot;
+	FIELD h leg4 Lot;
+	FIELD i leg5 Lot;
+	FIELD j leg6 Lot;
+	FIELD k leg7 Lot;

@@ -1,0 +1,4 @@
+CLASS ga
+	METHOD a render (Lna;FFFFFF)V
+	METHOD b_ getParticleTexture ()I
+	METHOD w_ tick ()V

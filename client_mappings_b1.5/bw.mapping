@@ -1,0 +1,2 @@
+CLASS bw
+	METHOD b stillValid (Lgh;)Z

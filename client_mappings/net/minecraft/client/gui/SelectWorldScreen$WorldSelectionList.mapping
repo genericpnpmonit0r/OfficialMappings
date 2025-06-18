@@ -1,4 +1,0 @@
-CLASS ka net/minecraft/client/gui/SelectWorldScreen$WorldSelectionList
-	FIELD a this$0 Loh;
-	METHOD <init> (Loh;)V
-		ARG 1 this$0

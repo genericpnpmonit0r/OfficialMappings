@@ -1,5 +1,0 @@
-CLASS qm net/minecraft/client/gui/inventory/InventoryScreen
-	FIELD l xMouse F
-	FIELD m yMouse F
-	METHOD <init> (Lfm;)V
-		ARG 1 player

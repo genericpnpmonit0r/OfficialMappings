@@ -1,3 +1,0 @@
-CLASS hl net/minecraft/network/packet/EntityEventPacket
-	FIELD a entityId I
-	FIELD b eventId B

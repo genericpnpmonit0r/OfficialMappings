@@ -1,0 +1,12 @@
+CLASS iu OS
+	FIELD a linux Liu;
+	FIELD b solaris Liu;
+	FIELD c windows Liu;
+	FIELD d macos Liu;
+	FIELD e unknown Liu;
+CLASS oe OS
+	FIELD a linux Loe;
+	FIELD b solaris Loe;
+	FIELD c windows Loe;
+	FIELD d macos Loe;
+	FIELD e unknown Loe;

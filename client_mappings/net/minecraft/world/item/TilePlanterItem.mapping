@@ -1,5 +1,0 @@
-CLASS jo net/minecraft/world/item/TilePlanterItem
-	FIELD a tileId I
-	METHOD <init> (ILra;)V
-		ARG 1 id
-		ARG 2 tile

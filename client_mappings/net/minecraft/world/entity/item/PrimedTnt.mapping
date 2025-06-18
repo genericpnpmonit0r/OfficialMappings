@@ -1,8 +1,0 @@
-CLASS np net/minecraft/world/entity/item/PrimedTnt
-	FIELD a life I
-	METHOD <init> (Leb;DDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD k explode ()V

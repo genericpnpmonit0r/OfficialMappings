@@ -1,0 +1,134 @@
+CLASS gh net/minecraft/world/entity/player/Player
+	FIELD A unk_z F
+	FIELD B fishing Llb;
+	FIELD a bedPosition Lbk;
+	FIELD b sleepTimer I
+	FIELD c respawnPosition Lbk;
+	FIELD d minecartStart Lbk;
+	FIELD e dmgSpill I
+	FIELD f inventory Lih;
+	FIELD g inventoryMenu Ldo;
+	FIELD h containerMenu Ldo;
+	FIELD i userType B
+	FIELD j score I
+	FIELD k oBob F
+	FIELD l bob F
+	FIELD m swinging Z
+	FIELD n swingTime I
+	FIELD o name Ljava/lang/String;
+	FIELD p dimension I
+	FIELD q cloakTexture Ljava/lang/String;
+	FIELD r xCloakO D
+	FIELD s yCloakO D
+	FIELD t zCloakO D
+	FIELD u xCloak D
+	FIELD v yCloak D
+	FIELD w zCloak D
+	FIELD x sleeping Z
+	FIELD y unk_x F
+	FIELD z unk_y F
+	METHOD D getScore ()I
+	METHOD E drop ()V
+	METHOD F unk_C ()V
+	METHOD H getSelectedItem ()Lii;
+	METHOD I removeSelectedItem ()V
+	METHOD J getRidingHeight ()D
+	METHOD K swing ()V
+	METHOD L remove ()V
+	METHOD M isInWall ()Z
+	METHOD N getSleepingRotation ()F
+	METHOD O isSleeping ()Z
+	METHOD P isSleepingLongEnough ()Z
+	METHOD Q getSleepTimer ()I
+	METHOD R getSpawnPosition ()Lbk;
+	METHOD S jumpFromGround ()V
+	METHOD a startCrafting (III)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD a openTrap (Lat;)V
+		ARG 1 trap
+	METHOD a setRespawnPosition (Lbk;)V
+		ARG 1 respawnPosition
+	METHOD a checkBedValidRespawnPosition (Let;Lbk;)Lbk;
+		COMMENT again unsure cant find any refs anywhere in other editions with syms
+		ARG 0 level
+		ARG 1 pos
+	METHOD a reallyDrop (Lgz;)V
+		ARG 1 item
+	METHOD a drop (Lii;)V
+		ARG 1 item
+	METHOD a drop (Lii;Z)V
+		ARG 1 item
+		ARG 2 b
+	METHOD a attack (Lkw;Z)V
+		COMMENT dunno what actually called so just calling this another overload method
+		ARG 1 target
+		ARG 2 b
+	METHOD a openContainer (Lla;)V
+		ARG 1 container
+	METHOD a readAdditionalSaveData (Lmy;)V
+	METHOD a openFurnace (Lrg;)V
+		ARG 1 furnace
+	METHOD a hurt (Lrj;I)Z
+	METHOD a getDestroySpeed (Lto;)F
+		ARG 1 tile
+	METHOD a awardStat (Luk;)V
+		ARG 1 stat
+	METHOD a awardStat (Luk;I)V
+		ARG 1 stat
+		ARG 2 amount
+	METHOD a openTextEdit (Lxa;)V
+		ARG 1 sign
+	METHOD a stopSleepInBed (ZZZ)V
+		ARG 1 a
+		ARG 2 b
+		ARG 3 c
+	METHOD a_ travel (FF)V
+	METHOD am checkBed ()Z
+	METHOD b defineSynchedData ()V
+	METHOD b causeFallDamage (F)V
+	METHOD b actuallyHurt (I)V
+	METHOD b startSleepInBed (III)Lco;
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+	METHOD b carriedChanged (Lii;)V
+		ARG 1 item
+	METHOD b displayClientMessage (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b addAdditionalSaveData (Lmy;)V
+	METHOD b die (Lrj;)V
+	METHOD b take (Lrj;I)V
+		ARG 1 e
+		ARG 2 orgCount
+	METHOD b canDestroy (Lto;)Z
+		ARG 1 tile
+	METHOD c interact (Lrj;)V
+		ARG 1 entity
+	METHOD c awardKillScore (Lrj;I)V
+	METHOD d attack (Lrj;)V
+		ARG 1 entity
+	METHOD e setBedOffset (I)V
+		ARG 1 dir
+	METHOD e_ updateAi ()V
+	METHOD h checkMovementStatistiscs (DDD)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD i checkRidingStatistiscs (DDD)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+	METHOD j touch (Lrj;)V
+		ARG 1 entity
+	METHOD o aiStep ()V
+	METHOD o_ respawn ()V
+	METHOD r closeContainer ()V
+	METHOD s_ rideTick ()V
+	METHOD t_ resetPos ()V
+	METHOD u_ prepareCustomTextures ()V
+	METHOD w animateRespawn ()V
+	METHOD w_ tick ()V
+	METHOD x getHeadHeight ()F
+	METHOD z isImmobile ()Z

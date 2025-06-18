@@ -1,3 +1,0 @@
-CLASS hm net/minecraft/world/phys/HitResult$Type
-	FIELD a TILE Lhm;
-	FIELD b ENTITY Lhm;

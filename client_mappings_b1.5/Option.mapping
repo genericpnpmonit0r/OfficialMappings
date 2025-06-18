@@ -1,0 +1,26 @@
+CLASS hg Option
+	METHOD <init> (Ljava/lang/String;ILjava/lang/String;ZZ)V
+		ARG 3 captionId
+		ARG 4 progress
+		ARG 5 b
+	METHOD a isProgress ()Z
+	METHOD a getItem (I)Lhg;
+		ARG 0 id
+	METHOD b isBoolean ()Z
+	METHOD c getId ()I
+	METHOD d getCaptionId ()Ljava/lang/String;
+	FIELD a MUSIC Lhg;
+	FIELD b SOUND Lhg;
+	FIELD c INVERT_MOUSE Lhg;
+	FIELD d SENSITIVITY Lhg;
+	FIELD e RENDER_DISTANCE Lhg;
+	FIELD f VIEW_BOBBING Lhg;
+	FIELD g ANAGLYPH Lhg;
+	FIELD i LIMIT_FRAMERATE Lhg;
+	FIELD j DIFFICULTY Lhg;
+	FIELD k GRAPHICS Lhg;
+	FIELD l AMBIENT_OCCLUSION Lhg;
+	FIELD m GUI_SCALE Lhg;
+	FIELD n isProgress Z
+	FIELD o isBoolean Z
+	FIELD p captionId Ljava/lang/String;

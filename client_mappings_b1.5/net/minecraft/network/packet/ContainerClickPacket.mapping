@@ -1,0 +1,12 @@
+CLASS ps net/minecraft/network/packet/ContainerClickPacket
+	FIELD a containerId I
+	FIELD b slotNum I
+	FIELD c buttonNum I
+	FIELD d uid S
+	FIELD e item Lii;
+	FIELD f isQuickMove Z
+	METHOD <init> (IIIZLii;S)V
+		ARG 1 containerId
+		ARG 2 slotNum
+		ARG 3 buttonNum
+	METHOD a handle (Lse;)V

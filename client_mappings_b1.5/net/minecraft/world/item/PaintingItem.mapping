@@ -1,0 +1,2 @@
+CLASS xc net/minecraft/world/item/PaintingItem
+	METHOD a useOn (Lii;Lgh;Let;IIII)Z

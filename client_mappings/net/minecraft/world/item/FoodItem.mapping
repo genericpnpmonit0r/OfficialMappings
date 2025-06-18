@@ -1,9 +1,0 @@
-CLASS uo net/minecraft/world/item/FoodItem
-	FIELD a nutrition I
-	FIELD bi meat Z
-	METHOD <init> (IIZ)V
-		ARG 1 id
-		ARG 2 nutrition
-		ARG 3 meat
-	METHOD l getNutrition ()I
-	METHOD m isMeat ()Z

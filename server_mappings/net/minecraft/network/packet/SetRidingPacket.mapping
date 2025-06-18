@@ -1,6 +1,0 @@
-CLASS hs net/minecraft/network/packet/SetRidingPacket
-	FIELD a riderId I
-	FIELD b riddenId I
-	METHOD <init> (Lkj;Lkj;)V
-		ARG 1 rider
-		ARG 2 ridden

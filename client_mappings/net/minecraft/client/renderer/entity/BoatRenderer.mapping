@@ -1,2 +1,0 @@
-CLASS ed net/minecraft/client/renderer/entity/BoatRenderer
-	FIELD a model Lin;

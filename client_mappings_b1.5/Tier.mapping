@@ -1,0 +1,19 @@
+CLASS bn Tier
+	METHOD <init> (Ljava/lang/String;IIIFI)V
+		ARG 3 l
+		ARG 4 u
+		ARG 5 s
+		ARG 6 d
+	METHOD a getUses ()I
+	METHOD b getSpeed ()F
+	METHOD c getAttackDamageBonus ()I
+	METHOD d getLevel ()I
+	FIELD a WOOD Lbn;
+	FIELD b STONE Lbn;
+	FIELD c IRON Lbn;
+	FIELD d EMERALD Lbn;
+	FIELD e GOLD Lbn;
+	FIELD f level I
+	FIELD g uses I
+	FIELD h speed F
+	FIELD i damage I

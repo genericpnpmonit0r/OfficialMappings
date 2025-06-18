@@ -1,0 +1,3 @@
+CLASS eu net/minecraft/client/renderer/entity/BoatRenderer
+	METHOD a render (Lrj;DDDFF)V
+	FIELD a model Ljt;

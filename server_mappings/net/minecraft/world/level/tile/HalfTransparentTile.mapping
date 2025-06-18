@@ -1,7 +1,0 @@
-CLASS fn net/minecraft/world/level/tile/HalfTransparentTile
-	FIELD a allowSame Z
-	METHOD <init> (IILgo;Z)V
-		ARG 1 id
-		ARG 2 tex
-		ARG 3 material
-		ARG 4 allowSame

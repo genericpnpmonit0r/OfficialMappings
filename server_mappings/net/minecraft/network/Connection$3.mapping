@@ -1,5 +1,0 @@
-CLASS ni net/minecraft/network/Connection$3
-	FIELD a this$0 Lil;
-	METHOD <init> (Lil;)V
-		ARG 1 this$0
-	METHOD run this$0 ()V

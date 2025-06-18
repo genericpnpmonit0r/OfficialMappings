@@ -1,0 +1,2 @@
+CLASS mx net/minecraft/world/entity/monster/Giant
+	METHOD a getWalkTargetValue (III)F

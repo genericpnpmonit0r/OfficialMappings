@@ -1,0 +1,3 @@
+CLASS uj net/minecraft/world/inventory/FurnaceResultSlot
+	METHOD a onTake (Lii;)V
+	METHOD f checkTakeAchievements ()Z

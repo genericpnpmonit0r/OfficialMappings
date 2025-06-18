@@ -1,6 +1,0 @@
-CLASS cx net/minecraft/client/renderer/entity/PlayerRenderer
-	FIELD a humanoidModel Lef;
-	FIELD g armorParts1 Lef;
-	FIELD h armorParts2 Lef;
-	FIELD i MATERIAL_NAMES [Ljava/lang/String;
-	METHOD b renderHand ()V

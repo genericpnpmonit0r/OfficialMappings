@@ -1,6 +1,0 @@
-CLASS nu net/minecraft/world/entity/monster/PigZombie
-	FIELD a angerTime I
-	FIELD b playAngrySoundIn I
-	FIELD f sword Lfg;
-	METHOD d alert (Lkj;)V
-		ARG 1 source

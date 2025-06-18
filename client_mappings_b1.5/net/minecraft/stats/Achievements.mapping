@@ -1,0 +1,19 @@
+CLASS ef net/minecraft/stats/Achievements
+	FIELD e achievements Ljava/util/List;
+	FIELD f openInventory Lnc;
+	FIELD g mineWood Lnc;
+	FIELD h buildWorkBench Lnc;
+	FIELD i buildPickaxe Lnc;
+	FIELD j buildFurnace Lnc;
+	FIELD k acquireIron Lnc;
+	FIELD l buildHoe Lnc;
+	FIELD m makeBread Lnc;
+	FIELD n bakeCake Lnc;
+	FIELD o buildBetterPickaxe Lnc;
+	FIELD p cookFish Lnc;
+	FIELD q onARail Lnc;
+	FIELD r buildSword Lnc;
+	FIELD s killEnemy Lnc;
+	FIELD t killCow Lnc;
+	FIELD u flyPig Lnc;
+	METHOD a init ()V

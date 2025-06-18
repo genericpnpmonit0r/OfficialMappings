@@ -1,0 +1,7 @@
+CLASS net/minecraft/client/MinecraftApplet
+	METHOD a startGameThread ()V
+	METHOD b stopGameThread ()V
+	METHOD c clearMemory ()V
+	FIELD a canvas Ljava/awt/Canvas;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c thread Ljava/lang/Thread;

@@ -1,0 +1,2 @@
+CLASS dz net/minecraft/client/model/ZombieModel
+	METHOD b setupAnim (FFFFFF)V

@@ -1,0 +1,25 @@
+CLASS av net/minecraft/client/renderer/entity/ItemRenderer
+	METHOD a blit (IIIIII)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 sx
+		ARG 4 sy
+		ARG 5 w
+		ARG 6 h
+	METHOD a fillRect (Lna;IIIII)V
+		ARG 1 t
+		ARG 2 x
+		ARG 3 y
+		ARG 4 w
+		ARG 5 h
+		ARG 6 c
+	METHOD a renderGuiItem (Lrf;Lip;Lii;II)V
+	METHOD a render (Lrj;DDDFF)V
+	METHOD b renderGuiItemDecorations (Lrf;Lip;Lii;II)V
+		ARG 1 font
+		ARG 2 textures
+		ARG 3 item
+		ARG 4 x
+		ARG 5 y
+	FIELD e tileRenderer Lcn;
+	FIELD f random Ljava/util/Random;

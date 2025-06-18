@@ -1,4 +1,0 @@
-CLASS fl net/minecraft/client/gui/inventory/TrapScreen
-	METHOD <init> (Lhh;Lal;)V
-		ARG 1 inventory
-		ARG 2 trap

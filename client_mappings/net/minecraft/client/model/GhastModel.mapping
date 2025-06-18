@@ -1,3 +1,0 @@
-CLASS ji net/minecraft/client/model/GhastModel
-	FIELD a body Lms;
-	FIELD b tentacles [Lms;

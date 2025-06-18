@@ -1,0 +1,9 @@
+CLASS ou net/minecraft/world/level/tile/MusicTile
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD a getTexture (I)I
+	METHOD a neighborChanged (Let;IIII)V
+	METHOD a triggerEvent (Let;IIIII)V
+	METHOD a use (Let;IIILgh;)Z
+	METHOD a_ newTileEntity ()Lnx;
+	METHOD b attack (Let;IIILgh;)V

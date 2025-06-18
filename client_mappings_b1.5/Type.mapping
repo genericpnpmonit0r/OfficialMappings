@@ -1,0 +1,3 @@
+CLASS in Type
+	FIELD a TILE Lin;
+	FIELD b ENTITY Lin;

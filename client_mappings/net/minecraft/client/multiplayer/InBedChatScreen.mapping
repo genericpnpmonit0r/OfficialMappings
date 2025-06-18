@@ -1,2 +1,0 @@
-CLASS fc net/minecraft/client/multiplayer/InBedChatScreen
-	METHOD j stopSleeping ()V

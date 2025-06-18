@@ -1,4 +1,0 @@
-CLASS nv net/minecraft/network/packet/SetSpawnPositionPacket
-	FIELD a x I
-	FIELD b y I
-	FIELD c z I

@@ -1,4 +1,0 @@
-CLASS i com/mojang/nbt/FloatTag
-	FIELD a data F
-	METHOD <init> (F)V
-		ARG 1 data

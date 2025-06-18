@@ -1,4 +1,0 @@
-CLASS a net/minecraft/network/packet/InteractPacket
-	FIELD a source I
-	FIELD b target I
-	FIELD c action I

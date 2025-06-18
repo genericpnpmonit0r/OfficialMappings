@@ -1,7 +1,0 @@
-CLASS bw net/minecraft/world/locale/I18N
-	FIELD a language Lhm;
-	METHOD a get (Ljava/lang/String;)Ljava/lang/String;
-		ARG 0 elementId
-	METHOD a get (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
-		ARG 0 elementId
-		ARG 1 objects

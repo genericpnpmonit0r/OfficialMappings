@@ -1,0 +1,5 @@
+CLASS we net/minecraft/world/level/levelgen/feature/SpringFeature
+	METHOD <init> (I)V
+		ARG 1 tile
+	METHOD a place (Let;Ljava/util/Random;III)Z
+	FIELD a tile I

@@ -1,2 +1,0 @@
-CLASS fh net/minecraft/client/renderer/entity/FallingTileRenderer
-	FIELD a tileRenderer Lca;

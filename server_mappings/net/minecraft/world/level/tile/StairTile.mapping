@@ -1,5 +1,0 @@
-CLASS kn net/minecraft/world/level/tile/StairTile
-	FIELD a base Llq;
-	METHOD <init> (ILlq;)V
-		ARG 1 id
-		ARG 2 base

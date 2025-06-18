@@ -1,0 +1,3 @@
+CLASS ek net/minecraft/network/packet/SetHealthPacket
+	METHOD a handle (Lse;)V
+	FIELD a health I

@@ -1,0 +1,4 @@
+CLASS ck net/minecraft/world/item/FishingRodItem
+	METHOD a use (Lii;Let;Lgh;)Lii;
+	METHOD b isHandEquipped ()Z
+	METHOD c isMirroredArt ()Z

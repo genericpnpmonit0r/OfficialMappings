@@ -1,3 +1,0 @@
-CLASS le net/minecraft/network/packet/SetRidingPacket
-	FIELD a riderId I
-	FIELD b riddenId I

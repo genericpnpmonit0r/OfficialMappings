@@ -1,0 +1,21 @@
+CLASS hm net/minecraft/client/model/Vertex
+	METHOD <init> (FFFFF)V
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 u
+		ARG 5 v
+	METHOD <init> (Lbm;FF)V
+		ARG 1 vertex
+		ARG 2 u
+		ARG 3 v
+	METHOD <init> (Lhm;FF)V
+		ARG 1 vertex
+		ARG 2 u
+		ARG 3 v
+	METHOD a remap (FF)Lhm;
+		ARG 1 u
+		ARG 2 v
+	FIELD a pos Lbm;
+	FIELD b u F
+	FIELD c v F

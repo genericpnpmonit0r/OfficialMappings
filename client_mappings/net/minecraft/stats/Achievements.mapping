@@ -1,5 +1,0 @@
-CLASS dp net/minecraft/stats/Achievements
-	FIELD a achievements Ljava/util/List;
-	FIELD b openInventory Llk;
-	FIELD c mineWood Llk;
-	FIELD d buildWorkBench Llk;

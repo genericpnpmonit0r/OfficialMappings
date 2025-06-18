@@ -1,0 +1,3 @@
+CLASS gi net/minecraft/stats/RequirementsStrategy
+	METHOD a apply (Ljava/lang/String;)Ljava/lang/String;
+		ARG 1 s

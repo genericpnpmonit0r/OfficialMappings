@@ -1,0 +1,2 @@
+CLASS ny net/minecraft/network/packet/RespawnPacket
+	METHOD a handle (Lse;)V

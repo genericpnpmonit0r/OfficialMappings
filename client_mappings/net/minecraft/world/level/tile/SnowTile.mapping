@@ -1,4 +1,0 @@
-CLASS w net/minecraft/world/level/tile/SnowTile
-	METHOD <init> (II)V
-		ARG 1 id
-		ARG 2 tex

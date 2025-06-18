@@ -1,4 +1,0 @@
-CLASS ip com/mojang/nbt/IntTag
-	FIELD a data I
-	METHOD <init> (I)V
-		ARG 1 data

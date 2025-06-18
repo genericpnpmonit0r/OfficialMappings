@@ -1,0 +1,47 @@
+CLASS po net/minecraft/world/level/levelgen/HellRandomLevelSource
+	METHOD <init> (Let;J)V
+		ARG 1 level
+		ARG 2 seed
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a prepareHeights (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD a postProcess (Lcf;II)V
+	METHOD a save (ZLwr;)Z
+	METHOD a getHeights ([DIIIIII)[D
+		ARG 1 buf
+		ARG 2 a
+		ARG 3 b
+		ARG 4 c
+		ARG 5 d
+		ARG 6 e
+		ARG 7 f
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lkq;
+	METHOD b buildSurfaces (II[B)V
+		ARG 1 x
+		ARG 2 z
+		ARG 3 blocks
+	METHOD c gatherStats ()Ljava/lang/String;
+	METHOD c create (II)Lkq;
+	FIELD a scaleNoise Ltb;
+	FIELD b depthNoise Ltb;
+	FIELD c pnr [D
+	FIELD d ar [D
+	FIELD e br [D
+	FIELD f sr [D
+	FIELD g dr [D
+	FIELD h random Ljava/util/Random;
+	FIELD i lperlinNoise1 Ltb;
+	FIELD j lperlinNoise2 Ltb;
+	FIELD k perlinNoise1 Ltb;
+	FIELD l perlinNoise2 Ltb;
+	FIELD m perlinNoise3 Ltb;
+	FIELD n level Let;
+	FIELD o buffer [D
+	FIELD p sandBuffer [D
+	FIELD q gravelBuffer [D
+	FIELD r depthBuffer [D
+	FIELD s caveFeature Lfk;

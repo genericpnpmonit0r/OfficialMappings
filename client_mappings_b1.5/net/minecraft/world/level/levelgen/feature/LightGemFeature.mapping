@@ -1,0 +1,2 @@
+CLASS fs net/minecraft/world/level/levelgen/feature/LightGemFeature
+	METHOD a place (Let;Ljava/util/Random;III)Z

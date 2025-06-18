@@ -1,0 +1,2 @@
+CLASS jr net/minecraft/client/renderer/entity/FireballRenderer
+	METHOD a render (Lrj;DDDFF)V
