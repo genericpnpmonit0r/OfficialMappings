@@ -1,0 +1,14 @@
+CLASS dg net/minecraft/world/level/Region
+	METHOD a getBiomeSource ()Lro;
+	METHOD a getTile (III)I
+	METHOD a getRawBrightness (IIIZ)I
+	METHOD b getTileEntity (III)Lkp;
+	METHOD c getBrightness (III)F
+	METHOD d getRawBrightness (III)I
+	METHOD e getData (III)I
+	METHOD f getMaterial (III)Lic;
+	METHOD g isSolidTile (III)Z
+	FIELD a xc1 I
+	FIELD b zc1 I
+	FIELD c chunks [[Lib;
+	FIELD d level Ldn;

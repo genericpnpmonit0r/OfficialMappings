@@ -1,0 +1,6 @@
+CLASS hb net/minecraft/world/level/tile/FenceTile
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Ldn;III)Z
+	METHOD a addAABBs (Ldn;IIILdb;Ljava/util/ArrayList;)V
+	METHOD b isCubeShaped ()Z
+	METHOD g getRenderShape ()I

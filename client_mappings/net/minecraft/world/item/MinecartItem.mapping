@@ -1,0 +1,3 @@
+CLASS mo net/minecraft/world/item/MinecartItem
+	METHOD a useOn (Lgm;Leu;Ldn;IIII)Z
+	FIELD a type I

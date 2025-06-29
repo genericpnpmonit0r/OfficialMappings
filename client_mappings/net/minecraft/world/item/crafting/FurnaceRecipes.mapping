@@ -1,0 +1,6 @@
+CLASS dj net/minecraft/world/item/crafting/FurnaceRecipes
+	METHOD a getInstance ()Ldj;
+	METHOD a getResult (I)Lgm;
+	METHOD a addFurnaceRecipy (ILgm;)V
+	FIELD a instance Ldj;
+	FIELD b recipies Ljava/util/Map;

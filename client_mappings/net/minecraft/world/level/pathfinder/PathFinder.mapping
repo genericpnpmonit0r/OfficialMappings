@@ -1,0 +1,14 @@
+CLASS ed net/minecraft/world/level/pathfinder/PathFinder
+	METHOD a getNode (III)Lb;
+	METHOD a reconstruct_path (Lb;Lb;)Lcc;
+	METHOD a findPath (Lnl;DDDF)Lcc;
+	METHOD a findPath (Lnl;IIIF)Lcc;
+	METHOD a isFree (Lnl;IIILb;)I
+	METHOD a getNode (Lnl;IIILb;I)Lb;
+	METHOD a findPath (Lnl;Lb;Lb;Lb;F)Lcc;
+	METHOD a findPath (Lnl;Lnl;F)Lcc;
+	METHOD b getNeighbors (Lnl;Lb;Lb;Lb;F)I
+	FIELD a level Lri;
+	FIELD b openSet Lhw;
+	FIELD c nodes Lhc;
+	FIELD d neighbors [Lb;

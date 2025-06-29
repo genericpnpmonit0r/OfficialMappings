@@ -1,0 +1,10 @@
+CLASS qb net/minecraft/network/packet/TileEventPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lod;)V
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d b0 I
+	FIELD e b1 I

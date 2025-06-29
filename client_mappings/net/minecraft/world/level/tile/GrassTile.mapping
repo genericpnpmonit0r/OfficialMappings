@@ -1,0 +1,5 @@
+CLASS qp net/minecraft/world/level/tile/GrassTile
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a getTexture (Lri;IIII)I
+	METHOD b getColor (Lri;III)I

@@ -1,0 +1,4 @@
+CLASS po net/minecraft/client/renderer/entity/CowRenderer
+	METHOD a render (Lbb;DDDFF)V
+	METHOD a render (Lig;DDDFF)V
+	METHOD a render (Lnl;DDDFF)V

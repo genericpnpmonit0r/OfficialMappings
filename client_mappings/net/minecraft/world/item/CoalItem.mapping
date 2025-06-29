@@ -1,0 +1,2 @@
+CLASS mw net/minecraft/world/item/CoalItem
+	METHOD b getDescriptionId (Lgm;)Ljava/lang/String;

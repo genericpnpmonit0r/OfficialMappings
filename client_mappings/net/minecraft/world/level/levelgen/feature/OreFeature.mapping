@@ -1,0 +1,4 @@
+CLASS du net/minecraft/world/level/levelgen/feature/OreFeature
+	METHOD a place (Ldn;Ljava/util/Random;III)Z
+	FIELD a tile I
+	FIELD b count I

@@ -1,0 +1,4 @@
+CLASS le net/minecraft/client/renderer/tileentity/SignRenderer
+	METHOD a render (Lkp;DDDF)V
+	METHOD a render (Lsc;DDDF)V
+	FIELD b signModel Lmk;

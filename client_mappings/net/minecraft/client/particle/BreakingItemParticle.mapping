@@ -1,0 +1,3 @@
+CLASS kv net/minecraft/client/particle/BreakingItemParticle
+	METHOD a render (Ljy;FFFFFF)V
+	METHOD b_ getParticleTexture ()I

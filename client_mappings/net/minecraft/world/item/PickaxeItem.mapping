@@ -1,0 +1,3 @@
+CLASS aj net/minecraft/world/item/PickaxeItem
+	METHOD a canDestroySpecial (Lpj;)Z
+	FIELD bg diggables [Lpj;

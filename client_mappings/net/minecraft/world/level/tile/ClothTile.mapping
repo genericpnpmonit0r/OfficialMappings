@@ -1,0 +1,5 @@
+CLASS cu net/minecraft/world/level/tile/ClothTile
+	METHOD a getTexture (II)I
+	METHOD b getSpawnResourcesAuxValue (I)I
+	METHOD c getTileDataForItemAuxValue (I)I
+	METHOD d getItemAuxValueForTileData (I)I

@@ -1,0 +1,20 @@
+CLASS cp net/minecraft/world/inventory/AbstractContainerMenu
+	METHOD a broadcastChanges ()V
+	METHOD a getSlot (I)Leq;
+	METHOD a setData (II)V
+	METHOD a clicked (IILeu;)Lgm;
+	METHOD a setItem (ILgm;)V
+	METHOD a addSlot (Leq;)V
+	METHOD a removed (Leu;)V
+	METHOD a backup (Lgl;)S
+	METHOD a slotsChanged (Lij;)V
+	METHOD a deleteBackup (S)V
+	METHOD a setAll ([Lgm;)V
+	METHOD b stillValid (Leu;)Z
+	METHOD b rollbackToBackup (S)V
+	FIELD a changeUid S
+	FIELD b unSynchedPlayers Ljava/util/Set;
+	FIELD d lastSlots Ljava/util/List;
+	FIELD e slots Ljava/util/List;
+	FIELD f containerId I
+	FIELD g containerListeners Ljava/util/List;

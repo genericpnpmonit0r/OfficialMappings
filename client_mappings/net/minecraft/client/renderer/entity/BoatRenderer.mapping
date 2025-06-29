@@ -1,0 +1,4 @@
+CLASS dp net/minecraft/client/renderer/entity/BoatRenderer
+	METHOD a render (Leg;DDDFF)V
+	METHOD a render (Lnl;DDDFF)V
+	FIELD a model Lhl;

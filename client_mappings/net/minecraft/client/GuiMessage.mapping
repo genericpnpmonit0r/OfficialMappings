@@ -1,0 +1,3 @@
+CLASS nt net/minecraft/client/GuiMessage
+	FIELD a string Ljava/lang/String;
+	FIELD b ticks I

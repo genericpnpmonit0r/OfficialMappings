@@ -1,18 +1,59 @@
 CLASS h net/minecraft/client/renderer/LevelRenderer
+	METHOD a allChanged ()V
+	METHOD a renderSky (F)V
+	METHOD a renderSameAsLast (ID)V
+	METHOD a checkQueryResults (II)V
+	METHOD a tileChanged (III)V
+	METHOD a renderChunks (IIID)I
+	METHOD a setDirty (IIIIII)V
+	METHOD a tileEntityChanged (IIILkp;)V
+	METHOD a renderEntities (Lax;Lsf;F)V
+	METHOD a render (Ldb;)V
+	METHOD a setLevel (Ldn;)V
+	METHOD a render (Leu;ID)I
+	METHOD a renderHit (Leu;Lpr;ILgm;F)V
+	METHOD a updateDirtyChunks (Leu;Z)Z
+	METHOD a addParticle (Ljava/lang/String;DDDDDD)V
+	METHOD a playSound (Ljava/lang/String;DDDFF)V
+	METHOD a playStreamingMusic (Ljava/lang/String;III)V
+	METHOD a entityAdded (Lnl;)V
+	METHOD a cull (Lsf;F)V
+	METHOD b gatherStats1 ()Ljava/lang/String;
+	METHOD b renderClouds (F)V
+	METHOD b resortChunks (III)V
+	METHOD b setTilesDirty (IIIIII)V
+	METHOD b renderHitOutline (Leu;Lpr;ILgm;F)V
+	METHOD b entityRemoved (Lnl;)V
+	METHOD c gatherStats2 ()Ljava/lang/String;
+	METHOD c renderAdvancedClouds (F)V
+	METHOD d tick ()V
+	METHOD e skyColorChanged ()V
+	METHOD f renderStars ()V
 	FIELD A darkList I
 	FIELD B xMinChunk I
+	FIELD C yMinChunk I
+	FIELD D zMinChunk I
+	FIELD E xMaxChunk I
+	FIELD F yMaxChunk I
+	FIELD G zMaxChunk I
 	FIELD H lastViewDistance I
 	FIELD I noEntityRenderFrames I
 	FIELD J totalEntities I
 	FIELD K renderedEntities I
 	FIELD L culledEntities I
+	FIELD M totalChunks I
+	FIELD N offscreenChunks I
+	FIELD O occludedChunks I
+	FIELD P renderedChunks I
+	FIELD Q emptyChunks I
+	FIELD R chunkFixOffs I
 	FIELD S renderChunks Ljava/util/List;
 	FIELD T renderLists [Lob;
 	FIELD a renderableTileEntities Ljava/util/List;
 	FIELD b toRender [I
 	FIELD c resultBuffer Ljava/nio/IntBuffer;
 	FIELD d frame I
-	FIELD e repeatLists I
+	FIELD e repeatList I
 	FIELD f xOld D
 	FIELD g yOld D
 	FIELD h zOld D
@@ -34,6 +75,3 @@ CLASS h net/minecraft/client/renderer/LevelRenderer
 	FIELD x ticks I
 	FIELD y starList I
 	FIELD z skyList I
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Lgs;)V
-		ARG 1 mc
-		ARG 2 textures

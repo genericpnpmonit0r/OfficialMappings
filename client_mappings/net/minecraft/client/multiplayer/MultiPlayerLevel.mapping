@@ -1,0 +1,27 @@
+CLASS ix net/minecraft/client/multiplayer/MultiPlayerLevel
+	METHOD a setTileAndDataNoUpdate (IIIII)Z
+	METHOD a setChunkVisible (IIZ)V
+	METHOD a putEntity (ILnl;)V
+	METHOD a createChunkSource (Ljava/io/File;)Lbm;
+	METHOD a addEntity (Lnl;)Z
+	METHOD a tickPendingTicks (Z)Z
+	METHOD b validateSpawn ()V
+	METHOD b getEntity (I)Lnl;
+	METHOD b setTileNoUpdate (IIII)Z
+	METHOD b entityAdded (Lnl;)V
+	METHOD c removeEntity (I)Lnl;
+	METHOD c clearResetRegion (IIIIII)V
+	METHOD c entityRemoved (Lnl;)V
+	METHOD d setDataNoUpdate (IIII)Z
+	METHOD d doSetTileAndData (IIIII)Z
+	METHOD d removeEntity (Lnl;)V
+	METHOD i addToTickNextTick (IIII)V
+	METHOD j tick ()V
+	METHOD k tickTiles ()V
+	METHOD n disconnect ()V
+	FIELD A updatesToReset Ljava/util/LinkedList;
+	FIELD B connection Ljg;
+	FIELD C chunkCache Lpk;
+	FIELD D entitiesById Lhc;
+	FIELD E forced Ljava/util/Set;
+	FIELD F reEntries Ljava/util/Set;

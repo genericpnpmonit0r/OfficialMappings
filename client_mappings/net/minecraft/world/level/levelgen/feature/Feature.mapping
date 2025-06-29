@@ -1,0 +1,3 @@
+CLASS kz net/minecraft/world/level/levelgen/feature/Feature
+	METHOD a init (DDD)V
+	METHOD a place (Ldn;Ljava/util/Random;III)Z

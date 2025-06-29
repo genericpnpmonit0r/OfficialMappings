@@ -1,0 +1,4 @@
+CLASS v net/minecraft/world/level/tile/SnowTile
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I

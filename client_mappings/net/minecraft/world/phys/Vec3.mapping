@@ -1,0 +1,23 @@
+CLASS ax net/minecraft/world/phys/Vec3
+	METHOD a resetPool ()V
+	METHOD a newPermanent (DDD)Lax;
+	METHOD a xRot (F)V
+	METHOD a vectorTo (Lax;)Lax;
+	METHOD a clipX (Lax;D)Lax;
+	METHOD b normalize ()Lax;
+	METHOD b newTemp (DDD)Lax;
+	METHOD b yRot (F)V
+	METHOD b cross (Lax;)Lax;
+	METHOD b clipY (Lax;D)Lax;
+	METHOD c length ()D
+	METHOD c add (DDD)Lax;
+	METHOD c distanceTo (Lax;)D
+	METHOD c clipZ (Lax;D)Lax;
+	METHOD d distanceToSqr (DDD)D
+	METHOD d distanceToSqr (Lax;)D
+	METHOD e set (DDD)Lax;
+	FIELD a x D
+	FIELD b y D
+	FIELD c z D
+	FIELD d pool Ljava/util/List;
+	FIELD e poolPointer I

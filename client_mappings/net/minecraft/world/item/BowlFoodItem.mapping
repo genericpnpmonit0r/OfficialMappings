@@ -1,0 +1,2 @@
+CLASS bd net/minecraft/world/item/BowlFoodItem
+	METHOD a use (Lgm;Ldn;Leu;)Lgm;

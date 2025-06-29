@@ -1,0 +1,11 @@
+CLASS mj net/minecraft/isom/Zone
+	METHOD a init (II)V
+	METHOD a init (Ldn;II)V
+	FIELD a image Ljava/awt/image/BufferedImage;
+	FIELD b level Ldn;
+	FIELD c x I
+	FIELD d y I
+	FIELD e rendered Z
+	FIELD f noContent Z
+	FIELD g lastVisible I
+	FIELD h addedToRenderQueue Z

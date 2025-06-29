@@ -1,0 +1,8 @@
+CLASS au net/minecraft/world/inventory/FurnaceMenu
+	METHOD a broadcastChanges ()V
+	METHOD a setData (II)V
+	METHOD b stillValid (Leu;)Z
+	FIELD a furnace Lni;
+	FIELD b tc I
+	FIELD c lt I
+	FIELD h ld I

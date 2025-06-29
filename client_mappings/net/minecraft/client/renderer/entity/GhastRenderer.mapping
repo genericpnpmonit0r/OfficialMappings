@@ -1,0 +1,3 @@
+CLASS lg net/minecraft/client/renderer/entity/GhastRenderer
+	METHOD a scale (Lav;F)V
+	METHOD a scale (Lig;F)V

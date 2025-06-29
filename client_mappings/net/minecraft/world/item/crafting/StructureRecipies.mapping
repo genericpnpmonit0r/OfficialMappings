@@ -1,0 +1,2 @@
+CLASS hd net/minecraft/world/item/crafting/StructureRecipies
+	METHOD a addRecipes (Lfg;)V

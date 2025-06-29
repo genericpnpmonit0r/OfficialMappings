@@ -1,0 +1,17 @@
+CLASS ea net/minecraft/client/skins/TexturePackSelectScreen
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a mouseClicked (III)V
+	METHOD a renderHoleBackground (IIII)V
+	METHOD a buttonClicked (Lhg;)V
+	METHOD b mouseReleased (III)V
+	METHOD g tick ()V
+	FIELD a lastScreen Lby;
+	FIELD h yo I
+	FIELD i y0 I
+	FIELD k y1 I
+	FIELD l x0 I
+	FIELD m x1 I
+	FIELD n yDrag I
+	FIELD o updateIn I
+	FIELD p instructions Ljava/lang/String;

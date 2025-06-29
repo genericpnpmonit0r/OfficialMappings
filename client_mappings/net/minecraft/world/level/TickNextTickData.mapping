@@ -1,0 +1,10 @@
+CLASS md net/minecraft/world/level/TickNextTickData
+	METHOD a delay (J)Lmd;
+	METHOD a compareTo (Lmd;)I
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d tileId I
+	FIELD e delay J
+	FIELD f C J
+	FIELD g c J

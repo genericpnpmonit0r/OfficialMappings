@@ -1,0 +1,3 @@
+CLASS q net/minecraft/client/renderer/entity/HumanoidMobRenderer
+	METHOD b additionalRendering (Lig;F)V
+	FIELD a humanoidModel Ldr;

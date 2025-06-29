@@ -1,0 +1,3 @@
+CLASS gv net/minecraft/client/renderer/DistanceChunkSorter
+	METHOD a compare (Lcg;Lcg;)I
+	FIELD a player Lnl;

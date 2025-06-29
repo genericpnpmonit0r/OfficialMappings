@@ -1,0 +1,4 @@
+CLASS bs net/minecraft/world/item/FishingRodItem
+	METHOD a use (Lgm;Ldn;Leu;)Lgm;
+	METHOD b isHandEquipped ()Z
+	METHOD c isMirroredArt ()Z

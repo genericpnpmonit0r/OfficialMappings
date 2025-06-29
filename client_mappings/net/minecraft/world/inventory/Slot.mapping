@@ -1,0 +1,15 @@
+CLASS eq net/minecraft/world/inventory/Slot
+	METHOD a onTake ()V
+	METHOD a remove (I)Lgm;
+	METHOD a mayPlace (Lgm;)Z
+	METHOD b getItem ()Lgm;
+	METHOD b set (Lgm;)V
+	METHOD c hasItem ()Z
+	METHOD d setChanged ()V
+	METHOD e getMaxStackSize ()I
+	METHOD f getNoItemIcon ()I
+	FIELD a index I
+	FIELD b x I
+	FIELD c y I
+	FIELD d slot I
+	FIELD e container Lij;

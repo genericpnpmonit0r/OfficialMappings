@@ -1,0 +1,22 @@
+CLASS li net/minecraft/client/model/Cube
+	METHOD a render (F)V
+	METHOD a setPos (FFF)V
+	METHOD a addBox (FFFIII)V
+	METHOD a addBox (FFFIIIF)V
+	METHOD b translateTo (F)V
+	METHOD c compile (F)V
+	FIELD a x F
+	FIELD b y F
+	FIELD c z F
+	FIELD d xRot F
+	FIELD e yRot F
+	FIELD f zRot F
+	FIELD g mirror Z
+	FIELD h visible Z
+	FIELD i neverRender Z
+	FIELD j vertices [Lfs;
+	FIELD k polygons [Los;
+	FIELD l xTexOffs I
+	FIELD m yTexOffs I
+	FIELD n compiled Z
+	FIELD o list I

@@ -1,0 +1,9 @@
+CLASS ah net/minecraft/client/renderer/ptexture/DynamicTexture
+	METHOD a tick ()V
+	METHOD a bindTexture (Lgs;)V
+	FIELD a pixels [B
+	FIELD b tex I
+	FIELD c anaglyph3d Z
+	FIELD d copyTo I
+	FIELD e replicate I
+	FIELD f textureId I

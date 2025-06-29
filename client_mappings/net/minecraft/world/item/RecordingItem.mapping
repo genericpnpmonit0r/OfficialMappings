@@ -1,0 +1,3 @@
+CLASS ol net/minecraft/world/item/RecordingItem
+	METHOD a useOn (Lgm;Leu;Ldn;IIII)Z
+	FIELD a recording Ljava/lang/String;

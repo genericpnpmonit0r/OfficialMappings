@@ -1,0 +1,5 @@
+CLASS hl net/minecraft/client/model/Model
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD m attackTime F
+	FIELD n riding Z

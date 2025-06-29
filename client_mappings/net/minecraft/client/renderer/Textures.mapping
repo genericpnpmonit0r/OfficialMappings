@@ -1,0 +1,27 @@
+CLASS gs net/minecraft/client/renderer/Textures
+	METHOD a tick ()V
+	METHOD a releaseTexture (I)V
+	METHOD a smoothBlend (II)I
+	METHOD a addDynamicTexture (Lah;)V
+	METHOD a getTexture (Ljava/awt/image/BufferedImage;)I
+	METHOD a loadTexture (Ljava/awt/image/BufferedImage;I)V
+	METHOD a readImage (Ljava/io/InputStream;)Ljava/awt/image/BufferedImage;
+	METHOD a loadTexture (Ljava/lang/String;)I
+	METHOD a loadHttpTexture (Ljava/lang/String;Ljava/lang/String;)I
+	METHOD a addHttpTexture (Ljava/lang/String;Ljj;)Lcy;
+	METHOD b reloadAll ()V
+	METHOD b bind (I)V
+	METHOD b crispBlend (II)I
+	METHOD b makeStrip (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;
+	METHOD b removeHttpTexture (Ljava/lang/String;)V
+	FIELD a MIPMAP Z
+	FIELD b idMap Ljava/util/HashMap;
+	FIELD c loadedImages Ljava/util/HashMap;
+	FIELD d ib Ljava/nio/IntBuffer;
+	FIELD e pixels Ljava/nio/ByteBuffer;
+	FIELD f dynamicTextures Ljava/util/List;
+	FIELD g httpTextures Ljava/util/Map;
+	FIELD h options Lhq;
+	FIELD i clamp Z
+	FIELD j blur Z
+	FIELD k skins Lga;

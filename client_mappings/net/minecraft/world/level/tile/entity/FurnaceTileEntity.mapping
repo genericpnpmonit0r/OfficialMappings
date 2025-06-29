@@ -1,0 +1,21 @@
+CLASS ni net/minecraft/world/level/tile/entity/FurnaceTileEntity
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lgm;
+	METHOD a setItem (ILgm;)V
+	METHOD a getBurnDuration (Lgm;)I
+	METHOD a load (Ljw;)V
+	METHOD a_ stillValid (Leu;)Z
+	METHOD b isLit ()Z
+	METHOD b getBurnProgress (I)I
+	METHOD b save (Ljw;)V
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c getLitProgress (I)I
+	METHOD c_ getItem (I)Lgm;
+	METHOD d getMaxStackSize ()I
+	METHOD g burn ()V
+	METHOD i canBurn ()Z
+	METHOD m_ tick ()V
+	FIELD a litTime I
+	FIELD b litDuration I
+	FIELD c tickCount I
+	FIELD h items [Lgm;

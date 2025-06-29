@@ -1,0 +1,3 @@
+CLASS ra net/minecraft/client/particle/WaterDropParticle
+	METHOD a render (Ljy;FFFFFF)V
+	METHOD q_ tick ()V

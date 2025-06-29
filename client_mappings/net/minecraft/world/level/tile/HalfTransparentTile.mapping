@@ -1,0 +1,4 @@
+CLASS gw net/minecraft/world/level/tile/HalfTransparentTile
+	METHOD a isSolidRender ()Z
+	METHOD b shouldRenderFace (Lri;IIII)Z
+	FIELD a allowSame Z

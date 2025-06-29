@@ -1,0 +1,4 @@
+CLASS gc net/minecraft/client/particle/RedDustParticle
+	METHOD a render (Ljy;FFFFFF)V
+	METHOD q_ tick ()V
+	FIELD a oSize F

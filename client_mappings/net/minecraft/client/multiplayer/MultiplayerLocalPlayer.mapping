@@ -1,0 +1,27 @@
+CLASS of net/minecraft/client/multiplayer/MultiplayerLocalPlayer
+	METHOD E swing ()V
+	METHOD W sendPosition ()V
+	METHOD X ensureHasSentInventory ()V
+	METHOD a reallyDrop (Lfh;)V
+	METHOD a chat (Ljava/lang/String;)V
+	METHOD a hurt (Lnl;I)Z
+	METHOD a_ hurtTo (I)V
+	METHOD b actuallyHurt (I)V
+	METHOD c heal (I)V
+	METHOD p closeContainer ()V
+	METHOD q_ tick ()V
+	METHOD r prepareForTick ()V
+	METHOD u respawn ()V
+	METHOD z drop ()V
+	FIELD bF connection Ljg;
+	FIELD bG lastInventorySendTime I
+	FIELD bH flashOnSetHealth Z
+	FIELD bI xLast D
+	FIELD bJ yLast1 D
+	FIELD bK yLast2 D
+	FIELD bL zLast D
+	FIELD bM yRotLast F
+	FIELD bN xRotLast F
+	FIELD bO lastOnGround Z
+	FIELD bP lastSneaked Z
+	FIELD bQ noSendTime I

@@ -1,0 +1,4 @@
+CLASS rg net/minecraft/client/particle/SmokeParticle
+	METHOD a render (Ljy;FFFFFF)V
+	METHOD q_ tick ()V
+	FIELD a oSize F

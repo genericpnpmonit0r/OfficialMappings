@@ -1,0 +1,14 @@
+CLASS na net/minecraft/client/model/SpiderModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a head Lli;
+	FIELD b body0 Lli;
+	FIELD c body1 Lli;
+	FIELD d leg0 Lli;
+	FIELD e leg1 Lli;
+	FIELD f leg2 Lli;
+	FIELD g leg3 Lli;
+	FIELD h leg4 Lli;
+	FIELD i leg5 Lli;
+	FIELD j leg6 Lli;
+	FIELD k leg7 Lli;

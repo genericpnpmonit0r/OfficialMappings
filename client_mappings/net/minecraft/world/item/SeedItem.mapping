@@ -1,0 +1,3 @@
+CLASS mn net/minecraft/world/item/SeedItem
+	METHOD a useOn (Lgm;Leu;Ldn;IIII)Z
+	FIELD a resultId I

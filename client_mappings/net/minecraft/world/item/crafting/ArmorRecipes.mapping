@@ -1,0 +1,4 @@
+CLASS s net/minecraft/world/item/crafting/ArmorRecipes
+	METHOD a addRecipes (Lfg;)V
+	FIELD a shapes [[Ljava/lang/String;
+	FIELD b map [[Ljava/lang/Object;

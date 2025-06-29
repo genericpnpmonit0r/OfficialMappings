@@ -1,0 +1,11 @@
+CLASS oj net/minecraft/world/level/chunk/storage/OldChunkStorage
+	METHOD a tick ()V
+	METHOD a getFile (II)Ljava/io/File;
+	METHOD a load (Ldn;II)Lib;
+	METHOD a save (Ldn;Lib;)V
+	METHOD a load (Ldn;Ljw;)Lib;
+	METHOD a save (Lib;Ldn;Ljw;)V
+	METHOD b flush ()V
+	METHOD b saveEntities (Ldn;Lib;)V
+	FIELD a dir Ljava/io/File;
+	FIELD b create Z

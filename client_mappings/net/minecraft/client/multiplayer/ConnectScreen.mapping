@@ -1,0 +1,11 @@
+CLASS qc net/minecraft/client/multiplayer/ConnectScreen
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhg;)V
+	METHOD a access$1 (Lqc;)Z
+	METHOD a access$0 (Lqc;Ljg;)Ljg;
+	METHOD b access$2 (Lqc;)Ljg;
+	METHOD g tick ()V
+	FIELD a connection Ljg;
+	FIELD h aborted Z

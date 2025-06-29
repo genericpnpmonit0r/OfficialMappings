@@ -1,0 +1,3 @@
+CLASS lp net/minecraft/world/level/levelgen/feature/HellSpringFeature
+	METHOD a place (Ldn;Ljava/util/Random;III)Z
+	FIELD a tile I

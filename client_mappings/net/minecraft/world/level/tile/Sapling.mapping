@@ -1,0 +1,3 @@
+CLASS fc net/minecraft/world/level/tile/Sapling
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD c growTree (Ldn;IIILjava/util/Random;)V

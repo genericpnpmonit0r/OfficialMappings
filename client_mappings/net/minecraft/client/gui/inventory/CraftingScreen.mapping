@@ -1,0 +1,4 @@
+CLASS ki net/minecraft/client/gui/inventory/CraftingScreen
+	METHOD a renderBg (F)V
+	METHOD h removed ()V
+	METHOD j renderLabels ()V

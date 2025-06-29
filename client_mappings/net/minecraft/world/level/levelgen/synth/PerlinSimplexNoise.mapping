@@ -1,0 +1,5 @@
+CLASS ox net/minecraft/world/level/levelgen/synth/PerlinSimplexNoise
+	METHOD a getRegion ([DDDIIDDD)[D
+	METHOD a getRegion ([DDDIIDDDD)[D
+	FIELD a noiseLevels [Lbf;
+	FIELD b levels I

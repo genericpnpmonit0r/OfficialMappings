@@ -1,0 +1,12 @@
+CLASS aw net/minecraft/world/level/tile/RedStoneOreTile
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a use (Ldn;IIILeu;)Z
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b attack (Ldn;IIILeu;)V
+	METHOD b animateTick (Ldn;IIILjava/util/Random;)V
+	METHOD b stepOn (Ldn;IIILnl;)V
+	METHOD d getTickDelay ()I
+	METHOD h interact (Ldn;III)V
+	METHOD i poofParticles (Ldn;III)V
+	FIELD a lit Z

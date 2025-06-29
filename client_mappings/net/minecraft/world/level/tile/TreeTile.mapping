@@ -1,0 +1,6 @@
+CLASS ps net/minecraft/world/level/tile/TreeTile
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b getSpawnResourcesAuxValue (I)I
+	METHOD b onRemove (Ldn;III)V

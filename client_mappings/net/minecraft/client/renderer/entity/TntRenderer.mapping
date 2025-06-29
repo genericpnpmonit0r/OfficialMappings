@@ -1,0 +1,4 @@
+CLASS kj net/minecraft/client/renderer/entity/TntRenderer
+	METHOD a render (Lmb;DDDFF)V
+	METHOD a render (Lnl;DDDFF)V
+	FIELD a tileRenderer Lbt;

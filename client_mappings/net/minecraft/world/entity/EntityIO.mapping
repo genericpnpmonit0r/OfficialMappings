@@ -1,0 +1,11 @@
+CLASS gn net/minecraft/world/entity/EntityIO
+	METHOD a newById (ILdn;)Lnl;
+	METHOD a setId (Ljava/lang/Class;Ljava/lang/String;I)V
+	METHOD a newEntity (Ljava/lang/String;Ldn;)Lnl;
+	METHOD a loadStatic (Ljw;Ldn;)Lnl;
+	METHOD a getId (Lnl;)I
+	METHOD b getEncodeId (Lnl;)Ljava/lang/String;
+	FIELD a idClassMap Ljava/util/Map;
+	FIELD b classIdMap Ljava/util/Map;
+	FIELD c numClassMap Ljava/util/Map;
+	FIELD d classNumMap Ljava/util/Map;

@@ -1,0 +1,14 @@
+CLASS hg net/minecraft/client/gui/Button
+	METHOD a released (II)V
+	METHOD a render (Lnet/minecraft/client/Minecraft;II)V
+	METHOD a getYImage (Z)I
+	METHOD b renderBg (Lnet/minecraft/client/Minecraft;II)V
+	METHOD c clicked (Lnet/minecraft/client/Minecraft;II)Z
+	FIELD a w I
+	FIELD b h I
+	FIELD c x I
+	FIELD d y I
+	FIELD e msg Ljava/lang/String;
+	FIELD f id I
+	FIELD g active Z
+	FIELD h visible Z

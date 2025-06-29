@@ -1,0 +1,3 @@
+CLASS rb net/minecraft/world/level/tile/Sponge
+	METHOD b onRemove (Ldn;III)V
+	METHOD e onPlace (Ldn;III)V

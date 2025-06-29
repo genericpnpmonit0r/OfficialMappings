@@ -1,0 +1,12 @@
+CLASS kd net/minecraft/world/CompoundContainer
+	METHOD a getContainerSize ()I
+	METHOD a removeItem (II)Lgm;
+	METHOD a setItem (ILgm;)V
+	METHOD a_ stillValid (Leu;)Z
+	METHOD c getName ()Ljava/lang/String;
+	METHOD c_ getItem (I)Lgm;
+	METHOD d getMaxStackSize ()I
+	METHOD r_ setChanged ()V
+	FIELD a name Ljava/lang/String;
+	FIELD b c1 Lij;
+	FIELD c c2 Lij;

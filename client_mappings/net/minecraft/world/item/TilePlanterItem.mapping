@@ -1,0 +1,3 @@
+CLASS ii net/minecraft/world/item/TilePlanterItem
+	METHOD a useOn (Lgm;Leu;Ldn;IIII)Z
+	FIELD a tileId I

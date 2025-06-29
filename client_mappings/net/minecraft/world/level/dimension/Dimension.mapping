@@ -1,0 +1,20 @@
+CLASS qx net/minecraft/world/level/dimension/Dimension
+	METHOD a init ()V
+	METHOD a getFogColor (FF)Lax;
+	METHOD a getNew (I)Lqx;
+	METHOD a isValidSpawn (II)Z
+	METHOD a getTimeOfDay (JF)F
+	METHOD a init (Ldn;)V
+	METHOD a createStorage (Ljava/io/File;)Lao;
+	METHOD b updateLightRamp ()V
+	METHOD b getSunriseColor (FF)[F
+	METHOD c createRandomLevelSource ()Lbm;
+	METHOD d mayRespawn ()Z
+	FIELD a level Ldn;
+	FIELD b biomeSource Lro;
+	FIELD c foggy Z
+	FIELD d ultraWarm Z
+	FIELD e hasCeiling Z
+	FIELD f brightnessRamp [F
+	FIELD g id I
+	FIELD h sunriseCol [F

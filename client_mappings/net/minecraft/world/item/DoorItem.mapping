@@ -1,0 +1,3 @@
+CLASS fq net/minecraft/world/item/DoorItem
+	METHOD a useOn (Lgm;Leu;Ldn;IIII)Z
+	FIELD a material Lic;

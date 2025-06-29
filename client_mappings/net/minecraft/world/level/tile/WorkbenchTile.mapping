@@ -1,0 +1,3 @@
+CLASS ds net/minecraft/world/level/tile/WorkbenchTile
+	METHOD a getTexture (I)I
+	METHOD a use (Ldn;IIILeu;)Z

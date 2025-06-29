@@ -1,0 +1,17 @@
+CLASS pl net/minecraft/world/entity/monster/Slime
+	METHOD F remove ()V
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD b playerTouch (Leu;)V
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD c canSpawn ()Z
+	METHOD d_ updateAi ()V
+	METHOD e setSize (I)V
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD j getSoundVolume ()F
+	METHOD q_ tick ()V
+	FIELD a squish F
+	FIELD b oSquish F
+	FIELD c size I
+	FIELD d jumpDelay I

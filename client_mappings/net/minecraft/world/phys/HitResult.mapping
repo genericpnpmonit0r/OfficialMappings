@@ -1,0 +1,7 @@
+CLASS pr net/minecraft/world/phys/HitResult
+	FIELD b x I
+	FIELD c y I
+	FIELD d z I
+	FIELD e f I
+	FIELD f pos Lax;
+	FIELD g entity Lnl;

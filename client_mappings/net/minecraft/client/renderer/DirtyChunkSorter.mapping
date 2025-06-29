@@ -1,0 +1,3 @@
+CLASS iq net/minecraft/client/renderer/DirtyChunkSorter
+	METHOD a compare (Lcg;Lcg;)I
+	FIELD a player Leu;

@@ -1,0 +1,4 @@
+CLASS ko net/minecraft/client/gui/DeleteWorldScreen
+	METHOD a confirmResult (ZI)V
+	METHOD c worldSelected (I)V
+	METHOD j postInit ()V

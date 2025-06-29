@@ -1,0 +1,11 @@
+CLASS ga net/minecraft/client/skins/TexturePackRepository
+	METHOD a updateList ()V
+	METHOD a selectSkin (Le;)Z
+	METHOD b getAll ()Ljava/util/List;
+	FIELD a selected Le;
+	FIELD b texturePacks Ljava/util/List;
+	FIELD c defaultTexturePack Le;
+	FIELD d skinCache Ljava/util/Map;
+	FIELD e minecraft Lnet/minecraft/client/Minecraft;
+	FIELD f workDir Ljava/io/File;
+	FIELD g chosenSkinName Ljava/lang/String;

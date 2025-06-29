@@ -1,0 +1,15 @@
+CLASS co net/minecraft/client/renderer/entity/PlayerRenderer
+	METHOD a render (Leu;DDDFF)V
+	METHOD a additionalRendering (Leu;F)V
+	METHOD a prepareArmor (Leu;IF)Z
+	METHOD a render (Lig;DDDFF)V
+	METHOD a scale (Lig;F)V
+	METHOD a prepareArmor (Lig;IF)Z
+	METHOD a render (Lnl;DDDFF)V
+	METHOD b renderHand ()V
+	METHOD b scale (Leu;F)V
+	METHOD b additionalRendering (Lig;F)V
+	FIELD a humanoidModel Ldr;
+	FIELD g armorParts1 Ldr;
+	FIELD h armorParts2 Ldr;
+	FIELD i MATERIAL_NAMES [Ljava/lang/String;

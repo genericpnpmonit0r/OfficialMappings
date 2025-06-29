@@ -1,0 +1,11 @@
+CLASS e net/minecraft/client/skins/TexturePack
+	METHOD a select ()V
+	METHOD a getResource (Ljava/lang/String;)Ljava/io/InputStream;
+	METHOD a load (Lnet/minecraft/client/Minecraft;)V
+	METHOD b deselect ()V
+	METHOD b unload (Lnet/minecraft/client/Minecraft;)V
+	METHOD c bindTexture (Lnet/minecraft/client/Minecraft;)V
+	FIELD a name Ljava/lang/String;
+	FIELD b desc1 Ljava/lang/String;
+	FIELD c desc2 Ljava/lang/String;
+	FIELD d id Ljava/lang/String;

@@ -1,0 +1,9 @@
+CLASS jp net/minecraft/client/model/QuadrupedModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD d head Lli;
+	FIELD e body Lli;
+	FIELD f leg0 Lli;
+	FIELD g leg1 Lli;
+	FIELD h leg2 Lli;
+	FIELD i leg3 Lli;

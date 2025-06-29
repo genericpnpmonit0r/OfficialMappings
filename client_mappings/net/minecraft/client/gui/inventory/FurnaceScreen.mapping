@@ -1,0 +1,4 @@
+CLASS kq net/minecraft/client/gui/inventory/FurnaceScreen
+	METHOD a renderBg (F)V
+	METHOD j renderLabels ()V
+	FIELD k furnace Lni;

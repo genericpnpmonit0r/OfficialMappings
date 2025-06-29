@@ -1,0 +1,2 @@
+CLASS gh net/minecraft/world/level/levelgen/feature/ReedsFeature
+	METHOD a place (Ldn;Ljava/util/Random;III)Z

@@ -1,0 +1,3 @@
+CLASS mx net/minecraft/world/level/tile/ClayTile
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I

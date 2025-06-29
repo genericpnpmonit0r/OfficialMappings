@@ -1,0 +1,3 @@
+CLASS hk net/minecraft/client/renderer/entity/FireballRenderer
+	METHOD a render (Lbi;DDDFF)V
+	METHOD a render (Lnl;DDDFF)V

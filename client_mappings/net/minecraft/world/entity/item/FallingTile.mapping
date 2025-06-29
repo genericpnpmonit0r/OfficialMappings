@@ -1,0 +1,10 @@
+CLASS gz net/minecraft/world/entity/item/FallingTile
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD b defineSynchedData ()V
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD f_ isPickable ()Z
+	METHOD k getLevel ()Ldn;
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD q_ tick ()V
+	FIELD a tile I
+	FIELD b time I

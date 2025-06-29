@@ -1,0 +1,17 @@
+CLASS rt net/minecraft/world/entity/monster/PigZombie
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD a hurt (Lnl;I)Z
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD c canSpawn ()Z
+	METHOD c alert (Lnl;)V
+	METHOD e_ findAttackTarget ()Lnl;
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD m aiStep ()V
+	METHOD o_ getCarriedItem ()Lgm;
+	METHOD q_ tick ()V
+	FIELD a angerTime I
+	FIELD b playAngrySoundIn I
+	FIELD f sword Lgm;

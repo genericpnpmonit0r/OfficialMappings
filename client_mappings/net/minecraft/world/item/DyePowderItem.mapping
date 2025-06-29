@@ -1,0 +1,6 @@
+CLASS hm net/minecraft/world/item/DyePowderItem
+	METHOD a getIcon (Lgm;)I
+	METHOD a useOn (Lgm;Leu;Ldn;IIII)Z
+	METHOD b getDescriptionId (Lgm;)Ljava/lang/String;
+	METHOD b interactEnemy (Lgm;Lig;)V
+	FIELD a COLOR_DESCS [Ljava/lang/String;

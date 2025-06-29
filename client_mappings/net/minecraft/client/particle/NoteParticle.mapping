@@ -1,0 +1,4 @@
+CLASS w net/minecraft/client/particle/NoteParticle
+	METHOD a render (Ljy;FFFFFF)V
+	METHOD q_ tick ()V
+	FIELD a oSize F

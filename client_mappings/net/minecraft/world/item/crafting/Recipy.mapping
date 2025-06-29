@@ -1,0 +1,4 @@
+CLASS cn net/minecraft/world/item/crafting/Recipy
+	METHOD a size ()I
+	METHOD a matches (Ljb;)Z
+	METHOD b assemble (Ljb;)Lgm;

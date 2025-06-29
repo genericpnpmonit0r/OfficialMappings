@@ -1,0 +1,2 @@
+CLASS fp net/minecraft/world/ContainerListener
+	METHOD a containerChanged (Llu;)V

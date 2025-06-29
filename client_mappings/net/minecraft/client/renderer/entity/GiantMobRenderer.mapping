@@ -1,0 +1,4 @@
+CLASS ry net/minecraft/client/renderer/entity/GiantMobRenderer
+	METHOD a scale (Lig;F)V
+	METHOD a scale (Ljv;F)V
+	FIELD a scale F

@@ -1,0 +1,5 @@
+CLASS jx net/minecraft/world/level/tile/LiquidTileStatic
+	METHOD a neighborChanged (Ldn;IIII)V
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD j setDynamic (Ldn;III)V
+	METHOD k isFlammable (Ldn;III)Z

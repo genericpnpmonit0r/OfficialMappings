@@ -1,0 +1,3 @@
+CLASS my net/minecraft/world/item/SaddleItem
+	METHOD a hurtEnemy (Lgm;Lig;)V
+	METHOD b interactEnemy (Lgm;Lig;)V

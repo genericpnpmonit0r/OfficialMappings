@@ -1,0 +1,6 @@
+CLASS iv net/minecraft/client/renderer/entity/SlimeRenderer
+	METHOD a scale (Lig;F)V
+	METHOD a prepareArmor (Lig;IF)Z
+	METHOD a scale (Lpl;F)V
+	METHOD a prepareArmor (Lpl;IF)Z
+	FIELD a armor Lhl;

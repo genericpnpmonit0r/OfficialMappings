@@ -1,0 +1,6 @@
+CLASS ai net/minecraft/client/renderer/ptexture/CompassTexture
+	METHOD a tick ()V
+	FIELD g mc Lnet/minecraft/client/Minecraft;
+	FIELD h raw [I
+	FIELD i rot D
+	FIELD j rota D

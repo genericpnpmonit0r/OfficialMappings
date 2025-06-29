@@ -1,0 +1,13 @@
+CLASS b net/minecraft/world/level/pathfinder/Node
+	METHOD a inOpenSet ()Z
+	METHOD a distanceTo (Lb;)F
+	FIELD a x I
+	FIELD b y I
+	FIELD c z I
+	FIELD d hash I
+	FIELD e heapIdx I
+	FIELD f g F
+	FIELD g h F
+	FIELD h f F
+	FIELD i cameFrom Lb;
+	FIELD j closed Z

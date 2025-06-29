@@ -1,0 +1,7 @@
+CLASS cc net/minecraft/world/level/pathfinder/Path
+	METHOD a next ()V
+	METHOD a current (Lnl;)Lax;
+	METHOD b isDone ()Z
+	FIELD a length I
+	FIELD b nodes [Lb;
+	FIELD c pos I

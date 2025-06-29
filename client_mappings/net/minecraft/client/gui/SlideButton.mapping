@@ -1,0 +1,7 @@
+CLASS qd net/minecraft/client/gui/SlideButton
+	METHOD a released (II)V
+	METHOD a getYImage (Z)I
+	METHOD b renderBg (Lnet/minecraft/client/Minecraft;II)V
+	METHOD c clicked (Lnet/minecraft/client/Minecraft;II)Z
+	FIELD i value F
+	FIELD k sliding Z

@@ -1,0 +1,8 @@
+CLASS np net/minecraft/client/renderer/culling/FrustumCuller
+	METHOD a prepare (DDD)V
+	METHOD a cubeFullyInFrustum (DDDDDD)Z
+	METHOD a isVisible (Ldb;)Z
+	FIELD a frustum Lcm;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D

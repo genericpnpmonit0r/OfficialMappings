@@ -1,0 +1,16 @@
+CLASS fh net/minecraft/world/entity/item/ItemEntity
+	METHOD a burn (I)V
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD a hurt (Lnl;I)Z
+	METHOD b defineSynchedData ()V
+	METHOD b playerTouch (Leu;)V
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD h checkInTile (DDD)Z
+	METHOD j_ isInWater ()Z
+	METHOD q_ tick ()V
+	FIELD a item Lgm;
+	FIELD b age I
+	FIELD c throwTime I
+	FIELD d bobOffs F
+	FIELD e tickCount I
+	FIELD f health I

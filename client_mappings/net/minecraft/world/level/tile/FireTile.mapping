@@ -1,0 +1,21 @@
+CLASS sh net/minecraft/world/level/tile/FireTile
+	METHOD a isSolidRender ()Z
+	METHOD a setFlammable (III)V
+	METHOD a mayPlace (Ldn;III)Z
+	METHOD a neighborChanged (Ldn;IIII)V
+	METHOD a checkBurn (Ldn;IIIILjava/util/Random;)V
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b isCubeShaped ()Z
+	METHOD b animateTick (Ldn;IIILjava/util/Random;)V
+	METHOD c canBurn (Lri;III)Z
+	METHOD d getTickDelay ()I
+	METHOD d getAABB (Ldn;III)Ldb;
+	METHOD e onPlace (Ldn;III)V
+	METHOD g getRenderShape ()I
+	METHOD g getFlammability (Ldn;IIII)I
+	METHOD h mayPick ()Z
+	METHOD h isValidFireLocation (Ldn;III)Z
+	METHOD i getFireOdds (Ldn;III)I
+	FIELD a flameOdds [I
+	FIELD b burnOdds [I

@@ -1,0 +1,3 @@
+CLASS ar net/minecraft/client/sound/Sound
+	FIELD a name Ljava/lang/String;
+	FIELD b url Ljava/net/URL;

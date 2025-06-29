@@ -1,0 +1,2 @@
+CLASS g net/minecraft/world/level/tile/MetalTile
+	METHOD a getTexture (I)I

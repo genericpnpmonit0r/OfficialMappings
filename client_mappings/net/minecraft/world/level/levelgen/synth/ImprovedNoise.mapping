@@ -1,0 +1,11 @@
+CLASS ad net/minecraft/world/level/levelgen/synth/ImprovedNoise
+	METHOD a getValue (DD)D
+	METHOD a noise (DDD)D
+	METHOD a grad2 (IDD)D
+	METHOD a grad (IDDD)D
+	METHOD a add ([DDDDIIIDDDD)V
+	METHOD b lerp (DDD)D
+	FIELD a xo D
+	FIELD b yo D
+	FIELD c zo D
+	FIELD d p [I

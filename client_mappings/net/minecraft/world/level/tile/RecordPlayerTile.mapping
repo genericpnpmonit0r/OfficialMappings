@@ -1,0 +1,5 @@
+CLASS dv net/minecraft/world/level/tile/RecordPlayerTile
+	METHOD a getTexture (I)I
+	METHOD a spawnResources (Ldn;IIIIF)V
+	METHOD a use (Ldn;IIILeu;)Z
+	METHOD e dropRecording (Ldn;IIII)V

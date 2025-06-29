@@ -1,0 +1,3 @@
+CLASS ir net/minecraft/client/renderer/entity/PigRenderer
+	METHOD a prepareArmor (Lig;IF)Z
+	METHOD a prepareArmor (Lqk;IF)Z

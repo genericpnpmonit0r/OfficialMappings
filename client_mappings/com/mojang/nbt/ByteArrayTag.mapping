@@ -1,0 +1,5 @@
+CLASS fi com/mojang/nbt/ByteArrayTag
+	METHOD a getId ()B
+	METHOD a load (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	FIELD a data [B

@@ -1,0 +1,4 @@
+CLASS y net/minecraft/client/renderer/tileentity/MobSpawnerRenderer
+	METHOD a render (Lbu;DDDF)V
+	METHOD a render (Lkp;DDDF)V
+	FIELD b models Ljava/util/Map;

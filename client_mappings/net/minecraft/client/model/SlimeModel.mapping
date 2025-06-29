@@ -1,0 +1,7 @@
+CLASS jq net/minecraft/client/model/SlimeModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a cube Lli;
+	FIELD b eye0 Lli;
+	FIELD c eye1 Lli;
+	FIELD d mouth Lli;

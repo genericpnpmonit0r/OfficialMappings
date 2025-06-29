@@ -1,0 +1,10 @@
+CLASS gi net/minecraft/world/inventory/CraftingMenu
+	METHOD a removed (Leu;)V
+	METHOD a slotsChanged (Lij;)V
+	METHOD b stillValid (Leu;)Z
+	FIELD a craftSlots Ljb;
+	FIELD b resultSlots Lij;
+	FIELD c level Ldn;
+	FIELD h x I
+	FIELD i y I
+	FIELD j z I

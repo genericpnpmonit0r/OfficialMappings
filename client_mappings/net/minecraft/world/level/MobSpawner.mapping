@@ -1,0 +1,6 @@
+CLASS bp net/minecraft/world/level/MobSpawner
+	METHOD a getRandomPosWithin (Ldn;II)Lqj;
+	METHOD a tick (Ldn;ZZ)I
+	METHOD a isSpawnPositionOk (Lhz;Ldn;III)Z
+	METHOD a finalizeMobSettings (Lig;Ldn;FFF)V
+	FIELD a chunksToPoll Ljava/util/Set;

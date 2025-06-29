@@ -1,0 +1,10 @@
+CLASS nr net/minecraft/world/level/LightUpdate
+	METHOD a expandToContain (IIIIII)Z
+	METHOD a update (Ldn;)V
+	FIELD a layer Lcs;
+	FIELD b x0 I
+	FIELD c y0 I
+	FIELD d z0 I
+	FIELD e x1 I
+	FIELD f y1 I
+	FIELD g z1 I

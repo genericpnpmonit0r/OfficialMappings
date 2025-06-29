@@ -1,0 +1,23 @@
+CLASS hr net/minecraft/world/level/chunk/ChunkCache
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a postProcess (Lbm;II)V
+	METHOD a saveEntities (Lib;)V
+	METHOD a save (ZLru;)Z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lib;
+	METHOD b save (Lib;)V
+	METHOD c gatherStats ()Ljava/lang/String;
+	METHOD c centerOn (II)V
+	METHOD d fits (II)Z
+	METHOD e load (II)Lib;
+	FIELD a xLast I
+	FIELD b zLast I
+	FIELD c emptyChunk Lib;
+	FIELD d source Lbm;
+	FIELD e storage Lao;
+	FIELD f chunks [Lib;
+	FIELD g level Ldn;
+	FIELD h last Lib;
+	FIELD i xCenter I
+	FIELD j yCenter I

@@ -1,0 +1,3 @@
+CLASS og net/minecraft/world/level/tile/Mushroom
+	METHOD c mayPlaceOn (I)Z
+	METHOD g canSurvive (Ldn;III)Z

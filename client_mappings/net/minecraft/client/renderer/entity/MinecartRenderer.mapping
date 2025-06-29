@@ -1,0 +1,4 @@
+CLASS nx net/minecraft/client/renderer/entity/MinecartRenderer
+	METHOD a render (Lnl;DDDFF)V
+	METHOD a render (Lsd;DDDFF)V
+	FIELD a model Lhl;

@@ -1,0 +1,12 @@
+CLASS dz net/minecraft/client/title/TitleScreen
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a renderMinecraftLogo (F)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhg;)V
+	METHOD g tick ()V
+	METHOD j access$000 ()Ljava/util/Random;
+	FIELD a logo [Ljava/lang/String;
+	FIELD h random Ljava/util/Random;
+	FIELD k vo F
+	FIELD l splash Ljava/lang/String;

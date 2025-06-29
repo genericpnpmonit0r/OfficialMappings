@@ -1,0 +1,22 @@
+CLASS sg net/minecraft/client/sound/SoundEngine
+	METHOD a updateOptions ()V
+	METHOD a init (Lhq;)V
+	METHOD a update (Lig;F)V
+	METHOD a playUI (Ljava/lang/String;FF)V
+	METHOD a playStreaming (Ljava/lang/String;FFFFF)V
+	METHOD a add (Ljava/lang/String;Ljava/io/File;)V
+	METHOD b destroy ()V
+	METHOD b play (Ljava/lang/String;FFFFF)V
+	METHOD b addStreaming (Ljava/lang/String;Ljava/io/File;)V
+	METHOD c playMusicTick ()V
+	METHOD c addMusic (Ljava/lang/String;Ljava/io/File;)V
+	METHOD d loadLibrary ()V
+	FIELD a soundSystem Lpaulscode/sound/SoundSystem;
+	FIELD b sounds Lfm;
+	FIELD c streamingSounds Lfm;
+	FIELD d songs Lfm;
+	FIELD e idCounter I
+	FIELD f options Lhq;
+	FIELD g loaded Z
+	FIELD h random Ljava/util/Random;
+	FIELD i noMusicDelay I

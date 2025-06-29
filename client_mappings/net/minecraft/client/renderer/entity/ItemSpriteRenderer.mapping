@@ -1,0 +1,3 @@
+CLASS cd net/minecraft/client/renderer/entity/ItemSpriteRenderer
+	METHOD a render (Lnl;DDDFF)V
+	FIELD a icon I

@@ -1,0 +1,5 @@
+CLASS cs net/minecraft/world/level/LightLayer
+	FIELD a Sky Lcs;
+	FIELD b Block Lcs;
+	FIELD c surrounding I
+	FIELD d $VALUES [Lcs;

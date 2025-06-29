@@ -1,0 +1,3 @@
+CLASS ht net/minecraft/world/item/HoeItem
+	METHOD a useOn (Lgm;Leu;Ldn;IIII)Z
+	METHOD b isHandEquipped ()Z

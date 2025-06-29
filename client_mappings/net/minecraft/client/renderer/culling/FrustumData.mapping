@@ -1,0 +1,6 @@
+CLASS cm net/minecraft/client/renderer/culling/FrustumData
+	METHOD a cubeFullyInFrustum (DDDDDD)Z
+	FIELD a m_Frustum [[F
+	FIELD b proj [F
+	FIELD c modl [F
+	FIELD d clip [F

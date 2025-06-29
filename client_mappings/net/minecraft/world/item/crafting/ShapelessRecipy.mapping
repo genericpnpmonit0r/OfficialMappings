@@ -1,0 +1,6 @@
+CLASS om net/minecraft/world/item/crafting/ShapelessRecipy
+	METHOD a size ()I
+	METHOD a matches (Ljb;)Z
+	METHOD b assemble (Ljb;)Lgm;
+	FIELD a result Lgm;
+	FIELD b ingredients Ljava/util/List;

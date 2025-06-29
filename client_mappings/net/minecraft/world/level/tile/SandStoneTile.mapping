@@ -1,0 +1,2 @@
+CLASS mi net/minecraft/world/level/tile/SandStoneTile
+	METHOD a getTexture (I)I

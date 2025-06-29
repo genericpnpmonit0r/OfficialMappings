@@ -1,0 +1,9 @@
+CLASS cl net/minecraft/world/item/DiggerItem
+	METHOD a mineBlock (Lgm;IIII)V
+	METHOD a hurtEnemy (Lgm;Lig;)V
+	METHOD a getDestroySpeed (Lgm;Lpj;)F
+	METHOD a getAttackDamage (Lnl;)I
+	METHOD b isHandEquipped ()Z
+	FIELD bg tiles [Lpj;
+	FIELD bh speed F
+	FIELD bi attackDamage I

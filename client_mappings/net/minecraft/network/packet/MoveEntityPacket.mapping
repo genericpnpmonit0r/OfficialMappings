@@ -1,0 +1,12 @@
+CLASS oy net/minecraft/network/packet/MoveEntityPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lod;)V
+	FIELD a id I
+	FIELD b xa B
+	FIELD c ya B
+	FIELD d za B
+	FIELD e yRot B
+	FIELD f xRot B
+	FIELD g hasRot Z

@@ -1,0 +1,10 @@
+CLASS gj net/minecraft/world/item/crafting/ShapedRecipy
+	METHOD a size ()I
+	METHOD a matches (Ljb;)Z
+	METHOD a matches (Ljb;IIZ)Z
+	METHOD b assemble (Ljb;)Lgm;
+	FIELD a resultId I
+	FIELD b width I
+	FIELD c height I
+	FIELD d recipeItems [Lgm;
+	FIELD e result Lgm;

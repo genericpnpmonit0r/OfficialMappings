@@ -1,0 +1,9 @@
+CLASS cz net/minecraft/client/particle/TakeAnimationParticle
+	METHOD a render (Ljy;FFFFFF)V
+	METHOD b_ getParticleTexture ()I
+	METHOD q_ tick ()V
+	FIELD a item Lnl;
+	FIELD o target Lnl;
+	FIELD p life I
+	FIELD q lifeTime I
+	FIELD r yOffs F

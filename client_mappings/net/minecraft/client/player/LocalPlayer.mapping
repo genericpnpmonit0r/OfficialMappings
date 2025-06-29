@@ -1,0 +1,27 @@
+CLASS bz net/minecraft/client/player/LocalPlayer
+	METHOD a startCrafting (III)V
+	METHOD a setKey (IZ)V
+	METHOD a openTrap (Lak;)V
+	METHOD a openContainer (Lij;)V
+	METHOD a chat (Ljava/lang/String;)V
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD a openFurnace (Lni;)V
+	METHOD a openTextEdit (Lsc;)V
+	METHOD a_ hurtTo (I)V
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD b take (Lnl;I)V
+	METHOD d_ updateAi ()V
+	METHOD m aiStep ()V
+	METHOD n_ releaseAllKeys ()V
+	METHOD p closeContainer ()V
+	METHOD q getArmor ()I
+	METHOD r prepareForTick ()V
+	METHOD s isSneaking ()Z
+	METHOD t handleInsidePortal ()V
+	METHOD u respawn ()V
+	FIELD a input Lpg;
+	FIELD bF isInsidePortal Z
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c changingDimensionDelay I
+	FIELD d portalTime F
+	FIELD e oPortalTime F

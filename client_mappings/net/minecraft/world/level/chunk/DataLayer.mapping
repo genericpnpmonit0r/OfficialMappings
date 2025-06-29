@@ -1,0 +1,5 @@
+CLASS ql net/minecraft/world/level/chunk/DataLayer
+	METHOD a isValid ()Z
+	METHOD a get (III)I
+	METHOD a set (IIII)V
+	FIELD a data [B

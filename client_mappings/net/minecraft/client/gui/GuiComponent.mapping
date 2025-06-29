@@ -1,0 +1,7 @@
+CLASS or net/minecraft/client/gui/GuiComponent
+	METHOD a fill (IIIII)V
+	METHOD a fillGradient (IIIIII)V
+	METHOD a drawCenteredString (Lnh;Ljava/lang/String;III)V
+	METHOD b blit (IIIIII)V
+	METHOD b drawString (Lnh;Ljava/lang/String;III)V
+	FIELD j blitOffset F

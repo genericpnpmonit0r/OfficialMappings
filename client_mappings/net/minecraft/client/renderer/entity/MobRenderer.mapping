@@ -1,0 +1,14 @@
+CLASS ev net/minecraft/client/renderer/entity/MobRenderer
+	METHOD a setArmor (Lhl;)V
+	METHOD a getFlipDegrees (Lig;)F
+	METHOD a render (Lig;DDDFF)V
+	METHOD a scale (Lig;F)V
+	METHOD a getOverlayColor (Lig;FF)I
+	METHOD a setupRotations (Lig;FFF)V
+	METHOD a prepareArmor (Lig;IF)Z
+	METHOD a render (Lnl;DDDFF)V
+	METHOD b additionalRendering (Lig;F)V
+	METHOD c getBob (Lig;F)F
+	METHOD d getAttackAnim (Lig;F)F
+	FIELD e model Lhl;
+	FIELD f armor Lhl;

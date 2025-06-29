@@ -1,0 +1,2 @@
+CLASS me net/minecraft/world/item/BowItem
+	METHOD a use (Lgm;Ldn;Leu;)Lgm;

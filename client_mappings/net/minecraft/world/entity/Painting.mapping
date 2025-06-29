@@ -1,0 +1,15 @@
+CLASS ma net/minecraft/world/entity/Painting
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD a hurt (Lnl;I)Z
+	METHOD b defineSynchedData ()V
+	METHOD b setDir (I)V
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD c offs (I)F
+	METHOD f_ isPickable ()Z
+	METHOD k survives ()Z
+	METHOD q_ tick ()V
+	FIELD a dir I
+	FIELD b xTile I
+	FIELD c yTile I
+	FIELD d zTile I
+	FIELD f checkInterval I

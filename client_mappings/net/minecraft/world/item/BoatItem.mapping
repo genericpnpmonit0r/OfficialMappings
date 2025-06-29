@@ -1,0 +1,2 @@
+CLASS pq net/minecraft/world/item/BoatItem
+	METHOD a use (Lgm;Ldn;Leu;)Lgm;

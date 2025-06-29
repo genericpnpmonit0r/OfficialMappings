@@ -1,0 +1,11 @@
+CLASS ie net/minecraft/client/gui/JoinMultiplayerScreen
+	METHOD a init ()V
+	METHOD a keyPressed (CI)V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhg;)V
+	METHOD a parseInt (Ljava/lang/String;I)I
+	METHOD g tick ()V
+	METHOD h removed ()V
+	FIELD a lastScreen Lby;
+	FIELD h frame I
+	FIELD i ip Ljava/lang/String;

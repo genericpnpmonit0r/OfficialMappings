@@ -1,0 +1,10 @@
+CLASS ka net/minecraft/network/packet/LoginPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lod;)V
+	FIELD a clientVersion I
+	FIELD b userName Ljava/lang/String;
+	FIELD c loginKey Ljava/lang/String;
+	FIELD d seed J
+	FIELD e dimension B

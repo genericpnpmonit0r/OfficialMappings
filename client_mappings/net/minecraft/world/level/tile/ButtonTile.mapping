@@ -1,0 +1,19 @@
+CLASS ke net/minecraft/world/level/tile/ButtonTile
+	METHOD a isSolidRender ()Z
+	METHOD a mayPlace (Ldn;III)Z
+	METHOD a neighborChanged (Ldn;IIII)V
+	METHOD a use (Ldn;IIILeu;)Z
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a updateShape (Lri;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD b onRemove (Ldn;III)V
+	METHOD b attack (Ldn;IIILeu;)V
+	METHOD c getDirectSignal (Ldn;IIII)Z
+	METHOD c getSignal (Lri;IIII)Z
+	METHOD d getTickDelay ()I
+	METHOD d getAABB (Ldn;III)Ldb;
+	METHOD d setPlacedOnFace (Ldn;IIII)V
+	METHOD e isSignalSource ()Z
+	METHOD e onPlace (Ldn;III)V
+	METHOD f updateDefaultShape ()V
+	METHOD h checkCanSurvive (Ldn;III)Z

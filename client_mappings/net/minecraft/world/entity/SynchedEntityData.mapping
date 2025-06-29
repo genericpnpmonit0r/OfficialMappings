@@ -1,0 +1,11 @@
+CLASS ot net/minecraft/world/entity/SynchedEntityData
+	METHOD a getByte (I)B
+	METHOD a define (ILjava/lang/Object;)V
+	METHOD a unpack (Ljava/io/DataInputStream;)Ljava/util/List;
+	METHOD a packAll (Ljava/io/DataOutputStream;)V
+	METHOD a assignValues (Ljava/util/List;)V
+	METHOD a pack (Ljava/util/List;Ljava/io/DataOutputStream;)V
+	METHOD b set (ILjava/lang/Object;)V
+	FIELD a typeToConstant Ljava/util/HashMap;
+	FIELD b itemsById Ljava/util/Map;
+	FIELD c isDirty Z

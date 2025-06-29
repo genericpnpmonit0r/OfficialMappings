@@ -1,0 +1,14 @@
+CLASS rs net/minecraft/client/player/RemotePlayer
+	METHOD a lerpTo (DDDFFI)V
+	METHOD a hurt (Lnl;I)Z
+	METHOD b setEquippedSlot (III)V
+	METHOD k_ getShadowHeightOffs ()F
+	METHOD m aiStep ()V
+	METHOD q_ tick ()V
+	FIELD a fallTime F
+	FIELD bF lyr D
+	FIELD bG lxr D
+	FIELD b lSteps I
+	FIELD c lx D
+	FIELD d ly D
+	FIELD e lz D

@@ -1,0 +1,6 @@
+CLASS ja net/minecraft/network/packet/PreLoginPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lod;)V
+	FIELD a userName Ljava/lang/String;

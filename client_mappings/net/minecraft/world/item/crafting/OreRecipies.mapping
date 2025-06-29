@@ -1,0 +1,3 @@
+CLASS ok net/minecraft/world/item/crafting/OreRecipies
+	METHOD a addRecipes (Lfg;)V
+	FIELD a map [[Ljava/lang/Object;

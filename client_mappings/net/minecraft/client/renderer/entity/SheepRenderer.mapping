@@ -1,0 +1,3 @@
+CLASS rr net/minecraft/client/renderer/entity/SheepRenderer
+	METHOD a prepareArmor (Lch;IF)Z
+	METHOD a prepareArmor (Lig;IF)Z

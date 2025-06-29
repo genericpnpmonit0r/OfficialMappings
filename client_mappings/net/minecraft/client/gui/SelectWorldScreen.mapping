@@ -1,0 +1,10 @@
+CLASS mr net/minecraft/client/gui/SelectWorldScreen
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhg;)V
+	METHOD c worldSelected (I)V
+	METHOD d getWorldName (I)Ljava/lang/String;
+	METHOD j postInit ()V
+	FIELD a lastScreen Lby;
+	FIELD h title Ljava/lang/String;
+	FIELD i done Z

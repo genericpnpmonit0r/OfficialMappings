@@ -1,0 +1,3 @@
+CLASS sn net/minecraft/world/level/ChunkPos
+	FIELD a x I
+	FIELD b z I

@@ -1,0 +1,3 @@
+CLASS am net/minecraft/world/item/BucketItem
+	METHOD a use (Lgm;Ldn;Leu;)Lgm;
+	FIELD a content I

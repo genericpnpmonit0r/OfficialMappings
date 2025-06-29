@@ -1,0 +1,10 @@
+CLASS gb net/minecraft/client/model/CreeperModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a head Lli;
+	FIELD b hair Lli;
+	FIELD c body Lli;
+	FIELD d leg0 Lli;
+	FIELD e leg1 Lli;
+	FIELD f leg2 Lli;
+	FIELD g leg3 Lli;

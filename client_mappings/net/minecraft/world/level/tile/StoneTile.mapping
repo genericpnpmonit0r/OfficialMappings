@@ -1,0 +1,2 @@
+CLASS da net/minecraft/world/level/tile/StoneTile
+	METHOD a getResource (ILjava/util/Random;)I

@@ -1,0 +1,22 @@
+CLASS ia net/minecraft/client/renderer/tileentity/TileEntityRenderDispatcher
+	METHOD a getFont ()Lnh;
+	METHOD a prepare (Ldn;Lgs;Lnh;Leu;F)V
+	METHOD a getRenderer (Ljava/lang/Class;)Lgo;
+	METHOD a hasRenderer (Lkp;)Z
+	METHOD a render (Lkp;DDDF)V
+	METHOD a render (Lkp;F)V
+	METHOD b getRenderer (Lkp;)Lgo;
+	FIELD a instance Lia;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
+	FIELD e textures Lgs;
+	FIELD f level Ldn;
+	FIELD g player Leu;
+	FIELD h playerRotY F
+	FIELD i playerRotX F
+	FIELD j xPlayer D
+	FIELD k yPlayer D
+	FIELD l zPlayer D
+	FIELD m renderers Ljava/util/Map;
+	FIELD n font Lnh;

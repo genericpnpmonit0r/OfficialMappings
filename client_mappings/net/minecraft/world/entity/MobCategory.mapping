@@ -1,0 +1,13 @@
+CLASS hz net/minecraft/world/entity/MobCategory
+	METHOD a getBaseClass ()Ljava/lang/Class;
+	METHOD b getMaxInstancesPerChunk ()I
+	METHOD c getSpawnPositionMaterial ()Lic;
+	METHOD d isFriendly ()Z
+	FIELD a monster Lhz;
+	FIELD b creature Lhz;
+	FIELD c waterCreature Lhz;
+	FIELD d base Ljava/lang/Class;
+	FIELD e max I
+	FIELD f spawnPositionMaterial Lic;
+	FIELD g isFriendly Z
+	FIELD h $VALUES [Lhz;

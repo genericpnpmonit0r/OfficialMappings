@@ -1,0 +1,9 @@
+CLASS bw net/minecraft/client/BackgroundDownloader
+	METHOD a forceReload ()V
+	METHOD a loadAll (Ljava/io/File;Ljava/lang/String;)V
+	METHOD a download (Ljava/net/URL;Ljava/io/File;J)V
+	METHOD a checkDownload (Ljava/net/URL;Ljava/lang/String;JI)V
+	METHOD b halt ()V
+	FIELD a workingDirectory Ljava/io/File;
+	FIELD b minecraft Lnet/minecraft/client/Minecraft;
+	FIELD c stopped Z

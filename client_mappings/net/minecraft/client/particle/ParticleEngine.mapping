@@ -1,0 +1,13 @@
+CLASS cj net/minecraft/client/particle/ParticleEngine
+	METHOD a tick ()V
+	METHOD a destroy (III)V
+	METHOD a crack (IIII)V
+	METHOD a setLevel (Ldn;)V
+	METHOD a render (Lnl;F)V
+	METHOD a add (Lrp;)V
+	METHOD b countParticles ()Ljava/lang/String;
+	METHOD b renderLit (Lnl;F)V
+	FIELD a level Ldn;
+	FIELD b particles [Ljava/util/List;
+	FIELD c textures Lgs;
+	FIELD d random Ljava/util/Random;

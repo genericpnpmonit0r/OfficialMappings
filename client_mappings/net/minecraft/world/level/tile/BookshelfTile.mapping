@@ -1,0 +1,3 @@
+CLASS fa net/minecraft/world/level/tile/BookshelfTile
+	METHOD a getTexture (I)I
+	METHOD a getResourceCount (Ljava/util/Random;)I

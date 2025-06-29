@@ -1,0 +1,12 @@
+CLASS gx net/minecraft/world/level/tile/TopSnowTile
+	METHOD a isSolidRender ()Z
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPlace (Ldn;III)Z
+	METHOD a neighborChanged (Ldn;IIII)V
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a_ playerDestroy (Ldn;IIII)V
+	METHOD b isCubeShaped ()Z
+	METHOD b shouldRenderFace (Lri;IIII)Z
+	METHOD d getAABB (Ldn;III)Ldb;
+	METHOD h checkCanSurvive (Ldn;III)Z

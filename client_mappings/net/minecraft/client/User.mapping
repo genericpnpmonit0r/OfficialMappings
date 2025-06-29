@@ -1,0 +1,5 @@
+CLASS es net/minecraft/client/User
+	FIELD a allowedTiles Ljava/util/List;
+	FIELD b name Ljava/lang/String;
+	FIELD c sessionId Ljava/lang/String;
+	FIELD d mpPassword Ljava/lang/String;

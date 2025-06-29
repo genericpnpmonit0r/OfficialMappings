@@ -1,0 +1,3 @@
+CLASS bg net/minecraft/world/inventory/ContainerMenu
+	METHOD b stillValid (Leu;)Z
+	FIELD a container Lij;

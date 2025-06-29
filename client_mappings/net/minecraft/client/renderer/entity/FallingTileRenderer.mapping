@@ -1,0 +1,4 @@
+CLASS ep net/minecraft/client/renderer/entity/FallingTileRenderer
+	METHOD a render (Lgz;DDDFF)V
+	METHOD a render (Lnl;DDDFF)V
+	FIELD a tileRenderer Lbt;

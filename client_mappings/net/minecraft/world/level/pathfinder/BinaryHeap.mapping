@@ -1,0 +1,10 @@
+CLASS hw net/minecraft/world/level/pathfinder/BinaryHeap
+	METHOD a clear ()V
+	METHOD a upHeap (I)V
+	METHOD a insert (Lb;)Lb;
+	METHOD a changeCost (Lb;F)V
+	METHOD b pop ()Lb;
+	METHOD b downHeap (I)V
+	METHOD c isEmpty ()Z
+	FIELD a heap [Lb;
+	FIELD b size I

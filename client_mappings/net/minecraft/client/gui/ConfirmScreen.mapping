@@ -1,0 +1,8 @@
+CLASS lx net/minecraft/client/gui/ConfirmScreen
+	METHOD a init ()V
+	METHOD a render (IIF)V
+	METHOD a buttonClicked (Lhg;)V
+	FIELD a parent Lby;
+	FIELD h title1 Ljava/lang/String;
+	FIELD i title2 Ljava/lang/String;
+	FIELD k id I

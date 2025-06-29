@@ -1,0 +1,16 @@
+CLASS bx net/minecraft/world/level/tile/NotGateTile
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Ldn;IIII)V
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a isToggledTooFrequently (Ldn;IIIZ)Z
+	METHOD b onRemove (Ldn;III)V
+	METHOD b animateTick (Ldn;IIILjava/util/Random;)V
+	METHOD c getDirectSignal (Ldn;IIII)Z
+	METHOD c getSignal (Lri;IIII)Z
+	METHOD d getTickDelay ()I
+	METHOD e isSignalSource ()Z
+	METHOD e onPlace (Ldn;III)V
+	METHOD h hasNeighborSignal (Ldn;III)Z
+	FIELD a on Z
+	FIELD b recentToggles Ljava/util/List;

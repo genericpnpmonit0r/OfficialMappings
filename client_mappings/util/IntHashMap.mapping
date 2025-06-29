@@ -1,0 +1,15 @@
+CLASS hc util/IntHashMap
+	FIELD a table [Lqn;
+	FIELD b size I
+	FIELD c threshold I
+	FIELD d loadFactor F
+	FIELD e modCount I
+	METHOD a clear ()V
+	METHOD a get (I)Ljava/lang/Object;
+	METHOD a indexFor (II)I
+	METHOD a addEntry (IILjava/lang/Object;I)V
+	METHOD a put (ILjava/lang/Object;)V
+	METHOD b remove (I)Ljava/lang/Object;
+	METHOD d access$000 (I)I
+	METHOD e hash (I)I
+	METHOD f resize (I)V

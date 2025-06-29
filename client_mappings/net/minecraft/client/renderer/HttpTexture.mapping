@@ -1,0 +1,5 @@
+CLASS cy net/minecraft/client/renderer/HttpTexture
+	FIELD a loadedImage Ljava/awt/image/BufferedImage;
+	FIELD b count I
+	FIELD c id I
+	FIELD d isLoaded Z

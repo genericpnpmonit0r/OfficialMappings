@@ -1,0 +1,13 @@
+CLASS kh net/minecraft/world/level/tile/LiquidTileDynamic
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD b getSlopeDistance (Ldn;IIIII)I
+	METHOD e onPlace (Ldn;III)V
+	METHOD f getHighest (Ldn;IIII)I
+	METHOD g trySpreadTo (Ldn;IIII)V
+	METHOD j setStatic (Ldn;III)V
+	METHOD k getSpread (Ldn;III)[Z
+	METHOD l isWaterBlocking (Ldn;III)Z
+	METHOD m canSpreadTo (Ldn;III)Z
+	FIELD a maxCount I
+	FIELD b result [Z
+	FIELD c dist [I

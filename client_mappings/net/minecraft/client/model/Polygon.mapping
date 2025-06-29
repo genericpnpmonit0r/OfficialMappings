@@ -1,0 +1,6 @@
+CLASS os net/minecraft/client/model/Polygon
+	METHOD a mirror ()V
+	METHOD a render (Ljy;F)V
+	FIELD a vertices [Lfs;
+	FIELD b vertexCount I
+	FIELD c flipNormal Z

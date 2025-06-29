@@ -1,0 +1,3 @@
+CLASS fr net/minecraft/world/level/GrassColor
+	METHOD a get (DD)I
+	FIELD a pixels [I

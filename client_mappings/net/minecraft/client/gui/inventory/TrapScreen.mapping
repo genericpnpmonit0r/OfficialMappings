@@ -1,0 +1,3 @@
+CLASS et net/minecraft/client/gui/inventory/TrapScreen
+	METHOD a renderBg (F)V
+	METHOD j renderLabels ()V

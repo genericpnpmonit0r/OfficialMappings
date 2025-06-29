@@ -1,0 +1,16 @@
+CLASS qs net/minecraft/world/entity/animal/Chicken
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD c causeFallDamage (F)V
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD m aiStep ()V
+	FIELD a sheared Z
+	FIELD b flap F
+	FIELD c flapSpeed F
+	FIELD f oFlapSpeed F
+	FIELD g oFlap F
+	FIELD h flapping F
+	FIELD i eggTime I

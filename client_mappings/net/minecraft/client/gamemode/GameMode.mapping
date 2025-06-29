@@ -1,1 +1,21 @@
 CLASS kb net/minecraft/client/gamemode/GameMode
+	METHOD a stopDestroyBlock ()V
+	METHOD a render (F)V
+	METHOD a startDestroyBlock (IIII)V
+	METHOD a handleInventoryMouseClick (IIILeu;)Lgm;
+	METHOD a handleCloseInventory (ILeu;)V
+	METHOD a initLevel (Ldn;)V
+	METHOD a initPlayer (Leu;)V
+	METHOD a useItem (Leu;Ldn;Lgm;)Z
+	METHOD a useItemOn (Leu;Ldn;Lgm;IIII)Z
+	METHOD a interact (Leu;Lnl;)V
+	METHOD b getPickRange ()F
+	METHOD b destroyBlock (IIII)Z
+	METHOD b createPlayer (Ldn;)Leu;
+	METHOD b adjustPlayer (Leu;)V
+	METHOD b attack (Leu;Lnl;)V
+	METHOD c tick ()V
+	METHOD c continueDestroyBlock (IIII)V
+	METHOD d canHurtPlayer ()Z
+	FIELD a minecraft Lnet/minecraft/client/Minecraft;
+	FIELD b instaBuild Z

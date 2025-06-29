@@ -1,0 +1,11 @@
+CLASS bf net/minecraft/world/level/levelgen/synth/SimplexNoise
+	METHOD a fastfloor (D)I
+	METHOD a add ([DDDIIDDD)V
+	METHOD a dot ([IDD)D
+	FIELD a xo D
+	FIELD b yo D
+	FIELD c zo D
+	FIELD d grad3 [[I
+	FIELD e p [I
+	FIELD f F2 D
+	FIELD g G2 D

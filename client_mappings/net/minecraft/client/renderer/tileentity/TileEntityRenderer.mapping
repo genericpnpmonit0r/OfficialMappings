@@ -1,0 +1,6 @@
+CLASS go net/minecraft/client/renderer/tileentity/TileEntityRenderer
+	METHOD a getFont ()Lnh;
+	METHOD a init (Lia;)V
+	METHOD a bindTexture (Ljava/lang/String;)V
+	METHOD a render (Lkp;DDDF)V
+	FIELD a tileEntityRenderDispatcher Lia;

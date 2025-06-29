@@ -1,0 +1,17 @@
+CLASS pc net/minecraft/world/level/tile/CakeTile
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a mayPlace (Ldn;III)Z
+	METHOD a neighborChanged (Ldn;IIII)V
+	METHOD a use (Ldn;IIILeu;)Z
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a updateShape (Lri;III)V
+	METHOD b isCubeShaped ()Z
+	METHOD b attack (Ldn;IIILeu;)V
+	METHOD c eat (Ldn;IIILeu;)V
+	METHOD d getAABB (Ldn;III)Ldb;
+	METHOD f updateDefaultShape ()V
+	METHOD f getTileAABB (Ldn;III)Ldb;
+	METHOD g canSurvive (Ldn;III)Z

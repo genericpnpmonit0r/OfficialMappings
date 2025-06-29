@@ -1,0 +1,8 @@
+CLASS pm net/minecraft/network/packet/SetEntityDataPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lod;)V
+	METHOD b getUnpackedData ()Ljava/util/List;
+	FIELD a id I
+	FIELD b packedItems Ljava/util/List;

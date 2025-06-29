@@ -1,0 +1,9 @@
+CLASS sj net/minecraft/world/level/tile/StoneSlabTile
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (I)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a neighborChanged (Ldn;IIII)V
+	METHOD b isCubeShaped ()Z
+	METHOD b shouldRenderFace (Lri;IIII)Z
+	METHOD e onPlace (Ldn;III)V
+	FIELD a fullSize Z

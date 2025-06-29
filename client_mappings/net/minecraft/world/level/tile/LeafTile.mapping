@@ -1,0 +1,13 @@
+CLASS at net/minecraft/world/level/tile/LeafTile
+	METHOD a isSolidRender ()Z
+	METHOD a getTexture (II)I
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a tick (Ldn;IIILjava/util/Random;)V
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a setFancy (Z)V
+	METHOD b onRemove (Ldn;III)V
+	METHOD b stepOn (Ldn;IIILnl;)V
+	METHOD b getColor (Lri;III)I
+	METHOD h die (Ldn;III)V
+	FIELD a checkBuffer [I
+	FIELD c oTex I

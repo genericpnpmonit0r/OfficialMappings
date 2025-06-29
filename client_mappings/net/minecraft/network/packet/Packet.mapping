@@ -1,0 +1,14 @@
+CLASS hj net/minecraft/network/packet/Packet
+	METHOD a getEstimatedSize ()I
+	METHOD a getPacket (I)Lhj;
+	METHOD a map (ILjava/lang/Class;)V
+	METHOD a writePacket (Lhj;Ljava/io/DataOutputStream;)V
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lod;)V
+	METHOD b readPacket (Ljava/io/DataInputStream;)Lhj;
+	METHOD c getId ()I
+	FIELD a idToClassMap Ljava/util/Map;
+	FIELD b classToIdMap Ljava/util/Map;
+	FIELD j createTime J
+	FIELD k shouldDelay Z

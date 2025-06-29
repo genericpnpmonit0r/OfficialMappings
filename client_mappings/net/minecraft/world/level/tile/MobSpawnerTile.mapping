@@ -1,0 +1,5 @@
+CLASS ca net/minecraft/world/level/tile/MobSpawnerTile
+	METHOD a isSolidRender ()Z
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD a_ newTileEntity ()Lkp;

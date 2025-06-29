@@ -1,0 +1,13 @@
+CLASS di net/minecraft/world/level/chunk/ReadOnlyChunkCache
+	METHOD a tick ()Z
+	METHOD a hasChunk (II)Z
+	METHOD a postProcess (Lbm;II)V
+	METHOD a save (ZLru;)Z
+	METHOD b shouldSave ()Z
+	METHOD b getChunk (II)Lib;
+	METHOD c gatherStats ()Ljava/lang/String;
+	METHOD c load (II)Lib;
+	FIELD a emptyPixels [B
+	FIELD b chunks [Lib;
+	FIELD c level Ldn;
+	FIELD d storage Lao;

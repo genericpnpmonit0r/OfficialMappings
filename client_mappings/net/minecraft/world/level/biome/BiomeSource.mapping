@@ -1,0 +1,14 @@
+CLASS ro net/minecraft/world/level/biome/BiomeSource
+	METHOD a getBiome (II)Lhf;
+	METHOD a getBiomeBlock (IIII)[Lhf;
+	METHOD a getBiome (Lsn;)Lhf;
+	METHOD a getTemperatureBlock ([DIIII)[D
+	METHOD a getBiomeBlock ([Lhf;IIII)[Lhf;
+	METHOD b getTemperature (II)D
+	FIELD a temperatures [D
+	FIELD b downfalls [D
+	FIELD c noises [D
+	FIELD d biomes [Lhf;
+	FIELD e temperatureMap Lox;
+	FIELD f downfallMap Lox;
+	FIELD g noiseMap Lox;

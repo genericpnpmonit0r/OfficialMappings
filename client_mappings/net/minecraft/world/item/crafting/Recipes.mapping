@@ -1,0 +1,7 @@
+CLASS fg net/minecraft/world/item/crafting/Recipes
+	METHOD a getInstance ()Lfg;
+	METHOD a addShapedRecipy (Lgm;[Ljava/lang/Object;)V
+	METHOD a getItemFor (Ljb;)Lgm;
+	METHOD b addShapelessRecipy (Lgm;[Ljava/lang/Object;)V
+	FIELD a instance Lfg;
+	FIELD b recipies Ljava/util/List;

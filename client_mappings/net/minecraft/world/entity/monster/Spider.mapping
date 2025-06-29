@@ -1,0 +1,11 @@
+CLASS bn net/minecraft/world/entity/monster/Spider
+	METHOD a addAdditonalSaveData (Ljw;)V
+	METHOD a checkHurtTarget (Lnl;F)V
+	METHOD b readAdditionalSaveData (Ljw;)V
+	METHOD e_ findAttackTarget ()Lnl;
+	METHOD f getAmbientSound ()Ljava/lang/String;
+	METHOD g getHurtSound ()Ljava/lang/String;
+	METHOD h_ getDeathSound ()Ljava/lang/String;
+	METHOD i getDeathLoot ()I
+	METHOD l getRideHeight ()D
+	METHOD n onLadder ()Z

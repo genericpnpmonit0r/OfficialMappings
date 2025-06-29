@@ -1,0 +1,11 @@
+CLASS fy com/mojang/nbt/Tag
+	METHOD a getId ()B
+	METHOD a newTag (B)Lfy;
+	METHOD a writeNamedTag (Lfy;Ljava/io/DataOutput;)V
+	METHOD a load (Ljava/io/DataInput;)V
+	METHOD a write (Ljava/io/DataOutput;)V
+	METHOD a setName (Ljava/lang/String;)Lfy;
+	METHOD b getName ()Ljava/lang/String;
+	METHOD b getTagName (B)Ljava/lang/String;
+	METHOD b readNamedTag (Ljava/io/DataInput;)Lfy;
+	FIELD a name Ljava/lang/String;

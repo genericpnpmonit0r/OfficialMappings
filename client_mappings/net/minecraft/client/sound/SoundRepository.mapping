@@ -1,0 +1,9 @@
+CLASS fm net/minecraft/client/sound/SoundRepository
+	METHOD a any ()Lar;
+	METHOD a get (Ljava/lang/String;)Lar;
+	METHOD a add (Ljava/lang/String;Ljava/io/File;)Lar;
+	FIELD a count I
+	FIELD b trimDigits Z
+	FIELD c random Ljava/util/Random;
+	FIELD d urls Ljava/util/Map;
+	FIELD e all Ljava/util/List;

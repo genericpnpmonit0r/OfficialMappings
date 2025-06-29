@@ -1,0 +1,7 @@
+CLASS n net/minecraft/client/locale/Language
+	METHOD a getInstance ()Ln;
+	METHOD a getElement (Ljava/lang/String;)Ljava/lang/String;
+	METHOD a getElement (Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/String;
+	METHOD b getElementName (Ljava/lang/String;)Ljava/lang/String;
+	FIELD a singleton Ln;
+	FIELD b languageRepository Ljava/util/Properties;

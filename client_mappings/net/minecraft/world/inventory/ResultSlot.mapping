@@ -1,0 +1,4 @@
+CLASS sk net/minecraft/world/inventory/ResultSlot
+	METHOD a onTake ()V
+	METHOD a mayPlace (Lgm;)Z
+	FIELD d craftSlots Lij;

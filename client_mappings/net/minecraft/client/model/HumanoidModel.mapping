@@ -1,0 +1,17 @@
+CLASS dr net/minecraft/client/model/HumanoidModel
+	METHOD a renderEars (F)V
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b renderCloak (F)V
+	METHOD b render (FFFFFF)V
+	FIELD a head Lli;
+	FIELD b hair Lli;
+	FIELD c body Lli;
+	FIELD d arm0 Lli;
+	FIELD e arm1 Lli;
+	FIELD f leg0 Lli;
+	FIELD g leg1 Lli;
+	FIELD h ear Lli;
+	FIELD i cloak Lli;
+	FIELD j holdingLeftHand Z
+	FIELD k holdingRightHand Z
+	FIELD l sneaking Z

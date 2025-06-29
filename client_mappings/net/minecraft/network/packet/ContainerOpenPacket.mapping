@@ -1,0 +1,9 @@
+CLASS gk net/minecraft/network/packet/ContainerOpenPacket
+	METHOD a getEstimatedSize ()I
+	METHOD a read (Ljava/io/DataInputStream;)V
+	METHOD a write (Ljava/io/DataOutputStream;)V
+	METHOD a handle (Lod;)V
+	FIELD a containerId I
+	FIELD b type I
+	FIELD c title Ljava/lang/String;
+	FIELD d size I

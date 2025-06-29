@@ -1,0 +1,6 @@
+CLASS if net/minecraft/client/player/KeyboardInput
+	METHOD a releaseAllKeys ()V
+	METHOD a setKey (IZ)V
+	METHOD a tick (Leu;)V
+	FIELD f keys [Z
+	FIELD g options Lhq;

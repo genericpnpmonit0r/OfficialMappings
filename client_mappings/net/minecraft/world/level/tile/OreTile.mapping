@@ -1,0 +1,4 @@
+CLASS jd net/minecraft/world/level/tile/OreTile
+	METHOD a getResource (ILjava/util/Random;)I
+	METHOD a getResourceCount (Ljava/util/Random;)I
+	METHOD b getSpawnResourcesAuxValue (I)I

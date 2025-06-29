@@ -1,0 +1,6 @@
+CLASS cq net/minecraft/client/renderer/entity/PaintingRenderer
+	METHOD a render (Lma;DDDFF)V
+	METHOD a setBrightness (Lma;FF)V
+	METHOD a renderPainting (Lma;IIII)V
+	METHOD a render (Lnl;DDDFF)V
+	FIELD a random Ljava/util/Random;

@@ -1,0 +1,23 @@
+CLASS an net/minecraft/isom/IsomPreview
+	METHOD a getWorkingDirectory ()Ljava/io/File;
+	METHOD a setBrightness (I)V
+	METHOD a getZone (II)Lmj;
+	METHOD a access$1 (Lan;)Z
+	METHOD a render (Ljava/awt/Graphics2D;)V
+	METHOD a getWorkingDirectory (Ljava/lang/String;)Ljava/io/File;
+	METHOD b start ()V
+	METHOD b loadLevel (Ljava/lang/String;)V
+	METHOD c stop ()V
+	METHOD d render ()V
+	FIELD a currentRender I
+	FIELD b zoom I
+	FIELD c showHelp Z
+	FIELD d level Ldn;
+	FIELD e workDir Ljava/io/File;
+	FIELD f running Z
+	FIELD g zonesToRender Ljava/util/List;
+	FIELD h zoneMap [[Lmj;
+	FIELD i xCam I
+	FIELD j yCam I
+	FIELD k xDrag I
+	FIELD l yDrag I

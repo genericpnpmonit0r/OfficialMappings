@@ -1,1 +1,11 @@
 CLASS lm net/minecraft/client/Timer
+	METHOD a advanceTime ()V
+	FIELD a ticksPerSecond F
+	FIELD b ticks I
+	FIELD c a F
+	FIELD d timeScale F
+	FIELD e passedTime F
+	FIELD f lastTime D
+	FIELD g lastMs J
+	FIELD h lastMsSysTime J
+	FIELD i adjustTime D

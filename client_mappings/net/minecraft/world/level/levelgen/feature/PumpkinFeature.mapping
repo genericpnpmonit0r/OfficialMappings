@@ -1,0 +1,2 @@
+CLASS qv net/minecraft/world/level/levelgen/feature/PumpkinFeature
+	METHOD a place (Ldn;Ljava/util/Random;III)Z

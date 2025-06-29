@@ -1,0 +1,7 @@
+CLASS qf net/minecraft/world/item/ArmorItem
+	FIELD a tier I
+	FIELD bg slot I
+	FIELD bh defense I
+	FIELD bi icon I
+	FIELD bj defensePerSlot [I
+	FIELD bk healthPerSlot [I

@@ -1,0 +1,6 @@
+CLASS gf net/minecraft/client/renderer/entity/ChickenRenderer
+	METHOD a render (Lig;DDDFF)V
+	METHOD a render (Lnl;DDDFF)V
+	METHOD a render (Lqs;DDDFF)V
+	METHOD a getBob (Lqs;F)F
+	METHOD c getBob (Lig;F)F

@@ -1,0 +1,2 @@
+CLASS iz net/minecraft/world/item/EggItem
+	METHOD a use (Lgm;Ldn;Leu;)Lgm;

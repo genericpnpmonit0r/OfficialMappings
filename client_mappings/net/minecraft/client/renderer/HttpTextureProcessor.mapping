@@ -1,0 +1,2 @@
+CLASS jj net/minecraft/client/renderer/HttpTextureProcessor
+	METHOD a process (Ljava/awt/image/BufferedImage;)Ljava/awt/image/BufferedImage;

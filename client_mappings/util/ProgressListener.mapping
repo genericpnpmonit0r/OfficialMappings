@@ -1,0 +1,4 @@
+CLASS ru util/ProgressListener
+	METHOD a progressStagePercentage (I)V
+	METHOD b progressStartNoAbort (Ljava/lang/String;)V
+	METHOD d progressStage (Ljava/lang/String;)V

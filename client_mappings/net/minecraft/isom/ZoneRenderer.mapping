@@ -1,0 +1,10 @@
+CLASS pd net/minecraft/isom/ZoneRenderer
+	METHOD a postProcess ()V
+	METHOD a render (Lmj;)V
+	FIELD a texCols [F
+	FIELD b pixels [I
+	FIELD c zBuf [I
+	FIELD d waterBuf [I
+	FIELD e waterBr [I
+	FIELD f yBuf [I
+	FIELD g textures [I

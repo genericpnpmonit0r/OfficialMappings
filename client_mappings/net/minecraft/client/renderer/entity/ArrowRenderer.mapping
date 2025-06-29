@@ -1,0 +1,3 @@
+CLASS ip net/minecraft/client/renderer/entity/ArrowRenderer
+	METHOD a render (Lnj;DDDFF)V
+	METHOD a render (Lnl;DDDFF)V

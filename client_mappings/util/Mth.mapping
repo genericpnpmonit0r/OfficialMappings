@@ -1,0 +1,11 @@
+CLASS gd util/Mth
+	METHOD a sqrt (D)F
+	METHOD a asbMax (DD)D
+	METHOD a sin (F)F
+	METHOD a intFloorDiv (II)I
+	METHOD b floor (D)I
+	METHOD b cos (F)F
+	METHOD c sqrt (F)F
+	METHOD d floor (F)I
+	METHOD e abs (F)F
+	FIELD a sin [F

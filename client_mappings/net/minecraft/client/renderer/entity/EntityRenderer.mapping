@@ -1,0 +1,18 @@
+CLASS ba net/minecraft/client/renderer/entity/EntityRenderer
+	METHOD a getFont ()Lnh;
+	METHOD a renderFlat (Ldb;)V
+	METHOD a render (Ldb;DDD)V
+	METHOD a bindTexture (Ljava/lang/String;)V
+	METHOD a bindTexture (Ljava/lang/String;Ljava/lang/String;)Z
+	METHOD a renderFlame (Lnl;DDDF)V
+	METHOD a render (Lnl;DDDFF)V
+	METHOD a init (Loc;)V
+	METHOD a renderTileShadow (Lpj;DDDIIIFFDDD)V
+	METHOD b getLevel ()Ldn;
+	METHOD b postRender (Lnl;DDDFF)V
+	METHOD c renderShadow (Lnl;DDDFF)V
+	FIELD a model Lhl;
+	FIELD b entityRenderDispatcher Loc;
+	FIELD c shadowRadius F
+	FIELD d shadowStrength F
+	FIELD e tileRenderer Lbt;

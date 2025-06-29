@@ -1,0 +1,4 @@
+CLASS jr net/minecraft/world/level/tile/TransparentTile
+	METHOD a isSolidRender ()Z
+	METHOD b shouldRenderFace (Lri;IIII)Z
+	FIELD b allowSame Z

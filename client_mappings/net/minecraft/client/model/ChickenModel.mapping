@@ -1,0 +1,11 @@
+CLASS nz net/minecraft/client/model/ChickenModel
+	METHOD a setupAnim (FFFFFF)V
+	METHOD b render (FFFFFF)V
+	FIELD a head Lli;
+	FIELD b body Lli;
+	FIELD c leg0 Lli;
+	FIELD d leg1 Lli;
+	FIELD e wing0 Lli;
+	FIELD f wing1 Lli;
+	FIELD g beak Lli;
+	FIELD h redThing Lli;

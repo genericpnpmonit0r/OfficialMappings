@@ -1,0 +1,3 @@
+CLASS nf net/minecraft/world/inventory/TrapMenu
+	METHOD b stillValid (Leu;)Z
+	FIELD a trap Lak;

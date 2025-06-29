@@ -1,0 +1,5 @@
+CLASS ls net/minecraft/client/particle/TerrainParticle
+	METHOD a init (III)Lls;
+	METHOD a render (Ljy;FFFFFF)V
+	METHOD b_ getParticleTexture ()I
+	FIELD a tile Lpj;

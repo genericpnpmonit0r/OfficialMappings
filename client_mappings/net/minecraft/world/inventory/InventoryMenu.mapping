@@ -1,0 +1,7 @@
+CLASS t net/minecraft/world/inventory/InventoryMenu
+	METHOD a removed (Leu;)V
+	METHOD a slotsChanged (Lij;)V
+	METHOD b stillValid (Leu;)Z
+	FIELD a craftSlots Ljb;
+	FIELD b resultSlots Lij;
+	FIELD c active Z

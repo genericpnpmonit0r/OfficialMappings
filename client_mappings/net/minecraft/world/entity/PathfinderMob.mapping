@@ -1,0 +1,9 @@
+CLASS fz net/minecraft/world/entity/PathfinderMob
+	METHOD a getWalkTargetValue (III)F
+	METHOD a checkHurtTarget (Lnl;F)V
+	METHOD c canSpawn ()Z
+	METHOD d_ updateAi ()V
+	METHOD e_ findAttackTarget ()Lnl;
+	FIELD a path Lcc;
+	FIELD d attackTarget Lnl;
+	FIELD e holdGround Z

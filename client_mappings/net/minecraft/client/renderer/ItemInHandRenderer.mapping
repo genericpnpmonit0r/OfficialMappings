@@ -1,0 +1,16 @@
+CLASS mf net/minecraft/client/renderer/ItemInHandRenderer
+	METHOD a tick ()V
+	METHOD a render (F)V
+	METHOD a renderTex (FI)V
+	METHOD a renderItem (Lgm;)V
+	METHOD b itemPlaced ()V
+	METHOD b renderScreenEffect (F)V
+	METHOD c itemUsed ()V
+	METHOD c renderWater (F)V
+	METHOD d renderFire (F)V
+	FIELD a mc Lnet/minecraft/client/Minecraft;
+	FIELD b selectedItem Lgm;
+	FIELD c height F
+	FIELD d oHeight F
+	FIELD e tileRenderer Lbt;
+	FIELD f lastSlot I
