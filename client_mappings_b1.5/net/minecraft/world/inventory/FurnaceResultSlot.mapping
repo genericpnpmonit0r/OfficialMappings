@@ -1,3 +1,8 @@
 CLASS uj net/minecraft/world/inventory/FurnaceResultSlot
-	METHOD a onTake (Lii;)V
-	METHOD f checkTakeAchievements ()Z
+	FIELD d player Lgh;
+	METHOD <init> (Lgh;Lla;III)V
+		ARG 1 player
+		ARG 2 container
+		ARG 3 a
+		ARG 4 b
+		ARG 5 c

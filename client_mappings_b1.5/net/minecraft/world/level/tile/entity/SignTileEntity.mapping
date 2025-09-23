@@ -1,6 +1,4 @@
 CLASS xa net/minecraft/world/level/tile/entity/SignTileEntity
-	METHOD a load (Lmy;)V
-	METHOD b save (Lmy;)V
 	FIELD a messages [Ljava/lang/String;
 	FIELD b selectedLine I
 	FIELD c editable Z

@@ -1,4 +1,6 @@
 CLASS gk net/minecraft/client/renderer/entity/MobRenderer
+	FIELD e model Ljt;
+	FIELD f armor Ljt;
 	METHOD <init> (Ljt;F)V
 		ARG 1 model
 		ARG 2 shadow
@@ -34,7 +36,6 @@ CLASS gk net/minecraft/client/renderer/entity/MobRenderer
 		ARG 5 y
 		ARG 7 z
 		ARG 9 maxDist
-	METHOD a render (Lrj;DDDFF)V
 	METHOD b setupPosition (Lkw;DDD)V
 		ARG 1 mob
 		ARG 2 x
@@ -49,5 +50,3 @@ CLASS gk net/minecraft/client/renderer/entity/MobRenderer
 	METHOD d getAttackAnim (Lkw;F)F
 		ARG 1 mob
 		ARG 2 a
-	FIELD e model Ljt;
-	FIELD f armor Ljt;

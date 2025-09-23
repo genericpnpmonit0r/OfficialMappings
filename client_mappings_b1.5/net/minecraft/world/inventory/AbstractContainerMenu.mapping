@@ -1,11 +1,21 @@
 CLASS do net/minecraft/world/inventory/AbstractContainerMenu
+	FIELD a changeUid S
+	FIELD b unSynchedPlayers Ljava/util/Set;
+	FIELD d lastSlots Ljava/util/List;
+	FIELD e slots Ljava/util/List;
+	FIELD f containerId I
+	FIELD g containerListeners Ljava/util/List;
 	METHOD a broadcastChanges ()V
+	METHOD a BULLSHIT_a (I)Lii;
+		ARG 1 i
 	METHOD a setData (II)V
 		ARG 1 type
 		ARG 2 data
 	METHOD a clicked (IIZLgh;)Lii;
 		ARG 1 x
 		ARG 2 y
+		ARG 3 qmove
+		ARG 4 player
 	METHOD a setItem (ILii;)V
 		ARG 1 index
 		ARG 2 item
@@ -27,9 +37,3 @@ CLASS do net/minecraft/world/inventory/AbstractContainerMenu
 		ARG 1 player
 	METHOD b rollbackToBackup (S)V
 		ARG 1 id
-	FIELD a changeUid S
-	FIELD b unSynchedPlayers Ljava/util/Set;
-	FIELD d lastSlots Ljava/util/List;
-	FIELD e slots Ljava/util/List;
-	FIELD f containerId I
-	FIELD g containerListeners Ljava/util/List;

@@ -1,5 +1,4 @@
 CLASS mb net/minecraft/network/packet/ContainerSetDataPacket
-	METHOD a handle (Lse;)V
 	FIELD a containerId I
 	FIELD b id I
 	FIELD c value I

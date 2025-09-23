@@ -1,4 +1,7 @@
 CLASS ht net/minecraft/world/entity/PathfinderMob
+	FIELD a path Lcz;
+	FIELD d attackTarget Lrj;
+	FIELD e holdGround Z
 	METHOD F isPathFinding ()Z
 	METHOD G getAttackTarget ()Lrj;
 	METHOD a getWalkTargetValue (III)F
@@ -12,10 +15,5 @@ CLASS ht net/minecraft/world/entity/PathfinderMob
 		ARG 2 f
 	METHOD c setAttackTarget (Lrj;)V
 		ARG 1 attackTarget
-	METHOD d canSpawn ()Z
 	METHOD d_ shouldHoldGround ()Z
-	METHOD e_ updateAi ()V
 	METHOD f_ findAttackTarget ()Lrj;
-	FIELD a path Lcz;
-	FIELD d attackTarget Lrj;
-	FIELD e holdGround Z

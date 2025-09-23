@@ -20,6 +20,7 @@ CLASS jj net/minecraft/world/level/biome/Biome
 	FIELD s friendlies Ljava/util/List;
 	FIELD t waterFriendlies Ljava/util/List;
 	FIELD u snowCovered Z
+	FIELD v BULLSHIT_v Z
 	FIELD w map [Ljj;
 	METHOD a recalc ()V
 	METHOD a getBiome (DD)Ljj;
@@ -43,3 +44,4 @@ CLASS jj net/minecraft/world/level/biome/Biome
 		ARG 1 color
 	METHOD c isSnowCovered ()Z
 	METHOD d hasRain ()Z
+	METHOD e BULLSHIT_e ()Ljj;

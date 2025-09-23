@@ -1,9 +1,7 @@
 CLASS hc net/minecraft/client/gui/inventory/ContainerScreen
-	METHOD <init> (Lla;Lla;)V
-		ARG 1 inventory
-		ARG 2 container
-	METHOD a renderBg (F)V
-	METHOD k renderLabels ()V
 	FIELD l inventory Lla;
 	FIELD m container Lla;
 	FIELD n containerRows I
+	METHOD <init> (Lla;Lla;)V
+		ARG 1 inventory
+		ARG 2 container

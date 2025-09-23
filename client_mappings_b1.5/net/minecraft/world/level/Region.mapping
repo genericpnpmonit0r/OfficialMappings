@@ -1,4 +1,8 @@
 CLASS em net/minecraft/world/level/Region
+	FIELD a xc1 I
+	FIELD b zc1 I
+	FIELD c chunks [[Lkq;
+	FIELD d level Let;
 	METHOD <init> (Let;IIIIII)V
 		ARG 1 level
 		ARG 2 xc1
@@ -7,23 +11,12 @@ CLASS em net/minecraft/world/level/Region
 		ARG 5 xc2
 		ARG 6 yc2
 		ARG 7 zc2
-	METHOD a getBiomeSource ()Lwl;
-	METHOD a getTile (III)I
 	METHOD a getRawBrightness (IIIZ)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 c
-	METHOD b getTileEntity (III)Lnx;
-	METHOD c getBrightness (III)F
 	METHOD d getRawBrightness (III)I
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
-	METHOD e getData (III)I
-	METHOD f getMaterial (III)Lkr;
-	METHOD g isSolidTile (III)Z
-	FIELD a xc1 I
-	FIELD b zc1 I
-	FIELD c chunks [[Lkq;
-	FIELD d level Let;

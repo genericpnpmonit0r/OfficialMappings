@@ -1,5 +1,4 @@
 CLASS rb net/minecraft/network/packet/ChunkVisibilityPacket
-	METHOD a handle (Lse;)V
 	FIELD a x I
 	FIELD b z I
 	FIELD c visible Z

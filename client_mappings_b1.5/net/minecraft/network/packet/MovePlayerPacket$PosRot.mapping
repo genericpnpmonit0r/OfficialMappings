@@ -1,4 +1,4 @@
-CLASS el PosRot
+CLASS el net/minecraft/network/packet/MovePlayerPacket$PosRot
 	METHOD <init> (DDDDFFZ)V
 		ARG 1 x
 		ARG 3 y

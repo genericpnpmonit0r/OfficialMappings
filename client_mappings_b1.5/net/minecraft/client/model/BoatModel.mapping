@@ -1,4 +1,2 @@
 CLASS ep net/minecraft/client/model/BoatModel
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V
 	FIELD a cubes [Lot;

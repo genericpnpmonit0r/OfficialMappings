@@ -1,4 +1,5 @@
 CLASS dp net/minecraft/client/renderer/entity/PaintingRenderer
+	FIELD a random Ljava/util/Random;
 	METHOD a setBrightness (Lpv;FF)V
 		ARG 1 painting
 		ARG 2 ss
@@ -9,5 +10,3 @@ CLASS dp net/minecraft/client/renderer/entity/PaintingRenderer
 		ARG 3 h
 		ARG 4 uo
 		ARG 5 vo
-	METHOD a render (Lrj;DDDFF)V
-	FIELD a random Ljava/util/Random;

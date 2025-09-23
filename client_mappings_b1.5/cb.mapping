@@ -1,2 +1,0 @@
-CLASS cb
-	METHOD a renderItem (IIIILna;)V

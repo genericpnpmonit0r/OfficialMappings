@@ -114,6 +114,8 @@ CLASS rj net/minecraft/world/entity/Entity
 		ARG 2 f
 	METHOD a isUnderLiquid (Lkr;)Z
 		ARG 1 material
+	METHOD a BULLSHIT_a (Lkw;)V
+		ARG 1 kw
 	METHOD a readAdditionalSaveData (Lmy;)V
 		ARG 1 tag
 	METHOD a getCollideAgainstBox (Lrj;)Leg;

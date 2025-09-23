@@ -3,4 +3,3 @@ CLASS wo net/minecraft/client/renderer/entity/SheepRenderer
 		ARG 1 model
 		ARG 2 armor
 		ARG 3 shadow
-	METHOD a prepareArmor (Lkw;IF)Z

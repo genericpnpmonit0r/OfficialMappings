@@ -1,4 +1,11 @@
-CLASS uh Rail
+CLASS uh net/minecraft/world/level/tile/RailTile$Rail
+	FIELD a this$0 Lod;
+	FIELD b level Let;
+	FIELD c x I
+	FIELD d y I
+	FIELD e z I
+	FIELD f BULLSHIT_f Z
+	FIELD g connections Ljava/util/List;
 	METHOD <init> (Lod;Let;III)V
 		ARG 1 this$0
 		ARG 2 level
@@ -7,7 +14,11 @@ CLASS uh Rail
 		ARG 5 z
 	METHOD a removeSoftConnections ()V
 	METHOD a updateConnections (I)V
+		ARG 1 i
 	METHOD a hasRail (III)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
 	METHOD a access$000 (Luh;)I
 		ARG 0 this$0
 	METHOD a getRail (Luy;)Luh;
@@ -29,9 +40,3 @@ CLASS uh Rail
 		ARG 1 rail
 	METHOD d connectTo (Luh;)V
 		ARG 1 rail
-	FIELD a this$0 Lod;
-	FIELD b level Let;
-	FIELD c x I
-	FIELD d y I
-	FIELD e z I
-	FIELD g connections Ljava/util/List;

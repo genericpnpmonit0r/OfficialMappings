@@ -1,5 +1,4 @@
 CLASS vl net/minecraft/network/packet/ChunkTilesUpdatePacket
-	METHOD a handle (Lse;)V
 	FIELD a xc I
 	FIELD b zc I
 	FIELD c positions [S

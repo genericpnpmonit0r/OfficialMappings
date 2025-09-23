@@ -1,26 +1,4 @@
 CLASS uo net/minecraft/world/entity/projectile/ThrownEgg
-	METHOD <init> (Let;DDD)V
-		ARG 1 level
-		ARG 2 x
-		ARG 4 y
-		ARG 6 z
-	METHOD <init> (Let;Lkw;)V
-		ARG 1 level
-		ARG 2 owner
-	METHOD a shouldRenderAtSqrDistance (D)Z
-	METHOD a lerpMotion (DDD)V
-	METHOD a shoot (DDDFF)V
-		ARG 1 xa
-		ARG 3 ya
-		ARG 5 za
-		ARG 7 xr
-		ARG 8 yr
-	METHOD a readAdditionalSaveData (Lmy;)V
-	METHOD b defineSynchedData ()V
-	METHOD b playerTouch (Lgh;)V
-	METHOD b addAdditionalSaveData (Lmy;)V
-	METHOD w_ tick ()V
-	METHOD x_ getShadowHeightOffs ()F
 	FIELD a shakeTime I
 	FIELD b xTile I
 	FIELD c yTile I
@@ -30,3 +8,17 @@ CLASS uo net/minecraft/world/entity/projectile/ThrownEgg
 	FIELD g owner Lkw;
 	FIELD h life I
 	FIELD i flightTime I
+	METHOD <init> (Let;DDD)V
+		ARG 1 level
+		ARG 2 x
+		ARG 4 y
+		ARG 6 z
+	METHOD <init> (Let;Lkw;)V
+		ARG 1 level
+		ARG 2 owner
+	METHOD a shoot (DDDFF)V
+		ARG 1 xa
+		ARG 3 ya
+		ARG 5 za
+		ARG 7 xr
+		ARG 8 yr

@@ -1,18 +1,10 @@
 CLASS tp net/minecraft/client/multiplayer/MultiPlayerChunkCache
-	METHOD <init> (Let;)V
-		ARG 1 level
-	METHOD a tick ()Z
-	METHOD a hasChunk (II)Z
-	METHOD a postProcess (Lcf;II)V
-	METHOD a save (ZLwr;)Z
-	METHOD b shouldSave ()Z
-	METHOD b getChunk (II)Lkq;
-	METHOD c gatherStats ()Ljava/lang/String;
-	METHOD c create (II)Lkq;
-	METHOD d drop (II)V
-		ARG 1 x
-		ARG 2 z
 	FIELD a emptyChunk Lkq;
 	FIELD b loadedChunks Ljava/util/Map;
 	FIELD c loadedChunkList Ljava/util/List;
 	FIELD d level Let;
+	METHOD <init> (Let;)V
+		ARG 1 level
+	METHOD d drop (II)V
+		ARG 1 x
+		ARG 2 z

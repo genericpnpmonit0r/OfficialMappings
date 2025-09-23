@@ -1,2 +1,1 @@
 CLASS tv net/minecraft/world/item/SignItem
-	METHOD a useOn (Lii;Lgh;Let;IIII)Z

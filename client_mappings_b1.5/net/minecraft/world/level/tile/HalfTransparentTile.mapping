@@ -1,9 +1,7 @@
 CLASS iw net/minecraft/world/level/tile/HalfTransparentTile
+	FIELD a allowSame Z
 	METHOD <init> (IILkr;Z)V
 		ARG 1 id
 		ARG 2 tex
 		ARG 3 material
 		ARG 4 allowSame
-	METHOD a isSolidRender ()Z
-	METHOD b shouldRenderFace (Lwf;IIII)Z
-	FIELD a allowSame Z

@@ -1,5 +1,4 @@
 CLASS cy net/minecraft/client/renderer/entity/ItemSpriteRenderer
+	FIELD a icon I
 	METHOD <init> (I)V
 		ARG 1 icon
-	METHOD a render (Lrj;DDDFF)V
-	FIELD a icon I

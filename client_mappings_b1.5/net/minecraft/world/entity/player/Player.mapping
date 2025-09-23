@@ -30,18 +30,14 @@ CLASS gh net/minecraft/world/entity/player/Player
 	METHOD D getScore ()I
 	METHOD E drop ()V
 	METHOD F unk_C ()V
+	METHOD G BULLSHIT_G ()Z
 	METHOD H getSelectedItem ()Lii;
 	METHOD I removeSelectedItem ()V
-	METHOD J getRidingHeight ()D
 	METHOD K swing ()V
-	METHOD L remove ()V
-	METHOD M isInWall ()Z
 	METHOD N getSleepingRotation ()F
-	METHOD O isSleeping ()Z
 	METHOD P isSleepingLongEnough ()Z
 	METHOD Q getSleepTimer ()I
 	METHOD R getSpawnPosition ()Lbk;
-	METHOD S jumpFromGround ()V
 	METHOD a startCrafting (III)V
 		ARG 1 x
 		ARG 2 y
@@ -67,10 +63,8 @@ CLASS gh net/minecraft/world/entity/player/Player
 		ARG 2 b
 	METHOD a openContainer (Lla;)V
 		ARG 1 container
-	METHOD a readAdditionalSaveData (Lmy;)V
 	METHOD a openFurnace (Lrg;)V
 		ARG 1 furnace
-	METHOD a hurt (Lrj;I)Z
 	METHOD a getDestroySpeed (Lto;)F
 		ARG 1 tile
 	METHOD a awardStat (Luk;)V
@@ -84,11 +78,7 @@ CLASS gh net/minecraft/world/entity/player/Player
 		ARG 1 a
 		ARG 2 b
 		ARG 3 c
-	METHOD a_ travel (FF)V
 	METHOD am checkBed ()Z
-	METHOD b defineSynchedData ()V
-	METHOD b causeFallDamage (F)V
-	METHOD b actuallyHurt (I)V
 	METHOD b startSleepInBed (III)Lco;
 		ARG 1 x
 		ARG 2 y
@@ -97,8 +87,6 @@ CLASS gh net/minecraft/world/entity/player/Player
 		ARG 1 item
 	METHOD b displayClientMessage (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD b addAdditionalSaveData (Lmy;)V
-	METHOD b die (Lrj;)V
 	METHOD b take (Lrj;I)V
 		ARG 1 e
 		ARG 2 orgCount
@@ -106,12 +94,10 @@ CLASS gh net/minecraft/world/entity/player/Player
 		ARG 1 tile
 	METHOD c interact (Lrj;)V
 		ARG 1 entity
-	METHOD c awardKillScore (Lrj;I)V
 	METHOD d attack (Lrj;)V
 		ARG 1 entity
 	METHOD e setBedOffset (I)V
 		ARG 1 dir
-	METHOD e_ updateAi ()V
 	METHOD h checkMovementStatistiscs (DDD)V
 		ARG 1 xa
 		ARG 3 ya
@@ -122,13 +108,6 @@ CLASS gh net/minecraft/world/entity/player/Player
 		ARG 5 za
 	METHOD j touch (Lrj;)V
 		ARG 1 entity
-	METHOD o aiStep ()V
 	METHOD o_ respawn ()V
 	METHOD r closeContainer ()V
-	METHOD s_ rideTick ()V
-	METHOD t_ resetPos ()V
-	METHOD u_ prepareCustomTextures ()V
 	METHOD w animateRespawn ()V
-	METHOD w_ tick ()V
-	METHOD x getHeadHeight ()F
-	METHOD z isImmobile ()Z

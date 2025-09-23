@@ -1,5 +1,4 @@
 CLASS pm net/minecraft/network/packet/PlayerInputPacket
-	METHOD a handle (Lse;)V
 	FIELD a xxa F
 	FIELD b yya F
 	FIELD c sneaking Z

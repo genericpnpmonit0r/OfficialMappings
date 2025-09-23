@@ -1,2 +1,1 @@
 CLASS ic net/minecraft/world/level/levelgen/feature/ReedsFeature
-	METHOD a place (Let;Ljava/util/Random;III)Z

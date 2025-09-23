@@ -13,3 +13,5 @@ CLASS uk net/minecraft/stats/Stat
 		ARG 3 formatter
 	METHOD a format (I)Ljava/lang/String;
 	METHOD g postConstruct ()Luk;
+	METHOD i access$000 ()Ljava/text/NumberFormat;
+	METHOD j access$100 ()Ljava/text/DecimalFormat;

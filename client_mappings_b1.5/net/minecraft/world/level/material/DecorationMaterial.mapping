@@ -1,4 +1,1 @@
 CLASS am net/minecraft/world/level/material/DecorationMaterial
-	METHOD a isSolid ()Z
-	METHOD b blocksLight ()Z
-	METHOD c blocksMotion ()Z

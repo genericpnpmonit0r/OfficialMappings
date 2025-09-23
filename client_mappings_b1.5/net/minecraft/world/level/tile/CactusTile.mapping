@@ -2,14 +2,3 @@ CLASS nt net/minecraft/world/level/tile/CactusTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (I)I
-	METHOD a mayPlace (Let;III)Z
-	METHOD a neighborChanged (Let;IIII)V
-	METHOD a tick (Let;IIILjava/util/Random;)V
-	METHOD a entityInside (Let;IIILrj;)V
-	METHOD b isCubeShaped ()Z
-	METHOD d getAABB (Let;III)Leg;
-	METHOD f getTileAABB (Let;III)Leg;
-	METHOD g getRenderShape ()I
-	METHOD g canSurvive (Let;III)Z

@@ -1,7 +1,4 @@
 CLASS lm net/minecraft/network/packet/AddPlayerPacket
-	METHOD <init> (Lgh;)V
-		ARG 1 player
-	METHOD a handle (Lse;)V
 	FIELD a id I
 	FIELD b name Ljava/lang/String;
 	FIELD c x I
@@ -10,3 +7,5 @@ CLASS lm net/minecraft/network/packet/AddPlayerPacket
 	FIELD f yRot B
 	FIELD g xRot B
 	FIELD h carriedItem I
+	METHOD <init> (Lgh;)V
+		ARG 1 player

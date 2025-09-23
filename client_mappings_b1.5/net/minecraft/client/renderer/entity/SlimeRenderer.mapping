@@ -1,8 +1,6 @@
 CLASS lp net/minecraft/client/renderer/entity/SlimeRenderer
+	FIELD a armor Ljt;
 	METHOD <init> (Ljt;Ljt;F)V
 		ARG 1 model
 		ARG 2 armor
 		ARG 3 shadow
-	METHOD a scale (Lkw;F)V
-	METHOD a prepareArmor (Lkw;IF)Z
-	FIELD a armor Ljt;

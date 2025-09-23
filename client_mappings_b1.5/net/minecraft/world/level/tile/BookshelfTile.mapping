@@ -2,5 +2,3 @@ CLASS gq net/minecraft/world/level/tile/BookshelfTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a getTexture (I)I
-	METHOD a getResourceCount (Ljava/util/Random;)I

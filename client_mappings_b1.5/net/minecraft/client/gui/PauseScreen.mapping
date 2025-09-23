@@ -1,7 +1,3 @@
 CLASS oa net/minecraft/client/gui/PauseScreen
-	METHOD a init ()V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Ljk;)V
-	METHOD g tick ()V
 	FIELD a saveStep I
 	FIELD i visibleTime I

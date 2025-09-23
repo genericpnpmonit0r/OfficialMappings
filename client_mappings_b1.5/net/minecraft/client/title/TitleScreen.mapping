@@ -1,9 +1,4 @@
 CLASS fh net/minecraft/client/title/TitleScreen
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Ljk;)V
-	METHOD g tick ()V
 	FIELD a random Ljava/util/Random;
 	FIELD i vo F
 	FIELD j splash Ljava/lang/String;

@@ -1,4 +1,5 @@
 CLASS ju 3
+	FIELD a val$frame Ljava/awt/Frame;
 	METHOD <init> (Ljava/awt/Component;Ljava/awt/Canvas;Lnet/minecraft/client/MinecraftApplet;IIZLjava/awt/Frame;)V
 		ARG 1 component
 		ARG 2 parent
@@ -7,9 +8,3 @@ CLASS ju 3
 		ARG 5 h
 		ARG 6 fullscreen
 		ARG 7 val$frame
-	METHOD a onCrash (Llk;)V
-	FIELD a val$frame Ljava/awt/Frame;
-CLASS vx 3
-	METHOD <init> (Log;)V
-		ARG 1 this$0
-	FIELD a this$0 Log;

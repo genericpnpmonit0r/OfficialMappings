@@ -1,13 +1,6 @@
 CLASS dk net/minecraft/client/renderer/entity/PlayerRenderer
-	METHOD a renderName (Lkw;DDD)V
-	METHOD a scale (Lkw;F)V
-	METHOD a setupRotations (Lkw;FFF)V
-	METHOD a prepareArmor (Lkw;IF)Z
-	METHOD a render (Lrj;DDDFF)V
-	METHOD b renderHand ()V
-	METHOD b setupPosition (Lkw;DDD)V
-	METHOD b additionalRendering (Lkw;F)V
 	FIELD a humanoidModel Lex;
 	FIELD g armorParts1 Lex;
 	FIELD h armorParts2 Lex;
 	FIELD i MATERIAL_NAMES [Ljava/lang/String;
+	METHOD b renderHand ()V

@@ -1,18 +1,9 @@
 CLASS fq net/minecraft/world/entity/monster/Creeper
 	FIELD a swell I
 	FIELD b oldSwell I
-	METHOD a readAdditionalSaveData (Lmy;)V
-	METHOD a checkHurtTarget (Lrj;F)V
 	METHOD a_ getSwelling (F)F
 		ARG 1 a
-	METHOD b defineSynchedData ()V
-	METHOD b addAdditionalSaveData (Lmy;)V
-	METHOD b die (Lrj;)V
 	METHOD e setSwellDir (I)V
 		ARG 1 dir
-	METHOD i getDeathSound ()Ljava/lang/String;
-	METHOD i_ getHurtSound ()Ljava/lang/String;
-	METHOD j getDeathLoot ()I
 	METHOD s isPowered ()Z
 	METHOD w getSwellDir ()I
-	METHOD w_ tick ()V

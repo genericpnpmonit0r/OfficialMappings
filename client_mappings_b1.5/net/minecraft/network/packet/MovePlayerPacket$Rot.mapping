@@ -1,4 +1,4 @@
-CLASS ua Rot
+CLASS ua net/minecraft/network/packet/MovePlayerPacket$Rot
 	METHOD <init> (FFZ)V
 		ARG 1 yRot
 		ARG 2 xRot

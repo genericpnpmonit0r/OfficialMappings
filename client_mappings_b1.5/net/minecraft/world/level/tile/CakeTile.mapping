@@ -2,24 +2,9 @@ CLASS th net/minecraft/world/level/tile/CakeTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (I)I
-	METHOD a getTexture (II)I
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a mayPlace (Let;III)Z
-	METHOD a neighborChanged (Let;IIII)V
-	METHOD a use (Let;IIILgh;)Z
-	METHOD a getResourceCount (Ljava/util/Random;)I
-	METHOD a updateShape (Lwf;III)V
-	METHOD b isCubeShaped ()Z
-	METHOD b attack (Let;IIILgh;)V
 	METHOD c eat (Let;IIILgh;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 player
-	METHOD d getAABB (Let;III)Leg;
-	METHOD f updateDefaultShape ()V
-	METHOD f getTileAABB (Let;III)Leg;
-	METHOD g canSurvive (Let;III)Z

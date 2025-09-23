@@ -1,3 +1,2 @@
 CLASS op net/minecraft/client/renderer/tileentity/SignRenderer
-	METHOD a render (Lnx;DDDF)V
 	FIELD b signModel Lqf;

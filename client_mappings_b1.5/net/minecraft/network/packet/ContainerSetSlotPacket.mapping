@@ -1,5 +1,4 @@
 CLASS hd net/minecraft/network/packet/ContainerSetSlotPacket
-	METHOD a handle (Lse;)V
 	FIELD a containerId I
 	FIELD b slot I
 	FIELD c item Lii;

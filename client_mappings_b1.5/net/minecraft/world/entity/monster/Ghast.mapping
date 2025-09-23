@@ -1,17 +1,4 @@
 CLASS bi net/minecraft/world/entity/monster/Ghast
-	METHOD a canReach (DDDD)Z
-		ARG 1 x
-		ARG 3 y
-		ARG 5 z
-		ARG 7 a
-	METHOD d canSpawn ()Z
-	METHOD e_ updateAi ()V
-	METHOD g getAmbientSound ()Ljava/lang/String;
-	METHOD i getDeathSound ()Ljava/lang/String;
-	METHOD i_ getHurtSound ()Ljava/lang/String;
-	METHOD j getDeathLoot ()I
-	METHOD k getSoundVolume ()F
-	METHOD l getMaxSpawnClusterSize ()I
 	FIELD a floatDuration I
 	FIELD b xTarget D
 	FIELD c yTarget D
@@ -20,3 +7,8 @@ CLASS bi net/minecraft/world/entity/monster/Ghast
 	FIELD f charge I
 	FIELD g target Lrj;
 	FIELD h retargetTime I
+	METHOD a canReach (DDDD)Z
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 7 a

@@ -1,4 +1,3 @@
 CLASS da net/minecraft/network/packet/TakeItemEntityPacket
-	METHOD a handle (Lse;)V
 	FIELD a itemId I
 	FIELD b playerId I

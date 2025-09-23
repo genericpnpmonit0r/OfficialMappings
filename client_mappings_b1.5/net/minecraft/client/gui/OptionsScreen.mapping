@@ -1,11 +1,8 @@
 CLASS ch net/minecraft/client/gui/OptionsScreen
-	METHOD <init> (Lcs;Ljz;)V
-		ARG 1 lastScreen
-		ARG 2 options
-	METHOD a init ()V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Ljk;)V
 	FIELD a title Ljava/lang/String;
 	FIELD i lastScreen Lcs;
 	FIELD j options Ljz;
 	FIELD l items [Lhg;
+	METHOD <init> (Lcs;Ljz;)V
+		ARG 1 lastScreen
+		ARG 2 options

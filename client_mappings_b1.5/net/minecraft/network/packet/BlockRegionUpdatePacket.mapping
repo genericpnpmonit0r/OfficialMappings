@@ -1,5 +1,4 @@
 CLASS dw net/minecraft/network/packet/BlockRegionUpdatePacket
-	METHOD a handle (Lse;)V
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I

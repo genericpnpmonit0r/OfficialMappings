@@ -1,5 +1,4 @@
 CLASS sr net/minecraft/network/packet/TileUpdatePacket
-	METHOD a handle (Lse;)V
 	FIELD a x I
 	FIELD b y I
 	FIELD c z I

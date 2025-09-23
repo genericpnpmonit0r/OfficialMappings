@@ -5,5 +5,3 @@ CLASS oc net/minecraft/client/particle/BreakingItemParticle
 		ARG 4 y
 		ARG 6 z
 		ARG 8 item
-	METHOD a render (Lna;FFFFFF)V
-	METHOD b_ getParticleTexture ()I

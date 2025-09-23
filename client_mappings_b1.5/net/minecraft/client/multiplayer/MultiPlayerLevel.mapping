@@ -1,9 +1,14 @@
 CLASS lq net/minecraft/client/multiplayer/MultiPlayerLevel
+	FIELD A forced Ljava/util/Set;
+	FIELD B reEntries Ljava/util/Set;
+	FIELD w updatesToReset Ljava/util/LinkedList;
+	FIELD x connection Lmg;
+	FIELD y chunkCache Ltp;
+	FIELD z entitiesById Ljd;
 	METHOD <init> (Lmg;JI)V
 		ARG 1 connection
 		ARG 2 seed
 		ARG 4 dimension
-	METHOD a setTileAndDataNoUpdate (IIIII)Z
 	METHOD a setChunkVisible (IIZ)V
 		ARG 1 x
 		ARG 2 z
@@ -11,15 +16,10 @@ CLASS lq net/minecraft/client/multiplayer/MultiPlayerLevel
 	METHOD a putEntity (ILrj;)V
 		ARG 1 id
 		ARG 2 entity
-	METHOD a tickPendingTicks (Z)Z
-	METHOD b createChunkSource ()Lcf;
 	METHOD b getEntity (I)Lrj;
 		ARG 1 id
-	METHOD b setTileNoUpdate (IIII)Z
-	METHOD b addEntity (Lrj;)Z
 	METHOD c removeEntity (I)Lrj;
 		ARG 1 id
-	METHOD c addToTickNextTick (IIIII)V
 	METHOD c clearResetRegion (IIIIII)V
 		ARG 1 x0
 		ARG 2 y0
@@ -27,23 +27,9 @@ CLASS lq net/minecraft/client/multiplayer/MultiPlayerLevel
 		ARG 4 x1
 		ARG 5 y1
 		ARG 6 z1
-	METHOD c entityAdded (Lrj;)V
-	METHOD d validateSpawn ()V
-	METHOD d setDataNoUpdate (IIII)Z
-	METHOD d entityRemoved (Lrj;)V
 	METHOD e doSetTileAndData (IIIII)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 tile
 		ARG 5 data
-	METHOD e removeEntity (Lrj;)V
-	METHOD l tick ()V
-	METHOD n tickTiles ()V
-	METHOD q disconnect ()V
-	FIELD A forced Ljava/util/Set;
-	FIELD B reEntries Ljava/util/Set;
-	FIELD w updatesToReset Ljava/util/LinkedList;
-	FIELD x connection Lmg;
-	FIELD y chunkCache Ltp;
-	FIELD z entitiesById Ljd;

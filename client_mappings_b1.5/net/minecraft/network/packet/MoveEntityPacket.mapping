@@ -1,5 +1,4 @@
 CLASS td net/minecraft/network/packet/MoveEntityPacket
-	METHOD a handle (Lse;)V
 	FIELD a id I
 	FIELD b xa B
 	FIELD c ya B

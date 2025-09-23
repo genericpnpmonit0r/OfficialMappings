@@ -1,22 +1,12 @@
 CLASS wg net/minecraft/world/level/tile/DispenserTile
 	METHOD <init> (I)V
 		ARG 1 id
-	METHOD a getTexture (I)I
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a neighborChanged (Let;IIII)V
-	METHOD a use (Let;IIILgh;)Z
-	METHOD a tick (Let;IIILjava/util/Random;)V
-	METHOD a setPlacedBy (Let;IIILkw;)V
-	METHOD a getTexture (Lwf;IIII)I
-	METHOD a_ newTileEntity ()Lnx;
 	METHOD c fireArrow (Let;IIILjava/util/Random;)V
 		ARG 1 level
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
 		ARG 5 random
-	METHOD d getTickDelay ()I
-	METHOD e onPlace (Let;III)V
 	METHOD h recalcLockDir (Let;III)V
 		ARG 1 level
 		ARG 2 x

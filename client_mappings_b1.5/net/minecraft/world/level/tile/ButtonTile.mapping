@@ -2,22 +2,6 @@ CLASS nm net/minecraft/world/level/tile/ButtonTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a mayPlace (Let;III)Z
-	METHOD a neighborChanged (Let;IIII)V
-	METHOD a use (Let;IIILgh;)Z
-	METHOD a tick (Let;IIILjava/util/Random;)V
-	METHOD a updateShape (Lwf;III)V
-	METHOD b isCubeShaped ()Z
-	METHOD b onRemove (Let;III)V
-	METHOD b attack (Let;IIILgh;)V
-	METHOD c getDirectSignal (Let;IIII)Z
-	METHOD c getSignal (Lwf;IIII)Z
-	METHOD d getTickDelay ()I
-	METHOD d getAABB (Let;III)Leg;
-	METHOD d setPlacedOnFace (Let;IIII)V
-	METHOD e isSignalSource ()Z
-	METHOD f updateDefaultShape ()V
 	METHOD h unk_h (Let;III)I
 		ARG 1 level
 		ARG 2 x

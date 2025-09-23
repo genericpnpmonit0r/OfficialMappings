@@ -1,9 +1,1 @@
 CLASS bq net/minecraft/world/entity/animal/Cow
-	METHOD a interact (Lgh;)Z
-	METHOD a readAdditionalSaveData (Lmy;)V
-	METHOD b addAdditionalSaveData (Lmy;)V
-	METHOD g getAmbientSound ()Ljava/lang/String;
-	METHOD i getDeathSound ()Ljava/lang/String;
-	METHOD i_ getHurtSound ()Ljava/lang/String;
-	METHOD j getDeathLoot ()I
-	METHOD k getSoundVolume ()F

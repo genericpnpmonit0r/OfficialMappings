@@ -1,7 +1,4 @@
 CLASS mh net/minecraft/network/packet/AddItemEntityPacket
-	METHOD <init> (Lgz;)V
-		ARG 1 item
-	METHOD a handle (Lse;)V
 	FIELD a id I
 	FIELD b x I
 	FIELD c y I
@@ -12,3 +9,5 @@ CLASS mh net/minecraft/network/packet/AddItemEntityPacket
 	FIELD h itemId I
 	FIELD i itemCount I
 	FIELD l auxValue I
+	METHOD <init> (Lgz;)V
+		ARG 1 item

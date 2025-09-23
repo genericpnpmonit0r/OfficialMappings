@@ -4,6 +4,7 @@ CLASS et net/minecraft/world/level/Level
 	FIELD C rainLevel F
 	FIELD D thunderLevel F
 	FIELD E oThunderLevel F
+	FIELD F BULLSHIT_F I
 	FIELD G sessionId J
 	FIELD H allPlayersSleeping Z
 	FIELD I boxes Ljava/util/ArrayList;
@@ -21,6 +22,7 @@ CLASS et net/minecraft/world/level/Level
 	FIELD f skyDarken I
 	FIELD g randValue I
 	FIELD h addend I
+	FIELD i BULLSHIT_i I
 	FIELD j noNeighborUpdate Z
 	FIELD k saveInterval I
 	FIELD l difficulty I
@@ -61,7 +63,6 @@ CLASS et net/minecraft/world/level/Level
 	METHOD D saveLevelData ()V
 	METHOD E prepareWeather ()V
 	METHOD F stopWeather ()V
-	METHOD a getBiomeSource ()Lwl;
 	METHOD a getNearestPlayer (DDDD)Lgh;
 		ARG 1 x
 		ARG 3 y
@@ -81,7 +82,6 @@ CLASS et net/minecraft/world/level/Level
 	METHOD a getTopTile (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD a getTile (III)I
 	METHOD a hasChunkAt (IIII)Z
 		ARG 1 x0
 		ARG 2 z0
@@ -267,7 +267,6 @@ CLASS et net/minecraft/world/level/Level
 	METHOD b getChunkAt (II)Lkq;
 		ARG 1 x
 		ARG 2 z
-	METHOD b getTileEntity (III)Lnx;
 	METHOD b setTileNoUpdate (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -319,7 +318,6 @@ CLASS et net/minecraft/world/level/Level
 	METHOD c getChunk (II)Lkq;
 		ARG 1 x
 		ARG 2 z
-	METHOD c getBrightness (III)F
 	METHOD c setData (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -364,7 +362,6 @@ CLASS et net/minecraft/world/level/Level
 	METHOD e getTopSolidBlock (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD e getData (III)I
 	METHOD e setTile (IIII)Z
 		ARG 1 x
 		ARG 2 y
@@ -378,7 +375,6 @@ CLASS et net/minecraft/world/level/Level
 	METHOD f getLightDepth (II)I
 		ARG 1 x
 		ARG 2 z
-	METHOD f getMaterial (III)Lkr;
 	METHOD f tileUpdated (IIII)V
 		ARG 1 x
 		ARG 2 y
@@ -392,7 +388,6 @@ CLASS et net/minecraft/world/level/Level
 	METHOD g hasChunk (II)Z
 		ARG 1 x
 		ARG 2 z
-	METHOD g isSolidTile (III)Z
 	METHOD g lightColumnChanged (IIII)V
 		ARG 1 x
 		ARG 2 z
@@ -452,6 +447,7 @@ CLASS et net/minecraft/world/level/Level
 		ARG 2 y
 		ARG 3 z
 		ARG 4 f
+	METHOD m BULLSHIT_m ()V
 	METHOD m isSkyLit (III)Z
 		ARG 1 x
 		ARG 2 y

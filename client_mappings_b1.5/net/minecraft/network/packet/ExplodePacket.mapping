@@ -1,5 +1,4 @@
 CLASS ql net/minecraft/network/packet/ExplodePacket
-	METHOD a handle (Lse;)V
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D

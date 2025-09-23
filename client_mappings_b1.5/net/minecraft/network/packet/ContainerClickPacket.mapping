@@ -9,4 +9,3 @@ CLASS ps net/minecraft/network/packet/ContainerClickPacket
 		ARG 1 containerId
 		ARG 2 slotNum
 		ARG 3 buttonNum
-	METHOD a handle (Lse;)V

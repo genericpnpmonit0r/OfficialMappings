@@ -1,2 +1,1 @@
 CLASS kt net/minecraft/world/item/BedItem
-	METHOD a useOn (Lii;Lgh;Let;IIII)Z

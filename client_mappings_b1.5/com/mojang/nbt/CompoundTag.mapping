@@ -1,7 +1,5 @@
 CLASS my com/mojang/nbt/CompoundTag
-	METHOD a getId ()B
-	METHOD a load (Ljava/io/DataInput;)V
-	METHOD a write (Ljava/io/DataOutput;)V
+	FIELD a tags Ljava/util/Map;
 	METHOD a putByte (Ljava/lang/String;B)V
 		ARG 1 name
 		ARG 2 value
@@ -59,4 +57,3 @@ CLASS my com/mojang/nbt/CompoundTag
 		ARG 1 name
 	METHOD m getBoolean (Ljava/lang/String;)Z
 		ARG 1 name
-	FIELD a tags Ljava/util/Map;

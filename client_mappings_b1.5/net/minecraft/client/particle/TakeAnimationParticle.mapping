@@ -1,14 +1,11 @@
 CLASS ec net/minecraft/client/particle/TakeAnimationParticle
-	METHOD <init> (Let;Lrj;Lrj;F)V
-		ARG 1 level
-		ARG 2 item
-		ARG 3 target
-		ARG 4 yOffs
-	METHOD a render (Lna;FFFFFF)V
-	METHOD b_ getParticleTexture ()I
-	METHOD w_ tick ()V
 	FIELD a item Lrj;
 	FIELD o target Lrj;
 	FIELD p life I
 	FIELD q lifeTime I
 	FIELD r yOffs F
+	METHOD <init> (Let;Lrj;Lrj;F)V
+		ARG 1 level
+		ARG 2 item
+		ARG 3 target
+		ARG 4 yOffs

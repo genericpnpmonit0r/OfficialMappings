@@ -4,10 +4,6 @@ CLASS od net/minecraft/world/level/tile/RailTile
 		ARG 1 id
 		ARG 2 tex
 		ARG 3 b
-	METHOD a isSolidRender ()Z
-	METHOD a getTexture (II)I
-	METHOD a mayPlace (Let;III)Z
-	METHOD a neighborChanged (Let;IIII)V
 	METHOD a findPoweredRailSignal (Let;IIIIZI)Z
 		ARG 1 level
 		ARG 2 x
@@ -16,7 +12,6 @@ CLASS od net/minecraft/world/level/tile/RailTile
 		ARG 5 i
 		ARG 6 b
 		ARG 7 j
-	METHOD a clip (Let;IIILbm;Lbm;)Lty;
 	METHOD a isSameRailWithPower (Let;IIIZII)Z
 		ARG 1 level
 		ARG 2 x
@@ -25,14 +20,10 @@ CLASS od net/minecraft/world/level/tile/RailTile
 		ARG 5 a
 		ARG 6 b
 		ARG 7 shape
-	METHOD a getResourceCount (Ljava/util/Random;)I
-	METHOD a updateShape (Lwf;III)V
-	METHOD b isCubeShaped ()Z
+	METHOD a access$000 (Lod;)Z
+		ARG 0 this$0
 	METHOD c isRail (I)Z
 		ARG 0 id
-	METHOD d getAABB (Let;III)Leg;
-	METHOD e onPlace (Let;III)V
-	METHOD g getRenderShape ()I
 	METHOD h isUsesDataBit ()Z
 	METHOD h isRail (Let;III)Z
 		ARG 0 level

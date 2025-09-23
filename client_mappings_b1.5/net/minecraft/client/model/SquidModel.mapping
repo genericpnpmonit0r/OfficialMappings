@@ -1,5 +1,3 @@
 CLASS vf net/minecraft/client/model/SquidModel
-	METHOD a render (FFFFFF)V
-	METHOD b setupAnim (FFFFFF)V
 	FIELD a body Lot;
 	FIELD b tentacles [Lot;

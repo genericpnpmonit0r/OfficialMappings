@@ -1,6 +1,2 @@
 CLASS js net/minecraft/world/item/DyePowderItem
-	METHOD a getIcon (I)I
-	METHOD a getDescriptionId (Lii;)Ljava/lang/String;
-	METHOD a useOn (Lii;Lgh;Let;IIII)Z
-	METHOD a interactEnemy (Lii;Lkw;)V
 	FIELD a COLOR_DESCS [Ljava/lang/String;

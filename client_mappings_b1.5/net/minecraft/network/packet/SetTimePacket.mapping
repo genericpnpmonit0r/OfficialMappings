@@ -1,3 +1,2 @@
 CLASS gu net/minecraft/network/packet/SetTimePacket
-	METHOD a handle (Lse;)V
 	FIELD a time J

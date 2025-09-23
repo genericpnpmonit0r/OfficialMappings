@@ -7,8 +7,3 @@ CLASS c net/minecraft/world/entity/global/LightningBolt
 		ARG 2 x
 		ARG 4 y
 		ARG 6 z
-	METHOD a shouldRender (Lbm;)Z
-	METHOD a readAdditionalSaveData (Lmy;)V
-	METHOD b defineSynchedData ()V
-	METHOD b addAdditionalSaveData (Lmy;)V
-	METHOD w_ tick ()V

@@ -1,36 +1,4 @@
 CLASS cu net/minecraft/client/player/LocalPlayer
-	METHOD <init> (Lnet/minecraft/client/Minecraft;Let;Lgg;I)V
-		ARG 1 minecraft
-		ARG 2 level
-		ARG 3 user
-		ARG 4 dimension
-	METHOD a startCrafting (III)V
-	METHOD a setKey (IZ)V
-		ARG 1 eventKey
-		ARG 2 eventKeyState
-	METHOD a openTrap (Lat;)V
-	METHOD a chat (Ljava/lang/String;)V
-		ARG 1 message
-	METHOD a openContainer (Lla;)V
-	METHOD a readAdditionalSaveData (Lmy;)V
-	METHOD a openFurnace (Lrg;)V
-	METHOD a awardStat (Luk;I)V
-	METHOD a openTextEdit (Lxa;)V
-	METHOD b move (DDD)V
-	METHOD b displayClientMessage (Ljava/lang/String;)V
-	METHOD b addAdditionalSaveData (Lmy;)V
-	METHOD b take (Lrj;I)V
-	METHOD b_ hurtTo (I)V
-		ARG 1 newHealth
-	METHOD e_ updateAi ()V
-	METHOD n_ releaseAllKeys ()V
-	METHOD o aiStep ()V
-	METHOD o_ respawn ()V
-	METHOD r closeContainer ()V
-	METHOD s getArmor ()I
-	METHOD t isSneaking ()Z
-	METHOD u handleInsidePortal ()V
-	METHOD w animateRespawn ()V
 	FIELD a input Ltj;
 	FIELD bJ isInsidePortal Z
 	FIELD bK unk_bJ Lcm;
@@ -40,3 +8,17 @@ CLASS cu net/minecraft/client/player/LocalPlayer
 	FIELD c changingDimensionDelay I
 	FIELD d portalTime F
 	FIELD e oPortalTime F
+	METHOD <init> (Lnet/minecraft/client/Minecraft;Let;Lgg;I)V
+		ARG 1 minecraft
+		ARG 2 level
+		ARG 3 user
+		ARG 4 dimension
+	METHOD a setKey (IZ)V
+		ARG 1 eventKey
+		ARG 2 eventKeyState
+	METHOD a chat (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b_ hurtTo (I)V
+		ARG 1 newHealth
+	METHOD n_ releaseAllKeys ()V
+	METHOD s getArmor ()I

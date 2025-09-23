@@ -1,4 +1,5 @@
 CLASS ji net/minecraft/client/particle/HeartParticle
+	FIELD a oSize F
 	METHOD <init> (Let;DDDDDDF)V
 		ARG 1 level
 		ARG 2 x
@@ -8,6 +9,3 @@ CLASS ji net/minecraft/client/particle/HeartParticle
 		ARG 10 ya
 		ARG 12 za
 		ARG 14 size
-	METHOD a render (Lna;FFFFFF)V
-	METHOD w_ tick ()V
-	FIELD a oSize F

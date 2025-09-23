@@ -1,4 +1,5 @@
 CLASS hx net/minecraft/client/particle/RedDustParticle
+	FIELD a oSize F
 	METHOD <init> (Let;DDDFFF)V
 		ARG 1 level
 		ARG 2 x
@@ -16,6 +17,3 @@ CLASS hx net/minecraft/client/particle/RedDustParticle
 		ARG 9 r
 		ARG 10 g
 		ARG 11 b
-	METHOD a render (Lna;FFFFFF)V
-	METHOD w_ tick ()V
-	FIELD a oSize F

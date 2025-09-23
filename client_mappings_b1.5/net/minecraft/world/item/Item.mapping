@@ -165,6 +165,8 @@ CLASS gb net/minecraft/world/item/Item
 	METHOD b isHandEquipped ()Z
 	METHOD b getLevelDataForAuxValue (I)I
 		ARG 1 value
+	METHOD b getIcon (Lii;)I
+		ARG 1 item
 	METHOD c isMirroredArt ()Z
 	METHOD c setIcon (I)Lgb;
 		ARG 1 icon
@@ -175,6 +177,8 @@ CLASS gb net/minecraft/world/item/Item
 	METHOD e setMaxDamage (I)Lgb;
 		ARG 1 maxDamage
 	METHOD f getMaxDamage ()I
+	METHOD f BULLSHIT_f (I)I
+		ARG 1 i
 	METHOD g canBeDepleted ()Z
 	METHOD h handEquipped ()Lgb;
 	METHOD i getCraftingRemainingItem ()Lgb;

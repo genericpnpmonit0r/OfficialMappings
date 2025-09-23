@@ -1,3 +1,2 @@
 CLASS qt net/minecraft/network/packet/RemoveEntityPacket
-	METHOD a handle (Lse;)V
 	FIELD a id I

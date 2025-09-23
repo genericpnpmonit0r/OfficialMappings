@@ -1,2 +1,1 @@
 CLASS ai net/minecraft/world/level/tile/Tile$1
-	METHOD a getBreakSound ()Ljava/lang/String;

@@ -1,4 +1,3 @@
 CLASS ra net/minecraft/client/renderer/ptexture/FireTexture
-	METHOD a tick ()V
 	FIELD g current [F
 	FIELD h next [F

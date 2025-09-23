@@ -1,15 +1,24 @@
 CLASS qp net/minecraft/client/gui/SelectWorldScreen
+	FIELD a lastScreen Lcs;
+	FIELD i title Ljava/lang/String;
+	FIELD j df Ljava/text/DateFormat;
+	FIELD l done Z
+	FIELD m selected I
+	FIELD n levelList Ljava/util/List;
+	FIELD o selectionMenu Llj;
+	FIELD p world Ljava/lang/String;
+	FIELD q conversion Ljava/lang/String;
+	FIELD r unk_q Z
+	FIELD s renameButton Ljk;
+	FIELD t selectButton Ljk;
+	FIELD u deleteButton Ljk;
 	METHOD <init> (Lcs;)V
 		ARG 1 lastScreen
-	METHOD a init ()V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Ljk;)V
 	METHOD a access$000 (Lqp;)Ljava/util/List;
 		ARG 0 this$0
 	METHOD a access$100 (Lqp;I)I
 		ARG 0 this$0
 		ARG 1 selected
-	METHOD a confirmResult (ZI)V
 	METHOD b access$200 (Lqp;)I
 		ARG 0 this$0
 	METHOD c getLevelId (I)Ljava/lang/String;
@@ -32,16 +41,3 @@ CLASS qp net/minecraft/client/gui/SelectWorldScreen
 		ARG 0 this$0
 	METHOD k postInit ()V
 	METHOD l unk_k ()V
-	FIELD a lastScreen Lcs;
-	FIELD i title Ljava/lang/String;
-	FIELD j df Ljava/text/DateFormat;
-	FIELD l done Z
-	FIELD m selected I
-	FIELD n levelList Ljava/util/List;
-	FIELD o selectionMenu Llj;
-	FIELD p world Ljava/lang/String;
-	FIELD q conversion Ljava/lang/String;
-	FIELD r unk_q Z
-	FIELD s renameButton Ljk;
-	FIELD t selectButton Ljk;
-	FIELD u deleteButton Ljk;

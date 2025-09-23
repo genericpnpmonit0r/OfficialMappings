@@ -1,4 +1,1 @@
 CLASS dn
-	METHOD a init ()V
-	METHOD a render (IIF)V
-	METHOD a buttonClicked (Ljk;)V

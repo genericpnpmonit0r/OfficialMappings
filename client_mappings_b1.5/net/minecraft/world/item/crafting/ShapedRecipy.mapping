@@ -1,20 +1,16 @@
 CLASS id net/minecraft/world/item/crafting/ShapedRecipy
-	METHOD <init> (II[Lii;Lii;)V
-		ARG 1 width
-		ARG 2 height
-		ARG 3 recipeItems
-		ARG 4 result
-	METHOD a size ()I
-	METHOD a matches (Llu;)Z
-	METHOD a matches (Llu;IIZ)Z
-		ARG 1 craftingContainer
-		ARG 2 width
-		ARG 3 height
-		ARG 4 b
-	METHOD b getResultItem ()Lii;
-	METHOD b assemble (Llu;)Lii;
 	FIELD a resultId I
 	FIELD b width I
 	FIELD c height I
 	FIELD d recipeItems [Lii;
 	FIELD e result Lii;
+	METHOD <init> (II[Lii;Lii;)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 recipeItems
+		ARG 4 result
+	METHOD a matches (Llu;IIZ)Z
+		ARG 1 craftingContainer
+		ARG 2 width
+		ARG 3 height
+		ARG 4 b

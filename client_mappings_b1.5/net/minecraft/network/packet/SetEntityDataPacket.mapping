@@ -1,5 +1,4 @@
 CLASS tr net/minecraft/network/packet/SetEntityDataPacket
-	METHOD a handle (Lse;)V
-	METHOD b getUnpackedData ()Ljava/util/List;
 	FIELD a id I
 	FIELD b packedItems Ljava/util/List;
+	METHOD b getUnpackedData ()Ljava/util/List;

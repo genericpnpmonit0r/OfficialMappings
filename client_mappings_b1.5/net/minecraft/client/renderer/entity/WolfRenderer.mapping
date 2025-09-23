@@ -1,4 +1,1 @@
 CLASS ux net/minecraft/client/renderer/entity/WolfRenderer
-	METHOD a scale (Lkw;F)V
-	METHOD a render (Lrj;DDDFF)V
-	METHOD c getBob (Lkw;F)F

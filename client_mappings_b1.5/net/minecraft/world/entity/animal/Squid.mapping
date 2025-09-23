@@ -1,17 +1,4 @@
 CLASS wj net/minecraft/world/entity/animal/Squid
-	METHOD a interact (Lgh;)Z
-	METHOD a readAdditionalSaveData (Lmy;)V
-	METHOD a_ travel (FF)V
-	METHOD ag isInWater ()Z
-	METHOD b addAdditionalSaveData (Lmy;)V
-	METHOD e_ updateAi ()V
-	METHOD g getAmbientSound ()Ljava/lang/String;
-	METHOD i getDeathSound ()Ljava/lang/String;
-	METHOD i_ getHurtSound ()Ljava/lang/String;
-	METHOD j getDeathLoot ()I
-	METHOD k getSoundVolume ()F
-	METHOD o aiStep ()V
-	METHOD q dropDeathLoot ()V
 	FIELD a xBodyRot F
 	FIELD b xBodyRotO F
 	FIELD c zBodyRot F

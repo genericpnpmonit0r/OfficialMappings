@@ -1,6 +1,5 @@
 CLASS kz net/minecraft/world/item/TilePlanterItem
+	FIELD a tileId I
 	METHOD <init> (ILto;)V
 		ARG 1 id
 		ARG 2 tile
-	METHOD a useOn (Lii;Lgh;Let;IIII)Z
-	FIELD a tileId I

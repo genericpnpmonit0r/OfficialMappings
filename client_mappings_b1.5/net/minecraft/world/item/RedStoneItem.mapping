@@ -1,2 +1,1 @@
 CLASS hp net/minecraft/world/item/RedStoneItem
-	METHOD a useOn (Lii;Lgh;Let;IIII)Z

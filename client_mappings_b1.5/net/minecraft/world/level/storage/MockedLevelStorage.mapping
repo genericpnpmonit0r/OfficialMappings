@@ -1,6 +1,1 @@
 CLASS vp net/minecraft/world/level/storage/MockedLevelStorage
-	METHOD a saveLevelData (Ldy;)V
-	METHOD a saveLevelData (Ldy;Ljava/util/List;)V
-	METHOD a createChunkStorage (Lvr;)Laz;
-	METHOD b checkSession ()V
-	METHOD c prepareLevel ()Ldy;

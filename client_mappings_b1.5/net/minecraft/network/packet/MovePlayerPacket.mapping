@@ -1,7 +1,4 @@
 CLASS hr net/minecraft/network/packet/MovePlayerPacket
-	METHOD <init> (Z)V
-		ARG 1 onGround
-	METHOD a handle (Lse;)V
 	FIELD a x D
 	FIELD b y D
 	FIELD c z D
@@ -11,3 +8,5 @@ CLASS hr net/minecraft/network/packet/MovePlayerPacket
 	FIELD g onGround Z
 	FIELD h hasPos Z
 	FIELD i hasRot Z
+	METHOD <init> (Z)V
+		ARG 1 onGround

@@ -1,15 +1,4 @@
 CLASS wp net/minecraft/client/player/RemotePlayer
-	METHOD <init> (Let;Ljava/lang/String;)V
-		ARG 1 level
-		ARG 2 name
-	METHOD F unk_C ()V
-	METHOD a lerpTo (DDDFFI)V
-	METHOD a hurt (Lrj;I)Z
-	METHOD c setEquippedSlot (III)V
-	METHOD o aiStep ()V
-	METHOD w animateRespawn ()V
-	METHOD w_ tick ()V
-	METHOD x_ getShadowHeightOffs ()F
 	FIELD a fallTime F
 	FIELD b lSteps I
 	FIELD bJ lyr D
@@ -17,3 +6,6 @@ CLASS wp net/minecraft/client/player/RemotePlayer
 	FIELD c lx D
 	FIELD d ly D
 	FIELD e lz D
+	METHOD <init> (Let;Ljava/lang/String;)V
+		ARG 1 level
+		ARG 2 name

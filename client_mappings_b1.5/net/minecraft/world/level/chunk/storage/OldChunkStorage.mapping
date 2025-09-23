@@ -1,13 +1,12 @@
 CLASS sk net/minecraft/world/level/chunk/storage/OldChunkStorage
+	FIELD a dir Ljava/io/File;
+	FIELD b create Z
 	METHOD <init> (Ljava/io/File;Z)V
 		ARG 1 dir
 		ARG 2 create
-	METHOD a tick ()V
 	METHOD a getFile (II)Ljava/io/File;
 		ARG 1 x
 		ARG 2 z
-	METHOD a load (Let;II)Lkq;
-	METHOD a save (Let;Lkq;)V
 	METHOD a load (Let;Lmy;)Lkq;
 		ARG 0 level
 		ARG 1 tag
@@ -15,7 +14,3 @@ CLASS sk net/minecraft/world/level/chunk/storage/OldChunkStorage
 		ARG 0 chunk
 		ARG 1 level
 		ARG 2 tag
-	METHOD b flush ()V
-	METHOD b saveEntities (Let;Lkq;)V
-	FIELD a dir Ljava/io/File;
-	FIELD b create Z

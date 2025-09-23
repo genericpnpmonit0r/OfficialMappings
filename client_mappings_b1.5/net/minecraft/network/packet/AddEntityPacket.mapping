@@ -1,5 +1,4 @@
 CLASS rk net/minecraft/network/packet/AddEntityPacket
-	METHOD a handle (Lse;)V
 	FIELD a id I
 	FIELD b x I
 	FIELD c y I

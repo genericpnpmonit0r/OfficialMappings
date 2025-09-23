@@ -1,26 +1,19 @@
 CLASS ho net/minecraft/client/gui/inventory/AbstractContainerScreen
+	FIELD a imageWidth I
+	FIELD i imageHeight I
+	FIELD j menu Ldo;
+	FIELD l itemRenderer Lav;
 	METHOD <init> (Ldo;)V
 		ARG 1 menu
-	METHOD a init ()V
-	METHOD a keyPressed (CI)V
 	METHOD a renderBg (F)V
 		ARG 1 a
 	METHOD a findSlot (II)Lge;
 		ARG 1 x
 		ARG 2 y
-	METHOD a render (IIF)V
-	METHOD a mouseClicked (III)V
 	METHOD a renderSlot (Lge;)V
 		ARG 1 slot
 	METHOD a isHovering (Lge;II)Z
 		ARG 1 slot
 		ARG 2 x
 		ARG 3 y
-	METHOD b isPauseScreen ()Z
-	METHOD b mouseReleased (III)V
-	METHOD h removed ()V
 	METHOD k renderLabels ()V
-	FIELD a imageWidth I
-	FIELD i imageHeight I
-	FIELD j menu Ldo;
-	FIELD l itemRenderer Lav;

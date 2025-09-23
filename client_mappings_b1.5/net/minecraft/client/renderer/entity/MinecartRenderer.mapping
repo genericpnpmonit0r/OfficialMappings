@@ -1,3 +1,2 @@
 CLASS rx net/minecraft/client/renderer/entity/MinecartRenderer
-	METHOD a render (Lrj;DDDFF)V
 	FIELD a model Ljt;

@@ -1,3 +1,2 @@
 CLASS nq net/minecraft/client/renderer/entity/TntRenderer
-	METHOD a render (Lrj;DDDFF)V
 	FIELD a tileRenderer Lcn;

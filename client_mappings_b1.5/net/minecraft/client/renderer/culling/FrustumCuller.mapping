@@ -1,5 +1,8 @@
 CLASS rn net/minecraft/client/renderer/culling/FrustumCuller
-	METHOD a prepare (DDD)V
+	FIELD a frustum Ldj;
+	FIELD b xOff D
+	FIELD c yOff D
+	FIELD d zOff D
 	METHOD a cubeInFrustum (DDDDDD)Z
 		ARG 1 x0
 		ARG 3 y0
@@ -7,8 +10,3 @@ CLASS rn net/minecraft/client/renderer/culling/FrustumCuller
 		ARG 7 x1
 		ARG 9 y1
 		ARG 11 z1
-	METHOD a isVisible (Leg;)Z
-	FIELD a frustum Ldj;
-	FIELD b xOff D
-	FIELD c yOff D
-	FIELD d zOff D

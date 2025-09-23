@@ -2,17 +2,6 @@ CLASS ix net/minecraft/world/level/tile/TopSnowTile
 	METHOD <init> (II)V
 		ARG 1 id
 		ARG 2 tex
-	METHOD a isSolidRender ()Z
-	METHOD a getResource (ILjava/util/Random;)I
-	METHOD a mayPlace (Let;III)Z
-	METHOD a neighborChanged (Let;IIII)V
-	METHOD a tick (Let;IIILjava/util/Random;)V
-	METHOD a playerDestroy (Let;Lgh;IIII)V
-	METHOD a getResourceCount (Ljava/util/Random;)I
-	METHOD a updateShape (Lwf;III)V
-	METHOD b isCubeShaped ()Z
-	METHOD b shouldRenderFace (Lwf;IIII)Z
-	METHOD d getAABB (Let;III)Leg;
 	METHOD h checkCanSurvive (Let;III)Z
 		ARG 1 level
 		ARG 2 x
